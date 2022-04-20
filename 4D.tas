@@ -1,4 +1,4 @@
-RecordCount: 166
+RecordCount: 235
 
 console load nameguysdsidespack/0/4-Ridge
    1
@@ -7,7 +7,7 @@ console load nameguysdsidespack/0/4-Ridge
   69
 
 #lvl_a-00
-   4,Z
+   4,R,Z
    1,R,J
    7,R
    1,R,J
@@ -68,16 +68,14 @@ console load nameguysdsidespack/0/4-Ridge
   14,R
   12,R,J
    6,R
-   4,D,X
-  11,R,X
+  15,R,Z
   13,R
   21
    5,R
   12,R,J
   46,R,D
    4,R
-   4,D,X
-  10,R,X
+  14,R,Z
    5,R
    6
    2,R
@@ -96,7 +94,6 @@ console load nameguysdsidespack/0/4-Ridge
 
 #lvl_a-03
    6,R,D,X
-***
   10,R,J
    3,R
    1,R,J
@@ -126,7 +123,7 @@ console load nameguysdsidespack/0/4-Ridge
    2,R
    1,R,J,G
    7,R
-   4,R,D,X
+   4,Z
    2,R,J
    8,R
    1,R,J
@@ -296,7 +293,8 @@ console load nameguysdsidespack/0/4-Ridge
    1,R,J
    9,R,D,X
   40
-#a-07
+
+#lvl_a-07
    5,R,D,X
    1,R,J
   14,R,D,X
@@ -309,21 +307,18 @@ console load nameguysdsidespack/0/4-Ridge
    1,L
    1,J,G
    2
-   4,D,X
-   8,R,X
+  12,R,Z
   15,R,C
   14,U,X
    1,R,J
   37,R,D
    6,L,D
-   4,D,X
+   4,Z
   11,R,X
   13,R
-   1,D,X
-  14,R,X
+  15,R,Z
   44,R,D
-   1,D,X
-   4,R,X
+   5,R,Z
   12,R
    8,L,J,G
    4,R,K
@@ -339,8 +334,7 @@ console load nameguysdsidespack/0/4-Ridge
 
 #lvl_a-08
    1,R,J
-   1,D,X
-   9,R,X
+  10,R,Z
    2,R,J
   24,R,D
    5,R
@@ -349,15 +343,14 @@ console load nameguysdsidespack/0/4-Ridge
   28,L,J
    2,J
    2,L,K,G
-  31,R,D
-  10,R
-  11,U,X
+  34,R,D
+  10,R,J,G
+   6,U,X
   12,R,J
   16,R
    6,R,D
    9,L,D
-   1,D,X
-  14,R,X
+  15,R,Z
    1,R
   10,L,J,G
    5,L,K,G
@@ -365,8 +358,7 @@ console load nameguysdsidespack/0/4-Ridge
    5,R,X
   12,R
   22,R,D
-   1,D,X
-  13,R,X
+  14,R,Z
    1,R,J
   12,R,D,X
   40
@@ -385,8 +377,7 @@ console load nameguysdsidespack/0/4-Ridge
   10,R,J,G
   10,R
    2,R,J
-   1,D,X
-   9,R,X
+  10,R,Z
    1,R,J
    7,R
    1,R,J
@@ -458,8 +449,7 @@ console load nameguysdsidespack/0/4-Ridge
   19,L,D
    5,D
    3
-   1,D,X
-   4,R,X
+   5,R,Z
   11,R
    5
    5,R,U,X
@@ -532,11 +522,10 @@ console load nameguysdsidespack/0/4-Ridge
    6,R
   40
 
-#b-04w
+#lvl_b-04w
    1,R
    3,R,J
-   1,D,X
-  13,R,X
+  14,R,Z
    1,R,J
    4,R
    1,R,G
@@ -613,11 +602,9 @@ console load nameguysdsidespack/0/4-Ridge
    2,J,G
    1
    2,R
-   1,D,X
-   4,L,X
+   5,L,Z
   24,R,J
-   1,D,X
-   5,L,X
+   6,L,Z
    1,R,J
    7,R
    3,R,J
@@ -626,7 +613,8 @@ console load nameguysdsidespack/0/4-Ridge
   11,R
    2,R,J
   40
-#b-05w
+
+#lvl_b-05w
    9,R
    1,R,J
    7,R
@@ -709,7 +697,7 @@ console load nameguysdsidespack/0/4-Ridge
    7,R,D,X
   40
 
-#b-06
+#lvl_b-06
    7,R,D,X
    1,R,J
    7,R,D,X
@@ -757,7 +745,6 @@ console load nameguysdsidespack/0/4-Ridge
   40
 
 #lvl_b-07
-***s
    2,R,D,X
    7,R,J
    1,R
@@ -820,8 +807,7 @@ console load nameguysdsidespack/0/4-Ridge
    1,R,J
   40
 
-#c-01n
-***s
+#lvl_c-01n
    7,R,J
    3,R
   15,R,D,X
@@ -843,9 +829,14 @@ console load nameguysdsidespack/0/4-Ridge
    1,R,J
   14,R,D,X
   40
-#c-02n
+
+#lvl_c-02n
+#XNA
    4,R,J
-***s
+#FNA
+#   3,R,J
+#   2,J
+
   14,R,U,X
   11,U,C
   15,U,X
@@ -857,15 +848,15 @@ console load nameguysdsidespack/0/4-Ridge
    8,J
    3,R,J
   18,U,X
-  10,R,J
+  10,R
   18,U,X
-  10,L,J
+  10,L
   15,U,X
-  10,R,J
+  10,R
   15,U,X
-  11,L,J
+  11,L
   15,L,U,C
-  19,L,J
+  19,L
    1,L,K,G
   13,L,G
    3,D
@@ -899,8 +890,7 @@ console load nameguysdsidespack/0/4-Ridge
    1,L
    3,L,K,G
    7,L
-   1,D,X
-   8,R,X
+   9,R,Z
    1,L,J
    6,L
    3,L,J
@@ -909,7 +899,8 @@ console load nameguysdsidespack/0/4-Ridge
   12,L
    1,L,J
   40
-#c-03n
+
+#lvl_c-03n
    1,J
    3,L,J
    4,L
@@ -947,7 +938,7 @@ console load nameguysdsidespack/0/4-Ridge
   10,R,K
   40
 
-#c-04n
+#lvl_c-04n
    7,R
    1,J,G
    1
@@ -1009,15 +1000,15 @@ console load nameguysdsidespack/0/4-Ridge
    3,R,K,G
    7,R
    2,R,J
-   1,D,X
-   9,R,X
+  10,R,Z
    1,R,J
    7,R
    1,R,J
   14,R,D,X
    1,R,J
   40
-#c-05w
+
+#lvl_c-05w
    7,R
    7,R,J
   15,R,D,X
@@ -1031,8 +1022,7 @@ console load nameguysdsidespack/0/4-Ridge
    5,L,D
   18,R,D
    5,R
-   1,D,X
-  14,R,X
+  15,R,Z
    4,R
   15,R,X
    9,R
@@ -1047,7 +1037,8 @@ console load nameguysdsidespack/0/4-Ridge
    7,R
    1,R,J
   40
-#c-06w
+
+#lvl_c-06w
    1,R,J
    8,R
    1,R,J
@@ -1058,12 +1049,10 @@ console load nameguysdsidespack/0/4-Ridge
   38,R,J
   10,R,U,X
   53,R,J
-   1,D,X
-  14,R,X
+  15,R,Z
   35,D
   14,R,D
-   1,D,X
-   4,R,X
+   5,R,Z
    2,R,J,G
    1,R
    7,R,J
@@ -1085,7 +1074,8 @@ console load nameguysdsidespack/0/4-Ridge
    1,R,J
    5,R
   40
-#c-07
+
+#lvl_c-07
    2,R
    1,R,J
    4,R
@@ -1126,9 +1116,8 @@ console load nameguysdsidespack/0/4-Ridge
   12,R,D
   15,R,X
   16,R
-   1,D,X
-   5,R,U,X
-  10,R
+  15,R,U,Z
+   1,R
    4,L
    5,R
   30,R,J
@@ -1145,7 +1134,8 @@ console load nameguysdsidespack/0/4-Ridge
    2,R
    9,R,D,X
   40
-#c-08
+
+#lvl_c-08
    4,R,D,X
    2,R,J
    7,R,K,G
@@ -1185,8 +1175,7 @@ console load nameguysdsidespack/0/4-Ridge
    8,L
    3
    2,L
-   1,D,X
-  14,U,X
+  15,U,Z
   15,J
    3,L,J
   10,K,G
@@ -1196,14 +1185,12 @@ console load nameguysdsidespack/0/4-Ridge
    3,R,J
   13,R,D
    2,D
-   1,D,X
-  10,R,X
+  11,R,Z
    1,R,J
    4,J
   21
    6,D
-   1,D,X
-  11,L,X
+  12,L,Z
    1,R,J
    6,R
    7,R,J
@@ -1214,7 +1201,8 @@ console load nameguysdsidespack/0/4-Ridge
    7,R,J,G
   19,R
   40
-#c-09
+
+#lvl_c-09
    2,R
    2,R,J
    5,R,D,X
@@ -1279,21 +1267,17 @@ console load nameguysdsidespack/0/4-Ridge
   98,L,D
    9,L
   18,L,X
-   1,D,C
-  17,L,C
+  18,L,Z
    1,L
-   1,D,X
-  16,L,X
+  18,L,Z
    1,L
-   1,D,X
-  17,L,X
+  18,L,Z
    1,L
-   1,D,X
-  12,L,X
+  13,L,Z
   30,L
   31
    1,R,J,G
    8,R,K,G
    1,R,J,G
   64,R,K,G
-ChapterTime: 3:10.247(11191)
+ChapterTime: 3:10.230(11190)
