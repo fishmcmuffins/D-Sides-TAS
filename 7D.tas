@@ -1,4 +1,4 @@
-RecordCount: 1885
+RecordCount: 1951
 
 #Created by dahlukeh, Fishmcmuffins and Euni
 
@@ -633,17 +633,16 @@ console load nameguysdsidespack/0/7-Summit
    9,R,K
    2,K
   11,U,Z
-   3,R,J
-#you can medboost here but i cant get the resync
-  39
-#XNA
-#  12,R
-#FNA
+   2,R,J
+#fna
+   1,J
+#xna (?)
+#   1,R,J
+  40,J
   11,R
-   2
-   1,R,J,G
-   3,L,J
-   5,R,J
+   2,R,J,G
+   2,L,J
+   4,R,J
    4,R,K,G
    7,R
    1,G
@@ -660,8 +659,8 @@ console load nameguysdsidespack/0/7-Summit
   11,L,K
   15,L,U,X
   16,U,C
-  37
-  10,L
+  41
+   6,L
    3
    2,L
   15,U,X
