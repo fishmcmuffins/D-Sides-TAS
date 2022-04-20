@@ -1,4 +1,4 @@
-RecordCount: 1951
+RecordCount: 2139
 
 #Created by dahlukeh, Fishmcmuffins and Euni
 
@@ -583,64 +583,64 @@ console load nameguysdsidespack/0/7-Summit
   13,U,C
   37
    7,L
-#needs a ton of rerouting
-#3 climb jumps to spare
-#maybe dash too
    8,L,Z
    1,L,J
    9,L,D
-   9,L,J
-  20,L
-  21,D,G
-  11,G
-   2,D,G
+  24,L,J
+   3
+  15,U,X
    1,L
-  14,L,J
+   9,J
+  11
    1,G
    1
   10,J
-  15
-   2,G
+  14
+   3,L,G
    1
    1,J
    5,K,G
    2
    1,R
    4
-  27,G
-   3,D,G
+  23,G
+   2,D,G
+   1,R,J,G
+  13,R
+   2
    1,R
-  14,R,J
-  15,G
-   1
+  11,G
+   4
    1,J
   10,R,J
-  10,R
+   9,R
+   1
    1,K
-  11,J,G
-   5,L,J
-  15,U,X
+   1,R,J,G
+  13,L,J
+  15,U,Z
+   9,J
+   1,R,J
+   1,J
+   1,K,G
+   5
    2,L
-   8,L,J
-  11,L
-  17,G
+  15,G
+   1,U,G
+   1,G
+   1,U,G
    1
    1,J
-   8,L,J
-   9,L
+   9,L,J
+   8,L
    1,J
    1,L,K,G
-   9,R,K
-   2,K
-  11,U,Z
-   2,R,J
-#fna
-   1,J
-#xna (?)
-#   1,R,J
-  40,J
+  19,R,K
+   3,J,G
+  13,K
+  41
   11,R
-   2,R,J,G
+   3,R,J,G
    2,L,J
    4,R,J
    4,R,K,G
