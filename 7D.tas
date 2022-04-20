@@ -1,4 +1,4 @@
-RecordCount: 1860
+RecordCount: 1885
 
 #Created by dahlukeh, Fishmcmuffins and Euni
 
@@ -12,13 +12,13 @@ RecordCount: 1860
 #play,1500m,72
 
 #console load nameguysdsidespack/0/7-Summit 15240 -9112
-#play,2000m,37
+#play,2000m,39
 
 #console load nameguysdsidespack/0/7-Summit 19976 -12928
-#play,2500m,37
+#play,2500m,38
 
 #console load nameguysdsidespack/0/7-Summit 27776 -18968
-#play,3000m,37
+#play,3000m,38
 
 console load nameguysdsidespack/0/7-Summit
    1
@@ -26,6 +26,9 @@ console load nameguysdsidespack/0/7-Summit
 #Start
 #0m
   80
+
+#GLOBAL SPINNER CYCLE FRAMES
+   0
 
 #lvl_a-00
    4,Z
@@ -658,12 +661,13 @@ console load nameguysdsidespack/0/7-Summit
   15,L,U,X
   16,U,C
   37
-  15,L
+  10,L
+   3
+   2,L
   15,U,X
    4
   13,R,J
-   2,J
-  10,U,Z
+  11,U,Z
   24,R,J
   89
   40
@@ -2606,8 +2610,6 @@ endrepeat
 #lvl_g-01
   65
 #3000m
-#GLOBAL SPINNER CYCLE FRAMES
-   2
    8,L,J
   14,U,X
    2,L
@@ -3067,47 +3069,59 @@ endrepeat
   15,L,D,X
   15,L,D,C
    2,L,J
-  15,L,Z
-  18,L,D
-   8
-  11,L,Z
-   1,L,J
-   9,L
    1,D,X
   14,L,X
-   9,L
-  15,L,U,Z
-   9,L
-   1,L,J
-   6,J
-   2,L,J
-   5,L
-   3,L,J
-  45,L
-   7,L,D
-   1,L
-  15,L,U,Z
+   6,L
+  11,D
+   1
+   4,D,X
+  10,L,X
+  18,R,D
+   4,R
   12,L
-  15,L,Z
-   9
+  10,L,J
    3,L
-  14,L,Z
-   4,L,J
-   5,L
-  18,L,D
-   5,L
-  15,L,Z
-   5,L
-  15,D,X
-   7
-  10,L
-   6,J
-  15,L,J
-  13,L
-  15,L,Z
+   4,D,X
+  20,L,X
+   4,D,C
   11,L,C
+  13,D
+   1,L,J
+  30,L
+   9,L,D
+  28,L
+   4,D,X
+  20,L,U,X
+   8
+   4,D,C
+  11,L,C
+  15
+   4,D,X
+  11,L,X
+   2,L,J
+  10,L
+   1,L,J
+  18,L,D
+   1,L
+   4,D,X
+  25,L,X
+   4,D,C
+  10,L,C
+   1,L,U,X
+   4,L
+  33
+   6,J
+   7,L,J
+   1,J
+  13,L,J
+   5,L
+   4,D,X
+  11,L,X
+  13,L,C
    5,L,J
    5,J
+
+#CP-14
   15,L,X
   15,L,D,C
   32,R
@@ -3123,7 +3137,8 @@ endrepeat
   27,D
    3,R,D
    3,R
-  15,L,Z
+   1,D,X
+  14,L,X
    9,L,D,C
   26
    1,L,U
@@ -3151,36 +3166,36 @@ endrepeat
    7,F,
    7,F,60
   10,F,90
-  14,F,115
-   2,F,100
-  20,F,90
+  17,F,115
+  17,F,90
    8,F,45
    8,F,
    8,F,315
-   8,F,270
-  50,F,255
+  18,F,270
+  40,F,255
    6,F,245
-   8,F,200
-   4,F,180
-   1,D
-  24,L,D
-  21,L
-  10,L,D
+  10,F,200
+   6,F,180
+   4,D
+  21,L,D
+  22,L
+   5,L,D
   14,R,D
   13,D
    8,L,D
-  13,D
-   8,R,D
-   2,D
+  16,D
+   9,R,D
   30,L,K
   13,L
   14,L,D
    3,D
   12,L,D
    6,L
-  15,L,Z
+   1,D,X
+  14,L,X
   15,L
-  15,L,U,Z
+   1,D,X
+  14,L,U,X
    7,L
   26
    1,D
@@ -3195,8 +3210,9 @@ endrepeat
    3,F,
    8,F,315
    8,F,270
-  18,F,259
-  15,L,Z
+  18,F,259.5
+   1,D,X
+  14,L,X
    4,L
   15,U,X
    1,R
@@ -3205,7 +3221,8 @@ endrepeat
   15,R,U,X
    8
   15,L,U,X
-  18,L,U,Z
+   1,D,C
+  17,L,U,C
    1,L
   15,U,X
   18,R,U,C
@@ -3218,7 +3235,9 @@ endrepeat
    9,U,C
   77
   40
-#g-03
+
+#lvl_g-03
+#CP-12
   72
   15,L,J
   15,U,X
@@ -3246,6 +3265,8 @@ endrepeat
    1,R,J,G
    7,R
   12,R,J
+
+#CP-11
    1,D,X
   13,R,X
    2,R,J
@@ -3289,6 +3310,8 @@ endrepeat
    7,R
   19,R,J
   22,R
+
+#CP-10
   14,R,D,X
    3,R,J
    1,R
@@ -3360,6 +3383,8 @@ endrepeat
   12,L,U,X
    1,L,J,G
    2,L
+
+#CP-08
   11,L,D,X
   20,L,J
    8,L
@@ -3435,6 +3460,8 @@ endrepeat
   14,R,U,C
    1,R,J,G
    7,R
+
+#CP-07
    1,D,X
    5,R,X
    1,R,J
@@ -3525,13 +3552,14 @@ endrepeat
    1,D,X
   14,R,X
    1,L,J
-   5,L
-   5
+  11,L
+   
    5,R
   21,R,J
   15,R,U,X
   15,U,C
-  10
+   5,R
+   5
    7,L,J
   15,U,X
    9,R
@@ -3551,6 +3579,8 @@ endrepeat
    8,L,J,G
    7,L
    8,L,J
+
+#CP-06
    1,D,X
   13,L,X
    1,L,J
@@ -3594,6 +3624,8 @@ endrepeat
    1,R
    6,R,J
   13,R
+
+#CP-05
    4,R,D,X
    1,R,J
    6,R
@@ -3637,6 +3669,8 @@ endrepeat
   16,R
    1,R,J
   34,R,D
+
+#CP-04
    7,L,J
    8,J
   15,U,X
@@ -3668,6 +3702,8 @@ endrepeat
   30,F,5
   49,F,
   15,U,X
+
+#CP-03
   13,L,J
    3,L
    1,L,K,G
@@ -3719,7 +3755,9 @@ endrepeat
    1,D,X
   14,R,X
    1,L,J
-  11
+   7
+   1,R
+   4
    5,R
   11,R,J
   14,R
@@ -3768,8 +3806,8 @@ endrepeat
   10,U,X
    2,J
   14,L,J
-   4,J
-   2,R,J,G
+   5,J
+   1,R,J
    8,K,G
    1,L,K
    1,K
@@ -3840,6 +3878,8 @@ endrepeat
    5,R,J
   14,R,U,X
   10,R,J,G
+
+#CP-01
   10,R,X
    8,R,J
   11,K,G
@@ -3976,7 +4016,8 @@ endrepeat
   12,L,J
  181
   40
-#g-04
+
+#lvl_g-04
   72
    7,R,J
   15,U,X
@@ -4078,87 +4119,79 @@ endrepeat
    1,J
   17,L,J
    9,K,G
-  16,L,J,G
-   2,J
+  10,L,J,G
+   6,L
+   2
   15,U,X
    4,R
    6,L
   15,L,J
    1,K
-   4,L,K
   12,L,J,G
   12,L,K,G
-  11,L,J,G
-   2
-   3,K,G
-  11,R
+  12,L,J,G
+  12,L,K,G
+   1,J
+   7,R,J
   15,R,D,X
-   2,R
-   1,D,X
-  14,R,X
-  15,D,C
-   1,D,X
-   5,L,X
+   3,R
+   4,D,X
+  10,R,X
    1,R,J
-   7,R
-   6,R,J
-  15,R,U,X
-   1,D,C
-   8,U,C
-  26
-   1,F,345
-   3,F,
-   9,F,359
-  50,F,3
+   6
+   1,R
+   5,R,J
+   3,J
+  16,R,U,X
+   6,U,C
+  41,U
+  51,F,3
    6,F,
-  37,F,357
-   7,F,310
-   4,F,290
-   4,F,270
-  24,D
-  11,L,D
-  10,L
-  15,L,X
-   1,D,C
-  13,L,C
-   1,L,J
-  15,D,X
-  15,R,J
-  13,J
-  15,U,C
-  15,U,X
-  24
-  15,L,D,C
-  15,R,D,X
-  15,L,D,C
-  15,R,D,X
+  29,F,344
    1
-  11,L,C
-   6,L,J
-  15,K,G
-   5,R,K
+   4,D,X
+  19,L,X
+   4,D,C
+  39,L,U,C
+  15,D,X
+  15,D,C
+  15,D,X
+  15,D,C
+  23,J
+  27,U,X
+  15,R,U,C
+  20,L
+  15,L,X
+  15,R,C
+  15,L,X
+  15,R,C
+  10,L,X
+   8,J
+  11,K,G
+   1,R,K
+  13,L,K
   15,U,X
-   9
-  15,U,X
-  10
-  12,R
-  24,R,J
-   7,K,G
+   5,L
+  15,U,C
+   4,L
+   1
+   1,L
+  15,R
+  23,R,J
+   8,K,G
    1,L,K
    1,R,K
   14,R,J,G
    4,R,K,G
    7,R
    1,R,J
-   8,R
-   1,L
-   6,J,G
-   2,R,J
-   5,R
-   1,R,J
-   1,J
-   2
-  11,R
+   7,R
+   2,L
+   4,J,G
+   4,R,J
+   1
+  18,R
+  
   11,R,J,G
    8,R
   12,R,J,G
@@ -4245,20 +4278,19 @@ endrepeat
    1,L,J
   15,J
    8,R,G
-  26,G
-   5,J,G
-   9,K,G
-   2,R,K
-  14,L,X
-  15,L,J
-  12,L,K,G
-  12,L,J,G
-   6,L,K,G
-   7,L
-   5,L
-   7
+  26,U,G
+   2,J,G
+   1,L,J
+   1,R
+  10,K,G
+  14,L,K
+   3,L
+  23,L,J
   15,U,X
-  15,U,C
+  12,L
+  13,L
+  15,U,X
+  14,U,C
  168
    3,R
   15,D,X
@@ -4270,3 +4302,4 @@ endrepeat
    1,R
   15,R,U,X
  127,R
+ChapterTime:
