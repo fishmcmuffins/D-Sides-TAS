@@ -833,12 +833,12 @@ console load nameguysdsidespack/0/4-Ridge
 #lvl_c-02n
 #XNA
    4,R,J
-#FNA
-#   3,R,J
-#   2,J
-
   14,R,U,X
   11,U,C
+#FNA
+#   5,R,J
+#  14,R,U,Z
+#  10,U,X
   15,U,X
   10,L,J
    5,R,K
