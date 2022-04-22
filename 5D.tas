@@ -1,7 +1,7 @@
 #Created by dahlukeh and Fishmcmuffins
 #improvements by pansear and gnommis
 
-RecordCount: 1509
+RecordCount: 1634
 
 console load nameguysdsidespack/0/5-Temple 
    1
@@ -424,7 +424,6 @@ console load nameguysdsidespack/0/5-Temple
    8,L,J
   40
 
-
 #lvl_d-03
    2,R
    3,R,K
@@ -499,31 +498,27 @@ console load nameguysdsidespack/0/5-Temple
   15,U,C
   15,R,X
   19,D
-  18,R,X
-  18,U,C
-  15,R,X
-   3,R,D
-  16,D
-  19,R,X
-  16,U,C
-  18,R,X
-  13,R
-   3,D
-   3,R,D
   17,R,X
-  15,R,U,C
-  30,R,D
+  15,U,C
+  11,D
+  23,R,D
+  15,R,Z
   15,R,X
-  16,R
+  15,R,U,C
+  14,R
+  15,R,D,X
+  15,R,C
+   6,R
+  15,R,U,X
+  27,R
+  32,R,X
  102,R,G
-   1,R,U,G
-   1,R,G
-  25,R,U,G
+  26,R,U,G
    8,R,J,G
    2,R,K,G
    2,R
   15,U,X
-   1,R,J,G
+   1,J,G
    1,R
    6
    6,L,Z
@@ -533,7 +528,6 @@ console load nameguysdsidespack/0/5-Temple
    5,R,D,X
   40
 
-
 #lvl_d-04
    9,R,D,X
    1,R,J
@@ -542,14 +536,12 @@ console load nameguysdsidespack/0/5-Temple
    4,R
    5,D,X
   25
-
 repeat 4
   15,R,X
    6
   15,L,X
    6
 endrepeat
-
   18
   15,D,X
   11
@@ -744,7 +736,6 @@ endrepeat
    3,R,J
    5,R
   15,U,X
-
 #this feels slow
   78,L,G
    4,J
@@ -1206,34 +1197,32 @@ endrepeat
    1,R
    4,R,K,G
    5,R,X
-  12,R,G
-   7,R,J,G
+  13,R,G
+  12,R,J,G
   37,R,G
-   5,R,G
    1,R,J
    5,R,U,X
   16,R,J,G
   40
 
 #lvl_f-10
-   3,R,J,G
-   4,R,G
-   1,L,G
-   4,R,G
-   2,R
-  22,R,K,G
+   3,L,J,G
+   9,R,G
+   1,R
+   1
+  22,R,J,G
   17,R,G
    1,R
    5,R,U,X
   23,R,G
-   3,L,G
+   2,L,G
   62,R,G
   41,G
   11,R
    1,R,J
   22,R
-  14,L,D,X
-   1,R,J
+  13,L,D,X
+   2,R,J
    5,R,D,X
   13,R,G
    2,R,J,G
@@ -1340,17 +1329,14 @@ endrepeat
    1,R
    1,L
   10,D
-
 repeat 4
   10,L
   10,L,D
 endrepeat
-
 repeat 4
    5,L
    5,L,D
 endrepeat
-
 repeat 3
   10,L,D
   10,L
@@ -1372,7 +1358,6 @@ endrepeat
   30,R,D
 #waiting for cycle
    7
-
   15,D,X
   13
   10,R
@@ -1430,5 +1415,4 @@ endrepeat
    1,R
    8,L,X
  135
- 
-ChapterTime: 3:40.711(12983)
+ChapterTime: 3:40.694(12982)
