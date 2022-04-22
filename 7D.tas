@@ -1,4 +1,4 @@
-RecordCount: 2139
+RecordCount: 4022
 
 #Created by dahlukeh, Fishmcmuffins and Euni
 
@@ -205,8 +205,7 @@ console load nameguysdsidespack/0/7-Summit
   12
    7,L,J
   15,U,X
-   1,D,C
-   9,R,U,C
+  10,R,U,C
    2,R,J,G
    6,R
    1
@@ -675,36 +674,44 @@ console load nameguysdsidespack/0/7-Summit
   73
 #1000m
    4,R,X
-  12,R,J
+  10,R,J
+   2,R
   29,R,X
    4,R,J
-   1,R,K
-   2
+   2,R,K
   13,R,X
    1,R,J,G
+   2
+   6,R
+   1,R,J
+   7,R
+  25,R,X
+   4,R,J
+   1,R,K
+  14,R,X
+   1,R,J,G
+   3,R
    1
   15,R
-  26,R,X
-   4,R,J
-   7,R,Z
-  16,R,J
-  11,R
-   6
+   1
   15,R,X
-  29,U,C
-  14,R
-  15,R,D,X
-   4,L,D
-   2
+   1,R
+  28,U,Z
   11,R
+  15,R,D,X
+   3,D
+   3,R,D
+   4,R
+   1,R,D
+   1,R
+   1,R,D
    1,R,J,G
-   3,R,K,G
+   1,R,K,G
    5,R
-   2,R,J
-   5,R,D
-   2,D
-  18,R,D
-  32,R,Z
+   1,R,K
+  23,R,D
+   3,D
+  32,R,X
    4,R,J
    2,R,K
    9,R
@@ -734,16 +741,18 @@ console load nameguysdsidespack/0/7-Summit
 
 #lvl_c-02
    7,R,D,X
-   2,R,J
+   3,R,J
+   1,J
   15,R,U,Z
-  18,U,X
+  18,U,V
    4
-  15,R,X
-  15,D
-   9,R,D
-   3,D
-   9,R,D
-   6,R
+   7,R
+  15,R,D,X
+   1,R
+   3,R,D
+   9,D
+  15,R,D
+   2,R
   26,R,U,Z
    4,L,G
   12,L,J,G
@@ -751,28 +760,33 @@ console load nameguysdsidespack/0/7-Summit
    2,R,K
    2,J
    9,R,K,G
-   1,R
    5,R,Z
    6,R,J,G
+   5,R
+   4,R,J
+   2,R
+   3
    1,R
-  10,R,J
-   6,R,D
+   1
+   1,R
   18,D,X
-  12,L
-   9,R,D
+   9,L,D
+   8,R,D
   15,R,Z
   10,R
   21,R,U,Z
-   8,R,J
-  12,R,K
-  12,J
-   2,K
+   8,R
+  12,R,J
+  10,K
+   2,J
    5,R,X
    6,R,J,G
    5,R
-   3,R,J
+   1,R,J
    2,R
-  22,L,D
+   2,R,J
+   1,J
+  21,L,D
    4,D
   10,R,D
   15,R,Z
@@ -785,79 +799,87 @@ console load nameguysdsidespack/0/7-Summit
    8,K
    3,L,K
   10,J,G
+   1,L,J
    1,R,J
-   3,K
-   4,J
-   3,K
-   1,R,J,G
-   4,R,K,G
-   2,K
-   4,R,K
-  23,R
+   4,K
+   1,J
+   3,L,J
+   1,K
+   1,J,G
+   1,R,J
+   1,R,K,G
+   3,R,J,G
+  20,R
   10,R,D
    1,G
    1,R,J,G
   19,R,D
-#loses a frame to make resync easier
    6,L,D
   15,R,X
   23,U,C
    4,L
   18,R,D,X
    7,R
-   4,R,D,X
+   4,Z
    4,R,J
    1,R
   16,R,J
-   1,D,X
-  25,R,U,X
-   5,L,J
-   1,R,J
+  26,R,U,Z
+   6
    1,R,K
-   1,K
-   2,R,K
-   1,K
-   5,R,K
-   7,R
+   2,K
+   7,R,K
+   2,R
    1,R,J,G
-   1,R,K,G
-   6,R
-   3,R,J,G
-   5,R
-   1,R,J
-  17,R,D
-   2,D
+   2,R,K,G
+   4,R
+   1,R,J,G
+  12,R
+  10,D
+   1,R,D
   15,R,Z
-  11,R
-   9,U,X
+   8,R
+   8,U,X
   22,R,J
-   5,R,K,G
+   2,R,K,G
+   1,J
   40
 
 #lvl_c-03
-   1,J,G
-  10
-   4,Z
-   3,R,J
-   7,R,K,G
-   6,R
-   7,R,D,X
-   1,R,J,G
-  12,R
+   1,R
+   5,R,J,G
+   5,R
+   5,R,Z
    1,R,J
-   8,R
-   7
-   3,D
-   1,R,D
-   1,D
-   1,R,D
+   1,R
+   2,R,J
+   5,R
+   1,R,J
+   2,R
+   5,R,D,X
+   1,R,J,G
+   3
+   4,R
+   1,R,J
+   2,R
+   1
+   1,R,J
+   9,R
+   2,R
+   1
+   1,R
+   3,R,D
+   2,D
+   2,R,D
+   1,R
+#loses 2f from worse subpixel
    1,J
    1,L,J
-  10,R,J
+   8,R,J
    1,L,J
    1,R,J
-  13,K,G
-   1,R,K
+  15,K,G
+   3,R,K
   12,R,J,G
   10,K,G
    2,L,K
@@ -871,135 +893,130 @@ console load nameguysdsidespack/0/7-Summit
   18,R,J
   12,K
   12,J
-   2,L,K
+   1,L,K
    8,L
-  20,L,U,Z
+  21,L,U,Z
    4,R,J
    4,R,K
    3,L,K
    2,K
   15,U,X
    1,L
-  13,L,J
-   7,L
-   4,L,J
-   3,J
+  14,L,J
+   8,L
    1,L,J
-   4,D,X
-  11,U,X
+   1,L
+   3
+   1,L
+  15,U,Z
    5,L
    1,R,J,G
-   1,L,J
-  10,J
-   3
-   5,R
-   1
-   1,J
-   4,R,J
-   1,J
+   2,L,J
+   1,R,J
+   7,J
+   7,R
+   2,J
    1,R,J
    1,J
-  16,U,X
+   1,R,J
+   7,J
+  15,U,X
   19,L,J
-   4,D,X
-  11,U,X
-   5,R
-   1,L,J,G
-   1,R,J
-   1,J
-   1,R,J
-   1,J
-  10,K
-   6,R,K
+  15,U,Z
+   2,R
+   1
+   1,R
+   1
+  10,L,J
+   1
    1,R,J,G
-   9,R
+   8,R
    2,R,J
-  29,R,X
+  30,R,X
    4,R,J
-   1,R,K
-   6,R,D,X
+   5,R,Z
+   2,R,J
   40
 
 #lvl_c-04
-   3,R,D,X
-   4,R,J
-   1,R,K,G
-   3,R
-  18,R,D,X
-  11,R,J
-  15,U,X
+   6,R,J
    4,R
-  18,L,X
-  14,R,C
+   3,R,J
+  16,R,X
    4,R,J
-   3,R,K
+   6,R,K
+  15,U,X
    1,R
-   8,R,J
-  23,D
-  16,R,D
-   9,U,X
-   9,L,D
-   1,D,X
-  19,L,X
+  12,L,X
    4,R,J
-  12,R,C
+   2,R,K
+  14,R,X
    4,R,J
-  12,R,K
-   4,K
-   1,D,X
-  14,R,U,X
+   2,R,K
+   9,R
+   2,R,K
+  20,L,D
+   6,L
+   3,L,D
+   1,L
+   8,R,D,X
+  10
+  16,L,Z
+   6,R
+  14,R,X
+   4,R,J
+  14,R,K
+  15,R,U,Z
   14,R,C
    4,L,J
   12,L,X
    4,R,J
-   5,R,K
+   9,R,K
   15,U,X
-  15,R,C
+  16,R,C
    4,L,J
-  12,L,X
-   4,L,J
+  12,L,Z
+   4,J
    1,R,K
-   5,L,K
+   3,L,K
+   4,R,K
+   1,R
   15,U,X
-  18,R,C
+  19,R,Z
+   4,L,J
+   4,L,K
+  15,U,X
+   3
    4,R
-  15,U,X
-  15,U,C
-  23,R
-   4,Z
+   2,R,J,G
+   7,R,Z
    1,R,J
-   6,R
+   7,R
   40
 
 #lvl_c-05
-   3,R
    1,R,J
-   8,R,D,X
+  10,R,D,X
    1,R,J
-  13,R
-  18,R,U,Z
+  14,R
+  20,R,U,Z
    4,R,J
-  14,R,K
+  11,R,K
   15,U,X
-  11,U,C
-  37
-   5,R,D,X
-   5,L,J
-   1,L,K,G
-   4,L
-  12,L,X
+  12,U,C
+  38
+  15,L,Z
+   8,L,D
    4,L,J
-   7,L,Z
-  12,L,J
-   1,L
-   2,L,J
+   9,L,K
+   5,L
+   5,L,K
   15,U,X
-  13,U,C
+  12,U,C
 #can probably manip height to -1f
-  37
-   2,R
+  39
   15,D,X
-  30,R,Z
+  30,R,C
    4,R,J
    2,R,K
   15,U,X
@@ -1008,41 +1025,41 @@ console load nameguysdsidespack/0/7-Summit
   17,U,X
    6,L
   15,L,U,Z
-  39,L,X
+  39,L,V
    8,R,J
-   1,R,K
-   6,L,K
+   5,R,K
   15,U,X
-  11,R,J,G
-  30,R,Z
+   7,R,J
+  31,R,Z
    8,R,J
-  25,R,K
-  19,U,X
-  19,U,C
-  37
-   3,L
-  18,L,U,X
-   4,R,J
-   2,R,K
-   1,L,K
-   2,R,K
-   8,R,J,G
-   9,K,G
-   2,L,K
-  20,L,J
+  24,R,K
   15,U,X
-   2,L
-   5,L,J
-  13,R,J
-   3,R,K
-  15,U,Z
+   1,R
+   1,J
+  15,U,X
+   5,J
+  40
+  18,L,U,Z
+   7
+   1,L,J
+  11,R,K
+   1,R
+   5,J,G
+   1
+   1,J
+   2,K,G
+  18,L,K
+  15,U,X
+   1
+  18,L,J
+   4,K
+  15,U,X
   18,R,J
   12,L,K
   12,R,J
   12,L,K
-  10,R,J
-  37
-   5
+   8,R,J
+  42
    6,L
   15,U,X
   18,R,J
@@ -1079,158 +1096,156 @@ endrepeat
   11,L,K
    4,J,G
    1,R,J
-  10,R,K
+  10,K
   16,U,X
-  18,R,J
-   3,R,K,G
-   6,R,J,G
-   8,L,G
+  19,R,J
+   7,R,K,G
+   4
+   1,L
    1
-   1,J
-  22,L,J
-   2,J
-   4,L,K,G
-  95
+   1,L
+   1,G
+   1,J,G
+   1,R,J
+   1,L,K,G
+   1,R,K
+  10,L,K
+   6,L
+   1,L,J,G
+#can go a frame earlier but death
+   2,L,K,G
+   4,L
+  94
   40
 
 #lvl_d-01
   71
 #1500m
-# These frames align a cycle later
-   2
   14,U,X
+   6,R,J
+   2,J
+   5,L,D,X
+   1,R,J
+  12,R
   10,R,J
-   1,D,X
-  13,R,X
-  14,R,J
-   4,R
-   1
+   3,R
   15,R,D,X
-  10,R,D
-   6,R
-  15,R,U,X
-  31,R,D
-   2,R
-  15,R,X
-   6
-  11,R
-   1,D,X
-  14,R,X
-  14
-   2,L
-  15,R,X
-  16,D
-   4,L,D
-  15,R,U,X
+   1,R
+  11,R,D
+  10,R
+  15,R,Z
   10
-   5,L
-   1,D,X
-  14,R,X
-  14
-   4,L,D
-   1,L,J,G
-  12
+   7,R,D
+   1,R
+  15,R,Z
+   8,R
+  10,R
+  15,R,Z
+   1,R
+  15,R,Z
+   1
+  20,R,D
+   1,R
+  10,R
+  15,R,Z
+  11,D,X
   10,R
   15,R,X
-   1,D,C
-  14,R,C
-  17,D
-   8
-  30,R
-  12,R,D
+   4,R
+  15,R,Z
+   1,R
+  14
+   1,L
+   1
+#demo is possible with slightly higher subpixel
+   1,R
+   3
+  19,R
+  15,R,D,X
+   5,R
+   3,R,D
+   1,R
+  15,R,X
+   1,R
+  16,R
+  15,R,X
+   4,R
+  15,R,X
+  23,R,D
+   2,R
+   1,R,D
+#if 1f is saved maybe -
+#  13,R
+#  15,R,X
+#   1,R
+#  15,R,D,C
+#   7,R,D
+#   1,R,J,G
+#   7,R
+  14,R
+  15,R,X
+   6,R
+  15,R,D,C
+   4,R
+   1,R,D
    3,R
-   1,D,X
-  14,R,X
-   7,R,C
-  17,R
-  15,R,X
-  20,R
-   1,D,X
-  14,R,X
-  17,D
-  13,R
-  15,R,X
-  15,R,C
-   6,R,D
-  13,D
-   4,R,D
+   9,R,D,X
   11,R
   15,R,X
-   3,R
-  15,R,X
-   8,R
-  12,R,D
-   6
-  34,R
-   1,D,X
-  14,R,X
    2,R
-   1,D,C
-  14,R,U,C
-  12,R
-   1,D,X
-   5,R,X
-   1,R,J
+  15,R,X
+#slow resync?
+  15,R,D
+   3
+   1,R,D
+   2,D
+   5
+  35,R
+  15,R,Z
+   3,R
+  15,R,U,X
+  11,R
+   4,Z
+   2,R,J
    7,R
   40
 
-#d-02
+#lvl_d-02
+   1,R
    1,R,J
-  13,R,D,X
-   1,R,J
+   7,R,D,X
+   3,R,J
+   4,J
+   1
    1,J
+   2
+   7,L,Z
    1,R,J
-   1,R,K,G
-  14,R
+   6,R
+  11,R,J
+  15,R,Z
+   2,R
   15,D,X
-   5,D
-  39,D
-   9,R
-   3
-   1,D,X
-  14,R,X
-   6,R
-  15,U,X
-   6,R
-   3
-  45,D
+   7,R
+  49,D
+  14,R,Z
+  10,R,J
    1,R
-   1,D
-   1,R
-   1,D
-   1,R
-   1,D
-   1,R
-   1,D
-   1,R
-   1,D
-   1,R
-   1,D
-   1,R
-   1,D
-   1,R
-   9,D
-   1,D,C
-  13,R,C
-  21,R,J
-   6,R
-   1,D,X
-  14,R,U,X
-  15,R,U,C
-  13,R
+   5,R,J
+  10,R
+  15,R,U,Z
+  15,R,U,X
+  14,R
    1
   50,D
    2,L,J
-   1,D,X
-  14,R,X
+  15,R,Z
   14,R,D,C
-  19,R,J
-   8,J
-   1,D,X
-  14,R,X
+  25,R,J
+   2,J
+  15,R,Z
   15,R,D,C
-   1,R
-   4
+   3,R,D
   10,L,X
   14,R,J
   15,U,X
@@ -1241,7 +1256,8 @@ endrepeat
    1,R,J
    6,R,D,X
   40
-#d-03
+
+#lvl_d-03
    4,R,D,X
    1,R,J
   13,R
@@ -1308,7 +1324,8 @@ endrepeat
    1,R
   10,R,D,X
   40
-#d-04
+
+#lvl_d-04
    2,R,D,X
    1,R,J
    7,R
@@ -1403,7 +1420,8 @@ endrepeat
    1,D,X
    4,R,U,X
   40
-#d-05
+
+#lvl_d-05
    5,R,U,X
    1,L
   11,J,G
@@ -1438,7 +1456,7 @@ endrepeat
   15,U,C
    6,L
    4
-   4,L,D,X
+   4,Z
    1,L,J
    7,L
   22,L,J
@@ -1553,8 +1571,12 @@ endrepeat
    1
    8,R
   15,R,Z
-  14,D
-   5,L,D
+#FULL
+  16,D
+   3,L,D
+#CP ONLY
+#  14,D
+#   5,L,D
   12,R,D,X
   13,R,J
    4,J
@@ -4301,4 +4323,4 @@ endrepeat
    1,R
   15,R,U,X
  127,R
-ChapterTime:
+ChapterTime: 11:01.436(38908)
