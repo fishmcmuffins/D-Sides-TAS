@@ -1,4 +1,4 @@
-RecordCount: 2580
+RecordCount: 2634
 
 #Created by dahlukeh and Fishmcmuffins
 #improvements by pansear and gnommis
@@ -1142,26 +1142,22 @@ endrepeat
    1,J
    6,L,J
   14,L,J,G
-  10,K,G
-  17,L,K,G
-  28,R,J,G
-   2,R,J
-  10,R
-   1
-   8,R
-   2,K,G
-   6
-   7,R
-   1,L
-   1,D,X
-  10,R,X
-   1,L
-   2,R,J
-  13,R,G
-   1,R,J,G
-   9,R,G
-   1
-   6,R
+*
+   9,K,G
+   1,R
+  10,L
+  48,R,J
+   1,R,K,G
+   2,R,K
+   3,R
+   5,R,K
+   2
+   5,R
+  11,R,Z
+   1,J
+   1,L,K,G
+  13,R
+  15,R,D,X
   40
  
 #lvl_f-07
@@ -1461,4 +1457,4 @@ endrepeat
    7,L,X
  135
  
-ChapterTime: 3:35.084(12652)
+ChapterTime: 3:34.880(12640)
