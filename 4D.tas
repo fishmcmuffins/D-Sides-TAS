@@ -1,4 +1,4 @@
-RecordCount: 235
+RecordCount: 239
 
 console load nameguysdsidespack/0/4-Ridge
    1
@@ -825,21 +825,18 @@ console load nameguysdsidespack/0/4-Ridge
   33,R
   14,R,Z
    1,R,J
+***s
   14,R,D,X
    1,R,J
-  14,R,D,X
+  12,R,D,X
+   2,R,J
   40
 
 #lvl_c-02n
-#XNA
-   4,R,J
-  14,R,U,X
-  11,U,C
-#FNA
-#   5,R,J
-#  14,R,U,Z
-#  10,U,X
-  15,U,X
+   5,R,J
+  14,R,U,Z
+  10,U,X
+  15,U,C
   10,L,J
    5,R,K
   21,R
