@@ -1,3 +1,5 @@
+RecordCount: 151
+
 #Created by dahlukeh and gnommis
 console load nameguysdsidespack/0/6-ReflectionD
    1
@@ -9,15 +11,13 @@ console load nameguysdsidespack/0/6-ReflectionD
 #  40
 #   4,D,X
 #play,midboss
-
-#Start
-
 #a-00-intro
   15,U,X
    3
   18,J
    4,L,K,G
   43
+
 #a-01
   11
    7,L,J,G
@@ -56,7 +56,6 @@ console load nameguysdsidespack/0/6-ReflectionD
   18,R,U,X
   14,U,C
   40
-
 #a-02
    4,R
   18,R,J
@@ -124,12 +123,23 @@ console load nameguysdsidespack/0/6-ReflectionD
    9,D
    3,L,D
   27,L
+#transitions a lot further right but desyncs bumper cycles
+#  15,U,X
+#   3,L
+#  12,R,J
+#   2,L,J
+#   1,J
+#   2,L,J
+#   6,L,K
+#  10,R,J
+#  40
   15,U,X
    3,L
   18,J
   12,L,K
    3,L,J,G
   40
+
 
 #a-03
    6,L
@@ -540,12 +550,15 @@ console load nameguysdsidespack/0/6-ReflectionD
    3,R,J,G
    2,R
   40
-#a-13
+
+#lvl_a-13
    5,R
-   2,R,J
+   3,R,J
   15,R,D,X
-   7,R
-  14,U,X
+   4,R,D
+   1,R,J
+   1,R
+  12,U,X
   17,R,J
   12,R,K
    5,R
@@ -582,7 +595,6 @@ console load nameguysdsidespack/0/6-ReflectionD
    1,R,K
    1,R,J,G
    7,R
-#1:26.870(5110)
 
   40
 
@@ -652,7 +664,7 @@ console load nameguysdsidespack/0/6-ReflectionD
    7,R,J,G
   40
 
-#b-02
+#lvl_b-02
    4,R,J
   32,R,D
    4,D,X
@@ -670,30 +682,54 @@ console load nameguysdsidespack/0/6-ReflectionD
   30,D
   26,L,D
   15,L,X
-   6,D
-  16,L,D
-  15,L,X
-   8,D
-   5,L,D
-  13,D
-   6,R,D
-   4,D,X
-  11,R,X
+  14,D
+   1,L,D
+   1,D
+  15,L,D
+  15,X
+  23,R,D
+
+#   6,D
+#  16,L,D
+#  15,L,X
+#   8,D
+#   5,L,D
+#  13,D
+#   6,R,D
+  15,R,Z
   18,R
   20,R,D
   17,D
-  25,R,D
+  10,R,D
+   5,D
+  11,R,D
+#-4f on transition but kinda hard to resync
+#   1,R,J
+#   1,R,K
+#   1,R,J
+#   1,R,K
+#   1,R,J
+#   1,R,K
+#   1,R,J
+#   2,R,K
+#   5,R,X
+#   3,R,J,G
+#   4
+
    1,R,J
    1,R,K
    1,R,J
-   4,D,X
-   8,R,X
+   1,R,K
+   1,R,J
+   9,R,Z
    2,R,J
    6,R,K,G
    3,R
+
+#171
   40
 
-#b-03
+#lvl_b-03
   10,R,D
    8,D
   22,R,D
@@ -730,6 +766,7 @@ console load nameguysdsidespack/0/6-ReflectionD
   11,R,X
    5,R,J,G
    8,R
+#6603
   40
 
 #b-04
@@ -934,7 +971,7 @@ console load nameguysdsidespack/0/6-ReflectionD
    8,R,D,X
   40
 
-#b-08
+#lvl_b-08
    6,R,D,X
    8,R,J
   25,R,D
@@ -1197,21 +1234,20 @@ console load nameguysdsidespack/0/6-ReflectionD
    3,R,J,G
    4,R,K,G
   15,R,X
-   7,R
+   2,R
   10,L,D,X
    5,R,J
-   2,J
-   3,R,J
+   4,J
+   1,R,J
   10,R,D,X
   11,L
   11,R,D,C
    4,J
-  19,R,X
+  18,R,X
   11,R,U,C
   12,D
-   5,R
-   4,D,X
-   5,L,X
+   6,R
+   9,L,Z
    1,R,J
    8,R,D
   19,R,D,X
@@ -1223,6 +1259,7 @@ console load nameguysdsidespack/0/6-ReflectionD
    5,R,J,G
    7,R
   11,R,X
+#435
    4,R,J,G
    1,R,K,G
    3,R,J,G
@@ -1242,7 +1279,7 @@ console load nameguysdsidespack/0/6-ReflectionD
    9,R,U,X
   11,L
   11,D
-  18
+  20
    4,R,D,X
    1,R,J
    9,R
@@ -1308,15 +1345,13 @@ console load nameguysdsidespack/0/6-ReflectionD
   40
 
 #lvl_boss-01
-   1
+   2
    1,R,J
-   3,J
-   3,R,K,G
-   6,R
-  14,R,X
-  10,R
+   6,R,U,X
+   7,R,J,G
+  22,R
   21,R,U,X
-  37,R
+  37
   15,R,X
   23,R,D
    8,R
@@ -1324,6 +1359,8 @@ console load nameguysdsidespack/0/6-ReflectionD
   20,R
   15,R,X
    7,R
+
+#216
   37,L
    1,J
    4,R,J
@@ -1484,8 +1521,11 @@ console load nameguysdsidespack/0/6-ReflectionD
    2,J
    2,K
    2,J
+
   38,D
    3,J
+
+
    2,K
    2,J
    2,K
@@ -1505,6 +1545,7 @@ console load nameguysdsidespack/0/6-ReflectionD
    2,K
    2,J
    2,K
+
   36,D
    2,J
    2,K
@@ -1586,7 +1627,9 @@ console load nameguysdsidespack/0/6-ReflectionD
    5,D
   16,L,D
    6,R,D
+
   14,R,D,X
+#634
   37,R
   15,R,U,X
   14,R
@@ -3109,4 +3152,4 @@ console load nameguysdsidespack/0/6-ReflectionD
   52,R,D,C
   38,L,U,X
 
-ChapterTime: 8:29.184(29952)
+ChapterTime: 8:29.150(29950)
