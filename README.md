@@ -10,5 +10,9 @@ Times:
 6D - 8:29.150(29950)  
 7D - 10:56.846(38638)  
 8D -   
+<<<<<<< HEAD
 epilogue D - 1:08.340(4020) 
+=======
+epilogue D -  
+>>>>>>> 8f2dd57ddf4e906d48b0cd635b9a5df379e81144
 epilogue D berry - 2:11.138(7714)
