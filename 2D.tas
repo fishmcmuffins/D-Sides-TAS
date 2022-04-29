@@ -1,4 +1,4 @@
-RecordCount: 60
+RecordCount: 374
 
 console load nameguysdsidespack/0/2-Oldsite
    1
@@ -7,9 +7,10 @@ console load nameguysdsidespack/0/2-Oldsite
  190
 
 #a-01
-   5,L,Z
+   4,Z
    1,R,J
-   7,R
+   2
+   5,R
    4,R,J
    1,R,K,G
   13,R,D,X
@@ -26,32 +27,36 @@ console load nameguysdsidespack/0/2-Oldsite
   15,U,Z
    2,L
    3,R
-  18,R,J
-  10,L,K
+  17,R,J
+   1,J
+  10,K
   40
- 
-#a-03
-   3,R,K
-   4,R
+
+#lvl_a-03
+   5,R,J
+   1,R
    4,R,J,G
-  11,R,X
-   4,R,J
-  22,R,X
-   4,R,J
-  14,R,K
-  15,U,X
-   1,R,J,G
-   4,L,J,G
+   1,R
+  31,R,X
+   5,R,J
+  13,R,K
+  16,U,X
+   2,R,J,G
+   4,L,J
    7,R,J
    1,R,K,G
    6,R,J,G
-  26,R,D
-  20,R,J
-  13,R
-   4,R,J,G
-  15,R
-  13,L,D,X
+  20,R
+   6,R,D
+  21,R,J
+  12,R
+   2,R,J,G
+   5,R
+   2,R,J
+   7,R
+  14,L,D,X
    4,R,G
+
    2,R,K,G
   26,R,X
    4,R,J
@@ -77,17 +82,19 @@ console load nameguysdsidespack/0/2-Oldsite
 #a-04
   10,R
   16,R,D,X
+   5,R
+   1,R,D
+
+   2,R,J
    6,R
-   1,R,J
-   9,R
-  24,R,X
+  26,R,X
    6,R
   30,R,J
-  22,R
-   1,R,D
-   1,R,K,G
-   7,R,J,G
-   2,R,K,G
+  23,R
+   1,R,J,G
+   6,R,K,G
+   1,R,J,G
+   1,R
   25,R,Z
    4,R,J
    6,R,K
@@ -106,12 +113,17 @@ console load nameguysdsidespack/0/2-Oldsite
    6,R
   10,R,X
    5,R,J
-   5,R,D,X
-   6,R
+  11,R,D,X
    4,R,J
    8,R,K
-   5,R,U,Z
-  17,R
+  18,R,U,Z
+   4,R
+ 
+
+
+
+
+
   10,J
   16,U,X
    2,L,J
@@ -133,18 +145,22 @@ console load nameguysdsidespack/0/2-Oldsite
    2,L
    2,L,D
    9,L,J
-   3,L
-   3,L
-   7,R,K,G
-   5,L,J
-   9,R,K
-  40
- 
-#a-06
-   1,R,J,G
+   5,L
    1,R
-   1,R,K,G
-   8,R,D
+   1,J,G
+   6,R,J
+   5,L,J
+   9,K,G
+  40
+
+#lvl_a-06
+   1,L,J,G
+   1,R,J
+   2,R
+   1,R
+   2,R
+   2,J
+   1
   12,R,D,J
    2,R,K,G
    1,R,J,G
@@ -157,6 +173,7 @@ console load nameguysdsidespack/0/2-Oldsite
    3,L,K,G
    1,R,K
   11,J,G
+#close to dashing a frame earlier
   64,R,X
    4,R,J
    1,R,K
@@ -168,8 +185,7 @@ console load nameguysdsidespack/0/2-Oldsite
    4,R
   12,D,X
   17,R,D
-   5,R,X
-  13,R
+  18,R,X
    7,R,Z
    1,R,J
    8,R,D
@@ -182,28 +198,30 @@ console load nameguysdsidespack/0/2-Oldsite
    4,R,G
   27,R,X
    6,R
-  32,D,C
-   6,L
-  11,L,X
+  25,D,X
+   2,D
+  10,L,D
+   9,L,X
    6,L,J,G
-  16,L
+   9,L
+   1,L,J
+   6,L
   16,L,Z
    4,L,K
-   4,L,J
-  23,U,X
+   3,L,J
+  24,U,X
   15,U,C
    5,L,J
    8,R,J
   40
  
 #b-02
-   5,R,K,G
+   5,R,K
    6,R
-   5,R,Z
-  17,R
+  22,R,Z
    4,L,G
-  20,U,X
-  12,L,C
+  20,U,Z
+  12,L,V
    4,R,G
   14,R,X
    4,L,G
@@ -217,12 +235,12 @@ console load nameguysdsidespack/0/2-Oldsite
    3,L
    1,L,J
    2,L
-  36,L,U,X
-  19,R,C
-  18,D,X
+  36,L,U,Z
+  19,R,X
   18,D,C
-  20,D,X
-  34,R,C
+  18,D,X
+  20,D,C
+  34,R,X
    4,R,J
   12,R,X
    4,R,J
@@ -552,4 +570,5 @@ console load nameguysdsidespack/0/2-Oldsite
   11,R,J,G
   42,R,D,X
    7,L,J
-ChapterTime: 1:17.248(4544)
+
+ChapterTime: 1:17.095(4535)
