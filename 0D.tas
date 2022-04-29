@@ -1,7 +1,7 @@
 #Created by EuniverseCat
 #Improvements by dahlukeh
 
-RecordCount: 2
+RecordCount: 539
 
 console load nameguysdsidespack/0/0-Prologue 
    1
@@ -13,109 +13,110 @@ console load nameguysdsidespack/0/0-Prologue
    1,R,J
   14,R
    1,R,J
-  21,R
+   8,R
    1,R,J
-   1,J
-   7,R,J
-   1,R
-   4,R,J
+   9,R
+  11,R,J
+   8,R
+   2,R,J
    1,R,K,G
+   8,K
+   2
+   2,J,G
    4,R,J,G
-  14,R,K,G
-   3,R,J,G
-   7,R
-   1,R,J
-  15,R
-  23,R,J
-   7,R
+   1,R,K,G
+   1,R,J,G
+   9,R
+  21,R,J
+  12,R
    1,L
+   1,J
+   2,L,K,G
+   1,R,J,G
    1,L,K,G
-   1,L,J,G
-   1,K,G
-   4,R,J,G
-   1
-   1,R
+   3,R
   40
 
 #lvl_a-01
-  29,R
-   2,R,J
+   5,R
+   1,R,K
+  22,R
+   5,R,J
    9,R
-   2,R,J
+   1,R,J
+   2,R
+  11,R,J
+   8,R
+   4,R,J
+   4,K
+  16
+  18,R,D
+  11,R
+   1,R,J
    1,R,K,G
-   3,K
-   3,R,K
-  10,R
-   3,R,J,G
-   9,R
-   1,R,J
-   8,R,D
-  11,L
-   7
-  14,R
-   2,R,J
-  10,R,D
-   1,R,J
-  14,R
-   1,R
+   6,R,J,G
+  12,R
    1,R,J
    3,R
-   1,R,J,G
-   4,R,K,G
-   6,R
+   1,R,J
+   5,R
    4,R,J
    1,R,K
-   8,R,G
+   7,R
+   1,G
   12,J,G
    2,K
-   1,L,K
-   5
-   3,R,G
+   7
+   1,G
    1
    7,L,D
   10,J,G
    1,R,J
    4,K
-   6,R
-   2,R,J
+   3
+   1,R
+   1
+   1,R
+   1,J
+   1,L,J
    1,K
-   2
+   1,J,G
+   1,R
+   1,R,K,G
    1,R,J,G
-  10,R
+  12,R
    1,R,J
-  25,R
+  14,R
    1,R,J
   14,R
    1,R,J
   42,R,D
-   3,R
-   6,R,J
-  18,R
+   1,R,J
+  17,R
   13,R,J
    1,K
-   3,R
-   3
-   6,L,J,G
-   5,K,G
-   1,R,K
-  11,R,J
-   8,R,K
-   2,L,J
-   1,L,K
-   3,K
-   9,J,G
-   1,K
-   2
+   2,R,K
+   2,R
+  11,L,J,G
+  12,R,K
+   1,J
+   6,R,J
+   2,K
    1,R,J,G
+   5,J
+   4,L,J
+   2,J
+   1,K
+   1,J,G
+   1,R,J
    1,R,K,G
-  11,R
+   1,R,J,G
+   9,R
    1,R,J
   14,R
    1,R,J
   18,R
    1,R,J
-  14,R
-   1,R,J
   18,R
    1,R,J
   14,R
@@ -124,41 +125,44 @@ console load nameguysdsidespack/0/0-Prologue
    1,R,J
   14,R
    1,R,J
-  34,R
-  30,R,J
-  47,R
+  14,R
+   1,R,J
+  14,R
+  10,R
+  27,R,J
+  50,R
    1,R,J
   24,R
    6,R,D
-  26,R,D,J
+  27,R,D,J
    3,R,K
    3,L,J
    1,R,K
    9,R
    1,R,J
-  14,R
-  13,R
-   5,R,D
-   8,R,D,J
-   2,J
-   1,L,J
+  29,R
+   1,R,D
+  11,R,D,J
    1,L,K,G
-   1,K
    1,R,K
-   1,K
-   1,R,K
-   1,K
-   1,R,K
-  32,R,J
-   1,R,K,G
-   3,R,J,G
-  16,R
-   1,R,J
+   1,R
+  29,R,J
    3,R
+   1,R,K,G
+   1,R,J,G
+#9f landing might work but couldnt get it
+   3
+   7,R
+   1,R,J
+   5,R
+   1
+   5,R
    1,R,J,G
    2,R,K,G
-  56,R,D
+  16,R
+  40,R
    1,S
    1,D,J
  231
-ChapterTime: 0:21.607(1271)
+
+ChapterTime: 0:20.621(1213)
