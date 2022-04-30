@@ -1,4 +1,4 @@
-RecordCount: 374
+RecordCount: 858
 
 console load nameguysdsidespack/0/2-Oldsite
    1
@@ -6,7 +6,7 @@ console load nameguysdsidespack/0/2-Oldsite
 #Start
  190
 
-#a-01
+#lvl_a-01
    4,Z
    1,R,J
    2
@@ -15,7 +15,7 @@ console load nameguysdsidespack/0/2-Oldsite
    1,R,K,G
   13,R,D,X
   40
- 
+
 #a-02
    7,R,J
   23,R,Z
@@ -56,7 +56,6 @@ console load nameguysdsidespack/0/2-Oldsite
    7,R
   14,L,D,X
    4,R,G
-
    2,R,K,G
   26,R,X
    4,R,J
@@ -78,13 +77,12 @@ console load nameguysdsidespack/0/2-Oldsite
    2,R,K,G
    5,R
   40
- 
-#a-04
+
+#lvl_a-04
   10,R
   16,R,D,X
    5,R
    1,R,D
-
    2,R,J
    6,R
   26,R,X
@@ -107,8 +105,8 @@ console load nameguysdsidespack/0/2-Oldsite
    3,R,J,G
    1,K
   40
- 
-#a-05
+
+#lvl_a-05
    5,R,J,G
    6,R
   10,R,X
@@ -118,12 +116,6 @@ console load nameguysdsidespack/0/2-Oldsite
    8,R,K
   18,R,U,Z
    4,R
- 
-
-
-
-
-
   10,J
   16,U,X
    2,L,J
@@ -178,8 +170,8 @@ console load nameguysdsidespack/0/2-Oldsite
    4,R,J
    1,R,K
   40
- 
-#b-01
+
+#lvl_b-01
   14,R,D,X
    1,R,J
    4,R
@@ -188,34 +180,33 @@ console load nameguysdsidespack/0/2-Oldsite
   18,R,X
    7,R,Z
    1,R,J
-   8,R,D
-   6,R,K,G
-   5,K
-  23,U,X
+   8,R
+   8,R,K,G
+   2,R
+  24,U,Z
    8,L
-   4,L,J,G
+   3,L,J,G
   26,L,X
    4,R,G
-  27,R,X
-   6,R
+  30,R,X
+   3
   25,D,X
-   2,D
-  10,L,D
-   9,L,X
+  12,L,D
+   8,L,X
    6,L,J,G
    9,L
    1,L,J
    6,L
   16,L,Z
-   4,L,K
-   3,L,J
+   4,L,J
+   3,L,K
   24,U,X
   15,U,C
    5,L,J
    8,R,J
   40
- 
-#b-02
+
+#lvl_b-02
    5,R,K
    6,R
   22,R,Z
@@ -244,45 +235,42 @@ console load nameguysdsidespack/0/2-Oldsite
    4,R,J
   12,R,X
    4,R,J
-   1,R,K
-   1,R
+   2
    5,R,D,X
   40
 
-#b-03
+#lvl_b-03
    2,R,D,X
-   1,R,J
    2,J
-   5,R,J
-  12,R,U,X
-   1,R,J,G
-   5,R
+   6,R,J
+  12,R,U,Z
+  14,R,J,G
+   7,R
    1,R,J
-   9,R
-  11,R,U,X
-   1,R,J,G
-   5,R
-  12,D
-   1,R,D
-   8,D
-   5
-  19,R,Z
    1,R
-  16,R,U,Z
+   1,R,J,G
+#might be able to downright
+  11,R,D
+  11,D
+   4,R,D
+   1,D
+   1,R,D
+  18,R,Z
+   4,R
+  13,R,U,X
    4,R,J
-   5,R,K
-   6,K
-   5,R,X
-   3,R,K,G
+   1,R,K
+  14,R,U,Z
+   3,R,J,G
   21,R,D
   12,R
-  34,R,X
+  32,R,X
    4,R,J
    1,R,K
    6,R,D,X
   40
 
-#b-04
+#lvl_b-04
    8,R,D,X
    1,R,J
   14,R,D,X
@@ -306,7 +294,7 @@ console load nameguysdsidespack/0/2-Oldsite
    1,R,K,G
   40
 
-#b-05
+#lvl_b-05
    6,J,G
    5,R,J
    1,R
@@ -318,23 +306,23 @@ console load nameguysdsidespack/0/2-Oldsite
    3,R,K
    3,R
    1,R,J,G
-  33,R,K,G
-  22,R,U,Z
+  32,R,K,G
+  25,R,U,Z
    4,R
-   1
-   3,R
   12,R,J
    4,R
-   3,R,K,G
-  16,R
-   1,R,J
-  36,R,D
-  16,R,U,X
+   4,R,J,G
+   6,R
+  20,R,J
+  15,R,D
+   1,R
+   1,R,D
+   3,R
+  21,R,U,X
    4,R,J
    3,R,K
   11,R
   14,R,U,X
-
    1,R,J,G
   18,R
   11,R,D
@@ -347,7 +335,7 @@ console load nameguysdsidespack/0/2-Oldsite
    5,R,D,X
   40
 
-#c-01
+#lvl_c-01
    9,R,D,X
    1,R,J
   26,R,D,X
@@ -356,9 +344,8 @@ console load nameguysdsidespack/0/2-Oldsite
    8,R,D
   37,R,Z
    8,J
-  30,R,U,X
-   4,R
-   4,R,C
+  34,R,U,X
+   4,C
    3,R,J,G
    7,R
    1,R,J
@@ -381,8 +368,8 @@ console load nameguysdsidespack/0/2-Oldsite
    1,R,J
    5,R,D,X
   40
- 
-#c-02
+
+#lvl_c-02
    3,R,D,X
    1,R,J
   28,R,D
@@ -433,10 +420,10 @@ console load nameguysdsidespack/0/2-Oldsite
   15,L,D
    3,L,D
   48,D
-  21,R,D
+  17,R,D
+   4
   32,R,Z
-   4,J
-   1
+   5,J
   16,U,X
   18,J
   12,K
@@ -444,29 +431,31 @@ console load nameguysdsidespack/0/2-Oldsite
   12,K
   12,J
   12,K
-  12,L,J
-   1,K,G
-   4,R,J
-   1,R
-   1,R,K
-   5,R
+   8,J
+   1,L,J
+   1,K
+   2,J,G
+   9,R,J
+  14,R,K,G
    1,R,J,G
-  11,R,K,G
-   1,R,J,G
-   3,L,J
-   3,R,J
-   2,R,K,G
-  26,R,D
+   2,L,J
+   1,R,J
+   1,R,K,G
+   2,R,J,G
+   7,R
+   1,R,J
+  18,R,D
    5,J
    4
-  16,D,X
+  15,D,X
+   1,D
    2,R,D
    1,R,J
    1,R,K
   11,R,D,X
   40
 
-#c-03
+#lvl_c-03
    2,R,D,X
    3,R,J
   39,R
@@ -571,4 +560,4 @@ console load nameguysdsidespack/0/2-Oldsite
   42,R,D,X
    7,L,J
 
-ChapterTime: 1:17.095(4535)
+ChapterTime: 1:16.874(4522)
