@@ -1,7 +1,7 @@
 #Created by EuniverseCat
 #Improvements by dahlukeh
 
-RecordCount: 539
+RecordCount: 671
 
 console load nameguysdsidespack/0/0-Prologue 
    1
@@ -127,42 +127,57 @@ console load nameguysdsidespack/0/0-Prologue
    1,R,J
   14,R
    1,R,J
+  17,R
+  28,R,J
   14,R
-  10,R
-  27,R,J
-  50,R
-   1,R,J
-  24,R
-   6,R,D
-  27,R,D,J
-   3,R,K
-   3,L,J
-   1,R,K
-   9,R
-   1,R,J
-  29,R
-   1,R,D
-  11,R,D,J
-   1,L,K,G
-   1,R,K
-   1,R
-  29,R,J
+   1,D
+  21,R,D
    3,R
+   1,R
+   1,D
    1,R,K,G
    1,R,J,G
-#9f landing might work but couldnt get it
-   3
-   7,R
+  14,R
+   2,R,J
+   8,R
    1,R,J
+  12,R,D
+  11,R,D,J
    5,R
+   9,R,J
+   2,J
+   1,L,K,G
+   4,L,J,G
+   1,K
+   1,J,G
+   6
+   1,R
+  10,R,D,J
+   1,L,J
+   1,K
+   7,J,G
+   5,R,J
+   1,R,K,G
+  11,R,J,G
+  24,R
+   7,R,D
+   2,R
+   1,R,K,G
+   1,R,J,G
+   3
+   6,R
+   1,R,J
+   3,R
    1
-   5,R
+   1,R
+   1,R,J
+   6,R
    1,R,J,G
    2,R,K,G
   16,R
-  40,R
+  40,R,D
    1,S
    1,D,J
  231
 
-ChapterTime: 0:20.621(1213)
+ChapterTime: 0:20.332(1196)
