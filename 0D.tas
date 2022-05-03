@@ -1,7 +1,7 @@
 #Created by EuniverseCat
 #Improvements by dahlukeh
 
-RecordCount: 671
+RecordCount: 795
 
 console load nameguysdsidespack/0/0-Prologue 
    1
@@ -27,31 +27,31 @@ console load nameguysdsidespack/0/0-Prologue
    1,R,K,G
    1,R,J,G
    9,R
-  21,R,J
-  12,R
-   1,L
+  24,R,J
+   9,R
+   2,L
    1,J
-   2,L,K,G
+   1,K,G
    1,R,J,G
    1,L,K,G
    3,R
   40
 
 #lvl_a-01
-   5,R
-   1,R,K
-  22,R
+  18,R
+   9,R,D
    5,R,J
-   9,R
-   1,R,J
-   2,R
+  10,R
   11,R,J
-   8,R
+   7,R
    4,R,J
-   4,K
-  16
+   2
+   2,K
+  14
   18,R,D
-  11,R
+   8,R
+   1
+   4,R
    1,R,J
    1,R,K,G
    6,R,J,G
@@ -180,4 +180,4 @@ console load nameguysdsidespack/0/0-Prologue
    1,D,J
  231
 
-ChapterTime: 0:20.332(1196)
+ChapterTime: 0:20.264(1192)
