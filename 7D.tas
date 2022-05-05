@@ -1,4 +1,4 @@
-RecordCount: 7354
+RecordCount: 7564
 
 #Created by dahlukeh, Fishmcmuffins and Euni
 
@@ -273,7 +273,7 @@ console load nameguysdsidespack/0/7-Summit
   15,U,C
    6,R
   40
-
+***S
 #lvl_a-04
    3,R
    1,D,X
@@ -343,6 +343,7 @@ console load nameguysdsidespack/0/7-Summit
 
 #lvl_b-01
   68
+
 #500m
    7,R,J
   10,R,X
@@ -409,7 +410,6 @@ console load nameguysdsidespack/0/7-Summit
    9,R,J,G
    6,K,G
    2,L,K
-
    5,L,Z
    6,L,J,G
    5,L
@@ -680,6 +680,7 @@ console load nameguysdsidespack/0/7-Summit
 
 #lvl_c-01
   73
+
 #1000m
    4,R,X
   10,R,J
@@ -1122,6 +1123,7 @@ endrepeat
 
 #lvl_d-01
   71
+
 #1500m
   14,U,X
    6,R,J
@@ -2046,6 +2048,7 @@ endrepeat
 
 #lvl_f-01
   71
+
 #2500m
    5,R,X
    1,R,J
@@ -2592,6 +2595,7 @@ endrepeat
 
 #lvl_g-01
   65
+
 #3000m
    8,L,J
   14,U,X
@@ -3443,7 +3447,7 @@ endrepeat
   14,R,U,C
    1,R,J,G
    7,R
-
+***S
 #CP-07
    1,D,X
    5,R,X
@@ -3536,7 +3540,6 @@ endrepeat
   14,R,X
    1,L,J
   11,L
-   
    5,R
   21,R,J
   15,R,U,X
@@ -3549,18 +3552,18 @@ endrepeat
   15,U,X
    8,L
    2
-   1,J
-  16
-   5,R,J
-  10,J
-   1,L,J
+   2,L,J
+   7,L
+  10
+   5,J
+   3
+  15,L,Z
   15,L,X
-   7,L
-   1,D,X
-  14,L,X
-   7,L
-   8,L,J,G
-   7,L
+   1,L
+  11,J,G
+   7,K,G
+   5,L
+   2
    8,L,J
 
 #CP-06
@@ -4285,4 +4288,4 @@ endrepeat
    1,R
   15,R,U,X
  127,R
-ChapterTime: 10:53.684(38452)
+ChapterTime: 10:53.531(38443)
