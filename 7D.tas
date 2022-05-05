@@ -273,7 +273,6 @@ console load nameguysdsidespack/0/7-Summit
   15,U,C
    6,R
   40
-***S
 #lvl_a-04
    3,R
    1,D,X
@@ -3447,7 +3446,7 @@ endrepeat
   14,R,U,C
    1,R,J,G
    7,R
-***S
+
 #CP-07
    1,D,X
    5,R,X
@@ -4177,7 +4176,6 @@ endrepeat
    4,R,J
    1
   18,R
-  
   11,R,J,G
    8,R
   12,R,J,G
@@ -4288,4 +4286,5 @@ endrepeat
    1,R
   15,R,U,X
  127,R
+
 ChapterTime: 10:53.531(38443)
