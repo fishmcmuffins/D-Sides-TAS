@@ -1,4 +1,4 @@
-RecordCount: 1627
+RecordCount: 1870
 
 console load nameguysdsidespack/0/2-Oldsite
    1
@@ -16,7 +16,7 @@ console load nameguysdsidespack/0/2-Oldsite
   13,R,D,X
   40
 
-#a-02
+#lvl_a-02
    7,R,J
   23,R,Z
    4,R,J
@@ -27,17 +27,22 @@ console load nameguysdsidespack/0/2-Oldsite
   15,U,Z
    2,L
    3,R
-  17,R,J
+  12,J
+   2,R,J
+   3,J
+   1,R,J
+   1,K
+   6,L,K
    1,J
-  10,K
+   1,K,G
+   1,R,K
   40
 
 #lvl_a-03
-   5,R,J
-   1,R
-   4,R,J,G
-   1,R
-  31,R,X
+   4,R
+   1,R,J,G
+   7,R,K,G
+  29,R,X
    5,R,J
   13,R,K
   16,U,X
@@ -87,27 +92,24 @@ console load nameguysdsidespack/0/2-Oldsite
    6,R
   26,R,X
    6,R
-  30,R,J
-  23,R
-   1,R,J,G
-   6,R,K,G
-   1,R,J,G
+  47,R,J
+  38,R,X
    1,R
-  25,R,Z
-   4,R,J
-   6,R,K
-   2,K
-  15,U,X
-   9,R,J
-   4,L,J
-   5,R,J
+   1,R,J
+   7,J
+  15,U,Z
+  18,R,J
    1,R,K,G
-   3,R,J,G
-   1,K
+   2,L,K
+   1,R,K
+   1,R,J,G
+   1,R,K,G
+   1,J
   40
 
 #lvl_a-05
-   5,R,J,G
+   1,R,J,G
+   4,R,K,G
    6,R
   10,R,X
    5,R,J
@@ -146,26 +148,19 @@ console load nameguysdsidespack/0/2-Oldsite
   40
 
 #lvl_a-06
-   1,L,J,G
-   1,R,J
-   2,R
-   1,R
-   2,R
-   2,J
-   1
-  12,R,D,J
-   2,R,K,G
-   1,R,J,G
-   7,L,J,G
-   2,R,J
-   1,L,J
-   2,R,K,G
-   1,L,K,G
+   5
+  12,J
    1,R,K,G
-   3,L,K,G
-   1,R,K
-  11,J,G
-#close to dashing a frame earlier
+   7,L,K,G
+   2,R,K
+   1,L,K
+   2,R,J,G
+   1,L,J,G
+   1,R,J,G
+   3,L,J,G
+   1,R,J
+  15,K,G
+#keeping constant 105 would save a frame
   64,R,X
    4,R,J
    1,R,K
@@ -372,19 +367,16 @@ console load nameguysdsidespack/0/2-Oldsite
    1,R,J,G
    9,R
    1,R,J
-   5,R,D,X
+   1,R
   40
 
 #lvl_c-02
-   3,R,D,X
-   1,R,J
-  28,R,D
-   4,R
-   1,R,J
+  30,R,D
+   5,R,D
+   2,R,J
    1,R
    5,R,J
    1,R
-   1,R,J
   15,U,X
   18,L,J
    5,K
@@ -566,4 +558,4 @@ console load nameguysdsidespack/0/2-Oldsite
   42,R,D,X
    7,L,J
 
-ChapterTime: 1:16.211(4483)
+ChapterTime: 1:16.058(4474)
