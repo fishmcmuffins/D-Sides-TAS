@@ -1,4 +1,4 @@
-RecordCount: 151
+RecordCount: 483
 
 #Created by dahlukeh and gnommis
 console load nameguysdsidespack/0/6-ReflectionD
@@ -13,7 +13,6 @@ console load nameguysdsidespack/0/6-ReflectionD
 #play,midboss
 
 #Start
-
 #a-00-intro
   15,U,X
    3
@@ -59,6 +58,7 @@ console load nameguysdsidespack/0/6-ReflectionD
   18,R,U,X
   14,U,C
   40
+
 #a-02
    4,R
   18,R,J
@@ -142,7 +142,6 @@ console load nameguysdsidespack/0/6-ReflectionD
   12,L,K
    3,L,J,G
   40
-
 
 #a-03
    6,L
@@ -248,6 +247,7 @@ console load nameguysdsidespack/0/6-ReflectionD
    4,D,X
    8,R,U,X
   40
+
 #a-05
    7
    5,R
@@ -273,6 +273,7 @@ console load nameguysdsidespack/0/6-ReflectionD
    1,R,J
    4,R
   40
+
 #a-06
    1,R
    2
@@ -431,78 +432,70 @@ console load nameguysdsidespack/0/6-ReflectionD
    4,R
    5,R,D,X
   40
+
 #a-10
-  10,R,D
-  11,D
+   2,R
+   1,R,J
+   1,R
+   3,R,J
+  11,L,D
   15,L,D,X
    1,L,J,G
-   1,K,G
-  15,J,G
-   3,R,J
+   1
+   1,L,K,G
+   3,R,K
+   1,K
+   2,R,K
+  12,K
    2,R
-   6,R,D
-   8,L,D
-   4,D
-   2,L,D
-   4,D
-  15,L,U,G
-  12,L,D,G
-   7,L,G
-   6,L,D,G
+   5,R,D
+  12,D
+  10,L,G
+  10,D,G
+   2,G
+  22,U,G
+   2,G
    1,L,J,G
    1,L,K,G
-   4,L,J,G
-   8,R,J
-   7,R
-   1,R,J
-   2,R
-   1
-  15,R
-   1,R,D
-  12,R,J,G
-   5,R
-   5,R,K,G
-   1,R
-   5,R,J,G
-   1,R
+   1,L,J,G
+  25,R,J
+  17,R
+   1,J
+  13,R,U,X
    3,R,J,G
    7,R
-   4,D,X
-   1,L,X
    1,R,J
-   6,R
-   1,R,J
-  12,R,K,G
-   3,R,J,G
-   2,R
-   2,R,J,G
+   8,R,U,X
+   6,R,J,G
+   2,R,K,G
    1,R
-
   40
+
 #a-11
    5,R
-   4,R,J
+   2,R,J
    2,R,K,G
-  10,R,J,G
-  19,R
-  15,R,X
+  11,R,J,G
+  23,R
+   5,D,X
   13,R,D
-  50,R,D
+  37,R,D
    4,D,X
   11,R,X
-   4
-   8,R
-  50,R,D
-   4
+  11
+  46,R,D
+   8,D
   15,R,X
    5
-   2,R
+   1,R
+   3
+   1,R
    3
   39,R
   10,R,U,X
-  17,R
-  13,R,U,X
-   1,R,J,G
+  16,R
+  14,R,U,X
+   7,R,J,G
    7,R
    4,R,D,X
    2,R,J
@@ -510,6 +503,7 @@ console load nameguysdsidespack/0/6-ReflectionD
    1,R,K,G
    9,R
   40
+
 #a-12
    1,R
    3,R,D,J
@@ -598,7 +592,6 @@ console load nameguysdsidespack/0/6-ReflectionD
    1,R,K
    1,R,J,G
    7,R
-
   40
 
 #b-00
@@ -1524,11 +1517,8 @@ console load nameguysdsidespack/0/6-ReflectionD
    2,J
    2,K
    2,J
-
   38,D
    3,J
-
-
    2,K
    2,J
    2,K
@@ -3155,4 +3145,4 @@ console load nameguysdsidespack/0/6-ReflectionD
   52,R,D,C
   38,L,U,X
 
-ChapterTime: 8:29.150(29950)
+ChapterTime: 8:28.453(29909)
