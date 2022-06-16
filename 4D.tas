@@ -1,4 +1,4 @@
-RecordCount: 429
+RecordCount: 565
 
 console load nameguysdsidespack/0/4-Ridge
    1
@@ -32,23 +32,29 @@ console load nameguysdsidespack/0/4-Ridge
    1,R,J
    2,R
    8,R,D,X
-  19,R,J,G
-  15,R,U,Z
+   3,R,J,G
+  30,R,D
+   3,R,D
    4,R
-   5,R,J,G
-   1,K,G
-   4,R
-   2
-   1,L
-   2,L,J
-   2,J
-  14,R,Z
-   7,R,J
-  16,R,D
-   5,R
-  14,R,Z
+   1,D,X
+  11,R,X
+  11,R,U,C
+   2,R,J,G
+  15,R,D,X
+   5,R,D
+  15,U,X
+  14,R
+  15,R,U,X
+  13,R
+   2,R,J,G
+   3,R
+   1,R,J,G
+   7,R
+   4,Z
+   2,R,J
+   8,R
    1,R,J
-  12,R,D,X
+   4,Z
    1,R,J
    1,R
   40
@@ -801,7 +807,7 @@ console load nameguysdsidespack/0/4-Ridge
   21,R,J
    2,R
    3
-   4,D,Z
+   4,Z
    1,R,J
    6,R
    7,R,J
@@ -810,6 +816,7 @@ console load nameguysdsidespack/0/4-Ridge
   40
 
 #lvl_c-01n
+
    7,R,J
    3,R
   15,R,D,X
@@ -817,14 +824,15 @@ console load nameguysdsidespack/0/4-Ridge
    9,R,J
    3,R
   15,R,D,X
-  13,R
-   4,R,J,G
+  12,R
+   5,R,J,G
   18,R,D,X
-  24,R,D,C
-   8,R,J
-  27,R
+  15,R,D,C
+   9,R,D
+   9,R,J
+  26,R
   14,R,U,X
-  33,R
+  34,R
   14,R,Z
    1,R,J
   14,R,D,X
@@ -970,14 +978,15 @@ console load nameguysdsidespack/0/4-Ridge
   10,K,G
    1,L,K
    1,R,K
-  28,R,G
-  11,R,J,G
-   2,R,K,G
-   4,R
-   8
-   1,R
-  37,R,J
-  37,R,J
+  32,R,G
+  11,J,G
+   2,K,G
+   7,R
+   2
+   1,R,K
+   3
+  41,R,J
+  33,R,J
   10,K,G
    2,L,K
   12,R,J,G
@@ -995,7 +1004,7 @@ console load nameguysdsidespack/0/4-Ridge
   10,J,G
    1,L,J
    1,L
-   3,R,K,G
+   4,R,K,G
    7,R
    2,R,J
   10,R,Z
@@ -1295,4 +1304,4 @@ console load nameguysdsidespack/0/4-Ridge
    8,R,K,G
    1,R,J,G
   64,R,K,G
-ChapterTime: 3:09.873(11169)
+ChapterTime: 3:10.672(11216)
