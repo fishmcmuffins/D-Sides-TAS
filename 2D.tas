@@ -1,4 +1,4 @@
-RecordCount: 2494
+RecordCount: 2617
 
 console load nameguysdsidespack/0/2-Oldsite
    1
@@ -40,32 +40,31 @@ console load nameguysdsidespack/0/2-Oldsite
 #lvl_a-03
    4,R
    1,R,J,G
-  12,R,K,G
-  26,R,Z
+   5,R,K,G
+   1,R
+  30,R,Z
    4,R,J
-  13,R,K
-  15,U,X
-   3,R
-   1,R,K,G
+  11,R,K
+   6,R
+   1,R,K
+   1,J
+  16,K
+   1,J,G
+   2,L,J
+  15,R,K,G
    1,R,J,G
    5,R,K,G
-   5,R
-   2,R,K
-  10,R
-  21,R,J
-  18,R
-   1,R,J,G
-  15,R
-   1,R,J
-  13,L,D,X
-   4,R,G
-   2,R,J,G
-  26,R,X
+   8,R
+   1,R,K
+  17,R,D
+  40,R,X
    4,R,J
-   2,R,K
-  13,R,X
-   1,R,K,G
-  33,R,D
+   1,R,K
+  14,R,X
+   1,R,J,G
+  28,R,D
+   3,D
+   2
   21,R,Z
    7,R,J
   15,R,K
@@ -581,4 +580,4 @@ console load nameguysdsidespack/0/2-Oldsite
   42,R,D,X
    7,L,J
 
-ChapterTime: 1:17.367(4551)
+ChapterTime: 1:16.959(4527)
