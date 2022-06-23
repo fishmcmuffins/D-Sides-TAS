@@ -5,7 +5,7 @@
 
 Read,StartFullGameFile
 
-Read,0D.tas,Start
+Read,0 - Prologue.tas,Start
 
 Read,Load1D
 
