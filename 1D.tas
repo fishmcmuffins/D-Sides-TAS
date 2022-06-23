@@ -1,46 +1,43 @@
-RecordCount: 88
+RecordCount: 584
 
 console load nameguysdsidespack/0/1-City
    1
 
 #Start
-  33
-
 #lvl_a-01
   10,R,D,X
    3,R,J
    3,R,K,G
   14,R,U,Z
    4,R,J,G
-   3,R,D
+   3,R
    3,R,J
    1,K
    7,L,J,G
    4,L
   10,R,U,X
-   1,R,K,G
-   2
-  20,R,D
-   2,R
-   4,R,D
-   1,R
-   2,R,D
-   1,R,J
-   2,R
-  14,R,U,Z
-   5,R,J,G
-   6,L,D
-   8,L
-   3,R,D
-   3,R
-   2,R,D
-   1,R
-  14,R,J
+   1,R,J,G
+   4,R
+  15,R,D,X
+   5,R,D
+   6,R,D,J
+   1,L,K,G
    4,R,K
+   1,K
+   1,R,J,G
+   2,J
+   1,R,J
+   3,J
+   5
+  15,R,D,X
+   5,R,J
+   1,L,J
+   5,K,G
+   4,R,K
+  13,U,X
+  14,J
    4,R,J
-  14,U,X
-  14,K
-   6,R,K
+   2,J
   40
  
 #lvl_a-02
@@ -52,67 +49,72 @@ console load nameguysdsidespack/0/1-City
    1,R,J
    6,R
    4,R,J
-  29,R,U,G
+   7,R
+  22,U,G
    1,R,G
    1,J,G
   11,R,U,Z
-   1,R,K,G
-   1,R,K
-   2,K
+   1,R,J,G
+   1,R,J
+   2,J
    5
-   1,K
-   1,L,K
+   1,J
+   1,L,J
    5,J,G
    2,R,J
    1,R
-   3,R,K,G
+   3,R,J,G
   11
    2,R
-  19,R,K
-   8,R
+  12,R,J
+   9,R
+   2,R,J
+   4,R
    1,R,J,G
-   8,R
-   6,R,Z
-   1,R,J
    7,R
+   4,Z
    1,R,J
-   5,R,D,X
+   6,R
+   1,R,J
+   5,R
   40
- 
+
 #lvl_a-03
-   1,R,J
   25,R,D
    1,R,J
   13,R
   14,R,U,Z
    1,J,G
   14,R
-  20,D
-   1,R,D
-   2,R
+  11,D
+   2,L,D
+   5,D
+   5,R,D
    1,D
-   1,R,D
-   2,R,J
-  14,R
-   1,R,K,G
-  25,R,J,G
-  11,K,G
-   1,L,K
-  11,J,G
-  12,L,K
-   7,J,G
    1,R,J
-   6,K
-  12,R,J
-   4,R,K,G
+   9,R
+   1,R,J
+   5,R
+   1,R,J,G
+  25,R,K,G
+  11,J,G
+   1,L,J
+  11,K,G
+  12,L,J
+   7,K,G
+   1,R,K
+   6,J
+  12,R,K
+   4,R,J,G
   40
  
 #lvl_a-04
   11,R
-   4,R,D,X
+   4,Z
    1,R,J
-  15,R,D,G
-  24,R,U,G
+   5,R
+  10,D,G
+  24,U,G
    3,J,G
    1,L,J
    1,R,K
@@ -120,7 +122,8 @@ console load nameguysdsidespack/0/1-City
   11,U,X
    1,J
    1,K
-   8,R,G
+   7,R
+   1,G
    1
    5,J
    8,R,U,G
@@ -132,23 +135,23 @@ console load nameguysdsidespack/0/1-City
    1,R,J,G
    1,R,K,G
    1,R,J,G
-   8,R
-  17,R,D
+  24,R,D
    2,R
    1,R,D
-   6,R
-   7,L,K
-   8,R,J
-   7,L,K
-   2,J
-   2,K
-   2,J
-  11,K
-   1
-   1,R,J
    1,R
-   6,R,J
-   1,R
+   1,R,D
+   5,R
+   1,J
+   6,L,J
+   1,K
+   6,R,K
+   2,J
+   3,L,J
+   5,J
+   3,K
+  12,L,J
+   2,R,K
+   7,R
    5,R,D,X
    2,R,J
    3,R,K,G
@@ -158,12 +161,14 @@ console load nameguysdsidespack/0/1-City
  
 #lvl_a-05
   29,R,D
-  21,R
-   2,R,J
-   5,R
+  20,R
+   1,L
+   2,J,G
+   6,R
   14,R,X
    1,R,J,G
-  47,R,U,G
+   9,R
+  38,U,G
    3,R,J,G
   40
  
@@ -171,22 +176,28 @@ console load nameguysdsidespack/0/1-City
   11,R
    8,R,D,X
    1,R,J
-   5,R,G
-   4,L
-  10,L,Z
+   2,R
+   1,R,J
+   1,R
+   1,G
+   5
+   5,L,D,X
    1,R,J
    7,R
-   3,R,J
-  18,R,K,G
-  11,U,Z
-   2,J
-  11,R,J
+   1,R,D,J
    1,R,K,G
-   1,R,J,G
-   2
-  12,R
-   2,L,D
-  12,R,D
+   5,R,J,G
+  14,R,K,G
+  10,U,X
+  13,R,J
+   2,R,K,G
+   5,R
+   2,R,K
+   6,R
+   4
+   1,L,D
+   8,R,D
+   4,R
    1,R,J
    6,R
    2
@@ -286,80 +297,80 @@ console load nameguysdsidespack/0/1-City
    7,R,G
   22,R,J,G
    5,R,D
-   3,D
-  15,R,D
+   2,D
+  11,R,D
+   1,D
+   4,R,D
   11,R
   15,R,U,Z
-   8,R
-   3
-  12,R,J,G
-   3,R,K,G
-   5,R
-   1,R,K
-   3,R
-   4
-   1,R
+  11,R
+   1,J
+  13,R,K,G
+   1,R,J,G
+  13,R
    5,R,J
    8,R
    1,R,J
-  19,R,D
+   8,R,D
+   5,D
+   8,R,D
+   1,D
+   1,R,D
    1,R
-   1
-   2,R
-   1,R,K,G
-  17,R,D
-   4,R
-  14,R,X
-   1,L,J
-  21,L,U,G
-   7,L,G
-   1,J,G
-   1,L,K,G
-   1,L,J,G
-  14,R,U,X
-   1,J,G
+   1,R,D
+   1,R,J,G
+   4,R,K,G
+  20,R,U,G
+  21,R,G
+   1,R,J,G
+   8,R,U,X
+   8,R,K,G
+   5,R
    3,R,J
   40
  
 #lvl_b-02
-  18,R,U,X
-   3,R
-   4,R,J,G
-   4,R
-  15,R,D,C
-   3,R,D
-   4,R
-  15,R,U,Z
-  14,R,U,C
-   1,R,J,G
-   7,R
-   4,R,D,X
    1,R,J
+  14,R,U,X
+  15,R,K,G
+   1,J,G
    5,R
+   1,L
+  34,R,D
+  15,R,U,X
+  15,U,C
+   5,R
+   5
+   4,R,Z
+   1,R,J
+   4,R
   40
  
 #lvl_b-03
-   2,R
-   5,R,J
-  17,R,G
+   3,R
+   4,R,J
+  14,R,G
+   1
+   1,K
    1,R,J,G
-   2,L,J
-   2,L
-   7,R
+  15,R
    1,R,J,G
    1,R,K,G
-  17,R
+   5,R
+   1,R,J
+  11,R
+  14,D
+   4,R,D
+   5,R,J
+  27,R
    2,R,D
-  13,D
-   2
-   2,R
-   6,R,J
-  28,R,G
-  10,R,D
-  16,R,U,Z
+   2,R,G
+   2,R,D
+   7,R
+  15,R,U,Z
    1,L
-   5,J,G
-  22,R,J
+   7,K,G
+  20,R,K
   15,U,Z
   18,R,J
   11,R,K,G
@@ -616,4 +627,5 @@ console load nameguysdsidespack/0/1-City
   31,L
    1,L,J
   72,L,D,X
-ChapterTime: 1:08.136(4008)
+
+ChapterTime: 1:07.898(3994)

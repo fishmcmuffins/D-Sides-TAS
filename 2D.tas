@@ -1,4 +1,4 @@
-RecordCount: 2359
+RecordCount: 2841
 
 console load nameguysdsidespack/0/2-Oldsite
    1
@@ -25,46 +25,50 @@ console load nameguysdsidespack/0/2-Oldsite
   19,R,X
    4,R,J
    7,R,Z
-  27,R,J
-  15,U,X
+   9,R,J
+   4,R
+   1,R,J
    3,R
-   1
-  18,J
-   7,L,K,G
+   5
+  15,U,X
+   1,L
+  18,R,J
+   2,R,K,G
    1,J
-   1,K,G
-   1,R,K
+  11,L,J
+   1,K
+   1,J,G
+   1,R,J
   40
 
 #lvl_a-03
    4,R
    1,R,J,G
-  12,R,K,G
-  26,R,Z
+   5,R,K,G
+   1,R
+  30,R,Z
    4,R,J
-  13,R,K
-  15,U,X
-   3,R
-   1,R,K,G
+  11,R,K
+   6,R
+   1,R,K
+   1,J
+  16,K
+   1,J,G
+   2,L,J
+  15,R,K,G
    1,R,J,G
    5,R,K,G
-   5,R
-   2,R,K
-  10,R
-  21,R,J
-  18,R
-   1,R,J,G
-  15,R
-   1,R,J
-  13,L,D,X
-   4,R,G
-   2,R,K,G
-  26,R,X
+   8,R
+   1,R,K
+  17,R,D
+  40,R,X
    4,R,J
-   2,R,K
-  13,R,X
-   1,R,K,G
-  33,R,D
+   1,R,K
+  14,R,X
+   1,R,J,G
+  28,R,D
+   3,D
+   2
   21,R,Z
    7,R,J
   15,R,K
@@ -171,13 +175,13 @@ console load nameguysdsidespack/0/2-Oldsite
    1,R,J
    5,R
   15,D,X
-  14,R,D
+  13,R,D
   16,R,X
    4,R,J
-   7,R,Z
+   5,R,Z
    1,R,J
-   8,R
-  10,R,K,G
+  11,R
+   9,R,J,G
   24,U,Z
    8,L
    3,L,J,G
@@ -272,8 +276,9 @@ console load nameguysdsidespack/0/2-Oldsite
   21,R,X
    4,R,J
    1,R,K
-   6
-  21,R,D
+   4
+  17,R,D
+   5,D
   28,R,X
    5,R,J
   13,R,K
@@ -350,17 +355,17 @@ console load nameguysdsidespack/0/2-Oldsite
   11,R
   16,R,U,X
    4,R
-   5,J
-  19,R,U,Z
+   3,J
+  20,R,U,Z
    4,R,J
-   1,R,K
+   2,R,K
    5,R
-   3,R,K
-  13,R
-   3,R,D
-   1,R
-   2,R,D
-   1,R
+   1,R,K
+   3,R
+   1,R,K
+  13,R,D
+   3,R
+   1,R,D
   19,R,Z
    4,R,J
    8,R,U,X
@@ -387,26 +392,28 @@ console load nameguysdsidespack/0/2-Oldsite
    5,J
    9,K
    1,R,K
-   3,J
-   1,K
-   2,J,G
-  14,L,J
-  11,K,G
-   1,R,K
-  14,J
-  12,L,K,G
+   4,J
+   6,R,K,G
+   4,K
+   3,R,K
    1,J,G
-  10,L,J,G
+  11,R,J
+   9,K,G
+   2,L,K
+  12,L,J
+   6,K,G
+   1,J,G
+  10,L,J
    1,R,J
   12,R,K
   11,J,G
    1,L,J
   11,K,G
    1,R,K
-   8,J,G
+   6,J,G
    1,L
-   7,J
-   2
+   8,J
+   1
    1,J
    2,K,G
   14,R,K
@@ -542,28 +549,33 @@ console load nameguysdsidespack/0/2-Oldsite
    7,R
    1,R,J
    2
-   8,G
+  11,G
    1,D,G
    1,G
-   2,D,G
-   1,G
+   3,D,G
    4,J,G
    1,K
    2,J,G
-  24,L,J
+  19,L,J
    2,J
-  14,L,Z
-   1,L,J
-  10,L
-  11,L,U,X
-   3,L,J,G
-  16,L
    1
-  11,L
+   1,J
+   1,L
+   4,Z
+   1,L,J
+   6,L
+   7,L,J
+   2,L
+  14,L,X
+   2,L,J,G
+   3,L
+   1
+  18,L
+   4,L,D
+   1,L
    1,L,J,G
   17,L
-   1,L,J
-  14,L,X
+  13,L,X
   36,L
    4,R,Z
    2,R,J
@@ -575,4 +587,4 @@ console load nameguysdsidespack/0/2-Oldsite
   42,R,D,X
    7,L,J
 
-ChapterTime: 1:17.452(4556)
+ChapterTime: 1:16.857(4521)
