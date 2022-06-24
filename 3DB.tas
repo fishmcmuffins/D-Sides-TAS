@@ -1,6 +1,6 @@
 #Created by amber, synced by Vasher
 
-RecordCount: 81
+RecordCount: 98
 
 console hard nameguysdsidespack/0/3-Resort
    1
@@ -44,22 +44,22 @@ console hard nameguysdsidespack/0/3-Resort
    4,J,G
    5,L,J
    2,R,K
-   4,R,J
-  17,R,D
-   4,D
+   6,R,J
+   4,R,D
+   3
+  10,R,D
+   8,D
   12,R,K
   27,R
    1,R,K,G
    5,R,J,G
   17,R
    2,R,J
-  14,R
-  16,R,X
-   1,R,K,G
-   2,L,K
-   1,R,K
+   5,R,J
    7,R
-   4,D,X
+  16,R,X
+   1
+   4,R,D,X
   10,R,X
    1,L,J
    4,D,X
@@ -1637,5 +1637,4 @@ console hard nameguysdsidespack/0/3-Resort
   15,U,X
  137,L,D
    1,R
-
-ChapterTime: 3:51.948(13644)
+ChapterTime: 3:51.846(13638)
