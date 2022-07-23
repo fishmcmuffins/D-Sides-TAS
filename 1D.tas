@@ -1,4 +1,4 @@
-RecordCount: 585
+RecordCount: 1327
 
 console load nameguysdsidespack/0/1-City
    1
@@ -209,12 +209,17 @@ console load nameguysdsidespack/0/1-City
    6,R
    2
    2,R
-   5
-   6,L
-   5,L,J,G
-   6,L
-  15,R,D
-  14,R,Z
+   6
+   5,L
+   1,G
+   1,L,J,G
+  10,L
+   8,R,D
+   4,R
+   6,R,X
+   2,R,J,G
+   7,R
+   4,Z
    3,R,J
   40
  
@@ -222,56 +227,67 @@ console load nameguysdsidespack/0/1-City
    2,R,J
    2,R
    6,J
-   8,L,G
+   7,L
+   1,G
    1
    1,J
   14,L,J
-  14,L,U,G
-   1
-   6,J
-  21,R,K
-   1,J,G
-   1,L,J
-   1,L,K
-  14,L,J
-   1,R,K,G
-   8,R,G
-   1
-   1,J
-   9,R,J
-  17,R,J
-   1
-   1,J
-   1,R,K,G
-   3,J,G
-   1,L,J
-   9,J
-   9,K,G
-   2,R,K
-   3,K
-   1,J
-   2,L,J
-   2,R,J
-   1,R,K
-  29,R,J
-   6,R,K
-  18,R
-   5,R,J
-   5,R
+   4
+   8,G
+   6,J,G
    1,R,J
-  13,R
+   1,L,J
+   1,K
+  11,J,G
+   4,R,J
+   1,K,G
+   1,L,K
+   1,L,K
+   1,J
+   9,L,J
+   1,J
+   8
+   1,R,G
+   4,G
+   3,J,G
+   1,J
+   1,J
+   5,J
+   1,L,J
+   2,R,J
+   1,L,J
+   2,R,J
+   1,K
+   1,J,G
+   9,K,G
+   2,L,J
+   1,R,J
+   5,K,G
+   1,L,K
+   6,K
+  11,J,G
+   1,R,J
+   1,L,J
+   2,K,G
+  27,R,K
+   6,R,J
+  18,R
+   4,R,J
+   5,R
+   2,R,J
+  12,R
   14,R,Z
-   1,R,K,G
+   1,R,J,G
   18,R
    1,L
    7,K,G
    5,R,K
    4,R,J,G
    7,R
-   4,D,Z
+   4,Z
    3,R,J
   40
- 
+
 #lvl_b-01
    4,R,J
    4,R
@@ -384,48 +400,59 @@ console load nameguysdsidespack/0/1-City
   40
 
 #lvl_b-04
-   5
-   5,R,J,G
-   7,J
-  16,U,X
+   5,J,G
+   1
+   3,R,J,G
+   6,J
+   3,R,J
+  15,U,X
    7,L,J
    9,R,J
    1,R,K,G
    7,R
-   4,R,J
-   4,R,K,G
-  24,R
-  12,R,D
-  10,L,D
-   4,R,D
-   4,R
-   1,R,J,G
+   1,R,J
+   1,J
+   1,R,J
    1,R,K,G
-  22,R,G
-   4,R,D,G
-  10,R,U,G
-   1,J,G
+   2,R,J,G
+  30,R,D
+   1,L,D
+   1,R,D
+  10,L,D
+   2,D
+   1,R,D
+   6,R
+   1,R,J,G
+   5,R
    3,R,J
+   3,R
+  25,G
+   2,D,G
+   1,J,G
+   2,R,J
+   1,J,G
    1,L,J
    1,K
   13,R,U,Z
-   1,K,G
+   1,J,G
    6,R
    1,L
-   9,L,J
+   7,L,J
+   2,L
    9,U,X
    7,R,J
    4,R
-   1,R,K,G
+   2,R,J,G
+   7,R
+  22,D
+   1,L,D
+   1,D
+   2,L,D
+   2,D
    9,R,D
-  18,D
-   3
-   1,L
-   4,L,D
-  10,R,D
   13,R,X
   40
- 
+
 #lvl_b-05
    2,R
   15,R,X
@@ -635,4 +662,4 @@ console load nameguysdsidespack/0/1-City
    1,L,J
   72,L,D,X
 
-ChapterTime: 1:07.864(3992)
+ChapterTime: 1:07.541(3973)
