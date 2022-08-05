@@ -1,4 +1,4 @@
-RecordCount: 698
+RecordCount: 712
 
 console hard nameguysdsidespack/0/1-City
    1
@@ -459,58 +459,56 @@ console hard nameguysdsidespack/0/1-City
   10,R
    6,R,D
    4,L,D
-   1,L,G
-   3,L
-   1,R
+   3,L,G
    1,L
    1,R
    1,L
-   2,R
-   1,K
-   6
-   1,K
-   1,R,K
-   5,R
+   1,R
+   1,L
+   1,R
+   2,J
+   6,R
+   4
+   2,J
    3
-   1,R
-   7
-   1,L,J,G
-   1,L
-   1,L,K,G
-   5,J,G
-   1,R,J
+   8,R
+   3
    1,J
-   1
-   8,R,K
-  11,R
-   1,R,J,G
-   7,R
+   2,L,K,G
+   2,K,G
+  16,R,K
+   2,J,G
+   6,R,K,G
   40
 
 #lvl_b-02
-   6,R
-  11,R,J
-   3,R
-  12,R,K,G
-   6,R
+  11,K
+   1
+   2,K
    1,R,K
-   4,R
-  18,D
-   3,R,D
-   1,R
+   1
+  12,R,K,G
+   5,R,D
+   6,D
    1,R,D
+  12,D
+   4
+   1,R,D
+   1,D
+   4,R,D
+   1,R
    1,R,J,G
-   7,R,K,G
-  35,R
-   2,R,J,G
+   9,R,K,G
+  33,R
+   1,R,J,G
    2,L,J
    2,R,J
    1,R
    1,R,K,G
    1,R,J,G
-  13,R
+  10,R
    1,R,J
-   6,R
+  11,R
   40
 
 #lvl_b-03
@@ -906,4 +904,4 @@ Repeat,11
    1,R,K
    1,R,J
 EndRepeat
-ChapterTime: 1:28.604(5212)
+ChapterTime: 1:28.451(5203)
