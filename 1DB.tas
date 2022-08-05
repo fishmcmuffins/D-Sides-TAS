@@ -1,4 +1,4 @@
-RecordCount: 670
+RecordCount: 698
 
 console hard nameguysdsidespack/0/1-City
    1
@@ -80,7 +80,7 @@ console hard nameguysdsidespack/0/1-City
    1,J,G
    1,K,G
    2,R,K
-   8,K,G
+   8,K
    1,R,J,G
   35,R
    6,R,J
@@ -149,17 +149,18 @@ console hard nameguysdsidespack/0/1-City
    2,R,K
   12,R,J
    1,K
-  12,R,J,G
-  12,L,K,G
-   1,L
-   4,R,J,G
-   1,R
+   7,R,J,G
+   4,L,J,G
+  11,L,K
+   8,R,J
   40
 
 #lvl_a-04
-  11,R
+   7,R
    1,R,J,G
-  13,R
+   1,R,K,G
+   1,R
+  10,R
    1,R,J
    4,R
   15,R,G
@@ -905,4 +906,4 @@ Repeat,11
    1,R,K
    1,R,J
 EndRepeat
-ChapterTime: 1:28.689(5217)
+ChapterTime: 1:28.604(5212)
