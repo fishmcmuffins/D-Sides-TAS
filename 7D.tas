@@ -1,4 +1,4 @@
-RecordCount: 15390
+RecordCount: 15670
 
 #Created by dahlukeh, Fishmcmuffins and Euni
 
@@ -28,7 +28,7 @@ console load nameguysdsidespack/0/7-Summit
   80
 
 #GLOBAL SPINNER CYCLE FRAMES
-   1
+   0
 
 #lvl_a-00
    4,Z
@@ -768,7 +768,7 @@ console load nameguysdsidespack/0/7-Summit
    8,R,D,X
    2,R,J
   15,R,U,Z
-  18,U,V
+  18,U,X
   11,R
   15,R,D,X
    1,R
@@ -837,17 +837,15 @@ console load nameguysdsidespack/0/7-Summit
    1,G
    1,R,J,G
   19,R,D
-   6,L,D
-  15,R,X
-  23,U,C
-   4,L
-  18,R,D,X
-   7,R
+   5,R,D
+  15,R,Z
+  22,U,X
+  25,R,D,C
    4,Z
-   4,R,J
+   1,R,J
    1,R
-  16,R,J
-  26,R,U,Z
+  18,R,J
+  27,R,U,Z
    6
    1,R,K
    2,K
@@ -867,6 +865,7 @@ console load nameguysdsidespack/0/7-Summit
    2,R,K,G
    1,J
   40
+
 
 #lvl_c-03
    1,R
@@ -2039,11 +2038,15 @@ endrepeat
    1,R,K,G
   15,R,U,X
    9,R
-  10,G
-  29,U,G
-  16
-  29,U
-  34
+   1,G
+  18,L,D
+   1,N
+   4,J
+  15,U,X
+   3,R
+   8
+  39,U
+  32
   30,U
   12,L,J
   15,L,X
@@ -2105,16 +2108,12 @@ endrepeat
   40
 
 #lvl_f-01
-  71
-
 #2500m
-   5,R,X
-   1,R,J
-   1,J
-   5,R,J
-   1,R
-  11,J,G
-   7,K,G
+   8,R
+   4
+  10,R,X
+  12,R,J,G
+   8,K,G
    2,L,K
   15,R,J,G
    1,R,K,G
@@ -2122,13 +2121,21 @@ endrepeat
   11,R
    1,R,J
    5,R
-   2,R,J
-   3,R
+   3,R,J
+   1,R
+   1,R,J
+   1,R
    7
    1,R
-   3
-   8,R
-   3,R,D
+   2
+   2,R
+   1
+   2,R
+   1,R,D
+   2,R
+   1,R,D
+   2,R
+   1,R,D
    4,X
    4,R,G
    1,R,J,G
@@ -3878,17 +3885,27 @@ endrepeat
    1,D,X
   14,R,X
    3,R
-  10,U,X
-  35,L,J
-  12,R,K
-   3,J,G
-   3,L,J
-   1,R,J
+  11,U,X
+  18,L,K
+   1,R,K
+   6,J,G
+   1,L,J
    1,K
-   2,J,G
-  19,L,J
-   8,K,G
-   2,R,K
+  19,R,K
+   1,J
+  21,L,J
+
+#  10,U,X
+#  35,L,J
+#  12,R,K
+#   3,J,G
+#   3,L,J
+#   1,R,J
+#   1,K
+#   2,J,G
+#  19,L,J
+   4,K,G
+   3,R,K
    1,L,K
    1,J
    2,K,G
@@ -4384,4 +4401,4 @@ endrepeat
   15,R,U,X
  127,R
 
-ChapterTime: 10:41.954(37762)
+ChapterTime: 10:40.662(37686)
