@@ -1,4 +1,4 @@
-RecordCount: 20461
+RecordCount: 21383
 
 #Created by dahlukeh, Fishmcmuffins and Euni
 
@@ -19,6 +19,9 @@ RecordCount: 20461
 
 #console load nameguysdsidespack/0/7-Summit 27776 -18968
 #play,3000m,37
+
+#console load nameguysdsidespack/0/7-Summit 27696 -24312
+#play,no-wind,37
 
 console load nameguysdsidespack/0/7-Summit
    1
@@ -337,9 +340,6 @@ console load nameguysdsidespack/0/7-Summit
    9
   15,R,U,X
    8,R,C
-
-
-#2395
   38
   15,U,X
    2,L
@@ -465,59 +465,61 @@ console load nameguysdsidespack/0/7-Summit
    1,R,J
    1,R
    1,R,J
-  28,R
-   1,R,D
-   1,R
-   2,R,D
+  27,R
+   4,R,D
    1,R
   15,R,X
-   7,R
+   8,R
   14,R,X
-   2,R,J,G
-   2,R
-  12,R,K,G
-   6,R
+   4,R,J,G
+  11,R,K,G
+   5,R
+   1,R,K
    3,R,J,G
   10,L,J,G
-   5,K,G
-  10,R,K
+   4,K,G
+  11,R,K
    8,J,G
    1
-   4,K
+   4,J
   27,R,D
    1
    1,G
-   1,R,J,G
+   1
+   1,G
+   1,R
+   4,R,J
   22,R,D
-   3,R
-   1
+   1,R
    1,D
-   1
+   1,R
    8,R,X
    1,J,G
   17,R
-   3,R,J,G
-   9,R
-  32,U,G
    1,R,J,G
-  15,R,D,X
-   2,R
+  11,R
+  13,G
+   9,D,G
+   1,J,G
+   7,R,D,X
+   1,R,J,G
+  10,R
    2,R,J
-   1,R
+   3,R
   40
 
 #lvl_b-04
-  12,R
-   8,R,U,Z
-   1,R,J,G
-   1,J
-   6
-   3,R,J
-   3,R
-   1,K,G
+   2,R
+   2
+   4,R,D
+   6,R,J
    7,R
-   1,L
-   6
+   1,R,J
+   1,R
+   1,J,G
+   4
+   3,L
+   7
    9,R
   15,R,Z
    3,R
@@ -526,13 +528,14 @@ console load nameguysdsidespack/0/7-Summit
    5
    1,J
    2
-  10,L,J,G
-   5,L
-   1,J,G
-   2
-   5,R
-   2,R
-   4
+  11,L,J,G
+   1,K
+   1,L,J,G
+   7,L
+   1,L,J
+   2,L
+   1,R
+   3
   11,R
    5,R,X
    1,R,J,G
@@ -544,17 +547,14 @@ console load nameguysdsidespack/0/7-Summit
    2,R
    1,R
   15,R,X
-   9,R,D
-  13,D
-   7,R,D
-   5,R
-   1,R,D
-   1,R
+   9,R
+  12,D
+  14,R,D
    5,R,Z
    9,R,J,G
+   7,R
+   1,R,J
    5,R
-   2,R,J
-   6,R
    4,Z
    1,R,J
    6,R
@@ -681,6 +681,7 @@ console load nameguysdsidespack/0/7-Summit
   13,K
   41
   11,R
+#+0f FNA/XNA sync
    3,R,J,G
    2,L,J
    4,R,J
@@ -1034,10 +1035,6 @@ console load nameguysdsidespack/0/7-Summit
   40
 
 #lvl_c-05
-   
-
-
-
    1,R,D,J
    9,R,D,X
    1,R,J
@@ -1062,15 +1059,11 @@ console load nameguysdsidespack/0/7-Summit
   39
   15,D,X
   30,R,C
- 
    4,R,J
    2,R,K
   15,U,X
   15,U,C
    1
-
-
-#180
   37
   17,U,X
    6,L
@@ -1207,7 +1200,6 @@ endrepeat
   14
    1,L
    1
-#demo is possible with slightly higher subpixel
    1,R
    3
   19,R
@@ -1255,11 +1247,13 @@ endrepeat
   15,R,Z
   15,D,X
    1,R
-  15,R,D,C
-   2,D
-   1,R
+   1
+   2,R
+   1
+  15,R,D,X
+   3,D
   15,D,X
-  14,D
+  10,D
   14,L,Z
    1,R,J
   14,R,D,X
@@ -1271,13 +1265,14 @@ endrepeat
    7,R
   15,R,U,Z
   15,R,U,X
-  14,R
-  10,D
-   1,L
-   1,R,D
-  34,D
+  13,R
    1
-   2,R
+   1,R
+   3
+   1,R
+  15,D,X
+  29,D
+   3,R
    1,R,J
   15,R,Z
   10,R,D,X
@@ -2374,7 +2369,6 @@ endrepeat
   15,D,C
   14,L,D
   10,L,D,X
- 
   31,R,C
    8,R,U,X
    1,L
@@ -2383,8 +2377,6 @@ endrepeat
    1,R
   15,R,Z
   11,R
-
-
   26,R,X
    7,U,C
    8,R,J
@@ -2511,24 +2503,33 @@ endrepeat
   12,R
    1,R,J
   11,R
-   6
-  17,R
-   8,D
-   1,L,D
-  22,D
-  20,R
-   3
-   1,R
-   2
-  17,R,D
-  15,R,U,Z
-   5,R
    1
+   5
+  17,R
+   8
+   1,L
+  16
+   6,D
+   9,R
+   3
+   3,R
+   1
+   1,R
+   1
+  21,R
+   2,R,D
+   1,R
+  15,R,U,Z
+   4,R
+   2
   15,U,X
-   3,L
+   2,L
   41
   17,L
-  40,U,G
+  38,U,G
+   1,D,G
+   1,G
+   1,D,G
    4,J,G
   18,R,K
    2,J
@@ -2585,23 +2586,24 @@ endrepeat
   12
    1,G
   12,J,G
-  11,K,G
-  10,J
-   7,R
-   2
-   1,R
-   5,G
-   4,J,G
+  10,K,G
+   1,L,K
+   8,J
+   5,R
+   1,J
+   5
+   1,J,G
+   2,L,J
+   1,R,K,G
+   2,J,G
    6
    1,L
   10,L,J
+  10,L
+  15,L,X
+   5,L
+  15,L,X
    6,L
-   1,L,J
-   4,L
-  15,L,X
-   4,L
-  15,L,X
-   3,L
  138
   12,R,U,X
    2,R,J,G
@@ -2643,11 +2645,10 @@ endrepeat
   15,L,Z
   14,U,C
  166
-  14,R,D,X
+  15,R,D,X
+   6,R,Z
    1,R,J
-   5,R,D,X
-   1,R,J
-   8,R
+   7,R
    1,R,J
   14,R,D,X
    4,R,J
@@ -3396,6 +3397,7 @@ endrepeat
 #lvl_g-03
 #CP-12
   72
+#no-wind
   15,L,J
   15,U,X
   18,U,C
@@ -3981,7 +3983,6 @@ endrepeat
   19,R,K
    1,J
   21,L,J
-
 #  10,U,X
 #  35,L,J
 #  12,R,K
@@ -4485,4 +4486,4 @@ endrepeat
   15,R,U,X
  127,R
 
-ChapterTime: 10:33.675(37275)
+ChapterTime: 10:33.369(37257)
