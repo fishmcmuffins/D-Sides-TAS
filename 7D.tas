@@ -1,4 +1,4 @@
-RecordCount: 24112
+RecordCount: 24117
 
 #Created by dahlukeh, Fishmcmuffins and Euni
 
@@ -561,21 +561,23 @@ console load nameguysdsidespack/0/7-Summit
    1,L,J
    7
    2,J
-   4
+   2
    1,L
+   2
    1,R
    1,J
    5,K,G
   15,L,U,X
    6,R,J,G
-  15,U,C
-   3,R
-   1,J,G
-   3,L,J
-  16,R,K
-   1,R,J,G
-   2,R,K,G
-   5,R
+   2,L,J
+   1,J
+   1,L,J
+   2,J
+  15,U,X
+   1,L
+  11,R,J
+   1,R,K,G
+   6,R
    2,R,J
    7,R
   23,R
@@ -4489,4 +4491,4 @@ endrepeat
   15,R,U,X
  127,R
 
-ChapterTime: 10:30.921(37113)
+ChapterTime: 10:30.819(37107)
