@@ -1,4 +1,4 @@
-RecordCount: 24117
+RecordCount: 24140
 
 #Created by dahlukeh, Fishmcmuffins and Euni
 
@@ -31,7 +31,7 @@ console load nameguysdsidespack/0/7-Summit
   80
 
 #GLOBAL SPINNER CYCLE FRAMES
-   1
+   2
 
 #lvl_a-00
    4,Z
@@ -2463,25 +2463,31 @@ endrepeat
   11,R
    1,R,J
    7,R
-   6,D
-  16,R,D
+  19,D
+   1,R,D
    2,R
+   1,R,D
+   4,J,G
+   1
+   1,R
    3
+   2,J
+   2
+   1,J
+   1
+   1,J
+   4,R
    5,R,Z
-   5,R,J
-   5,R
-  11,R,Z
-  19,U,X
-  15,R,C
-  10,R
-   4
-   4,D
-   7,R,D
-   2,R
-  13,R,Z
+   1,R,J
+   3,L,K,G
+   5
+   1,R
+  15,R,U,Z
+   9,R
+  21,D
   15,U,X
   15,R,C
-  11
+  10
    7,R,D
   12,R,Z
   21,U,X
@@ -4491,4 +4497,4 @@ endrepeat
   15,R,U,X
  127,R
 
-ChapterTime: 10:30.819(37107)
+ChapterTime: 10:30.564(37092)
