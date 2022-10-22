@@ -1,4 +1,4 @@
-RecordCount: 2806
+RecordCount: 2908
 
 #Created by dahlukeh and Fishmcmuffins
 #improvements by pansear and gnommis
@@ -826,7 +826,6 @@ endrepeat
   13,U,C
   22,R,J
   16
- 
   17,U,X
   15
   33,L,X
@@ -846,16 +845,12 @@ endrepeat
    1,J
    3,K,G
   14,L,U,X
-  31,U,C
-   8,L,U,X
-   1,R,J,G
-   7,R,K,G
-  10,R
-   1
-   1,L,J
-  15,D,X
-   5,R,D
-  20,D
+  21,U,C
+  15,U,Z
+   8,L
+   9,R,G
+  30,D
+   7,R,D
   91,U,X
   40
  
@@ -1447,7 +1442,7 @@ endrepeat
    7,L,X
  135
  
-ChapterTime: 3:34.574(12622)
+ChapterTime: 3:34.472(12616)
 
 
 
