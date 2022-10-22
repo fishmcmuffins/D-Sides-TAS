@@ -1,4 +1,4 @@
-RecordCount: 565
+RecordCount: 1006
 
 console load nameguysdsidespack/0/4-Ridge
    1
@@ -279,11 +279,14 @@ console load nameguysdsidespack/0/4-Ridge
    4,K
    6,J
    4,R,K
-   5,R,J,G
-  10,R,D
-  11,D
-   4,R,D
-  35,R
+   4,R,J,G
+  12,R,D
+  10,D
+  25,R
+   6,R,D
+   4,R
+   1,R,D
+   1,R
   14,R,X
    1,R,K,G
   19,R
@@ -325,7 +328,7 @@ console load nameguysdsidespack/0/4-Ridge
    6,L,D
   15,R,Z
   10,R
-  15,R,X
+  15,R,Z
   44,R,D
   17,R,Z
    8,L,J,G
@@ -373,17 +376,19 @@ console load nameguysdsidespack/0/4-Ridge
 
 #lvl_b-01s
    2,R,D,X
-   1,R,J
+   2,R,J
   14,R,D,X
    1,R,J
-   2,R
+   5,R,U,Z
   15,R,X
-  18,R,D
-  12,R,Z
+  13,R
+  14,R,Z
   15,R,C
   13,R,X
   10,R,J,G
-  10,R
+   5,R
+   0,R,K
+   5,R
    2,R,J
   10,R,Z
    1,R,J
@@ -863,11 +868,10 @@ console load nameguysdsidespack/0/4-Ridge
   11,L
   15,L,U,C
   19,L
-   1,L,K,G
-  13,L,G
-   3,D
-   4,R,D
-   2,R
+   1,K
+   1,R,K
+   4,R
+  13,L
   20,L,J
    7,L,K,G
   11,L,J,G
@@ -876,26 +880,35 @@ console load nameguysdsidespack/0/4-Ridge
   12,L,K,G
    6,L,J
    1,L
+  10,U,G
   11,K,G
-   3
-   4,R
+   2,R
   23,R,J
+
+
   15,U,X
    9,J
+   2,L,G
+  12,J,G
    1,K
-  24,L,K
-   1,L
-  27,L
-  19,J
+   1,J
+   4,R,J
+   7,R
+  13,L
+   1
+   4,L
+  19,L,J
    2,K,G
-   2,J,G
-   9,L,J
-   1,L
-  15,L,U,X
-  11,L,J,G
-   1,L
-   3,L,K,G
+   1,L,J,G
+   1,R,J
+  12,L,J
+  14,L,U,X
+  10,L,J,G
+   2,L
+   4,L,K,G
    7,L
+
+
    9,R,Z
    1,L,J
    6,L
@@ -1281,27 +1294,33 @@ console load nameguysdsidespack/0/4-Ridge
    1,J
   10,R,J
    7,R
-   1
-  17,R
-   3,R,D
-   1,R,J,G
-  23,R,K,G
-  14,R
    1,J
-  98,L,D
-   9,L
+  17,R
+   3,R
+  35,R,J,G
+   3,R
+   1,R,D
+   1,L,K,G
+  10,L,D
+   8,R,D
+   3,L,D
+   2,R,D
+Repeat,5
+   1,R,D
+   1,L,D
+EndRepeat
+   1,R,D
+  74,L,D
   18,L,X
-  18,L,Z
-   1,L
-  18,L,Z
-   1,L
-  18,L,Z
-   1,L
-  13,L,Z
-  30,L
-  31
+  18,L,C
+  18,L,X
+  18,L,C
+  13,L,X
+  20,L
+  38,R
+   9,R,K,G
    1,R,J,G
-   8,R,K,G
-   1,R,J,G
-  64,R,K,G
-ChapterTime: 3:10.672(11216)
+   1,R,K,G
+  65,R,J,G
+
+ChapterTime: 3:10.485(11205)
