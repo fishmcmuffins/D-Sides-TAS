@@ -1,4 +1,4 @@
-RecordCount: 25731
+RecordCount: 26096
 
 #Created by dahlukeh, Fishmcmuffins and Euni
 
@@ -31,7 +31,7 @@ console load nameguysdsidespack/0/7-Summit
   80
 
 #GLOBAL SPINNER CYCLE FRAMES
-   0
+   1
 
 #lvl_a-00
    4,Z
@@ -3389,51 +3389,63 @@ AnalogMode,Precise
   14,R,U,C
    1,R,J,G
    7,R
-  12,R,J
+   9,R,U,X
+   1,K,G
+   1
+   1,J,G
+   4
+   2,R
+   1,L
 
 #CP-11
-   1,D,X
-  13,R,X
-   2,R,J
-  14,R,D,X
-   9,R,J
+   4
+   4,Z
+   1,R,K
+   3,R,J,G
+   1,J
+   1
+   4,R
+   1,R,J
+  15,R,D,X
+  11,R,K
   15,R,D,X
    1,R
    1,R,J
-   4,R
+   5,R
+   5,R,J
+   2,R
+  15,R,D,X
+   1,R,K
+   9,R
+   1,R,K
+   6,R
+  11,R,D,J
+   5,R
    4,R,J
-  14,R,D,X
-  11,R,J
-   4,R
-  13,R,D,X
-  22,R,J
-   1,D,X
-  13,R,X
+  15,R,D,X
+   1,R,K
+   6,R
+   1
+  15,R,D,X
+   1
+  10,L,C
    1,R,J
-   1,R
-   1,R,J
-  14,R
-  15,R,X
-   7
-  19,R
-  28,R,J
-  15,R,X
-   1,D,C
-  14,R,C
-  14,R
-   1,R,J,G
-   2,L,J
-   2,J
-   2,R,J
-  12,R,K,G
-   1,K
+  12,J
+  16,R,J
+  30,R,U,X
+  27,R,Z
+   1,K,G
    3,R,K,G
-   1,R,J,G
-   7,R,K,G
+  12,R,J,G
+   2
+   2,R
+   1,R,K,G
+   7,R,J,G
    9,R
    1,R,J
    7,R
-  19,R,J
+   1,K
+  18,R,K
   22,R
 
 #CP-10
@@ -3474,97 +3486,98 @@ AnalogMode,Precise
    4,K,G
   15,U,X
    4,R
-   1,D,X
-  13,R,X
-  10,R,J
-   6,R
-  14,U,X
-  28,L,J
-   7,L
-   2,L,G
-   1,L
-   1,J
-  24,L,J
-   3,R,K
-   7,R
-   1,D,X
-  13,L,X
+
+#CP-09
+  10,R,Z
+  13,R,J
+  15,U,X
+  10,R
+   1,G
+   5
+   2,L
+   1,R
+   6,K,G
+   1,R,K
+   1,K
+   2,R,K
+   1,L,K
+   1,R,K
+  13,R,J,G
+   1,R,K,G
+   3,R,J,G
+   1,L,J
+   2,K,G
+   8,R,K
+   5,R
+   2,R,K
+   1,R
+   1,R,K
+   1,R
+  14,L,Z
    1,R,J
   13,U,X
   12,J
    8,R,J
-   3,K,G
+   6,K,G
    2,L,K
   23,L,J
-  13,L,U,X
+  13,L,U,Z
    1,R
    5,J,G
   29,L,J
-   2,J
+   2
    1,L,K,G
    2,L
-   1,L,K,G
-   7,L
-  12,L,U,X
-   1,L,J,G
-   2,L
+  12,L,K,G
+   4,L
+   3
 
 #CP-08
-  11,L,D,X
-  20,L,J
-   8,L
-  14,L,D,X
-   1,L,J
-   1,L
-   7,L
-   1,D,X
-  14,L,X
-  10,L
-   1,D,X
-  13,L,X
-   1,L,J
-  10
-   1,D,X
-  14,L,X
-  15,L,C
-  12
-   7,R,J
-   8,J
-  15,L,U,X
-  21,L
-  15,L,U,X
-  27,L
-  10,L,J
-   2,L
-   1,D,X
-  14,L,X
-  15,L,D,C
-   2
+  14,L,Z
    1,R,J
-   7,J
-   3,L,J
-   3,L
-  15,U,X
-   2,L
-   1,D,X
-  13,L,X
+  14,R,Z
    1,L,J
-   1,D,X
-  14,L,U,X
-  19,L
-   1,D,X
-  14,L,X
-   2
-  12,L
-   9,L,D
-   5,L
-   1,D,X
-  14,L,X
+   6,L,D,X
+   1,L,K,G
+   3
+   6,L
+   1
+   2,L
+  10,L,J
+  19,L,D,X
+  10,L,K
    3,L
+  15,L,D,K,X
+   8,L,D,K
+   8
+   1,D,J
+   1,L,J
+   1,J
+   5,L
+   3,L,J
+  18,L
+   3,L,D
+  18,L,U,X
+  24,L,U,Z
+  12,L,K
+   8,L
+  15,U,X
+  14,L,Z
+   1,L,J
+   1,J
+  15,L,U,Z
+   5
+  13,L
+  15,L,Z
+  28,L,D
+  15,L,Z
+   4,L
   15,L,D,X
-   5,D
-   7,R,J
-   4,R
+   4,D
+   1,R,J
+   6,J
+   1
+   3,L
   11,L,D,X
    4,L,J
    6,L
@@ -4452,4 +4465,4 @@ AnalogMode,Precise
   15,R,U,X
  127,R
 
-ChapterTime: 10:25.566(36798)
+ChapterTime: 10:23.883(36699)
