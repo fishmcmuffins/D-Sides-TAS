@@ -1,4 +1,4 @@
-RecordCount: 25024
+RecordCount: 25032
 
 #Created by dahlukeh, Fishmcmuffins and Euni
 
@@ -170,17 +170,18 @@ console load nameguysdsidespack/0/7-Summit
    4,L
    5,R,Z
    1,R,J
-   2
-   2,R
-   4,R,J
-   9,R
+   3
    1,J
-  12,D
-  15,R,U,Z
-   9,R
-  15,R,Z
-   5
-  10,L,D,X
+   4,R,K
+   5,R
+   1,K
+   1,R
+   1
+  12,R
+   2,R,D
+  24,R,U,Z
+  15,R,V
+  11,L,D,X
    1,J,G
    6
    2,L
@@ -1317,20 +1318,16 @@ endrepeat
   18,R
   15,U,Z
    4,R
-  27,R,J
-   2,R
-   2,R,J
+  31,R,J
    1,K,G
-   1,J,G
-   3
-   1,R
-   1
-   2,R
-   6,R,Z
+   1,R,K
+   7,R
+   4,Z
    1,R,J
-   6,R
-   2,R,J
-  10,R,D,X
+   7,R
+   1,R,J
+   2,R
+   9,R,D,X
   40
 
 #lvl_d-04
@@ -1348,7 +1345,8 @@ endrepeat
    5
   15,R,X
   34,R,Z
-   5,R,D
+   3,R,D
+   2,D
    1
   15,R,Z
   16,R,X
@@ -1387,16 +1385,14 @@ endrepeat
   18,R,U,V
   15,U,X
   12,J,G
-   6,K,G
-   2,R,K
-   2,R,J,G
-   1,J
-   8,R,J
+   7,K,G
+   1,R,J,G
+   2,R,K,G
+   1,K
+   8,R,K
    5,R
-   1,R,J
-   1,R
-   2,R,J
-  11,R
+   1,R,K
+  13,R
    9,R,Z
    1,R,J
    6,R
@@ -4457,4 +4453,4 @@ endrepeat
   15,R,U,X
  127,R
 
-ChapterTime: 10:28.116(36948)
+ChapterTime: 10:28.014(36942)
