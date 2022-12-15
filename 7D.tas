@@ -1,4 +1,4 @@
-RecordCount: 25262
+RecordCount: 25731
 
 #Created by dahlukeh, Fishmcmuffins and Euni
 
@@ -31,7 +31,7 @@ console load nameguysdsidespack/0/7-Summit
   80
 
 #GLOBAL SPINNER CYCLE FRAMES
-   2
+   0
 
 #lvl_a-00
    4,Z
@@ -2965,7 +2965,6 @@ endrepeat
    6,L
   15,U,X
    1,L
-
    1
    6,R,U,X
   10,L
@@ -3278,98 +3277,86 @@ endrepeat
   14,L,X
    9,L,D,C
   26
-   1,L,U
-   5,F,270
-  25,F,225
-  10,F,270
-   4,F,290
-   2,F,315
-  10,F,
-  15,F,28
-   5,F,35
-  30,F,51
-  14,F,348
-  17,L,J
-   3,L,K
-   6,L
-  15,L,X
-  10,L
-  15,L,X
+AnalogMode,Square
+   1,F,226.721
+AnalogMode,Precise
+   8,F,267.99
+  24,F,260.77
+  10,F,330
+   8,F,0
+  15,F,14.27
+   7,F,40
+  19,F,53.54
+  10,F,0
+  18,F,314.67
+   1,F,314.67,0.69
   12,L
+  22,L,X
+  22,L,C
+   1
    6,L,U,X
   26
    1,L,U
-  10,F,330
-   7,F,
-   7,F,60
-  10,F,90
-  17,F,115
-  17,F,90
-   8,F,45
-   8,F,
-   8,F,315
-  18,F,270
-  40,F,255
-   6,F,245
-  10,F,200
-   6,F,180
-   4,D
-  21,L,D
-  22,L
-   5,L,D
-  14,R,D
-  13,D
-   8,L,D
-  16,D
+   7,F,323.22
+  12,F,30
+  11,F,90
+  15,F,107.33
+  16,F,98.9
+  11,F,35
+  13,F,330
+  19,F,276.3
+  38,F,255
+  17,F,206.5204
+   6,F,192.341
+  18,L,D
+repeat,8
+   1,L
+   1,L,D
+endrepeat
+  13,L,D
+  16,R,D
+  20,L,D
+   9,D
    9,R,D
-  30,L,K
-  13,L
-  14,L,D
-   3,D
-  12,L,D
-   6,L
-   1,D,X
-  14,L,X
-  15,L
-   1,D,X
-  14,L,U,X
+   2
+   1,K
+  10,L,K
    7,L
+  31,L,K
+  15,L,D
+  29,L,Z
+   4,L,D
+  15,L,Z
   26
-   1,D
-  16,F,180
-   8,F,135
-   8,F,90
-   8,F,45
-   8,F,
-   5,F,315
-   6,F,
-  16,F,20
-   3,F,
-   8,F,315
-   8,F,270
-  18,F,259.5
-   1,D,X
-  14,L,X
-   4,L
-  15,U,X
-   1,R
-  15,R,U,C
-   2,R
-  15,R,U,X
-   8
-  15,L,U,X
-   1,D,C
-  17,L,U,C
-   1,L
-  15,U,X
-  18,R,U,C
-   5,R
-  15,L,U,X
-   1,L
+AnalogMode,Square
+   1,F,215.1
+AnalogMode,Precise
+  11,F,150
+   9,F,136
+  10,F,75
+  11,F,15
+  10,F,331.04
+   8,F,15
+   5,F,45
+   9,F,345
+  11,F,290
+  22,F,265.5
+  15,L,Z
+   1
   18,U,X
+   4,R
+  18,R,U,X
+  19,R,U,Z
+  15,L,U,X
+  18,L,U,Z
+   2
+  21,R,U,X
+  18,U,C
+  15,L,U,X
+  18,U,C
   10,R
   15,U,X
-   9,U,C
+   8,U,C
   77
   40
 
@@ -4465,4 +4452,4 @@ endrepeat
   15,R,U,X
  127,R
 
-ChapterTime: 10:26.688(36864)
+ChapterTime: 10:25.566(36798)
