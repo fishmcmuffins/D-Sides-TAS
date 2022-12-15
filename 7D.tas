@@ -1,4 +1,4 @@
-RecordCount: 26096
+RecordCount: 26363
 
 #Created by dahlukeh, Fishmcmuffins and Euni
 
@@ -4321,148 +4321,131 @@ AnalogMode,Precise
   15,D,C
   15,D,X
   15,D,C
-  23,J
-  27,U,X
-  15,R,U,C
-  20,L
-  15,L,X
-  15,R,C
-  15,L,X
-  15,R,C
-  10,L,X
-   8,J
-  11,K,G
-   1,R,K
-  13,L,K
-  15,U,X
-   5,L
-  15,U,C
-   4,L
-   1
-   1,L
-  15,R
+   2,R
   23,R,J
-   8,K,G
+  17,U,X
+  35,U,C
+   7,R
+   1,L,K
+   2,R,K
+   5,L,K
+   2,L,J,G
+   2,R,J
+   1,J
+   1,R,J
+   1,J
+   7,L,K,G
+   5,K
+   2,L,K
+  15,U,X
+   1,L
+  18,R,J
+  10,K,G
    1,L,K
    1,R,K
-  14,R,J,G
-   4,R,K,G
-   7,R
-   1,R,J
-   7,R
-   2,L
-   4,J,G
-   4,R,J
-   1
-  18,R
-  11,R,J,G
-   8,R
-  12,R,J,G
-   8,L,K
-   7,R,J
-  12,L,K
-  13,R,J
-  15,L,K
-  12,L,J,G
-   1,R,K
-  12,R,J
-  12,R,K,G
+   9,J,G
    1,L,J
-  12,L,K
-   2,L,K
-  11,L,J,G
-   1,K
-   1,R,K
-   6,L,K
-   2,L
+   7,R,X
+  30,R,K,G
+   1,J,G
+  10,R,J
+   1,L,J
+  12,K
+  11,J
+  12,K
+  11,R,J
+  11,L,K
+  11,R,J
+  11,L,K
+  11,R,J
+  14,L,K
+   9,J,G
+   1,R,J
+  12,R,K
+   4,J
   15,L,Z
-   4,L
-   5,L,J,G
+   4
+   5,K,G
+   1
   14,L,Z
-  13,L,J
-   1,J
-   4,L,J
+  18,L,J
   15,L,U,X
-   2
+   1
   15,U,Z
    8,R
-   1,R,J,G
+   1,R,K,G
    7,R
   15,R,U,X
   10,R,C
-  12,R,J
-   4,K,G
-   5,L,K
+   7,J
+  15,U,X
+   9,K
+  15,U,C
+  12,R
+   3,J
   15,U,X
   15,U,C
-   1,R,J,G
+   1,R,K,G
    7,R
+   5,J
    3,R,J
-  15,U,X
-  14,U,C
-   1,R
-   1,R,J,G
-   7,R
    3,J
-   2,R,J
-   6,J
   15,U,X
   26,L,J
    2,J
   15,U,Z
-  29,R,J
   12,R,K,G
+   1,J,G
+   2,L,J
+   1,R,K,G
+   1,L,K
+  10,R,K
   11,R,J,G
-   7,R
-   4,R,J
-  15,R,U,X
-  14,R,C
-   1,L,J
-   6,L,D,X
-   1,R,J
-   7
-   1,L,J
-  15,L,D,X
-  14,R,D,C
-   1,R,J
-  15,D,X
-  15,D,C
-   6
-   8,L,J
-  10,L,K,G
-  10,K
-   1,L,J
-  15,U,X
-   3
-  19,L,J
-   1
-   6,L
-   1,L,J
-  15,J
-   8,R,G
-  26,U,G
-   2,J,G
-   1,L,J
    1,R
-  10,K,G
-  14,L,K
-   3,L
-  23,L,J
+   1,K,G
+   1,L,K
+   1,R
+  12,R,J,G
+   7,R
+   4,R,K
+  15,R,U,X
+  14,R,Z
+   1,L,J
+  15,D,X
+  15,U,C
+  15,D,X
+  15,U,C
+  15,D,X
+   6
+   7,R,J
+   9,J
+  18,U,C
+  15,K
+   6
+   8,L
+   9,L,J
+  16,R,J
+  29,G
+   2,K,G
+   2,L,K
+   1,J
+  10,L,J
+  11,L
+  23,L,K
   15,U,X
   12,L
-  13,L
+   8,L
+   5
   15,U,X
   14,U,C
  168
-   3,R
+   1,R
   15,D,X
    7,R
   10,R,J
    2,R
-   1,D,X
-  14,R,X
-   1,R
-  15,R,U,X
- 127,R
+  16,R,Z
+   8,R,U,X
+ 135,R
 
-ChapterTime: 10:23.883(36699)
+ChapterTime: 10:21.401(36553)
