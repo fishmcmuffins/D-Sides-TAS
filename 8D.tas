@@ -4,7 +4,7 @@ console load nameguysdsidespack/0/8-Core
    1
 
 #spinner cycle
-   1
+   2
 
 #lvl_a-00
    7,R
@@ -128,41 +128,40 @@ console load nameguysdsidespack/0/8-Core
    5
    9,R
   20,R,J
-  10,R,D
-   4,D
-  15
-   8,L
-   8
-   4,D,X
-  19,R,J
-  23,R
-  15,R,X
-   3
-  30,R,D
-  13,J
-  50,R,J
-   4,D,X
-  19,R,X
-  11,U,C
-  13,R,J
-  21,R
-  15,R,X
-   3,R
-  15,R,X
-  20,R,D
-  14,R
-  15,R,X
-   9,R
-   4
-   4,K,G
-   1,L,K
-   1,R,J,G
-   6,R,K,G
-   1,R,J,G
-  10,R,K,G
-   4,D,X
-   7,R,X
+   4,R,D
+   7,D
+   1,R,D
+   3,D
+  17
+   3,L
+  12,L,Z
    1,R,J
+   2,R,K,G
+  10,R
+  15,R,D,X
+   9,R,D
+   3,L,J
+  21
+  16
+   4,R
+   4,R,D,K
+  13,R
+   3,R,K
+  14,R
+   2
+   1,D
+  15,U,X
+   1,R
+  14,R,Z
+  12,R,J,G
+  19,R
+   3,R,D
+  33,R,X
+  29,R,C
+  22,R,X
+   8,R,J
+   9,R,Z
+   1,R,K
    4,R
   40
  
@@ -187,57 +186,65 @@ console load nameguysdsidespack/0/8-Core
   11,R,X
    1,L
    5,K,G
-   5,R,K
-   8,R
-   1,R,J
-   3,R
-   1,R,K,G
-  29,R,J,G
-   8,R
-  12,R,J
-  25,R,D
-   1,D
-   2,R,D
-   1,R,D,J
-  15,R,D
-   5,R,J
-   4,R
-   2,R,J
-  19,R
-   1,R,K,G
+   3,R,K
+   5,R
+   9,R,K
    1,R,J,G
-   1,K,G
+   1,R,K,G
+   1
+   6,R
    1,R,K
-   1,L,K
-   7,L
-   3,L,K
-  10,L
-  20,L
-   2
-   1,K,G
-  22,L,K
-   2,K
-  15,U,X
-  47,L,J
-   1,D
-   1,L,D
-   3,L,K
-  27,L,D
-   3
-   1,L
-   4,D,X
-  11,L,X
-   3
-   8,L,K
-   8,R,J
-  10,L,K
-   1,R,J
+   2,R
+   1,R,K
+   2,R
+   2,R,J
+   2,R,K,G
+   5,R
    7,R,K
-   7,L,J
+   9,R
+   1
+   1,R
+   2,R,J
+   1,R,K,G
+  19,R
+   1,R,J
+  24,R
+   9,R,K
+  11,R
+   1,R,J,G
+   3,K,G
+   5,L,K
+  30,L
+   8,L,D
+  16,L,J,G
+  13,U,X
+   2,K
+   7,L,K
+   1,L
+  23,L,J,G
+  10,L
+   3,L,D
+   1,L
+   1,L,D
+   1,L,D,K
+   5,L
+   1,L,K
+  25,L,D
+   3,D
+   8,L,Z
+  12,L,J,G
+   2,K
+   7,R,K
+  11,J
+  10,K
+   1,J
+   6,L,J
    1,L,K,G
    1,L,J,G
-  11,L
-   2,L,J
+   1,L
+   1
+   9,L
+   2,L,K
   54,L
    6,L,J
    1,L,K,G
@@ -1619,4 +1626,4 @@ AnalogMode,Precise
   37,L,D,X
  106,L,D,C
 
-ChapterTime: 4:37.151(16303)
+ChapterTime: 4:35.519(16207)
