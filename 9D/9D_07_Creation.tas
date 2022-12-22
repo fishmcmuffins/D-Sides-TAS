@@ -124,21 +124,19 @@ console givekey
    3,L,X
   29,L,J
   28,L,U,X
-   7,L,J
-   4,D,X
-  28,L,J
-  40,L,D,X
-   7,L,J
-   4,D,X
-  33,L,J
-  22,L,C
-  14,L,X
-   2,L,J
-  15,U,X
+   5,L,J
+   6,L,Z
+  29,L,J
+  34,L,Z
+   6,L,J
+   1,L
+  16,L,K
+  42,L,D,X
+#probably a frame here
+  15,L,Z
+  13,U,X
   18,L,J
-   1,K
-   1
-   9,J
+   6,K
    7,L
    4,D,C
    1,L,J
@@ -473,4 +471,4 @@ console givekey
    2,R
   40
 
-ChapterTime: 1:03.903(3759)
+ChapterTime: 1:03.665(3745)
