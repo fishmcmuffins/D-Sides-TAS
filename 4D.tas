@@ -1,4 +1,4 @@
-RecordCount: 1228
+RecordCount: 1232
 
 console load nameguysdsidespack/0/4-Ridge
    1
@@ -628,133 +628,109 @@ console load nameguysdsidespack/0/4-Ridge
   40
 
 #lvl_b-05w
-   9,R
-   1,R,J
-   7,R
+   3,R,J
+  12,R
    1,R,G
-  12,R,J,G
-   4,R,K,G
-   9,R
-  19,J
-   5,L
-   1,L,J
-  18,J
-   5
-  19,J
-   5
-   3,J
-   8
-   2,L,J
-  17,J
-   5
-   2,J
-   9,R,J
-   3,R
-   8
+  15,R,Z
+
+   4,R
+   1,N
+   3,L,J
+  15,L,U,X
+  33,U,G
+  11,L,J
+  23,J
+   7,L,D,K
+  14,R
+   1,G
+   8,K
+  10,R
    1,R,J
-  18,J
-   5,L
-   7,L,J
-  12,J
-   5
-   2,L,J
+   4,R
    1,J
-   7
+   1,R
+   9,L,G
+  10,K
+  16,L,K
   10,R,G
-  23,G
+  53,G
+   2,R
+   1,K
+   1,J
+  24,R,J
+   8,R
+   3,R,J
+   4,L,J
+  11,L
+  76,G
    1
    1,J
-   2,L,J
-  31,R,J
-   1,R,K
-  18,K
-   5
-  10,L,J
-   9,J
-   5
-  10,R,J
-   9,J
-   5
-   3,J
-   8
-   3,J
-   7
-   2,J
-   5
-   2,R
-   2,R,J
-  17,L,J
-   5,L
-   3,L,J
-  11
-   3,R,G
-  50,L,G
-  25,L,G
+  20,L,K,G
+   2,K
+  10,L
+   1,J
+  11,R,G
+  72,L,G
+   1,R
    1,R,J,G
-   3,L,J
-   3,J
-   9
-  21,R,G
+   1,L,J
+   2,J
+   1,L,J
+   6,J
+  10
+   5,R
+  19,R,G
    1,R,J
    1,L,J
    4,R,K,G
    5,R,Z
   17,R,J
    1,R,K,G
-   1,R
-   1,R,J,G
-  12,R
+   9,R
    1,R,J
   14,R,D,X
    1,R,J
-   7,R,D,X
+  10,R,D,X
   40
 
 #lvl_b-06
-   7,R,D,X
    1,R,J
-   7,R,D,X
+   2,J
+   9,R,J
+  16,R,D,X
+   2,R,D,J
+  15,R,D,X
+   5,R,J
+   6,R
    1,R,J
-  17,R,D
-   6,L,Z
-   1,R,J
-   4,R
-  11,R,J
-  17,R,D,X
-   3
    1,R
-   1,L,J
-   6,L,D,X
-   1,R,J
-   4,R
-  12,R,J
-  15,R,D,X
-   4,R
-   3,R
-   1,R,J
-   7,L,D,X
-   1,R,J
-   4,R
-   8,R,J
+   6,R,J
    5,R
-  18,R,D,X
-   3,R
    1,R,J
-   7,L,D,X
+   2,R
+   3,R,D,J
+   5,R
+   2,R,J
+   6,R
+   8
+   1,L,J
+   8,L,D,X
    1,R,J
    4,R
-   1,J
-  14,R,J
-  15,R,D,X
-   7
-  11,R,C
-  35,R,J
+   2,R,J
   10,R
-  14,R,Z
+  22
+   2,L
+  14,R,X
+  18,R,J
+  17,R
+  14,R,X
+  14,R
+   6,R,Z
    1,R,J
-  14,R,D,X
+   7,R
    1,R,J
-   9,R,D,X
+  12,R,D,X
   40
 
 #lvl_b-07
@@ -1304,4 +1280,4 @@ EndRepeat
    1,R,J,G
   99,R
 
-ChapterTime: 3:09.618(11154)
+ChapterTime: 3:08.768(11104)
