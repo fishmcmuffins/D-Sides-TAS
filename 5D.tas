@@ -1,4 +1,4 @@
-RecordCount: 2908
+RecordCount: 3498
 
 #Created by dahlukeh and Fishmcmuffins
 #improvements by pansear and gnommis
@@ -258,74 +258,23 @@ console load nameguysdsidespack/0/5-Temple
    1,R,J
   11,R,K
   12,L,J
-   8,K
-   7,R
-   4,R,Z
-   1,R,J
-   6,R
-   1,R,J
-   6,R,K,G
+   7,K,G
+   1,J,G
+   5,L
    2,R
-   5,R,D,X
-   1,R,J,G
-  13,R
-  40
-
-#lvl_c-05
-  13,R,J
-
-   1,L,K,G
-  10,R,K
-   4,K
-  11,U,X
-   8,L,K
-   7,L
-   7,L,K
-  11,L
-  24,L,U,G
-   1,L,K,G
-   1,R,K
-   1,L,K
-   7,J,G
-   9,R,J
-  24,R,U,X
-   8,U,C
-  14,L,K
-  23,L,D
    4,L,Z
-   2,L,J
-  11,L,D
-  15,D,X
-   8,L,D
-   4,L,D,X
-   3,L,J
+   1,L,J
+   6,L
+   1,L,J
+   6,L,K,G
    2,L
-  40
-
-#lvl_c-01 (2)
-   7,L
-   1,L,J
-  10,L,D,G
-  18,D,X
-   1,R,J
-  14,R,D
-  30,L,D,X
-   1,L
-   1,L,D
-   4,L
-   5,L,Z
-   1,L,J
-  12,L
-   2,L,J
-  11,L,Z
-   5,L,J
-   2,L,K,G
-  14,L,D,X
-   1,L,J
+   5,L,D,X
+   1,L,J,G
+  13,L
   40
 
 #lvl_c-04
-   8,L,D,X
+   3,L,D,J
   53,L,C
   10,L,D,X
    7,L,J
@@ -368,12 +317,46 @@ console load nameguysdsidespack/0/5-Temple
 #lvl_c-01 (3)
   10,R
    1,L,K,G
-  22,R,K
-  17,U,X
-  20,J
+   2,R,K
+Repeat 10
+   1,S,N
+  10,J
+   2,R,J
+EndRepeat
+   1,S,N
+  10,J
+   5,U,X
+Repeat 5
+   1,S,N
+  10,J
+   2,U
+EndRepeat
+   1,S,N
+  10,J
+   2,R,K
+   1,S,N
+  10,J
+   2,R
+Repeat 6
+   1,S,N
+  10,J
+   2,R,J
+EndRepeat
+   1,S,N
+  10,J
+   1,R
+   1,R,K,G
+Repeat 7
+   1,S,N
+  10,J
+   2,R,J
+EndRepeat
+   1,S,N
+  10,J
+   6,L,K
   39,U,X
   15,R,U,Z
-  67
+  61
   15,D,X
    2,L,J
    5,L
@@ -747,29 +730,24 @@ endrepeat
   15,R,C
    7,R
   13
-  79,L,X
-  15,D,C
-   5,D
-   1,D
-   1,R,D
-   1,D
-   1,R,D
-   1,D
-   4,L
-   2
-   4,D,Z
-   2,R,J
-  10,R,D
-   6,R,J
-  15,U,X
-  10
-  63,L,G
-   3,J
-   7,K,G
-   9,R,K
-  12,R,J,G
-  12,L,K
-   2,L,J,G
+  62,L,X
+Repeat 9
+   1,S,N
+  10,J
+   2,R
+EndRepeat
+   1,S,N
+  10,J
+   1,R
+   4,R,U,Z
+   1,S,N
+  10,J
+   2,R,U
+   1,S,N
+  10,J
+  15,R,U
+   7,J
+   8,K
   40
  
 #lvl_e-06
@@ -845,6 +823,9 @@ endrepeat
    1,J
    3,K,G
   14,L,U,X
+#spinner cycle
+   0
+#
   21,U,C
   15,U,Z
    8,L
@@ -934,56 +915,51 @@ endrepeat
  
 #lvl_f-04
    1,J,G
-  13,R,J,G
-   1,R,J
+   9,R,J,G
+   4,J,G
+   1,J
    9,U,X
-  20,G
-   9,R,G
+  21,G
+   6,R,G
+   1,R,D
    1,R
-  14,R,D,X
-   1,R,J
-  11,R,D,X
-   1,R,J
-   7,R
-   1,R,J
-   2,R
-   6,L,D,X
-   1,L,J
-  12,L
-   5,R,D,X
-  13,R,G
-   9,R
-   4,L,D,X
-   8,L,J
-   4,L
-   4,L,D,X
-   1,L,J
-   7,L
-   1,L,J
-   2,L
-  15,D,X
-  90,D
-  10,R,X
-   8,R,J
-   2,R,K,G
-  52,R,U,G
+   5,R,J
+   5,R
   14,L,D,X
    1,R,J
-   8,R,D,X
-   1,R,J
-   6,R
-   1
-   1,R,J
-  12,R,D,X
+   6,R,D,X
   13,R,G
-   7,R,J,G
+   2,R,J,G
+   1,S,N
+  10,J
+   2,R,J,G
+Repeat 13
+   1,S,N
+  10,J
+   2,R,D,G
+EndRepeat
+   1,S,N
+  10,J
+  10,D
+  16,D,X
+   1,L,K
+   1,K
+  14,L,Z
+   1,R,J
+  11,R,D,X
+  13,R,G
+   8,R,J,G
   40
  
 #lvl_f-03
-   4,R,J,G
-   7,R,G
-   1,R,K,G
-   9,R,G
+   3,R,J,G
+   5,R,G
+   1,R,J,G
+   5,R,G
+   2,R,K,G
+   5,R,G
+   1,R,J,G
+   6,R,G
    1,R
   10,R,U,X
    2,R
@@ -1000,113 +976,82 @@ endrepeat
   40
  
 #lvl_f-05
-  10,R,G
-   4,R,D
-   2,R,J
-   5,R,K,G
-   4,R,J,G
-   1,R,K,G
-  11,R
+   9,R,G
+   1,G
+   1,D
+   6,J
+   5,K,G
+  20
+   4,R
+   4,L,Z
+   1,S,N
+  10,J
+   1,L,K
+   1,L
+Repeat 3
+   1,S,N
+  10,J
+   2,L
+EndRepeat
+   1,S,N
+  10,J
+   2,L,K
+   1,S,N
+  10,J
+   5,L,D,X
+Repeat 5
+   1,S,N
+  10,J
+   2,L,D
+EndRepeat
+   1,S,N
+  10,J
+   1,L,D
+   1,L
+   1,S,N
+  10,J
+   2,L
+   1,S,N
+  10,J
+   1,L
+   4,D,X
+Repeat 7
+   1,S,N
+  10,J
+   2,D
+EndRepeat
+  10,D
+
    1,R,J
-   9,R
-  14,R,D,X
-   1,L,J
-   7,L
-   1,L,J
-  14,L
-   1,L,J
-  14,L
-   1,L,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-   2,R
-  14,R,D,X
-   1,R,J
-   7,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-   7,R
-  14,R,D,X
-   1,L,J
-   7,L
-   1,L,J
-  14,L
-   1,L,J
-  14,L
-   1,L,J
-  14,L
-   1,L,J
-  14,L
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-   2,R
+  28,R,K
+   6,R
+  46
+   5,R
+   2
   14,R,D,X
    1,R,J
-   7,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   5
-  15,L,D,X
-  15,L,D,C
-  12,R,D
-   5,R,J
-  14,L,D,X
-   1,R,J
-   7,R,D,X
+  12,R,D,X
+   
   13,R,G
    1,R,J,G
-  15,R,G
+   3,R,G
+  14,R,J,G
+   2,R,K,G
+   8,R,G
+   4,R,J,G
+   3,J,G
+   5,G
+   2,J,G
+   3,G
   40
+
  
 #lvl_f-06
-   3,R,G
-   1,R,J
-   8,J
-   3,L
-   1,D,X
-  14,R,X
-   5
-  58,G
+   4,G
+   1,R
+  15,R,Z
+   6
+  57,G
    5,R,G
    6,R
    8,L,D
@@ -1278,180 +1223,81 @@ endrepeat
   22,R,G
    2,R,J,G
   16,R,G
-   1,R,J,G
+   3,R,J,G
   12,R,G
-   1,D
-   3,R
-   7,L,X
-   1,R,J
-  20,R,J,G
-   8,R,G
-   5,R
-   2,R,J,G
-  11,R
-   1,R,J
-  16,R
-   1,R,J
-   8,R
-  16,J,G
-  12,R,K,G
-   8,R,J,G
-  33,R
-  14,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-  14,R,D,X
-   1,L,J
-  14,L,D,X
-   1,R,J
-  14,R,D,X
-   1,L,J
-  14,L,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-   1,L
-   1,R
-   1,L
-   1,R
-   1,L
-   1,R
-   1,L
-   1,R,J
-   1,L
-   1,R
-   1,L
-   1,R
-   1,L
-   1,R
-   1,L
-   1,L
-   1,R
-   1,L
-   1,R
-   1,L
-   1,R
-   1,L
-   1,R,J
-   1,L
-   1,R
-   1,L
-   1,R
-   1,L
-   1,R
-   2,L
-   1,R
-   1,L
-   1,R
-   1,L
-   1,R
-   1,L
-  10,D
- 
-repeat 4
-  10,L
-  10,L,D
-endrepeat
- 
-repeat 4
-   5,L
-   5,L,D
-endrepeat
- 
-repeat 3
-  10,L,D
-  10,L
-endrepeat
-   1
-   2,L
-   5,L,D,X
-   7,L
-   1,L,D,J
-  14,L
-   1,L,J
-  14,L
-   1,L,D,J
-  14,L
-   1,L,J
-  14,L
-   1,L,J
-  14,L
-  30,R,D
-#waiting for cycle
-   7
- 
-  15,D,X
-  13
-  10,R
    1,R,D
-   2,R,J
-  14,L,D
-  21,R,D
-  24
-#please get the  block boosted gultra cancel
-   7,R
-   2,R,J
-   5,R
-   3,R,J
-  10,R
-   4,R
-   9,R,J
-  11,R,D,X
-   1,L
-   1,L,G
-   1,J,G
-   2,L,K,G
-   1,L,J,G
+  14,L,D,X
    1,R,J
-   5,R,D
-   1
+   7,R,D,X
+  13,R,G
+   1,R,J,G
+Repeat 4
+   1,S,N
+  10,J
+   2,R,J,G
+EndRepeat
+   1,S,N
+  10,J
+   2,R,J,G
+Repeat 4
+   1,S,N
+  10,J
+   2,R,G
+EndRepeat
+   1,S,N
+  10,J
+   2,R,K,G
+Repeat 3
+   1,S,N
+  10,J
+   2,R,G
+EndRepeat
+  19,R,G
+  18,G
+   8,R,G
    1,R
-   1
-   1,R
-   1
-   1,R
-   1
-   1,R
-   1
-   7,R
-  12,R,U,X
-   5,R,J,G
-   5,R
-   2,R,J
-  17,R
+   2,L
+   1,J
+   1,K,G
+   6,R,U,X
+  33,R,G
+   1,D
+   2,R,J,G
+   7,R,D
+  12,R,G
+  16,R,G
+  10,D
+   5,L
+  14,R,X
    1,R,J
-   9,R,U,X
-  24,R,J,G
-   4,R,G
-   6,R,K,G
-   5,L,K
+   5,R,D,X
+  12,R,G
+   6,G
    1,L,K,G
-   6,R,J
-   7,R
-   5,R,Z
+   1,R,G
+  15,G
+   1
+   9,R,U,X
+  41,R,G
+   3,R,J,G
+   5,R,G
+   3,R,J,G
+   5,R,G
+  12,R,J,G
+   8,R,G
+   1,R
+   9,R,U,X
+  20,R,G
+   5,R,D
+   1,D
+   4,D,X
    1,R,J
   13,R,G
-  11,R,J,G
-  11,R,G
+  10,R,K,G
+  10,R,G
+   2,G
+   1,R,G
    1,R
-   7,L,X
- 135
- 
-ChapterTime: 3:34.472(12616)
-
-
-
-
-
-
-
-
-
-
-
-
+  15,L,X
+ 127
+ChapterTime: 3:23.745(11985)
