@@ -1,4 +1,4 @@
-RecordCount: 26787
+RecordCount: 26964
 
 #Created by dahlukeh, Fishmcmuffins and Euni
 
@@ -31,7 +31,7 @@ console load nameguysdsidespack/0/7-Summit
   80
 
 #GLOBAL SPINNER CYCLE FRAMES
-   0
+   1
 
 #lvl_a-00
    4,Z
@@ -64,37 +64,37 @@ console load nameguysdsidespack/0/7-Summit
    4
   10,R
    7,R,J
-   6,R
+   8,R
    1,R,J
-  10,R
+   8,R
   14,R,Z
-   3,R,J
-   1,R
+   4,R,J
    6,R,Z
    1,R,J
-   7,R
-   1,R,J
-   1,R
-   6,R,D,X
-   1,R,J,G
    6,R
+  10,R,J
   40
 
 #lvl_a-01
-   2
-  11,R
+   2,R,J
+  15,R,D,X
+   1,R
    3,R,D
-   9,R,J
-   6,R
+   5,R,J
    1,J
+   3,R,J
+   6,R
    1
   15,R,Z
-  21,L,D
-   1,L
-   2
-   7,R,J
+  24,L,D
+   8,R,J
    5,R
-  10,R,J
+   1,R,J
+   1,R
+   4,R,J
+   1,R
+   1,R,J
+   1,R
   14,R,Z
    1,R,J,G
    2,J
@@ -779,36 +779,30 @@ console load nameguysdsidespack/0/7-Summit
   15,R,U,Z
   18,U,V
   11,R
-  15,R,D,X
+  18,R,D,X
    1,R
-   4,R,D
-   8,D
-  15,R,D
-   2,R
-  27,R,U,Z
-   4,L,G
-  12,L,J,G
-   5,K,G
-   2,R,K
-   2,J
-   9,R,K,G
-   5,R,Z
-   6,R,J,G
-   5,R
-   4,R,J
-   2,R
-   3
-   1,R
-   1
-   1,R
-  18,D,X
-   9,L,D
+   1,D
+   1,R,D
+   6,D
    8,R,D
-  15,R,Z
-   4,R
-   5
-   1,R
-  22,R,U,Z
+   1,D
+   1,R,D
+   1,D
+   7,R,D
+  30,R,U,Z
+  14,U,X
+   3,R,J
+   2,R
+   8,R,Z
+   4,R,J,G
+   1,J
+   2,R,J
+   6,R
+  34,L,D
+   8,R,D
+  22,R,Z
+   2
+  22,R,U,V
    8,R
   12,R,J
   10,K
@@ -3829,22 +3823,21 @@ AnalogMode,Precise
   11,F,67.62
   36,F,7.7
    3,F,359.7
-  45,F,359.02
-   1,F,0,0.69
-   2,L
-  14,U,X
-  10,L,J
+  35,F,358.48
+  15,U,X
+  14,U,C
+   9,L,J
+   1,L
    1,K,G
-   4
-   2,L
-   1,R
+   5
+   2,R
 
 #CP-03
   14,R,J
   10,K,G
    1,R,K
    1,L,K
-   1,R,K
+   1,R
   14,R,J,G
   11,K,G
    1,L,K
@@ -3860,10 +3853,11 @@ AnalogMode,Precise
    5,R,K
    1,K
    1,L,K
-   1,R,K
+   1,R
   13,R,J,G
    3,K,G
-   7,R
+   6,R
+   1
    5,J
    1,R,J
   15,R,U,X
@@ -4431,4 +4425,4 @@ AnalogMode,Precise
    8,R,U,X
  135,R
 
-ChapterTime: 10:19.021(36413)
+ChapterTime: 10:18.766(36398)
