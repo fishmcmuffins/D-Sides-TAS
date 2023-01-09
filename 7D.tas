@@ -1,4 +1,4 @@
-RecordCount: 26964
+RecordCount: 27082
 
 #Created by dahlukeh, Fishmcmuffins and Euni
 
@@ -2010,29 +2010,30 @@ endrepeat
   15,U,X
    3,R
    8
-  39,U
-  32
-  30,U
+  10
+  29,U
+  30
+  47,U
+  45
+   5,L
+  36,L,D,X
+   2
+  12,R
+  12,U,Z
+  12,J
+   6,R,J
+   1,K,G
+   2,L,K
   12,L,J
-  15,L,X
-  12,G
-  20
-  15,L
-   9,U,X
-  38,R
-  11,U,Z
-   2,R,J
-  16,L,J
-  11,K,G
-   1,R,K
-  12,R,J
-  12,K,G
-   9,J,G
-   3,L,J
+  11,R,K
+   1,R
+  12,R,J,G
+   2,K
    5,R,X
   27,R,J,G
    1,G
-  12,J,G
+  11,J,G
+   2
    1,R,K,G
    3,K
    6
@@ -2053,7 +2054,7 @@ endrepeat
   15,R,Z
    3,R
   10,D,X
- 127
+ 126
   15,R,D,X
    3,R
    9
@@ -4425,4 +4426,4 @@ AnalogMode,Precise
    8,R,U,X
  135,R
 
-ChapterTime: 10:18.766(36398)
+ChapterTime: 10:18.613(36389)
