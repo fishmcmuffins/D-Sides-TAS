@@ -1,6 +1,6 @@
 #Created by amber, synced by Vasher
 
-RecordCount: 658
+RecordCount: 932
 
 console hard nameguysdsidespack/0/3-Resort
    1
@@ -59,8 +59,7 @@ console hard nameguysdsidespack/0/3-Resort
    7,R
   16,R,X
    1
-   4,R,D,X
-  10,R,X
+  14,R,Z
    1,L,J
    4,D,X
   10,L,X
@@ -429,7 +428,7 @@ console hard nameguysdsidespack/0/3-Resort
    9,L,D
   12,D
   40
- 
+
 #lvl_b-00 (2)
    3,R,D
    1
@@ -473,7 +472,7 @@ console hard nameguysdsidespack/0/3-Resort
   14,L,D
    9,D
   40
- 
+
 #lvl_b-02b
   15,L,D
   14,L,D,X
@@ -488,24 +487,24 @@ console hard nameguysdsidespack/0/3-Resort
    1,J,G
    1,J
   43,R,J
-   4,D,X
-   5,L,X
+   5,L
+   8,L,Z
    1,R,J
    7,R
-  19,R,J
-  11,R
-   4,D,X
-  10,R,X
    1,R,J
-   7,R,D,X
+  14,R,D,X
+   3,R,J
+   7,R
+  17,R,U,X
+   1,R,J,G
+   6,R,D,X
    1,R,J
-  12,R
-  16,R,J
-   4,D,X
-  11,U,X
+  12,R,D
+  20,R,D,J
+  14,U,X
    7,R,J
   40
- 
+
 #lvl_b-02c
   11,R
   15,U,X
@@ -569,23 +568,21 @@ console hard nameguysdsidespack/0/3-Resort
   15,D,C
    4,D,X
    1,R,X
-   1,L,J
-   5,L
-  40
- 
-#lvl_b-00 (3)
-   1,L
-  13,L,J
-  11,K,G
-   2,R,K
-  15,U,X
-  48,L,D
-   2,L,J
-  13,L
-   1
+   2,L,D,J
+   2,R,J
    2,L
-   1,L,K,G
-   5,L,J,G
+  40
+
+#lvl_b-00 (3)
+   4,R
+  15,U,X
+  39,L,J
+   9,L
+  20,L,D
+   2,D
+   3,L,J
+  15,L
+   5,L,K,G
   12,L
   15,U,X
   12,J
@@ -598,7 +595,7 @@ console hard nameguysdsidespack/0/3-Resort
    3,L,K,G
   12,L,D
   40
- 
+
 #lvl_b-03a
   20,D
   12,L,D
@@ -614,40 +611,37 @@ console hard nameguysdsidespack/0/3-Resort
    4,L,J
    1,L,K,G
    5,L,J,G
-  36,L,D
-   4,D
-  11,L,U,X
-   1,J
-  24,R,J
-   1,J
-  16,L,K
-  19,R,J
-   8,L,K
-   5,L
-  26,L,K
+  32,L,D
+  20,L
+  15,U,X
+   3,L
+  12,L,J
+   5,R,J
+   6,R,K
+  14,R
+   1,L,J
+   1,L
+   6,L,J
+   9,L
+   4,L,K,G
+  16,L
    5,L,J
-  39,L,D
-   5
+  40,L,D
+   4
    7,L,X
    1,J,G
    2,L,J
-   7,L
-   1,L,J
-   5,L
-   1
    1,L
-   2
-   1,L,J,G
-  18,L,K,G
-   3,K
-   1,L,J,G
-   6,L
-   3
-   4,D,X
-   1,R,X
-   3,L,J
-   1,L,K,G
+   5,L,J
   11,L
+  25,L,J,G
+   2,L,K,G
+   7,L
+   4,L,Z
+   2,L,J
+   2,L
+   1,L,K,G
+  11,L,D
   15,D,X
    7,R,D
   10,D
@@ -684,7 +678,7 @@ console hard nameguysdsidespack/0/3-Resort
    1,R,K
    5,R,U,Z
   40
- 
+
 #lvl_b-03c
    6,R
    1,L,K,G
@@ -695,12 +689,15 @@ console hard nameguysdsidespack/0/3-Resort
   20,U,Z
    4,J
    4,R,J
-   2,R
-   3,R,K,G
-  16,R
-  17,R,D
-   6,R,J
-  18,R,D,X
+   1
+   1,R
+   1,R,J,G
+   2,R,K,G
+  25,R,D
+   3,D
+   5,R,D
+   5,R,J
+  17,R,D,X
    1,S
    1,D,J
    1,O
@@ -845,7 +842,7 @@ console hard nameguysdsidespack/0/3-Resort
    7,L,J
    9,L,K,G
   40
- 
+
 #lvl_c-03
    2
    1,J
@@ -908,7 +905,7 @@ console hard nameguysdsidespack/0/3-Resort
    1,R,J
    1,R
   40
- 
+
 #lvl_c-04
    6,R
    4,R,D
@@ -979,35 +976,38 @@ console hard nameguysdsidespack/0/3-Resort
   14,R,D,X
    1,R,J
   15,R,U,X
-  15,U,C
-  24,L,J
-  20,R,K
-  18,U,X
-   1,R
-  15,U,C
-  21,R
-  15,R,X
-  10,R
-   4,R,X
-   5,R,J
-  17,R
+  11,U,C
+  10,R,J
+  11,L,Z
    1,R,J
-   4,D,X
+   3,L,J
+  13,U,X
+  15,R,J
+  11,L,J
+  15,U,X
+  14,R
+  24,R,X
+   2,R,J,G
+   7,R
+   4,R,X
+   4,R,J
+  17,R
+   4,Z
    1,R,J
    7,R
-   2,R,J
-   3,R,K,G
+   3,R,J
+   2,R,K,G
    8,R,D,X
   40
- 
+
 #lvl_c-06
    6,R,D,X
   28,R,J
   19,R,U,X
    1,R
    1,R,J
-  18,R,K
-   4,R
+  14,R,K
+   8,R
    4,D,X
   10,R,X
    4,R,J
@@ -1630,4 +1630,4 @@ console hard nameguysdsidespack/0/3-Resort
   15,U,X
  137,L,D
    1,R
-ChapterTime: 3:51.591(13623)
+ChapterTime: 3:51.285(13605)
