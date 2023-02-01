@@ -1,4 +1,4 @@
-RecordCount: 1421
+RecordCount: 1841
 
 console load nameguysdsidespack/0/1-City
    1
@@ -43,53 +43,56 @@ console load nameguysdsidespack/0/1-City
 #lvl_a-02
    4,R
    1,R,J,G
-   4,R,K,G
-   2,R
-  10,R,Z
-   1,R,J
+   6,R,K,G
+  13,R,X
+   7,R,J
    6,R
-   4,R,J
-   7,R
-  22,U,G
-   1,G
-   1,J,G
-  11,R,U,Z
-   1,R,J,G
    1,R,J
-   2,J
-   5
-   1,J
-   1,L,J
-   5,J,G
-   3,R,J
    1,R
-   1,R,K,G
-   8,R
-   1,R,J
+  12,G
+  11,U,G
+   1,R
+  11,R,U,Z
+   4,J,G
+   1,R
+   2
    2,R
-  12,R,J
-  15,R
+   2,R,J
+   1,J
+   1,L,K,G
+   7,R,K
    1,R,J,G
-   7,R
-   4,Z
-   1,R,J
-   6,R
-   1,R,J
-   5,R
+   5,J
+   9,R,J
+   8,R,K,G
+   8,R
   40
 
 #lvl_a-03
-  25,R,D
+   1,R
+   2,R,K
+  14,R,D
+   3,D
+   1
+   2,R
+   1,R,D
+   1,R
    1,R,J
-  13,R
-  14,R,U,Z
+  12,R
+  12,R,U,Z
+   1,L
    1,J,G
-  14,R
-  11,D
-   2,L,D
-   5,D
-   5,R,D
+   5
+   4,R
+   1,R,J
+   3,R,D
    1,D
+   7,R,D
+  11,D
+   2
+   1,R,D
+   3,R
+   1
    1,R,J
    9,R
    1,R,J
@@ -98,13 +101,13 @@ console load nameguysdsidespack/0/1-City
   25,R,K,G
   11,J,G
    1,L,J
-  11,K,G
+  11,K
   12,L,J
    7,K,G
    1,R,K
    6,J
   12,R,K
-   4,R,J,G
+   4,J,G
   40
  
 #lvl_a-04
@@ -131,22 +134,24 @@ console load nameguysdsidespack/0/1-City
    7,R
    1,G
    1
-   5,J
-   8,R,U,G
-   2,R
-   3,R,U,G
-   2,R
-   5,R,U,G
+   4,J
+   7,R
+   9,G
    1,R
    1,R,J,G
    1,R,K,G
    1,R,J,G
-  24,R,D
+   2,R,K,G
+  18,R
+   2,R,D
    2,R
    1,R,D
    1,R
    1,R,D
-   5,R
+   1
+   1,D
+   1,R
+   4
    1,J
    6,L,J
    1,K
@@ -156,21 +161,26 @@ console load nameguysdsidespack/0/1-City
    5,J
    3,K
   12,L,J
-   2,R,K
-   7,R
-   5,R,D,X
-   2,R,J
+   2,K
+   3,R
+   1
+   3,R
+   1,R,J
+   5,R,Z
+   1,R,J
    3,R,K,G
    5,R
    1,R,K
   40
- 
+
 #lvl_a-05
-  29,R,D
-  20,R
+   8,R
+  22,R,D
+  18,R
    1,L
-   2,J,G
-   6,R
+   1,J,G
+   1,R,J
+   5,R
   14,R,X
    1,R,J,G
    9,R
@@ -657,4 +667,4 @@ console load nameguysdsidespack/0/1-City
    1,L,J
   72,L,D,X
 
-ChapterTime: 1:07.371(3963)
+ChapterTime: 1:06.725(3925)
