@@ -1,0 +1,335 @@
+console load nameguysdsidespack/0/10-Farewell h-08
+   1
+
+#lvl_h-08
+  36
+   4,D,X
+   6,R,X
+   3,R,J
+   2,R
+   8,R,Z
+#Start
+   1,R,K
+   6,R
+  12,R,J
+  15,R,D,X
+  12,R,J
+   4,D,X
+  10,U,X
+   9,R,J
+  11
+   4,D,X
+   1,R,J
+   4,R
+   1,S
+   1,D,J
+  34
+   8,R,D
+   1,R,J
+   6,R,D,X
+  40
+
+#lvl_hh-01
+   4,R
+   1,S
+   1,D,J
+  34
+   3,R,J
+   9,R,X
+   9,R,C
+   4,D,X
+   5,R,X
+  11,R,U,C
+   9,R,X
+  11,R,Z
+   6,R,J
+   1,S
+   1,D,J
+  34,J
+   2,R,J
+   6,R
+   1,R,K
+   5,R,U,K,Z
+  40,K
+
+#lvl_hh-02
+  10,R,K
+   1,S
+   1,D,J
+  34
+   7,U,C
+   9,R,Z
+   8,U,C
+   9,U,X
+   9,R,C
+   9,D,X
+   4,D,C
+   5,R,X
+  19,R,C
+  15,U,X
+  11,R,C
+   4,D,X
+  10,R,X
+   1,R,J
+   6,R,D,X
+   1,S
+   1,D,J
+  34
+   1,J
+   2,R,J
+  40
+
+#lvl_hh-03
+   2,R
+   1,R,J
+   1,S
+   1,D,J
+  34
+   8,R
+   3,R,D
+  13,R,K
+  15,U,X
+   1,L,J,G
+   4
+   1,L
+   1
+   1,L
+  25,U,G
+  17,G
+   3,U,G
+   1,G
+   1,U,G
+   3,G
+   1
+   1,J
+   1,L,K,G
+  36,R,K
+   4,Z
+   7,R,J
+  40
+
+#lvl_hh-04
+   1,R,J
+   4,R
+   2,R,K
+  14,R,D,X
+   1,S
+   1,D,J
+  34
+  17,R,D
+   5,R,J
+  11,R,D,X
+   1,R,K
+  10,R
+  21,D,X
+  21,R
+  19,R,J
+  12,U,X
+   5,R,K
+   1,R,J,G
+   1,K
+  40
+
+#lvl_hh-05
+   1
+   1,S
+   1,D,J
+  34,J
+  12,R,K,G
+   1,R,J,G
+   4,D,X
+   5,R,X
+   1,R,J
+   2,R
+   1,S
+   1,D,J
+  34
+   5,R
+  22,R,J
+  16,U,X
+  12,J,G
+   2,K,G
+   1,L,K
+  11,J
+  14,R,Z
+   1,R,J
+  14,R,D,X
+   1,S
+   1,D,J
+  34
+   2,R,D
+   1,R,K
+   5,R
+   2,R,K
+   9,R
+   1,R,J,G
+  12,R,U,X
+  40
+
+#lvl_hh-06
+   9,R,U,X
+   1,S
+   1,D,J
+  34
+  10,R,D
+  15,D,X
+   1,L
+   1,G
+   1,K,G
+   1,R,K
+   5,L,K
+  19,L
+   2
+   1,L
+   1,J
+  16,R
+   1,G
+   1
+   1,R,K,G
+   1,R,J,G
+   1,R,K,G
+   1,R,J,G
+   1,R,K,G
+   7,R
+  12,R,J
+   8,R
+   1,R,J
+  23,R,D,X
+   1
+   2,R
+  14,R,D
+   6,R,D,X
+   1,L,J
+  15
+   1,K
+   9
+   1,K
+   9,R
+   4,G
+repeat,124
+   1
+   1,G
+endrepeat
+   1,R,J,G
+   1,R,K,G
+   1,R,J,G
+   2,R,K,G
+   2,K
+   9,R,D,X
+   3,X
+   1,L,J
+   4,L
+   1,L,J
+   3,L
+  14,L,Z
+   1,R,K
+   8,R,D,X
+   1,R,J,G
+   1,R,K,G
+   1,R,J,G
+   6,R
+   1,R,J
+   9,R
+   2,R,K
+   6,R
+  12,R,K
+  13,R,U,Z
+   1,L
+   4,J,G
+   1,R,J
+   2,R,K,G
+  40
+
+#lvl_hh-07
+   2,R,K
+   1,S
+   1,D,J
+  34
+  14,R,U,X
+   1,S
+   1,D,J
+  34
+  12
+   8,R,K
+  13,J
+   1,S
+   1,D,J
+  34
+  14,R,Z
+   1,R,K
+  11,R,D,X
+   2,R,J
+   3,R,K,G
+  18,R
+  12,R,Z
+   3,R,J
+   5,R,D,X
+   1,R,K,G
+   2,R,J,G
+   6,R,K,G
+   6,R,J,G
+  15,R
+   9,R,K
+   6,R
+   9,R,X
+  40
+
+#lvl_hh-08
+   5,R,X
+  13,R,J,G
+  14,R,U,X
+   3,R,K,G
+  12,R,J,G
+  15,R
+   7,R,D,K
+StunPause
+   2,R,K
+   1,X
+SkipInput
+   3
+   9,R,D
+EndStunPause
+   2,R
+   1
+   9,R
+StunPause
+  14,R
+EndStunPause
+   2,R
+   4,R,K,G
+   5,R
+   7,R,K
+  10,R
+   1,R
+   4,R,D,J
+  40,J
+
+#lvl_i-01
+   7,R,J
+   9,R,D,X
+   1,S
+   1,D,J
+  34
+   6,R
+   7,R,D,X
+   1,S
+   1,D,J
+  34
+  11,R,K
+   4,R
+  40
+
+#lvl_i-02
+   1,R
+   2,R,K
+   1,R
+   2,R,K
+   5,R,D
+  21,R,J
+  16,R
+  14,R,U,X
+  12,R,K,G
+   4,R,J,G
+   7,R
+
+ChapterTime: 0:46.954(2762)
