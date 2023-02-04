@@ -1,4 +1,4 @@
-RecordCount: 11824
+RecordCount: 11863
 
 console load nameguysdsidespack/0/3-Resort
    1
@@ -1446,21 +1446,20 @@ SkipInput 3 1
   12,R
 EndStunPause
   19,R
+AnalogMode Square
+   1,F,45.5
 AnalogMode Precise
-   1,F,47
-   8,F,90
-  18,F,122.7
-   1,F,120
-   9,F,90
-   1,F,87
-  16,F,68.4
-   1,F,70.65
-   8,F,91.3
-   1,F,95
-  14,F,98
-  15,R,Z
-   6,R
-   6,R,Z
+  11,F,105
+  15,F,126.416
+   1,F,121.082
+  10,F,86.755
+   1,F,85.528
+  15,F,67.931
+   1,F,70.998
+   8,F,90.042
+  14,F,99
+  21,R,Z
+   7,R,V
    1,R,J
    4,R
    2,R,K
