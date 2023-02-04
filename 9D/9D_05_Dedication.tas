@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 1137
+RecordCount: 1178
 
 console load nameguysdsidespack/0/10-Farewell 26256 -4328
 
@@ -11,7 +11,6 @@ console load nameguysdsidespack/0/10-Farewell 26256 -4328
   36
 
 #lvl_d-01
-
    6,L,D,X
    1,R,J
    7,R
@@ -33,7 +32,6 @@ console load nameguysdsidespack/0/10-Farewell 26256 -4328
   40
 
 #lvl_d-02
-
   13,R,D,X
   24,R,J
   15,U,X
@@ -490,25 +488,22 @@ console load nameguysdsidespack/0/10-Farewell 26256 -4328
 
 #lvl_d-09
    3,R,J
-   7,R,K,G
-   7,R
-   3,R,J
-  31,R,U,X
-  47,R,Z
+   6,R,K,G
+  10,R
+   3
+   1,R
+   2
+   1,R,J
+  15,R,U,Z
+  13,L
+  17,R
   14,R,U,X
-  11,R,J,G
-  40
-#1:15.803(4459)
+   1,R,K,G
+   3,L,K
+   4,R,K
+   7,R
+   6,R,X
+   6,R,J
+  40,J
 
-#lvl_d-10
-   3,R,J
-   4,R,K,G
- 
-
-
-
-
-
-
-
-
+#1:15.599(4447)
