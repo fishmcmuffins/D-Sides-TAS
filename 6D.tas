@@ -1,4 +1,4 @@
-RecordCount: 4128
+RecordCount: 4461
 
 #Created by dahlukeh and gnommis
 console load nameguysdsidespack/0/6-ReflectionD
@@ -124,7 +124,6 @@ console load nameguysdsidespack/0/6-ReflectionD
    5
    5,J
   12,R,K
-
   10,L,Z
    3,R,J
    3,R
@@ -1901,62 +1900,72 @@ EndStunPause
    3,R
    1,R,J
    1,R
-  23,R,J
-   2,J
+  14,R,J
+   1,J
    1,R,J
-  46,L
-   8,L,D
-   3,R,D
-  11,R,D,X
-  34,L
+   2,J
+   9,R,J
+  15
+  25,L
+  10,L,D
+   4,D
+   1,L,D
+  12,R,D,X
+  33,L
   15,L,X
    8,L
   12,D
-   1,R,D
-   7,D
-   1,R,D
-   6,D
+   1,L,D
+  11,D
    4,R,D
-   8,R,J
-  21,R
-  10
-  12,L
-   9
-  25,R
-  13,R,D
-   8,R
-  15,L,X
-  25,R
-  22,L
-  33,R,D
-   9,D
+   1,D
+   3,R,J
+  18,R
+   2,D
    2,R,D
-   4,D
-   1
+   6,D
+   6,L
+   1,L,D
+   3,L
+   6
+   1,L
+  45,R
+   1,R,D
    1,R
-   4
-  33,L
-  14,L,D
+   7,R,D
+  15,L,X
+  14
+   6,R,D
+   4,D
+   1,R,D
+   4,L,D
+   2,L
+   1,L,D
+   1,L
+   7
+  33,R
+  10,D
+   3,R,D
+   4,D
+   3
+  31,L
+  15,L,D
   15,L,X
   10,L
   57,D
    1,L,D
-   1,D
-   1,L,D
-   8,D
-   9,R,D
+  10,D
+  11,R
+   4,R,D
+  30,R,X
+   2,R,D
+   1,J,G
+   6
+   3,R
+  14,X
+  40,J
    9,R
-  15,R,U,X
-  30,R
-   4,D,X
-   3,L,X
-   1,R,J
-   7,R
-   1,L,D,J
-   7,R,J
-  37,J
-  15,U,X
-   6,R
+  13,U,X
   60,L,D
   12,D
    2,L,D
