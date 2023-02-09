@@ -1,4 +1,4 @@
-RecordCount: 5300
+RecordCount: 5301
 
 #Created by dahlukeh and Fishmcmuffins
 #improvements by pansear and gnommis
@@ -305,8 +305,9 @@ console load nameguysdsidespack/0/5-Temple
    7,R,U,Z
    1,L,J,G
    3,R,J
-stunpause
+StunPause
   22,R,J
+SkipInput,3,1
   15,U,X
    3,R,J
    8,R
@@ -319,7 +320,7 @@ stunpause
    1,L,J
    1,J
    1,L,K
-endstunpause
+EndStunPause
    5,L,K
   39,U,X
   15,R,U,Z
