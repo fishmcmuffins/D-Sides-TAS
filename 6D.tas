@@ -1,4 +1,4 @@
-RecordCount: 5789
+RecordCount: 5928
 
 #Created by dahlukeh and gnommis
 console load nameguysdsidespack/0/6-ReflectionD
@@ -1525,13 +1525,14 @@ EndStunPause
   17,R
   14,R,X
    2,R,J,G
-  12,R
+  10,R
+   2
    1,R,J,G
   27,L,D
    4,L
    4,D,X
   11,R,X
-  29,L,D
+  26,L,D
   48,L
   15,R,X
   20,L
@@ -1554,7 +1555,6 @@ EndStunPause
    6,R
    1,R,J
    6,R,U,X
-#3:54.345(13785)
   40
 
 #lvl_boss-05
@@ -2014,7 +2014,7 @@ EndStunPause
   34,R,D,X
    1,R,J
    7,R,D,X
-#5:05.677(17981)
+#5:05.626(17978)
   40
   
 #lvl_boss-12
