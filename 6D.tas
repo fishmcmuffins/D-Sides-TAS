@@ -1,4 +1,4 @@
-RecordCount: 5734
+RecordCount: 5789
 
 #Created by dahlukeh and gnommis
 console load nameguysdsidespack/0/6-ReflectionD
@@ -1505,18 +1505,17 @@ EndStunPause
    9,U,X
   14,R,J
    2,R
-   2,R,K,G
+   1,R,K,G
+   1,L,K
    7,R
+   4,R,X
    2,R,J
+  19,R,D
+   7,L,D
+  12,R,D
+   3,R
    4,D,X
-   6,R,X
-   1,R,J
-   8,L,D
-  20,D
-   9,R,D
-   4,D,X
-  10,R,U,X
-   1,L
+  11,R,U,X
    1,L,J,G
    5,L,K,G
   12,R,J
@@ -1538,23 +1537,24 @@ EndStunPause
   20,L
 #WE LOSE A FRAME IN FASTFORWARD
 #27,R works as well
-  28,R
+  25,R
    4,D,X
-  10,R,U,X
+  11,R,U,X
   44,R
   15,R,X
   10,R
    9
    5,D
-   3
-   1,D
    1
+   2,R
+   2,R,D
    4,D,X
    4,L,X
    1,R,J
    6,R
    1,R,J
    6,R,U,X
+#3:54.345(13785)
   40
 
 #lvl_boss-05
@@ -2014,6 +2014,7 @@ EndStunPause
   34,R,D,X
    1,R,J
    7,R,D,X
+#5:05.677(17981)
   40
   
 #lvl_boss-12
