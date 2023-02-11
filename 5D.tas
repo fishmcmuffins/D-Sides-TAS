@@ -1,4 +1,4 @@
-RecordCount: 5301
+RecordCount: 5374
 
 #Created by dahlukeh and Fishmcmuffins
 #improvements by pansear and gnommis
@@ -453,8 +453,8 @@ EndStunPause
   17,R,X
   15,D,C
   12,R,D
-  37,U,X
-   2,J
+  38,U,X
+   1,J
   15,D
    4,R,D
   13,D
@@ -469,14 +469,17 @@ EndStunPause
   15,U,C
   15,R,Z
    4,R
-  21,U,X
-  15,D,C
-  11,R,D
+  18,U,X
+   4,C
+  11,D,C
+   3,R
+   5,R,D
   15,R,Z
-   1,R
-  21,U,C
-  15,D,X
-  15,R,C
+   2,R
+  20,U,X
+   4,C
+  11,D,C
+  15,R,X
    4,R
   19,U,X
   15,R,C
@@ -499,9 +502,10 @@ EndStunPause
    6,R
   15,R,U,X
   27,R
-  32,R,X
- 102,R,G
-  26,R,U,G
+  18,R,X
+  14,R
+ 102,G
+  26,U,G
    8,R,J,G
    2,R,K,G
    2,R
@@ -539,10 +543,9 @@ endrepeat
   16,L
    1,L,D,J
    4,L
-   5,L,D,X
-   3,D
-   1,R,J
-  25,R,D
+   8,L,D,X
+   7,L
+  19,R,D
    6,R,Z
    1,R,J
    7,R
@@ -558,13 +561,11 @@ endrepeat
    7,R
    6,R,J
    6,K,G
-   1,D,X
-   9,R,X
+  10,R,Z
    1,R,J
   15,R
    2,R,D
-   1,D,X
-  14,R,X
+  15,R,Z
    5,R
   99,R,G
   14,D
@@ -714,7 +715,7 @@ endrepeat
   13
   61,L,X
 StunPause
-  20,L,X
+  20,R
 SkipInput,3,1
    7,R,U,Z
 EndStunPause
@@ -1278,4 +1279,4 @@ EndRepeat
   15,L,X
  127
 
-ChapterTime: 3:21.161(11833)
+ChapterTime: 3:21.059(11827)
