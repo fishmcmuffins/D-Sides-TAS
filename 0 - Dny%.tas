@@ -7,11 +7,11 @@ Read,StartFullGameFile
 
 Read,0 - Prologue.tas,Start
 
-Read,Load1D
+Read,LoadDPost,Load1D
 
 Read,1D,Start
 
-Read,LoadD
+Read,LoadDPost
 
 Read,2D,Start
 
@@ -25,11 +25,11 @@ Read,4D,Start
 
 Read,LoadD
 
-Read,5D,Start,Return
+Read,5D,Start
 
 Read,LoadD
 
-Read,6D,Start,Return
+Read,6D,Start
 
 Read,LoadD
 
