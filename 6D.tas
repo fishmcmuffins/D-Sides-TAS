@@ -1,4 +1,4 @@
-RecordCount: 7045
+RecordCount: 7047
 
 #Created by dahlukeh and gnommis
 console load nameguysdsidespack/0/6-ReflectionD
@@ -2481,11 +2481,16 @@ AnalogMode square
   10,L,X
    4
    3,L
-  49,L
-   1
-   1,L
-  63,D
+  16
+  22,L,D
+  15,L,D,X
    5,L,D
+   5
+   1,G
+  10,R,D
+  17,D
+   4,R,D
+  10,L,D
   12,R
    4,D,X
   11,R,X
@@ -3059,4 +3064,4 @@ AnalogMode square
   52,R,D,C
   38,L,U,X
 
-ChapterTime: 8:11.827(28931)
+ChapterTime: 8:11.538(28914)
