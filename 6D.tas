@@ -1,4 +1,4 @@
-RecordCount: 7047
+RecordCount: 7942
 
 #Created by dahlukeh and gnommis
 console load nameguysdsidespack/0/6-ReflectionD
@@ -2381,18 +2381,21 @@ AnalogMode square
 #lvl_boss-18
    2,R
   18,R,X
-  15,R,C
-   1,R
-  37,L
-  19,D,X
-   9,L,J
-  10,R,D,X
-   5,R,J
-  13,R,D,X
-   1,R,J,G
-  12,R
+   4,R,Z
    1,R,J
-  12,R,U,X
+   8,R
+  37,L
+  15,R,D,X
+  13,D
+   3,R,D
+   2,D
+   4,R,Z
+   1,R,J
+   6,R,K,G
+   7,R
+   1,R,J
+  13,R,D,X
+   5,R,J
   27,R
    1,R,J
    1,R,K
@@ -2409,25 +2412,25 @@ AnalogMode square
    1,L,G
    1,L,J,G
    1,L,J,G
+   1,D
+  11,R,D
    4,D
-  12,R,D
   14,R,D,X
-   2,R,J
-   6,R
-   4,D,X
-   6,R,U,X
+   1,R,J
+   3,R
+   3,R,J
+  10,R,U,Z
    1,R,J,G
+   4,R
+   5,R,J
    5,R,D
-   9,R,J
    1,R,K
   14,R,D,X
-   3,R,J
+   2,R,J
   36,L
    1,R
-   1,R,J
-   6,R
-   4,D,X
-   9,R,X
+   7,R,J
+  13,R,Z
    1,R,J
    2,R
    6,R,D,X
@@ -2453,71 +2456,75 @@ AnalogMode square
   11,R,X
   17,R,D
   12,L,D
-   6,L
-   1
+   2,L
+   3,R
+   1,L
+   1,R
   10,R,D,X
-  19,R,J
-  13,R,D,X
-   5,R
-   6
-  11,L,X
-  25,R,J
-  15,R,X
-   1,R,G
-   1,J,G
    8,R,J
+   1,R
+   6,R,J
+  12,R,D
+   5,R,J
+   3,J
+   2,R,J
+   2,R
+  15,R,Z
+  11,R,J
+  15,U,X
+  12,R,G
+   1,J,G
+   3,R,J
    1,L,J
    1,R,J
   12,R,K,G
   22,R,D
-   9,L,D
-  36,R,J
+   3,L,D
+   1,R,D
+   4,L,D
+   8,R,J
+   1,R
+  27,R,J
   41,D,G
-  60,D
+  54,D
+   6,L,D
   16,U,X
   10,L,J
   26,L
-   4,D,X
-  10,L,X
-   4
-   3,L
-  16
-  22,L,D
+  19,L,Z
+  34,L,D
+   6,R,D
   15,L,D,X
-   5,L,D
-   5
-   1,G
-  10,R,D
-  17,D
-   4,R,D
-  10,L,D
-  12,R
-   4,D,X
-  11,R,X
-  11,R
+  27,R,D
+   2,D
+  13,L,D
+  17,R
+  19,R,X
   49,R,D
-  14,D
-   3,R,D
-  18,L,D
-  31,L,X
-  40
+  16,D
+   4,L,D
+   1,D
+  10,L,D
+  15,L,Z
+  19,L,D
+  39,L
   15,R,D,X
-  15,D
-   1,R,D
-   4,D
-  10,R,D
-  12,D
-   4,R,D,X
-   2,R,J
-   5,R
-   2,R,J
-   7,R
+  17,L,D
+  10,D
+  15,R,D
+   4,R,Z
+   1,R,J
+   1,R
+   3,R,J
+   1,R
+   1,R,J
+   8,R
    1,R,J
   12,R,U,X
   44,R,D
   15,R,X
   28,R,D
-   4,R,D,X
+   4,R,Z
    1,R,J
    1,R
   40
@@ -2558,8 +2565,7 @@ AnalogMode square
   40
 
 #lvl_center-03
-   5,R,D,X
-  15,R,D
+  20,R,D
    7,D
    4,R,Z
    1,R,J
@@ -2940,8 +2946,7 @@ AnalogMode square
    4,R,J
   12,R,K,G
    1,J
-   5,R,J
-   9,R,J
+  12,R,J
   12,R,X
   10,R,J
   10,R,D
@@ -2950,12 +2955,14 @@ AnalogMode square
   40
 
 #lvl_center-13
-   7,R,D,X
+   8,R,D,X
    1,R,J
    7,R
-   3,R,J
-   8,R
-  19,R,J
+   2,R,J
+   1,R
+   9,R,J
+   2,R
+  15,R,J
   37,L
   21,L,D
   30,D
@@ -2963,12 +2970,15 @@ AnalogMode square
   15,D
    7,L,G
   12,D,G
-  27,L,G
-   4,D,X
-  11,L,X
-   1,L
-   1,R,J
-  40,D
+  12,L,G
+   1,L,D,G
+   1,L,G
+   1,L,D,G
+   1,L,G
+   1,L,J,G
+   1,D
+  15,L,Z
+  35,D
   37,D
   33,D
    6
@@ -3005,10 +3015,10 @@ AnalogMode square
   11,R,J
   26,R,D
   30,D
-  65,L,D
-   6,R,D
+  61,L,D
+  10,R,D
   14,R,D,X
-  22,R,J
+  21,R,J
    1,R,K,G
   11,R
    1,R,J
@@ -3021,47 +3031,54 @@ AnalogMode square
   21,R,D
    6,R,J
   35,R,D
-  20,D
-   7,R
-   8
-   1,L,J
-  14,L
-   2,L
-   4,L,D,X
-   1,L,J
-  35,D
-  58,R,D
-   9,D
-  17,L,D
-  67,R,D
-  13,R,D,X
-   4,R,J
-  10,R
-   7,R,J
-  10,R
+  10,D
+   7,R,D
    1,R,J
-   8,R
+   7,R
+Repeat,8
+   1,R,G
+   1
+EndRepeat
+   7,R,D,X
+   1,L,J
+   7,D
+  15,L,D
+  60,D
+  17,R,D
+  22,L,D
+  66,R,D
+  14,R,D,X
+   4,R,J
+   9,R
+   6,R,J
+   1,R
+   6,R,J
+   3,R
+   1,R,J
+   1,R
+   8,R,J
   40
 
 #lvl_lastroom
-   4,D,X
-  10,R,X
-  30,R,J
-   9,R
-  15,R,X
-   5,R
-   4,R,D,X
-   8,R,J
-  11,R
+  11,R,Z
+   2,R,J
+   7,R
+   2,R,J
+   6,D,X
+  38,R
+  26,R,U,X
+   5,L,D,C
+   1,R,J
+   7,R
+  17,R,D,J
+  10,U,X
+   1,R,J
+  19,R
+   1,L,J
+  13,L
   15,R,J
-  16,U,X
-   5,J,G
-   4,R,J,G
-  11,R,K,G
-   4,J,G
-  38,L,X
-  15,L,D,X
-  52,R,D,C
-  38,L,U,X
+   1,L,K
+  31,L,D
+  54,R,J
 
-ChapterTime: 8:11.538(28914)
+ChapterTime: 8:09.991(28823)
