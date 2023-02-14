@@ -42,3 +42,11 @@ Read,8D,Start
 Read,LoadD
 
 Read,0 - Epilogue.tas,Start
+
+  60
+   1,J
+ 196
+Add 197
+ 173
+
+Read,LoadJournal,Epilogue

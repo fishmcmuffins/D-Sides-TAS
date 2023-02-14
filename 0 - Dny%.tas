@@ -34,3 +34,5 @@ Read,6D,Start
 Read,LoadD
 
 Read,7D,Start
+
+Read,LoadJournal
