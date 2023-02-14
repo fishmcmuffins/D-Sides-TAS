@@ -36,27 +36,32 @@ console load nameguysdsidespack/0/9-Epilogue
    4,L,J
   21,L
    1,L,J
-   6,L
+   5,L
    1,L,J
-   8,L
+   9,L
    1,J
-  13,L
+   8,L
+   1,L,J
+   7,L
    1
-   4,L
-  11,L,D,J
-   8,J
+   1,L
+   1,L,D
+   9,L,J
+   5,L
+   3,L,J
+   1,K
+  16,R,J,G
    1,R,K,G
-  12,R,J,G
    1,R
+   1,L,J
    5,L,K
    1,L
-   1,L,J,G
    1,L,K,G
-  18,L
-   1,L,D
-   1,L
+   1,L,J,G
+  19,L
    1,R
-   1,J,G
+   1,L
+   1,J
    1,R,K,G
    7,L,K
    5,L
@@ -65,24 +70,30 @@ console load nameguysdsidespack/0/9-Epilogue
 #lvl_a-03
    6,L
    4,L,D
-   7,L,J
-   2,L
-   3
-   1,K
-  10,J,G
-   1,R,J
+   6,L,J
    1,J
-   1,L,K,G
-  10,L,J,G
+   5
+   1,J
+  10,K,G
+   1,R,K
    1,K
-  12,R,J,G
-   3,R,K,G
-   8,K
-   1,L,K
-   6,L
-   8,L,J
+   1,L,J,G
+   8,L,K,G
+   1,R,K
+   1,K
+  12,J
+   5,K,G
+   1,R,J,G
+   1,L,J
+   3,J
+   3,L,J
+   1,J
+   4,L,J
+
+   8,L,K
    2,L
-  12,L,J
+   1,L,J
+  11,L,K
    5,L
   10,L,J
   22,L,D,K
@@ -247,46 +258,48 @@ console load nameguysdsidespack/0/9-Epilogue
    1,R
   12,R,J
   12,L,K
-  40
+  43
 
 #lvl_b-04
-   5
+   2
   11,K,G
    1,R,K
    1,K
-  11,R,J,G
+  11,R,J
    1,R,K,G
    2,R,J,G
   15,R
-  20
-   6,L,J
-   3,R,K
-   6,R,J,G
-   5,R
-   1,R,J,G
-   3,J
-   5,R,J
-  15,R
-   3
-   3,D
-  25,R,D
-   7,R
-  15
-   8,R
-   3
+  17
+
+   1,J
+   5,L,J
+   1,J
+   1,L,J
+   1,K
+   2,J,G
+  28,R,J
+  40,R,D
+  22
+  14,R
+   1
+   6,J
+   3,R,J
+   1,K
+   7,R,K
+  11,K
+   1,L,K
+   1,J,G
    1,R,J
-   8,L,J
-  22,R,K
-  11,J,G
-  12,L,K
-   7,L,G
-  10,G
-   4,U,G
-  14,G
+  12,L,K,G
+   7,L
+   6,G
+  11,U,G
+  11,G
    1,L,J,G
    1,L,K,G
    1,L,J,G
-   2,R
+   1
+   1,R
   40
    
 #lvl_b-05
@@ -297,10 +310,10 @@ console load nameguysdsidespack/0/9-Epilogue
    1,K,G
    1,R,K
    1,L,K
-   2,R,K
-  27
-   7,F,85
-  10,F,90
+   3,R,K
+  26
+   1,F,85
+  16,F,90
   24,F,96
   10,F,40
    9,F,20
@@ -364,62 +377,57 @@ console load nameguysdsidespack/0/9-Epilogue
    1
    3,L
    1,L,K,G
-   2,R,K
-   4,L,K
-  10,L
-   2,L,J
+   2,K
+   3,R,K
+   1,L
+   1,L,J,G
    1,L,K,G
-   4,L,J,G
+   1,L,J,G
+   3
+   5,L
+   1
+   1,L,J
+   1,L,K,G
+   2,L,J,G
+   1,J
+   1,L,J
    5,L
    2,L,J
   40
 
 #lvl_b-07
-   8,L,J
-   7,L
-  10,L,K
-  49,L,J
-  35,R
-  28,D
-   9,L
+ 100
+   5,L
+   1,L,J
+  38,L
   25
   25,L
   25
-  10,L,J
-  29,J
+   8,L,J
+  31,J
   53,L
    1,L,J
-  10
-   4,L
-  43
+   9
+   5,L
+  58
   11,L,J
    5,J
    7,L,J
   13
-   1,R
-   1,R
-   1,R
-   1
-   1,R
-   1,R
-   1,R
-   1
-   1,R
-   5
-   6,L
+   2,L
    1,L,J
-  14,L
+  15,L
   12,L,J
    4,L
    1
-   2,L
-   6,L,J
-  13,L
+   7,L,J
+   9,L
+   1
    1,L,J,G
    4,L,K,G
-   4,L
+   5,L
    1
-  12,L
+  11,L
    3,L,J
    1,L,K,G
    1,L,J,G
@@ -481,4 +489,4 @@ console load nameguysdsidespack/0/9-Epilogue
    1,L,J,G
  115,L,G
 
-ChapterTime: 1:08.340(4020)
+ChapterTime: 1:08.187(4011)

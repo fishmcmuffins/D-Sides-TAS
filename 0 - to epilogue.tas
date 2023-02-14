@@ -1,0 +1,44 @@
+#To sync:
+#Use Celeste v.1.4.0.0
+#Start from Begin
+#More Things Like Everest and D - Sides idk
+
+Read,StartFullGameFile
+
+Read,0 - Prologue.tas,Start
+
+Read,LoadDPost,Load1D
+
+Read,1D,Start
+
+Read,LoadDPost
+
+Read,2D,Start
+
+Read,LoadD
+
+Read,3D,Start
+
+Read,LoadD
+
+Read,4D,Start
+
+Read,LoadD
+
+Read,5D,Start
+
+Read,LoadD
+
+Read,6D,Start
+
+Read,LoadD
+
+Read,7D,Start
+
+Read,LoadD
+
+Read,8D,Start
+
+Read,LoadD
+
+Read,0 - Epilogue.tas,Start
