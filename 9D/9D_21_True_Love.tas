@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 3114
+RecordCount: 3691
 
 console load nameguysdsidespack/0/10-Farewell 196528 -48208
    1
@@ -239,54 +239,59 @@ Set,Session.Inventory.Dashes,2
    1
   14,R,C
    7,R,J
-  15,R,D,X
-  15,R,D,C
-   4,X
-   8,R,J
-   5,R
-  14,R,X
-   2,R,K
-  15,U,X
+  17,R,D,X
+  14,R,D,C
+  22,R,K
+   4,R
    1
-   3,J
-   3
-  18,D,X
-   3,L,D
-   8,R,D
-   8,R
-  21,R,X
-   1,G
-   5,R,X
-   1,R,J,G
-   1,R,K,G
-   1,R
-   1,R,J,G
-   1,R,K,G
-   9,R
-   3,R,D
-   2,R,J
-   5,R
-   6,R,J
-  15,L,U,X
-  10,L,C
-   4,L,K
-   3,L
-  15,U,Z
-  14,R,U,C
-   1,R,K,G
+  15,U,X
+  15,R,Z
+   1,L
+   4,J,G
+  22,R
+  10,R,Z
+   1,R,K
    2,R,J,G
    1,R,K,G
-   1,R,J,G
-  16,R
-  11,D,X
-  13
-  15,D,C
-  27
-  15,R,Z
-  14,R,U,V
-   4,R,J,G
+  10,R,J,G
+   9,R,X
+   1,R,K,G
+   2,R,J,G
+   7,R,K,G
+   5,J,G
+   1,R
+   1
+   6,L
+  17,D,X
+   1,L
+   1
+   1,L,D
+   1,D
+   1,L,D
+   5,D
+   2,L,D
+   1,D
+   4,R,D
+   2
+  14,L,Z
+   1,L,J
+  14,L,Z
+   1,R,K
+  15,R,D,X
+  17,R
+  12,R,U,C
+  16,R,J
+  15,U,X
+   8,L,Z
+   1,R,J
+  11,R
+   6,R,D,K
+   1,R,J
+  11,U,X
    1,K
-   7,R,Z
+   1,R,J,G
+   2,R
+   6,R,Z
   40
 
 #lvl_u-07
@@ -305,87 +310,100 @@ Set,Session.Inventory.Dashes,2
    1,L,K,G
    2,R,K
   34,R,J
-  31,R,D,X
-   7,R
-  17,R,U,Z
-   9,L,J,G
-   1,K
-   9,R,K
-  10,L,Z
+  11,R,D,X
+   4,L
+   5,K,G
+   3
+   4,R
+   2,R,K
+   1,R
+   2,R,K
+   4,R
+  27,R,Z
+  10,L,V
+   1,R,J
+   5
+   5,R
+  15,R,Z
+  10
+  14,R,Z
+   1,K,G
+   5
+   9,L,D
+   1,R,D
+   1,D
+  12,R,D
+   1,G
+   9,R,J,G
+   2,R
+  25,R,X
+  20,R,U,Z
+   1
+   7,L,K,G
+   5,K
+  12,J,G
+   8,K,G
+   7,L
+  10,L,D,X
+   3,R,J
+   2,R
    1,R,J
    1,R
-   9
-  15,R,Z
-   1,R,G
-   9,R,D
-  14,R,Z
-   1,J
-  26,R,D
-   2,R
-   1
-  15,R,J,G
-  24,R,X
-  17,R,U,C
-  12,L,J,G
-   3,L,K,G
-  13,R,J
-   1,R,K,G
-  37,R,D
-  15,U,X
-  19,D
-  13,R,D
-  30,R,Z
-   1,D
-  37,U,C
-  15,U,X
-  19,L
-  51,R,U,X
-  27,R,G
-  13,L
-  39,R
-  58,R,G
-   5,J,G
-  13,L,J
-  19,D
-   9
-   5,L
-   9,R
-   8,L
-   4,R
-  50,R,U,Z
-  50,R,U,V
-  28,R,J,G
-  60,K,G
-  14,R,J,G
-  17,L,J
-  15,U,X
-   6,L,J
-   5,R,K
-   7,R
-  15
+   2,R,J
    8,R
-   8,L,Z
-   1,R,J
-   6,R
    1
-   1,R,J
+   1,R
    3
-   1,R,J,G
+  15,R,Z
+  19,R,D
+   8,D
+   4,R
    1
-   1,R,J,G
+  24,R,U,Z
    1
-   1,R,J,G
-   1
-   1,R,J,G
-  34,R,D,X
-  19,R,J
-  15,R,U,Z
-   9,U,C
+   1,R
+  15,L,V
+  38,R
+  15,U,X
+   3,L
+  26,R
+   1,R,D
+   1,R
+   6,R,D
+  34,R,U,C
+   1,J
+  50,R,J
+   2
+   1,R
+   3,G
+   1,K,G
+   3,L,K
+   7,U,K,Z
+   3,J
+   1,L,J
+  10,J
+   7,R
+  16,R,Z
+  15,L,V
+  22,R
+  14,U,Z
+   3,R,J
+   2,R
+   9,R,Z
+   1,R,K
+   6,R
    1,R,J
-  11,R
+   1,R
+  23,R,D,X
+  18,R,D,C
+  23,R,K
+  15,R,U,Z
+   7,U,X
+   2,R,J
+   5
+   6,L
   14,U,X
-   2,L,J
-   2,L
+   3,J
    5,U,X
   40
 
@@ -608,7 +626,7 @@ Set,Session.Inventory.Dashes,2
   15,U,X
    5,R
  465
-#1:31.664(5392)
+#1:26.003(5059)
 
 #lvl_v-00-lobby
 
