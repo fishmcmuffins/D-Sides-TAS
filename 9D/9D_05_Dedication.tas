@@ -3,35 +3,12 @@
 
 RecordCount: 1178
 
-console load nameguysdsidespack/0/10-Farewell 26256 -4328
-
+console load nameguysdsidespack/0/10-Farewell 26836 -4300
    1
 
-#Start
-  36
-
-#lvl_d-01
-   6,L,D,X
-   1,R,J
-   7,R
-   8,R,J
-   1,R
-  10,R,Z
-   1,R,J
-   6,R
-  26,R,J
-   6,R
-  19,R,U,X
-  24,R,Z
-  15,U,X
-  52,R,D
-   5,R
-  15,R,Z
-  10,R
-  16,R,Z
-  40
-
 #lvl_d-02
+  36
+#Start
   13,R,D,X
   24,R,J
   15,U,X
@@ -506,4 +483,4 @@ console load nameguysdsidespack/0/10-Farewell 26256 -4328
    6,R,J
   40,J
 
-#1:15.599(4447)
+#1:11.502(4206)
