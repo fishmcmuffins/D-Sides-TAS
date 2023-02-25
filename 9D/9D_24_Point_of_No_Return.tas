@@ -56,7 +56,6 @@ console load nameguysdsidespack/0/10-Farewell 213328 -52440
    1,R,J
   13,R
   15,R,X
-#-3f w-01 end
    8
    4,R,X
    6,R,J
@@ -90,7 +89,6 @@ console load nameguysdsidespack/0/10-Farewell 213328 -52440
    6,R,J
   15,R,D,X
    2,R
-#0:11.662(686)
   71,R,U,G
   51,R,D,G
    1,R
@@ -186,68 +184,57 @@ console load nameguysdsidespack/0/10-Farewell 213328 -52440
    1,R,G
   15,L,U,X
   31,R
-  16,R
-  14,R,U,Z
-   1,L
+  12,R
+   5
+  19,R,D
    1,R
-   3,L
-   1,L,K,G
-   8,L,G
-#activate
-   2,R,K
-  19
-  10
-  20,L
-   5,L,G
-   3
-  22,R,J
-  15,R,X
-   2,R
-  15,U,C
-  27,R,J
-  11,R,D
-  12,D
    2,R,D
-  10,D
-   1,L,D
-   1,L,G
-   6,R,J,G
-   5,R
-   5,R,J
-   9,R
-  15,R,U,X
-  15,R,U,Z
-   9
-  12,L,G
-  29,D,G
-  19,R,D,G
-  14,D,G
-   4,R,D,G
-#fish
-   6
-  33,R,G
   12,R
-  10,U,X
-  31,U,G
-  17,R,U,G
-  12,R,D,G
-   8,D,G
-  10,R,D,G
-   1,R
-   6,R,U,X
-  32,R
-   3,R
- 105,R,U,G
-   1,L
-  21,R,D
-  13,D
-   4,R,D
-   7,R,J
-   5,R
-   3,R,J
+  34,R,U,Z
+   1
+   1,J
+  15,L,J
+  11,K,G
+   1
+   1,L,J,G
+   4,R,J
+   4,J
+   7,L
+   4,X
+   2,R,K
+   1,K
+   7,R,K
+   2,K
+  29,D
+   1
+   2,D
+   3
+  15,R
+  25,R,U,Z
+  24,R,U,V
+  44,D,G
+   3,R,D,G
+   3,D,G
+  23,R,D,G
+  37,R
+  13,U,Z
+   1,R,J,G
+  19,J
+   8,R,J
   15,R,X
-  12,R
-#bird
+  31,R
+  95,R,U,J,G
+   1,L,J
+  23,R,J
+  12,D
+   1,R,D
+   1,L
+   1,K
+   1,J,G
+   1
+   5,R
+  11,R,J
+  24,R,X
   51,R
   17,U,X
   10,J
@@ -268,7 +255,6 @@ console load nameguysdsidespack/0/10-Farewell 213328 -52440
    1,R,J
    4,R
   12,R,D
-#bird
   61,R
   12,U,X
    8,R,J
@@ -279,15 +265,13 @@ console load nameguysdsidespack/0/10-Farewell 213328 -52440
    3,R,D
   12,R,J
   23,R
-#bird
-  50,R
-  12,U,X
-   9,R,J
-   1,L,J
-   1,K,G
-  21,R,K
-  24,R
-#bird
+  63,R
+#slow down after dash
+#ends and aim for
+#horiz. center of bird
+#makes animation shorter
+#but gets awful subpixels
+  31,R,U,Z
   42,R
   18,R,X
   15,R,D
@@ -297,8 +281,10 @@ console load nameguysdsidespack/0/10-Farewell 213328 -52440
    1,L
    6,J,G
   14,R,J
-   2,R,K,G
-  26,R,D
+   1,R,K,G
+   6,R
+   2,R,K
+  18,R,D
 #bird
   59,R
   12,U,X
@@ -473,7 +459,6 @@ console load nameguysdsidespack/0/10-Farewell 213328 -52440
    1,L
    8,L,U,X
   12
-
    3
    4,L
   12,L,U,X
@@ -553,4 +538,4 @@ console load nameguysdsidespack/0/10-Farewell 213328 -52440
    1,R
    2,R,J,G
    9,R
-#1:38.107(5771)
+#1:35.880(5640)
