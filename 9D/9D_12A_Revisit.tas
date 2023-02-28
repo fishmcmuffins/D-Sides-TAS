@@ -1,9 +1,6 @@
-#By med and euni
 
-#0M
 console load nameguysdsidespack/0/10-Farewell j-00
 
-#500M
 #console load nameguysdsidespack/0/10-Farewell 102480 -15536
 #play,Section 500M
 
@@ -19,13 +16,13 @@ console load nameguysdsidespack/0/10-Farewell j-00
    7,R,X
    1,R,J
    6,R
-   4,R,J
-   4,R
+   6,R,K
+   2,R
   10,R,D,X
-   5,R,J,G
-   6,R
-   1,R,J
+   4,R,J,G
    4,R
+   2,R,J
+   5,R
    7,R,J
    5,R
    2,R,J
@@ -44,14 +41,13 @@ console load nameguysdsidespack/0/10-Farewell j-00
 #j-01
    2,R,J
   13,R,D
-   4,R,J
-   5,R
-   1,R,J
+   5,R,J
+   1,R
+   4,R,K
    1,J,G
    3,R,J
-  44,R
-   4
    1,R
+  48,R
   16,U,X
   17,U,C
    2,J
@@ -160,7 +156,8 @@ console load nameguysdsidespack/0/10-Farewell j-00
   10,F,134
   10,F,74
   16,F,69
-   8,R
+   6,R
+   1,R,J,G
   14,U,X
    9,J
    1,K
@@ -198,14 +195,12 @@ console load nameguysdsidespack/0/10-Farewell j-00
   12,R
    1,X
 #spike cycle
-   1
 #resume
-  77,U
+  70,U
    1,X
-  17
-   6,R,J
-   4,D,X
-  11,R,X
+  19
+   2,R,J
+  15,R,Z
   15,D,C
    2,R,D
   40
@@ -220,55 +215,52 @@ console load nameguysdsidespack/0/10-Farewell j-00
    4,D,X
   10,R,X
   21,D
-  23,R,D
+  19,R,D
+   3,D
+   1,L,D
   15,R,X
-  23,L,D
-  27,R,D
-   8,R,D
-   4,R
+  22,L,D
+  15,R,D
+   2,D
+  11,R,D
+   1,R,D
+   9,R
   15,L,D,X
-   5,R
-  12,R,D
-   3,R
+  20,R,D
    3
-   4,D,X
-  10,L,X
-   1,L
-   5
-  22,R,D
-  13,D
+  15,L,Z
+   5,D
+  24,R,D
+  11,D
    8,R,D
   40
 
 #j-09
-   1,S
-   1,D,J
-   1,O
-  68
-   4,J
-   4,L,J
-   8,L,K
-   1,L
-  14,U,X
-   1,R
-   2,R,J,G
-   7,R
-   2,R,J
-  12,R,Z
-   1,R,J
+  10,R,D
+   2,R
+   2,R,D
+   8,R,X
+   1,J,G
+  10,R,D
+   3,L,D
+  35,L,U,G
+   4,R,Z
+   5,R,J
+   4,R
    1
+   1,R
+  15,R,D,X
+   1,R,J
+   7,R,K,G
   40
 
 #j-10
-   2
-   5,R
-   1,R,J
-  14,R,D,X
-  16,R,J
-  14,R,U,X
+  10,R,K
+   4,R
+  14,R,U,Z
   39,R
   10,R,X
-  38,L
+  36,L
   15,L,U,Z
   57,R
   15,R,D,X
@@ -279,7 +271,8 @@ console load nameguysdsidespack/0/10-Farewell j-00
   15,R,U,C
    6,R
   37
-   7,R
+   6,R
+   1
    9,R,U,X
   36,L
   15,L,U,X
@@ -297,7 +290,7 @@ console load nameguysdsidespack/0/10-Farewell j-00
   11,L
   14,U,X
  183
-#0:48.892(2876)
+#0:47.838(2814)
   40
 
 
