@@ -9,8 +9,7 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
 #Start
    1,R,J,G
   13,R
-   4,D,X
-   1,R,X
+   5,R,Z
    1,R,J
    7,R
    8,R,J
@@ -29,8 +28,7 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
    2,J
    9,L,K,G
   40,L,G
-   4,D,X
-   3,R,X
+   7,R,Z
    1,R,J
    2,J
    1,R,J
@@ -105,8 +103,7 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
    3
   28,G
    4,L,D,G
-   4,D,X
-   3,R,X
+   7,R,Z
   15,R,J
    1,L,K,G
   26,R,K
@@ -127,8 +124,7 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
    2,R
    1
    1,R
-   4,D,X
-  27,R,X
+  31,R,Z
    2,R,J,G
    3,L,J
    4,R,J
@@ -183,15 +179,12 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
    3,R
    2,R,D
    1,R
-
    4,R,J,G
    9,R
    1,R,J
   15,R
-   4,D,X
-  15,R,X
+  19,R,Z
    2
-
   12,L,J,G
    4,J
   10,K,G
@@ -230,8 +223,7 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
    6,R
    2,R,J
   63,R
-   4,D,X
-   6,R,X
+  10,R,Z
    7,R,J
    6,R
    1,R,J
@@ -259,15 +251,13 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
    1
    3
   37,R,J
-   4,D,X
-  12,R,U,X
+  16,R,U,Z
    1,R,J
   10,R,K
   23,R
    1,R,G
   22,R,J
-   4,D,X
-  11,R,U,X
+  15,R,U,Z
   12,L,G
   14,L,G
    7,J,G
@@ -275,8 +265,7 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
    7,R,J
   40,R,D
    3,R
-   4,D,X
-  15,R,X
+  19,R,Z
    9,U,C
   33,L,J
    2,J
@@ -287,8 +276,7 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
   10,R,D
    1,D
    3,R,D
-   4,D,X
-  17,R,X
+  21,R,Z
   15,R,U,C
    1,L,J,G
    1,L,K,G
@@ -298,14 +286,12 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
   31,R,D
    8,L,D
    7,R,D
-   4,D,X
-  15,R,X
-  11,U,C
+  19,R,Z
+  11,U,X
   22,R,J
    1,K
   10,L,K
    5,L
-
   31,R,D
   17,R
   15,U,X
@@ -333,8 +319,7 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
   15,R,D
    3,R
    1,R,D
-   4,D,X
-  19,R,X
+  23,R,Z
   15,R,U,C
    1,R,J
    7,R,K
@@ -358,42 +343,34 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
 #extra dash?
   11,R
    6,R,D,J
-  12,K
-  12,J
-  10,K
-   2,J
+  15,U,X
+  13,R,J
+   4,L,J
+   1,J
    2,K
    2,J
-   2,K
-   2,J
-   2,K
-   2,J
-   2,K
-   2,J
-   2,K
-   1,R,J,G
    1,R,K,G
-  11,R
+   1,R,J,G
+  15,R
    1,R,J
   18,R
 #CP-45
    1,R,J
   14,R
-  11,R,J
-   9,R
-   1,R,J
+   9,R,J
+   1,R
+   6,R,J
    2,R
+   3,R,J
    1,R,G
    3,R,J,G
   12,R
    3,R,D
    1,R
    1,R,D
-   4,D,X
-  29,R,X
+  33,R,Z
    4,R,D
-   4,D,C
-  17,R,C
+  21,R,Z
   40,R
   43,R,U,X
   21,R,C
@@ -406,12 +383,11 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
    3,L
    1,L,K,G
    1,L,J,G
-  14,L
-  15,L,J
-   7,L,J
-   7,K
-  12,L,K
-   7,J,G
+  13,L
+  23,L,K
+   6,J
+  12,L,K,G
+   4,J,G
    1,R,J
    8,K
    3,R,K
@@ -422,16 +398,18 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
    6,R,J
    1,K,G
    6,R,K
-   4,K
+   2,K
    1,L,K
-   8,R,J
-   8,K
+   1,R,K
+   1,R,J
+   7,R,K
    8,J
    8,K
    8,J
-   7,K
-   1,L,J,G
-   3,L,K,G
+   8,K
+   7,J
+   1,L,K,G
+   3,L,J,G
 
 #CP-44
   37,L,G
@@ -439,11 +417,13 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
   10,R,J
    9,L,J
    1,L,K,G
-  33,L,G
-  17,U,X
-  45,L,J
+  29,L,G
+   4
+  15,U,X
+  38,L,J
+   7,L,D
    2
-   2,L,D
+   2,L
    1,L,J,G
    1,L,K,G
    9,L
@@ -459,7 +439,6 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
    1,R,J
   10,L,J
   21,L,D
-   1,L
 #Spinner cycle
    1
 #for CP-37 spinner stun
@@ -542,6 +521,7 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
    1,L,K
    1,L,J,G
   16,L,K,G
+#CP-41
   30,L,J,G
    9,U,X
   23,L,J
@@ -550,46 +530,33 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
   15,U,C
    2,L
 #further left subpx
-   1,L
+   1,R
   15,J
   11,R,J
-   3,R
-   2
-   1,J
-   1
+   6,R
   15,U,X
-  18,U,C
-  13
-  15,L,U,Z
-   2
-  10,U,C
-   2,R,J
-   4,R
-#TODO Faster exit but
-#need to resync next room
-#  15,J
-#  11,R,J
-#   6,R
-#  15,U,X
-#  18,U,C
-#  15,U,X
-#  14,L,U,C
-#   1,J
-#   2,R,J
+  15,U,C
+   3,R
+  15,U,X
+  14,L,U,C
+   2,L,K,G
+   1,J
   40
 
 #lvl_q-03
-   1,L
-   6,R
-   5,R,K,G
-   2,R
+   1,R,K
+   8,R
+   1,R,J,G
+   6,R,K,G
   13,R,Z
-#CP-40
    1,R,J
-   9,R
-  10,R,D,J
-   4,R
-  14,R,J
+   7,R
+   1,R,D
+#CP-40
+  11,R,D,J
+   1,R
+  10,R,J
+   6,R
 #spring
   52,R
    3,R
@@ -598,7 +565,6 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
    5,R,J
    1
    9,R
-#
    1,R,K,G
   11,R,J,G
   18,R
@@ -627,39 +593,43 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
   14,R
    1,R,J
   14,R
-   6,R,D,J
-  18,R
-
+   5,R,J
+   1,R
+  17,R,J
    6,R
 #CP-39
-   6,R,D,J
-  18,R
-  16,R,D
+   4,R,J
+   1,R
+   3,R,J
+  19,R
+  11,R,D
    3,R
+   1,R,D
 #bumper
   28,R
   15,R,X
   52,R,D
-  12,D
-
-   2,D
-  20,R
-  17,R,D
-  10,D
+  11,D
    1,R,D
+   2,D
+  21,R
+  15,R,D
+  10,D
+   2,R,D
    1,R,J
   15,R
    4,D,X
   10,R,X
-  14,R,J
+  10,R,J
+   4,R
   12,U,X
-   9,R,J
-  28,R,D
-  15,R
-   1,R,D
-   8,R
-   4,D,X
-  22,R,X
+   7,R,J
+   1,R,K,G
+   1,R
+  10,R,J
+  15,R,D
+  21,R
+  26,R,Z
   11,J,G
    1,L,J
   14,R,K,G
@@ -724,24 +694,19 @@ EndStunPause
    1,R,J
   14,R
    3
-   1,R
-   7,R
-   4,R,D,J
-   5,R
-   1,R
-   2,R,J
-   1,R
-
-   2,R
    8,R
+   4,R,D,J
+   6,R
+   2,R,J
+  11,R
   14,R,Z
    1,R,J,G
-   4,R,K,G
-   6,R
-   1,R,J
-  12,R
-  14,R,D
-   9,R,J
+   2,R,K,G
+   2,R
+  12,R,J
+  17,R,D
+   5,R
+   8,R,J
   20,R,K
   22,R
    4,R,J
@@ -929,36 +894,34 @@ EndStunPause
   17,R
   15,R,U,X
   69,R
-#TODO use 2nd dash later
   27,L
   13,U,X
   34,L,J
    2,J
   13,L,K,G
-  12,L,J,G
-   7,L
-   1,L,J
-   9,L,D
-   9,D
-   4,L,D
-  31,L,J
-   2,J
+  10,L,J,G
+   3,L,K,G
+   5,L,Z
+  13,L,J
+   1,L
+   2,L,J
   12,L,K,G
    9,J,G
    1,R,J
    1,K
   24,L,K
   13,L,J,G
-  12,L,K,G
-  12,L,J,G
+  13,L,K,G
+   1,L,J,G
    7,L
    1,L,J
   14,L
   12,L,J
-  20,L
-  58,R
-  15,U,X
-  15,U,C
+  16,L
+   4,R
+  56,R
+  16,U,X
+  16,U,C
    7,L,K,G
    2,J
   40
@@ -1046,20 +1009,21 @@ EndStunPause
    1,R
    2,R,D,J
    3,R
-
    4,R,J
   12,K
    9,J
   13,L,Z
    1,L,J
-   7,L
-   4,L,J
+   6,L
+   1
+   1,L,J
+   3,J
    1,K,G
-   1,L
+   1
   19,R
   11,R,D,J
-   5,R
-   7,R,J
+   6,R
+   6,R,J
   62,U,X
   23,L,C
   33,D,X
@@ -1071,7 +1035,6 @@ EndStunPause
    1,K
    9,L,K
   12,R,J,G
-
    1,K
    1,R,J,G
    7,J
@@ -1122,10 +1085,10 @@ EndStunPause
    9,R
    1,R,J
   10,R
-   4,L
-#TODO swag bino?
-  32
-  24
+   4
+  35,X
+   1
+  20,X
   14,R,J
    1,K
   25,R,K
@@ -1185,17 +1148,18 @@ EndStunPause
   17,R
    4,D,X
   16,R,U,X
-   4,L,J
-   8,L
-  19,L,U,X
-  24,R,J
+   5,L,J
+   5,L
+   2
+  18,L,U,X
+   1,R
+  23,R,J
   13,U,X
   40
 
 #lvl_q-08
   15,R
-   4,D,X
-  10,R,X
+  14,R,Z
    5,R,J
    6,R,K,G
    3,R
@@ -1209,7 +1173,6 @@ EndStunPause
   10,R,J
   21,R
   30,L
-
   61,R
    5,R,D
   16,R,Z
@@ -1298,9 +1261,7 @@ EndStunPause
    1,R,G
    9,D
    5,L,D
-   9,U,X
-   1,U,X
-
+  10,U,X
   33,L,J
    4,D,X
   13,L,X
@@ -1314,12 +1275,10 @@ EndStunPause
   15,L,U,X
   10,L
   15,U,C
-
    2,R,K,G
    3,K
    2
   32,R
-
   11,R,J
   16,R
    1
@@ -1444,30 +1403,24 @@ EndStunPause
    1,R,K,G
    3,R,J,G
   19,R
-   2
-   9
-
+  11
   58,R
   15,R,X
    5,R
   10,L
    8
 #bird
-   8,R
-  55,R
+  63,R,D
   15,D,X
-   6,D
-   2,R,D
-   5,R
-   4,D,C
-  11,R,C
-  15,U,X
+   4,D
+   6,R,D
+   1,D
+  15,R,Z
+  13,U,X
    6,J
-   1,R,J
-   2,R
-   3
+   2,R,J
    1,R
-   2
+   6,R
   15,R,D,X
    5,R,C
    1,R,J,G
@@ -1551,15 +1504,16 @@ EndStunPause
   10,R
   23,L
    1,L,G
-  12,D,G
-  20,G
+  15,D,G
+  17,G
   10,R,J
   22,R
-   5,R
-  15,R,U,X
-   9,R
+   4,R
+  14,R,U,X
+   1,R,J,G
+   7,R
   15,R,X
-  12,R
+   7,R
 #bird
   10
   33,R
@@ -1571,18 +1525,20 @@ EndStunPause
    4,D,X
   12,R,U,X
    9
-  61,R
-  26,R,U,X
+  60,R
+  27,R,U,X
   12,R,J,G
   12,R,K,G
    7,R,J,G
-   8,K,G
+   7,K,G
+   1,R,K
    1,L
-  12,R,J,G
-   9,R
+   9,R,J,G
+   7,R
+   3,R,J
+  24,R,D
+   4,R
    1,R,J
-  23,R,D
-   5,R
   40
 
 #can no longer backtrack
@@ -1590,44 +1546,47 @@ EndStunPause
   11,R,Z
    7,R,J
    8,R
-#TODO add dcbs here
- 100,R,J
-  59,R,D
-   3,R,J
-  20,R
-   3
-   3,R
-   3
-
-   4,L,D,X
-  20,R,J
-  15,R,D,C
-  10,R
-   1
+   1,R,J
+ 115,R,D
+   2,R,J
+  29,R
+   1,R,J
    2,R
-   2,R,J,G
-  72,R,D
- 189,R,D
-   6,R
    1,R,J,G
    1,R,K,G
-  31,R
-   4,D,X
-  10,R,X
-   3,R,J
-  15,R,D
-   3,D
-
+   8,R,D
+  12,D
+   3,R,D
+   1,D
+   9,R,Z
+  14,R,J
+  15,R,D,C
+  11,R
+   1,R,J,G
+   7,D
+  65,R,D
+ 181,R,D
+  14,R
+   1,R,J,G
+   1,R,K,G
+  21,R,D
+   1,D
    1,R,J
-  40,R,D
-  14,D
-  35,R,D
+   4,R
+   2
+  14,R,D,X
+   1,R,J
+  20,R,D
+   1,R,J,G
+  36,R,D
+  19,D
+  32,R,D
   15,R,X
   11,R,D
-   3,D
+   2,D
   17,R,D
-   4,D,X
-  10,R,X
+   1,D
+  14,R,Z
    1,R,J
   12,R
    1,R,J
@@ -1651,41 +1610,44 @@ EndStunPause
 
 #lvl_r-00
 #we actually do this room now
-   8,R,D,X
+   3,R,D,X
    1,R,J
-   7,R
-   2,R,K
-   6,J,G
-   2,R,J
+   6,R
+   1
+   1,R,J
+   1
+   4,K
+   6,R,J,G
    2,R,K,G
   22,R,D
    4,R,K
    6,R
    1,R,J
-  14,R
-   3,R,J
-   1,R,K,G
-  12,R
-   4,R,J
-   6,R
-   8,R,D,J
-   5,R
+  10,R
+   4,R,K
+   1,R,J
+   2,R,K,G
+  11,R
+   2,R,J
+   8,R
+  11,R,D,J
    4,K
-   4,J
+   5,J
   10,K
    1,R,J,G
    4,R,K,G
 #heart gate
   10,R
- 133
+ 131
    6,R,J
+   2,R
    4,D,X
   10,R,X
    2,R,J
   10,R,D,X
    1,R,J
    2,R
-#4:06.041(14473)
+#4:03.508(14324)
   40
 #lvl_r-01
 
