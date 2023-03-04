@@ -1,4 +1,4 @@
-RecordCount: 7593
+RecordCount: 8585
 
 #Created by dahlukeh and Fishmcmuffins
 #improvements by pansear and gnommis
@@ -9,6 +9,7 @@ console load nameguysdsidespack/0/5-Temple
 #Start
  190
 
+#stunpausemode simulate
 #lvl_a-00
    4,Z
    1,R,J
@@ -733,7 +734,10 @@ EndStunPause
    5,R
 #f-05 Waiting Frames
 #multiple of 3
-  60
+  63
+
+
+  21
 #--------------
    4,Z
    1,R,J
@@ -834,14 +838,12 @@ EndStunPause
   40
 
 #lvl_f-01
-   7,L
-   4
-   8,R,D,X
-   1,R,J
-   7,R
-   1,R,J
-   3,R,K,G
-   5,R
+  11,R
+  10,R,D,X
+   3,R,J
+   1,R
+   2,R,J,G
+   6,R
   12,R,U,X
    1,R,J,G
    6,R
@@ -942,7 +944,7 @@ SkipInput,8,2
 EndStunPause
   16,D,X
 #f-05 Spinner Cycle
-   1
+   0
 #--------------
    2,J
   14,L,Z
@@ -975,19 +977,21 @@ EndStunPause
   40
 
 #lvl_f-05
-  10,R,G
-   1,R,D
-   7,L,J
+   8,R,G
    1,R
-  10,J,G
-   5
-   3,R
+   1,R,D
+   2,R,D,J
+   4,R
    1,R,J
-   8,R
-   6,L,Z
+   1,R
+   5,R,K,G
+   9,R,Z
+#drift frame
+#might be faster to have spinner deload before drift
+   3,R,Z
    1,L,J
    1,L
-StunPause
+stunpause
    5,L
    2,L,J
 SkipInput,3,1
@@ -996,41 +1000,38 @@ SkipInput,3,1
 SkipInput,3,1
   15,D,X
    2,D
-EndStunPause
-  11,D
-   1,R,J
-  28,R,K
-   6,R
-  46
-
-#spinner 
-   2
-#help me
-
-   5,R
-   2
-  14,R,D,X
-   1,R,J
-  12,R,D,X
+endstunpause
+   5,D
+   1
+   4,R
+   1
+   5,R,J
   13,R,G
-   1,R,J,G
-   3,R,G
-  14,R,J,G
-   2,R,K,G
-   8,R,G
-   4,R,J,G
-   3,J,G
-   5,G
-   2,J,G
-   3,G
+   7,R,J,G
+   5,R,G
+   7,R,J,G
+   1,R,D,J
+   1,R,J
+   2,R
+   2,R,J
+  16,R
+  14,L,Z
+   1,R,J
+   5,R,D,X
+  13,R,G
+  27,R,J,G
+  23,R,G
   40
- 
+
 #lvl_f-06
-   4,G
+   1,R,G
    1,R
-  15,R,Z
-   6
-  57,G
+  13,R,U,Z
+   1,J,G
+  12
+  32,G
+   2,R,G
+  18,G
    5,R,G
    6,R
    8,L,D
@@ -1068,7 +1069,7 @@ EndStunPause
   13,R
   15,R,D,X
   40
- 
+
 #lvl_f-07
   15,R,X
   10,L
@@ -1280,4 +1281,4 @@ EndRepeat
   15,L,X
  127
 
-ChapterTime: 3:19.512(11736)
+ChapterTime: 3:18.951(11703)
