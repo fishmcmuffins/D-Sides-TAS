@@ -1,6 +1,6 @@
 #Created by amber, synced by Vasher
 
-RecordCount: 932
+RecordCount: 933
 
 console hard nameguysdsidespack/0/3-Resort
    1
@@ -9,60 +9,58 @@ console hard nameguysdsidespack/0/3-Resort
   92
 
 #lvl_a-00
-   4,D,X
-   6,R,X
-  30,R,J
-   4,D,X
-  14,R,U,X
+  14,R,Z
+  22,R,J
+   6,R
+  18,R,U,X
+  15,U,C
+   1,R,J,G
    1,R
-  15,U,X
-  12,R
-  14,R,X
-   1,L,J
-  14,L,D,X
+   7
+   5,L
+   5,L,Z
+   2,R,J
+   4,R
    1,R,J
-   6,R,D,X
-   5,R,K,G
-  11,R
-   2,R,D,J
+   3,R
+   5,R,D,X
+   1,R,J,G
+  10,R
   40
 
 #lvl_a-01
-   3,R,J
-  15,R,D,X
-  11,R,J
-   4,R
-  15,R,D,X
-   2,R
-   9,R,K,G
    1,R
-   6,R,J
-  14,R
+   7,R,J
+  25,R,D,X
+   2,R
+  10,R,J,G
+  11,R,K,G
+   6,R
+   3,R,K
+  12,R
    1
-  14,R
-  12,R,K,G
-   4,J,G
-   5,L,J
-   2,R,K
-   6,R,J
-   4,R,D
-   3
-  10,R,D
-   8,D
-  12,R,K
-  27,R
+  13,R
+  12,R,J,G
    1,R,K,G
-   5,R,J,G
-  17,R
+   3,K
+   2,L,K
+  12,R,J
+  10,R
+   1,R,J
+  20,R
+  14,R,X
+  18,R,J,G
+   1,J
    2,R,J
-   5,R,J
+   1,R
+   2,R,J
+   9,R
+   1,R,J,G
    7,R
-  16,R,X
-   1
-  14,R,Z
+  12,R,X
    1,L,J
-   4,D,X
-  10,L,X
+   2
+  14,L,D,X
    1,R,J
    6,R,D,X
    1,R,J,G
@@ -72,50 +70,58 @@ console hard nameguysdsidespack/0/3-Resort
   40
 
 #lvl_a-02
-   1,R,J
-   2,R
+   3,R,J
   15,R,D,X
-   8,R,J
-   7,R
-   8,R,J
-   9,J
+   6,R,J
+   6,R
+   3,R,J
+  12,R
+   1
   14,R,U,X
-   6,R,K,G
-   5,R
+   2,J,G
+   4,R,J
+   4,R
+   1
+   6,R
+  39,R,J,G
+  39,R,U,X
+   2,R,J,G
+   3,L,J
+   1,J
+   1,R,K,G
+   1,R,J,G
+   2,R,K,G
+   7,R
+   2,R,K
+   6,R
+   6,R,J
+   9,R
+   1,R,J
+   6,R
+   7
+   8,R
+   1
+   1,R
+  16,R,Z
    1
    2,R
-   5,R,J
-  51,R,K,G
-  15,R,U,X
-  22,R
-  10,K,G
-   1,L,K
-  11,R,J,G
-   3,R
-   1,R,K,G
-   9,R,J,G
-  33,R
-  15,R,X
-   9,R
-   7,R,K,G
-  13,L
-   2
-   6,L,G
+   1,R,J,G
+  21,R,K,G
+   1,R
+   4,R,K
+  15,R
+   1,R,J,G
+  12,R,K,G
+   5,R
    1,R,K
-  18,R,J
-   1
-  19,R
-   1,R,K,G
-  13,R,J,G
-  30,R
+  25,R
   10,R,D,X
-   6,R,J
-   5,J
-  15,U,X
+  11,R,J
+  14,U,X
    9,R,J
-  10,R
    1,R,J
-   4,R
+   7,R
+   7,R
    4,D,X
    7,R,X
    1,R,J
@@ -1630,4 +1636,4 @@ console hard nameguysdsidespack/0/3-Resort
   15,U,X
  137,L,D
    1,R
-ChapterTime: 3:51.285(13605)
+ChapterTime: 3:49.585(13505)
