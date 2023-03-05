@@ -1,4 +1,4 @@
-RecordCount: 88
+RecordCount: 188
 
 #1000M
 console load nameguysdsidespack/0/10-Farewell 109280 -18296
@@ -316,44 +316,43 @@ endrepeat
    1,L
    3
   15,R,U,X
-   4,R,J
+   4,K
    1,R,K
-  10,R
-  13,D,X
-   1,R,J
-   4,R
-  29,R,D,X
-   3,L,D
+   9,R,D
+   8,D
+  34,R,D,C
    4,L,J
-   5,L
-  10,L,J
-   8,L
-   7,L,D
-   2,R,D
-   5,R
+   1,L
+  28,L,J
+   2,L,D
+   4,R,D
+   3,R,D
    4,D,X
   55,R,X
    4
    4,D,X
   10,L,J
-   5,L
+   1,L
+   4,L,J
   12,U,X
    5,L,K
    5,R,J
    1,R
    1,R,K,G
-  10,R,J,G
+   8,R,J,G
+   2,R
   26,R,X
    4,R,J
    1,R,K
-  17,R,X
+  16,R,X
    4,R,J
    1,R,K
    1,K
   10,R,D,X
    1,R,J,G
+   1,R,J
    1,J
-   2,R,J
+   1,R,J
    1,R
    2,R,K,G
    3,R
@@ -364,9 +363,7 @@ endrepeat
    1,J
    1
    2,R
-   6,R,J
-   1,J
-   6,R,J
+  13,R,J
    1,R,K,G
    5,R
   24,R,J
@@ -481,5 +478,5 @@ endrepeat
   20,U,X
  253
 
-ChapterTime: 1:07.456(3968)
+#1:07.405(3965)
   40
