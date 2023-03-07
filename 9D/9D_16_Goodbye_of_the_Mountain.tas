@@ -365,32 +365,41 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
    3,R,J
    4,J
   16
-  15,R,D
-   3,R
-   1,R,D
-  23,R,Z
-  15,R,U,C
-   1,R,J
-   7,R,K
-   3,R
-   3
+  16,R,D
+   1
+   1,D
+   1
+  18,R,Z
+  16,R,V
+   1,L
+   7,J,G
    2,R,J
-   2,R
-   1,R,J,G
+   7,R
    1,R,K,G
-  14,R
-   4,R,J
+   1,R,J,G
    6,R
-   4,R,J
-  13,R,D
-   4,R,J
-   5,R
+   1,R,J
+   7,R
+   3,R,K
+   1,R
+   1,R,K
+   4,R
+   3,R,J
+   2,R
+   1,R,J
+  10,R
+   3,R,K
+   1,R
+   1,R,K
+   4,R
+   1,R,J
   40
 
 #lvl_q-02
 #TODO remove this comment
-  11,R
-   6,R,D,J
+   2,R,J
+   6,R
+   7,R,D,K
   15,U,X
   13,R,J
    4,L,J
@@ -490,7 +499,7 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
   21,L,D
    1
 #Spinner cycle
-   2
+   1
 #for CP-37 spinner stun
    1,S
    1,D,J
@@ -1696,6 +1705,6 @@ EndStunPause
   10,R,D,X
    1,R,J
    2,R
-#3:56.929(13937)
+#3:56.776(13928)
   40
 #lvl_r-01
