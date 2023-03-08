@@ -397,6 +397,7 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
 
 #lvl_q-02
 #TODO remove this comment
+#TODO also remove this comment
    2,R,J
    6,R
    7,R,D,K
@@ -1043,9 +1044,7 @@ EndStunPause
    3
   11,L
    1,L,J
-  22,L
-
-   3,L
+  25,L
   11,L,D,J
    1,R,K,G
    4,R,J,G
@@ -1232,22 +1231,22 @@ EndStunPause
   10,R,J
   21,R
   30,L
-  61,R
-   5,R,D
-  16,R,Z
+  40,R
+  24,R,D,X
+   2
+   4,R
 #luv <3
-   7,L,U,V
-  38,R
-  37,R,G
-  22,R,G
+#i also luv <3
+  50,R,U,Z
+  59,R,G
    8,R,D,G
    4,R
   15,R,U,X
    6,R,C
-  71,R,U,G
+  69,R,U,G
    1,R
 #bubble (wait)
-   5
+   6
   15,R,U,X
   14,R,U,G
   12,L,U,G
@@ -1359,29 +1358,39 @@ EndStunPause
   13,R
    6,R,J
    2,R
-  21,L,D
-   9,R
+  20,L,D
+   2,R,D
+   1,D
+   6,R,D
    4,D,X
   10,R,X
   15,R,J
-   1,J
-   5,R,J
+   1,R,J
+   4,R,J
+   1,R
    3,R,K,G
   34,R,D
-   8,R,J
-   5,R,K,G
+   5,R,J
+   1,R
+   1,R,K,G
+   6,R
   40
 
 #lvl_q-10
-   6,R
-   7,R,D,J
+   3,R
+   3,R,D,J
+   1,R
+   1,R,D,J
+   3,R
    1,R,K
+   3,R
    4,D,X
-  11,R,U,X
+   7,R,U,X
   10,R,J
   27,R,D
   17,F,90
-  15,F,57
+  10,F,57
+   5,F,54
    4,D,X
   11,R,X
   28,R,D
@@ -1393,7 +1402,7 @@ EndStunPause
    8,F,90
   19,F,45
   29,F,180
-   8,F,110
+   8,F,100
   12,R,D,X
    1,R,J
    7,R
@@ -1415,7 +1424,8 @@ EndStunPause
   10,R,U,X
    3,L,K
    4,D,X
-  10,R,U,X
+   5,R,U,X
+   5,R,J,G
   12,R,D,C
    9,R,X
    9,D,C
@@ -1432,7 +1442,7 @@ EndStunPause
    9,R,D,X
    9,R,U,C
   15,R,U,X
-  10,R
+   9,R
   14,R,D,X
    1,R,J
    7,R
@@ -1453,19 +1463,20 @@ EndStunPause
    8
    1,R
   15
-   4,D,X
-  38,R,J
+   5,R,Z
+  37,R,J
    1,R,G
    1,R,J,G
    5,L
    8,R
    1,R,K,G
    3,R,J,G
-  19,R
-  11
-  58,R
-  15,R,X
-   5,R
+   1,R
+   2,R,J
+  17,R
+  11,R
+  57,R,D
+  19,R,X
   10,L
    8
 #bird
@@ -1520,59 +1531,59 @@ EndStunPause
    1,J
    1,L,J
    1,J
- 
    1,K
   27,R,K
   10,R
-   4,D,X
-  10,R,X
+  14,R,Z
   12,R,J
   15,R,D,J,X
   14,R,J
   18,R
-   6,R
-  50,R,J
-   1
-   1,R
-   1
-   1,R
-   1
-   1,R
-#core block
-#unoptimized (to bird)
-   7,R,K,G
    8,R
-   7,R
-  15
-  12,L,J
-   4,L
-   1,L,K,G
-   8,L,G
-  31,G
-   4,R,X
-  28,R,J
-   1,J
-   6,R,J
+  44,R,J
+   4,R,D
+   2,R
+   2,R,D
+   2,R
+   1,R,G
+   1,R,D,G
+   5,R,X
+   1,R,J,G
+   2,R,K,G
+   1,R,J,G
    1,R,K,G
-  18,R
-  17,L
-   8,L,G
-  26,G
+  12,R,D
+   4,R,J
+   1,R
+   8,R,J
+   3,J
+   5,R,J
+   1,R,K,G
+   3,L,K
+   1,R,K
+   4,R
+   1,R,J,G
+  15,R,K,G
+  13,R
+   4,L
+   2,L,D
+   7,L,G
+  10,L,D,G
+  16,G
    1,R,J
    5,R,K
-  10,R
-  23,L
-   1,L,G
-  15,D,G
-  17,G
+   9,R
+  10,L
+  10,L,D
+  11,D,G
+  22,G
   10,R,J
-  22,R
-   4,R
+  25,R
   14,R,U,X
    1,R,J,G
    7,R
   15,R,X
-   7,R
+   6,R
 #bird
   10
   33,R
@@ -1715,6 +1726,6 @@ EndStunPause
    1,R,K
    2,R
   11,R,D,X
-#3:56.691(13923)
+#3:54.991(13823)
   40
 #lvl_r-01
