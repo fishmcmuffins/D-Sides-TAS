@@ -56,27 +56,32 @@ console load nameguysdsidespack/0/10-Farewell j-00
   40
 
 #lvl_j-02
-  11,R,J,G
+  10,R,J,G
+   1,R
   10,R,X
-  15
-   2,L
-  18,U,X
+   5
    2,R
-  20,R,U,X
-  15,R,D,C
-  23,R
+   2
+   6,R
+  18,L,X
+  16,R,U,Z
+  19,R,U,X
    1
-   1,R,J,G
+  14,R
+   4
+   1,J
+   4,R,J
+   5,R
+   4,R,J
+   2,R
+   7,R,J
+  17,R,Z
+   2
+  13,R,U,X
    1,R,K,G
-   3,R
-  14,L,D
-   1,L
-   9,L,J,G
-   9,K,G
-  15,U,X
-  15,R,U,C
-  13,R
-   8,R,X
+   3
+   9,R
+   5,R,X
   40
 
 #lvl_j-03
@@ -152,14 +157,15 @@ AnalogMode,Precise
   19,F,195.4
   10,F,135
    8,F,90
-  21,F,67.6
+  17,F,66.2
+   4,F,0
+   1,F,0,0.69
   14,U,X
-  10,J
+   6,J
+   2
    1,K
-   8,R
-   4
-   2,R
-   5,R,Z
+  14,R
+   4,Z
    1,R,J
    5
    2,R
@@ -280,7 +286,7 @@ AnalogMode,Precise
   11,L
   14,U,X
  183
-#0:46.546(2738)
+#0:46.138(2714)
   40
 
 
