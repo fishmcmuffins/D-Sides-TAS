@@ -13,11 +13,11 @@ console load nameguysdsidespack/0/10-Farewell o-01outside
    1,R,J
    2,R
   10,R,D,X
-  10,R,J
-   4,R,K,G
-  12,R,D,X
-  47,R,C
-  10,R,C
+   3,R,J
+   3,R
+   8,R,U,Z
+  10,R,J,G
+  57,R,C
    5,K,G
    1,L,K
   10,R,J,G
@@ -32,74 +32,68 @@ console load nameguysdsidespack/0/10-Farewell o-01outside
    5,R,K
    4,L,J,G
    8,K
-
   31,D,X
    4,D,C
   15,R,U,C
   14,L,D
-  30,U,X
-   2,R,J
-   8,R
-  10,R,J
-  25,R
-   0,R
+  27,U,X
+   6,R,J
+   1,R
+  28,R,J
+  12,R,D
   14,R,Z
-  27,R,J
-   1,R,K
-   4,D,X
-   3,R,X
-  16,R,J
- 276,L,X
-  10,L,D,C
+  26,R,J
+   8,R,D,X
+  15,R,J
+ 286,L,X
   40
 
 #lvl_o-02
-   3,L
-   2,R,J
-  10,L,X
-   4,L,J
-   6,L
-  24,R,D
-   6,L,D
-   5,L,J,G
-   5,L
-   3,L,J
-  11,L
-   1,L,J
-   7,R,J
-  11,R
-  24,R,G
-   6,R
-   8,R,G
+  15,L,D,C
+   2,L,J
+  13,L,D
+  13,R
+   1,L
+  13
+   7,L,J,G
+  12,L
+   2,L,D,J
+   4,L
+  46,R,G
+   3,R,D,G
    1,J,G
    1,K,G
    1,R,J,G
-   9,L,J,G
-   2,L
+   8,L,J,G
+   3,L
   14,L,U,X
    8,L,J,G
-   7,L
-   1,R,D,J
+   4,L
+   3
+   1,D,J
    1,L,J
-   5,L
-   1,L,J
-   3,R,J
+   5,R
+   2,R,J
   40
 #lvl_o-03
-   3,R,J
-   7,R
+   1,R,J
+   9,R,D
   13,D
-  13,L,D
+   9,L,D
+   2,L
+   1
+   1,L
+   1
    4,D,X
    7,L,X
 
   17,L,J
   25,L,K,G
-  55,R,G
+  55,R,U,G
    1,J,G
    1,K,G
    1,R,J,G
-  15,L,J
+  14,L,J
    3,J
    6,R,K
    4,R
@@ -159,20 +153,10 @@ console load nameguysdsidespack/0/10-Farewell o-01outside
    5,L
   19,L,J
   20,R,J
-  27,R,U,X
-   4,D,C
-  25,R,U,C
-  14,G
-   2,J,G
-   2
-  18,L,K
-   3,K
-   1,L,J,G
-   2,L
-   5,R,K
-   5,R
-   9,R,J
-   8,R
+  35,R,U,X
+  16,U,C
+  15,R,J
+  14,R
    9,R,D,J
   40
 
@@ -186,23 +170,21 @@ console load nameguysdsidespack/0/10-Farewell o-01outside
   14,R,J
    3,R,K,G
    8,R
-   4,D,X
+   5,R,Z
    1,R,J
-   7,R
-  27,D,X
-  28,R,C
-  28,R,X
-   3,R
-  27,R,U,C
-  15,U,X
-  11,U
-   1,J
-
+   6,R
+  21,D,X
+  15,R,D,C
+   6,R
+  15,R,X
+  18,R,C
+  24,R,Z
+  24,U,X
+   4,J
   15,R,Z
-  15,R
+  10,R,D
   15,D,X
-   6,L,D
-   6,D
+   3,D
   15,R,C
   15,U,X
    8,L
@@ -213,14 +195,14 @@ console load nameguysdsidespack/0/10-Farewell o-01outside
    1,R
    7,R
    1,R,J,G
-   2,R,K,G
-  31,R,D
-   4,D,X
+   3,R,K,G
+  24,R,D
+   4,R
+   4,R,D
+   4,R,Z
    1,R,J
-   7,R
-   7,R,J
-
-  10,R,J
+   6,R
+  17,R,D,J
   12,R,K,G
    3,J
    4,D,X
@@ -230,54 +212,65 @@ console load nameguysdsidespack/0/10-Farewell o-01outside
   40
 
 #lvl_o-06
-  14,R,D
+  13,R,D
   23,R,D,X
   15,L,D,C
   24,R,X
   10,U,C
-  29,R,J
+  27,R,J
+   2,J
   14,U,X
   23,R,J
-  42,D,X
-   4,D,C
-  14,R,C
-  34,R,G
-   4,R,J,G
-   1,R,K,G
-   8,R
-  21
-  18,R,J
-   4,D,X
-  11,R,X
+   5,U,X
+  10,D
+  10,R,D
+  24,R,Z
+  31,L
+  22
+   9,R
+  14,R,J
+   3,J
+   1,R
+  15,R,Z
   26,L,D
    5,L
    1,L,D
-   4,D,X
-   4,L,X
+   8,L,Z
    1,R,J
    6,R
    1,R,D
    2
    1,R,J
-   5,J
-  14
-   2,R
+   4,J
+   1
+   2,J
+   3,R,J
+   9
    4,D,X
    5,R,X
-   2,R,J,G
+   1,R,J,G
    1
   30,R,K,G
+#cycle wait
+   0
+#for stun pause
   17,L,U,X
   10,R,U,C
-  32,R,J,G
+   4,R,J,G
+   1,R
+   5,R,J
+   1,R
+   1,R,J
+   5,R
+   2,R,J,G
+   9,R
    4,D,X
    2,R,J
   40
 
 #lvl_o-07 (1)
    1,R,J
-   8,R
-   1,R
+   9,R
   12,D,X
    3,J
    4,D,X
@@ -438,15 +431,14 @@ EndStunPause
 #   1
 #   1,J
 #   7,R
-   4,D,X
+   4,R,X
    2,R,X
-   5,R,J
+   6,R,J
   43
 
 #lvl_o-09
    3,R,J
-   3,R,K,G
-  12,R,U,X
+  11,R,U,X
   40
    1,J,G
   13
@@ -472,17 +464,22 @@ EndStunPause
    1,L,J,G
    3,R,J
    1,L,J
-   7,J
+   5,J
   41
   29,U,X
-   8,R,J
-  24,R,D
+   7,R,J
+   1,R
+   9,R,J
+  15,R,D
   19,L,D
-  17,R,D
-   7,L,D
+  16,R,D
+   2,L,D
+   1,L
+   3,R
+   2,L
    4,D,X
   19,L,X
-  21,R,D
+  20,R,D
   20,L,X
    9,L,U,C
    3,L,J,G
@@ -595,7 +592,7 @@ lvl_o-10s
 
   30
 #Section o-12
-  12,R,X
+  12,R,Z
 #BRANCH SYNCKEYS
    1,J,G
    4,R
@@ -604,6 +601,7 @@ lvl_o-10s
    9,R,D
    4,D,X
   11,R,X
+#1:26.445(5085)
   15,U,C
   17,R,X
    1,L,J
@@ -618,18 +616,14 @@ lvl_o-10s
    1,K,G
    7,L
    1,R
-   2,L
+   2,R
 
    5,L,X
-   7,R,J
-   3,R
-  21,R,K,G
-   5,R,J,G
-   5
-   2,R
-   4,D,X
-   8,L,J
-  11,L
+   4,R,J
+   3,J
+   1
+   2,J
+  18,L,K
   66,R,X
   15,L,C
   21,R,D
@@ -637,7 +631,8 @@ lvl_o-10s
   24,R,U,X
    1,R,J
    8,R,D
-   8,D
+   4,D
+   4
   15,R,U,X
   14,D
   23,U,X
@@ -648,21 +643,19 @@ lvl_o-10s
    1,R,J,G
   11,R,D
   27,R,X
-   8,R,J,G
-   4,K,G
+   1,K
    5,R,K
-   4,D,C
-   1,R,C
-   3,R,J,G
    1,R
-   1,R,J
-   8,R
+  10,R,U,Z
+   1,R,J,G
+   1,R
+   5,R,J
+   8,R,D
   27,R,X
    8,R,J,G
    4,K,G
    5,R,K
-   4,D,C
-   1,R,C
+   5,R,Z
    4,R,J,G
    1,L,K,G
   11,R,K
@@ -687,11 +680,10 @@ lvl_o-10s
    4,D,C
   10,R,U,C
   19,L,X
-  18,R,U,C
-  17,U,X
+  18,R,U,Z
+  16,U,X
   15,D,C
   15,R,X
-
    8,R,D
 
    3,R
@@ -729,7 +721,6 @@ lvl_o-10s
   12,J
    9,K
    7
-
   14,L,U,X
    4,L,J,G
    7,L
@@ -791,16 +782,13 @@ lvl_o-10s
    6,R,J
    1,R,K,G
    1,R,J,G
-
   13,R
-   4,D,X
-  12,R,X
-   1,R,J
-   5,R
-   9,R,J
-  12,U,X
-
-  45,R
+  17,R,Z
+   3,J
+   2,R,J
+   5,J
+  13,R,U,X
+  44,R
    4,D,X
    2,R,X
    1,L,J
@@ -922,20 +910,17 @@ lvl_o-10s
    4,D,X
    6,R,X
    5,R,J
-   7,R,K,G
-  26,R,X
-  43
+   2,R,K,G
+   8,R,U,C
+  17,R,X
+  18,R,U,Z
   15,U,X
-   4,D,C
-   6,L,U,C
+   9,R,J
+  14,L,U,Z
    1,J
-   7,R
-#
-   1
-
-   4,D,X
-   4,L,J
-   3,L,J
+   7,L
+   4,L,Z
+   7,L,J
 #   6,L,K,G
   39,L,X
   11,U,C
@@ -980,28 +965,31 @@ lvl_o-10s
   21,L
  133
 
-  19,L,D
-   3,D
+  18,L,D
+   2,R,D
+   2,L,D
   15,L,D,X
    1,R,J
   14,R
   13,R,X
   10,R,J,G
    5,R
-   6,R,J
-   2,R,J
-  15,L,U,X
-  17,D
-  45,R
-   4,D,X
-   9,R,X
-   5,L,J
-   1
    2,J
-
-   3,K,G
+   4,R,J
+  15,L,U,X
+   3,K
+   1,J
+   8,R,J
+   3,R,K,G
+   1,L,K
+   3
+   4,K
+   7,L
+   4,L,X
+   2,L,J
+   7,L
    4,L,K
-   5,K
+   3,K
   15,U,X
   26,L,D
    7,L,J
@@ -1009,20 +997,24 @@ lvl_o-10s
   27,L,D
    6,L,J
   15,U,X
-  10,L,D
-  12,L
-  10,L,J
-  14,U,X
-   3,J
+   5,D
+   1,R,D
+   3,D
+   1,L
+   1,L,D
+  11,L
+   9,L,J
+  14,U,Z
+   4,J
 #BRANCH KEYS 2
   68,R,C
-   1,L,J
-   6,L,K
-  15,U,X
-  24,L,D
-   4,D,X
-  11,L,X
-  11,L,C
+   2,K,G
+   6,J
+   1,K
+  13,L,K
+   5,L,Z
+   4,L,J,G
+  13,L
  169
   22,L,X
    4,D,C
@@ -1030,5 +1022,6 @@ lvl_o-10s
    4,D,X
   11,U,X
    1,J
-#2:35.380(9140)
+#2:31.062(8886)
+
   40
