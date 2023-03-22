@@ -603,26 +603,21 @@ AnalogMode,Precise
    7,R,J
   26,R
    5,R,D
-  16,R,K
-  15,R,Z
-   3,G
-   1,R,J,G
-   1,R,K,G
-   1,R,J,G
-   9,R,K,G
+   9
+   1,D
    5,R
-  20,R,K
-   4,R,D
-   1
-   1,R,D
-   6,R,Z
-  10,R,J
-   2,R
-   3,R,J
-   1,R
+  11,R,K
+   3,R
+  14,R,Z
+  14,R,J
+   5,R
+  16,R,D,X
+   7,R,K
+   7,R
   15,R,Z
-  24,R,D
-  13,R,Z
+  23,R,D
+   1,R
+  14,R,Z
    1,R,J
    1,R
   10,R,U,X
@@ -640,98 +635,102 @@ AnalogMode,Precise
    4,R
   20,L,U,X
   15,U,C
-  26
-AnalogMode,Ignore
-   1,F,200
-  11,F,140
-  27,F,87
-  40,F,62
-  14,R,X
-  10,R,J,G
-  19,R
+AnalogMode,Square
+  27,F,199
+AnalogMode,Precise
+   3,F,180
+   8,F,135
+  27,F,84.84
+   3,F,79.9
+  37,F,61
+  14,R,Z
+   1,R,J,G
+   7,R
+   1,R,K
+  16,R
   15,R,U,X
   16,R,C
-  69,R,X
-  28,R,D,C
+  70,R,X
+  15,R,D,C
+   1,D
+  12,R,D
 
 #CP-56
-   1,R,J
-   1,J
-   4,R,J
-   9,R
-   2,R,J
-   2,R
-   4,D,X
-  11,R,X
-   8,R,D,C
-  50,R,D
-   2,R
-  27,R,X
+  10,R,J
+  12,R
+  16,R,Z
+   7,D,X
+  49,R,D
+   1,R
+   1,R,D
+  28,R,X
   15,R,U,Z
   15,R,X
-  12
-   1,R
+  13
 
 #CP-55
-   1,J
-   4,R,J
-  13,R,C
+   5,L,Z
+   3,R,J
+   4,J
    1,R,J
-   1,R
-   4,D,X
-  11,R,X
-  15
-   1,L,J,G
-   5
-   1,J
-   7
-   3,R
-   4,D,X
-  23,R,X
-   4,R
+   1
+   1,R,J
+   2,R
+   2,L,K
+  18,R,Z
+  12
+   2,L,G
+  15,R,Z
+  13,R,D
+   2,R
    1,J
    9,R,J
    5,R
    9,R,J
    1,J
-   8,R,K,G
+  11,K,G
    1,L,K
-   3,R,K
-  21,R,J,G
-  10,R
-   7,R,J
+   2,J
+   5,R,X
+   5,R,J,G
+   8,R,K,G
    5,R
-   1,R,J
-  10,R
-  14,R,X
-   9,R,J,G
-   9,R
-   1,R,J
-  25,R
+   7,R,K
+   4,R
+   1
+   2,R
+   4,R,J,G
+   1,R
+   9,R,K,G
+  38,R
 
 #CP-54
-   4,D,X
-   6,R,X
+  10,R,Z
   10,R,J
-  14,U,X
-  14,R,J
-  11,R
-   4,D,X
+  14,U,Z
+  16,R,K
+   1,R,J,G
+   7,R
+   4,Z
+   1,R,J
+   1,R
    2,R,J
    7,R
-   7,L
-   6,R,D
+   5,L
+   2,L,D
+  10,R,D
+   1
+   1,R
+   1
    2,R
-   4,D,X
-  11,R,X
-   5,U,C
-   8,R,J
-  21,R,D
-  14,L,D
-  56,R,D
-   2,R,D
-   4,D,X
-  17,R,U,X
+  15,R,X
+  16,R,Z
+   4,R
+  10,L,Z
+   1,R,J
+  26,D
+   6,R,D
+  17,R,U,Z
    4,R,J
    2,R,K
   12,R,D,X
@@ -739,13 +738,14 @@ AnalogMode,Ignore
    2,R,K,G
   27,R,D,X
    4,L,J
-  24,R,U,X
-   7,R,J
-  15,U,X
-  10,R
+  20,R,U,X
+  13,U,C
+   8,R,J
+  11,R
+
 #Section Mixed Wind 2
-   4,D,X
-   1,R,J
+   4,Z
+   1,R,K
    2,R
   43
 
@@ -960,5 +960,5 @@ AnalogMode,Ignore
   12,R,K,G
   12,R,J,G
   13,R,K,G
-#2:05.851(7403)
+#2:04.321(7313)
   40
