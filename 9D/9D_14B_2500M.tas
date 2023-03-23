@@ -181,23 +181,24 @@ console load nameguysdsidespack/0/10-Farewell o-01outside
   24,U,X
    4,J
   15,R,Z
-  10,R,D
+  10,R
   15,D,X
    3,D
   15,R,C
   15,U,X
    8,L
    5,R,J
-   5,R
-   2,R,J
-   2,R
-   1,R
-   7,R
+   8,R
+   3,R,J
+   6,R
    1,R,J,G
    3,R,K,G
   24,R,D
-   4,R
-   4,R,D
+   3,R
+   2,R,D
+   1,R
+   1,R,D
+   1,R
    4,R,Z
    1,R,J
    6,R
