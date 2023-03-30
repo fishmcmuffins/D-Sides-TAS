@@ -1,0 +1,58 @@
+# Monika's D-Sides
+# https://gamebanana.com/mods/150759
+
+RecordCount: 16
+
+Read,9D_01
+#Stun in a-00-lobby(2)
+Read,9D_02,Start
+Read,9D_03,Start
+#2 stuns; drift in cc-07
+Read,9D_04,Start,stun_cc07
+  12,R,D,X
+StunPause
+   6,R
+EndStunPause
+Read,9D_04,endstun_cc07
+
+Read,9D_05,Start
+Read,9D_06,Start
+#Stun in dd-00-lobby
+Read,9D_07,Start
+Read,9D_08,Start
+#4 stuns; drift in h-01
+Read,9D_09,Start,stun_h01
+# -1 pause from checkpt
+   3,R,J
+StunPause
+  10,R,J
+EndStunPause
+Read,9D_09,endstun_h01
+
+#Stun in 9D_10:
+#lvl_hh-08 (x2)
+Read,9D_10,Start,stun_hh08_2
+# +1 pause from checkpt
+   0,R
+StunPause
+  16,R
+EndStunPause
+Read,9D_10,endstun_hh08_2
+
+#Stun in i-05
+Read,9D_11,Start,stun_i05_1
+   1,R
+StunPause
+   1,R
+   3,R,J
+  10,R
+EndStunPause
+Read,9D_11,endstun_i05_1
+
+Read,9D_12A,Start
+Read,9D_12B,Start
+Read,9D_13A,Start
+
+#15:42.922(55466)
+#entering lvl_m-01 (1500M)
+
