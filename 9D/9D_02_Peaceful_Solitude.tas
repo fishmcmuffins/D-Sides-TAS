@@ -1,7 +1,10 @@
 #Restart
 console load nameguysdsidespack/0/10-Farewell 8678 -1184
    1
- 
+
+#spinner cycle sync
+   1
+
 #lvl_a-10
   36
    4,Z
@@ -121,9 +124,10 @@ console load nameguysdsidespack/0/10-Farewell 8678 -1184
    5,L,J,G
    2,L,K,G
    4,L,G
-StunPause
    1,L,J,G
-   6,L,K,G
+   1,L,K,G
+StunPause
+   5,L,K,G
   12,L,K
 SkipInput 3 1
    9,U,X
@@ -224,4 +228,4 @@ EndStunPause
   26,J,G
    1,K,G
   40
-#0:27.693(1629)
+#0:27.710(1630)
