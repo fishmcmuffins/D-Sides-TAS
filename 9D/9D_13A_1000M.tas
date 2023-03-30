@@ -1,4 +1,4 @@
-RecordCount: 192
+RecordCount: 203
 
 #1000M
 console load nameguysdsidespack/0/10-Farewell 109280 -18296
@@ -7,9 +7,15 @@ console load nameguysdsidespack/0/10-Farewell 109280 -18296
 
 #Section 1000M
 #l-01
-  35
-console givekey
+
+#key cycle
    1
+console givekey
+  35
+#+4f (chapter) key sync
+   4
+
+#console givekey
 #Start
    4,D,X
    2,R,J
@@ -112,6 +118,8 @@ console givekey
 #key cycle
 #frame 2 second half
   10
+#+13f key cycle sync
+  13
 #resume
 repeat 36
    1,D
@@ -478,5 +486,5 @@ endrepeat
   20,U,X
  253
 
-#1:07.388(3964)
+#1:07.677(3981)
   40
