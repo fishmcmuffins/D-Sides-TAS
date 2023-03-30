@@ -536,10 +536,14 @@ EndStunPause
   40
 
 #lvl_h-01
-  16,R,J
+  14,R,J
+#stun_h01
+   2,R,J
 StunPause
-  12,R,J
+  11,R,J
 EndStunPause
+#endstun_h01
+   1,R,J
    2,R
   14,R,X
    1,R,K,G
