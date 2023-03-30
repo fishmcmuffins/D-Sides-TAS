@@ -291,10 +291,13 @@ SkipInput
 EndStunPause
    2,R
    1
-   9,R
+   7,R
+#stun_hh08_2
+   2,R
 StunPause
   14,R
 EndStunPause
+#endstun_hh08_2
    2,R
    4,R,K,G
    5,R
