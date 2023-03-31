@@ -723,7 +723,9 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
    2,K
    1,R,J
    1,R,K
-   9,R
+   7,R
+#stun_cp37_1
+   2,R
 StunPause
 #why tf does holding up
 #make her sink faster
@@ -737,9 +739,10 @@ SkipInput 3 1
    1,R,J
    1,R,K
    1,R,J
-   2,R
-EndStunPause
    1,R
+EndStunPause
+#endstun_cp37_1
+   2,R
    1,R,J
    1,R,K
    1,R,J
@@ -755,12 +758,14 @@ EndStunPause
    4,R,J,G
    3,R
    2
+#stun_cp37_2
    2,R,J
 StunPause
   10,R,J
    1,R,K,G
    7,R,D
 EndStunPause
+#endstun_cp37_2
   20,R,D
    3,R
    6,R,J
