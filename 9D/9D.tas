@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 16
+RecordCount: 32
 
 Read,9D_01
 #Stun in a-00-lobby(2)
@@ -52,7 +52,74 @@ Read,9D_11,endstun_i05_1
 Read,9D_12A,Start
 Read,9D_12B,Start
 Read,9D_13A,Start
+Read,9D_13B,Start
+Read,9D_14A,Start
+Read,9D_14B,Start,cycle o-07
+   2
+Read,9D_14B,endcycle o-07
+Read,9D_15,Start
+Read,9D_16,Start,stun_cp37_1
+   1,R
+StunPause
+   1,R
+#why tf does holding up
+#make her sink faster
+  11,R,U
+SkipInput 3 1
+  15,R,Z
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R
+EndStunPause
+Read,9D_16,endstun_cp37_1,stun_cp37_2
+   0,R,J
+#+1 pause
+#also split due to drift
+StunPause
+   2,R,J
+  10,R,J
+EndStunPause
+   1,S,N
+   1,X
+   9
+   1,R,K,G
+   1,R,D
+   1,S,N
+   1,X
+   9
+   1,R
+StunPause
+   5,R,D
+EndStunPause
+Read,9D_16,endstun_cp37_2
 
-#15:42.922(55466)
-#entering lvl_m-01 (1500M)
+#27:56.183(98599)
+
+#9D_17 doesn't have correct Start
+***
+Read,9D_17,Start
+#9D_18 is in 9D_17 file
+#(due to cassette cycles)
+
+#Read,9D_19,Start
+#(9D_19 is incomplete)
+#Read,9D_20,Start
+#Read,9D_21,Start
+#Read,9D_22,Start
+#(9D_23 is moonberry)
+#Read,9D_24,Start
+
+#9D_25 is incomplete
+#Read,9D_25,Start
+#Read,9D_26,Start
+
+#Final Goodbye is incomplete
+
+
+#Read,true_final_goodbye,Start
 
