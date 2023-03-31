@@ -251,9 +251,9 @@ console load nameguysdsidespack/0/10-Farewell o-01outside
    1,R,J,G
    1
   30,R,K,G
-#cycle wait
+#cycle o-07
    0
-#for stun pause
+#endcycle o-07
   17,L,U,X
   10,R,U,C
    4,R,J,G
