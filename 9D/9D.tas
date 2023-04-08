@@ -1,11 +1,12 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 32
+RecordCount: 76
 
 Read,9D_01
 #Stun in a-00-lobby(2)
 Read,9D_02,Start
+
 Read,9D_03,Start
 #2 stuns; drift in cc-07
 Read,9D_04,Start,stun_cc07
@@ -16,16 +17,72 @@ EndStunPause
 Read,9D_04,endstun_cc07
 
 Read,9D_05,Start
-Read,9D_06,Start
-#Stun in dd-00-lobby
-Read,9D_07,Start
-Read,9D_08,Start
-#4 stuns; drift in h-01
-Read,9D_09,Start,stun_h01
-# -1 pause from checkpt
-   3,R,J
+#Stun in d-10
+Read,9D_06,Start,stun_d10
+   1,F,5.01
 StunPause
-  10,R,J
+   5,F,5.01
+  30,F,33.53
+   4,F,90
+EndStunPause
+Read,9D_06,endstun_d10
+
+#Stun in dd-00-lobby
+Read,9D_07,Start,stun_dd00lobby
+   1,K,G
+StunPause
+   9,K,G
+   4
+   2,R
+   1,L
+  17,L,J
+   9,K
+   1,J,G
+   8,L,J
+   1,J
+   1,R,J
+   1,L,J
+   2,K,G
+   1,R,K
+SkipInput 3 1
+  15,R,U,Z
+   6,J
+EndStunPause
+Read,9D_07,endstun_dd00lobby
+
+Read,9D_08,Start
+#4 stuns
+Read,9D_09,Start,stun_g06
+   2,R
+StunPause
+   4,R
+EndStunPause
+Read,9D_09,endstun_g06,stun_g09_1
+   1,J
+   4,X
+StunPause
+   4,R,D
+EndStunPause
+   9,R,D
+   1,R
+   1,R,D
+StunPause
+   3,R,J,G
+EndStunPause
+#endstun_g09_2
+   7,R,J
+  40
+#lvl_h-01
+  14,R,J
+#stun_h01 (drift)
+   2,R,J
+StunPause
+   2,R,J
+EndStunPause
+#drift saves 1 pause
+   1,R,J
+StunPause
+   8,R,J
 EndStunPause
 Read,9D_09,endstun_h01
 
@@ -55,8 +112,38 @@ Read,9D_13A,Start
 Read,9D_13B,Start
 Read,9D_14A,Start
 Read,9D_14B,Start,cycle o-07
-   2
-Read,9D_14B,endcycle o-07
+   1
+Read,9D_14B,endcycle o-07,stun_o07
+  15,D,C
+   1,L
+   4,L
+   4,D,X
+  10,L,X
+   1,R,J
+   4,R,D,X
+StunPause
+   6,R,D,X
+   1,R,J,G
+   1,R,K,G
+   1,R,J,G
+   1,R
+   2,R,K,G
+   5,R
+EndStunPause
+   1,S
+   1,X
+   9,J
+   1,R,J
+   1,R
+StunPause
+   2,R
+   1,R,D
+   3,R,D,J
+EndStunPause
+   1,R,J
+Read,9D_14B,endstun_o07
+
+
 Read,9D_15,Start
 Read,9D_16,Start,stun_cp37_1
    1,R
@@ -66,7 +153,11 @@ StunPause
 #make her sink faster
   11,R,U
 SkipInput 3 1
-  15,R,Z
+  14,R,Z
+EndStunPause
+#drift
+StunPause
+   1,R
    1,R,J
    1,R,K
    1,R,J
@@ -77,45 +168,35 @@ SkipInput 3 1
    1,R
 EndStunPause
 Read,9D_16,endstun_cp37_1,stun_cp37_2
-   0,R,J
-#+1 pause
-#also split due to drift
+   1,R,J
 StunPause
-   2,R,J
-  10,R,J
-EndStunPause
-   1,S,N
-   1,X
-   9
+  11,R,J
    1,R,K,G
-   1,R,D
-   1,S,N
-   1,X
-   9
-   1,R
-StunPause
-   5,R,D
+   7,R
 EndStunPause
 Read,9D_16,endstun_cp37_2
 
-#27:56.183(98599)
-
-#9D_17 doesn't have correct Start
-***
 Read,9D_17,Start
 #9D_18 is in 9D_17 file
 #(due to cassette cycles)
 
+#30:22.213(107189)
+#(regain control in t-01)
+
+
 #Read,9D_19,Start
 #(9D_19 is incomplete)
+
 #Read,9D_20,Start
 #Read,9D_21,Start
 #Read,9D_22,Start
-#(9D_23 is moonberry)
-#Read,9D_24,Start
 
-#9D_25 is incomplete
+#(9D_23 is moonberry)
+
+#Read,9D_24,Start
+#?? stuns in w-??
 #Read,9D_25,Start
+#?? stuns in x-??
 #Read,9D_26,Start
 
 #Final Goodbye is incomplete
