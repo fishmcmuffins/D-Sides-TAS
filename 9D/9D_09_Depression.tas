@@ -476,12 +476,14 @@ console load nameguysdsidespack/0/10-Farewell 66964 -10384
    1,R,K,G
    4,R,J,G
   15,R,D,X
-   2,R
+   1,R
+#stun_g06
+   1,R
 StunPause
    5,R
-   1,R,D
 EndStunPause
-   7,R,D
+#endstun_g06
+   8,R,D
    4,R,D,J
    2,R,K,G
   40
@@ -519,6 +521,7 @@ EndStunPause
 
 #lvl_g-09
   25,R,J
+#stun_g09_1
 StunPause
    1,J
    1,X
@@ -530,9 +533,10 @@ EndStunPause
    1,R
    1,R,D
 StunPause
-   4,R,J,G
+   3,R,J,G
 EndStunPause
-   6,R,J
+#endstun_g09_2
+   7,R,J
   40
 
 #lvl_h-01
