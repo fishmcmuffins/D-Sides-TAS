@@ -388,6 +388,7 @@ console load nameguysdsidespack/0/10-Farewell 132169 -30311
 #  45,R,U,X
 #  14,L,D,C
    1,R,J
+#stun_o07
   15,D,C
    1
    5,L
@@ -414,6 +415,7 @@ StunPause
    1,R,D,J
    3,R,J
 EndStunPause
+#endstun_o07
    5,R
   19,R,J
   14,R,U,Z
