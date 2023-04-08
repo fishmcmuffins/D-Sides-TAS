@@ -1,23 +1,21 @@
 #Restart
 #cp 17+18 combined
-console load nameguysdsidespack/0/10-Farewell 165051 -45256
-   1
 
 #lvl_r-00
+console load nameguysdsidespack/0/10-Farewell 165024.550095558 -45272.5000072718 376.9999 -74.99994
+   1
   36
-   4,D,X
-   1,R,X
-   1,R,J
-   2,R
+  11,R,D,X
   40
+
 #Start
 #lvl_r-01
-   6,R
+   3,R,D,X
    1,R,J
-  14,R,D,X
-   1,L,J
+  15,R,D,X
   15,D,C
   15,D,X
+   3
    4,D,C
    1,R,C
    1,R,J
@@ -1008,7 +1006,7 @@ console load nameguysdsidespack/0/10-Farewell 165051 -45256
    1,R,J
   21,R
  238
-#2:33.578(9034)
+#2:33.629(9037)
   40
 
 #lvl_t-00
