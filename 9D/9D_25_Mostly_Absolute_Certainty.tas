@@ -3,6 +3,7 @@ console load nameguysdsidespack/0/10-Farewell 226120 -52600
 
 #lvl_w-08
   36
+#Start
   13,R,X
    1,L,J
    1,L
@@ -494,6 +495,7 @@ AnalogMode,Precise
   29,R,U,X
    1,R,J
    4,R
+#stun_w16_1
    2
 StunPause
    1,J
@@ -506,13 +508,15 @@ SkipInput 3 1
    2,R
 SkipInput 3 1
    7,R,D,X
-   4,R,K,G
+   3,R,K,G
 EndStunPause
+   1,R,K
    3,K
    3,R,K
 StunPause
    4,R,K
 EndStunPause
+#endstun_w16_1
   17,R
    7,R,J,G
    1,R
@@ -524,6 +528,7 @@ EndStunPause
    9,R,K,G
   30,R,D,X
    4,R
+#stun_w16_2
    1,S,N
    1,O
   12,R
@@ -536,6 +541,7 @@ EndStunPause
    1,O
   14,R
    4,J
+#endstun_w16_2
   40
 
 #lvl_w-17
@@ -856,14 +862,13 @@ EndStunPause
   12,R,D,X
    1,R,J
    2,R
-  14,R,D,X
-   1,R,J
-  19
+  15,R,D,X
+  15,D,C
   15,D,X
   15,R,D
   15,D,X
    9,R,D
   15,D,X
   11,R,D
-#3:08.904(11112)
+#3:08.785(11105)
   40
