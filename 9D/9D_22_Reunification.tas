@@ -123,7 +123,9 @@ console givekey
    3,R
   13,U,X
   11,R,J
-   8,R
+   7,R
+#stun_v00
+   1,R
    1,R,J
 #likely faster to not
 #demo after spring hit,
@@ -141,6 +143,7 @@ SkipInput 3 1
 SkipInput 3 1
    9,R,Z
 EndStunPause
+#endstun_v00
    9,R,Z
   15,U,X
   14,R
@@ -163,7 +166,7 @@ EndStunPause
    2,G
 #key cycle
   17,G
-##########
+#end key cycle
   14
   14,L,Z
    1,R,J
