@@ -1,7 +1,12 @@
-RecordCount: 1322
+RecordCount: 1446
+
 console load nameguysdsidespack/0/10-Farewell 181264 -48272
-  37
+   1
+#lvl_t-01
+  68
 #Start
+#TODO correct analogmode?
+AnalogMode,Ignore
    4,R,Z
    2,R,J
    2,R,K,G
@@ -39,7 +44,8 @@ console load nameguysdsidespack/0/10-Farewell 181264 -48272
   15,R,Z
    3,R
   15,R,U,Z
-  21,R
+  17,R
+   4,R
 #FLAG_24
    2,L,J
   10,R,Z
@@ -50,10 +56,9 @@ console load nameguysdsidespack/0/10-Farewell 181264 -48272
    1,R,J
    7,R
   12,R,J
-  14,R,D,X
-  14,R,J
-  14,R,D,X
-   1,R
+  15,R,D,X
+  12,R,J
+  15,R,D,X
    8,R,J
   15,R,D,X
   25,R
@@ -109,8 +114,8 @@ console load nameguysdsidespack/0/10-Farewell 181264 -48272
    2,R
   16,R,J
   15,U,X
-  16
-  32,F,118
+  22
+  26,F,118
   59,F,118.6
   12,F,60
   29,F,40
@@ -191,28 +196,23 @@ console load nameguysdsidespack/0/10-Farewell 181264 -48272
 #FLAG 20
   18,R,D,X
   18,R,D,C
-   2,R,J
+   7,R,J
+  15,R,D,X
    6,R
-  20,R,D,X
   14,R,C
-   7,R,J,G
-  23,R,Z
-  21,R,U,V
-  15,R,C
-  14,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-   9,R,D,C
+  28,R,J,G
+  14,R,X
    1,R,J,G
-   1,R
-   1,R,K,G
+   5,R,D,X
    1,R,J,G
-  12,R
+   3,R,K,G
+   6,R
    1,R,J
-   7,R,D
-  18,R,U,X
-  81,R,C
+   3,R
+  10,R,J
+  15,R,D,X
+  20,R,J
+  81,R,X
   14,R,Z
    7,R,J
   40
@@ -282,18 +282,6 @@ console load nameguysdsidespack/0/10-Farewell 181264 -48272
    2,R,K,G
    1,R,D
   12,D
+AnalogMode,Precise
    2,R
-  13,R,D,X
-   1,R,J
-  40
-
-#0:57.528(3384)
-
-#lvl_t-03
-   1,R,J
-   6,R,D,X
-   1,R,J,G
-   1,R
-   2,R,J,G
-  10,R
-
+#0:55.335(3255)
