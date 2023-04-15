@@ -465,12 +465,15 @@ AnalogMode,Precise
    1
    1,R
    2
-  14,U,Z
+  12,U,Z
+#stun_t11
+   2,U,Z
 StunPause
    1
 SkipInput 3 1
    8,U,C
 EndStunPause
+#endstun_t11
   10
    5,L
   15,U,X
