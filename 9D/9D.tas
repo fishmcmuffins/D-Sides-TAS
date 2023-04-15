@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 76
+RecordCount: 105
 
 Read,9D_01
 #Stun in a-00-lobby(2)
@@ -180,27 +180,115 @@ Read,9D_17,Start
 #9D_18 is in 9D_17 file
 #(due to cassette cycles)
 
-#30:22.213(107189)
-#(regain control in t-01)
+Read,9D_19,Start
 
-
-#Read,9D_19,Start
-#(9D_19 is incomplete)
-
-#Read,9D_20,Start
-#Read,9D_21,Start
-#Read,9D_22,Start
+Read,9D_20,Start,stun_t11
+StunPause
+   2,U,Z
+   1
+SkipInput 3 1
+   5,U,C
+EndStunPause
+StunPause
+   3,U,C
+EndStunPause
+Read,9D_20,endstun_t11
+Read,9D_21,Start
+Read,9D_22,Start,stun_v00
+   1,R
+   1,R,J
+#likely faster to not
+#demo after spring hit,
+#but this strat only needs
+#one spinner stunned so
+#won't get owned by drift
+#^ correct, the drift is
+#  awful here
+StunPause
+   7,R,J
+EndStunPause
+StunPause
+   3,R,J
+SkipInput 3 1
+  15,U,Z
+  11,R
+SkipInput 3 1
+  19,L,U,Z
+   5
+SkipInput 3 1
+   5,R,Z
+EndStunPause
+StunPause
+   4,R,Z
+EndStunPause
+Read,9D_22,endstun_v00,key cycle
+  17,G
+  12,G
+Read,9D_22,end key cycle
 
 #(9D_23 is moonberry)
 
-#Read,9D_24,Start
-#?? stuns in w-??
-#Read,9D_25,Start
-#?? stuns in x-??
-#Read,9D_26,Start
+Read,9D_24,Start
+Read,9D_25,Start,stun_w16_1
+   2
+StunPause
+   1,J
+   8
+EndStunPause
+StunPause
+SkipInput 3 1
+   4,R,Z
+EndStunPause
+StunPause
+   6,R,Z
+   1,R,K
+   1,L,J,G
+   2,R,J
+   2,R
+SkipInput 3 1
+   7,R,D,X
+   3,R,K,G
+EndStunPause
+   1,R,K
+   3,K
+   3,R,K
+StunPause
+   4,R,K
+EndStunPause
+Read,9D_25,endstun_w16_1,stun_w16_2
+   1,R
+   1,S,N
+   1,O
+  11,R
+   1,R
+StunPause
+   2,R
+   1,R,D,J
+EndStunPause
+   2,R,J
+   1,R
+   1,S,N
+   1,O
+  13,R
+   4,J
+Read,9D_25,endstun_w16_2
 
-#Final Goodbye is incomplete
 
+Read,9D_26,Start,stun_x10
+   5,R,J
+StunPause
+   2,R,J
+EndStunPause
+   5,R,J
+   6,R
+   3,R,J
+   6,R
+Read,9D_26,endstun_x10
+
+#44:27.946(156938)
+#land in lvl_xx-10-final-goodbye
+
+#Read,9D_27,Start
 
 #Read,true_final_goodbye,Start
 
