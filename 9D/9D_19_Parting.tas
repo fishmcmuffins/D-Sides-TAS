@@ -1,10 +1,23 @@
-RecordCount: 2539
+RecordCount: 2728
 console load nameguysdsidespack/0/10-Farewell 181264 -48272
    1
-
 #lvl_t-01
   68
 #Start
+
+
+#saves 1f but cycles
+#kill it at end
+#   2,R,J
+#   7,R,Z
+#   1,R,J
+#   6,R
+#   1,R,J
+#  14,R,D,X
+#  20,R,J
+#  29,R,X
+
+
    5,L,Z
    1,R,J
    1,R
@@ -39,11 +52,14 @@ console load nameguysdsidespack/0/10-Farewell 181264 -48272
    1,L,K,G
    2,L
    1,L,J,G
+
+
    3,L,K,G
    1,L
   12
   16,R,Z
   36,R,U,V
+#land 368f
 
 #CP-24
    2,R,J
@@ -247,7 +263,7 @@ AnalogMode,Precise
    1,R,J,G
    1
    2,R
-   5
+   4
    6,R,D,C
    7,R,J
   40
@@ -318,4 +334,4 @@ AnalogMode,Precise
    1,R,D
   12,D
    2,R
-#0:48.637(2861)
+#0:48.620(2860)
