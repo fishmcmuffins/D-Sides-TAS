@@ -1,219 +1,254 @@
-RecordCount: 1446
-
+RecordCount: 2539
 console load nameguysdsidespack/0/10-Farewell 181264 -48272
    1
+
 #lvl_t-01
   68
 #Start
-#TODO correct analogmode?
-AnalogMode,Ignore
-   4,R,Z
-   2,R,J
-   2,R,K,G
-  11,R
-   4,R,Z
+   5,L,Z
    1,R,J
-  13,R
-  21,R,J
-  27,R,X
-   4,R,J
-   7,R,Z
-  18,R,J
-   8,R
-  28,R,C
-   4,R,J
-   7,R,Z
-  14,R,J
-  12,R
-  14,R,C
-  14,R
-   4,R,J
-   7,R,Z
-  14,R,J
-  12,R
-  14,R,C
-  14,R
-   4,R,J
-   7,R,Z
-  27,R,J
-   9,U,X
-   1,J
-  28,L,J
-  13,L
-   8,R
-  15,R,Z
-   3,R
-  15,R,U,Z
-  17,R
-   4,R
-#FLAG_24
-   2,L,J
-  10,R,Z
-  11,R,J
-  14,D,X
-   1,L
-   9,L,Z
-   1,R,J
-   7,R
-  12,R,J
-  15,R,D,X
-  12,R,J
-  15,R,D,X
-   8,R,J
-  15,R,D,X
-  25,R
-   9,J,G
-   1,L
-  18,R,J,G
-  14,U,X
-   1,J
-   2,R,J
-  15,U,X
-  21
    1,R
-  47,F,127.95
-  24,F,118.5
-   6,F,90
-  24,F,32
-  12,U,X
-   7,J
-  14,L
-  10,L,D,X
-  17,R,J
-  14,R,D,X
-   6,R
-   9,R,Z
    1,R,J
-  16,R
+   1,R,K,G
+   9,R
+   1,R,J
+  14,R,D,X
+  20,R,K
+  28,R,X
+   6,R,J
+   5,R,Z
+  14,R,K
+  12,R
+  28,R,X
+   4,R,J
+   7,R,Z
+  15,R,K
+  11,R
+  28,R,X
+   4,R,J
+   7,R,Z
+  15,R,K
+  11,R
+  28,R,X
+   4,R,J
+   7,R,Z
+   9,R,K
+   7,R
+  15,R,U,Z
+   1,L,J,G
+   1,L,K,G
+   2,L
+   1,L,J,G
+   3,L,K,G
+   1,L
+  12
+  16,R,Z
+  36,R,U,V
+
+#CP-24
+   2,R,J
+  10,R,Z
+   4,R,K
+   5,R
+  15,D,X
+  14,L,D,C
+   1,R,J
+   8,R,D,X
+   1,R,K
+   4,R
+  11,R,J
+   3,R
+  15,R,D,X
+   1,R,K
+   5,R
+   2,R,K
+   8,R
+   8,R,D,J
+  15,R,D,X
+  22,R
+   3
+  12,K,G
+  11,J,G
+   1,R,J
+  11,R,K,G
+   2,R
+  16,R,Z
+  14,U,V
+   9,L,J
+  16,L
+   1,L,K
+  14,R,D,C
+   2,R,J
+   3,R
+  15,R,D,X
+   2,R
+   2,R,K
+   9,R
+   1,R,K
+   7,R
+  14,R,Z
    1,R,J
   14,R,Z
-   7,R
-   2,R,J,G
-  11,R
-  13,R,Z
-  20,R,J
-  15,R,U,X
-  19
-  23,F,88
-   7,F,61
-  14,F,75
+   4,R,J
+  14,R,X
+  27,R,U
+AnalogMode,Precise
+  13,F,44.5
+  12,F,67.97
+  11,F,74.21
    8,F,90
-  30,F,115
-  14,R,D,X
-  13,R
-   8,L,Z
-   1,R,J
-   7,R
-   4,R,J
-   5,R,D,X
-   1,R,J,G
-  12,R
-#FLAG 23
-   5,R,J
-  14,R,D,X
+   6,F,104.8
+   4,X,F,102.5
+  32,R,D,X
    2,R
-  16,R,J
-  15,U,X
-  22
-  26,F,118
-  59,F,118.6
-  12,F,60
-  29,F,40
-   5
-  15,R,U,X
-  19
-  28,F,81.5
-  25,F,69
-   7,F,90
-  41,F,96
-  19,F,76
-  13,F,90
-   6,F,110
-  22,F,120
-  15,R,Z
-  23,L,D
-   7,L,Z
+  12,R,C
+   1,K,G
+   6,R
    1,R,J
-   7,R
+   3,L,J
+   5,L
+   4,Z
    1,R,J
-#FLAG 22
-  14,R,D,X
-  13,R,D
-  14,R,D,X
-   1,R,J
+   2,R
+   2,R,J
    1,R
-   5,R,J
+   1,R,K
+   1,R,J,G
+   4,R
+   5,R,D,X
+   1,R,K,G
+  11,R
+
+#CP-23
+   3,R,J
+  15,R,D,X
+   4,R,K
+   5,R
+   2,R,K
+  12,R
+  33,R,Z
+  12,D
+   4,L
+  11,L,J
+   8,J
+  14,R,U,X
+AnalogMode,Square
+  27,F,55.7
+AnalogMode,Precise
+  13,F,90
+  27,F,69.96
+   9,F,90
+  38,F,96
+  22,F,79.28
+  14,F,90
+  31,F,138
+   4,X
+  10,R,D,X
+   2,R,J
    2,R
-   4,R,J
-   9,R,D,X
-   8,R
-   2,L
+   1,R,K,G
+  10,R
+   1,R,J
+  31,R,D,X
+
+#CP-22
+   1,R,D,J
+   9,R
+  15,R,X
+   6,R,D,C
+   7,R
+   1
+   1,R
+   1
   18,U,X
   15,L,C
   23,R,D
-  31,R,D,X
-  49,F,102
-  18,F,70
-   5,F,73
-   6,F,90
-   9,F,180
-  14,D,X
-  19,R,D
-  37,R,Z
-  45,F,87.3
-  13,F,92.37
-  24,F,102.3
-   2,F,99.40
+   5,R,D,X
+  27,R,D
+  43,F,93.5
+  21,F,73.7
+  14,F,101.6
+  15,D,X
+  20,R,D
+  10,R,Z
+  27,R,U
+  39,F,91.1
+  26,F,96.55
+  14,F,100.4
   14,R,Z
   27,R,U
-  46,F,68
-  75,F,90
-  15,R,D,X
+  36,F,67.6
+  68,F,88.88
+  16,F,89.4
+   4,X
+  11,R,D,X
   15,R,D,C
-  19,L,D
+  11,D
    1,R,D
-#FLAG 21
+   2,D
+   4,R,D
+   1,D
+
+#CP-21
    4,R,Z
   13,R,J
   15,R,D,X
-  16,R,J
-  14,R,D,X
    1,R,J
-   4,R,D,X
-  25,R,J
-  15,R,U,X
-  13,R,G
-   8,L,J
-  15,R,X
-  26,R,D
-  27,R,U
-  22,F,60
-  99,F,90
-  21,R,D,X
-  14,R,D,C
-   1,R,J
-   2,R
-#FLAG 20
-  18,R,D,X
-  18,R,D,C
-   7,R,J
-  15,R,D,X
-   6,R
-  14,R,C
-  28,R,J,G
-  14,R,X
-   1,R,J,G
-   5,R,D,X
-   1,R,J,G
-   3,R,K,G
-   6,R
-   1,R,J
-   3,R
-  10,R,J
-  15,R,D,X
-  20,R,J
-  81,R,X
+   9,R
   14,R,Z
+   1,R,K
+  11,R,D,X
+   9,R,J
+  20,R,U,X
+   7
+   1,G
+  18,R,Z
+   7,L,U,X
+  27,R,U
+  33,F,63.58
+  87,F,87.9
+   2,R
+  18,R,D,X
+  15,R,D,C
+
+#CP-20
+  14,R,Z
+   1,R,J
+  18,R,D,X
+  17,R,D,C
+   1,R,K
+   6,R
+  10,R,U,Z
+   1,L
+   4,J,G
+  15,R,D,X
+   1,D
+   7,R,D
+   7,R
+   1
+  15,R,K,G
+  15,R,X
+   1,G
+   5,R,X
+   1,R,J,G
+   2,R,K,G
+   1,R,J,G
+   8,R
+  11,R,K
+  15,R,D,X
+   9,R,D,J
+   5,R
+  30,R,J
+   5,R,D
+  15,R,U,Z
+  17,R,U,C
+   1,R,K,G
+   2,L,K
+   1,R,J,G
+   1
+   2,R
+   5
+   6,R,D,C
    7,R,J
   40
 
@@ -282,6 +317,5 @@ AnalogMode,Ignore
    2,R,K,G
    1,R,D
   12,D
-AnalogMode,Precise
    2,R
-#0:55.335(3255)
+#0:48.637(2861)
