@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 143
+RecordCount: 188
 
 Read,9D_01
 #Stun in a-00-lobby(2)
@@ -183,9 +183,12 @@ Read,9D_17,Start
 Read,9D_19,Start
 
 Read,9D_20,Start,stun_t11
-   2,U,Z
+   1,U,Z
 StunPause
-   1
+   1,U,Z
+EndStunPause
+StunPause
+   1,U,Z
 SkipInput 3 1
    8,U,C
 EndStunPause
@@ -199,85 +202,88 @@ Read,9D_22,Start,stun_v00
 #won't get owned by drift
 #^ correct, the drift is
 #  awful here
-StunPause
    1,R
-  11,R,J
-SkipInput 3 1
-  15,U,Z
-   3,R
+StunPause
+   5,R,J
 EndStunPause
 StunPause
-   8,R
+   6,R,J
+SkipInput 3 1
+  15,U,Z
+  11,R
 SkipInput 3 1
   19,L,U,Z
-   5
+   2
+EndStunPause
+StunPause
+   3
 SkipInput 3 1
    9,R,Z
 EndStunPause
 Read,9D_22,endstun_v00,key cycle
-  17,G
-   3,G
+  18,G
 Read,9D_22,end key cycle
 
 #(9D_23 is moonberry)
 
 Read,9D_24,Start
 Read,9D_25,Start,stun_w16_1
+   1
 StunPause
-   2
+   1
+EndStunPause
+StunPause
    1,J
+EndStunPause
+StunPause
    8
 SkipInput 3 1
   10,R,Z
    1,R,K
-EndStunPause
-StunPause
    1,L,J,G
-EndStunPause
-StunPause
-   1,R,J
-   1,R,J
+   2,R,J
    2,R
 SkipInput 3 1
    7,R,D,X
-   4,R,K,G
+   3,R,K,G
 EndStunPause
+   1,R,K
    3,K
-   3,R,K
+   2,R,K
 StunPause
-   4,R,K
+   5,R,K
 EndStunPause
 Read,9D_25,endstun_w16_1,stun_w16_2
-   1,R
    1,S,N
    1,O
-  11,R
-   1,R
+  10,R
+   1,S,N
+   1,O
+  10,R
+   1,S,N
+   1,O
+  10,R
 StunPause
-   2,R
+   3,R
    1,R,D,J
 EndStunPause
    2,R,J
-   1,R
    1,S,N
    1,O
-  13,R
+  10,R
+   4,R,J
    4,J
 Read,9D_25,endstun_w16_2
 
 
 Read,9D_26,Start,stun_x10
-   5,R,J
-StunPause
-   2,R,J
-EndStunPause
-   5,R,J
+  12,R,J
    6,R
    3,R,J
    6,R
 Read,9D_26,endstun_x10
 
-#44:21.095(156535)
+#44:18.715(156395)
 #land in lvl_xx-10-final-goodbye
 
 #Read,9D_27,Start
