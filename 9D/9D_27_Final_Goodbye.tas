@@ -3,7 +3,7 @@ console load nameguysdsidespack/0/10-Farewell 304993 -51472
 
 #lvl_xx-09
   72
-Set,Level.TimeActive,2589.138671875
+Set,Level.TimeActive,2589.10546875
 #Start
    4,Z
    2,R,J
@@ -139,20 +139,19 @@ Set,Level.TimeActive,2589.138671875
   20,R
   15,R,Z
   13,R,K
-   3,L
+   5,L
 StunPause
-   3,L
+   1,L
    9,L,J,G
    3,J
   12,K,G
-  10,J,G
+  12,J,G
 EndStunPause
 StunPause
-   1,J,G
+   1,K,G
 EndStunPause
 StunPause
-   1,J,G
-   4,K,G
+   3,K,G
    2,R,K
    1,J
   11,R,J
@@ -160,50 +159,52 @@ SkipInput 3 1
    7,R,X
 SkipInput 3
    8,R,X
-  11,R,D
+  13,R,D
 EndStunPause
 StunPause
    1,R,D
 EndStunPause
 StunPause
-  11,R,D
+   9,R,D
    3,D
    3
 SkipInput 3 1
   15,R,Z
 SkipInput 3 1
   15,U,X
+   2
 EndStunPause
 StunPause
    1
 EndStunPause
 StunPause
-  13
+  11
 SkipInput 3 1
   15,R,C
    1,R
-  13
+  15
 EndStunPause
 StunPause
    1
 EndStunPause
 StunPause
-  39
+  37
    2,L
-EndStunPause
-StunPause
    1
+SkipInput 3 1
+   4,X
 EndStunPause
 StunPause
-SkipInput 3 1
-   5,R,X
-  37,R,G
+   1,R
+EndStunPause
+StunPause
+  39,R,G
 EndStunPause
 StunPause
    1,R,G
 EndStunPause
 StunPause
-   6,R,G
+   4,R,G
   18,R,D,G
 EndStunPause
   44,D,G
@@ -259,34 +260,44 @@ EndStunPause
    6,R
   15,D,X
  141,R,D
-   5,R,Z
-   2,R,J
-   9,R
-   1,R,K
+   4,Z
+   1,R,J
    2,R
+   1,R,J
+   1,R
+   1,R,J
+   5,R
   10,R,D,X
    1,R,J
-   2,R,K,G
+   1,R,K,G
+   1,R
    1,R,J,G
    3,R,K,G
    5,R
-  45,R,K
+
+  35,R,K
+   8,R,D
   14,R,U,X
-   9,R,J,G
-   1,J
-  15,D
-  16,R,D
-  17,R
-   6,R,X
+   1,J,G
+   1
+   1,R
+   1
+   4,R
+   1
+   1,R,K
+   1,K
+   4,R
    1,R,J,G
-   2,R,K,G
-   5,R,J,G
-   2
-   3,R
-   7,R,J
-   9,R,K,G
-  12,R
-   4
+   2,J
+   1,R,J
+   5,R
+   3,R,J
+   4,R
+  15,R,K,G
+   8,K
+   1,R
+   1,K
+   5
    3,R
   12,L,D,X
   33,R,J
@@ -295,71 +306,58 @@ EndStunPause
    1,R,K,G
   20,R,D
   12,L,D
-  12,G
-  21,U,G
-   2,G
-   1
+  17,G
+  14,U,G
    1,J,G
-   1,L,K,G
-   7,R,K
-  17,R,D,X
-   7,R
-   1,R,J
-   2,R
-  12,R,U,Z
-   2,R,J,G
-   1,R,K,G
-   2,R,J,G
-   5,R
-  16,R,K,G
-   1,S,N
-   1,O
-  34,R,K
-   1,R,D
-   1,S,N
-   1,O
-  11,R,D
-   1,R,J
-   6,R
-   1,S,N
-   1,O
-   9
-  14,R,D,X
-   1,S,N
-   1,O
-  10,R
-   5,R,J
-   6,R
-   1,S,N
-   1,O
-  10,R,J
+   2
    1,R
-   5,R,D
-   2,R,K
-   4,R
-  15,R,D,K,X
-   4,R,D,K
-   2,R,D,J
-   3,R
-   2,R,D
-  16,R,K
-  14,R,U,X
-   1,R,J,G
-   2,L
-   1,R,K,G
-   7,R
-   4,Z
+   1,L,K,G
+   1,L,J,G
+   7,K,G
+  17,R,D,X
    1,R,J
-   8,R
-  37,R,D,X
-  35,R,U,C
-  32,R,D,X
-  15,R,U,C
-  70,R,X
+   4,R
+   1,R,J
+   3,R
+  12,R,U,Z
+   1,R,K,G
+   1,R
+   1,R,J,G
+   5,R,K,G
+  21,R,J,G
+  17,R
+   3,R,D
+   2,R,D,K
+   2,R
+  15,R,D,X
+   5,R,J
+   7,R
+   3,R,D
+   4,R,D,K
+   5,R
+   2,R,K
+   5,R
+   1
+   1,R,D,J
+   2,J
+   8,R,J
+   3,R
+  16,R,K,G
+  18,R,D,X
+StunPause
+   2,R
+SkipInput 3 1
+   5,R,Z
+EndStunPause
+   9,R,Z
+   2,R,J
+  21,R,D,X
+  20,R,U,C
+  87,R,X
    7,R,D,C
   17
   25,L,D,X
-  12,L
+   9,L
   86,R,C
   17,R,U,Z
   15,U,C
@@ -450,21 +448,17 @@ EndStunPause
   15,R,D,X
   25,R,D,K
   14,R,U,Z
-   4,R,J,G
+   3,R,J,G
 StunPause
-   3,R,J
+  12,R,J
 EndStunPause
-StunPause
-   1,R,J
-EndStunPause
-StunPause
-   6,R,J
-EndStunPause
-  32,R,J
+  33,R,J
+   1,R,D
+   1,R
    2,R,D
-   6,D
-   5
-  28,R
+   1,R
+   7
+  29,R
   26,R,Z
    4
    1,R,K,G
@@ -474,39 +468,44 @@ EndStunPause
   12,R,K,G
    5,R
    9,R,K
-  20,R
-   4
+  24,R
   36,R,U,X
-  34,R,U,C
+  35,R,U,C
    2
    2,R
    2,R,J,G
-   3,L,J
+   7,L,J
+   1,R,J
    1,R,K,G
-   3,R,J,G
+   1,R,J,G
+   2,R,K,G
    5,R
-   2,R,J
+   2,R,K
   15,R
    4,Z
-  14,R,K
-   2,R
-   9,R,J
-   6,R,K,G
-  16,R,D,X
-   5,R,J
-   2,R
-  15,R,D,X
-   6,R,K
-  17,R,D,X
+   6,R,J
+   4,R
    1,R,J
-   9,R,K,G
-   5,R
+   1,R
+   9,R,K
+   4,R,J,G
+   2,R
   18,R,D,X
+   8,R,J
+  15,R,D,X
    2,R,J
-   3,R
-   5
+  15,R,D,X
+   1,R,D
+   2,R,D,K
+  11,R,J,G
+   6,R,K,G
+  19,R,D,X
+   2,R,J
+   5,R
+   3
    2,R,D
-  10,R,D,K
+   9,R,D,K
+   1,K
    4,R,J,G
    7,R,D,X
   43
@@ -963,7 +962,7 @@ EndRepeat
    8,R,J
 #badeline
   38
-#4:20.032(15296)
+#4:17.397(15141)
  982
 
 #lvl_end-granny
