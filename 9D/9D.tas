@@ -290,10 +290,10 @@ Read,9D_26,Start,stun_x10
    6,R
    3,R,J
    6,R
-Read,9D_26,endstun_x10
+Read,9D_26,endstun_x10,drift_xx10
+   1
+Read,9D_26,drift_xx10
 
-#44:15.315(156195)
-Set,Invincible,True
 Read,9D_27,Start
 
-ChapterTime: 48:34.735(171455)
+ChapterTime: 48:32.100(171300)
