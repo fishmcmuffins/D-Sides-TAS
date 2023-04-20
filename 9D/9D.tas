@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 188
+RecordCount: 190
 
 Read,9D_01
 #Stun in a-00-lobby(2)
@@ -283,10 +283,6 @@ Read,9D_26,Start,stun_x10
    6,R
 Read,9D_26,endstun_x10
 
-#44:18.715(156395)
-#land in lvl_xx-10-final-goodbye
+Read,9D_27,Start
 
-#Read,9D_27,Start
-
-#Read,true_final_goodbye,Start
-
+ChapterTime: 48:34.769(171457)
