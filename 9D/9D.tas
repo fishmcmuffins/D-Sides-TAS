@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 190
+RecordCount: 221
 
 Read,9D_01
 #Stun in a-00-lobby(2)
@@ -108,15 +108,16 @@ Read,9D_11,endstun_i05_1
 
 Read,9D_12A,Start
 Read,9D_12B,Start
-Read,9D_13A,Start
+Read,9D_13A,Start,key cycle
+   8
+Read,9D_13A,resume
 Read,9D_13B,Start
 Read,9D_14A,Start
 Read,9D_14B,Start,cycle o-07
    1
 Read,9D_14B,endcycle o-07,stun_o07
   15,D,C
-   1,L
-   4,L
+   5,L
    4,D,X
   10,L,X
    1,R,J
@@ -128,19 +129,25 @@ StunPause
    1,R,J,G
    1,R
    2,R,K,G
-   5,R
+   6,R
 EndStunPause
    1,S
    1,X
    9,J
    1,R,J
-   1,R
 StunPause
-   2,R
+   3,R
    1,R,D
    3,R,D,J
 EndStunPause
    1,R,J
+   5,R
+  18,R,J
+  14,R,U,Z
+   1,J,G
+   2
+   4,J,G
+   7,R
 Read,9D_14B,endstun_o07
 
 
@@ -226,6 +233,9 @@ Read,9D_22,end key cycle
 
 #(9D_23 is moonberry)
 
+#wait for drift cycle
+#in w-16
+   3
 Read,9D_24,Start
 Read,9D_25,Start,stun_w16_1
    1
@@ -275,7 +285,6 @@ EndStunPause
    4,J
 Read,9D_25,endstun_w16_2
 
-
 Read,9D_26,Start,stun_x10
   12,R,J
    6,R
@@ -283,6 +292,8 @@ Read,9D_26,Start,stun_x10
    6,R
 Read,9D_26,endstun_x10
 
+#44:15.315(156195)
+Set,Invincible,True
 Read,9D_27,Start
 
-ChapterTime: 48:34.769(171457)
+ChapterTime: 48:34.735(171455)
