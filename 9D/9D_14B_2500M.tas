@@ -271,48 +271,58 @@ console load nameguysdsidespack/0/10-Farewell 132169 -30311
    5,R
    2,R,J,G
    9,R
-   4,D,X
-   2,R,J
+   4,Z
+   1,R,J
+   1,R
   40
 
 #lvl_o-07 (1)
+   5,R
+   1
+   1,R,K
+   2
+  15,R,D,X
+   7,R,J
+   4,R
+   1
+   4,J
+   1
+   1,J
+  12
+   3,D
+   1
+   1,D
+  15,R,Z
+  25,L
+   3,K,G
+   1,L,K
+   1,K
+   1,L,K
+   1,R,K
+   1,L,K
+   1,L,J,G
    1,R,J
-   9,R
-  12,D,X
-   3,J
-   4,D,X
-   3,R,X
-   1,R,J
-   7,R
-   1,R,J
-  10,R,C
-   8,R,X
-   5,R,J
-  11,R,D
-  16,D,X
-  20,L,C
-  15,L,D,X
-  11,L
-  15,L,X
-  70,R,C
-  17,U,X
-  10,R,J
-   8,J
+  15,L,J
+  12,R,K
    9,R,U,X
    9,R,D,C
    9,R,U,X
    9,R,C
-  30,D,X
-  11,R,C
-  19,U,X
-  11,R,C
+   6,R,D,X
+   1,G
+   8
+   2,R
+  15,R,Z
+  13,R,D
   26,R,X
   15,D,C
    4,R,D
-   2,R,J
+   1,J
+   1,R,J
    5,R
   22,R,J
-   8,R,K
+   1,K
+   7,R,K
   15,U,X
   13,R,C
    9,D,X
@@ -325,141 +335,121 @@ console load nameguysdsidespack/0/10-Farewell 132169 -30311
   15,D,C
    8,R,D
   15,R,X
-  18,U,C
-   4,D,X
-  11,L,X
-  33
-  22,U,X
-  23,L,C
-#block is wider
-  11,D,X
-  39,R,J
-  15,D,X
-  15,L,D,C
-  15,R,Z
-   5,R,J
-  48
-  16,R,X
-  32,R,U
-   9,D,X
-  36,L,U
-  15,R,C
-  21
-  26,R
-  43,R,U
-  16,R,U
-   2,R,U
-  14,L,D,X
+  25,U,C
+  15,R,D,X
+   2,D
+   1,R,D
+   1,D
+   1,R
+   1,R,D
+  29,R
+   9,R,X
+  49,U,C
+  43
 
-
-#  14,D,X
-#   9,R,D,C
-#   9,D,X
-#   1
-#  15,U,C
-#   8,L,U,X
-#   6,R,J,G
-#   5,R
-#  22,R,J
-#   9
-#   9,L,U,X
-#  14,U,C
-#  19,R,X
-#  15,D,C
-#   8,R,D
-#  15,R,X
-#  20,U,C
-#  26,R,X
-#   7,L,J
-#   4,D,X
-#  11,R,X
-#  13,L,D
-#   1,L,J,G
-#   9,L
-#   1,L,J
-#   1,L
-#   3,R
-#  15,D,X
-#  10,L,D
-#  15,R,U,X
-#  12,R,D,C
-#   9,L,X
-#  17,R,C
-#  45,R,U,X
-#  14,L,D,C
-   1,R,J
-#stun_o07
-  15,D,C
-   1
-   5,L
-   4,D,X
+#lvl_o-07s
+   8,U
+  10,L,J
+   5,L,Z
+   1,L,K
+   9,L
+   9,L,C
+   9,L,X
+  15,L,U,C
   10,L,X
-   1,R,J
-   4,R,D,X
-StunPause
-   6,R,D,X
-   1,R,J,G
-   1,R,K,G
-   1,R,J,G
+  29,L,C
+   1,J
+   1,K
+   1,R,K
    1,R
-   2,R,K,G
-   6,R
-EndStunPause
-   1,S
-   1,X
-   9,J
-   1,R,J
-   1,R
-StunPause
-   2,R
-   1,R,D,J
-   3,R,J
-EndStunPause
-   5,R
-  19,R,J
+  10,L,X
+  16,R,K
   14,R,U,Z
-   8,J,G
+   1,R,J,G
+   1,K,G
+   6,R,K
+   3,K
+   1
+   4,L
+   9,L,K
+   9,L
+   2,L,D
+   9,R,D
+  12,R
+  96,L,X
+  11,L,U,C
+  15,U,X
+   9,L,D,C
+   1,L,K
+   7,L
+   1,L,J
+  14,L,D,X
+   1,L,J
+  13,L,D,X
+   1,R,K
+   5,L
+   1,K
+  18,L,D
+   1,L
+   1,D
+   1
+  23,L,Z
+   1,J
+   5,L,J
+  15,L
+  12,L
+  49,G
+   1
+   1,L,D,J
+   1,L,K,G
+   1,L,J,G
+   1,L,K,G
+   5,L,J,G
+  13,U,X
+   3,L,J
+   2,L
+   6
+   1,J
+  10
+   2,R
+  77
+  15,U,X
+  10,R
+   1,R,J,G
    7,R
-#endstun_o07
+  10,R,Z
+   1,R,K
+   6,R
+  15,D,C
+   2,R,D
+  10,R,X
+   1,R,J
+   4,J
+  14,U,X
+   1,R,K
+  11,R
+   5,R,Z
+   3,R,J
+  40
 
-#orig
-#...
-#   3,R,J
-#   2,R
-#coyote
-#   5,R,D
-#crouchjump through
-#2 sets of spinners
-#   7,R,D,J
-#   5,R
-#  20,R,J
-#   4,D,X
-#  10,R,X
-#  12,R,J,G
-#  11,K
-#   1
-#   1,J
-#   7,R
-   4,R,X
-   2,R,X
-   6,R,J
+#lvl_o-08 (1)
+   2,R,J
+   2,R
+   1,L,K,G
+   6,R,K
+  68,R,X
+  10,D,C
+  22,D,X
+  15,R,D,C
+   5,L,D
   43
 
 #lvl_o-09
-   3,R,J
-  11,R,U,X
-  40
-   1,J,G
-  13
-   8,D,X
-  43
-   1,S
-   1,D,J
-   1,O
-  68
-   1,J
-  15,D,X
-   8,L,D
+  15,L,D
+   1,D
+   1,R,D
+   1,D
+   1,R,D
   26,R
   15,R,D,X
   10,R
@@ -588,9 +578,8 @@ lvl_o-10s
   44,U,C
   40
 
-#lvl_o-08
+#lvl_o-08 (2)
   47
-   3
   40
 
 #lvl_o-11
@@ -598,7 +587,6 @@ lvl_o-10s
   40
 
 #lvl_o-12
-
   30
 #Section o-12
   12,R,Z
