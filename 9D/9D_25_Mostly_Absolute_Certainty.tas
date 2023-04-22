@@ -543,7 +543,6 @@ EndStunPause
    4,J
 #endstun_w16_2
   40
-
 #lvl_w-17
    1,J
    2,R,J
@@ -573,11 +572,11 @@ EndStunPause
    7,R,D
   34,D
    9,L,D,X
-  23,R
-  15,R,U,X
-  10,U,C
-  30,R
-  16,R,D,X
+  17,R
+  15,R,U,Z
+  12,R,U,C
+  33,R
+  15,R,D,X
   49,R
   15,R,D,X
    2,R
@@ -716,13 +715,10 @@ EndStunPause
    1,L
    1,L,J
   23,G
-   1,U,G
-   1,G
+   2,G
    2,D,G
-   8
-   3,L,D
-   1,L
-   1,L,D
+   4,D
+  10,L,D
    3
   12,L,D,X
    2,R,J
@@ -870,5 +866,5 @@ EndStunPause
    9,R,D
   15,D,X
   11,R,D
-#3:08.785(11105)
+#3:08.768(11104)
   40
