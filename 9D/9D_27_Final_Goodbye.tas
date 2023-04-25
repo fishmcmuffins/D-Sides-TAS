@@ -748,23 +748,29 @@ EndRepeat
    1
   27,R,K
    1,R,J,G
-   9,R
+   1,R,K,G
+  11,R
    1,R,J
-   9,R
+   3,R
    1,R,J,G
   13,R
-   1,R,J
-  15,R
    1,R,J
   32,R,D
-  16,R
-  20,R,J
-   4,R
-   9,R,K,G
-   1,R,J,G
+   1,R,J
+   8,R
+   1
+   1,R
+   1
+   1,R
+   1
+   1,R
+  30,R,J
+   1,R,K,G
+   7,R,J,G
+   3,R,K,G
   13,R
-   7,R,J
-  17,R
+   2,R,J
+  13,R
    1,R,J,G
    1,R,K,G
   12,R
@@ -772,8 +778,10 @@ EndRepeat
   14,R
    1,R,J
   14,R
-   4,R,D
-Repeat,22
+   1,R,J
+  18,R
+   1,R,D
+Repeat,17
    1,R
    2,R,D
 EndRepeat
@@ -822,27 +830,38 @@ Repeat,5
    1,R,J
   14,R
 EndRepeat
-  39,R,K
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-  39,R,K
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
+   3,R,J
+   2,J
+   5,R,J
+  22,R
+   1,R,J,G
+   1,R,K,G
   12,R
+   6,R,J
+  14,R
+   2
+   2,R
+   6,R,J
+   1,R
+  13,R,K
+  10,R
+   1,R,J,G
+   1,R,K,G
+  12,R
+   1,R,J
+  14,R
+   4,R,J
+  15,R
 #spring
   54,R
   12,R,D
-  45,R,D
-   2
-   1,R
-  11,R,J
+  48,R
+   8,R,J
+   1,J
    1
-  18,R
+   2,K
+  11,R,K
+   8,R
    1,R,J,G
    1,R,K,G
   11,R,K
@@ -860,59 +879,74 @@ EndRepeat
 #spring
   49,R,D
   45,R,D
-Repeat,13
+Repeat,12
    1,R,J
   14,R
 EndRepeat
-
-  61,R
-   9,R,D
    1,R,J
+   1,R
+   5,R,J
+   1,R
+   1,R,J
+  13,R
+  66,R
+   1,R,J
+  18,R
+  21,R,D,J
+  48,R
+   3
+   6,R
+   6,R,D
+   2,R
+   1,R,J,G
+   1,R,K,G
   14,R
    1,R,J
-  26,R
-
-  60,R
-  15,R,D
-   1,R,J
-  14,R
-   1,R,J
-  21,R
-
-  60,R,U,G
+   5,R
+   4
+   5,R
+  70,R,U,J,G
    1,L
   22,R
-Repeat,4
+Repeat,5
    1,R,J
   14,R
 EndRepeat
-  10,R
-  27,R,J
+   5,R
+  19,R,J
 #bird
   70,R
   13,R,D
   44,R,U,X
-  39,R
+  32,R
+   2,R,D
+   2,D
+   3,R,D
 #core block
+   1,R,J,G
   30,R
-  24,D
-   3,R
-
+  13,D
+   1,L
+   1,D
+   1,L
+   1,D
+   1,L
+   1,D
+   7,R
   18,R,J
-   6,R,K,G
-   8,R
-   5,R,J
-  24,R,D
-   2,R
+   2,R,K,G
+   7,R
+   6,R,J
+  26,R,D
   44,R,K
    1,J
   11,R,J
    1,K
-   3,R,K
+   4,R,K
    1,R,J,G
    1,R,K,G
    1,R,J,G
-   8,R
+   7,R
    5,R,K
    1,J
    1,K
@@ -940,37 +974,47 @@ Repeat,9
 EndRepeat
    6,R,J
   18,R
-Repeat,6
+Repeat,7
    1,R,J
   14,R
 EndRepeat
-   9,R,J
-  20,R
-Repeat,12
+   4,R,J
+  17,R
+Repeat,8
    1,R,J
   14,R
 EndRepeat
-   6,R
+Repeat,3
+   1,R,D,J
+  14,R
+EndRepeat
+   1,R,J
+  20,R,D
 #spring
- 338,R
+ 230,R,D
+ 102,R
 #bird
-  68,R
-Repeat,68
+  40,R
+  27,R,D
+   1,R,J,G
+  14,R
+Repeat,67
    1,R,J
   14,R
 EndRepeat
-   8,R,J
+   1,R
+   2,R,J
+   4,R
 #badeline
   38
-#4:17.397(15141)
- 982
+#4:16.853(15109)
+ 981
 
 #lvl_end-granny
    5,L
    5,L,K
    5,L
-   3,L,K
-   7,L
+   9,L
    1,L,J
   14,L
   16,L,K
