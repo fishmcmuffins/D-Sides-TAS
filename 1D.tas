@@ -1,4 +1,4 @@
-RecordCount: 2977
+RecordCount: 3171
 
 console load nameguysdsidespack/0/1-City
    1
@@ -397,40 +397,47 @@ console load nameguysdsidespack/0/1-City
   40
 
 #lvl_b-03
-   1,R,J
+   1,R
    2,R
    1
    1,R
    1
    4,R
+   3,R,J
+   5,R
    2,R,J
-   9,R
+   1,R
    1,G
-   1,J,G
+   1,J
    1,L,J
    1,R,K,G
-  13,R
+   8,R
+   3,R,K
+   2,R
    1,R,J,G
    1,R,K,G
-  16,R
-  15,D
+  18,R
    4,R,D
-   4,R,J
-   5,R
-   1,R,J
    1,R
-   2,R,J
-  20,R
+   2,R,D
+   3,R
    1,G
    1
-   1,R
    1,G
-   9,R,J,G
+   1,R
+   5,R,J
+  22,R
+   3,R,D
+   2,D,G
+   7,R,J,G
+   2,R
+   1
   13,R,U,Z
    1,L
-   8,J,G
-  19,R,J
-  15,U,Z
+   7,J,G
+  20,R,J
+  15,U,X
+   1
   18,R,J
   11,K,G
   40
@@ -696,4 +703,4 @@ console load nameguysdsidespack/0/1-City
    2,L
   72,L,D,X
 
-ChapterTime: 1:03.699(3747)
+ChapterTime: 1:03.597(3741)
