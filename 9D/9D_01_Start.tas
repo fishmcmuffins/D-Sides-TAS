@@ -1,27 +1,26 @@
-#Restart
 console load nameguysdsidespack/0/10-Farewell
    1
 
 #Start
-
-#spinner cycle
-   0
-
-#a-00-intro
   90
-   3,L,J
-   7,J
+#spinner cycle
+   1
+#a-00-intro
+   2,L,J
+   8,J
   15,U,X
-   9,J,G
-   1,R,J
+   8,J,G
+   2,R,J
   12,L,K,G
-   7,L
+   3,L
+   1
+   3,L
    4,Z
    3,L,J
    6,L
-  14
-   4,L
-  18,U,X
+  18
+  15,U,X
+   3,L
  177
   40
 
@@ -33,33 +32,38 @@ console load nameguysdsidespack/0/10-Farewell
    1,R,J,G
    1,R,K,G
    7,R
-   2,R,J
-  13,R,U,X
-   2,R,J,G
+   1,R,J
+  14,R,U,X
+   1,R,J,G
+   1,R
    1,R,K,G
    1,R,J,G
+   1,R
+   3,R,J,G
+   4,R
+   1
    2,R
-   2,R,J,G
-   7,R
    1,R,J
    1,R
   14,R,U,X
    1,R,J,G
   20,R,K,G
-  17,R
-   3
-   2,L,J
+  12,R
+   5
+   3,R
+   2,L,D,J
    5,R,U,X
   40
 
 #lvl_a-01
    6,R,U,X
-  10,J,G
+   4,J,G
+   1,R,J
+   5,J
   15,R,D,X
    4,R
-   1,R,D
+   3,R,D
    1,D
-   2,R,D
    1,L,D,J
    1,L,K,G
    1,L,J,G
@@ -79,9 +83,10 @@ console load nameguysdsidespack/0/10-Farewell
    3,R
    2,R,K
    7,R,J,G
-  15,R,X
-  15,D,C
-   5,R,Z
+  13,R,Z
+   1,L,J
+   4
+  14,R,D,X
    1,R,J
    9,R
    4,R,J
@@ -105,14 +110,18 @@ console load nameguysdsidespack/0/10-Farewell
   25,R,Z
   10,R,V
    1,R,J
-   2,R,K,G
-   8,R,J,G
-  12,K,G
-  61,D
-repeat 7
-   4
-   3,R
-endrepeat
+   1,R,K,G
+   1,R
+   1,R,J,G
+  12,R,K,G
+   9,R
+   1,R,K
+   7,R
+   1,L
+   6,R
+   7,R,D
+  68
+  18,R
    1,R,J
   10,R,D,X
    2,L,J
@@ -147,50 +156,55 @@ endrepeat
   15,R,J
   15,U,X
   18,R
-   4,D,Z
+   4,Z
    3,R,J
    2,R,K,G
    4,R,J,G
   40
 
 #lvl_a-04
-   7,R,J
+   7,R,J,G
   11,R,K,G
-  10,R,Z
+  14,R,Z
    1,R,J
-  11,R
+   7,R
   14,R,U,X
-  21,R,G
-  30,G
-  12,D,G
-  37,L,U,G
- 107,R,U,G
+  44,G
+   2,D,G
+   1,G
+   1,R,D,G
+  13,D,G
+  25,L,U,G
+   1,U,G
+   3,L,U,G
+   3,U,G
+   3,L,U,G
+ 106,R,U,G
    1,R,D
-   4,R
+   3,R
    4
-  11,U,X
-  19,G
-  14,L,G
-   7,L,D
-   2
-   1,J,G
-   6,R
-   5,R,J
-   5,J
+   1,R
+  12,U,X
+  40,G
+  12,J,G
+   2,U,J,G
+   2,U,G
+   1,R,U,G
+   5,D
+   1,L,D
   10,L,Z
    5,R,J
   52,R,U,J,G
-   2,R
+   4,R
    1
    2,R
-   2,R
   14,R,U,X
-  91,R,U,G
-  20,R,D,G
+  99,R,G
+   4,R,D,G
+   1,R,G
+  10,R,D,G
    1,L
-   9,R,D
-   1,R
-   3,R,D
+  10,R
    6,R,J
    1,R
    6,R,Z
@@ -204,8 +218,7 @@ endrepeat
 #lvl_a-05
    5,R
    2,R,J
-   8,R,K
-   4,J,G
+  12,R,K
   12,R,Z
    1,R,J
    2,R,K,G
@@ -213,15 +226,15 @@ endrepeat
    1,R,J,G
    2,R,K,G
    1,R,J,G
-  11,R,K,G
-  10,R
-   1,R,K
-   7,R
+   2,R,K,G
+   1,K
+   8,R,K
+  17,R
   14,R,U,X
    1,R,J,G
    1,R,K,G
    7,R
-   1,R,J
+   1,R,D,J
   11,R,D,X
    1,R,J,G
    1,R
@@ -231,16 +244,15 @@ endrepeat
    1,R,K,G
    6,R
    1,S
-   1,X
-  10,R,J
+  11,R,J,X
    1,R
-  10,R,J
+  10,R,D,J
    5,R,U,X
   40
 
 #lvl_a-06
    9,R,U,X
-   3,R,J
+   3,R
   12,R,U,Z
   25,R,J,G
   40
@@ -252,9 +264,8 @@ endrepeat
    9,R,U,X
    1,R,J,G
    6,R
-  10,R,J
-   2,J
-   7,R,J
+  14,R,J
+   5,J
   40
 
 #lvl_a-08
@@ -262,13 +273,12 @@ endrepeat
   13,R,J,G
    6,R,U,X
    1,J,G
-   3,R
-   3
+   6,R
    4,R,J
    5,R
-   9,R,J,G
+   9,R,K,G
    5,R
-   2,R,J
+   2,R,K
    8,R
   14,R,U,X
    5,R,J,G
@@ -280,7 +290,7 @@ endrepeat
   27,R,U,X
    8,G
   10,U,G
-   1,R
+   1
    1,R,J,G
    1,R,K,G
    1,R,J,G
@@ -311,15 +321,14 @@ endrepeat
    1,J,G
    7,R,J
    1,J
-   1,R
+   1,R,J
    1,L
   15,R,U,X
   13,R,U,C
    1,J,G
    7,R
-   4,Z
+   6,R,Z
    4,R,J
-   1,R
-   6,R,J
+   4,R
   40
-#45.271
+#0:45.254(2662)
