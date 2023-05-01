@@ -1,9 +1,9 @@
 #Restart
-Console load nameguysdsidespack/0/10-Farewell 8683.90751767159 -1184.35790908337 145.8722 0.0002117157
+Console load nameguysdsidespack/0/10-Farewell 8684 -1184.3
    1
 
 #spinner cycle sync
-   0
+   1
 
 #lvl_a-10
   36
@@ -94,23 +94,25 @@ Console load nameguysdsidespack/0/10-Farewell 8683.90751767159 -1184.35790908337
    2,L
   14,L,D,X
    1,L,J
-   1,L
-   2,L,J
    3,L
+   2,L,J
+   1,L
    3
    5,R,X
   19,R,G
    7,G
    1
-   1,J,G
-   5
-   2,R
-   6,L
-   4,Z
-   2,R,J
+   1,R,J,G
    1,R
    1
-   2,R
+   1,R
+   5
+   1,R
+   1,L
+   2
+   5,L,Z
+   1,R,J
+   4,R
    1,R,J
    4,R,K,G
   10,R,D,X
@@ -136,39 +138,42 @@ EndStunPause
   16,R,G
    8,R,D,G
    9,R,J,G
-   3,K,G
-   6,J,G
+   8,K,G
+   1,J,G
    6,K,G
   43
 
 #lvl_aa-04
-   6,L,G
+   5,J,G
+   1,G
    1,L
    1,L,J,G
-   2,L,K,G
-   1,L
-   2
+   3,L,K,G
+   2,L
   14,L,U,X
-  18,L,G
-   8,G
+  17,L,G
+   7,G
    1
-  24,R,D
-   4,R
-   2,D
+  21,R,D
+   1,D
+   1,R,D
+   1,D
+   1,R,D
+   3,D
+   1
+   1,D
   10,R,X
-  10,L,J
-   5,J
-   1,L
+  15,L,J
+   1
   15,U,X
-   4,R
-  32,R,U,G
+   7,R
+  33,R,G
    1,L
-   9,R
+   6,R
    1,R,J,G
    2,L,J
    7,R
-  13,R,J
-   1,K
+  12,R,J
   15,U,X
   40
 
@@ -232,4 +237,4 @@ EndRepeat
   26,J,G
    1,K,G
   40
-#0:25.585(1505)
+#0:25.534(1502)
