@@ -113,6 +113,8 @@ console load nameguysdsidespack/0/10-Farewell 8885.51124763489 -1959.4 297.6
    5,R
   18,R,J
   14,R,U,Z
+#Spinner Cycle
+   1
    5,R,D,X
   15,D,C
   15,R,Z
@@ -141,24 +143,30 @@ console load nameguysdsidespack/0/10-Farewell 8885.51124763489 -1959.4 297.6
   11,R,X
    4,C
    5,R,X
-  36,R
-  14,R,Z
-   4,R,J
-   4,R,K,G
-  11,R,X
-   6,R,J,G
+  12,R
+  29,R,X
+   4,Z
+   2,R,J
+   5,R,K,G
+   7,R
+   2,R,J
+   8,R,X
+   2,R,J,G
+   4,R
   40
 
 #lvl_b-03
-  18,R,D,X
+   1,R
+  17,R,D,X
    8,R,J
   15,R,D,X
    4,R,J
-  12,R,X
-  26,R,D,G
+  11,R,X
+  23,R,D,G
+   2,D,G
+   1,R,D,G
    4,D,G
-   3
-   4
+   7
   14,R,U,X
   49,R,D,G
    1,R
@@ -171,12 +179,12 @@ console load nameguysdsidespack/0/10-Farewell 8885.51124763489 -1959.4 297.6
    1,U,G
    1
   21,L
-   3
   14,R,D,X
   15,R,C
   13,R,U,X
   15,D,C
   15,R,Z
+   3
   15,U,X
    2,L
    3
@@ -265,10 +273,10 @@ console load nameguysdsidespack/0/10-Farewell 8885.51124763489 -1959.4 297.6
    9,R
    1,R,J,G
    7,R
-repeat 4
+Repeat 4
    1,J
   14
-endrepeat
+EndRepeat
   10,D,J
   14
    7,R,D
@@ -542,10 +550,10 @@ endrepeat
   10,R,X
   12,R,J
   29,R
-repeat 6
+Repeat 6
    1,G
    1,R
-endrepeat
+EndRepeat
   19,G
    1
    1,J
@@ -580,25 +588,34 @@ endrepeat
   10,R,X
    2,L,J
    6,L
-   2,J
+   1
+   1,J
    3
   12,K
   14,L,Z
-   1,R,J
-  17,R,D,X
+   2,R,J
+  16,R,D,X
    1,R,D,J
-  34,R,K
-  17,R,U,X
-  16,R,C
-   3
-   3,R
+   1,R,K
+   2,R
+  11,R,J
+   7,R
+   2,R,J
+   8,R
+  15,R,U,X
+  15,R,C
+   2
+   1,R
    1
+   1,R
+   2
   23,R
   23,R,U,X
    1,R,J,G
    7,R,K,G
    5,R
-   4,R,K
+   2,R,K
+   2,R
    7,R,U,X
   40
 
@@ -618,8 +635,7 @@ endrepeat
    1,R,K,G
    5,R
    1,S
-   1,X
-  10,J
+  11,J,X
    2,R
    1
   21,R,D,X
@@ -645,7 +661,7 @@ endrepeat
    2,J
   15,R,J
   43
-#1:39.501(5853)
+#1:39.348(5844)
 
 #lvl_c-02
   19,R,U,X
