@@ -1,4 +1,4 @@
-RecordCount: 28237
+RecordCount: 28241
 
 #Created by dahlukeh, Fishmcmuffins and Euni
 
@@ -31,7 +31,7 @@ console load nameguysdsidespack/0/7-Summit
   80
 
 #e-05h Spinner Cycle
-   2
+   0
 #--------------
 #lvl_a-00
    4,Z
@@ -348,39 +348,56 @@ console load nameguysdsidespack/0/7-Summit
 #500m
    7,R,J
   10,R,Z
-   3,J
-   4
-  20,U,G
-   1,R
+   3,R,J
+   1
+   1,J
+   2
+   1,G
+   6,J,G
+   7,R
+   5,G
+   1
    1,R,J,G
-   2,R,K,G
-   1,R,J,G
-   1,R
-   9,R,J,G
-   3,R
-  15,R,D,X
-   9,R,D
-  18,R,U,X
-   9,U,C
-   2,R,J
    1,R,K,G
+   1,R,J,G
+   7,R
+   1
+   1,R,D,J
+   4,R
+   2
+  20,R,D,X
+   3,R
+  18,R,U,C
+   8,U,Z
+   1,J
+   1
    1,R
-  25,D
-   2,R,D
-  15,R,Z
-   6,R
+   1,R,J,G
+   3,R
+  20,D
+   2
+   1,D
+   1
+   1,D
+  21,R,Z
    7,R,J
-  15,U,X
-  10
-  19,G
+  25,U,X
+  18,G
    2,U,G
+   1
    1,R,J,G
    2,R,K,G
-   2,R,J,G
-   7,R,K,G
-  18,R
+   1,R,J,G
+   1
+   2,J,G
+   4,R,J,G
+   6,R
+   1,R,J
+   2,R
+   2,R,J
+   8,R
   14,U,X
-   7,J
+   7,R,J
   40
 
 #lvl_b-02
@@ -4249,6 +4266,7 @@ EndRepeat
    2,F,0
   11,F,345.53
   20,F,343.698
+AnalogMode,Ignore
   24,L,Z
   40,L,U,V
    2,L,D
@@ -4378,4 +4396,4 @@ EndRepeat
    8,R,U,X
  135,R
 
-ChapterTime: 9:57.754(35162)
+ChapterTime: 9:57.703(35159)
