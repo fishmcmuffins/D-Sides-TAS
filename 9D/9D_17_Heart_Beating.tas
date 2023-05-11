@@ -300,282 +300,215 @@ console load nameguysdsidespack/0/10-Farewell 165024.550095558 -45272.5000072718
    1,R,J,G
   10,R
    1
-  30,R,D
+  24,R,D
+   6,R
   13,R,X
-  10,R,J,G
+   9,R,J,G
   19,R
    1,R,K
    5,R
   15,U,X
    1,R,J,G
-   7,R
-   5,R,K
+   4,R
+   1
+   2,R
+   4,R,K
    9,R,U,X
   40
 
-#r-07p
+#lvl_r-07p (0)
    6,R,U,X
-  14,R,C
-  10,R,J
+  10,R,C
+  14,R,J,G
   14,R,U,X
-   2,R,J,G
+   2,R,K,G
   14,R,D,X
    1,R,J
-  14,R,D,X
-   6,R,J
-  14,R,D,X
+  10,R,D,X
    1,R,J
-  14,R,Z
-   1,L,J
-  14,L,D,X
-   1,R,J
-  14,R,Z
-   1,L,J
-  14,L,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-
-  15,R,D,X
-   4,R
-  11,R,J,G
-   1
-   4,R
-   4,R,J
-   3,R,K,G
-  38,R
-   4,R,Z
-  10,R,J
    7,R
+   3,R,D,K
+   2,R
+  14,R,D,X
    1,R,J
    4,J
-   1,R,J
-   8,J
+   1
+   1,J
+  10
+   1,R
+   3
+  16,R
+  20,R,X
+  12,R,Z
+  12,R,J
+  22,R
+  22,R,U,X
+   8
+   3,L
+   2,D
+  10,R,X
+  15,R,J
   15,U,X
    3,R
-   5,R,K,G
-   1,R
-   7,R,J,G
+   3,R,J
+  11,R
+   4,Z
+   1,R,K
    7,R
-#TODO stall better
-# in this section?
-  15
-   4,D,X
-   4,R,X
-   1,R,J
-   4,R
   40
 
-#r-08p
-#grabbing jelly here might be faster
-#no thanks!
-   2,R
-   1,R,J
-  14,R,D,X
-   2,R,J
-  15,R,D,X
-   6,R
-   1,R,J
-   1,R
-  18,R,D,C
+#lvl_r-08p (0)
+   1,R,D,J
    4,R
-   7,R,J
-  18
-  15,R,U,X
-  27
-  10,R
-  15,D,C
-  15,D,X
-   1,R,J
-  10,L,C
-   5,R,J
-  12,J
-  15,U,X
-   7,R
-   9,R,K,G
-   7,R
-  15,D,C
-  15,D,X
-  15,D,C
-  14,R,D,X
-  24,R,J
-  26,R,D
-  14,D
-  15,R,U,X
-   9
-  15,D,X
-  15,D,C
+  42,L,D
+  12,L,Z
+  13,G
+   4,K,G
+   4,J,G
+   5,J
+   9,K
+   1,J
+   6,L,Z
+   1,L,J
+  20,L,U,J,G
+  40
+
+#lvl_r-07p (1)
+   4,L,U,J,G
+   2,U,J,G
+   2
+  10,U,X
+   1,K
+   1,J
+   7,L
+  14,L,Z
+   1,R,K
   10,R,D,X
-   7,R,J
-   8,R
-  15,R,U,X
-   4,R
-   6
-   4,D,X
-   1,R,J
-   2,R,K,G
-  10,R,J,G
-  12,R
-   2,R,K,G
-   7,R
-  14,R,D,X
-   1,R,J
-  15,R,D,X
-  31,R
-   9
-  14,R,X
-   2,L,J
-  14,L,D,C
-   1,R,J
-   5,R,D,X
-   4,R,K,G
-  14,R
-  23,R,J
-  14,U,X
-  28,R,J
-   6,R
-   4,D,X
-   1,R,J
-   6,R
+  13,G
+   4,R,J,G
+   1,R,G
   40
 
-#r-09
-   1,R
-   5,R,J
-   6,R,K,G
-  14,R,D,X
-   7,R,J
-   3,R,K,G
-  14,R,J,G
-  25,R,K,G
-  10,R,D
-   1,D
-  10,R,D
-   1,R,K,G
-   5,R
-   7
-  14,R,J
-   6,J
-  18,R,U,X
-  30,R
-  15,R,U,X
-  31,R
-  15,R,U,X
-  49,R
-#precise bullshit
-   5,R,K,G
-   9,R
-   5,D,X
-   6
-   4,L
-   4,D,C
-   6,L,C
-  29,R,J
-  36,R,U,X
-  27,R,U,C
-  11,U,X
-   5,R,J
-  12,R,K,G
-   7,R
-   4,D,X
+#lvl_r-08p (1)
+   8,R,G
+ 193,R,U,K,G
+  24,R,D,G
+  24,R,U,G
+   1,R,D,G
+   1,R,U,G
+  12,R
+   9,U,X
+  32,G
+   9,D,J
    1,R,J
+   8,L,J
+   4,Z
+   1,R,K
+  15,R,K,G
+ 150,R,U,J,G
+   7,R
+  14,R,U,X
+  45,R,U,J,G
+   4,R,D,G
+   2,R
+   9,L,Z
+   1,R,J
+   4,R
+   1,J
+   3
+   4,Z
+   1,R,K
+  13,G
+  40
+
+#lvl_r-09p
+   8,R,U,K,G
+   1,R,D
    6,R
+  14,L,Z
+   1,R,J
+   6,R,D,X
+  13,G
+ 132,R,U,K,G
+   7,R
+  14,U,X
+  57,R,U,K,G
+   7,R
+  14,R,U,X
+  49,R,U,K,G
+   3,R,D,G
+  17,R
+   8,L,Z
+   1,R,J
+   7,R
+   1,R,K
+   5,R,U,X
+  13,G
   40
 
 #lvl_r-10p
-   1,R
-   5,R,J
-   3,R,K,G
-   5,R,J,G
-   1,J
-  14,R,J
-   9,R,K,G
-  15,U,X
-  12,R,K,G
-   7,R
-   4
-  15,D,C
-   4,D,X
-  10,R,X
-   1,L,J
-   4,D,X
-  10,L,X
-   1,R,J
-  10,R,D,X
-   1,R,K,G
-   3,R
-   1,R,J,G
-   1,R
-   1,R,K,G
-   8,R
-   6,R,J
-   3,R
-  15,R,D,X
-   1,R,J
-  10,R
-  11,R,J
-  15,R,D,X
-   9,R,J
-   9,R
-   4,D,X
-  11,U,X
-  20,L,J
-  12,L,K,G
-  12,L,J,G
-   2,L,K,G
-   7,L
-   4
-   4,D,X
-   1,L,J
+  21,R,U,J,G
+   4,U,J,G
+   3,D,G
    6,L
-   2
-  10,J
-   4,D,X
-  10,L,X
-  11,L
-   6,L,J
-  10,R,D,X
-  43,L,J
-  34,L,U,X
-   3,L,K,G
-   5
-   1,J
-   2
-  13,L
-  15,L,U,X
-  17,U,C
-  12,L,K,G
-   8,L,J,G
-   8,L
-   4,D,X
-   8,L,X
-  10,L,J
-   5,L
-   4,D,X
-  10,L,U,X
+  15,U,X
+  19,L,G
+   6,R,G
+   1,R,D
+   3,K,G
+   6,R
+   4,L
+   6,R,D,X
+   1,J,G
+   7,R
+   1,L
+   8
+   5,U,X
+  13,G
+  24,R,G
+  12,R,J
+   9,U,X
+  14,L,G
+  21,R,G
+  15,R,J
+   9,U,X
+  25,L,G
+   1,R,J
+   9,L,J
+  15,U,X
+   4,K,G
+   2,L,K
+   7,L
+  14,L,Z
+   3,L,J
+   9,L
+  14,L,U,Z
   12,U,C
-  24,U,X
-  13,U,C
-  16,D,X
-  50,U,C
-  18,U,X
-  14,U,C
-   7,U,X
-   7,U,C
-   7,U,X
-   7,U,C
-  10,U,X
-   7,U,C
-  15,U,X
-  15,U,C
-  15,U,X
-  17,U,C
-  15,U,X
-  15,U,C
-  28,U,X
+  13,U,X
+  20,U,C
+  30,D,X
   29,U,C
-  24,U,X
-  15,R,C
+  20,U,X
+   8,U,C
+   8,R,U,X
+   8,R,U,C
+   8,R,U,X
+   8,R,U,C
+   8,R,U,X
+   8,R,U,C
+   8,R,U,X
+   8,R,U,C
+  30,D,X
+  31,U,C
+   8,R,U,X
+  13,U,C
+   8,R,U,X
+   8,L,U,C
+   8,L,U,X
+  13,U,C
+  19,U,X
+  24,U,C
+  15,R,X
   17,R
   26,D,X
    4,D,C
@@ -598,11 +531,11 @@ console load nameguysdsidespack/0/10-Farewell 165024.550095558 -45272.5000072718
    1,R,K,G
   14
    2,R,D
-  13,R,K
-  15,R,U,X
-   4,D,C
-  11,U,C
-   8,R,J
+  10,R,K
+  27,R,U,X
+   2
+  14,U,C
+   9,R,J
    1,K
   40
 
@@ -610,107 +543,80 @@ console load nameguysdsidespack/0/10-Farewell 165024.550095558 -45272.5000072718
    2,R,J,G
    5,J
    4
-   4,D,X
-   7,R,X
+  11,R,Z
    1,R,K,G
    1,L,K
-   3,R,K
-   3,R,J,G
-  15,R
-#spring
-  31,R
-  15,R,U,X
-  14,R
-  14,U,X
-   5,R,J
+   2,R,K
+   1,R,J,G
+   7,R
+   2,R
+  32,R,U,X
+  30,R,U,C
+  16,U,X
+   8,R,J
   40
 
 #lvl_s-01
    1,K,G
-   5,R
-   8,L
-  19,D,X
-  17,D,C
+   8
    2,L
-   1
-   4,D,X
-   2,R,X
-   1,R,J
+   4,Z
+   1,R,K
    7,R
-   4,R,J
-   4,R
-   4,R,J
-   1
-   3,R
-  14,R,U,X
-  19,R,K,G
-  22,R,D
-   4,R,J
-
-  12,R,J
-  15,R,U,X
-  31,R
-   1
-   1,R,J
-  37,R,K
-  15,R,Z
-   8,R
-  11,R,J
-   5,R
-   4,R,J
+   9,R,K
+   5,K
    1,R
-   3,R,J
-   8,R
-  14,L,D,C
+  15,U,X
+   1,R
+   1,R,J
+  41,R
+  21,R,X
+  14,R,Z
+  28,R,K
+   7,R
+  17,R,U,X
+   5,R,J,G
+  16,R
+  14,R,Z
+   4,R,K
+  14,L,D,X
    1,R,J
    5,R,D,X
    5,R,K,G
    2,R,J,G
    2,R
-  40
+  40,J
 
 #lvl_s-02
-   2,R
-   1,S
-   1,X
-  11,R,J
+   4,R,J
    3,R
-   2,R,J
-   5,R
-   1,R,J
+  19,R,K
+  21,R
   14,R,U,X
-   1,R,K,G
-   5,R
-   2,R,K
-   1
-  16,R
-  11,J,G
-   9,L
-   8
-   3,L
-   1
-  51,R,J
-  15,D,C
-   4,D,X
-   9,R,X
+   1,R,J,G
+  25,R,D
+   1,R,K
+  10,R,D,X
    1,R,J
-   7,R
-  30,R,J
-   4,R
-  15,R,U,X
-  15,R
+   3,R
+   1,R,J
+   3,R
+  38,R,K
+  18,R,U,X
    1
-   1,R
-   1,L
-   1,L,K,G
-   2,K
-   1,R,K
+   7,R
+   2
+   2,L,J,G
+   1,R,J
+   1,J
+   1,R,J
+   1,J
+   1,R,J
+   1,J
+   1,R,J
    1,K
-   1,R,K
-   1,K
-  15,R,J
-   4,D,X
-  10,R,X
+  14,R,K
+  14,R,Z
    1,R,J
    3,R
   14,L,D,X
@@ -732,6 +638,7 @@ console load nameguysdsidespack/0/10-Farewell 165024.550095558 -45272.5000072718
    1,R,J,G
    7,R
   15,D,C
+   5
    4,D,X
    1,L,X
    1,R,J
@@ -1025,7 +932,7 @@ console load nameguysdsidespack/0/10-Farewell 165024.550095558 -45272.5000072718
    1,R,J
   21,R
  238
-#2:31.861(8933)
+#2:27.509(8677)
   40
 
 #lvl_t-00
