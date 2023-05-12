@@ -130,7 +130,7 @@ EndStunPause
    5,R,J
   40
 
-#lvl_d-12
+#lvl_d-12 (1)
    1,R,J
   14,U,X
    5,R,J
@@ -158,17 +158,21 @@ EndStunPause
   33,U,X
   13,R,C
   20,D,X
-  22,R,Z
-  18,R,V
-  14,R,U,X
-  18,R,D,C
-  14,R,X
+  23,R,Z
+  16,R,V
+  15,R,X
+   4
+   3,R
+   4,Z
+#+1f wait for wind
+  10,R,J
   70,L,U,C
   40
 
 #lvl_d-12s (KEY)
   48,L
-  24,R
+   6,R
+  18,R,J
   47,R,D
   40
 
@@ -740,8 +744,10 @@ endrepeat
   14,U,X
   15,U,C
    7,R,U,X
-#1:58.184(6952)
+#1:58.048(6944)
   40
    1
    1,J
   71
+
+AnalogMode,Ignore
