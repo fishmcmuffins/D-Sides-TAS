@@ -1,97 +1,15 @@
-console load nameguysdsidespack/0/10-Farewell 120956 -22700
-
-  37
-
-   4,D,X
-   2,R,J
-   5,R
-  40
+console load nameguysdsidespack/0/10-Farewell 121024 -23719 0 -240
+   1
 
 #lvl_m-12
-   2,R
-   3,R,J
-  12,R,D,X
-   4,L
-  15,L,X
-   2,L,J
-  15,R,D,X
-  12
-   5,R
-   1,R,G
-   6,U,G
-   1,R
-   1,R,J,G
-   1,R,K,G
-   1,R,J,G
-  18,R,K,G
-  18,R,U,X
-  57,L
-   9,J,G
-   1,J
+  36
+Set,Player.StateMachine.State,10
    1
-   1,R
-   1,K
-   1
-   5,L,X
-   1,L,J,G
-   3,J
-   4,L,J
-   6,L
-   3,L,J
-   1
-   6,L
-  20,L,J,G
-  12,L
-  10,L,D,X
-  16,L,J
-  11,U,X
-  18,R,J
-  10,K
-  10,J
-  10,K
-  10,J
-  10,K
-   1,J
-   2,K
-   1,L,K
-   1,R,J,G
-   1,R,K,G
-  12,R
-   9,R,J
-  15,R,U,X
-  59,R
-  21,R,X
-   1,R,G
-   1,R,J,G
-   1,R
-   1,R,K,G
-   1,R,J,G
-   1,R
-   1,R,K,G
-   2,R
-  11,R
-   7,R,J
-  15,U,X
-  37
-  11,L
-  15,L,U,X
-   9
-   2,L
-   4,D,X
-   4,R,X
-   1,L,J
-   5,L
-   1,L,D
-  23,L,J
-  15,D,X
-  13,L
-  16,L,J
-  14,U,X
-  65
   40
 
-#Start
 #lvl_m-13
+Set,Level.TimerStarted,true
+#Start
   72
    5,R
   50,R,J
@@ -996,7 +914,6 @@ endrepeat
    8,R,J
   15,U,X
    2,R
-
    1,L,K,G
    3,L,J,G
   10,L,K,G
@@ -1097,5 +1014,7 @@ endrepeat
   15,U,X
    2,L
   18,R,K
-#2:36.196(9188)
+#2:22.715(8395)
   40
+
+AnalogMode,Ignore
