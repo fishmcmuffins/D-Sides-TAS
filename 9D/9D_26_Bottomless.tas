@@ -1,4 +1,4 @@
-RecordCount: 3087
+RecordCount: 3303
 
 #wip by Vasher
 #most of dinosaur game part was tased by ghajestis
@@ -522,36 +522,43 @@ AnalogMode,Precise
    1,R
    2,R,K
    2,R
+   1,D
    6,R,J
   15,R,D,X
-   5,R
-  13,R,D
-#stun_x10
+   1
+   1,R
+  14,R,D
+#stun_x-10
+   1,R,D
   12,R,J
    6,R
    3,R,J
+#endstun_x-10
    6,R
-#endstun_x10
-  14,R,U,X
-  16,R,J,G
+  17,R,U,X
+  15,R,K,G
   40
 
 #lvl_x-11
-  10,R,J
-  18,R
-  15,R,U,X
-  20,R
-  15,R,U,X
-  21,R
-   3
-  15,R,U,X
-  11,R
-  31,R
-  15,R,D,X
-  28,R
-  70
-  30,R
- 188,R
+  17,R,K
+  18,R,D,X
+  17,R
+#stun_x-11
+   2,R
+StunPause
+   2,R,D
+SkipInput 3 1
+   9,R,U,Z
+EndStunPause
+   2,R
+#endstun_x-11
+  12,R
+   7
+   3,R
+   1
+   2,R
+  78
+ 218,R
   11
    9,L,J
   15,R,X
@@ -1234,7 +1241,6 @@ endrepeat
   14,R
   20,R,J
    3
-
    6,R,J
   10,R
    2,R,D
@@ -1263,4 +1269,6 @@ endrepeat
    4,C
    9,R,J
   20,R
-#4:46.535(16855)
+#4:45.685(16805)
+
+AnalogMode,Ignore
