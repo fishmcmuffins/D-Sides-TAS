@@ -1,4 +1,4 @@
-RecordCount: 3303
+RecordCount: 3677
 
 #wip by Vasher
 #most of dinosaur game part was tased by ghajestis
@@ -143,7 +143,6 @@ AnalogMode,Precise
   12,R
  112,R,G
   37,L
-
   15,L,U,X
    2,L
   31,R
@@ -181,7 +180,7 @@ AnalogMode,Precise
    5,L,Z
    1,R,J
    4,R
-  24,R,J
+  23,R,J
   14,R,U,X
   33,R
    9,R
@@ -332,8 +331,8 @@ AnalogMode,Precise
 #lvl_x-07
    1,S
    1,D,J
-#lightning cycle 0-2
-   0
+#hazardcycle_x-10
+   1
 #--------------
   69,O
    8,L,Z
@@ -418,11 +417,21 @@ AnalogMode,Precise
    2,D
   11,R,D
   12,R,X
-  49,R
-  15,U,X
+  45,L
+  15,R,U,Z
    1,L,J,G
-   8,L,G
-  30,G
+   1,L,K,G
+   6,L
+   1,R
+   2,L,J,G
+   6,R,J
+   5,R
+   1,R,J
+   1,R
+   1
+   1,R
+   9,L
+   5,G
    1
    1,J,G
    1,K,G
@@ -558,90 +567,97 @@ EndStunPause
    1
    2,R
   78
- 218,R
-  11
-   9,L,J
-  15,R,X
-  14,R,D
-   6,R,Z
-   1,R,J
-   7,R
-   1,R,J
+ 219,R
+   1
+  13,R,D,X
+   2,J
+repeat 9
   14,R,D,X
    1,R,J
-  14,R,D,X
-   1,R,J
+endrepeat
    7,R
    1,R,J
   14,R
    1,R,J
   14,R
    1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-  11,R
+   7,R
   40
 
 #lvl_xx-01
+   7,R
+repeat 5
+   1,R,J
+  14,R
+endrepeat
    3,R
-   1,R,J
-  14,R,D,X
-   1,R,J
-   7,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
+  12,R,J
+   5,R
+  10,R,K
+  12,R
+repeat 4
    1,R,J
   14,R
-   9,R,J
-  20,R,D
-Repeat,4
+endrepeat
+   1,R,D,J
+   1
+  13,R
+  11,R,J
+   5,R
+   1,R,K
+  16,R
+repeat 4
    1,R,J
   14,R
-EndRepeat
-   7,R
-#Resync point
-  39,R,K
-Repeat,4
+endrepeat
+   1,R,D,J
+   2,R
+   1
+  11,R
+  11,R,J
+   5,R
+   1,R,K
+  16,R
+repeat 4
    1,R,J
   14,R
-EndRepeat
-   9,R
-  39,R,K
-Repeat,4
+endrepeat
+   1,R,D,J
+   1,R
+   1
+  12,R
+  11,R,J
+   5,R
+   1,R,K
+  16,R
+repeat 11
    1,R,J
   14,R
-EndRepeat
-   9,R
-  39,R,K
-
-Repeat,11
-   1,R,J
+endrepeat
+   1,R,D,J
   14,R
-EndRepeat
-
-   9,R
-  39,R,K
-
-   1,R,J
-  14,R
-  39,R,K
+  11,R,J
+   5,R
+   1,R,K
+  16,R
    1,R,J
   15,R
-  39,R,K
+  12,R,J
+   5,R
+   9,R,K
+  12,R
+   1,R,J
+  16,R
+  12,R,J
+   5,R
+  10,R,K
+  12,R
    1,R,J
   15,R
-  39,R,K
-
+  12,R,J
+   5,R
+  10,R,K
+  12,R
    1,R,J
   14,R
    1,R,J
@@ -649,6 +665,7 @@ EndRepeat
    1,R,J
    1,R
   40
+
 #lvl_xx-02
   13,R
    1,R,J
@@ -859,69 +876,93 @@ repeat,9
    1,R,J
   14,R
 endrepeat
-   8
-   7,R,J
-  19,R
-repeat,6
+   1,R,J
+  14,R
+   6,R,D,J
+  18,R
+repeat 5
    1,R,J
   14,R
 endrepeat
-   5,R,J
-  34,R
-  39,R,J
+   7,R,J
+   5,R
    1,R,K
-  10,R
-   4,L
+  13,R
    1,R,J
-  14,R
-  42,R,J
-   1,R,K
+  15,R
+   1
+   1,R
+   1
+   2,R
+  11,R,J
+   5,R
+   2,R,K
+  15,R
+   1,R,J
+  30,R
+  11,R,J
+  18,R
+   6,R,D
+   1,R,J
   14,R
    1,R,J
   14,R
    1,R,J
   27,R
+   1,R
    1,R,J
-  22,R
+  18,R
+   1,R,D
+   1,R
    5,R,D
-   1,R,J,G
-   1,R,K,G
-  14,R
+   1,R
+  12,R,Z
    1,R,J
-  14,R
-repeat,9
+   6,R
+repeat 7
    1,R,J
   14,R
 endrepeat
-   8,R
-  40,R,J
-  52,R
-  39,R,J
+  11,R,J
+  22,R
+  50,R
+  12,R,J
+   5,R
+  10,R,K
+  12,R
 repeat,6
-   1,R,K
+   1,R,J
   14,R
 endrepeat
   11,R,J
    1,R
-  24,R,J
+  25,R,J
   49,R
-  39,R,J
+  12,R,J
+   5,R
+  10,R,K
+  12,R
+repeat 3
+   1,R,J
+  14,R
+endrepeat
+  12,R,J
+   5,R
    1,R,K
-  14,R
-   1,R,J
-  14,R
-   9,R
-  40,R,J
+  17,R
   40,R
-   1,R,J
+#lazy resync
+#probably +1f
+   1,R,D,J
   14,R
    1,R,J
   14,R
    1,R,J
    1,R
-  40
+  43
+
 #lvl_xx-06
-  16,R
+  13,R
 repeat,8
    1,R,J
   14,R
@@ -1070,7 +1111,7 @@ endrepeat
   11,R,D,X
   36,R,J
   35,R,K
-#drift_xx10
+#hazardcycle_xx-10-final-goodbye
   11,R,D,X
   36,R,J
   33,R,K
@@ -1269,6 +1310,6 @@ endrepeat
    4,C
    9,R,J
   20,R
-#4:45.685(16805)
+#4:44.223(16719)
 
 AnalogMode,Ignore
