@@ -125,6 +125,20 @@ console load nameguysdsidespack/0/10-Farewell 226120 -52600
   20,R,J
   14,R,D,X
   31,R,J
+#  33,U,X
+#   8,R,U,C
+#  45,R
+#  57,R,D,X
+#   1,R
+#   1,R,J
+#   3,R
+#  13,R,U,X
+#  51,R,D,G
+#   1
+#  99,L,D
+
+
+
   36,U,X
   44,R
    7,R,D,X
@@ -203,7 +217,6 @@ console load nameguysdsidespack/0/10-Farewell 226120 -52600
   31,R,J
    7,R,X
   40
-
 #lvl_w-12
    8,R,X
   24,R,D
@@ -219,27 +232,31 @@ console load nameguysdsidespack/0/10-Farewell 226120 -52600
    8,R,U,X
   70
   11,R,D
-  28,R,Z
-   1,R,J
-  19,U,X
+   1,R,D
+  23,R,Z
+   4,R,J
+   4,R,K
+  18,U,X
   21,D,C
-  32,R,X
+  28,R,X
   24,D,C
   20,U,X
    5,R
   27,R,C
    8,R,J
   14,R,K
-  40,R,X
-  18,R,D
   36,R,X
-  20,R,D
-  34,R,X
-  20,R,D
-  30,R,Z
    4,R,J
+  27,R,D
+  22,R,X
    4,R,K
-  16,R,X
+  24,R,D
+  24,R,X
+  24,R,D
+  30,R,Z
+   4,R,K
+   5,R,J
+  15,R,X
   51,R
   37,U,X
   25,L
@@ -260,11 +277,15 @@ console load nameguysdsidespack/0/10-Farewell 226120 -52600
    4,R,J
    9,R,K
   61,R
-  31,R,X
-  23,D,C
-  27,R,X
-  23,D,C
+   4,R,D
   22,R,X
+   4,R,K
+   1,R,J
+   3,R
+  23,D,X
+  22,R,C
+  23,D,X
+  22,R,C
    4,R,J
    7,R,Z
   26,R,K
@@ -279,7 +300,6 @@ console load nameguysdsidespack/0/10-Farewell 226120 -52600
   13,R,J
   37,R
   40
-
 #lvl_w-13
    3,R
   22,R,D,X
@@ -378,7 +398,6 @@ endrepeat
   13,R,D
   41,R
   40
-
 #lvl_w-14
   18,R
   20,R,U,Z
@@ -481,6 +500,9 @@ AnalogMode,Precise
    7,G
   10,U,G
    4,Z
+#hazardcycle_w-16
+   1
+#endhazardcycle_w-16
   11,R,J
    3,R
   40
@@ -495,7 +517,7 @@ AnalogMode,Precise
   29,R,U,X
    1,R,J
    4,R
-#stun_w16_1
+#stun_w-16_1
    2
 StunPause
    1,J
@@ -508,15 +530,14 @@ SkipInput 3 1
    2,R
 SkipInput 3 1
    7,R,D,X
-   3,R,K,G
+   4,R,K,G
 EndStunPause
-   1,R,K
    3,K
    3,R,K
 StunPause
    4,R,K
 EndStunPause
-#endstun_w16_1
+#endstun_w-16_1
   17,R
    7,R,J,G
    1,R
@@ -528,7 +549,7 @@ EndStunPause
    9,R,K,G
   30,R,D,X
    4,R
-#stun_w16_2
+#stun_w-16_2
    1,S,N
    1,O
   12,R
@@ -541,7 +562,7 @@ EndStunPause
    1,O
   14,R
    4,J
-#endstun_w16_2
+#endstun_w-16_2
   40
 #lvl_w-17
    1,J
@@ -866,5 +887,7 @@ EndStunPause
    9,R,D
   15,D,X
   11,R,D
-#3:08.768(11104)
+#3:08.666(11098)
   40
+
+AnalogMode,Ignore
