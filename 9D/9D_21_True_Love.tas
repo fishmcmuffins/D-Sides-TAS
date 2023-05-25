@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 5308
+RecordCount: 5576
 
 console load nameguysdsidespack/0/10-Farewell 196528 -48208
    1
@@ -231,59 +231,60 @@ Set,Session.Inventory.Dashes,2
    1
   14,R,C
    7,R,J
-  17,R,D,X
-  14,R,D,C
-  22,R,K
-   4,R
+  15,R,D,X
    1
-  15,U,X
-  15,R,Z
-   1,L
-   4,J,G
-  22,R
-  10,R,Z
-   1,R,K
-   2,R,J,G
+  15,R,D,C
+   1,R,J
+   4,J
+   4,R,J
+   5
+   6,J
+  14,R,X
+   1,L,J
+  11,J
+  15,R,U,X
+   4
+   3,R
+   1
+   7,R,U,Z
+  16,R,J
+   4,R
+  14,R,D,X
+   1,R,J
+   1,R
+   1,R,J
    1,R,K,G
-  10,R,J,G
-   9,R,X
+   6,R
+  14,R,U,X
+   1,R,J,G
    1,R,K,G
-   2,R,J,G
-   7,R,K,G
-   5,J,G
+   6,R
+   1
    1,R
    1
-   6,L
-  17,D,X
-   1,L
+   1,R
+  15,D,X
+   7,L,D
+   4,D
    1
-   1,L,D
-   1,D
-   1,L,D
-   5,D
-   2,L,D
-   1,D
-   4,R,D
+   3,R,D
+   3,L,D
+   7,L
+  15,L,X
+  24,R,C
+  12,J,G
+  12,K,G
+   3,J,G
+   6,L
+   2,J
    2
-  14,L,Z
-   1,L,J
-  14,L,Z
-   1,R,K
-  15,R,D,X
-  17,R
-  12,R,U,C
-  16,R,J
-  15,U,X
-   8,L,Z
+   5,L,Z
    1,R,J
-  11,R
-   6,R,D,K
-   1,R,J
-  11,U,X
-   1,K
-   1,R,J,G
-   2,R
-   6,R,Z
+   7,R
+   8,R,D,K
+  14,R,U,X
+   1,J
+   7,R,Z
   40
 
 #lvl_u-07
@@ -591,7 +592,7 @@ Set,Session.Inventory.Dashes,2
   20,R,U,X
   15,U,C
  465
-#1:22.841(4873)
+#1:22.739(4867)
   40
 
 #lvl_v-00-lobby
