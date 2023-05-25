@@ -1,4 +1,4 @@
-RecordCount: 28242
+RecordCount: 28251
 
 #Created by dahlukeh, Fishmcmuffins and Euni
 
@@ -30,8 +30,8 @@ console load nameguysdsidespack/0/7-Summit
 #0m
   80
 
-#e-05h Spinner Cycle
-   2
+#f-01 Spinner Cycle
+   0
 #--------------
 #lvl_a-00
    4,Z
@@ -2063,88 +2063,80 @@ endrepeat
   14,U,X
    1,R,J
    1,R,K,G
-  15,R,U,X
-   9,R
+  24,R,U,X
    1,G
-  18,L,D
-   1,N
-   4,J
-  15,U,X
-   3,R
-   8
-  10
-  29,U
-  30
-  47,U
-  45
-   5,L
-  36,L,D,X
+   1
+  12,L,D
+   1,D
+   1,L,D
    2
-  12,R
-  12,U,Z
+   1,N
+   4,R,J
+  13,K,G
   12,J
+  16
+  29,U
+  23
+  46,U
+  37
+  16,L
+   2
+   2,L
+  28
+  12,R
+  10,U,Z
+   5,R,J
+  10,L,Z
    6,R,J
-   1,K,G
-   2,L,K
-  12,L,J
-  11,R,K
-   1,R
-  12,R,J,G
-   2,K
+  15,U,X
+  18,R,J
+   6,K,G
+   3,L,K
    5,R,X
   27,R,J,G
    1,G
-  11,J,G
-   2
-   1,R,K,G
-   3,K
-   6
-   2,L
-   3,R,D
-   1,L,D
-   1,R,D
-   1,L,D
-   1,R,D
-   1,L,D
-   1,R,D
-   1,L,D
-   1,R,D
-   1,L,D
-   1,R,D
-   1,L,D
-   1,R,D
-  15,R,Z
-   3,R
-  10,D,X
- 126
-  15,R,D,X
-   3,R
-   9
+   1
+  15,L
+   3,L,D
+   1,J,G
+   5
+  31,R,K
+   6,D
+ 125
+  15,L
+   1
+   1,L,J,G
+   7,J
    3,L,J
-  15,U,X
-  11,L,C
-  10,L,J
+   1,L
+   1
    1,L,K,G
-   5,L
+   1,L,J,G
+   9,L
+   1,L,J
+  12,L
+  11
+   3,J
    6
-  15,L,D,X
-#maybe improvable
-  10
-  10,L,D,X
+   1,J
+   7
+   5,L
+   5,L,Z
    1,R,J
-   6,R
-  16,R,J
-   4,J
+   1,R,K,G
+   9,R
+   1,R,J
+   2,J
+   2,R,J
+  15,J
   15,U,X
-   9
-  15,U,X
+   9,L
+  15,U,C
    8,R
   19,L
-  12,L,J
+  15,L,J
   15,L,U,X
-   2,L
-  15,L,U,X
-   2,L
+  15,L,U,C
   99
   40
 
@@ -2342,35 +2334,37 @@ EndStunPause
    6,R
    7,R,J
   15,R,D,X
-   2,R,J
+   2,R,D,J
    2,R
   40
 
 #lvl_f-04
    3,R
-   2,R,J
-   1,R
    1,R,J
-   1,R
-   2,R,J
-   8,R
+   3,R
    1,R,J
-   9,R,K
-   1,K
-   3
-   9,L,U,Z
-   1,J,G
-   1,K,G
+   2,R,K
+   3,R
+   5,R,J,G
+   1,J
+   1,R,J
+   2,J
+   2
+  10,R,U,Z
+   1
+   2,R
    1,L,J,G
    1,L,K,G
-  32,R,K
-  15,R,D,X
-   6,R
-   6,R,D
-   1
-  18,R,Z
+  22,R,K
    1,R
-   9,R,U,Z
+   1,R,K
+   2,R
+  17,R,D,X
+   1,D
+  10,R,D
+   2,R
+  19,R,Z
+   9,R,U,V
    2,R,J,G
    1
    1,R
@@ -2379,9 +2373,9 @@ EndStunPause
    6
    1,L,J,G
   10
-   3,L
-   1
-  18,R,J
+   4,L
+  17,R,J
+   1,J
    5,U,X
    5,R,J
   11,R
@@ -2425,28 +2419,26 @@ EndStunPause
    6,R,J
    1,J
    5,K
-   3,R,K
-  19,U,X
+   6,R,K
+  15,U,X
   40
 
 #lvl_f-05
-   2,R,J
-   4,R
+   4,R,J
    1,R,K,G
-  13,R
+   9,R
+   1,R,K
+   1,R
    1,R,J
-   4,R
-   1,R,K,G
-   1
-  12,R
-   6,R,J
-   1,J
-  15,R,Z
+   6,R
+   6,R,J,G
+  11,R
+  16,R,Z
    7,D,X
-   2
-  37,R
-   2,R,D
    1
+  38,R
+   2,R,D
+   1,R
   21,R,U,Z
   15,U,X
    2,L
@@ -2482,24 +2474,21 @@ EndStunPause
    4,J
   15,U,X
   14,U,C
-  37
-  13,R,U,X
-   2,J
-   7,R,Z
-   3,R,J
+  43
+  11,R,Z
+   2,R,J
+   1,R
    1,R,K,G
+   1,R
+   1
    7,R
-   1,R,K
-   2,R
    8,R,D,J
    5,R
    5,R,J
-   5,R
-  15
-   2,R
-   4
-   1,R
-   6
+   9,R
+   2
+   1,L,J
+  18
   10,L,X
    5,R,J
   11,K
@@ -2526,10 +2515,8 @@ EndStunPause
    1,L
   10,L,J
   10,L
-  15,L,X
-   5,L
-  15,L,X
-   6,L
+  20,L,X
+  21,L,C
  138
   14,L,X
   10,R,J
@@ -2580,14 +2567,12 @@ EndStunPause
   15,L,Z
   14,U,C
  166
-  15,R,D,X
-   6,R,Z
+  19,R,X
+  12,R,D,C
    1,R,J
    7,R
-   1,R,J
-  14,R,D,X
-   4,R,J
-  26,U,X
+   6,R,D,J
+  25,U,X
   19,L,C
   15,U,X
   12,L,Z
@@ -2645,45 +2630,48 @@ EndStunPause
   10,R,X
   54,U,C
   10,L,X
-   4,L,J
+   5,L,J
+  18,L
+  23,L,Z
+   3
+   1,L
+   2,D
+   8,L,U,Z
+   1,R
+   5,J,G
+   2
+   3,L
+   1,L,J
+   1,L
+   1,L,J
    5,L
    3,L,J
-  11,L
-  15,L,Z
-   8,L
-  15,L,Z
-   6,L
-   5,L,J,G
-   1,L
-   1,L,K,G
-   7,L
-   3,L,J
   14,U,X
-   6,L,J
-  14,U,X
+   4,J
+   1,L,J
+  15,U,C
    1,R,J
-  11,R
-   4,Z
-   1,R,J
-   6,R
-  12,R,J
-   8,R,K,G
-   2,R,J,G
-   3,L,J,G
-   4,R,J
-   1,R,K,G
-   3,R,J,G
-   9,R
-   1,R,J
-   2,R
-   6
-  10,U,X
    1,J
-  28,L,J
-  15,U,X
-   2
-  15,U,X
-   3
+   1
+   1
+   1,R,K,G
+   7,R
+   6,R,X
+  11,R,J
+   3,R
+   3,R,J,G
+   1,R,K,G
+   4,L,K
+   7,R,K
+   1,R,J,G
+   3,R,K,G
+   9,R
+   1,R,K
+   7,R
+  10,U,X
+  29,L,J
+  17,U,X
+  18,U,C
  247
   40
 
@@ -3344,7 +3332,7 @@ AnalogMode,Precise
 #lvl_g-03
   72
 #CP-03 Spinner Cycle
-   0
+   1
 #no-wind
 #CP-12
   15,L,J
@@ -4406,4 +4394,4 @@ EndRepeat
    8,R,U,X
  135,R
 
-ChapterTime: 9:57.652(35156)
+ChapterTime: 9:56.989(35117)
