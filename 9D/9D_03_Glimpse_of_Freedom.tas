@@ -113,8 +113,6 @@ console load nameguysdsidespack/0/10-Farewell 8885.51124763489 -1959.4 297.6
    5,R
   18,R,J
   14,R,U,Z
-#Spinner Cycle
-   1
    5,R,D,X
   15,D,C
   15,R,Z
@@ -462,6 +460,9 @@ EndRepeat
    8,R,D,G
   30,L,D,G
    7,L,D
+#hazardcycle_c-01-heartgate
+   1
+#endhazardcycle_c-01-heartgate
   14,R,U,X
   21,R,G
    1,L
@@ -661,7 +662,6 @@ EndRepeat
    2,J
   15,R,J
   43
-#1:39.348(5844)
 
 #lvl_c-02
   19,R,U,X
@@ -670,3 +670,4 @@ EndRepeat
 #lvl_cc-05
   11,L
   13,U,X
+#1:40.657(5921)
