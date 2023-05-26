@@ -1,4 +1,4 @@
-RecordCount: 4151
+RecordCount: 4163
 
 #wip by Vasher
 #most of dinosaur game part was tased by ghajestis
@@ -8,6 +8,7 @@ console load nameguysdsidespack/0/10-Farewell 250069 -54289
    1
 #lvl_w-20
 
+Invoke BlackholeStrengthTrigger[w-20:25294].OnEnter null
   36
 #fall into rumble trigger
   15
@@ -333,7 +334,7 @@ AnalogMode,Precise
    1,D,J
 #hazardcycle_x-10
    1
-#--------------
+#endhazardcycle_x-10
   69,O
    8,L,Z
    1,R,J
@@ -559,9 +560,9 @@ StunPause
 SkipInput 3 1
    9,R,U,Z
 EndStunPause
-   2,R
+   6,R
 #endstun_x-11
-  12,R
+   8,R
    7
    3,R
    1
@@ -1308,54 +1309,17 @@ endrepeat
   45,R,J
   12,R,K
   21,R
-  12,R,K
-  15,R
    1,R,J
-  24,R
-   2
-  30
-  38,R
-   1,R,D
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-  20,R,J
-   3
-   6,R,J
+   3,J
+   5,R,J
    9,R
-   2,R,D
-   1,R
-   2,R,K
-   5,R
-   2,R,K
-   1,R
-   2,R,K
-   7,R
-  14,R,Z
-   1,R,J
-   6,R
-  10,R,K
-   5,R
-   2,R,K
-   1,R
-   5,R,K
-   6,R
-  29,R,X
-   1,R,D
-   5,R,Z
-   1,R,J
-   7,R
-  12,R,K
-  23,R
-  14,R
-  30,R,X
-   4,R,D
-   4,C
-   9,R,J
-  20,R
-#4:43.254(16662)
+   1,R,K
+   3,R
+   1,R,J,G
+   2,R,K,G
+  27,R
+   2
+#4:37.100(16300)
+  30
 
 AnalogMode,Ignore
