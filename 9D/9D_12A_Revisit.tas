@@ -174,12 +174,14 @@ console load nameguysdsidespack/0/10-Farewell j-00
    3,K,G
    1,L,K
   12,R,J,G
-   6,R
-   1
+   5,R
+   2
+#hazardcycle_j-07
+   0
+#endhazardcycle_j-07
    2,L,J
   11,U,X
-   2,R,J
-   9,J
+  11,J
    8,L,J
    9,K,G
    1,J,G
@@ -215,13 +217,11 @@ console load nameguysdsidespack/0/10-Farewell j-00
    2,L
    1
    5,J
-  15,R
-   1,X
-   1,X
-#spike cycle
-   2
-#resume
-  63,U
+  14,R
+   1
+   1,R,X
+   1
+  65,U
    1,X
   19
    2,R,J
