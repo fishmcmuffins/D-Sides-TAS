@@ -1,8 +1,6 @@
 console load nameguysdsidespack/0/10-Farewell 21869 -3776
    1
 
-#cc-03 Spinner cycle sync
-   2
 
 #lvl_c-02
   36
@@ -27,6 +25,9 @@ console load nameguysdsidespack/0/10-Farewell 21869 -3776
   37,R,D,X
    8,R
    3
+#hazardcycle_cc-03
+   2,G
+#endhazardcycle_cc-03
   10,L,D,X
   40
 
@@ -149,8 +150,9 @@ EndStunPause
   15,U,X
    3,R,J,G
    7,R
-#cc-07 Spinner Cycle sync
+#hazardcycle_cc-07
    2
+#endhazardcycle_cc-07
   10,R,Z
   16,L,J
   14,U,Z
@@ -235,12 +237,12 @@ EndStunPause
    7,R,J
    2,R
    8,R,K,G
-#stun_cc07
+#stun_cc-07
   14,R,D,X
 StunPause
    4,R,D,X
 EndStunPause
-#endstun_cc07
+#endstun_cc-07
    3,R
    3,R,J
    9,R,D,X
@@ -304,6 +306,5 @@ EndStunPause
    1,R
   25,R,Z
   16,R,V
+#0:47.549(2797)
   40
-
-#0:48.229(2837)
