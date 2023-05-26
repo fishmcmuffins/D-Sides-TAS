@@ -3,6 +3,7 @@ console load nameguysdsidespack/0/10-Farewell 93870 -11808
 
 #lvl_i-02
   36
+#hazardcycle_i-05
 #Start
    4,Z
    7,R,J
@@ -15,7 +16,6 @@ console load nameguysdsidespack/0/10-Farewell 93870 -11808
    3,R
    4,D,X
   15,R,U,X
-
    4,R,J
   23,R
   20,R,U,Z
@@ -74,7 +74,6 @@ console load nameguysdsidespack/0/10-Farewell 93870 -11808
    8,R,J,G
    1,R
   14,R,U,X
-
    1,R,J,G
    2,L,J
    1,R,J
@@ -115,16 +114,13 @@ console load nameguysdsidespack/0/10-Farewell 93870 -11808
    1,L,J,G
    2,R,J
    3,R
-#stun_i05_1
+#stun_i-05
    2,R
 StunPause
    3,R,J
   10,R
 EndStunPause
-#endstun_i05_1
-  22,R
-#stun_i05_2
-   2,R
+  24,R
 StunPause
    4,R
    1,Z
@@ -136,7 +132,7 @@ SkipInput
    3
   10,R
 EndStunPause
-#endstun_i05_2
+#endstun_i-05
    7,R,J
    1,R
   14,R,J
@@ -430,9 +426,8 @@ endrepeat
   24,J
   18,U,X
  292
+#1:05.433(3849)
   40
 
 #lvl_j-00
   73
-
-ChapterTime: 1:07.354(3962)
