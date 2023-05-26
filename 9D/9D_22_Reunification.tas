@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 1529
+RecordCount: 1680
 
 console load nameguysdsidespack/0/10-Farewell 212416 -50688.1666963995
    1
@@ -11,49 +11,49 @@ console givekey
 #lvl_v-00-lobby
 #wait for orb entry
 #moon block cycle
-  97
+  57
 #hazardcycle_v-00-lobby
-   2
+   0
 #Start
-  15,R,U,X
-  10,R,Z
-   1,R,J
-   7,R
-   2,R,K
-  14,R,D,X
-  17,R,J
-  15,R,U,X
-  15,U,C
-  25,R,K
-  10,J
-  15,L,U,X
-  17,L,C
-   1,G
-   5,Z
-   1,L,J,G
-   2,L,K,G
-   1,L,J,G
-   8,L,K,G
-   7,L
-   5,L,D,J
-   7,J
-  16,U,X
-  15,K
-  14,U,X
-   9,J
-  15,L,X
-  13,L,U,C
-#stun_v-00-lobby_1
-   2,L,U,C
-StunPause
-SkipInput 3 1
+  10,L,X
+   8,L,J
+  14,L,Z
+   5,L,J
+   2,L
+   2
+  19,L,D,X
+   4,L,J
+  10,L,K,G
+   7,K
   15,U,X
-   1,J
+  15,U,C
+   1,R
+  20,R,J
+  14,U,X
+   5,R,J
+   5,J
+  14,U,X
+  17,R
+  19,R,X
+  13,R,C
+  10,R,J
+  12,U,X
+  12,R,J
+   5,R
+  15,R,U,Z
+  15,L,X
+  11,L,U,Z
+#stun_v-00-lobby_1
+StunPause
+   4,L,U,Z
 SkipInput 3 1
-  10,R,U,J,Z
+  14,U,C
+   1,R,J
+SkipInput 3 1
+   8,R,U,J,Z
 EndStunPause
+   7,R,U,J,Z
 #endstun_v-00-lobby_1
-   5,R,U,J,Z
    6,J
   15,U,X
    2
@@ -108,13 +108,14 @@ EndStunPause
    7,R
 #stun_v-00-lobby_2
    1,R
+   2,R,J
 #likely faster to not
 #demo after spring hit,
 #but this strat only needs
 #one spinner stunned so
 #won't get owned by drift
 StunPause
-  10,R,J
+   8,R,J
 SkipInput 3 1
   15,U,Z
   10,R
@@ -148,7 +149,7 @@ EndStunPause
    8,L
    2,G
 #keycycle_v-00-upper
-  40,G
+  23,G
 #endkeycycle_v-00-upper
   14
   14,L,Z
@@ -288,7 +289,7 @@ EndStunPause
    4,J
   13,R,Z
    2,R,K
-#0:35.802(2106)
+#0:34.952(2056)
   40
 
 #lvl_w-00-point-of-no-return
