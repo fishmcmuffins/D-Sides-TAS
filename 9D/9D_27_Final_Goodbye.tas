@@ -1072,20 +1072,22 @@ EndRepeat
 #badeline
   38
 #4:22.497(15441)
- 981
+   1,S
+   1,D,O
+  18
 
 #lvl_end-granny
-   5,L
+   6,L
    5,L,K
    5,L
    9,L
    1,L,J
   14,L
-  16,L,K
-   9,J,G
-   1
+  15,L,K
+  10,J,G
    3,K,G
-   2,R
+   1,R,K
+   1,R
    1,J
   19,R,J
    1,L,K,G
@@ -1109,5 +1111,6 @@ EndRepeat
   12,R,J,G
   21,R,X
  135
+#4:28.447(15791)
 
 AnalogMode,Ignore
