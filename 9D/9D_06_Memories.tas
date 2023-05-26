@@ -3,6 +3,9 @@ console load nameguysdsidespack/0/10-Farewell 36709 -4968
 
 #lvl_d-09
   36
+#CP-only spinner cycle
+   0
+#------
    4,X
    6,R,J
   40,J
@@ -40,14 +43,14 @@ AnalogMode,Precise
   10,F,90.8
    9,F,45
    8,F,5.01
-#stun_d10
+#stun_d-10
    2,F,5.01
 StunPause
    4,F,5.01
   30,F,33.53
    4,F,90
 EndStunPause
-#endstun_d10
+#endstun_d-10
   39,F,94
    4,F,78
   40,R
@@ -130,7 +133,7 @@ EndStunPause
    5,R,J
   40
 
-#lvl_d-12 (1)
+#lvl_d-12
    1,R,J
   14,U,X
    5,R,J
@@ -710,7 +713,6 @@ endrepeat
 #1:52.285(6605)
   40
    1
-   1,J
-  71
+  72,O
 
 AnalogMode,Ignore
