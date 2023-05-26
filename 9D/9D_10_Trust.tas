@@ -252,6 +252,9 @@ endrepeat
   12
    8,R,K
   13,J
+#hazardcycle_hh-08
+   0
+#endhazardcycle_hh-08
    1,S
    1,D,J
   34
@@ -268,7 +271,9 @@ endrepeat
    2,R,J,G
    6,R,K,G
    6,R,J,G
-  15,R
+   9,R
+   1,R,J
+   5,R
    9,R,K
    6,R
    9,R,X
@@ -282,22 +287,19 @@ endrepeat
   12,R,J,G
   15,R
    7,R,D,K
+#stun_hh-08
 StunPause
    2,R,K
-   1,X
-SkipInput
-   3
-   9,R,D
+SkipInput 3 1
+  13,R,D,X
 EndStunPause
-   2,R
+   2,R,D,X
    1
-   7,R
-#stun_hh08_2
-   2,R
+   9,R
 StunPause
   14,R
 EndStunPause
-#endstun_hh08_2
+#endstun_hh-08
    2,R
    4,R,K,G
    5,R
