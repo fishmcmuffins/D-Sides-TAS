@@ -206,6 +206,9 @@ Set,Session.Inventory.Dashes,2
    1,X
   16
   18
+#hazardcycle_t-11
+   1
+#endhazardcycle_t-11
  154,D
    1,X
   19
@@ -466,14 +469,14 @@ AnalogMode,Precise
    1,R
    2
   12,U,Z
-#stun_t11
+#stun_t-11
    2,U,Z
 StunPause
    1
 SkipInput 3 1
    8,U,C
 EndStunPause
-#endstun_t11
+#endstun_t-11
   10
    5,L
   15,U,X
@@ -486,3 +489,5 @@ EndStunPause
 
 #lvl_u-01
   73
+
+AnalogMode,Ignore
