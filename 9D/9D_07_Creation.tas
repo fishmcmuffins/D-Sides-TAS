@@ -3,6 +3,7 @@ console load nameguysdsidespack/0/10-Farewell dd-04
 
 #lvl_dd-04
   36
+#hazardcycle_dd-00-lobby
 #Start
    4,Z
    5,R,J
@@ -38,7 +39,7 @@ console load nameguysdsidespack/0/10-Farewell dd-04
   14,J
    4,R,J
    2,K,G
-#stun_dd00lobby
+#stun_dd-00-lobby
    1,K,G
 StunPause
    9,K,G
@@ -58,7 +59,7 @@ SkipInput 3 1
   15,R,U,Z
    6,J
 EndStunPause
-#endstun_dd00lobby
+#endstun_dd-00-lobby
    1,J
    2,K,G
    4
@@ -261,6 +262,5 @@ EndStunPause
    7,R,J
    1,R,K,G
    2,R
+#0:37.774(2222)
   40
-
-#0:38.454(2262)
