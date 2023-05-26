@@ -278,6 +278,7 @@ console load nameguysdsidespack/0/10-Farewell 26836 -4300
    5,R,J
   10,R,D,X
    9,R
+#hazardcycle_d-10
   14,R,D,X
    8,R,J
   18,R,D,X
@@ -481,6 +482,5 @@ console load nameguysdsidespack/0/10-Farewell 26836 -4300
    7,R
    6,R,X
    6,R,J
+#1:10.822(4166)
   40,J
-
-#1:11.502(4206)
