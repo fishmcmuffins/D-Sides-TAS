@@ -1,63 +1,89 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 221
+RecordCount: 350
 
-Read,9D_01
-#Stun in a-00-lobby(2)
+console load nameguysdsidespack/0/10-Farewell
+   1
+
+#==========================
+#Start
+
+#hazardcycle at start
+
+Read,9D_01,Start
+
+#==========================
+#Peaceful Solitude
+
+#stun in aa-00-lobby (2)
+
 Read,9D_02,Start
 
+#==========================
+#Glimpse of Freedom
+
+#hazardcycle in b-08
+
 Read,9D_03,Start
-#2 stuns; drift in cc-07
-Read,9D_04,Start,stun_cc07
-  12,R,D,X
-StunPause
-   6,R
-EndStunPause
-Read,9D_04,endstun_cc07
 
-Read,9D_05,Start
-#Stun in d-10
-Read,9D_06,Start,stun_d10
-   1,F,5.01
-StunPause
-   5,F,5.01
-  30,F,33.53
-   4,F,90
-EndStunPause
-Read,9D_06,endstun_d10
+#==========================
+#Curiosity
 
-#Stun in dd-00-lobby
-Read,9D_07,Start,stun_dd00lobby
-   1,K,G
-StunPause
-   9,K,G
-   4
-   2,R
-   1,L
-  17,L,J
-   9,K
-   1,J,G
-   8,L,J
-   1,J
-   1,R,J
-   1,L,J
-   2,K,G
-   1,R,K
-SkipInput 3 1
-  15,R,U,Z
-   6,J
-EndStunPause
-Read,9D_07,endstun_dd00lobby
+#hazardcycle in cc-00-lobby
+#stun in cc-03
+#hazardcycle in cc-06
+#stun in cc-07
+
+Read,9D_04,Start,hazardcycle_cc-03
+   1,G
+Read,9D_04,endhazardcycle_cc-03,hazardcycle_cc-07
+   2
+Read,9D_04,endhazardcycle_cc-07
+
+#==========================
+#Dedication
+
+#hazardcycle in d-06
+
+Read,9D_05,Start,hazardcycle_d-10
+   0
+Read,9D_05,hazardcycle_d-10
+
+#==========================
+#Memories
+
+#stun in d-10
+
+Read,9D_06,Start
+
+#==========================
+#Creation
+
+#hazardcycle at start
+#stun in dd-00-lobby
+
+   2
+Read,9D_07,Start
+
+#==========================
+#Exploration
+
+#no global cycles
 
 Read,9D_08,Start
-#4 stuns
-Read,9D_09,Start,stun_g06
-   2,R
-StunPause
-   4,R
-EndStunPause
-Read,9D_09,endstun_g06,stun_g09_1
+
+#==========================
+#Depression
+
+#hazardcycle in g-05
+#stun in g-06
+#2 stuns in g-09
+#stun in h-01
+
+Read,9D_09,Start,hazardcycle_g-06
+   0
+Read,9D_09,endhazardcycle_g-06,stun_g-09
    1,J
    4,X
 StunPause
@@ -66,187 +92,225 @@ EndStunPause
    9,R,D
    1,R
    1,R,D
+   1,R,J,G
 StunPause
-   3,R,J,G
+   2,R,J,G
 EndStunPause
-#endstun_g09_2
-   7,R,J
-  40
-#lvl_h-01
-  14,R,J
-#stun_h01 (drift)
-   2,R,J
-StunPause
-   2,R,J
-EndStunPause
-#drift saves 1 pause
+Read,9D_09,endstun_g-09,stun_h-01
    1,R,J
 StunPause
-   8,R,J
+  12,R,J
 EndStunPause
-Read,9D_09,endstun_h01
+Read,9D_09,endstun_h-01
 
-#Stun in 9D_10:
-#lvl_hh-08 (x2)
-Read,9D_10,Start,stun_hh08_2
-# +1 pause from checkpt
-   0,R
-StunPause
-  16,R
-EndStunPause
-Read,9D_10,endstun_hh08_2
+#==========================
+#Trust
 
-#Stun in i-05
-Read,9D_11,Start,stun_i05_1
-   1,R
+#hazardcycle in hh-07
+#2 stuns in hh-08
+
+Read,9D_10,Start,hazardcycle_hh-08
+   1
+Read,9D_10,endhazardcycle_hh-08
+
+#==========================
+#Serenity
+
+#hazardcycle at start
+#stun in i-05
+
+   0
+Read,9D_11,Start,stun_i-05
+   2,R
 StunPause
-   1,R
    3,R,J
   10,R
 EndStunPause
-Read,9D_11,endstun_i05_1
-
-Read,9D_12A,Start
-Read,9D_12B,Start
-Read,9D_13A,Start,key cycle
-   8
-Read,9D_13A,resume
-Read,9D_13B,Start
-Read,9D_14A,Start
-Read,9D_14B,Start,cycle o-07
-   1
-Read,9D_14B,endcycle o-07,stun_o07
-  15,D,C
-   5,L
-   4,D,X
-  10,L,X
-   1,R,J
-   4,R,D,X
-StunPause
-   6,R,D,X
-   1,R,J,G
-   1,R,K,G
-   1,R,J,G
-   1,R
-   2,R,K,G
-   6,R
-EndStunPause
-   1,S
-   1,X
-   9,J
-   1,R,J
+  25,R
 StunPause
    3,R
-   1,R,D
-   3,R,D,J
-EndStunPause
-   1,R,J
-   5,R
-  18,R,J
-  14,R,U,Z
-   1,J,G
-   2
-   4,J,G
-   7,R
-Read,9D_14B,endstun_o07
-
-
-Read,9D_15,Start
-Read,9D_16,Start,stun_cp37_1
+SkipInput 3 1
+  15,R,Z
    1,R
-StunPause
-   1,R
-#why tf does holding up
-#make her sink faster
-  11,R,U
 SkipInput 3 1
   14,R,Z
 EndStunPause
-#drift
-StunPause
-   1,R
-   1,R,J
-   1,R,K
-   1,R,J
-   1,R,K
-   1,R,J
-   1,R,K
-   1,R,J
-   1,R
-EndStunPause
-Read,9D_16,endstun_cp37_1,stun_cp37_2
+Read,9D_11,endstun_i-05
+
+#==========================
+#0M
+
+#hazardcycle in j-07
+
+Read,9D_12A,Start,hazardcycle_j-07
+   1
+Read,9D_12A,endhazardcycle_j-07
+
+#==========================
+#500M
+
+#no global cycles
+
+Read,9D_12B,Start
+
+#==========================
+#1000M
+
+#keycycle in l-04
+
+Read,9D_13A,Start,key cycle
+  20
+Read,9D_13A,resume
+
+#==========================
+#1500M
+
+#no global cycles
+
+Read,9D_13B,Start
+
+#==========================
+#2000M
+
+#no global cycles
+
+Read,9D_14A,Start
+
+#==========================
+#2500M
+
+#no global cycles
+
+Read,9D_14B,Start
+
+#==========================
+#Sunrise Running
+
+#no global cycles
+
+Read,9D_15,Start
+
+#==========================
+#Goodbye of the Mountain
+
+#hazardcycle in CP-43
+#2 stuns in CP-37
+
+Read,9D_16,Start,hazardcycle_CP-37
+   1
+Read,9D_16,endhazardcycle_CP-37,stun_CP-37_2
    1,R,J
 StunPause
   11,R,J
    1,R,K,G
-   7,R
+   1,R,D
 EndStunPause
-Read,9D_16,endstun_cp37_2
+StunPause
+   6,R,D
+EndStunPause
+Read,9D_16,endstun_CP-37_2
+
+#==========================
+#Heart Beating
+#and Realization
+
+#no global cycles
 
 Read,9D_17,Start
-#9D_18 is in 9D_17 file
-#(due to cassette cycles)
+
+#==========================
+#Parting
+
+#no global cycles
 
 Read,9D_19,Start
 
-Read,9D_20,Start,stun_t11
-   1,U,Z
-StunPause
-   1,U,Z
-EndStunPause
-StunPause
-   1,U,Z
-SkipInput 3 1
-   8,U,C
-EndStunPause
-Read,9D_20,endstun_t11
+#==========================
+#Plural
+
+#stun in t-11
+
+Read,9D_20,Start,hazardcycle_t-11
+   0
+Read,9D_20,endhazardcycle_t-11
+
+#==========================
+#True Love
+
+#no global cycles
+
 Read,9D_21,Start
-Read,9D_22,Start,stun_v00
-#likely faster to not
-#demo after spring hit,
-#but this strat only needs
-#one spinner stunned so
-#won't get owned by drift
-#^ correct, the drift is
-#  awful here
-   1,R
+
+#==========================
+#Reunification
+
+#hazardcycle at start
+#2 stuns in v-00-lobby
+#keydoor in v-00-upper
+#hazardcycle in w-00-point-of-no-return
+
+   0
+Read,9D_22,Start,stun_v-00-lobby_1
+   1,L,U,Z
 StunPause
-   5,R,J
+   3,L,U,Z
 EndStunPause
 StunPause
-   6,R,J
+SkipInput 3 1
+  14,U,C
+   1,R,J
+SkipInput 3 1
+   9,R,U,J,Z
+EndStunPause
+   6,R,U,J,Z
+Read,9D_22,endstun_v-00-lobby_1,stun_v-00-lobby_2
+   1,R
+   1,R,J
+StunPause
+   9,R,J
 SkipInput 3 1
   15,U,Z
-  11,R
+  10,R
 SkipInput 3 1
-  19,L,U,Z
-   2
+  15,L,U,Z
 EndStunPause
 StunPause
-   3
+   6
+   3,L
+   1,R
 SkipInput 3 1
-   9,R,Z
+   7,R,Z
 EndStunPause
-Read,9D_22,endstun_v00,key cycle
-  18,G
-Read,9D_22,end key cycle
+Read,9D_22,endstun_v-00-lobby_2,keycycle_v-00-upper
+  40,G
+Read,9D_22,endkeycycle_v-00-upper
 
-#(9D_23 is moonberry)
+#==========================
+#Point of No Return
 
-#wait for drift cycle
-#in w-16
-   3
+#no global cycles
+
 Read,9D_24,Start
-Read,9D_25,Start,stun_w16_1
+
+#==========================
+#Mostly Absolute Certainty
+
+#hazardcycle in w-15
+#2 stuns in w-16
+
+Read,9D_25,Start,hazardcycle_w-16
+   0
+Read,9D_25,endhazardcycle_w-16,stun_w-16_1
    1
 StunPause
    1
-EndStunPause
-StunPause
    1,J
+   7
 EndStunPause
 StunPause
-   8
+   1
+EndStunPause
+StunPause
 SkipInput 3 1
   10,R,Z
    1,R,K
@@ -263,16 +327,8 @@ EndStunPause
 StunPause
    5,R,K
 EndStunPause
-Read,9D_25,endstun_w16_1,stun_w16_2
-   1,S,N
-   1,O
-  10,R
-   1,S,N
-   1,O
-  10,R
-   1,S,N
-   1,O
-  10,R
+Read,9D_25,endstun_w-16_1,stun_w-16_2
+   3,R
 StunPause
    3,R
    1,R,D,J
@@ -283,17 +339,47 @@ EndStunPause
   10,R
    4,R,J
    4,J
-Read,9D_25,endstun_w16_2
+Read,9D_25,endstun_w-16_2
 
-Read,9D_26,Start,stun_x10
-  12,R,J
-   6,R
-   3,R,J
-   6,R
-Read,9D_26,endstun_x10,drift_xx10
-   1
-Read,9D_26,drift_xx10
+#==========================
+#Bottomless
+
+#hazardcycle in x-07
+#stun in x-10
+#stun in x-11
+#hazardcycle in xx-07
+
+Read,9D_26,Start,hazardcycle_x-10
+   2
+  12
+Read,9D_26,endhazardcycle_x-10,stun_x-11
+   1,R
+   1,S,N
+  10,O
+   2,R
+   1,S,N
+  10,O
+   1,R,D
+   1,S,N
+  10,O
+   6,R,U,Z
+   1,S,N
+  10,O
+   4,R,U,Z
+   1,S,N
+  10,O
+   5,R,U,Z
+Read,9D_26,endstun_x-11,hazardcycle_xx-10-final-goodbye
+   4
+Read,9D_26,hazardcycle_xx-10-final-goodbye
+
+#==========================
+#Final Goodbye
+
+#4 stuns in xx-10-final-goodbye
 
 Read,9D_27,Start
 
-ChapterTime: 48:32.100(171300)
+#==========================
+
+ChapterTime: 47:58.134(169302)
