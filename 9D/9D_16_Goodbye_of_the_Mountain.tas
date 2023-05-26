@@ -506,9 +506,9 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
    1
    1,S
    1,D,J
-#Spinner cycle 0-2
+#hazardcycle_CP-37
    0
-#------------
+#endhazardcycle_CP-37
   69,O
 
 #CP-43
@@ -724,7 +724,7 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
    1,R,J
    1,R,K
    7,R
-#stun_cp37_1
+#stun_CP-37_1
    2,R
 StunPause
 #why tf does holding up
@@ -741,7 +741,7 @@ SkipInput 3 1
    1,R,J
    1,R
 EndStunPause
-#endstun_cp37_1
+#endstun_CP-37_1
    2,R
    1,R,J
    1,R,K
@@ -758,14 +758,14 @@ EndStunPause
    4,R,J,G
    3,R
    2
-#stun_cp37_2
+#stun_CP-37_2
    2,R,J
 StunPause
   10,R,J
    1,R,K,G
    7,R,D
 EndStunPause
-#endstun_cp37_2
+#endstun_CP-37_2
   20,R,D
    3,R
    6,R,J
@@ -1624,3 +1624,5 @@ AnalogMode,Precise
 #3:47.154(13362)
   40
 #lvl_r-01
+
+AnalogMode,Ignore
