@@ -1,0 +1,512 @@
+# Monika's D-Sides
+# https://gamebanana.com/mods/150759
+
+RecordCount: 1805
+
+console load nameguysdsidespack/0/10-Farewell 212416 -50688.1666963995
+   1
+Set,Session.Inventory.Dashes,2
+
+
+#2 keys are collected in
+#reunification
+Repeat,21
+console givekey
+EndRepeat
+
+#lvl_v-00-lobby (1)
+#wait for orb entry
+#moon block cycle
+  57
+#hazardcycle_v-00-lobby
+   2
+#Start
+  10,L,X
+   8,L,J
+  14,L,Z
+   5,L,J
+   2,L
+   2
+  19,L,D,X
+   4,L,J
+  10,L,K,G
+   7,K
+  15,U,X
+  15,U,C
+   1,L
+   9,L,J,G
+   2,L
+   1,L,J,G
+   7,L
+   4,L,J
+   6,L,Z
+   1,L,J
+   7,L
+   1,L,J
+   6,L,U,Z
+  43
+
+#lvl_v-04
+   9,L
+   7,L
+  17,D,X
+  28,L
+  15,L,U,X
+  15,L,U,C
+  29,L,D
+  15,R
+  15,U,X
+  15,U,C
+   5,J
+  35,D
+  19,L,D
+   9,D
+  21,R,D
+  40
+
+#lvl_v-05
+  18,R,D
+  15,L,D,X
+   1,R,D
+  17,R,D,C
+   1,S
+   1,D,J
+  69,O
+   5,L,Z
+   1,R,J
+   4,L
+  40
+
+#lvl_v-00-lobby (2)
+   3,L
+   2,L,J
+  15,D,X
+   2,J
+  15,U,X
+   2,R
+  28,R,J
+  10,U,C
+  20,R,J
+  14,U,X
+   5,R,J
+   5,J
+  14,U,X
+  17,R
+  19,R,X
+  13,R,C
+   2,R,J
+   7,L,J
+  12,U,X
+  12,R,J
+   5,R
+  15,R,U,Z
+  15,L,X
+
+#stun_v-00-lobby_1
+  11,L,U,Z
+StunPause
+   4,L,U,Z
+SkipInput 3 1
+  14,U,C
+   1,R,J
+SkipInput 3 1
+   8,R,U,J,Z
+EndStunPause
+   7,R,U,J,Z
+#endstun_v-00-lobby_1
+   6,J
+  15,U,X
+   2
+   1,L
+  15,U,Z
+   4,R
+   1,L
+   1,J,G
+   1,R,J
+  10,J
+  16,R,J
+   5
+   5,L
+   1
+  15,L,X
+   8,L,U,Z
+  23,L
+  20,L,U,X
+  15,L,U,C
+   1
+   1,L
+   1
+   2,L
+   1,R
+   6,L,U,X
+   9,R
+  15,U,X
+   6,L
+  15,L,Z
+  27,L,D
+   2,L,J
+  13,U,X
+  11,K
+  12,L,X
+   7,R,J
+   5,R
+   3,R,J
+   1
+   1,R,J
+   2,J
+   2
+  24,R,U,Z
+   6,R,X
+   2,K,G
+   7
+   2,R
+   1,L
+  15,R,D,X
+   3
+  17,U,X
+  11,R,J
+   7,R
+#stun_v-00-lobby_2
+   1,R
+   2,R,J
+#likely faster to not
+#demo after spring hit,
+#but this strat only needs
+#one spinner stunned so
+#won't get owned by drift
+StunPause
+   8,R,J
+SkipInput 3 1
+  15,U,Z
+  10,R
+SkipInput 3 1
+  15,L,U,Z
+   6
+   3,L
+   1,R
+SkipInput 3 1
+   7,R,Z
+EndStunPause
+#endstun_v-00-lobby_2
+   9,R,Z
+  15,U,X
+  15,R
+  18,U,C
+  15,U,Z
+   1,R,J,G
+   7,R
+   9,U,X
+  43
+
+#lvl_v-00-upper (1)
+  11,R
+  15,R,X
+  12,R,Z
+   3,L,J
+  14,L,U,X
+   1,R,K,G
+   5,L,K
+  15,U,X
+   1,R,J,G
+  13,R
+#keycycle_v-00-upper
+   3
+#endkeycycle_v-00-upper
+   5,R,D,J
+  14,U,X
+   4,R,J
+  43
+
+#lvl_v-00-upperer-a (1)
+  11,R,J,G
+  14,R,X
+  13,J,G
+   6,R,Z
+   1,R,J
+   7,R
+   2,R,J
+  15,R,D,X
+  13,L,C
+   3,L,J
+  10,K,G
+   6,L,Z
+   1,L,J
+   7,L
+   2,L,J
+  15,L,D,X
+   7,L,D,C
+   1,L,J
+  12,L
+   9,L,J
+  11,L,X
+   1,L,J
+  10
+  13,D,X
+  40
+
+#lvl_v-00-upper (2)
+   9,D
+   1,J
+  10
+  12,D,X
+   1,J
+  10
+  12,D,X
+   1,J
+  20,D
+   5,R,D
+   1,D
+   1,R,D
+   1,D
+  15,R,X
+  14,L,Z
+   1,R,J
+   1,R
+  19,R,D,X
+   2,R,J
+   1,J
+   2,R
+   5,R,D,X
+   2,R,J,G
+   1,J
+   6,R
+   1,R,J
+   1,D
+   2,R,D
+   5,R,J
+  11,R
+   7,R,D,X
+   1,R,J,G
+   5,R
+   1
+  15,R,D,X
+   2,R
+   8,R,Z
+   1,R,J
+   3,R
+   1,R,J
+   3,R
+   1,R,J
+   1,R,K,G
+  14,R,D,X
+   2,R,J
+   1,R,K,G
+   1,R
+  14,R,D,X
+   4,R,K
+   7,R,X
+   7,L,C
+   2,L,J
+   1,J
+  10,L,J
+  13,R,K
+  18,R,X
+   3
+   1,O
+  71
+  19,L
+  13,L,X
+   4,L,K
+   1,L
+   7,L,D,C
+   1,L,J
+   7,L
+   8,L,K
+   4,K
+   1,J,G
+   1,L,J
+   1,J
+   1,L,J
+   1,K
+   1,J,G
+   1,R,J
+   1,R,K,G
+  12,R,J,G
+  14,U,Z
+  13,K
+   4,L,K
+  40
+
+#lvl_v-00-upperer-b
+  11
+  15,U,X
+  10,L
+  12,L,Z
+  43
+
+#lvl_v-00-upperer-a (2)
+   3,L
+  15,L,Z
+  15,R,D,X
+   6,L,D
+   4,L
+   1,L,D
+   4,L,J
+  10,L,X
+  12,L,J
+   4,R,K
+  13,U,X
+   2,R,J
+  11,R
+  10,R,X
+   8,R,J
+   2,J
+  15,U,X
+   5,R,J
+  40
+
+#lvl_void
+   3,R
+   8,R,J
+  14,R,U,X
+   2,J,G
+
+ 138
+
+  15,R,X
+
+ 123
+
+  15,R,X
+
+ 108
+
+  15,R,X
+
+  70
+
+  14,L,Z
+   1,R,J
+   7,R
+   1,R,J
+  12,R,K,G
+  15,U,X
+   1,R,J
+  11,R
+  15,R,X
+
+ 392,R,D
+
+  10,R,X
+   4,R,J
+  25
+   5,L
+
+  75
+
+  12,J
+  15,U,X
+
+ 130
+
+  15,U,X
+   1,J
+
+ 225
+
+  10,L,X
+  12,R,J
+   1,K,G
+   1
+  15,R,X
+
+  88
+
+  14,L,D,X
+   1,R,J
+  15,R,D,X
+  15,D,C
+
+ 226
+
+  13,R
+  10
+  15,R,Z
+
+ 106
+
+  12,J
+  15,R,X
+
+  89
+
+  12,J
+   4,K,G
+   2,L,K
+  10,R,X
+   9,R,J
+  15,U,X
+  11,R
+
+  92
+
+  12,J
+  14,U,X
+   9,R,J
+  40
+
+
+#original (upper lobby move.)
+#1:19.237(4661)
+
+#key +2
+#1:29.046(5238)
+#+577f
+
+
+#lvl_v-99
+#   4,J,G
+#   1,K
+#   1,J
+#   8,L,J
+#   2,J
+#  17,U,X
+#   3,L,J,G
+#  53,L
+#  55,G
+#  15,L,D,X
+#   5,L,J
+#  27,R,J
+#  13,G
+#   1,U,G
+#repeat 4
+#   1,G
+#   1,U,G
+#endrepeat
+#   7,G
+#   2,U,G
+#  12,J,G
+#   9,K,G
+#   1,J
+#   7,L,J
+#  18,U,X
+#  15,R,D
+#  23,L,D
+#   1,L,D
+#  18,G
+#   1
+#   1,K
+#   5,L,Z
+#   1,L,J,G
+#   1,L,K,G
+#   1,L,J,G
+#   1,L,K,G
+#   2,L
+#   3,L,J
+#   4,L
+#   7,L,J
+#  15,L,Z
+#  14,L,D
+#  13,U,X
+#   1,J
+#  11,R
+#  15,R,U,Z
+#   1,L,J,G
+#   5,L,K,G
+#   8,R,J
+#  40
+
+
+
+
+# 999
