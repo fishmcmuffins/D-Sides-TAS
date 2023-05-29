@@ -1,9 +1,9 @@
-console load nameguysdsidespack/0/10-Farewell 135764 -35048
+console load nameguysdsidespack/0/10-Farewell 135995.7 -35047
 
 #console load nameguysdsidespack/0/10-Farewell 135765 -37401
 #play,Section Upwind,3
    
-#console load nameguysdsidespack/0/10-Farewell 137521 -39599
+#console load nameguysdsidespack/0/10-Farewll 137521 -39599
 #play,Section Mixed Wind 1,37
 
 #console load nameguysdsidespack/0/10-Farewell 142781 -39808
@@ -11,29 +11,26 @@ console load nameguysdsidespack/0/10-Farewell 135764 -35048
 
 #console load nameguysdsidespack/0/10-Farewell 135943 -35144
    1
-  36
-   8,U,X
-   1,J
+  39
+   4,R,J
+   4,R
+   2,L,K
+   4,L
   40
 
 #lvl_p-01
 #Start
-   5,R
-   1,J,G
-   1,L,J
-   6,J
-#+3f
-   3,J
-  22,R,U,X
-   2,R
-   4,D,C
-   6,R,C
-  16,R,J
+   3,L
+   1,L,J,G
+   1,L,K,G
+   6,L
    4,D,X
-  10,R,X
-   8,R,J,G
-   4,R
-   3
+   1,L,J
+   5,L
+   5,L,J
+  15,U,X
+   4,R,J,G
+   7,R
   10,R,X
    3,R,J
    4,R,K,G
@@ -234,17 +231,19 @@ console load nameguysdsidespack/0/10-Farewell 135764 -35048
    7,R
   19,R
   14,R,Z
-   5,R,J
-  15,R,U,X
+   7,R,J
+  14,R,U,X
   97
 
 #CP-68
-
+  19
+   1,J
+   7
   12,L,D,X
-   8,L,J
-   1,L
   10,L,J
-  17,L,U,X
+   1,L
+   9,L,J
+  16,L,U,X
   14,L
   11,J,G
    1,L,J
@@ -258,27 +257,30 @@ console load nameguysdsidespack/0/10-Farewell 135764 -35048
   10,R,Z
    1,R,K,G
   12,R,J,G
-   9,R
+   7,R
+   1,R,J
   14,R,X
    4,R,K,G
    1,K
-   6,R,K
-   8,R,J,G
-   8,R
-   1,R,J
+   5,R,K
+   9,R,J,G
+   1,R
+  11,R,J
   15,U,X
    4,R
   15,U,X
    4,R
-  13,R,K,G
+  10,R,J,G
+   1,R
+   2,R,K,G
+   1,K
    5,J,G
    3
    3,R
    1,L
    3,L,D,K
    5,K
-   3,L,K
-   1,K
+   4,L,K
   25,L,U,X
   18,L,C
   13,L,U,Z
@@ -1026,9 +1028,9 @@ AnalogMode,Precise
 #original
 #2:02.910(7230)
 
-#key +1
-#2:09.744(7632)
-#+402f
+#key +2
+#2:09.778(7634)
+#+404f
 
   40
 AnalogueMode,Ignore
