@@ -1,6 +1,9 @@
 console load nameguysdsidespack/0/10-Farewell 21869 -3776
    1
 
+console givekey
+
+console givekey
 
 #lvl_c-02
   36
@@ -41,6 +44,8 @@ console load nameguysdsidespack/0/10-Farewell 21869 -3776
    1,L,K,G
    5,L,K
    4,G
+
+
    9,D,X
 StunPause
    6,D,X
@@ -59,14 +64,60 @@ EndStunPause
    1,R,J,G
    1,R,K,G
   19,R,D
-  28,L,D
-  14,L
-  83
-  10,R,X
+
+
+
+
+
+  29,L,D
+
+
+#  28,L,D
+#   1,L
+
+
+
+
+
    1,S
    1,D,J
-   1,O
-  68
+  69,O
+
+
+
+  10,L,Z
+  12,R,J
+
+Stunpause
+
+  11,R,J
+  10,R
+SkipInput 3 1
+  26,R,D,X
+EndStunPause
+   9,R,D
+
+
+#  13,L
+#  83
+#  10,R,X
+#   1,S
+#   1,D,J
+#   1,O
+#  68
+
+
+
+   1,S
+   1,D,J
+  69,O
+
+
+
+
+
+
+
   11,R,Z
   19,R,J
    2,R
@@ -266,9 +317,7 @@ EndStunPause
    5,L
    1,J
 
-
   97
-
 
    9,R,D,J
    1,K,G
@@ -314,7 +363,7 @@ EndStunPause
    3,R,J,G
    7,R
 #hazardcycle_cc-07
-   2
+   1
 #endhazardcycle_cc-07
   10,R,Z
   16,L,J
@@ -474,7 +523,9 @@ EndStunPause
 #0:47.549(2797)
 
 #9DS 04, +3 keys
-#1:15.480(4440)
-#+1643
+#1:20.257(4721)
+#+1643 (originally)
+#+1924 (now)
+#+281 from draft
 
   40
