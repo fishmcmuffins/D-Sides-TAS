@@ -486,12 +486,11 @@ console load nameguysdsidespack/0/10-Farewell 132169 -30311
    4,D,X
   16,L,X
   11,L,C
-#lvl_
    1,J
    2,L,J
   40
 
-#lvl_o-10
+#lvl_o-10 (1)
    4,J
    1,K
   16,R,J,G
@@ -503,40 +502,59 @@ console load nameguysdsidespack/0/10-Farewell 132169 -30311
   11,L,X
   23,L,C
   39,L,U,X
-#BRANCH KEY
-#  20,R,U,C
-#   4,R
-#   1,R,J
-#  21,R,D
-#  24,L,D
-#   4,D,X
-#   9,L,X
-#  15,L,C
-#   8,D,X
-#  43
-#
-lvl_o-10s
-#  10,L,D
-#  17,L
-#   4,L
-#   1,L,D
-#   4,D,X
-#  19,L,J,X
-#   2,L,J,G
-#   4,R,J
-#   5,R
-#  14,L,D
-#  62,R,X
-#  13,R,J
-#  15,U,X
-#  18,L,J
-#   1,S
-#   1,D,J
-#   1,O
-#  68
 
-  17,L,D,C
-  15,D,X
+
+#BRANCH KEY
+  20,R,U,C
+   4,R
+   1,R,J
+  21,R,D
+  24,L,D
+   4,D,X
+   9,L,X
+  15,L,C
+   8,D,X
+  43
+
+#lvl_o-10s
+  10,L,D
+  17,L
+   4,L
+   1,L,D
+   4,D,X
+  19,L,J,X
+   2,L,J,G
+   4,R,J
+   5,R
+  14,L,D
+  62,R,X
+  13,R,J
+  15,U,X
+  18,L,J
+   1,S
+   1,D,J
+   1,O
+  68
+   5,R,Z
+   1,L,J
+   3
+   4,L
+   3,L,D,J
+   1,L
+   9,L,J
+   6,U,X
+  40
+
+#lvl_o-10 (2)
+  11,R
+  12,R,Z
+  15,R,C
+  15,U,X
+  11,L,C
+  15,L,X
+  12,U,C
+  17,L,D,X
+  15,D,C
    2,D
    3,L,D
    1,L,J
@@ -589,9 +607,7 @@ lvl_o-10s
 
 #lvl_o-12
   30
-#Section o-12
   12,R,Z
-#BRANCH SYNCKEYS
    1,J,G
    4,R
    7
@@ -1023,8 +1039,6 @@ lvl_o-10s
   12,R,U,C
    4,D,X
   10,U,X
-
-#135995.7, -35047
    4,R,J
    4,R
    2,L,K
@@ -1034,8 +1048,6 @@ lvl_o-10s
 #original
 #2:28.767(8751)
 
-#key +1 (almost)
-#2:32.303(8959)
-#+208f
-
-#lvl_p-01
+#key +2 (almost)
+#2:41.092(9476)
+#+725f
