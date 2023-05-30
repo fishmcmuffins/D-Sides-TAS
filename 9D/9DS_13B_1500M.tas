@@ -464,76 +464,50 @@ console load nameguysdsidespack/0/10-Farewell 114584 -21424
    9,R,C
 #BRANCH KEY
    9,R,X
+   9,R,C
+   9,R,X
+   4,D,C
+  20,R,U,C
+  11,U,X
   15,U,C
-  22,R,G
-  10,U,Z
-   9,L,J
-  11
-   4,L,D,J
-#hazardcycle_m-08s
-   0
-#endhazardcycle_m-08s
-  12,L,Z
-   3,L,J
-   8,U,X
-  40
+   4,D,X
+   1,R,X
+   1,R,J
+   4
+   7,R,D
+  14,L,D,X
 
-#lvl_m-08s
-   3,R,J
-   8,R
-  14,R,Z
+   1,R,J
+   4
+  19,R,D
+  15,R,U,X
+
+#   6,R,J
+#   7,R
+#   4,D,X
+#  21,R,X
+
+  15,R,D,C
+   4,R
+   4,D,X
+   9,R,X
+  15,U,C
+  36,R,U,X
+   9,D
+   1,L,D
+  12,D
+   4,R,D
    9,R,J
-  14,R,D,X
-  19,R,J
-StunPause
-  12,R,J
-SkipInput 3 1
-  11,R,X
-SkipInput 3 1
-   7,R
-SkipInput 3 1
-  14,R,U,Z
-   1,R,J,G
-   2,R
-SkipInput 3 1
-   9,R,D,X
-EndStunPause
-   1,R
-   8,R,J
-   4,K,G
-   5,R,Z
-   1,R,J
-   7,R
-   1,J
-  10
-  15,D,X
-  10,C
-   1,J
-   6
-  15,D,X
-   1,R,J
-   3,R
-  11,D,X
-  40
-
-#lvl_m-08 (2)
-   8,R
-  15,U,X
-  20,R,D
-   2,R
-   2,R,D
-  13,L,D
-   4,D
-   8,R,J
-  25,R,D
-  16
+  24,R,D
   17,R,U,X
   17,R,U,C
   15,R,D,X
   17,R,D,C
   16,R,U,X
   15,R,U,C
-  12
+   6
+
+   1
   15,U,X
   18,R
    8
@@ -573,10 +547,64 @@ EndStunPause
    7,L
    2,R
   10,R,G
-Repeat,29
    1,J
    1,K
-EndRepeat
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
   40
 
 #lvl_m-10
@@ -711,8 +739,7 @@ EndRepeat
 #original
 #1:25.459(5027)
 
-#key +2
-#1:34.095(5535)
-#+508
+#key +1
+#1:26.258(5074)
 
   40
