@@ -11,6 +11,7 @@ console load nameguysdsidespack/0/10-Farewell j-00
 #Section 0M
 #lvl_j-00
   36
+
 #Start
    4,X
    6,R,J
@@ -60,33 +61,73 @@ console load nameguysdsidespack/0/10-Farewell j-00
    1,J
   40
 
-#lvl_j-02
+#lvl_j-02 (1)
   10,R,J,G
    1,R
   10,R,X
-   5
-   2,R
-   2
-   6,R
-  18,L,X
-  16,R,U,Z
-  19,R,U,X
-   1
-  14,R
-   4
+   2,L
+  11
+   4,L
+  18,U,X
+  15,L,U,C
+  15,L,U,X
+  25,L,D
+   4,L,X
+   1,L,J
+  40
+
+#lvl_j-02b
+  11,L,J
+   9,L,D
+  25,R,D
+   4,L,J
+  30,L,D
+  12,L,J
+   3,R,J
+   8,R,K,G
+   1,L,J
+  35,L,K
+  16,L,Z
+  15,R,V
+   2,R,D
+  25,L,D
+   2,G
+  12,L
+  18,L,Z
+   1,S
+   1,D,J
+  69,O
+   3,J
+   6,R,J
+   5,X
+   2,R,J
    1,J
-   4,R,J
-   5,R
-   4,R,J
-   2,R
-   7,R,J
-  17,R,Z
-   2
-  13,R,U,X
-   1,R,K,G
-   3
-   9,R
-   5,R,X
+   1,R,J
+  40
+
+#lvl_j-02 (2)
+   2,R,J
+  32,R,D
+  15,R,U,X
+  26,R,D
+   4,D
+   1,R,J
+  30,R
+  15,R,Z
+   2,R,D
+   5,D
+   1,R,D
+   9,D
+   1,R,D
+   5,D
+  10,L,J
+  11,L
+   1,J
+   6,K
+  15,U,X
+  15,U,C
+  18,R
+  12,R,X
   40
 
 #lvl_j-03
@@ -370,8 +411,8 @@ console load nameguysdsidespack/0/10-Farewell j-00
 #0:44.336(2608)
 
 #key +2
-#0:52.802(3106)
-#+498f
+#1:01.948(3644)
+#+1036f
 
   40
 
