@@ -4,6 +4,10 @@ console load nameguysdsidespack/0/10-Farewell dd-04
 #lvl_dd-04
   36
 
+#hazardcycle_dd-00-lobby
+   0
+#endhazardcycle_dd-00-lobby
+
 #Start
    6,L,J
   17,U,X
@@ -238,11 +242,6 @@ console load nameguysdsidespack/0/10-Farewell dd-04
    1,S
    1,D,J
   69,O
-
-#hazardcycle_dd-00-lobby
-   1
-#endhazardcycle_dd-00-lobby
-
    8,R,Z
    1,R,J
    3,R
@@ -276,15 +275,74 @@ console load nameguysdsidespack/0/10-Farewell dd-04
   12,K,G
    4,J,G
    7
-  10,R,Z
-   5,L,J
-  20,L,D,X
-   1,L,J
-   1,L
-  14,L,D,X
-   2,L,J,G
+  12,J
+   7,K,G
+   7,R,Z
+   5,R,J
+   1,R,K,G
+   4,R
+  40
+
+#lvl_dd-08
+   1,R
    7,L
+  12,L,J
+  15,U,X
+  15,R,J
+  43,R,D
+  15,R,X
+  14,R,U,C
+   4,J,G
+   2,L,J
+   1,R,K,G
+   1,L,K
+  17,R,K
+   1,J,G
+   2,R,J
+  31,R,D
+  18,R
+  25,R,U,Z
+  15,U,X
+   9,R
+   5,R,J,G
+   5,R
+  15,R,X
+  18,R,D
+  13,R,Z
+   1,R,J
+  15,R
+   1,L,D,J
+  14,L
+   5,R
+  18,R,Z
+   2,R
+  14,R,D,X
+   1,R,J
+  14,R,D,X
+   2,R,J
+  12,R,U,X
+   4,R,J,G
+  11,R
+  12,R,J
+  16,U,X
+   1,S
+   1,D,J
+  69,O
+   6,L,Z
    1,L,J
+   5,L
+  40
+
+#lvl_dd-00-lobby (4)
+   1,L
+   2,L,J
+  14,L,D,X
+   3,L,J
+  27,L,D,X
+  12,L
+   5,L,J
+  12,L,Z
+   2,L,J
    2,L
   40
 
@@ -292,7 +350,7 @@ console load nameguysdsidespack/0/10-Farewell dd-04
    5,R,D,X
   40
 
-#lvl_dd-00-lobby (4)
+#lvl_dd-00-lobby (5)
    9,R
    5,R,J
    4,R
@@ -531,9 +589,9 @@ EndStunPause
 #0:48.433(2849)
 #+627f
 
-#key +4
-#1:26.666(5098)
-#+2249f over added lobby
-#+2876f overall
+#key +5
+#1:36.985(5705)
+#+2856f over added lobby
+#+3483f overall
 
   40
