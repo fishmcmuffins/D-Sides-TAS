@@ -4,11 +4,11 @@
 
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
-RecordCount: 12849
-
+RecordCount: 13164
 console load nameguysdsidespack/0/10-Farewell 213175.736081541 -52560
-   1
 
+   1
+console givekey
 #Start
   36
    7,L,J
@@ -174,7 +174,6 @@ endrepeat
    1,K
    2,L,K
   40
-
 #lvl_y-03
   12,L,K
   12,L,J,G
@@ -854,7 +853,6 @@ endrepeat
 #lvl_y-13 (2)
   51
   40
-
 #lvl_y-10 (2)
    1
   19,R,D,X
@@ -870,7 +868,7 @@ endrepeat
   40
 
 #lvl_y-15s
- 110,D
+ 116,D
    3,J
   20,D
   30,R,D
@@ -1463,7 +1461,7 @@ endrepeat
    8,R,Z
    2,R,J
 
-#Enter-Up
+#Right-Up
   40
    2,R,J
    5,R,D
@@ -1481,31 +1479,94 @@ endrepeat
   11,L,J
    4,L
    8,U,X
-   2,R,J
+   1,R,J
    9,L,J
-   3,R,J
-   1,R,K,G
-  10,R,J,G
+   5,R,J
+  11,R,K,G
   15,R,U,Z
-  14,U,X
+  13,U,X
+
 
 #Up-Right
   40
   11,L,J
    4,L
    8,U,X
-  15,R,J
-   3,R,K,G
-   6,R
-  15,R,D,X
-   9,R,D
+   1,R,J
+   9,L,J
+   5,R,J
+   5,R,K,G
+   3,R
+  24,R,D,X
    1,G
    9,R,J,G
    9,U,X
   12,R,J
-   1,R,K,G
-   3,R,K,G
-   4
+   8,R,K,G
+  24,R,D,X
+   1,G
+   9,R,J,G
+  11,U,X
+  11,R,J
+  13,R
+   6,R,Z
+   8,R,J
+
+#Right
+  40
+   1,R,J
+  38,R,D
+   1,G
+   9,R,J,G
+  10,U,X
+  18,R,J
+  25,R,D,X
+   1,G
+  14,R,J,G
+  11,U,Z
+  11,R,J
+   8,R,K,G
+  24,R,D,X
+   1,G
+   9,R,J,G
+   5,U,X
+  22,R,J
+   5,R,K,G
+   7,R
+   4,R,Z
+   1,R,J
+   7,R
+   2,R,D,J
+  40
+
+#Right-Up.Get2dash
+   2,R,D,J
+   4,R
+  39,R,D,X
+   1,G
+   9,R,J,G
+  14,U,X
+   4,R,J
+  10,R,X
+   5,R,J
+  15,R,U,X
+  14,U,C
+
+#Up-Right.2d
+  40
+   2,L,J
+  10,R,J
+  15,U,X
+  10,R,U,C
+   9,R,K,G
+  15,R,D,X
+   9,R,D
+   1,G
+   9,R,J,G
+   8,U,X
+  13,R,J,G
+   5,R,K,G
+   4,R
   15,R,D,X
    9,R,D
    1,G
@@ -1513,100 +1574,46 @@ endrepeat
   11,U,X
   11,R,J
   13,R
+   6,R,Z
+   8,R,J
 
-
-#loses 1f to cycles
-#   6,R,Z
-#   8,R,J
-#  40
-#   1,R,J
-#  38,R,D
-#   1,G
-#   9,R,J,G
-#  10,U,X
-#  18,R,J
-#  25,R,D,X
-#   1,G
-#   1,R,J,G
-#   5,R,J
-#   8,R
-#  11,U,X
-#   2,R,J
-#   2,L,J
-#   8,R,J
-#   1,R,K,G
-#   4,R,J,G
-#   3
-#***
-#Set,Invincible,True
-#  15,R,D,X
-#   9,R,D
-#   1,G
-#   1,R,J,G
-#   3,R,J
-#   9,R
-#   7,U,X
-#  21,R,J
-#   6,R,K,G
-#   4,R
-#   1,R
-#   2
-
-   4,R,Z
-   1,R,J
-   7,R
-   1,R,J
-   1,R
-
-#Right
+#Right.2d
   40
-   4,R
-   2,R,J
-   5,L,D
-  30,R,D
+   1,R,J
+  38,R,D
    1,G
    9,R,J,G
   10,U,X
   18,R,J
   25,R,D,X
    1,G
-   9,R,J,G
-   4,R
-  10,U,X
-  12,R,J
+  14,R,J,G
+  11,U,Z
+  11,R,J
    8,R,K,G
-  15,R,D,X
-   9,R,D
-   1,G
-   4,R,J,G
-   9,R
-   7,U,X
-  21,R,J
-   6,R,K,G
-   4,R
-   1,R
-   2
-   4,R,Z
-   1,R,J
-   7,R
-   2,R,D,J
-
-#Special-1
-  40
-  14,R,D,J
-  18,D,X
-  15,R,D,C
-  11,R,D
+  24,R,D,X
    1,G
    9,R,J,G
-  13,U,X
-   2,R,J
-  12,R
-   5,R,J
-  15,R,U,Z
-  14,U,X
+   5,U,X
+  22,R,J
+   5,R,K,G
+   7,R
+   6,R,Z
+   8,R,J
 
-#2dash up
+#Right-Up.2d
+  40
+   1,R,J
+  38,R,D
+   1,G
+   9,R,J,G
+  14,U,X
+   6,R,J
+  18,R,U,X
+  15,R,U,Z
+   8,U,X
+
+#Up.2d
   40
    2,L,J
   10,R,J
@@ -1616,153 +1623,68 @@ endrepeat
   15,R,U,X
   15,U,C
 
-#2dash up-right
+#Up-Right.Wind.2d
   40
    2,L,J
-  10,R,J
+   5,R,J
+   4,R
   15,U,X
   10,R,U,C
-   9,R,K,G
-  15,R,D,X
-   9,R,D
-   1,G
-   9,R,J,G
-   8,U,X
-  13,R,J,G
-   5,R,K,G
-   4,R
-  15,R,D,X
-   9,R,D
-   1,G
-   9,R,J,G
-  11,U,X
-  11,R,J
-  13,R
-   6,R,Z
-   8,R,J
-
-#right-up
-  40
-   1,R,J
-  38,R,D
-   1,G
-   9,R,J,G
-   9,U,X
-  12,R,J
    8,R,K,G
-  15,R,U,X
-  12,R,J,G
-   7,R,K,G
-
-#up-right no wb
-  40
-  11,J
-  14,U,X
-   1,J
-   5,R,J
-  10,R,U,X
-   4,R,K,G
-   5,R
-  15,R,D,X
-   9,R,D
-   1,G
-   9,R,J,G
-   8,U,X
-  13,R,J,G
-   5,R,K,G
-   4,R
-  15,R,D,X
-   9,R,D
-   1,G
-   9,R,J,G
-  11,U,X
-  11,R,J
-  13,R
-   4,R,Z
-   1,R,J
-   7,R
-   2,R,J
-
-#right-upwind
-  40
-   1,R,J
-   5,R
-  15,R,D,X
-  25,R,D
+  27,R,D,X
    1,G
    9,R,J,G
    6,U,X
   13,R,J
    7,R,K,G
-  15,R,D,X
-  11,R,D
-   1,G
-  13,R,J,G
-   6,U,X
-  12,R,J
-   1,R,K,G
-   7,R,J,G
-  15,R,D,X
-  11,R,D
+  26,R,D,X
    1,G
    9,R,J,G
    5,U,X
   14,R,J
    9,R
    2
-   8,R,Z
+   7,R,Z
    6,R,J
+   1,R
 
-#Right
+#Right.PostWind.2d
   40
-#stalling to meet
-#faster cycle
-   2,R
    1,R,J
-  15,R,D
-   4,R
-  19,R,D
+  33,R,D
+   5
    1,G
-   1,R,J,G
-   8,R,J
+   9,R,J,G
   10,U,X
   18,R,J
   25,R,D,X
    1,G
-   1,R,J,G
-   8,R,J
-   4,R
-  10,U,X
-  12,R,J
+  14,R,J,G
+  11,U,Z
+  11,R,J
    8,R,K,G
-  15,R,D,X
-   9,R,D
+  24,R,D,X
    1,G
-   1,R,J,G
-   3,R,J
-   9,R
-   7,U,X
-  21,R,J
-   6,R,K,G
-   4,R
-   1,R
-   2
+   9,R,J,G
+   5,U,X
+  22,R,J
+   5,R,K,G
+   7,R
    6,R,Z
    8,R,J
 
-#seeker lmao
+#Right-Up.Seeker.2d
   40
    1,R,J
   38,R,D
    1,G
    9,R,J,G
-  12,U,X
-   8,R,J
+  14,U,X
+   6,R,J
   18,R,U,X
   15,R,U,Z
    8,U,X
-
-#Up Key
+#Up.Key.2d
   40
    2,L,J
   10,R,J
@@ -1775,14 +1697,17 @@ endrepeat
   16,L,J
    1,K
   25,R,K
-repeat 12
+repeat 7
    1,G
    3,D
 endrepeat
-   6,J
-   5,R
+#Key cycle
+   6,G
+#-------
+   1
+   9,J
    7,R,Z
-  10,R,J,G
+   8,R,J,G
    7,U,X
   40
 
@@ -1899,4 +1824,4 @@ repeat 33
 endrepeat
    1
 #Checkpoint time
-#4:41.792(16576)
+#4:40.993(16529)
