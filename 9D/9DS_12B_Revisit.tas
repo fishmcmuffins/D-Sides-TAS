@@ -1,16 +1,82 @@
-RecordCount: 1961
+RecordCount: 2139
 
 console load nameguysdsidespack/0/10-Farewell 102480 -15536
    1
 
-#lvl_k-01
+#lvl_k-01 (1)
   36
 #Start
+  28,L,U,X
+   4,Z
+   4,L,J
+   2,L
+   4,L,J
+   5,L
+   1,G
+   6,K
+   7
+  23,U,G
+   6,J,G
+  40
+
+#lvl_k-01b
+   4
+   1,K,G
+   6
+   6,L,D,X
+   1,R,J
+   3,R
+   1,R,J
+   3,R
+   1,R,D,K
+   1,R,J,G
+   5,R
    2,R,J
-   2,R
-  24,R,U,X
-  15,R,D,C
+   4,R
+   5,R,D
+   5,R,K
+   1
+  14,R,U,X
+   1,R,J,G
+   3,J
+   1
+   1,R
+   1,R,K,G
+   6,R
+  31,R,K
+  15,U,X
+   7,R
+  14,R,U,Z
+   7,R,J,G
+   5,R
+   1,R,J
+  12,R,D
+   6,D
+   5,L,K
+  11,R,D,X
+   1,J
+   6
+  10,D,X
+   1,S
+   1,D,J
+  69,O
+  14,R,D,X
    1,L,J
+  12,D,X
+  40
+
+#lvl_k-01 (2)
+   9,D
+   1,J
+  10
+  15,D,X
+   8,R,D
+   5,R,Z
+   1,R,J
+   1,R
+   2,R,J
+  16,R,D
+   4
    8,L,Z
    1,R,J
    2
@@ -491,8 +557,8 @@ console load nameguysdsidespack/0/10-Farewell 102480 -15536
 #0:55.284(3252)
 
 #key +1
-#1:01.081(3593)
-#+341f
+#1:09.020(4060)
+#+808f
 
   40
 
