@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 1805
+RecordCount: 1827
 
 console load nameguysdsidespack/0/10-Farewell 212416 -50688.1666963995
    1
@@ -10,7 +10,7 @@ Set,Session.Inventory.Dashes,2
 
 #2 keys are collected in
 #reunification
-Repeat,21
+Repeat,19
 console givekey
 EndRepeat
 
@@ -289,21 +289,20 @@ EndStunPause
    1,R,J
    1,R,K,G
   14,R,D,X
-   2,R,J
-   1,R,K,G
-   1,R
+   1,R,J
   14,R,D,X
-   4,R,K
-   7,R,X
+   2,R,J
+   2,J
+   9,R,X
    7,L,C
    2,L,J
    1,J
   10,L,J
-  13,R,K
-  18,R,X
-   3
-   1,O
-  71
+  14,R,K
+  20,R,X
+   1,S
+   1,D,J
+  69,O
   19,L
   13,L,X
    4,L,K
@@ -443,15 +442,15 @@ EndStunPause
   12,J
   14,U,X
    9,R,J
-  40
-
 
 #original (upper lobby move.)
 #1:19.237(4661)
 
 #key +2
-#1:29.046(5238)
-#+577f
+#1:28.383(5199)
+#+538f
+
+  40
 
 
 #lvl_v-99
