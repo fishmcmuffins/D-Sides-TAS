@@ -1057,47 +1057,46 @@ console load nameguysdsidespack/0/10-Farewell 132169 -30311
    9,L,J
   14,U,Z
    4,J
-#BRANCH KEYS 2
-  68,R,X
-   1,L,J
-  13,L,K
-  15,U,X
-  31,L
-   1,L,D
-   1,L,G
-   9,L,J
-  11,U,X
-  13,L,J
-  15,L,D,X
+  67,R,X
+   7,U,C
+  14,J
    8,L
-   5,L,D
-   1,L,G
-   9,L,J
-  12,U,X
-   9,L,J
-  15,L,U,X
-   1,J
-  10
-  15,D
-   5,L,D
-  15,R,X
-  15,R,C
+   8,L,J
+  11,L
+   2
+   8,L,U,Z
+   1,R
+   7,K,G
+  20,L,K
+   5,L
+   7
+  15,L,Z
+   1,R
+   4,J,G
+  11,L,J
+  15,U,X
+   1,K
+  15,R,D,X
+   1,G
+  11,R,J,G
+   1,R,K,G
+  22,R,J,G
  169
   22,R,X
    4,D,C
   12,R,U,C
    4,D,X
   10,U,X
-   4,R,J
-   4,R
-   2,L,K
-   4,L
+   7
+   1,L,J,G
+   2,R,J
+   1,K
 
 #original
 #2:28.767(8751)
 
 #key +3 (almost)
-#2:46.940(9820)
-#+1069f
+#2:46.430(9790)
+#+1039f
 
   40
