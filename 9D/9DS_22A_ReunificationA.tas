@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 2221
+RecordCount: 2356
 
 console load nameguysdsidespack/0/10-Farewell 212416 -50688.1666963995
    1
@@ -109,44 +109,85 @@ EndRepeat
    7
    3,R
   28,R,J
-  14,U,X
-   4,K
-  14,U,X
-  13,J
-   2
-   1,K
-   5
-   2,L
-   1,R,J
-   6,J
   15,U,X
-   6,K
-  12,R,K
-   5,X
+   4,R,K
+   6,R,Z
+   1,R,J
+   1,R
    2,R,J
+   1,R,K,G
+   5,R
+  43
+
+#lvl_v-01
+   6,R
+   2,R,D
+   1,R,J
+  18,R,D
+   3,G
+   1
+   1,G
+  22,R,Z
+   4
+  31,R,V
+  28,R,U,Z
+  15,R,X
+  13,R,D
+  10,L,D
+  14,L
+   1,L,D
+   1,G
+   1,L,J,G
+  13,L
+   1,S
+   1,D,J
+  69,O
+   1,R,K
+   5,R,X
+   6,L,J
+   1,L,K,G
+   9,L
+  40
+
+#lvl_v-00-lobby (3)
+   1,L
+   4,L,D,J
+   3,L
+  14,U,X
+  10,J
+   3,L,J
+  14,U,X
+   6,K
+  10,R,K
+   1,R,J,G
+   8,R,K,G
   43
 
 #lvl_v-02
-  10,R,J
+   1,R
+   7,R,K
+   1,J
+   1,R,J
+   5,R
+   3,R,J
   14,R,Z
   10,R,J
    3,R
   15,R,D,X
-   4,R,J
-   1,R
-  15,R,Z
-   5,R,D,X
+   2,R,J
+   3,R
+  16,R,Z
    5,R
   16
   21,U,X
-  21,U,C
+  20,U,C
   40
 
 #lvl_v-03
    1
   72,O
 #hazardcycle_v-00-lobby
-   2
+   1
 #endhazardcycle_v-00-lobby
    1,R,D,J
   18,R,U,X
@@ -155,7 +196,7 @@ EndRepeat
   20,L,U,X
   40
 
-#lvl_v-00-lobby (3)
+#lvl_v-00-lobby (4)
    4,L
   15,U,X
   12,L
@@ -491,8 +532,8 @@ EndStunPause
 #1:19.237(4661)
 
 #key +3
-#1:33.262(5486)
-#+825f
+#1:39.246(5838)
+#+1177f
 
   40
 
