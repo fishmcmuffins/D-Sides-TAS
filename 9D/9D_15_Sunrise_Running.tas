@@ -3,7 +3,7 @@ console load nameguysdsidespack/0/10-Farewell 135764 -35048
 #console load nameguysdsidespack/0/10-Farewell 135765 -37401
 #play,Section Upwind,3
    
-#console load nameguysdsidespack/0/10-Farewell 137521 -39599
+#console load nameguysdsidespack/0/10-Farewell 137524 -39588.42
 #play,Section Mixed Wind 1,37
 
 #console load nameguysdsidespack/0/10-Farewell 142781 -39808
@@ -34,8 +34,6 @@ console load nameguysdsidespack/0/10-Farewell 135764 -35048
    8,R,J,G
    4,R
    3
-
-#lvl_p-01
   10,R,X
    3,R,J
    4,R,K,G
@@ -985,3 +983,5 @@ AnalogMode,Precise
   13,R,K,G
 #2:02.910(7230)
   40
+
+AnalogMode Ignore
