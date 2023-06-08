@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 2421
+RecordCount: 2477
 
 console load nameguysdsidespack/0/10-Farewell 212416 -50688.1666963995
    1
@@ -210,9 +210,6 @@ EndRepeat
    1,S
    1,D,J
   69,O
-#hazardcycle_v-00-lobby
-   0
-#endhazardcycle_v-00-lobby
    1,R,D,J
   18,R,U,X
   15,U,C
@@ -258,17 +255,46 @@ EndRepeat
    6,L
   15,L,Z
   27,L,D
-   2,L,J
-  13,U,X
-  11,K
-  12,L,X
-   7,R,J
+  15,U,X
+  11,L,U,C
+   3,J,G
+   7,L
+  14,L,D,X
+   1,L,J
+  10,L,D,X
+  43
+
+#lvl_v-07
+   5,L,J
+  14,L,D,X
+   8,L,J
+  20,L,D
+   3,D
+   5,L,D
+  15,L,Z
+   7,L,X
+   1,S
+   1,D,J
+  69,O
+#hazardcycle_v-00-lobby
+   2
+#endhazardcycle_v-00-lobby
+   5,L,Z
+   1,R,J
+   4,R
+  40
+
+#lvl_v-00-lobby (5)
+   1,R
+   2,R,J
+   1,R
+   1,R,K
+   4,R
+   7,R,J,G
    5,R
-   3,R,J
    1
    1,R,J
-   2,J
-   2
+   3,R
   24,R,U,Z
    6,R,X
    2,K,G
@@ -555,9 +581,9 @@ EndStunPause
 #original (upper lobby move.)
 #1:19.237(4661)
 
-#key +3
-#1:44.006(6118)
-#+1457f
+#key +6
+#1:48.256(6368)
+#+1707f
 
   40
 
