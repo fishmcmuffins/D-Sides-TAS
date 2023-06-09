@@ -363,7 +363,81 @@ EndStunPause
   40
 
 #lvl_e-00
-Read,9D_07,lvl_e-00,lvl_e-05
+   7,L,J
+   5,L
+   1
+   1,L
+   1
+  15,R,X
+   1,R,K
+   4,K
+  18,R,K
+  15,U,X
+  13,R
+   6,J,G
+   2
+   4,K,G
+   1
+   5,L
+   1
+   4,Z
+   1,R,J
+   4,R
+  40
+
+#lvl_e-01
+   2,R
+   1,R,J
+   3,R
+  14,R,D,X
+   1,R,J
+   4,D,X
+   3,R,X
+   8,R,C
+   4,D,X
+   3,R,X
+   6,D,C
+  15,R,X
+  15,R,U,C
+  12,R,D
+  25,L,D
+   2,D
+  19,R,D,X
+   4,D,C
+  15,R,C
+   4,D,X
+  13,R,U,X
+   9,U,C
+  63,R,J
+  15,U,X
+  19,R,J
+  15,R,D,X
+  10,R,D
+   3,D
+  17,R,C
+  14,R,X
+   7,R,J,G
+  19,R
+  15,U,X
+   5,R
+   6,R,X
+   1,R,J,G
+   5,R
+   1,R,J
+  13,R
+   1,R,K
+   1,R,J
+   1,R,K
+   1,R,J
+   6,R,K
+   2,R
+   1
+   4,R,J,G
+   1
+   1,R,K,G
+   3,R
+  40
+Read,9D_07,lvl_e-02,lvl_e-05
 
 #lvl_e-05
    7,R,K,G
