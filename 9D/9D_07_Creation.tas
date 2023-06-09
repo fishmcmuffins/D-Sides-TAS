@@ -61,45 +61,37 @@ SkipInput 3 1
 EndStunPause
 #endstun_dd-00-lobby
    1,J
-   2,K,G
-   4
-   3,L
-   6,L,Z
-   1,L,J
-   7,L
-  11,L,D,K
-   8,U,X
-  40
-
-#lvl_e-00
-   7,L,J
-   5,L
-   1
-   1,L
-   1
-  15,R,X
-   1,R,K
-   4,K
-  18,R,K
-  15,U,X
-  13,R
-   6,J,G
-   2
-   4,K,G
-   1
-   5,L
-   1
-   4,Z
+   1,R,K,G
+   1,K
+   5
+   2,L
+   1,D,J
    1,R,J
-   4,R
+   1,R,K,G
+   4,R,J,G
+  12,U,X
   40
 
 #lvl_e-01
+   5
+   1,L
+   1
+   1,L
+  20,L,J
+   4,R,X
+  11,U,X
+   1,L
+   1,R
+   2,K,G
+   1
+   1,R,J,G
+   1,R,K,G
    2,R
-   1,R,J
-   3,R
-  14,R,D,X
-   1,R,J
+   1
+   4,R
+   4,Z
+   1,R,K
+   8,R
    4,D,X
    3,R,X
    8,R,C
@@ -262,5 +254,5 @@ EndStunPause
    7,R,J
    1,R,K,G
    2,R
-#0:37.774(2222)
+#0:35.989(2117)
   40
