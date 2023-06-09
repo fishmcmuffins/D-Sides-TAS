@@ -326,15 +326,15 @@ Read,9D_15,lvl_p-02,CP-59
   14,R,Z
    1,R,J
    1,R
-  10,R,U,X
-   2,R,J,G
+  10,R,U,Z
+   4,R,J,G
    5,R
-   9,R,J
+   7,R,J
   40
 
 #lvl_p-04 (1)
    4,R,J
-  16,U,X
+  13,U,X
   23,R,J
   26,L,D,X
    5,L,D,C
@@ -599,8 +599,8 @@ Read,9D_15,lvl_p-05,CP-51
 #2:02.910(7230)
 
 #key +2 (kind of)
-#2:09.625(7625)
-#+395f
+#2:09.574(7622)
+#+392f
 
   40
 AnalogueMode,Ignore
