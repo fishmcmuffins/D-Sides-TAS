@@ -1,15 +1,4 @@
 console load nameguysdsidespack/0/10-Farewell 135764 -35048
-
-#console load nameguysdsidespack/0/10-Farewell 135765 -37401
-#play,Section Upwind,3
-   
-#console load nameguysdsidespack/0/10-Farewell 137524 -39588.42
-#play,Section Mixed Wind 1,37
-
-#console load nameguysdsidespack/0/10-Farewell 142781 -39808
-#play,Section Mixed Wind 2,37
-
-#console load nameguysdsidespack/0/10-Farewell 135943 -35144
    1
   36
    8,U,X
@@ -285,7 +274,6 @@ console load nameguysdsidespack/0/10-Farewell 135764 -35048
    1,R
    7,K,G
   40,L,K
-#Section Upwind
  203
   40
 
@@ -468,8 +456,6 @@ console load nameguysdsidespack/0/10-Farewell 135764 -35048
   11,R,K
   12,R,J,G
   10,K,G
-
-#Section Mixed Wind 1
    9,R,Z
    1,R,J
    2,R,K,G
@@ -740,8 +726,6 @@ AnalogMode,Precise
   13,U,C
    8,R,J
   11,R
-
-#Section Mixed Wind 2
    8,R,Z
   43
 
