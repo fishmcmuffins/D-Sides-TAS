@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 130
+RecordCount: 132
 console load nameguysdsidespack/0/10-Farewell 212592 -52400
    1
 
@@ -52,7 +52,7 @@ console load nameguysdsidespack/0/10-Farewell 212592 -52400
    8,R,D
    1,D
    3,R,D
-   4,R
+   3,R
   13,R,U,Z
    1,K
    7
@@ -98,7 +98,7 @@ console load nameguysdsidespack/0/10-Farewell 212592 -52400
    4,J
   13,R,Z
    2,R,K
-#0:09.214(542)
+#0:09.197(541)
   40
 
 #lvl_w-00-point-of-no-return
