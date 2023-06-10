@@ -75,7 +75,8 @@ EndStunPause
   19,R,D
   28,L,D
   14,L
-  83
+   6
+  77
   10,R,X
    1,S
    1,D,J
@@ -86,9 +87,14 @@ StunPause
    9,R,J
   10,R
 SkipInput 3 1
-  26,R,D,X
+  15,R,D,X
+   2,R,D
+   5,D
 EndStunPause
-   9,R,D
+   1,R
+   1,R,D
+   2,R
+  10,R,D
    1,S
    1,D,J
   69,O
@@ -146,81 +152,71 @@ EndStunPause
    8,U,X
   13,R,J
   34,R
-  96,R
-   4,D,X
-   3,L,J
-  40
-
-#lvl_cc-00-lobby (3)
-   8,L,J
+   1,S
+   1,D,J
+  69,O
+  12,R
+   1,R,K
+  15,D,X
+  10,L,C
+  30,R,J
+  15,U,Z
+   5,R
+  28,R,J
   15,U,X
-   9,R,J,G
-   7,R
-   1,R,J
-   4,D,X
-   2,R,J
-   2,R,K,G
-   7,R
+   5,R
   40
 
 #lvl_cc-02
-   8,R,D,X
-   1,R,J
-   7,R
-   7,R,J
-   6,R,K,G
-   7,R
-   1,R,J
-   1,R
-   4,D,X
-  10,R,X
+  15,R
+   8,J,G
+   1
+   1,K,G
+   1
+   5,R,Z
    1,R,J
    6,R
   23,R,J
   15,U,X
    3,R
-   6,K,G
-   1,R,K
-   3,R
+   5,K,G
+   4,R,K
    1,R,J,G
    7,R
-   7,R,J
-   4,R
-  15,R,D,X
-  15,R,D,C
-  14,D
-   4,L,D
-   2,L
+   4,Z
+   1,R,K
+   7
+  17,R,D
+   2,L,D
+  10,D
    1,L,D
-   1,L
-   4,D,X
+   1
+   5,L
+   1,L,D
+  10,R,X
+  18,R,J
+  31,R,U,X
+   4,Z
    1,R,J
-   6,R
-  16,J
-   3,R,J
-  31,R,U,C
-  13,R,X
-  10,R,J
-   5,R
-   2,R,J
+   6
    1,R
-  15,R,X
-   4,D,C
-   4,L,C
+  14,R,K
+  16,R,X
+   1
+   8,L,Z
    1,R,J
    6,R
-  12,R,J
-  28,R,D
-  14,R,X
+  26,R,K
+  15,R,D,X
+  13,R
    1,S
    1,D,J
-   1,O
-  68
+  69,O
    4,D,X
    3,L,J
   40
 
-#lvl_cc-00-lobby (4)
+#lvl_cc-00-lobby (3)
   11,L,J
   15,U,X
    4,R,J,G
@@ -251,37 +247,41 @@ EndStunPause
    3,R,J
    1,J
    6,R,J
-   2,R
-   5
-   4,D,X
-   3,R,X
+   1,R
+   2
+   4,R
+   7,R,Z
    1,R,J
    4,R
    1,R,J
    1,R
-   1,S
-   1,X
-   9,J
-   3,R,J
-  28,R,K
-  27,R,U,X
-   4,D,C
-   3,L,C
+   1,R,J
+   1,R
+  28,R,J
+  28,R,U,X
+   7,L,D,C
    1,R,J
    7,R
-   4,R,D,J
+   4,R,D,K
    5,R
-  39,R,J
-   4,R,D
+  31,R,K
+   1,R,D
+   1,R
+   7,R,D
+   1,R
+   1,R,D
   25,R,X
-   4,D,C
+   4,Z
    1,R,J
    6,R
-   9,R,J
-   3,R
-  17,D
-   4,D,X
-   8,R,U,X
+   8,R,K
+   1,R
+   3
+   1,R
+   2,K
+   1
+  12,R
+  10,R,U,X
    1,S
    1,D,J
   69,O
@@ -293,27 +293,31 @@ EndStunPause
    4,L
   40
 
-#lvl_cc-00-lobby (5)
+#lvl_cc-00-lobby (4)
    3,L
-   2,L,J
+   5,L,D,J
   15,L,D,X
-  37,R,D
-  11,L,D
-  10,R,Z
-  27,L,J
-  14,U,X
-  14,J
+  15,L
+   1,L,D
+  11,D
+  10,L,D
+  21,L,Z
+   1,L,J,G
+   3,R,J
+   3,L,J
    1,L,K,G
-   8,L,J,G
+   7,L,J,G
    5,L
    2,L,J
-   2,L
+   1,L
+   1,L,J
+   1,L
    5,L,K
   15,U,X
   31,L,J
    2,L
    1,D
-  84
+  71
   12,D,J
   12,K,G
    5,J,G
@@ -325,7 +329,7 @@ EndStunPause
 
 #lvl_cc-06
 Read,9D_04,lvl_cc-06,hazardcycle_cc-07
-   2
+   0
 Read,9D_04,endhazardcycle_cc-07,lvl_d-01
 
 #lvl_d-01
@@ -359,8 +363,8 @@ Read,9D_04,endhazardcycle_cc-07,lvl_d-01
 #original
 #0:47.549(2797)
 
-#9DS 04, +4 keys
-#1:21.583(4799)
-#+2002f
+#9DS 04, +7 keys
+#1:19.407(4671)
+#+1874f
 
   40
