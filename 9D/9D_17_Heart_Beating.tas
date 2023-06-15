@@ -1432,8 +1432,10 @@ AnalogMode,Precise
    1,R,K
    9,R
  237
-#2:21.168(8304)
+#3:38.195(12835)
   40
 
 #lvl_t-00
   68
+
+AnalogMode,Ignore
