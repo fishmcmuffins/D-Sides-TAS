@@ -663,7 +663,7 @@ AnalogMode,Precise
    9,D,G
    3,R,D,G
    1,D
-   4
+   3
   14,L,D,X
    1,R,J
    5,R,D,X
@@ -753,17 +753,16 @@ AnalogMode,Precise
    4,R
   13,R,J
   10,U,X
-  21,R,G
-   3
+  19,R,G
+   2,G
+   1,L
    1,L,K,G
-   1,R
-   5,L
-   1,L,J
-   6,L
+   2,K
+   7
   15,L,X
   15,L,C
-   3
-  14,L,Z
+  15,L,X
+   8,L,Z
    1,R,J
    6,R
    1,R,K
@@ -1341,7 +1340,7 @@ AnalogMode,Precise
    1,R,K
    9,R
  237
-#3:32.551(12503)
+#3:32.483(12499)
   40
 
 #lvl_t-00
