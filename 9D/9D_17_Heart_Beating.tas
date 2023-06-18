@@ -132,26 +132,24 @@ AnalogMode,Precise
 
 #lvl_q-10
   10,R,G
-   8,R,J,G
-   3,R,J
-   7,R
-  11,U,Z
+   3,R,J,G
+   4,J,G
+   7,J
+  14,R,U,Z
   28,R,D,G
    8,F,90
-   9,F,73.3
-  15,F,61.02
+  20,F,55.32
   15,R,Z
-   1,R,G
-  27,R,D
-  33,F,132.85
-  23,F,109.565
-  29,F,57.45
-   4,F,58.76
-  12,F,37.28
+  28,R,D,G
+  33,F,133.48
+  23,F,108.8
+  29,F,56.6
+   4,F,58.7
+  12,F,38.7
   11,F,98
   11,F,158
-   7,F,184.6
-   1,F,182.4
+   6,F,187.4
+   2,F,180
    8,F,148.3
    9,R,Z
    1,R,J
@@ -723,53 +721,64 @@ AnalogMode,Precise
 
 #lvl_r-07p
    1,L,J
-  11,R,J
-   1,K
-   7,L,K
-   6,L
-   2
-  14,R,Z
-   4,R,J
-   5,R,D,X
+   6,R,J
+   9,R,U,X
+   1,R,K,G
+  10,R
+  14,L,D,X
+   1,R,J
+   8,R,D,X
   13,G
    4,R,K,G
    9,R,G
   41,R,U,K,G
   20,R,D,G
-   1,R,J,G
-  20,R,G
-  19,R,D,G
-   8,R,K,G
-  11,G
-   3,R,G
-  10,L,J,G
-   1,R
-  14,R,D,X
-   1,R,J
-   7,R,D,X
+   1,D,J
+   3,R
+  13,L,D,X
+   2,R,J
+   6,R,D,J,X
+  13,G
+  17,R,U,K,G
+  10,U,K,G
+   1,R,U,K,G
+   1,U,K,G
+   1
+  13,R,D,X
+   1,L,J
+   1,L
+  13,R,Z
    1,L,J
    6,L
    1,L,J
-   3
+   1,L
+   1
+   1,L
    5,L,Z
    1,R,K
    4,R
   13,R,J
-  10,U,X
-  19,R,G
-   2,G
-   1,L
-   1,L,K,G
-   2,K
-   7
+  11,U,X
+  17,R,G
+   4,G
+   1
+   2,L,K,G
+   7,L
+   4,Z
+   1,L,J
+   6
+   2,L
+   2
   15,L,X
   15,L,C
-  15,L,X
    8,L,Z
    1,R,J
    6,R
    1,R,K
    7,R,D,X
+#jelly x subpx must be
+#>= .00 for the super
+#in next room to work
   13,G
    2,R,J,G
   40
@@ -1343,7 +1352,7 @@ AnalogMode,Precise
    1,R,K
    9,R
  237
-#3:30.290(12370)
+#3:30.052(12356)
   40
 
 #lvl_t-00
