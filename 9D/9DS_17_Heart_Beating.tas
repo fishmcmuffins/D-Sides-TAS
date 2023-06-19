@@ -1,0 +1,86 @@
+console load nameguysdsidespack/0/10-Farewell 154964 -45183
+   1
+
+#lvl_q-07
+  36
+Set,Session.Inventory.NoRefills,true
+Set,Level.Lighting.Alpha,0.0625
+Set,Session.LightingAlphaAdd,-0.5
+Set,Level.Bloom.Base,0
+Set,Session.BloomBaseAdd,-1
+   5,U,X
+  40
+
+#Start
+Read,9D_17,Start,lvl_q-13
+
+#lvl_q-13
+   4,R
+   2,R,J
+   1,R
+   4
+  12,R,Z
+   1,R,J
+  14,R,U,J,G
+   4,R,K,G
+  53,R,D,G
+   1,R,J,G
+   2,R,G
+   1,R,D
+   1,R,K,G
+   9,R
+  14,L,D,X
+   1,R,J
+   5,R,D,X
+  13,G
+  11,R,K,G
+  20,R,G
+   2,R,K,G
+  43,R,D,G
+  36,R,G
+   1,R,D
+   3,R
+   1,R,J
+   9,R
+  12,L,D,X
+   1,R,J
+  13,G
+  24,R,U,K,G
+   8,R,D,G
+   1,R
+  47,R,D
+  28,D
+   1,R
+   1
+   1,R
+   1
+  18,R,D,X
+  37,R,U,J,G
+   2,U,G
+  16,D,G
+  18,R,U,G
+   1
+   6,L
+   5,R,X
+   1,R,J,G
+   1
+   7,R
+   1,R,J
+   4,R
+  28,R,G
+   1,R,K
+  51,R
+   9,L
+  11,L,D,J
+   4,J
+  20,U,X
+  22,U,C
+  21,U,X
+  15,R,C
+   9,R,X
+  17,R,D,G
+  40
+
+Read,9D_17,lvl_r-00
+
+#3:31.429(12437)
