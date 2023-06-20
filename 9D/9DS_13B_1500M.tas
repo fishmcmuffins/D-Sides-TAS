@@ -3,7 +3,6 @@ console load nameguysdsidespack/0/10-Farewell 114584 -21424
 
 #Start
 #lvl_m-01
-#  36
 Read,9D_13B,Start,lvl_m-03
 
 #lvl_m-03
@@ -91,7 +90,87 @@ Read,9D_13B,lvl_m-04,lvl_m-08
    9,R,C
    9,R,X
 #hazardcycle_m-08s
+#comment out next 2 lines
+#to access stunless route
    2
+play,endhazardcycle_m-08s
+
+#====================
+
+#stunless_m-08s
+  15,U,C
+  17,R,G
+   1,U,G
+   1,G
+   1,U,G
+   2,L
+  10,U,Z
+  11,L,J
+   1,K,G
+   7
+   2,J
+  11,L,Z
+   1,K
+   3,J
+   8,U,X
+  40
+
+#lvl_m-08s (1)
+   9,J
+   1,K,G
+   1
+  13,L,Z
+   1,R,J
+   6
+   8,R,D,K
+   4,R
+   1,L,J,G
+  12,R,J
+  15,U,X
+  27,R,U
+  17,F,91
+  41,F,90
+  11,F,120
+   2,F,90
+   1
+  11,F,225
+  20,F,270
+  11,F,301
+   6,F,280.5
+  20,L
+   7
+  21,L,U,X
+  21,R,D
+   6,D
+   1,R,D
+   1,D
+  12,R,D
+  18,R,X
+  15,R,C
+  18,R,U,X
+  15,R,Z
+   7,R,X
+   1,R,J,G
+   9,R,K,G
+  11,R
+   1,J
+   7
+   1,R,D
+   1
+   1,R,D
+  15,D,X
+   1,R
+   4,R,J
+   4,J
+   3,G
+  14,R,D,X
+   1,R,J
+  10,D,X
+  40
+#endstunless_m-08s
+
+#====================
+
 #endhazardcycle_m-08s
   15,U,C
   17,R,G
@@ -110,7 +189,7 @@ Read,9D_13B,lvl_m-04,lvl_m-08
    8,U,X
   40
 
-#lvl_m-08s
+#lvl_m-08s (2)
    4,J
    1,K
    1,J
