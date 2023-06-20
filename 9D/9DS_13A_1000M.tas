@@ -1,4 +1,4 @@
-RecordCount: 535
+RecordCount: 537
 
 console load nameguysdsidespack/0/10-Farewell 109280 -18296
    1
@@ -49,6 +49,10 @@ Read,9D_13A,Start,lvl_l-03
   40
 
 #lvl_l-03 (2)
+
+play,route_l-04key
+
+#route_l-04nokey
   12,R,J
   14,R,Z
   10,R,J
@@ -72,7 +76,57 @@ Read,9D_13A,Start,lvl_l-03
   19,R,D,X
    1,R,J
    3,R
+  20,U,X
+  14,U,C
+  40
 
+#lvl_l-04 (1)
+   3
+  15,J
+  15,U,X
+   8,R
+   4,J
+  16,R
+#keycycle_l-04
+  10
+#endkeycycle_l-04
+repeat 36
+   1,D
+   1
+endrepeat
+   7,D,J
+   3,L,J
+  14,U,X
+   1,J
+  40
+#endroute_l-04nokey
+
+#====================
+
+#route_l-04key
+  12,R,J
+  14,R,Z
+  10,R,J
+   4,D,X
+  18,R,U,X
+   4,R,J
+   1,R,K
+   5,R
+   1,R,K
+  18,R
+  17,R,U,X
+   4,R,J
+   4,D,X
+   3,R,X
+   4,R,J
+   1,R
+   1
+  12,R
+   1,R,J,G
+  17,R
+  19,R,D,X
+   1,R,J
+   3,R
   23,R,U,X
   25,R,D,C
    9,R
@@ -84,7 +138,7 @@ Read,9D_13A,Start,lvl_l-03
    1,K
   40
 
-#lvl_l-04 (1)
+#lvl_l-04 (2)
    1,J
   10,R,J
    5,R
@@ -125,7 +179,7 @@ Read,9D_13A,Start,lvl_l-03
    6,U,X
   40
 
-#lvl_l-04 (2)
+#lvl_l-04 (3)
    1,S
    1,D,J
   69,O
@@ -139,6 +193,9 @@ Read,9D_13A,Start,lvl_l-03
   14,U,X
    1,J
   40
+#endroute_l-04key
+
+#====================
 
 #lvl_l-05
    4,R
@@ -163,7 +220,7 @@ Read,9D_13A,Start,lvl_l-03
   13,R,D
   40
 
-#lvl_l-04 (3)
+#lvl_l-04 (4)
    4,R,D
    9,R,D,X
    5,R,J
@@ -280,7 +337,7 @@ Read,9D_13A,lvl_l-06,lvl_l-11
 #1:07.388(3964)
 
 #key +2
-#1:21.668(4804)
-#+840f
+#1:21.345(4785)
+#+821f
 
   40
