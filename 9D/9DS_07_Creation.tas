@@ -4,10 +4,6 @@ console load nameguysdsidespack/0/10-Farewell dd-04
 #lvl_dd-04
   36
 
-#hazardcycle_dd-00-lobby
-   2
-#endhazardcycle_dd-00-lobby
-
 #Start
    6,L,J
   13,U,X
@@ -65,14 +61,104 @@ console load nameguysdsidespack/0/10-Farewell dd-04
    1,S
    1,D,J
   69,O
+#hazardcycle_dd-00-lobby
+   2
+#endhazardcycle_dd-00-lobby
    4,D,Z
    2,R,J
    3,R
    1,R,K,G
    9,R
   40
+#branch_dd-04_exit
+play,route_dd-02
 
 #lvl_dd-00-lobby (1)
+#route_e-00
+   1,R
+  12,R,J
+  15,U,X
+   5,R
+   7,L,K
+   6,R,K
+   9,R
+   2
+   5,R,D,X
+   8,R,J
+   3,R,K,G
+   8,R
+  19,R,J
+   1,K,G
+  15,U,X
+   8,R,J
+  11,R
+   9,R,K
+  15,U,X
+  10,J,G
+   7,R
+  12,K
+  16,U,X
+  12,J,G
+  12,K,G
+  12,J,G
+  10,K,G
+   1,R,K
+   1,L
+   5,R,J,G
+   7,R
+  10,R,Z
+   4,L,K
+   1,L
+  12,L,K
+  45,L,Z
+   3,R
+   3,R,J
+   6,J
+  15,U,V
+   8,K
+   9,R,K
+   1,J,G
+#stun_dd-00-lobby
+   2,J,G
+StunPause
+   7,J,G
+   1
+   1,K,G
+   4
+   2,R
+   1,L
+   3,L,D
+   8,L,J
+   7,K,G
+   1,R,K
+   1,L,K
+   1,L,J,G
+   3,R,J
+   8,J
+   1,L,K,G
+   5,K
+   1,L,K
+   4,J
+SkipInput 3 1
+  15,R,U,Z
+   6,K,G
+EndStunPause
+#endstun_dd-00-lobby
+   2,K,G
+   1,J,G
+   4
+   3,L
+   6,L,Z
+   1,L,J
+   7,L
+  11,L,D,K
+   8,U,X
+  40
+#endroute_e-00
+
+#=====================
+
+#route_dd-02
    1,R
    9,R,J
   15,R,D,X
@@ -325,7 +411,7 @@ console load nameguysdsidespack/0/10-Farewell dd-04
    8,K
    9,R,K
    1,J,G
-#stun_d-00-lobby
+#stun_dd-00-lobby
    2,J,G
 StunPause
    7,J,G
@@ -350,7 +436,7 @@ SkipInput 3 1
   15,R,U,Z
    6,K,G
 EndStunPause
-#endstun_d-00-lobby
+#endstun_dd-00-lobby
    2,K,G
    1,J,G
    4
@@ -361,6 +447,9 @@ EndStunPause
   11,L,D,K
    8,U,X
   40
+#endroute_dd-02
+
+#====================
 
 #lvl_e-00
    7,L,J
