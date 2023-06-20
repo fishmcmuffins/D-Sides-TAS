@@ -393,68 +393,48 @@ Read,9D_04,endhazardcycle_cc-07,lvl_cc-08
 
 #lvl_cc-08
    1,R,D,J
-  14,R
+  13,R
+  15,D,X
+#keycycle_cc-08
+ 103
+#endkeycycle_cc-08
+   8,L,Z
    1,R,J
-  13,K
-   1,R,K
-   1,K
-   1,R,K
-   1,K
-   1,R,K
-  77,K
-  10,R
-   7,R,J
-   3,R
-  10,L,D,X
-  33,R,J
-  30,R,U,X
-   1
-   1,J,G
-   1,L,J
-  10,R,K,G
    7,R
-   4,Z
-   2,R,J
-   8,R
-   1,R,J
-   4,Z
+   1,R,K
+   5,R,D,X
    1,R,J
    7,R
   40
 
 #lvl_d-01
-   3,R,J
-   5,R,D,X
-   1,R,J,G
-   2,R
-   1
-   8,R
-   3,R,J
-   8,R
-   1,R,K,G
-   4,R
-   1
-   4,R
-   9,R,J
-   5,R
-   2,R,J
-   1,J
-   7,R
-  18,R,U,X
-  15,R,C
-  16,U,X
-  54,R,D
+   1,S
+   1,D,J
+  69,O
+   6,L,D,X
+   1,R,K
+   3,R
+   1,R,K
+   3,R
+   6,R,J
    1,R
-   1,R,D
-   1,R
+  12,R,Z
+   1,R,K
+   6,R
+  33,R,J
+  19,R,U,X
+  24,R,C
+  15,U,X
+  49,R,D
+   8,R
   25,R,Z
-  16,R,V
+  15,R,V
 
 #original
 #0:47.549(2797)
 
 #9DS 04, +7 keys
-#1:18.642(4626)
-#+1829f
+#1:18.608(4624)
+#+1827f
 
   40
