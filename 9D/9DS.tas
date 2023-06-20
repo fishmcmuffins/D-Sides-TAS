@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 703
+RecordCount: 713
 
 console hearts 1
 
@@ -13,29 +13,7 @@ console load nameguysdsidespack/0/10-Farewell
 
 #hazardcycle at start
    0
-Read,9D_01,Start,lvl_a-10
-   6,R,J,G
-   3,R
-   5,R,U,X
-   6,R,J,G
-   1,J
-   3,R,J
-   5,R
-   3,R,J
-  10,R
-   1,J,G
-   7,R,J
-   1,J
-   1,R,J
-   1,L
-  15,R,U,X
-  13,R,U,C
-   1,J,G
-   7,R
-   6,R,D,X
-   4,R,J
-   5,R
-  40
+Read,9D_01,Start
 
 #==========================
 #Peaceful Solitude
@@ -45,7 +23,7 @@ Read,9D_01,Start,lvl_a-10
 
 Read,9DS_02,route_aa-02,endroute_aa-02
 Read,9DS_02,lvl_aa-02,hazardcycle_aa-00-lobby
-   0
+   1
 Read,9DS_02,endhazardcycle_aa-00-lobby
 
 #2 keys remaining
@@ -85,8 +63,6 @@ Read,9D_04,endhazardcycle_cc-07,endstun_cc-07
   40
 Read,9DS_04,lvl_cc-08
 
-#3:54.328(13784)
-
 #3 keys remaining
 
 #==========================
@@ -94,19 +70,29 @@ Read,9DS_04,lvl_cc-08
 
 #hazardcycle in d-06
 
-#Read,9D_05,Start,hazardcycle_d-10
-#   0
-#Read,9D_05,hazardcycle_d-10
+Read,9D_05,Start,hazardcycle_d-10
+   0
+Read,9D_05,hazardcycle_d-10
 
 #==========================
 #Memories
 
 #stun in d-10
 
-#Read,9DS_06,Start
+Read,9DS_06,Start
+
+#7:04.949(24997)
+#4 keys remaining
 
 #==========================
 #Creation
+
+#S&Q used at the start
+#to help with drift in
+#depression. for now,
+#the inputs after the snq
+#menu to debug, but thats
+#just for testing purposes.
 
 #hazardcycle at start
 #stun in dd-00-lobby
