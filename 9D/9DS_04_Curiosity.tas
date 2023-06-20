@@ -25,9 +25,11 @@ console givekey
    1,K,G
    2,R,K
    9,K
+#keycycle_cc-00-lobby
  112,K,G
   21,L,K
   70,D
+#endkeycycle_cc-00-lobby
    9,D,J
    3
   12,K,G
@@ -104,6 +106,65 @@ EndStunPause
    1,S
    1,D,J
   69,O
+#branch_cc-03_spawn
+play,route_cc-01
+
+#===================
+
+#route_hubexit
+   2,L,J
+   1,J
+   3,L,J
+  10,R,D,X
+  20,R,J
+  15,U,X
+   7,J
+   4,L,J
+   1,K
+   4,L
+   1
+   2,L
+   4,L,J
+  11,U,X
+  40
+
+#lvl_cc-00-lobby (2)
+   6,R,J
+  12,J
+  15,U,X
+  12,J,G
+   7,R
+  10,R,Z
+  19,L,J
+  12,U,X
+  14,J
+   1,L,K,G
+   8,L,J,G
+   5,L
+   2,L,J
+   2,L
+   2,L,K
+  15,U,X
+  13,R,J
+   1,J
+   4,L,J
+   1,K
+   4,L,K
+  10,L
+   4
+  76,D
+  12,D,J
+  11,K,G
+   8,J,G
+   3,R,J
+   2,K
+  13,U,X
+  40
+#endroute_hubexit
+
+#===================
+
+#route_cc-01
    2,L,J
    1,J
    3,L,J
@@ -117,7 +178,7 @@ EndStunPause
   13,U,X
   40
 
-#lvl_cc-00-lobby (2)
+#lvl_cc-00-lobby (3)
    4,R
    2,R,J,G
    1,R,K,G
@@ -288,7 +349,7 @@ EndStunPause
    4,L
   40
 
-#lvl_cc-00-lobby (3)
+#lvl_cc-00-lobby (4)
    3,L
    5,L,D,J
   15,L,D,X
@@ -321,6 +382,9 @@ EndStunPause
    2,K
   13,U,X
   40
+#endroute_cc-01
+
+#===================
 
 #lvl_cc-06
 Read,9D_04,lvl_cc-06,hazardcycle_cc-07
