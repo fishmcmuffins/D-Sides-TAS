@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 773
+RecordCount: 799
 
 console hearts 1
 
@@ -61,7 +61,9 @@ Read,9D_04,endhazardcycle_cc-07,endstun_cc-07
    3,R,J
    9,R,D,X
   40
-Read,9DS_04,lvl_cc-08
+Read,9DS_04,lvl_cc-08,keycycle_cc-08
+ 105
+Read,9DS_04,endkeycycle_cc-08
 
 #3 keys remaining
 
@@ -71,7 +73,7 @@ Read,9DS_04,lvl_cc-08
 #hazardcycle in d-06
 
 Read,9D_05,Start,hazardcycle_d-10
-   0
+   1
 Read,9D_05,hazardcycle_d-10
 
 #==========================
@@ -87,34 +89,45 @@ Read,9DS_06,Start
 #==========================
 #Creation
 
-#S&Q used at the start
-#to help with drift in
-#depression. for now,
-#the inputs after the snq
-#menu to debug, but thats
-#just for testing purposes.
-
 #alternate route for (some) hub keys
 
 #hazardcycle at start
 #stun in dd-00-lobby
 
-unsafe
-   1,S
-   1,U
-   1,F,
-   1,U,J
-  31
-
-#debug
-  14
-   1,D
-   1,J
-  33
-  36
-   1
+   0
 Read,9DS_07,endhazardcycle_dd-00-lobby,branch_dd-04_exit
-Read,9DS_07,route_e-00,endroute_e-00
+Read,9DS_07,route_e-00,stun_dd-00-lobby
+   2,J,G
+StunPause
+   7,J,G
+   1
+   1,K,G
+   4
+   2,R
+   1,L
+   3,L,D
+   8,L,J
+   7,K,G
+   1,R,K
+   1,L,K
+   1,L,J,G
+   3,R,J
+   1,J
+EndStunPause
+StunPause
+   1,J
+EndStunPause
+StunPause
+   6,J
+   1,L,K,G
+   5,K
+   1,L,K
+   4,J
+SkipInput 3 1
+  15,R,U,Z
+   6,K,G
+EndStunPause
+Read,9DS_07,endstun_dd-00-lobby,endroute_e-00
 Read,9DS_07,lvl_e-00
 
 #5 keys remaining
@@ -135,25 +148,23 @@ Read,9D_08,Start
 #stun in h-01
 
 Read,9D_09,Start,hazardcycle_g-06
- 130
-  11
+   2
 Read,9D_09,endhazardcycle_g-06,stun_g-09
-   1,J
-   4,X
 StunPause
-   4,R,D
+   1,R,J
+SkipInput 3 1
+   8,R,D,X
 EndStunPause
    9,R,D
    1,R
    1,R,D
-   1,R,J,G
 StunPause
-   2,R,J,G
+   3,R,J,G
 EndStunPause
 Read,9D_09,endstun_g-09,stun_h-01
-   1,R,J
+   3,R,J
 StunPause
-  12,R,J
+  10,R,J
 EndStunPause
 Read,9D_09,endstun_h-01
 
@@ -165,7 +176,19 @@ Read,9D_09,endstun_h-01
 
 Read,9D_10,Start,hazardcycle_hh-08
    1
-Read,9D_10,endhazardcycle_hh-08
+Read,9D_10,endhazardcycle_hh-08,stun_hh-08
+StunPause
+   2,R,K
+SkipInput 3 1
+  13,R,D,X
+EndStunPause
+   2,R,D,X
+   1
+   7,R
+StunPause
+  16,R
+EndStunPause
+Read,9D_10,endstun_hh-08
 
 #==========================
 #Serenity
@@ -173,16 +196,16 @@ Read,9D_10,endhazardcycle_hh-08
 #hazardcycle at start
 #stun in i-05
 
-   0
+   2
 Read,9D_11,Start,stun_i-05
    2,R
 StunPause
    3,R,J
   10,R
 EndStunPause
-  24,R
+  25,R
 StunPause
-   4,R
+   3,R
 SkipInput 3 1
   15,R,Z
    1,R
@@ -196,10 +219,9 @@ Read,9D_11,endstun_i-05
 
 #hazardcycle in j-07
 
-Read,9DS_12A,Start,lvl_j-02 (1)
-Read,9D_12A,lvl_j-02,lvl_j-03
+Read,9D_12A,Start,lvl_j-03
 Read,9DS_12A,lvl_j-03,hazardcycle_j-07
-   2
+   1
 Read,9DS_12A,endhazardcycle_j-07
 
 #9 keys remaining
@@ -224,8 +246,9 @@ Read,9DS_13A,Start,lvl_l-03 (2)
 Read,9DS_13A,route_l-04nokey,keycycle_l-04
   13
 Read,9DS_13A,endkeycycle_l-04,endroute_l-04nokey
-Read,9DS_13A,lvl_l-05
-#16:31.100(58300)
+Read,9DS_13A,lvl_l-05,lvl_l-11
+Read,9D_13A,lvl_l-11
+#16:20.288(57664)
 #10 keys remaining
 
 #==========================
