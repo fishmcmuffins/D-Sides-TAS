@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 815
+RecordCount: 834
 
 console hearts 1
 
@@ -219,7 +219,7 @@ Read,9D_11,endstun_i-05
 
 Read,9D_12A,Start,lvl_j-03
 Read,9DS_12A,lvl_j-03,hazardcycle_j-07
-   0
+   1
 Read,9DS_12A,endhazardcycle_j-07
 
 #8 keys remaining
@@ -334,32 +334,39 @@ Read,9D_16,endstun_CP-37_2
 
 Read,9DS_17,Start
 
-#31:13.672(110216)
 #17 keys remaining
-   1
 
 #==========================
 #Parting
 
 #no global cycles
 
-#Read,9D_19,Start
+Read,9D_19,Start
 
 #==========================
 #Plural
 
 #stun in t-11
 
-#Read,9D_20,Start,hazardcycle_t-11
-#   1
-#Read,9D_20,endhazardcycle_t-11
+Read,9D_20,Start,hazardcycle_t-11
+   2
+Read,9D_20,endhazardcycle_t-11,stun_t-11
+   2,U
+StunPause
+   1
+EndStunPause
+StunPause
+SkipInput 3 1
+   8,U,C
+EndStunPause
+Read,9D_20,endstun_t-11
 
 #==========================
 #True Love
 
 #no global cycles
 
-#Read,9D_21,Start
+Read,9D_21,Start
 
 #==========================
 #Reunification-A
@@ -369,49 +376,39 @@ Read,9DS_17,Start
 #keydoor in v-00-upper
 #(kinda)
 
-#   0
-#Read,9DS_22A,Start,stun_v-00-lobby_1
-#  11,L,U,Z
-#StunPause
-#   4,L,U,Z
-#SkipInput 3 1
-#  14,U,C
-#   1,R,J
-#SkipInput 3 1
-#   8,R,U,J,Z
-#EndStunPause
-#   7,R,U,J,Z
-#Read,9DS_22A,endstun_v-00-lobby_1,stun_v-00-lobby_2
-#   1,R
-#   1,R,J
-#StunPause
-#   5,R,J
-#EndStunPause
-#   1,S,N
-#  10,O
-#   1,R,J
-#StunPause
-#   3,R,J
-#SkipInput 3 1
-#  15,U,Z
-#  10,R
-#SkipInput 3 1
-#  15,L,U,Z
-#   2
-#EndStunPause
-#   1,S,N
-#  10,O
-#   1
-#StunPause
-#   3
-#   3,L
-#   1,R
-#SkipInput 3 1
-#   7,R,Z
-#EndStunPause
-#Read,9DS_22A,endstun_v-00-lobby_2,keycycle_v-00-upper
-#   3
-#Read,9DS_22A,endkeycycle_v-00-upper
+   1
+Read,9DS_22A,Start,stun_v-00-lobby
+   1,R
+   2,R,J
+StunPause
+   7,R,J
+EndStunPause
+StunPause
+   1,R,J
+EndStunPause
+StunPause
+SkipInput 3 1
+  15,U,Z
+  10,R
+SkipInput 3 1
+  15,L,U,Z
+   5
+EndStunPause
+StunPause
+   1
+EndStunPause
+StunPause
+   3,L
+   1,R
+SkipInput 3 1
+   7,R,Z
+EndStunPause
+Read,9DS_22A,endstun_v-00-lobby
+
+   1
+
+#36:44.390(129670)
+#2 keys remaining
 
 #==========================
 #AREA_10eIIECKP_v99of_the_Mu
