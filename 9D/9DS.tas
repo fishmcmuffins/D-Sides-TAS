@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 799
+RecordCount: 815
 
 console hearts 1
 
@@ -83,14 +83,12 @@ Read,9D_05,hazardcycle_d-10
 
 Read,9DS_06,Start
 
-#7:04.949(24997)
 #4 keys remaining
 
 #==========================
 #Creation
 
 #alternate route for (some) hub keys
-
 #hazardcycle at start
 #stun in dd-00-lobby
 
@@ -221,10 +219,10 @@ Read,9D_11,endstun_i-05
 
 Read,9D_12A,Start,lvl_j-03
 Read,9DS_12A,lvl_j-03,hazardcycle_j-07
-   1
+   0
 Read,9DS_12A,endhazardcycle_j-07
 
-#9 keys remaining
+#8 keys remaining
 
 #==========================
 
@@ -235,7 +233,7 @@ Read,9DS_12A,endhazardcycle_j-07
 Read,9D_12B,Start,lvl_k-07
 Read,9DS_12B,lvl_k-07 (1)
 
-#10 keys remaining
+#9 keys remaining
 
 #==========================
 #1000M
@@ -248,38 +246,48 @@ Read,9DS_13A,route_l-04nokey,keycycle_l-04
 Read,9DS_13A,endkeycycle_l-04,endroute_l-04nokey
 Read,9DS_13A,lvl_l-05,lvl_l-11
 Read,9D_13A,lvl_l-11
-#16:20.288(57664)
-#10 keys remaining
+
+#9 keys remaining
 
 #==========================
 #1500M
 
 #stun in m-08s
 
-#Read,9DS_13B,Start,hazardcycle_m-08s
-#   2
-#Read,9DS_13B,endhazardcycle_m-08s
+Read,9DS_13B,Start,hazardcycle_m-08s
+Read,9DS_13B,stunless_m-08s,endstunless_m-08s
+Read,9DS_13B,lvl_m-08 (2)
+
+#11 keys remaining
 
 #==========================
 #2000M
 
 #no global cycles
 
-#Read,9DS_14A,Start
+Read,9DS_14A,Start
+
+#12 keys remaining
 
 #==========================
 #2500M
 
 #no global cycles
 
-#Read,9DS_14B,Start
+Read,9DS_14B,Start,lvl_o-10 (1)
+Read,9D_14B,lvl_o-10,lvl_o-11
+Read,9DS_14B,lvl_o-11
+
+#14 keys remaining
 
 #==========================
 #Sunrise Running
 
 #no global cycles
 
-#Read,9DS_15,Start
+Read,9DS_15,Start
+
+#16 keys remaining
 
 #==========================
 #Goodbye of the Mountain
@@ -287,37 +295,36 @@ Read,9D_13A,lvl_l-11
 #hazardcycle in CP-43
 #2 stuns in CP-37
 
-#Read,9D_16,Start,hazardcycle_CP-37
-#   1
-#Read,9D_16,endhazardcycle_CP-37,stun_CP-37_1
-#   2,R
-#StunPause
-#  11,R,U
-#SkipInput 3 1
-#  15,R,Z
-#   1,R,J
-#   1,R,K
-#   1,R,J
-#   1,R,K
-#   1,R,J
-#   1,R,K
-#EndStunPause
-#StunPause
-#   1,R,J
-#   1,R
-#EndStunPause
-#Read,9D_16,endstun_CP-37_1,stun_CP-37_2
-#   1,R,J
-#StunPause
-#   7,R,J
-#EndStunPause
-#StunPause
-#   4,R,J
-#   1,R,K,G
-#   1,R,D
-#   6,R,D
-#EndStunPause
-#Read,9D_16,endstun_CP-37_2
+Read,9D_16,Start,hazardcycle_CP-37
+   2
+Read,9D_16,endhazardcycle_CP-37,stun_CP-37_1
+   2,R
+StunPause
+  11,R,U
+SkipInput 3 1
+  15,R,Z
+   1,R,J
+   1,R,K
+EndStunPause
+StunPause
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R
+EndStunPause
+Read,9D_16,endstun_CP-37_1,stun_CP-37_2
+   1,R,J
+StunPause
+   1,R,J
+EndStunPause
+StunPause
+  10,R,J
+   1,R,K,G
+   7,R,D
+EndStunPause
+Read,9D_16,endstun_CP-37_2
 
 #==========================
 #Heart Beating
@@ -325,7 +332,11 @@ Read,9D_13A,lvl_l-11
 
 #no global cycles
 
-#Read,9D_17,Start
+Read,9DS_17,Start
+
+#31:13.672(110216)
+#17 keys remaining
+   1
 
 #==========================
 #Parting
