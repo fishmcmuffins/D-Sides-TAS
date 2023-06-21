@@ -418,7 +418,7 @@ console load nameguysdsidespack/0/10-Farewell 66964 -10384
    2,R
    2
 #hazardcycle_g-06
-   0
+   1
 #endhazardcycle_g-06
    3,K
    4,R,K
@@ -467,8 +467,10 @@ console load nameguysdsidespack/0/10-Farewell 66964 -10384
   15,L,U,X
   11,R
   24,U,G
-   4,G
-   2,U,G
+   3,G
+   1,U,G
+   1,G
+   1,U,G
    1
    1,R,J,G
    1,R,K,G
@@ -478,41 +480,42 @@ console load nameguysdsidespack/0/10-Farewell 66964 -10384
    1,R,K,G
    1,R,J,G
    1,R,K,G
-   4,R,J,G
-  15,R,D,X
+   1,R,J,G
+   5
+  13,R,D,X
 #stun_g-06
-   2,R
+   2,R,D,X
+   2,R,D
 StunPause
-   5,R
+   4,R,D
 EndStunPause
 #endstun_g-06
-   8,R,D
+   7,R,D
    4,R,D,J
    2,R,K,G
   40
 
 #lvl_g-07
-   1,R,K
-  11,R
-  13,R,U,Z
-   1,L
-   1,J,G
-   5
+   3
+   3,R
+   6,R,K
+  14,R,U,Z
+   1,L,J,G
+   5,R
   40
 
 #lvl_g-08
-   7,J
-   7,R,J
+  13,R,J
+   1,J
   17,R,U,Z
-   1,R,K,G
-   4,K
+   5,K,G
    5,R,K
    4,R,J,G
   11,R,U,X
    1,R,K,G
-  17,R,J,G
-   1,J
-   3,R,J
+   1,R,J,G
+   5,J
+  15,R,J
    3,R
   12,R,D,X
    4,R,K,G
@@ -523,14 +526,12 @@ EndStunPause
   40
 
 #lvl_g-09
-  25,R,J
+  25,R,D,J
 #stun_g-09
 StunPause
-   1,J
-   1,X
-SkipInput
-   3
-   4,R,D
+   1,R,J
+SkipInput 3 1
+   8,R,D,X
 EndStunPause
    9,R,D
    1,R
@@ -560,9 +561,11 @@ EndStunPause
    2,J
    1
    6,R
-   8,R,K
-   3,R
-  18,R,D,X
+   8,R,D,K
+   1,R
+   1
+   1,R
+  17,R,D,X
   12,R,D,C
   15,R,U,X
   14,R,C
@@ -587,11 +590,12 @@ EndStunPause
    3,K,G
   29,R,K
    2,R,J,G
-   5,R
-   2,R,J
-   5,R
+   1
+   4,R
+   4,R,J
+   4,R
    1,R,K
-  11,R
+  10,R
   23,R,X
   14,R,C
    1,R,J,G
@@ -893,4 +897,4 @@ EndStunPause
    4,R,J
    8,R,Z
 
-ChapterTime: 1:45.570(6210)
+#1:45.383(6199)
