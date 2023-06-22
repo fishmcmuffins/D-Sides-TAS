@@ -1,17 +1,25 @@
-#syncs on v4.50 only;
-#backrooms key was
-#moved away in v4.51
-
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
-RecordCount: 13164
-console load nameguysdsidespack/0/10-Farewell 213175.736081541 -52560
-
+RecordCount: 13171
+console load nameguysdsidespack/0/10-Farewell 213188 -52541
    1
+
+#If you want the y-14 route,
+#you can comment out one of
+#these.
 console givekey
-#Start
+console givekey
+
+#lvl_v-99
   36
-   7,L,J
+   1,R,G
+
+#Start
+   4,J,G
+   1,K
+   1,J
+   8,L,J
+   2,J
   17,U,X
    3,L,J,G
   53,L
@@ -421,7 +429,12 @@ endrepeat
   53,L,J,G
   10,L,K,G
    5,R,J
-  26,R
+
+#-10f
+#keycycle_y-06
+  16,R
+#endkeycycle_y-06
+
    6,D,J
   16,U,X
    8,J
@@ -618,6 +631,8 @@ endrepeat
   40
 
 #lvl_y-10 (1)
+play,route_y-15s
+#route_y-14
    6,R,U,X
    2,R,J,G
    5,R
@@ -853,6 +868,7 @@ endrepeat
 #lvl_y-13 (2)
   51
   40
+
 #lvl_y-10 (2)
    1
   19,R,D,X
@@ -867,8 +883,50 @@ endrepeat
   25,L,D,X
   40
 
+play,y-15s
+#endroute_y-14
+
+#====================
+
+#route_y-15s
+   6,R,U,X
+   2,R,J,G
+   5,R
+   3,R,J,G
+   6,R
+   7,R,U,Z
+   1,L,J,G
+  20,R,J,G
+   4,R
+   7,J,G
+   1
+   1,L
+  11,R,K,G
+   7,R
+   1,R,J
+   1,R
+  15,R,D,X
+   7,L,D
+   6,D
+  10,L,D
+  14,L,D,X
+   1,L,J
+   6,L
+   9,L,U,X
+   1,L,J,G
+   5,L
+   8,R
+  19,L,D,X
+   3,D
+  40
+#endroute_y-15s
+
+#====================
+
 #lvl_y-15s
- 116,D
+#keycycle_y-15s
+  98,D
+#endkeycycle_y-15s
    3,J
   20,D
   30,R,D
@@ -1701,9 +1759,9 @@ repeat 7
    1,G
    3,D
 endrepeat
-#Key cycle
-   6,G
-#-------
+#keycycle_up-key-2d
+  10,G
+#endkeycycle_up-key-2d
    1
    9,J
    7,R,Z
@@ -1799,6 +1857,7 @@ endrepeat
    4,R,Z
    7,R,J
  250
+
 #lvl_y-end
    5,R,X
   11,R,J
@@ -1823,5 +1882,8 @@ repeat 33
    1,R
 endrepeat
    1
-#Checkpoint time
-#4:40.993(16529)
+
+#4:07.248(14544)
+#-1985f
+
+ 189
