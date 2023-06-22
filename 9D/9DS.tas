@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 860
+RecordCount: 861
 
 console hearts 1
 
@@ -405,7 +405,6 @@ SkipInput 3 1
 EndStunPause
 Read,9DS_22A,endstun_v-00-lobby
 
-#36:44.390(129670)
 #2 keys remaining
 
 #==========================
@@ -505,23 +504,16 @@ SkipInput 3 1
 EndStunPause
    6,R,U,Z
 Read,9D_26,endstun_x-11,hazardcycle_xx-10-final-goodbye
-   0
+   6
 Read,9D_26,hazardcycle_xx-10-final-goodbye
-
-#50:26.425(178025)
-   1
 
 #==========================
 #Final Goodbye
 
 #4 stuns in xx-10-final-goodbye
 
-#thisll be fun
-
-#i think,,,,,,
-
-Read,9D_27,Start
+Read,9DS_27A,Start
 
 #==========================
 
-#ChapterTime: 47:58.134(169302)
+ChapterTime: 54:55.212(193836)
