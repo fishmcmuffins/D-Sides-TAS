@@ -10,7 +10,7 @@ Set,Level.Lighting.Alpha,0.0375
 Invoke BlackholeStrengthTrigger.OnEnter null
 Set,Level.TimerStarted,true
   30
-Set,Level.TimeActive,2551.0947265625
+Set,Level.TimeActive,2540.491455078130
 Invoke Player.FinishFlingBird
 #Start
   38,R
@@ -197,14 +197,10 @@ StunPause
    9,L,J,G
    3,J
   12,K,G
-  12,J,G
-   2,K,G
-EndStunPause
-StunPause
-   1,K,G
-EndStunPause
-StunPause
-   1,K,G
+   6,J,G
+SkipInput 1
+   6,J,G
+   4,K,G
    2,R,K
    1,J
   11,R,J
@@ -212,53 +208,52 @@ SkipInput 3 1
    7,R,X
 SkipInput 3
    8,R,X
-  15,R,D
+  10,R,D
 EndStunPause
 StunPause
    1,R,D
 EndStunPause
 StunPause
-   7,R,D
+  12,R,D
    3,D
    3
 SkipInput 3 1
   15,R,Z
 SkipInput 3 1
-  15,U,X
-   4
+  12,U,X
 EndStunPause
 StunPause
-   1
+   1,U,X
 EndStunPause
 StunPause
-   9
+   2,U,X
+  14
 SkipInput 3 1
   15,R,C
    1,R
-  17
+  12
 EndStunPause
 StunPause
    1
 EndStunPause
 StunPause
-  35
+  39
+EndStunPause
+StunPause
+   1
+EndStunPause
+StunPause
    2,L
    1
 SkipInput 3 1
    5,R,X
-   1,R,G
+  36,R,G
 EndStunPause
 StunPause
    1,R,G
 EndStunPause
 StunPause
-  39,R,G
-EndStunPause
-StunPause
-   1,R,G
-EndStunPause
-StunPause
-   2,R,G
+   7,R,G
   18,R,D,G
 EndStunPause
    2,D,G
@@ -384,6 +379,8 @@ EndStunPause
    5,R,K,G
   14,R,J,G
 #stun_xx-10-final-goodbye_2
+   1,S,N
+  10,O
    7,R,J,G
   17,R
    3,R,D
@@ -407,12 +404,21 @@ EndStunPause
   15,R,D,X
 #stun_xx-10-final-goodbye_3
    3,R,D
-StunPause
-   2,R
-SkipInput 3 1
+   1,S,N
+  10,O
+   1,R
+   1,S,N
+  10,O
+   1,R
+   1,S,N
+  10,O
    5,R,Z
-EndStunPause
-   9,R,Z
+   1,S,N
+  10,O
+   1,R,Z
+   1,S,N
+  10,O
+   8,R,Z
 #endstun_xx-10-final-goodbye_3
    2,R,J
   21,R,D,X
@@ -1071,7 +1077,6 @@ EndRepeat
    4,R
 #badeline
   38
-#4:22.497(15441)
    1,S
    1,D,O
   18
@@ -1111,6 +1116,6 @@ EndRepeat
   12,R,J,G
   21,R,X
  135
-#4:28.447(15791)
+#4:29.008(15824)
 
 AnalogMode,Ignore
