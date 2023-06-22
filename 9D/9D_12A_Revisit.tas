@@ -193,7 +193,7 @@ console load nameguysdsidespack/0/10-Farewell j-00
    2,R
   43
 
-#j-06
+#lvl_j-06
    4,R
    2,R,J
    3,R
@@ -213,7 +213,7 @@ console load nameguysdsidespack/0/10-Farewell j-00
   14,U,X
   43
 
-#j-07
+#lvl_j-07
    2,L
    1
    5,J
@@ -230,7 +230,7 @@ console load nameguysdsidespack/0/10-Farewell j-00
    2,R,D
   40
 
-#j-08
+#lvl_j-08
    6,R,D
    1,R
    1,R,G
