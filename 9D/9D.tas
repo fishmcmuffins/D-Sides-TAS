@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 350
+RecordCount: 420
 
 console hearts 8
 
@@ -84,12 +84,12 @@ Read,9D_08,Start
 #stun in h-01
 
 Read,9D_09,Start,hazardcycle_g-06
-   0
+   2
 Read,9D_09,endhazardcycle_g-06,stun_g-09
-   1,J
-   4,X
+   1,R,J
+   4,R,D,X
 StunPause
-   4,R,D
+   4,R,D,X
 EndStunPause
    9,R,D
    1,R
@@ -112,7 +112,7 @@ Read,9D_09,endstun_h-01
 #2 stuns in hh-08
 
 Read,9D_10,Start,hazardcycle_hh-08
-   1
+   2
 Read,9D_10,endhazardcycle_hh-08
 
 #==========================
@@ -128,11 +128,17 @@ StunPause
    3,R,J
   10,R
 EndStunPause
-  25,R
+  24,R
 StunPause
-   3,R
+   4,R
 SkipInput 3 1
-  15,R,Z
+  10,R,Z
+EndStunPause
+StunPause
+   1,R,Z
+EndStunPause
+StunPause
+   4,R,Z
    1,R
 SkipInput 3 1
   14,R,Z
@@ -145,8 +151,9 @@ Read,9D_11,endstun_i-05
 #hazardcycle in j-07
 
 Read,9D_12A,Start,hazardcycle_j-07
-   1
-Read,9D_12A,endhazardcycle_j-07
+   0
+Read,9D_12A,endhazardcycle_j-07,lvl_j-08
+Read,9DS_12A,lvl_j-08
 
 #==========================
 #500M
@@ -161,7 +168,7 @@ Read,9D_12B,Start
 #keycycle in l-04
 
 Read,9D_13A,Start,key cycle
-  20
+   2
 Read,9D_13A,resume
 
 #==========================
@@ -199,16 +206,30 @@ Read,9D_15,Start
 #2 stuns in CP-37
 
 Read,9D_16,Start,hazardcycle_CP-37
-   1
-Read,9D_16,endhazardcycle_CP-37,stun_CP-37_2
-   1,R,J
+   0
+Read,9D_16,endhazardcycle_CP-37,stun_CP-37_1
+   2,R
 StunPause
-  11,R,J
-   1,R,K,G
-   1,R,D
+  11,R,U
+SkipInput 3 1
+   5,R,Z
 EndStunPause
 StunPause
-   6,R,D
+  10,R,Z
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R
+EndStunPause
+Read,9D_16,endstun_CP-37_1,stun_CP-37_2
+StunPause
+  12,R,J
+   1,R,K,G
+   7,R,D
 EndStunPause
 Read,9D_16,endstun_CP-37_2
 
@@ -233,8 +254,15 @@ Read,9D_19,Start
 #stun in t-11
 
 Read,9D_20,Start,hazardcycle_t-11
-   0
-Read,9D_20,endhazardcycle_t-11
+   2
+Read,9D_20,endhazardcycle_t-11,stun_t-11
+   2,U,Z
+StunPause
+   1
+SkipInput 5 1
+   8,U,C
+EndStunPause
+Read,9D_20,endstun_t-11
 
 #==========================
 #True Love
@@ -256,27 +284,25 @@ Read,9D_22,Start,stun_v-00-lobby_1
    1,L,U,Z
 StunPause
    3,L,U,Z
-EndStunPause
-StunPause
 SkipInput 3 1
   14,U,C
    1,R,J
-SkipInput 3 1
-   9,R,U,J,Z
+SkipInput 5 1
+  10,R,U,J,Z
 EndStunPause
-   6,R,U,J,Z
+   5,R,U,J,Z
 Read,9D_22,endstun_v-00-lobby_1,stun_v-00-lobby_2
    1,R
-   1,R,J
 StunPause
    9,R,J
+EndStunPause
+StunPause
+   1,R,J
 SkipInput 3 1
   15,U,Z
   10,R
 SkipInput 3 1
   15,L,U,Z
-EndStunPause
-StunPause
    6
    3,L
    1,R
@@ -284,7 +310,7 @@ SkipInput 3 1
    7,R,Z
 EndStunPause
 Read,9D_22,endstun_v-00-lobby_2,keycycle_v-00-upper
-  40,G
+  23,G
 Read,9D_22,endkeycycle_v-00-upper
 
 #==========================
@@ -292,6 +318,7 @@ Read,9D_22,endkeycycle_v-00-upper
 
 #no global cycles
 
+   1
 Read,9D_24,Start
 
 #==========================
@@ -301,18 +328,13 @@ Read,9D_24,Start
 #2 stuns in w-16
 
 Read,9D_25,Start,hazardcycle_w-16
-   0
+   2
 Read,9D_25,endhazardcycle_w-16,stun_w-16_1
    1
 StunPause
    1
    1,J
-   7
-EndStunPause
-StunPause
-   1
-EndStunPause
-StunPause
+   8
 SkipInput 3 1
   10,R,Z
    1,R,K
@@ -338,8 +360,7 @@ EndStunPause
    2,R,J
    1,S,N
    1,O
-  10,R
-   4,R,J
+  14,R
    4,J
 Read,9D_25,endstun_w-16_2
 
@@ -353,7 +374,6 @@ Read,9D_25,endstun_w-16_2
 
 Read,9D_26,Start,hazardcycle_x-10
    2
-  12
 Read,9D_26,endhazardcycle_x-10,stun_x-11
    1,R
    1,S,N
@@ -372,7 +392,8 @@ Read,9D_26,endhazardcycle_x-10,stun_x-11
   10,O
    5,R,U,Z
 Read,9D_26,endstun_x-11,hazardcycle_xx-10-final-goodbye
-   4
+   1
+  12
 Read,9D_26,hazardcycle_xx-10-final-goodbye
 
 #==========================
@@ -384,4 +405,4 @@ Read,9D_27,Start
 
 #==========================
 
-ChapterTime: 48:04.135(169655)
+ChapterTime: 47:53.340(169020)
