@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 2410
+RecordCount: 2537
 
 console load nameguysdsidespack/0/10-Farewell 26836 -4300
    1
@@ -485,7 +485,6 @@ EndStunPause
   14,R,D,X
    8,R,J
   18,R,D,X
-
   11,R,J
    5,R
    2,R,J
@@ -537,53 +536,57 @@ EndStunPause
   16
   14,R,Z
    1,R,J
-   5,R,D,X
-   1,L,J
-   9
-   5,R,Z
+   8,R,Z
+   2,L,J
+   2,L
+   2,L,J
+   3,L
+   6
+   4,Z
    1,R,K
-   5,R
-  49,R,J
-  15,R,Z
-   1,R
-   2,R,D,K
    6,R
-   7,R,K
-   2,R
-  15,U,X
-  21,L
-  10,L,D,X
-   4,R,J
-   1,J
-   1,R
-   1
-   1,J
-  10,D
-  23,R,D
-  15,R,U,X
-  14,R,Z
-  12,R,J
-  18,R,D,X
-   3,R,D
-  14,R,Z
-  23,R,J
+  31,R,J
+  36,R,U,X
+  10
+   2,L
+   1,L,K
+  10,R,X
+   1,R,J
    5,R
-  17,R,X
+   8
+   9,R,D
+   1,D
+  14,R,D
+   6,R
+  15,U,X
+   9,R
+   6
+   1,R
+  14,R,Z
+  16,R,J
+  18,R,D,X
+   6,R
+  14,R,Z
+  20,R,J
+   4,R
+   1
+   2,R
+  15,R,X
   10
    1,R
-   3,D
-   1,K
+   5
+   2,K
    9,L,K
-   4,K
+   3,K
   15,U,X
    3,R
    1,R,J,G
   11,J
    1,R,K,G
-   2,L,K
-   1,R,J,G
-   1
-   6,R
+   2,K
+   1,L,K
+   5
+   3,R
    4,X
    7,R,J
    6,R,K,G
@@ -705,5 +708,5 @@ EndStunPause
    7,R
    6,R,X
    6,R,J
-#0:53.108(3124)
+#0:53.091(3123)
   40,J
