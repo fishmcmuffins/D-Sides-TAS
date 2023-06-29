@@ -1,4 +1,4 @@
-RecordCount: 537
+RecordCount: 542
 
 console load nameguysdsidespack/0/10-Farewell 109280 -18296
    1
@@ -87,19 +87,21 @@ play,route_l-04key
    8,R
    4,J
   16,R
-#keycycle_l-04
-  10
-#endkeycycle_l-04
 repeat 36
    1,D
    1
 endrepeat
+#keycycle_l-04
+  13
+#endkeycycle_l-04
    7,D,J
    3,L,J
   14,U,X
    1,J
   40
 #endroute_l-04nokey
+
+play,lvl_l-05
 
 #====================
 
