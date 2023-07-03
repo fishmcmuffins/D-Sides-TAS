@@ -270,28 +270,25 @@ EndStunPause
    3,J
    2,R,J
   16,U,X
-  15,R,J
-  52,R
-  11,R,D
-  26,R,X
-  11,U,C
-   9,R,J
-  19,L,J
-   4,K,G
-   1,L,K
-   1,L,J,G
-  12,L,K,G
-  14,L
-   3,R
-  27,R,U,X
-  24,R,U,C
-  25,R,U,X
+  33,R,J
+   8,R
+  31,R,U,X
+  29,R,U,C
   12,R,D
-   7,D
+  12,R
+   3,R,D
+  10,R,J,G
+   3,J
+  18,R,U,X
+  37,R,U,C
+   1,R,D
+  10,D
    2,R,D
+   1,D
+   1,R,D
    1,R,J
-   5,R
-   5,R,J
+   8,R
+   2,R,J
    4,D,X
   31,R,U,X
   57,R,U,C
@@ -299,8 +296,7 @@ EndStunPause
 
 #lvl_d-15
    6,R
-   4,D,X
-  10,R,X
+  14,R,Z
    1,R,J
    7,R
   10,R,J
@@ -402,18 +398,19 @@ EndStunPause
   15,U,C
    4,R
    1
-  75,R
-  39,R,X
-  15,U,Z
+  74,R
+  22,R,X
+   4
+   1,R
+   3
+  11,R,U,Z
   46,R
-   6,R,D
-   6,D
+   9,R,D
   15,L,D,X
-   1,D
-  31,R
-  22,R,Z
-   8
-   4,V
+   3
+  30,R
+  30,R,Z
+   5,R,D,X
    2,R,J
    1,R
    1,R,K,G
@@ -710,7 +707,7 @@ endrepeat
   14,U,X
   15,U,C
    7,R,U,X
-#1:52.285(6605)
+#1:51.044(6532)
   40
    1
   72,O
