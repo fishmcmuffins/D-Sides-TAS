@@ -3,7 +3,6 @@ console load nameguysdsidespack/0/10-Farewell e-05 1
 #console load nameguysdsidespack/0/10-Farewell 62244 -9659
 #play,Section f-09,37
    1
-
 #lvl_e-05
   36
   24,L
@@ -411,18 +410,20 @@ endrepeat
 
 #lvl_f-09
    2,R,J,G
-  17,R,K,G
-  13,R,X
-   6,R,K,G
-   8,R
-   1,R,J
-  12,R,D,X
-   4,R,J
-  14,R
-   1
-  14,R,D,X
-   9,R,J
-  15,R,U,X
+   5,R,K,G
+   5,R
+  11,L,D,X
+   2,R,J
+   2,R
+  14,R,U,X
+   2,R,J,G
+   1,R
+   4,R,K
+   2,R
+  13,R,J
+  15,R,D,X
+  16,R,J
+  15,R,X
   15,U,Z
    4,L,J,G
    2,L,K,G
@@ -473,10 +474,9 @@ endrepeat
   11,R,J
   40
 
-#lvl_f-09
+#lvl_f-10
   11,R
    2,J,G
-#Section f-09
    4,D,X
    2,R,X
    1,R,J
@@ -797,4 +797,5 @@ endrepeat
    1,R,J
    1,R,K,G
   10
-#1:40.317(5901)
+#1:40.198(5894)
+
