@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 2565
+RecordCount: 2568
 
 console load nameguysdsidespack/0/10-Farewell 26836 -4300
    1
@@ -398,7 +398,8 @@ EndStunPause
   40,K
 
 #lvl_d-05 (2)
-   3,K
+   1,R,K
+   2,K
    1,R
 #stun_d-05
    2,R
@@ -417,7 +418,8 @@ StunPause
 EndStunPause
 #endstun_d-05
    9,R,J
-   7,R
+   5,R
+   2
    2,R,J
   14,R,U,Z
    1,L,K,G
