@@ -11,8 +11,8 @@ Invoke BlackholeStrengthTrigger.OnEnter null
 Set,Level.TimerStarted,true
   30
 
-#6f wait in bubble in Bottomless
-Set,Level.TimeActive,2951.684570312500
+#no wait in bubble in Bottomless
+Set,Level.TimeActive,2926.088378906250
 Invoke Player.FinishFlingBird
 #Start
   38,R
@@ -198,75 +198,67 @@ StunPause
    1,L
    9,L,J,G
    3,J
-EndStunPause
-StunPause
-   1,K,G
-EndStunPause
-StunPause
   11,K,G
+EndStunPause
+   1,K,G
+StunPause
   12,J,G
    4,K,G
    2,R,K
    1,J
-   9,R,J
-EndStunPause
-StunPause
-   1,R,J
-EndStunPause
-StunPause
-   1,R,J
+  11,R,J
 SkipInput 3 1
    7,R,X
 SkipInput 3
    8,R,X
-  23,R,D
+   2,R,D
+EndStunPause
+StunPause
+   1,R,D
+EndStunPause
+StunPause
+  20,R,D
    3,D
    3
 SkipInput 3 1
-   5,R,Z
-EndStunPause
-StunPause
-   1,R,Z
-EndStunPause
-StunPause
-   9,R,Z
+  15,R,Z
 SkipInput 3 1
-  15,U,X
+   4,U,X
+EndStunPause
+StunPause
+   1,U,X
+EndStunPause
+StunPause
+  10,U,X
   14
 SkipInput 3 1
-   7,R,C
-EndStunPause
-StunPause
-   1,R,C
-EndStunPause
-StunPause
-   7,R,C
+  15,R,C
    1,R
-  33
+   4
 EndStunPause
 StunPause
    1
 EndStunPause
 StunPause
-  19
+  39
+EndStunPause
+StunPause
+   1
+EndStunPause
+StunPause
+   8
    2,L
    1
 SkipInput 3 1
    5,R,X
-  15,R,G
+  28,R,G
 EndStunPause
 StunPause
    1,R,G
 EndStunPause
 StunPause
-  28,R,G
-  13,R,D,G
-EndStunPause
-StunPause
-   1,R,D,G
-EndStunPause
-StunPause
-   4,R,D,G
+  15,R,G
+  18,R,D,G
 EndStunPause
    2,D,G
 #endstun_xx-10-final-goodbye_1
@@ -289,7 +281,9 @@ EndStunPause
    4,R,U,J,G
   62,R,G
    5,R,D,G
- 981,R,U,K,G
+ 977,R,U,K,G
+   2,R,D,G
+   2,R,U,G
    2,R,D,G
    2,R,U,G
  345,R,D,G
@@ -297,10 +291,14 @@ EndStunPause
    1,L
   13,R
    2
+#hazardcycle_xx-10-final-goodbye_2
+   2
+#endhazardcycle_xx-10-final-goodbye_2
   14,R,Z
-   5,R,J
-  15,R,D,X
-  14,R,U,C
+   4,R,J
+  14,R,D,X
+   1,R,J
+  14,R,U,X
    1,R,K,G
   12,R
    1,R,J
@@ -310,38 +308,47 @@ EndStunPause
    1,R,J
   14,R,D,X
    1,R,J
-  11,R,D,X
-   5,R,J
-   7,R,K,G
    6,R,D,X
+   1,R,J
+   4,R
+   1,R,J
+   2,R
+   2,R,K
+   2,R
    4,R,J,G
+   3,R
+   5,R,D,X
+   2,R,J,G
    1,R
-   7,R,J
-   2,R
-   5,R,K
-   6,R
-   5,R,J,G
-  13,R
-  15,D,X
-   6,R
-  15,D,X
- 141,R,D
-   4,Z
-   1,R,J
-   2,R
-   1,R,J
+   5,R,J
+   1
    1,R
-   1,R,J
+   2,R,D,K
+   3,R
+   3,R,J,G
+  10,R
+   2,R,K
    5,R
-  10,R,D,X
-   1,R,J
-   1,R,K,G
+  29,R,D,X
+  15,D,C
+  50,D
+   1,R,D
+   1,D
+   1,R,D
+   1,D
+   1,R,D
+   1,D
+  85,R,D
    1,R
+   1,R,J
+  14,R,Z
+   1,R,J
+   2,R,K,G
    1,R,J,G
-   3,R,K,G
+   2,R,K,G
    5,R
-  35,R,K
-   8,R,D
+  39,R,K
+   5,R,D
   14,R,U,X
    1,J,G
    1
@@ -360,19 +367,37 @@ EndStunPause
    4,R
   15,R,K,G
    8,K
-   1,R
-   1,K
+   1
+   1,R,K
    5
    3,R
-  12,L,D,X
-  33,R,J
-  54,G
-   1
+  11,L,D,X
+  32,R,J
    1,R,K,G
-  20,R,D
-  12,L,D
-  17,G
-  14,U,G
+   4,L,K
+   7,R,K
+   1,R,J,G
+   1,R,K,G
+   6,R,J,G
+  15,R
+   1
+   2,R
+  14,R,D
+   6,L,D
+   1,G
+   3,K
+   5
+   3,K
+   2
+   1,R
+   1
+   1,R
+   1
+   2,R
+   2,L
+   1
+   6,G
+   2,U,G
    1,J,G
    2
    1,R
@@ -380,48 +405,46 @@ EndStunPause
    1,L,J,G
    7,K,G
   17,R,D,X
-   1,R,J
-   4,R
-   1,R,J
-   3,R
-  12,R,U,Z
-   1,R,K,G
-   1,R
-   1,R,J,G
-   5,R,K,G
-  14,R,J,G
-#stun_xx-10-final-goodbye_2
-   7,R,J,G
-  17,R
-   3,R,D
-   2,R,D,K
+   4,R,D,J
    2,R
+  14,R,Z
+   1,R,K,G
+   2,R,J,G
+   6,R,K,G
+   3,K
+   3,R,K
+#stun_xx-10-final-goodbye_2
+  26,R,J,G
+   1,S,N
+  10,O
+  14,R,J
+   1,R,D
+   2,R
+   4,R,D,K
+   1,R
   15,R,D,X
    5,R,J
-   7,R
-   3,R,D
-   4,R,D,K
-   5,R
+   6,R
+   1
+   4,R,D
+   1,R,D,K
+   1,K
    2,R,K
    5,R
-   1
-   1,R,D,J
-   2,J
-   8,R,J
+   2,R,K
+   6,R
+  11,R,D,J
    3,R
 #endstun_xx-10-final-goodbye_2
   16,R,K,G
   15,R,D,X
 #stun_xx-10-final-goodbye_3
-   3,R,D
-   2,R
+   2,R,D
+   3,R
    4,R,Z
    1,S,N
   10,O
-   5,R,Z
-StunPause
-   5,R,Z
-EndStunPause
+  10,R,Z
 #endstun_xx-10-final-goodbye_3
    2,R,J
   21,R,D,X
@@ -521,25 +544,21 @@ EndStunPause
   15,R,D,X
   25,R,D,K
   14,R,U,Z
+#stun_xx-10-final-goodbye_4
    3,R,J,G
 StunPause
-   1,R,J
-EndStunPause
-StunPause
-   1,R,J
-EndStunPause
-StunPause
-  10,R,J
+  12,R,J
 EndStunPause
   33,R,J
+#endstun_xx-10-final-goodbye_4
    1,R,D
    1,R
    2,R,D
    1,R
    7
   29,R
-  26,R,Z
-   4
+  27,R,Z
+   3
    1,R,K,G
    7,L,K
    3,R,K
@@ -549,32 +568,29 @@ EndStunPause
    9,R,K
   24,R
   36,R,U,X
-  35,R,U,C
+  36,R,U,C
    2
-   2,R
    2,R,J,G
-   7,L,J
-   1,R,J
+   6,L,J
    1,R,K,G
    1,R,J,G
    2,R,K,G
    5,R
-   2,R,K
-  15,R
+   3,R,K
+  14,R
    4,Z
-   6,R,J
-   4,R
-   1,R,J
+   5,R,J
    1,R
+   2,R,J
+   4,R
    9,R,K
    4,R,J,G
    2,R
   18,R,D,X
-   8,R,J
+   9,R,J
   15,R,D,X
-   2,R,J
-  15,R,D,X
-   1,R,D
+   1,R,D,J
+  16,R,D,X
    2,R,D,K
   11,R,J,G
    6,R,K,G
@@ -590,544 +606,7 @@ EndStunPause
   43
 
 #lvl_xx-10-true-final-goodbye
-   7,R,K
-   5,R
-   2,R,K
-  13,R
-   2,R,D
-   1,R,J
-  14,R
-   4,R,K
-   5,R
-   7,R,K
-   1,R
-  42,R,U
-AnalogMode,Precise
- 165,F,92.19528
-   2,F,92.1953
-  11,R,J
-   5,R
-   1,R,J
-  20,R,D
-   1,R,K
-   1,R,J
-   1,R,K
-   1,R,J
-   1,R,K
-   1,R,J
-   1,R,K
-   4,R,J
-   5,R
-   2,R,J
-  15,R
-   1,R,K
-   1,R,J
-   1,R,K
-   1,R,J
-   1,R
-   1,R,K
-   1,R,J
-   7,R
-   2,R
-  39,R,K
-  12,R,J
-   5,R
-   4,R,J
-   7,R
-  12
-  10,R
-  10,R
-   1,R,K,G
-   4,K
-   1,R,J,G
-   3,L,J
-   5,R,J
-   1,R,K,G
-   1,R,J,G
-  10,R
-   1,R,K
-   8,R
-   2
-   1,R
-   1
-   2,R
-   1,R,J
-  13,R
-   1
-   1,R,K
-   2,R
-   1,R,J,G
-   1,R,K,G
-  13,R
-   1,R,J
-  45,R,D
-  11,R,D,X
-   1,R,K
-   3,U
-  18,R
-  14,U,X
-  27,R,U
-  16,F,62.6
-  42,F,86.5
-   8,F,89.99945
-  50,F,116.01
-   3,F,90
-   1,R,J
-   3,R
-   5,R,K,G
-   3,R,J,G
-   5
-   3,J
-  10,L
-   9,L,D
-   4,X
-   1,R,J
-   1,L,K
-   1,L,J
-   1,R,K
-   1,R,J
-   1,R,K
-   1,R,J
-   1,R,K
-   1,R,J
-  10,R,K
-   2,R,J,G
-  22,R
-  10,R,J
-  34,R
-   2,R,D
-   1,R,G
-   6
-  13,G
-   1
-   2,R
-   1,R,J,G
-   1,R,K,G
-   1,R,J,G
-   1,R,K,G
-   9,R
-   4,R,J
+Read,9D_27,lvl_xx-10-true-final-goodbye
 
-   9,R
-  23,R,K
-   7,K
-  10,J,G
-   7
-   1,L
-   1,R,J,G
-   8,R,Z
-   1,R,K
-   2,L,J,G
-  10,R,J
-  11,R
-   1,R,K
-  10,R,J,G
-  21,R
-   6,R,K
-  40,R
-   1
-  10,R
-   7,R,J
-   2,R
-   1,R,K,G
-  20,R
-   2,R,J
-   7,R
-   1
-   2,R
-   3,R,K
-   5,R
-   3,R,K
-  10,R
-   1,R,J,G
-  14,R
-  68,R,K
-   2,R,J,G
-   3,L,J
-   4,R,J
-   1,R,K,G
-  43,R,J,G
-   8,K,G
-   1,L,K
-  12,R,J,G
-   7,R
-  39,R,K
-  20
-  13,R
-   8,R,K
-  19,R
-  40
-  13,R
-   8,R,K
-  19,R
-  40
-  13,R
-   8,R,K
-  19,R
-  12
-   1,R
-   1,D
-   1
-  17,R
-  25,R,K
-  15,R,D
-   1,J
-  12,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   7,R,J
-   2,R
-   1,R,K,G
-  14,R
-   1,R,J
-  18,R
-   3,R,J
-   5,R,K,G
-   1,R,J,G
-  13,R
-   1,R,J
-  18,R
-   1,R,J
-  18,R
-  11,R,J
-   2
-   3,R
-   1,R,J
-  24,R
-   1,R,J,G
-   1,R,K,G
-  11,R
-   3,R,J
-  12,R
-   1,R,J,G
-  18,R,D
-   6,R
-  23,R,J
-   7,R,K,G
-   8,R
-   3,R
-  10,R,J
-   5,R
-   3,R,J
-   1,R,K,G
-  14,R
-   2,R
-  20,D
-   1,L,G
-Repeat,95
-   1
-   1,G
-EndRepeat
-   2
-   1,J
-   3,K,G
-  26,R,K
-   1
-  27,R,K
-   1,R,J,G
-   1,R,K,G
-  11,R
-   1,R,J
-   3,R
-   1,R,J,G
-  13,R
-   1,R,J
-  32,R,D
-   1,R,J
-   8,R
-   1
-   1,R
-   1
-   1,R
-   1
-   1,R
-  30,R,J
-   1,R,K,G
-   7,R,J,G
-   3,R,K,G
-  13,R
-   2,R,J
-  13,R
-   1,R,J,G
-   1,R,K,G
-  12,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-  18,R
-   1,R,D
-Repeat,17
-   1,R
-   2,R,D
-EndRepeat
-   1,R
-   1,R,D
-  60,R,J
-  14,R,D,X
-   1,R,J
-  12,R
-   6,R,J
-   1
-   4,R
-   1,R,J
-  11,R
-   1,R,J,G
-  11,R
-   1,R,D
-   3,R,D
-  14,R,J
-  12,K,G
-   8,J,G
-  12
-#feather
-  26
-   1,R,D
-  95,F,100
-  25,R
-#feather end
-  38,R
-#feather
-  26
-   1,L,U
-  19,F,325
-   8,F,20
-   4,F,45
-  43,F,137
-  13,F,90
-  33,F,60
-   0,R
-  53,R
-   2
-   1,R
-  10,R,J,G
-  13,R
-Repeat,5
-   1,R,J
-  14,R
-EndRepeat
-   3,R,J
-   2,J
-   5,R,J
-  22,R
-   1,R,J,G
-   1,R,K,G
-  12,R
-   6,R,J
-  14,R
-   2
-   2,R
-   6,R,J
-   1,R
-  13,R,K
-  10,R
-   1,R,J,G
-   1,R,K,G
-  12,R
-   1,R,J
-  14,R
-   4,R,J
-  15,R
-#spring
-  54,R
-  12,R,D
-  48,R
-   8,R,J
-   1,J
-   1
-   2,K
-  11,R,K
-   8,R
-   1,R,J,G
-   1,R,K,G
-  11,R,K
-  40,R
-   1,J
-   2,R,K,G
-   7,R
-#spring
-  38,R
-  12,K
-  12,J
-   1,K
-   8,R,K
-  45,R
-#spring
-  49,R,D
-  45,R,D
-Repeat,12
-   1,R,J
-  14,R
-EndRepeat
-   1,R,J
-   1,R
-   5,R,J
-   1,R
-   1,R,J
-  13,R
-  66,R
-   1,R,J
-  18,R
-  21,R,D,J
-  48,R
-   3
-   6,R
-   6,R,D
-   2,R
-   1,R,J,G
-   1,R,K,G
-  14,R
-   1,R,J
-   5,R
-   4
-   5,R
-  70,R,U,J,G
-   1,L
-  22,R
-Repeat,5
-   1,R,J
-  14,R
-EndRepeat
-   5,R
-  19,R,J
-#bird
-  70,R
-  13,R,D
-  44,R,U,X
-  32,R
-   2,R,D
-   2,D
-   3,R,D
-#core block
-   1,R,J,G
-  30,R
-  13,D
-   1,L
-   1,D
-   1,L
-   1,D
-   1,L
-   1,D
-   7,R
-  18,R,J
-   2,R,K,G
-   7,R
-   6,R,J
-  26,R,D
-  44,R,K
-   1,J
-  11,R,J
-   1,K
-   4,R,K
-   1,R,J,G
-   1,R,K,G
-   1,R,J,G
-   7,R
-   5,R,K
-   1,J
-   1,K
-  46,R,K
-#bird
-  79,R,D
-Repeat,40
-   1,R,J
-  14,R
-EndRepeat
-  56,R
-  39,R,J
-   1,R,K
-  14,R
-  13,R
-  30,R,J
-  13,R,D,X
-  35,R,J
-  18,R
-#bird
-  72,R,D
-Repeat,9
-   1,R,J
-  14,R
-EndRepeat
-   6,R,J
-  18,R
-Repeat,7
-   1,R,J
-  14,R
-EndRepeat
-   4,R,J
-  17,R
-Repeat,8
-   1,R,J
-  14,R
-EndRepeat
-Repeat,3
-   1,R,D,J
-  14,R
-EndRepeat
-   1,R,J
-  20,R,D
-#spring
- 230,R,D
- 102,R
-#bird
-  40,R
-  27,R,D
-   1,R,J,G
-  14,R
-Repeat,67
-   1,R,J
-  14,R
-EndRepeat
-   1,R
-   2,R,J
-   4,R
-#badeline
-  38
-
-#4:23.194(15482)
-
-   1,S,N
-   1,D,O
-  18
-
-#lvl_end-granny
-   6,L
-   5,L,K
-   5,L
-   9,L
-   1,L,J
-  14,L
-  15,L,K
-  10,J,G
-   3,K,G
-   1,R,K
-   1,R
-   1,J
-  19,R,J
-   1,L,K,G
-  10,K
-   1,L,K
-   1,L,J,G
-  15,L,K,G
-   3,J
-   1,K
-  11,R,K
-   2,J
-   1,L
-   9,R
-   4,R,K
-   4,Z
-   1,R,J
-  24,R,D
-   3
-   3,D
-   1,G
-  12,R,J,G
-  21,R,X
- 135
-#4:29.195(15835)
-
+#4:25.659(15627)
 AnalogMode,Ignore
