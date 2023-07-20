@@ -584,18 +584,16 @@ AnalogMode,Precise
    3,L
    5,R,X
   26,L,G
-  18,D,X
-   1,R,K,G
-   1,R,J,G
-   1,R,G
-   1,R,J,G
-   4,R,G
-   3,R,K,G
-  12,R,D,G
-  10,D,G
+   4,X
+  11,D,X
+   6,L,G
+   4,X
+   1,R,J
+   3,R,J,G
+  28,L,D,G
+   1,D,G
    1,U,G
    1,D,G
-   4,U,G
    3,D
   15,L,X
    5,L,Z
@@ -610,30 +608,32 @@ AnalogMode,Precise
    7
    5,R,X
   30,L,G
-  22,D,X
-   1,R,J,G
-   6,R,K,G
+   4,X
+  15,D,X
+   6,L,G
+   4,Z
+   7,R,J,G
+  12,R,D,G
+   3,L,D,G
+  25,R,D,G
    1,R
-  17,R,U,X
+  14,R,D,X
    1,R,J
-   8,R,D,X
-  17,D,G
-   5,L,D,G
-  31,R,D,G
-   6,R
-  10,R,D,X
-   1,L,J
-   4
-  10,R,C
-  12,R,J
-  27,R,U,J,G
-  10,J
-   3,R,J
+  10,L,Z
+   1,R,J
+   4,R
+  10,L,X
+  14,R,J
+  15,R,U,J,G
+   9,U,J,G
+   7,R,J
+   6,J
    8,U,X
   29,G
-   1
-   1,J,G
-  14
+   1,R
+   1,J
+   7,R
+   7,L
    5,R,X
   32,L,G
   40,D,X
@@ -1352,7 +1352,7 @@ AnalogMode,Precise
    1,R,K
    9,R
  237
-#3:30.052(12356)
+#3:29.695(12335)
   40
 
 #lvl_t-00
