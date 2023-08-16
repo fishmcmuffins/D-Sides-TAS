@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 420
+RecordCount: 494
 
 console hearts 8
 
@@ -20,7 +20,9 @@ Read,9D_01,Start
 
 #stun in aa-00-lobby (2)
 
-Read,9D_02,Start
+Read,9D_02,Start,hazardcycle_aa-00-lobby
+   1
+Read,9D_02,endhazardcycle_aa-00-lobby
 
 #==========================
 #Glimpse of Freedom
@@ -46,10 +48,15 @@ Read,9D_04,endhazardcycle_cc-07
 #==========================
 #Dedication
 
+#alt stun/stunless routes
+#hazardcycle in d-02
+#stun in d-03~d-05
 #hazardcycle in d-06
 
-Read,9D_05,Start,hazardcycle_d-10
-   0
+Read,9D_05,Start,hazardcycle_d-03
+Read,9D_05,stunless_d-03,endstunless_d-03
+Read,9D_05,endbranch_d-03,hazardcycle_d-10
+   2
 Read,9D_05,hazardcycle_d-10
 
 #==========================
@@ -86,10 +93,10 @@ Read,9D_08,Start
 Read,9D_09,Start,hazardcycle_g-06
    2
 Read,9D_09,endhazardcycle_g-06,stun_g-09
-   1,R,J
-   4,R,D,X
 StunPause
-   4,R,D,X
+   1,R,J
+SkipInput 3 1
+   8,R,D,X
 EndStunPause
    9,R,D
    1,R
@@ -103,7 +110,22 @@ Read,9D_09,endstun_g-09,stun_h-01
 StunPause
   12,R,J
 EndStunPause
-Read,9D_09,endstun_h-01
+
+Read,9D_09,endstun_h-01,hazardcycle_h-03
+   1
+Read,9D_09,endhazardcycle_h-03,stun_h-03
+   2,R,J
+StunPause
+   1,R,J
+   3,R
+EndStunPause
+   2,R
+   7,R,D,X
+StunPause
+   4,R,D,X
+EndStunPause
+   4,R,D,X
+Read,9D_09,endstun_h-03
 
 #==========================
 #Trust
@@ -112,8 +134,21 @@ Read,9D_09,endstun_h-01
 #2 stuns in hh-08
 
 Read,9D_10,Start,hazardcycle_hh-08
-   2
-Read,9D_10,endhazardcycle_hh-08
+   1
+Read,9D_10,endhazardcycle_hh-08,stun_hh-08
+StunPause
+   2,R,K
+SkipInput 3 1
+  13,R,D,X
+EndStunPause
+   2,R,D,X
+   1
+   7,R
+StunPause
+   2,R
+  14,R
+EndStunPause
+Read,9D_10,endstun_hh-08
 
 #==========================
 #Serenity
@@ -121,24 +156,18 @@ Read,9D_10,endhazardcycle_hh-08
 #hazardcycle at start
 #stun in i-05
 
-   0
+   2
 Read,9D_11,Start,stun_i-05
    2,R
 StunPause
    3,R,J
   10,R
 EndStunPause
-  24,R
+  25,R
 StunPause
-   4,R
+   3,R
 SkipInput 3 1
-  10,R,Z
-EndStunPause
-StunPause
-   1,R,Z
-EndStunPause
-StunPause
-   4,R,Z
+  15,R,Z
    1,R
 SkipInput 3 1
   14,R,Z
@@ -151,7 +180,7 @@ Read,9D_11,endstun_i-05
 #hazardcycle in j-07
 
 Read,9D_12A,Start,hazardcycle_j-07
-   0
+   1
 Read,9D_12A,endhazardcycle_j-07,lvl_j-08
 Read,9DS_12A,lvl_j-08
 
@@ -167,9 +196,9 @@ Read,9D_12B,Start
 
 #keycycle in l-04
 
-Read,9D_13A,Start,key cycle
+Read,9D_13A,Start,keycycle_l-04
    2
-Read,9D_13A,resume
+Read,9D_13A,endkeycycle_l-04
 
 #==========================
 #1500M
@@ -206,16 +235,15 @@ Read,9D_15,Start
 #2 stuns in CP-37
 
 Read,9D_16,Start,hazardcycle_CP-37
-   0
+   1
 Read,9D_16,endhazardcycle_CP-37,stun_CP-37_1
    2,R
 StunPause
   11,R,U
-SkipInput 3 1
-   5,R,Z
 EndStunPause
 StunPause
-  10,R,Z
+SkipInput 3 1
+  15,R,Z
    1,R,J
    1,R,K
    1,R,J
@@ -259,7 +287,7 @@ Read,9D_20,endhazardcycle_t-11,stun_t-11
    2,U,Z
 StunPause
    1
-SkipInput 5 1
+SkipInput 3 1
    8,U,C
 EndStunPause
 Read,9D_20,endstun_t-11
@@ -279,7 +307,7 @@ Read,9D_21,Start
 #keydoor in v-00-upper
 #hazardcycle in w-00-point-of-no-return
 
-   0
+   2
 Read,9D_22,Start,stun_v-00-lobby_1
    1,L,U,Z
 StunPause
@@ -287,20 +315,22 @@ StunPause
 SkipInput 3 1
   14,U,C
    1,R,J
-SkipInput 5 1
+SkipInput 3 1
   10,R,U,J,Z
 EndStunPause
    5,R,U,J,Z
 Read,9D_22,endstun_v-00-lobby_1,stun_v-00-lobby_2
    1,R
+   2,R,J
 StunPause
-   9,R,J
-EndStunPause
-StunPause
+   7,R,J
    1,R,J
 SkipInput 3 1
   15,U,Z
-  10,R
+   1,R
+EndStunPause
+StunPause
+   9,R
 SkipInput 3 1
   15,L,U,Z
    6
@@ -310,7 +340,7 @@ SkipInput 3 1
    7,R,Z
 EndStunPause
 Read,9D_22,endstun_v-00-lobby_2,keycycle_v-00-upper
-  23,G
+  27,G
 Read,9D_22,endkeycycle_v-00-upper
 
 #==========================
@@ -318,7 +348,7 @@ Read,9D_22,endkeycycle_v-00-upper
 
 #no global cycles
 
-   1
+   3
 Read,9D_24,Start
 
 #==========================
@@ -336,7 +366,13 @@ StunPause
    1,J
    8
 SkipInput 3 1
-  10,R,Z
+   8,R,Z
+EndStunPause
+StunPause
+   1,R,Z
+EndStunPause
+StunPause
+   1,R,Z
    1,R,K
    1,L,J,G
    2,R,J
@@ -373,27 +409,17 @@ Read,9D_25,endstun_w-16_2
 #hazardcycle in xx-07
 
 Read,9D_26,Start,hazardcycle_x-10
-   2
+   0
 Read,9D_26,endhazardcycle_x-10,stun_x-11
-   1,R
-   1,S,N
-  10,O
    2,R
-   1,S,N
-  10,O
-   1,R,D
-   1,S,N
-  10,O
-   6,R,U,Z
-   1,S,N
-  10,O
-   4,R,U,Z
-   1,S,N
-  10,O
-   5,R,U,Z
+StunPause
+   2,R
+SkipInput 3 1
+   8,R,U,Z
+EndStunPause
+   7,R,U,Z
 Read,9D_26,endstun_x-11,hazardcycle_xx-10-final-goodbye
-   1
-  12
+   0
 Read,9D_26,hazardcycle_xx-10-final-goodbye
 
 #==========================
@@ -405,4 +431,4 @@ Read,9D_27,Start
 
 #==========================
 
-ChapterTime: 47:53.340(169020)
+ChapterTime: 47:24.457(167321)
