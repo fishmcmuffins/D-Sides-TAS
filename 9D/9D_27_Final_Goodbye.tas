@@ -10,7 +10,7 @@ Set,Level.Lighting.Alpha,0.0375
 Invoke BlackholeStrengthTrigger.OnEnter null
 Set,Level.TimerStarted,true
   30
-Set,Level.TimeActive,2540.491455078130
+Set,Level.TimeActive,2514.732666015630
 Invoke Player.FinishFlingBird
 #Start
   38,R
@@ -194,67 +194,77 @@ Invoke Player.FinishFlingBird
    2,L
 StunPause
    1,L
-   9,L,J,G
+   6,L,J,G
+EndStunPause
+StunPause
+   1,L,J,G
+EndStunPause
+StunPause
+   2,L,J,G
    3,J
   12,K,G
-   6,J,G
-SkipInput 1
-   6,J,G
+  12,J,G
    4,K,G
    2,R,K
    1,J
-  11,R,J
+   5,R,J
+EndStunPause
+StunPause
+   1,R,J
+EndStunPause
+StunPause
+   5,R,J
 SkipInput 3 1
    7,R,X
-SkipInput 3
+SkipInput 3 1
    8,R,X
-  10,R,D
+  23,R,D
+   2,D
 EndStunPause
 StunPause
-   1,R,D
+   1,D
 EndStunPause
 StunPause
-  12,R,D
-   3,D
    3
 SkipInput 3 1
   15,R,Z
 SkipInput 3 1
-  12,U,X
-EndStunPause
-StunPause
-   1,U,X
-EndStunPause
-StunPause
-   2,U,X
+  15,U,X
   14
+EndStunPause
+StunPause
 SkipInput 3 1
-  15,R,C
+   4,R,C
+EndStunPause
+StunPause
+  11,R,C
    1,R
-  12
+  27
 EndStunPause
 StunPause
    1
 EndStunPause
 StunPause
-  39
-EndStunPause
-StunPause
-   1
-EndStunPause
-StunPause
+  25
    2,L
    1
 SkipInput 3 1
    5,R,X
-  36,R,G
+  10,R,G
+   1,R,G
 EndStunPause
 StunPause
    1,R,G
 EndStunPause
 StunPause
-   7,R,G
-  18,R,D,G
+  32,R,G
+   7,R,D,G
+EndStunPause
+StunPause
+   1,R,D,G
+EndStunPause
+StunPause
+  10,R,D,G
 EndStunPause
    2,D,G
 #endstun_xx-10-final-goodbye_1
@@ -288,7 +298,7 @@ EndStunPause
   13,R
    2
 #hazardcycle_xx-10-final-goodbye_2
-   2
+   1
 #endhazardcycle_xx-10-final-goodbye_2
   14,R,Z
    4,R,J
@@ -411,13 +421,13 @@ EndStunPause
    3,R,K
 #stun_xx-10-final-goodbye_2
   26,R,J,G
-   1,S,N
-  10,O
   14,R,J
    1,R,D
    2,R
    4,R,D,K
    1,R
+   1,S,N
+  10,O
   15,R,D,X
    5,R,J
    6,R
@@ -439,7 +449,10 @@ EndStunPause
    3,R
    1,S,N
   10,O
-  14,R,Z
+  11,R,Z
+StunPause
+   3,R,Z
+EndStunPause
 #endstun_xx-10-final-goodbye_3
    2,R,J
   21,R,D,X
@@ -542,7 +555,13 @@ EndStunPause
 #stun_xx-10-final-goodbye_4
    3,R,J,G
 StunPause
-  12,R,J
+   1,R,J
+EndStunPause
+StunPause
+   1,R,J
+EndStunPause
+StunPause
+  10,R,J
 EndStunPause
   33,R,J
 #endstun_xx-10-final-goodbye_4
@@ -1130,6 +1149,7 @@ endrepeat
   12,R,J,G
   21,R,X
  135
-#4:25.659(15627)
+#4:26.577(15681)
+#+54f
 
 AnalogMode,Ignore
