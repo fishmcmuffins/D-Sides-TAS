@@ -15,8 +15,9 @@ Console load nameguysdsidespack/0/10-Farewell 8684 -1184.4
   14,U,X
   12,J
   11,L
-#spinner cycle aa-00-lobby (2)
+#hazardcycle_aa-00-lobby
    2
+#endhazardcycle_aa-00-lobby
   11,L,J
    1
    6,L,Z
@@ -51,6 +52,7 @@ Console load nameguysdsidespack/0/10-Farewell 8684 -1184.4
   13,G
    2,R,J,G
    5,R,G
+#stun_aa-00-lobby
 StunPause
    6,R,G
   10,R,J,G
@@ -58,6 +60,7 @@ StunPause
 SkipInput 3 1
    8,U,X
 EndStunPause
+#endstun_aa-00-lobby
    1,U,X
    2,R,J
    9,R
@@ -155,6 +158,6 @@ EndRepeat
    5,J
   12,K,G
   27,J,G
-   1,K,G
+   1,R,K,G
   40
 #0:23.732(1396)
