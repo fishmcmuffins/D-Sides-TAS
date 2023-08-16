@@ -691,99 +691,83 @@ EndStunPause
   10,R,D,X
    1,R,J,G
    8,R
-   1,R,J
-   1,R
-  15,R,D,X
-#stun_h-03
    2,R,J
+   1,J
+  14,R,D,X
+#stun_h-03
 StunPause
-   1,R,J
-   3,R
+   4,R
 EndStunPause
-   2,R
-   9,R,D,X
-StunPause
-   2,R,D,X
-EndStunPause
-   4,R,D,X
+   1,R
+   7,R,D,K
+  13,R,D,X
 #endstun_h-03
-   2,R
-   5,R,J,G
   40
 
 #lvl_h-04
-   3,R,J
-   6,R
-   1,R,J
    2,R
-   4,R,J
-   4,R
-  14,R,U,X
-   1,R,J,G
+   6,R,D,J
    2,R,K,G
-   1,R,J,G
+   5,R
+   2,K
+   1
+   2,R
+   1,R,D
+  14,R,D,J
+  15,R,D,X
    1,R,K,G
-  25,R,D
-   5,R,D,X
    1,R,J,G
-   2,R,K,G
-  12,R,J,G
    4,R
-   2,R,K,G
-   1,R
+  12,R,U,X
+   3,R,K,G
   40
 
 #lvl_h-05
-   2,R
-   3,R,J,G
-   7,R
-   9,R,K
-   2,R
-   1
-   2,R
-   2,R,K
+   1,R,K
+   2,R,J,G
+   1,R
+  10,R,K,G
    5,R
-   9,R,U,X
+   2,R,K
+  11,R,U,Z
   40
 
 #lvl_h-06
-   5,R,U,X
-   1,R,J,G
-   9,R,U,X
-   8,J,G
-   3,R,J
-   5,R
-  14,R,U,Z
-   8,R,J,G
-   2,R
-   1
-  14,R,U,X
+   3,R,U,Z
    1,J,G
-  15,R,D,X
+   9,R,U,X
+   6,K,G
    2
-   1,R,J
+   3,R
+   3,R,K
+  11,R,U,Z
+   1,L,J,G
+   1
+  11,R
+  12,R,U,X
+   1,R,K,G
+   2,R
   40
 
 #lvl_h-07
-   1,R,K,G
-   1
-   2,R,J,G
+   3,R,J,G
    5,R
-   2
+   1
+   1,R
    5,R,D
-  15,R,J
-   1,R,K,G
-   7,R
+  15,R,D,K
+   2,R,J,G
+   6,R
+  12,R,U,X
+   5,R,K,G
+  13,R
   14,R,U,X
    3,R,J,G
-   7,R
-   2,R,J
-   6,R
-  14,R,U,X
-   4,R,J,G
    5,R
   40
 
 #lvl_h-08
-  14,R,J
-#1:33.160(5480)
+   1,R,J
+   1,R
+  11,R,J
+#1:32.004(5412)
