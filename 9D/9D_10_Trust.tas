@@ -1,21 +1,10 @@
-console load nameguysdsidespack/0/10-Farewell h-08
+console load nameguysdsidespack/0/10-Farewell 87489.36 -11163.62
    1
 
 #lvl_h-08
   36
-   4,D,X
-   6,R,X
-   3,R,J
-   2,R
-   8,R,Z
 #Start
-   1,R,K
-   6,R
-  12,R,J
-  15,R,D,X
-  12,R,J
-   4,D,X
-  10,U,X
+  12,U,Z
    9,R,J
   11
    4,D,X
@@ -26,11 +15,11 @@ console load nameguysdsidespack/0/10-Farewell h-08
   34
    8,R,D
    1,R,J
-   6,R,D,X
+   5,R,D,X
   40
 
 #lvl_hh-01
-   4,R
+   5,R
    1,S
    1,D,J
   34
@@ -253,7 +242,7 @@ endrepeat
    8,R,K
   13,J
 #hazardcycle_hh-08
-   0
+   2
 #endhazardcycle_hh-08
    1,S
    1,D,J
@@ -337,4 +326,4 @@ EndStunPause
    4,R,J,G
    7,R
 
-ChapterTime: 0:46.954(2762)
+#0:45.934(2702)
