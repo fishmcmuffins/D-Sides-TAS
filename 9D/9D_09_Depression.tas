@@ -68,86 +68,82 @@ console load nameguysdsidespack/0/10-Farewell 66964 -10384
   13,R
    4,D,X
   16,R,U,X
-   1
    1,R
-   2,L,J,G
-   1,R,J
-  28,R,K
-   1,R
-   3
-   4,D,X
-   7,R,U,X
    1,L
-   1,J,G
-   8
-   3,R
-   1,R,J
-  18,R
-  12,U,X
-   3,R,J
-   8,R
-   6,R,J
-  15,R
-  14,R,D,X
-   1,R,J
-   8,R
-   1,R,J
-  11,R,D,X
-   1,R,J
-   7,R
-   1,R,J
-   7,R,D,X
-   1,R,J
-   3,R
-   1,R,J
-   3,R
-  10,R,K
-  17,R
-  18,R,U,X
-  19
-   1,L,D
-   4,Z
-   1,R,J
-   9,R
+   1,K
+   2,J,G
+   9,R,J
+   5,R
+   8,R,J
+   4,R
+   1
+  12,R,U,Z
+   1,L
+   1,K,G
+   5
    1,R,K
-  19,R,D,X
-  22,R,J
+  15,R
+   9,R,U,Z
+   1,L
+   7,J,G
+   1,R,J
+   6,R
+  21,R,J
+  10,R,D,X
+   6,R,K
+   3,R
+  14,R,D,X
+   3,R,J
+   3,R
+  11,R,D,X
+   1,R,K
+   3,R
+   1,R,K
+   3,R
+   9,R,J
+   6,R
+   1,R,J
+   3,R
+  15,R,U,X
+  23,R
+   1
+   3,D
+   4,Z
+   1,R,K
    9,R
+   1,R,J
+  19,R,D,X
+  23,R,K
+   8,R
   14,R,U,X
    1,R,J,G
    1,R,K,G
    7,R
-   1,R,J
-   2,R
-  11,R,D,X
+   6,R,J
+  13,R,D,X
+   1,R,K
    1,R,J,G
    2,R,K,G
    1,R,J,G
-   3,R,K,G
-   5
-   2,R
-   1,R,J
-   1,R
-  23,R,D,X
-   3,R,D,K
-   5,R,U,X
-   6,R,J,G
    1,J
-  10,R,J
-   1,R,K,G
-   1,K
-   1,R,K
-  20,R,D,X
-   1,R
-   1,R,D
-   2,R
+   1
+   3,R
+  15,R,D,X
+   6,R
+  16,R,K,G
+   1,R,J,G
+   1,J
+  23,R,D,X
    7,R,U,Z
    1,L,K,G
-   6,R,K
-   5,R
-   2,R,K
+   5,R,K
    2,R
-   6
+   3
+   1,K
+   1
+   1,R,K
+   2,R
+   4
   23,L,U,X
   10,J
    8
@@ -770,4 +766,4 @@ EndStunPause
    1,R,J
    1,R
   11,R,J
-#1:32.004(5412)
+#1:31.494(5382)
