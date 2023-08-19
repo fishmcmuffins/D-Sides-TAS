@@ -1,4 +1,4 @@
-RecordCount: 11864
+RecordCount: 11867
 
 console load nameguysdsidespack/0/3-Resort
    1
@@ -302,7 +302,7 @@ console load nameguysdsidespack/0/3-Resort
 #   2,R,J
 #  40
 
-#lvl_a-06
+#a-06
 #   2,R,J
 #   1,R
 #   1,R,J
@@ -1437,9 +1437,8 @@ EndStunPause
    1,K
    5,R,K
   18,R,D,X
-   2,R,J
 StunPause
-   7,R,J
+   9,R,J
    2,R
 SkipInput 3 1
    8,R,X
@@ -1510,4 +1509,6 @@ AnalogMode Precise
   14,U,X
  135,L,D
 
-ChapterTime: 2:48.147(9891)
+AnalogMode Ignore
+
+ChapterTime: 2:48.334(9902)
