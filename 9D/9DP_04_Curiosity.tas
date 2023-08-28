@@ -77,7 +77,9 @@ EndStunPause
   10,L,D,X
    1,R,J
    9,R
+#keycycle_cc-03
   54,R,G
+#endkeycycle_cc-03
    1
    1,J
   15
