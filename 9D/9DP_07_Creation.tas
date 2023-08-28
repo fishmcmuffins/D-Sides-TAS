@@ -1,0 +1,80 @@
+console load nameguysdsidespack/0/10-Farewell 50315 -7830
+   1
+
+console give_dsides_plat
+
+#lvl_dd-00-lobby
+   1
+
+#hazardcycle_dd-00-lobby
+   0
+
+#Start
+  34,L,U,C
+   2
+   1,J
+   2,K,G
+   8,R,K
+  24,R,U,X
+  14,U,Z
+  15,L,J
+  12,L
+  10,D,K
+   2,L,K
+  15,U,X
+  14,J
+   4,R,J
+   2,K,G
+#stun_dd-00-lobby
+   1,K,G
+StunPause
+   9,K,G
+   4
+   2,R
+   1,L
+  17,L,J
+   9,K
+   1,J,G
+   8,L,J
+   1,J
+   1,R,J
+   1,L,J
+   2,K,G
+   1,R,K
+SkipInput 3 1
+  15,R,U,Z
+   6,J
+EndStunPause
+#endstun_dd-00-lobby
+   1,J
+   1,R,K,G
+   1,K
+   5
+   2,L
+   1,D,J
+   1,R,J
+   1,R,K,G
+   4,R,J,G
+  12,U,X
+  40
+
+#lvl_e-01
+Read,9D_07,lvl_e-01,lvl_e-05
+
+#lvl_e-05
+   7,R,K,G
+  33,R
+  27,R,U,X
+  10
+   4,Z
+   7,R,J
+   1,R,K,G
+   2,R
+
+#Original:
+#0:35.564(2092)
+
+#Platinum: +841f memories and creation
+#0:33.354(1962)
+
+  40
