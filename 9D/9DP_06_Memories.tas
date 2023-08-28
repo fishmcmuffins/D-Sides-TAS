@@ -1,0 +1,130 @@
+console load nameguysdsidespack/0/10-Farewell 36709 -4968
+   1
+
+console give_dsides_plat
+
+#lvl_d-09
+  36
+
+#CP-only spinner cycle
+   0
+#------
+
+   4,X
+   6,R,J
+  40,J
+
+#Start
+#lvl_d-10
+Read,9D_06,Start,lvl_d-19
+
+#lvl_d-19
+   1,R
+   1,R,J
+   5,R,D,K
+   1,R
+   3,R,J,G
+   8,R,U,X
+   1,R,K,G
+  10,R
+   6,R,J
+   8,R
+   1,R,J
+   8,R
+  15,R,Z
+   7,L,D
+   9,R,D
+  24,R,X
+  15,U,C
+  10
+  27,R,U,X
+  15,R,C
+  40,R
+   7,R,D
+  15,R,X
+  10,R,U,C
+  24,U,X
+  23,R,C
+  15,R,D,X
+  15,D,C
+  15,L,D
+  39,R,X
+  14,R,U,Z
+  11,J,G
+   1,L,J
+  12,L,K
+  10,J,G
+   1,K,G
+   1,R,K
+   3,L,K
+   1,L,J,G
+   1,L,K,G
+  12,L,J,G
+  10,L
+  30,R,X
+  15,D,C
+  74,L,G
+   3,U,G
+  55,G
+   6,R,Z
+   1,R,J,G
+  10,R
+   1,R
+  99,R,X
+  11,R,C
+  24,U,X
+  12,L,U,C
+  21,R,X
+  15,R,C
+   8,R,D
+   9,L,D
+   7,R,D
+  15,R,Z
+  10,R
+  12,R,J,G
+  10,K
+   1,R,J
+  10,R,K
+   9,R
+   7,R,J
+   3,J
+  15,R,X
+   4,R
+   1,R,J,G
+  13,R
+  23,R,X
+   7,R,U,Z
+  40
+
+#lvl_dd-00-lobby
+   4,R
+   4,L,K,G
+  15,U,X
+   3,L,J,G
+   6,L
+   1,R
+   3,R,J
+   1,J
+  16,U,X
+  22,R,J
+   1,R,K,G
+   1,K
+   3,L,K
+   1,R,J,G
+   1
+   6,R
+   4,X
+   5,R,J
+   7,R
+   6,R,K
+  11,U,X
+   1
+
+#Original:
+#1:48.868(6404)
+
+#Platinum: (time lost can
+#only be measured in creation)
+#2:05.375(7375)
+
+AnalogMode,Ignore
