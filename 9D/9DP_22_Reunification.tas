@@ -1,0 +1,126 @@
+# Monika's D-Sides
+# https://gamebanana.com/mods/150759
+
+RecordCount: 1795
+
+console load nameguysdsidespack/0/10-Farewell 212416 -50688.1666963995
+   1
+Set,Session.Inventory.Dashes,2
+console givekey
+
+console give_dsides_plat
+
+#lvl_v-00-lobby
+#wait for orb entry
+#moon block cycle
+  57
+#hazardcycle_v-00-lobby
+   0
+#Start
+Read,9D_22,Start,stun_v-00-lobby_1
+#stun_v-00-lobby_1
+StunPause
+   4,L,U,Z
+SkipInput 3 1
+  14,U,C
+   1,R,J
+SkipInput 3 1
+   8,R,U,J,Z
+EndStunPause
+   7,R,U,J,Z
+#endstun_v-00-lobby_1
+Read,9D_22,endstun_v-00-lobby_1,stun_v-00-lobby_2
+#stun_v-00-lobby_2
+   1,R
+   2,R,J
+StunPause
+   8,R,J
+SkipInput 3 1
+  15,U,Z
+  10,R
+SkipInput 3 1
+  15,L,U,Z
+   6
+   3,L
+   1,R
+SkipInput 3 1
+   7,R,Z
+EndStunPause
+#endstun_v-00-lobby_2
+Read,9D_22,endstun_v-00-lobby_2,keycycle_v-00-upper
+#keycycle_v-00-upper
+  23,G
+#endkeycycle_v-00-upper
+Read,9D_22,endkeycycle_v-00-upper,lvl_v-00-upperer-b
+
+#lvl_v-00-upperer-b
+   1,R,J,G
+   1,R
+  10,R,K,G
+   3,R
+  14,R,X
+   1,R,J
+  15,R,D,X
+  17,L,D,K
+   8,R,U,X
+   4,R,J,G
+   5,R
+   3,R,J
+   5,R,D
+   9,D
+   9,R,D
+   1,D
+   4,R,D
+   3,R
+  13,R,U,Z
+   1,K
+   7
+
+  15,U,X
+   2,L,J
+  11,L
+  13,L,X
+   1,L,J
+   1,L
+   9,U,C
+   1,L,J
+   3,L
+   1,J
+   8
+   3,R
+  10,R,D,J
+  15,R,D,X
+   1,R,D,J
+   3,R
+  15,R,X
+   9,R,D
+   6,R,Z
+   1,R,J
+   7,R
+   1,R,J
+  12,R,D,X
+   6,R,J
+  15,R,D,X
+  11,R,C
+  43
+
+#lvl_w-00-point-of-no-return
+   4,R
+  10,R,Z
+  10,R,J
+   4,J
+  14,U,X
+  18,L,J
+   5,L,K,G
+   7,L
+  13,L,X
+   1,R,J
+   1,R
+  15,D,C
+   6
+
+#Original:
+#0:34.952(2056)
+
+#Platinum: +80f
+#0:36.312(2136)
