@@ -5,7 +5,7 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
 console give_dsides_plat
 
 #hazardcycle
-   0,R,G
+   1,R,G
 
    1,R,G
    3,R,J,G
@@ -244,8 +244,8 @@ Read,9D_16,Start,lvl_q-02
 #lvl_q-03
 Read,9D_16,lvl_q-03,stun_CP-37_1
 #stun_CP-37_1
-StunPause
    2,R
+StunPause
   11,R,U
 SkipInput 3 1
   15,R,Z
@@ -529,7 +529,7 @@ Read,9D_16,lvl_q-05,lvl_q-07
 #Original:
 #2:29.515(8795)
 
-#Platinum: +129f
-#2:31.708(8924)
+#Platinum: +119f
+#2:31.538(8914)
 
   40
