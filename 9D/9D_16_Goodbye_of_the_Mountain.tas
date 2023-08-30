@@ -395,68 +395,58 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
 
 #lvl_q-02
 #TODO remove this comment
-   2,R,J
+   4,R,J
+   1,K
    6,R
-   7,R,D,K
-  15,U,X
-  13,R,J
-   4,L,J
-   1,J
-   2,K
-   2,J
-   1,R,K,G
-   1,R,J,G
-  15,R
-   1,R,J
-  18,R
-
-#CP-45b
-   1,R,J
-  14,R
-   9,R,J
-   1,R
-   6,R,J
-   2,R
-   3,R,J
-   1,R,G
-   3,R,J,G
-  12,R
-   1,R,D
-   1,R
-   1,R,D
-   2,R
-  21,R,Z
+   8,R,J
+  12,K
+  12,J
+   3,K
+  12,J
+  11,K
+   4,J
+   5,R,Z
+   1,R,K
+   9,R
+   4,R,J
+   6,R
+   2,R,J
+  17,R
+  19,R,Z
   15,R,X
   18,R,Z
-  31,R,D
-   5,R
+  32,R,D
+   2,R
+   1
+   1,R
   26,R,X
    6
   16,R,C
   12,R,U,Z
    1,L
-   9,K,G
-   7,R,K
+   8,K,G
+   6,R,K
+   2,K
    1,J
    3,L,J
    5,L
    2,L,J
    8,L
-   2,L,K,G
-   1,L
+   3,L,K,G
    1,L,J,G
-   1,L,K,G
+   2,L,K,G
   12,L
   17,L,J
-   5,K
+   3,K
   10,L,J,G
    2,J
-  10,K,G
-   2,R,K
+  11,K,G
+   1,R
    1,J
    6,R,J
    1,K
    8,L,K
+   2
    1,J
    2,K,G
    5,R,K
@@ -464,7 +454,7 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
    9,R,J
    1,L,J
   10,K,G
-   2,R,K
+   2,R
   12,J
   11,K,G
    1,L,K
@@ -481,21 +471,21 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
    8,L,J
    1,L,K,G
    7
-  22,G
-   4
-  15,U,X
-  38,L,J
-   7,L,D
-   2
-   2,L
-   1,L,J,G
+  14,G
+  10,J,G
+   1
+  14,U,X
+  44,L,J
+   5,L,D
    1,L,K,G
+   1,L,J,G
    9,L
    1,L,J
-   5,L
-   7
-   4,D,X
-  11,L,X
+   4,L
+   6
+   1,L
+   1
+  15,L,Z
    1
   15,L
   15,L,D,X
@@ -505,7 +495,7 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
    1,S
    1,D,J
 #hazardcycle_CP-37
-   0
+   1
 #endhazardcycle_CP-37
   69,O
 
@@ -1137,5 +1127,5 @@ EndStunPause
   14,U,X
   18,R,J
   11,U,X
-#2:30.025(8825)
+#2:29.515(8795)
   40
