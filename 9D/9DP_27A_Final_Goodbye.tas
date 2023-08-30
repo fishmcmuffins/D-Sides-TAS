@@ -12,7 +12,10 @@ Set,Level.TimerStarted,true
   30
 
 console give_dsides_plat
-Set,Level.TimeActive,2538.163085937500
+
+#+2f in bottomless
+Set,Level.TimeActive,2533.194335937500
+
 Invoke Player.FinishFlingBird
 #Start
   38,R
@@ -193,25 +196,19 @@ Invoke Player.FinishFlingBird
   13,R,K
    3,L
 #stun_xx-10-final-goodbye_1
-StunPause
-   1,L
-EndStunPause
-StunPause
-   1,L
-EndStunPause
+   2,L
 StunPause
    1,L
    9,L,J,G
    3,J
   12,K,G
   12,J,G
-   2,K,G
 EndStunPause
 StunPause
    1,K,G
 EndStunPause
 StunPause
-   1,K,G
+   3,K,G
    2,R,K
    1,J
   11,R,J
@@ -219,44 +216,44 @@ SkipInput 3 1
    7,R,X
 SkipInput 3 1
    8,R,X
-  17,R,D
+  15,R,D
 EndStunPause
 StunPause
    1,R,D
 EndStunPause
 StunPause
-   5,R,D
+   7,R,D
    3,D
    3
 SkipInput 3 1
   15,R,Z
 SkipInput 3 1
   15,U,X
-   4
+   2
 EndStunPause
 StunPause
    1
 EndStunPause
 StunPause
-   9
+  11
 SkipInput 3 1
   15,R,C
    1,R
-  19
+  10
+   7
 EndStunPause
 StunPause
    1
 EndStunPause
 StunPause
-  33
+  35
    2,L
    1
 SkipInput 3 1
-   5,R,X
-   1,R,G
+   4,R,X
 EndStunPause
 StunPause
-   1,R,G
+   1,R,X
 EndStunPause
 StunPause
   41,R,G
@@ -265,6 +262,7 @@ StunPause
    1,R,G
 EndStunPause
 StunPause
+   2,R,G
   18,R,D,G
 EndStunPause
    2,D,G
@@ -450,16 +448,7 @@ EndStunPause
    3,R
    1,S,N
   10,O
-   8,R,Z
-   1,S,N
-  10,O
-   1,R,Z
-   1,S,N
-  10,O
-   1,R,Z
-   1,S,N
-  10,O
-   4,R,Z
+  14,R,Z
 #endstun_xx-10-final-goodbye_3
    2,R,J
   21,R,D,X
@@ -1118,8 +1107,8 @@ endrepeat
 #Original (time when cutscene is skipped)
 #4:20.933(15349)
 
-#Platinum: +11f
-#4:21.120(15360)
+#Platinum: -44f
+#4:20.185(15305)
 
 #lvl_end-platinum
   89
