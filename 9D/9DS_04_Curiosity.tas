@@ -41,9 +41,6 @@ console givekey
   37,R,D,X
    8,R
    3
-#hazardcycle_cc-03
-   0,G
-#endhazardcycle_cc-03
   10,L,D,X
   40
 
@@ -57,32 +54,37 @@ console givekey
    1,L,K,G
    5,L,K
    4,G
-   9,D,X
+#hazardcycle_cc-03_1
+   1,G
+#endhazardcycle_cc-03_1
+  15,D,X
+  14,R,D
+   7,R,Z
 StunPause
-   6,D,X
-  19,R,D
-   1,R
-   1,R,D
+   1,R,J
    4,R
-   1,R,D
-   3
-SkipInput 3 1
-   6,R,D,X
+   1,R,J
+   7,R
+   1
+   1,R
+   8,D
+   1
+   6,D
+   2,L
 EndStunPause
-   9,R,D,X
-   2
-   2,R
-   1,R,J,G
-   1,R,K,G
-  19,R,D
-  28,L,D
-  14,L
-   6
+   4,L
+  35,L,D
+   1,L
+  18
   77
   10,R,X
    1,S
    1,D,J
-  69,O
+   1,O
+  68
+#hazardcycle_cc-03_2
+   2
+#endhazardcycle_cc-03_2
   10,L,Z
   14,R,J
 StunPause
@@ -434,7 +436,7 @@ Read,9D_04,endhazardcycle_cc-07,lvl_cc-08
 #0:47.549(2797)
 
 #9DS 04, +7 keys
-#1:18.608(4624)
-#+1827f
+#1:17.996(4588)
+#+1791f
 
   40
