@@ -1,13 +1,12 @@
 #Restart
-console load nameguysdsidespack/0/10-Farewell 8680 -1184.3
+console load nameguysdsidespack/0/10-Farewell 8684.2 -1184.39
    1
 
 #lvl_a-10
   36
-   5,R,D,X
+   5,R,Z
    4,R,J
-   2,R
-   4,R,J
+   5,R
   40
 
 #Start
@@ -15,12 +14,10 @@ play,route_aa-01
 
 #lvl_aa-00-lobby (1)
 #route_aa-02
-   1,R,J
+   1,J
   13,R,Z
-  14,R,J
-   1,R
-   1,R,J
-   1,R
+  13,R,J
+   4,R
   14,R,U,Z
    1,R,K,G
    2,R,J,G
@@ -37,11 +34,15 @@ play,route_aa-01
   43
 #endroute_aa-02
 
+play,lvl_aa-02
+
 #====================
 
 #route_aa-01
+   1,R
   12,R,Z
-   3,R,J
+   1,R,J
+   2,J
   14,R,D,X
    5,R,J
    1,J
@@ -252,5 +253,5 @@ Read,9D_02,lvl_aa-04
 #0:25.432(1496)
 
 #keys +3
-#0:45.900(2700)
-#+1204f
+#0:46.597(2741)
+#+1245f
