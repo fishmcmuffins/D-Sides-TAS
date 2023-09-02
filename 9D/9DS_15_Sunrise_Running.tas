@@ -282,7 +282,9 @@ console load nameguysdsidespack/0/10-Farewell 135995.7 -35061
   40
 
 #lvl_p-02
-Read,9D_15,lvl_p-02,CP-59
+  69
+#hazardcycle_CP-44
+Read,9D_15,hazardcycle_CP-44,CP-59
 
 #CP-59
    2,R,J
