@@ -1,0 +1,75 @@
+console load nameguysdsidespack/0/10-Farewell 36709 -4968
+   1
+
+console give_dsides_plat
+
+#lvl_d-09
+  36
+
+#CP-only spinner cycle
+   0
+#------
+
+   4,X
+   6,R,J
+  40,J
+
+#Start
+#lvl_d-10
+Read,9DS_06,Start,lvl_d-19
+
+#lvl_d-19
+Read,9DP_06,lvl_d-19,lvl_dd-00-lobby
+
+#9DSP: +339f over 9DP
+#entering lvl_dd-00-lobby
+
+#lvl_dd-00-lobby
+   4,R
+   4,L,K,G
+  15,U,X
+   3,L,J,G
+   6,L
+   1,R
+   3,R,J
+   1,J
+  16,U,X
+  22,R,J
+   1,R,K,G
+   1,K
+   3,L,K
+   1,R,J,G
+   1
+   6,R
+   5,R,Z
+   8,R,J
+   4,R,K,G
+   8,R
+  17,R,J
+   2,R
+  15,U,X
+   8,R,J
+  11,R
+   9,R,K
+  15,U,X
+  10,J,G
+   7,R
+  12,K
+  16,U,X
+  12,J,G
+  12,K,G
+  12,J,G
+  10,K,G
+   1,R,K
+   1,L
+   5,R,J,G
+   7,R
+  10,R,Z
+
+#Original Platinum:
+#2:05.375(7375)
+
+#Platinum + 1 key + different end point:
+#2:14.113(7889)
+
+AnalogMode,Ignore
