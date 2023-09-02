@@ -1,6 +1,6 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
-RecordCount: 13171
+RecordCount: 13183
 console load nameguysdsidespack/0/10-Farewell 213188 -52541
    1
 
@@ -1518,9 +1518,9 @@ play,lvl_y-15s
   14,R
    8,R,Z
    2,R,J
+  40
 
 #Right-Up
-  40
    2,R,J
    5,R,D
   33,R,D
@@ -1531,9 +1531,9 @@ play,lvl_y-15s
   15,R,U,Z
    4,R
   10,U,X
+  40
 
 #Up
-  40
   11,L,J
    4,L
    8,U,X
@@ -1543,10 +1543,9 @@ play,lvl_y-15s
   11,R,K,G
   15,R,U,Z
   13,U,X
-
+  40
 
 #Up-Right
-  40
   11,L,J
    4,L
    8,U,X
@@ -1569,9 +1568,9 @@ play,lvl_y-15s
   13,R
    6,R,Z
    8,R,J
+  40
 
 #Right
-  40
    1,R,J
   38,R,D
    1,G
@@ -1609,9 +1608,9 @@ play,lvl_y-15s
    5,R,J
   15,R,U,X
   14,U,C
+  40
 
 #Up-Right.2d
-  40
    2,L,J
   10,R,J
   15,U,X
@@ -1634,9 +1633,9 @@ play,lvl_y-15s
   13,R
    6,R,Z
    8,R,J
+  40
 
 #Right.2d
-  40
    1,R,J
   38,R,D
    1,G
@@ -1658,9 +1657,9 @@ play,lvl_y-15s
    7,R
    6,R,Z
    8,R,J
+  40
 
 #Right-Up.2d
-  40
    1,R,J
   38,R,D
    1,G
@@ -1670,9 +1669,9 @@ play,lvl_y-15s
   18,R,U,X
   15,R,U,Z
    8,U,X
+  40
 
 #Up.2d
-  40
    2,L,J
   10,R,J
   15,U,X
@@ -1680,9 +1679,9 @@ play,lvl_y-15s
    9,R,K,G
   15,R,U,X
   15,U,C
+  40
 
 #Up-Right.Wind.2d
-  40
    2,L,J
    5,R,J
    4,R
@@ -1705,9 +1704,9 @@ play,lvl_y-15s
    7,R,Z
    6,R,J
    1,R
+  40
 
 #Right.PostWind.2d
-  40
    1,R,J
   33,R,D
    5
@@ -1742,8 +1741,9 @@ play,lvl_y-15s
   18,R,U,X
   15,R,U,Z
    8,U,X
-#Up.Key.2d
   40
+
+#Up.Key.2d
    2,L,J
   10,R,J
   15,U,X
@@ -1781,6 +1781,8 @@ endrepeat
   10,L,K
    7,L,J
    8,L
+
+#227322.58, -55128.21
    6,L
   21,D
    5,J
@@ -1802,7 +1804,10 @@ endrepeat
    6
    9,L,J
   15,U,X
-  21,R,D
+  10,R,D
+
+#227427.96, -55399.67
+  11,R,D
    5,R,J
   11,J
   15,U,X
@@ -1884,6 +1889,5 @@ endrepeat
    1
 
 #4:07.248(14544)
-#-1985f
 
  189
