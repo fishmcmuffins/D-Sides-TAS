@@ -1,0 +1,229 @@
+console load nameguysdsidespack/0/10-Farewell 21869 -3776
+   1
+
+console givekey
+console givekey
+
+console give_dsides_plat
+
+#lvl_c-02
+  36
+   9,U,X
+  40
+
+#lvl_cc-05
+  11,R
+  13,U,X
+#Start
+  96,R
+   7,R
+   7,R,Z
+   1,R,J
+   3
+  40
+
+#lvl_cc-00-lobby (1)
+   2,L
+   1,K,G
+   2,R,K
+   9,K
+#keycycle_cc-00-lobby_1
+ 112,K,G
+  21,L,K
+  70,D
+#endkeycycle_cc-00-lobby_1
+   9,D,J
+   3
+  12,K,G
+  11,J,G
+   1,K,G
+  10
+  32,R,D
+  16,D
+  37,R,D,X
+   8,R
+   3
+  10,L,D,X
+  40
+
+#lvl_cc-03
+   5,L,D
+  10,L,D,X
+   1,L,J
+   4,L
+  12,L,D,X
+   1,L,J
+   1,L,K,G
+   5,L,K
+   4,G
+#hazardcycle_cc-03
+   1,G
+#endhazardcycle_cc-03
+  15,D,X
+  14,R,D
+   7,R,Z
+StunPause
+   1,R,J
+   4,R
+   1,R,J
+   7,R
+   1
+   1,R
+   8,D
+   1
+   6,D
+   2,L
+EndStunPause
+   4,L
+  35,L,D
+   1,L
+  18
+  77
+  10,R,X
+  20,R
+  77
+  25,R,D
+  12,R
+   1,R,J,G
+  14,R
+   4,R,Z
+   1,R,J
+  10,R
+   7,L,J
+  16,L
+  10,R
+   3,R,J
+  10,L,D,X
+   1,R,J
+   9,R
+#keycycle_cc-03
+  53,R,G
+#endkeycycle_cc-03
+   1
+   1,J
+  15
+   7,R,X
+   1,R,J,G
+  15,R,D
+   8,L,D
+  10,L
+  77
+  10,L,D,X
+   2,L,J
+   3,L
+  15,L,D,X
+   1,L,D,J
+   9
+  15,D,X
+   5,R,D
+  10,D
+  11,R,Z
+  19,R,J
+   7,R
+  15,L
+  77
+  14,L,D
+   3,D
+   1,J
+  16
+  15,L,Z
+   5,R
+  13,R,J,G
+   4,K,G
+   5,L,K
+   5,L
+   2
+   1,L,J
+   3,J
+  11,U,X
+  40
+
+#lvl_cc-00-lobby (2)
+   6,R,J
+  12,J
+  15,U,X
+  12,J,G
+   7,R
+  10,R,Z
+  19,L,J
+  12,U,X
+  14,J
+   1,L,K,G
+   8,L,J,G
+   5,L
+   2,L,J
+   2,L
+   2,L,K
+  15,U,X
+  13,R,J
+   1,J
+   4,L,J
+   1,K
+   4,L,K
+  10,L
+   4
+#keycycle_cc-00-lobby_2
+  87,D
+#endkeycycle_cc-00-lobby_2
+  12,D,J
+  11,K,G
+   8,J,G
+   3,R,J
+   2,K
+  13,U,X
+  40
+
+#lvl_cc-06
+Read,9D_04,lvl_cc-06,hazardcycle_cc-07
+#hazardcycle_cc-07
+   1
+#endhazardcycle_cc-07
+Read,9D_04,endhazardcycle_cc-07,hazardcycle_d-03
+
+#hazardcycle_d-03
+   4,Z
+   2,R,J
+   8,R
+   1,R,J
+   4,Z
+   1,R,J
+   7,R
+  40
+
+#lvl_d-01
+   2,R,J
+   1,R
+   5,R,D,X
+   1,R,J,G
+   1
+  10,R
+   3,R,J
+   8,R
+   1,R,K,G
+   2,R
+   1
+   6,R
+   9,R,J
+   5,R
+   3,R,J
+   3,R
+   2
+   1,R
+   1
+  18,R,U,X
+  15,R,C
+  16,U,X
+  54,R,D
+   1,R
+   1,R,D
+   1,R
+  25,R,Z
+  16,R,V
+
+#Original 9DP:
+#0:53.839(3167)
+
+#with 9DS changes: +72f
+#0:55.063(3239)
+
+  40
