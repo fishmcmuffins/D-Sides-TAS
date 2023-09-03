@@ -1,0 +1,600 @@
+# Monika's D-Sides
+# https://gamebanana.com/mods/150759
+
+RecordCount: 1160
+
+console hearts 1
+
+console load nameguysdsidespack/0/10-Farewell
+   1
+
+#==========================
+#Start
+
+#hazardcycle at start
+   0
+Read,9DP_01,Start
+
+#==========================
+#Peaceful Solitude
+
+#alternate route for aa-01
+#stun in aa-03
+#stun in aa-00-lobby (4)
+
+Read,9DS_02,route_aa-02,endroute_aa-02
+Read,9DSP_02,lvl_aa-02,hazardcycle_aa-03
+   2
+Read,9DSP_02,endhazardcycle_aa-03,hazardcycle_aa-00-lobby
+   1
+Read,9DSP_02,endhazardcycle_aa-00-lobby
+
+#2 keys remaining
+
+#==========================
+#Glimpse of Freedom
+
+#hazardcycle in b-08
+
+Read,9D_03,Start,hazardcycle_c-01-heartgate
+   1
+Read,9D_03,endhazardcycle_c-01-heartgate
+
+#==========================
+#Curiosity
+
+#hazardcycle in cc-00-lobby
+#stun in cc-03
+#hazardcycle in cc-06
+#stun in cc-07
+
+Read,9DSP_04,Start,keycycle_cc-00-lobby_1
+ 116,K,G
+  21,L,K
+  58,D
+Read,9DSP_04,endkeycycle_cc-00-lobby_1,hazardcycle_cc-03
+   0,G
+Read,9DSP_04,endhazardcycle_cc-03,keycycle_cc-03
+  54,R,G
+Read,9DSP_04,endkeycycle_cc-03,keycycle_cc-00-lobby_2
+  87,D
+Read,9DSP_04,endkeycycle_cc-00-lobby_2,hazardcycle_cc-07
+   0
+Read,9DSP_04,endhazardcycle_cc-07,hazardcycle_d-03
+   0
+Read,9DSP_04,hazardcycle_d-03
+
+#2 keys remaining
+
+#==========================
+#Dedication
+
+#hazardcycle in d-06
+
+Read,9D_05,Start,hazardcycle_d-03
+   1
+Read,9D_05,endhazardcycle_d-03,stun_d-03
+   3,L
+   4,Z
+StunPause
+   1,R,K
+   4,R
+   1,R,D
+   1
+   5,R,J
+EndStunPause
+   3,R,J
+   2,R,K,G
+StunPause
+   4,R,K
+SkipInput 3 1
+   7,R,U,Z
+EndStunPause
+Read,9D_05,endstun_d-03,hazardcycle_d-04
+   1
+Read,9D_05,endhazardcycle_d-04,stun_d-04_1
+   2
+StunPause
+   3
+   2,R,J
+EndStunPause
+   1,R
+Read,9D_05,endstun_d-04_1,stun_d-04_2
+   6,R,D,X
+   1,S,N
+  10,O
+   4,R,D,X
+   1,S,N
+  10,O
+   5,R,D,X
+   1,S,N
+  10,O
+   1,R,D,K
+   1,S,N
+  10,O
+   5,K
+   2,R,K
+   5,R
+   5,R,D,X
+   7,R,J,G
+   1,J
+Read,9D_05,endstun_d-04_2,stun_d-05
+   2,R
+   1
+StunPause
+   5
+EndStunPause
+   2,R
+   1
+StunPause
+   1,R
+   1,R,D
+   1,R,J
+   2,J
+EndStunPause
+Read,9D_05,endstun_d-05,endroute_stun_d-03
+Read,9D_05,endbranch_d-03,hazardcycle_d-10
+   2
+Read,9D_05,hazardcycle_d-10
+
+#==========================
+#Memories
+
+#stun in d-10
+
+Read,9DSP_06,Start
+
+#3 keys remaining
+
+#==========================
+#Creation
+
+#hazardcycle at start
+#stun in dd-00-lobby
+
+   2,R,Z
+Read,9DSP_07,Start
+
+#4 keys remaining
+
+#==========================
+#Exploration
+
+#no global cycles
+
+Read,9D_08,Start
+
+#==========================
+#Depression
+
+#hazardcycle in g-05
+#stun in g-06
+#2 stuns in g-09
+#stun in h-01
+
+Read,9D_09,Start,hazardcycle_g-06
+   2
+Read,9D_09,endhazardcycle_g-06,stun_g-09
+   1,R,J
+   4,R,D,X
+StunPause
+   4,R,D,X
+EndStunPause
+   9,R,D
+   1,R
+   1,R,D
+   1,R,J,G
+StunPause
+   2,R,J,G
+EndStunPause
+Read,9D_09,endstun_g-09,stun_h-01
+   1,R,J
+StunPause
+  12,R,J
+EndStunPause
+Read,9D_09,endstun_h-01,hazardcycle_h-03
+   1
+Read,9D_09,endhazardcycle_h-03,stun_h-03
+StunPause
+   4,R
+EndStunPause
+   1,R
+   7,R,D,K
+   1,S,N
+  10,O
+  13,R,D,X
+Read,9D_09,endstun_h-03
+
+#==========================
+#Trust
+
+#hazardcycle in hh-07
+#2 stuns in hh-08
+
+Read,9D_10,Start,hazardcycle_hh-08
+   1
+Read,9D_10,endhazardcycle_hh-08,stun_hh-08
+StunPause
+   2,R,K
+SkipInput 3 1
+  13,R,D,X
+EndStunPause
+   2,R,D,X
+   1
+   9,R
+StunPause
+  14,R
+EndStunPause
+Read,9D_10,endstun_hh-08
+
+#==========================
+#Serenity
+
+#hazardcycle at start
+#stun in i-05
+
+   0
+Read,9D_11,Start,stun_i-05
+   2,R
+StunPause
+   3,R,J
+  10,R
+EndStunPause
+  20,R
+   4,R
+StunPause
+   4,R
+SkipInput 3 1
+  15,R,Z
+   1,R
+SkipInput 3 1
+  14,R,Z
+EndStunPause
+Read,9D_11,endstun_i-05
+
+#==========================
+#0M
+
+#hazardcycle in j-07
+
+Read,9DSP_12A,Start,hazardcycle_j-07
+   1
+Read,9DS_12A,endhazardcycle_j-07
+
+#8 keys remaining
+
+#==========================
+#500M
+
+#no global cycles
+
+Read,9DSP_12B,Start
+
+#10 keys remaining
+
+#==========================
+#1000M
+
+#keycycle in l-04
+
+Read,9DSP_13A,Start,keycycle_l-04
+   1
+Read,9DSP_13A,endkeycycle_l-04
+
+#10 keys remaining
+
+#==========================
+#1500M
+
+#alternate route in m-08s
+#optional stun in m-08s
+
+Read,9DS_13B,Start,hazardcycle_m-08s
+Read,9DS_13B,stunless_m-08s,endstunless_m-08s
+Read,9DS_13B,lvl_m-08 (2)
+
+#12 keys remaining
+
+#==========================
+#2000M
+
+#no global cycles
+
+Read,9DS_14A,Start
+
+#14 keys remaining
+
+#==========================
+#2500M
+
+#no global cycles
+
+Read,9DS_14B,Start,lvl_o-10 (1)
+Read,9D_14B,lvl_o-10,lvl_o-13
+Read,9DS_14B,lvl_o-13
+
+#15 keys remaining
+
+#==========================
+#Sunrise Running
+
+#no global cycles
+
+#remember to fix hazard
+#cycle line to be CP-37
+#eventually
+
+Read,9DS_15,Start,hazardcycle_CP-44
+   0
+Read,9DS_15,hazardcycle_CP-44
+
+#17 keys remaining
+
+#==========================
+#Goodbye of the Mountain
+
+#hazardcycle in CP-43
+#2 stuns in CP-37
+
+Read,9DP_16,Start,stun_CP-37_1
+   2,R
+StunPause
+  11,R,U
+SkipInput 3 1
+  15,R,Z
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R
+EndStunPause
+Read,9DP_16,endstun_CP-37_1,stun_CP-37_2
+   1,R,J
+StunPause
+  11,R,J
+EndStunPause
+StunPause
+   1,R,K,G
+   7,R,D
+EndStunPause
+Read,9DP_16,endstun_CP-37_2
+
+#==========================
+#Heart Beating
+#and Realization
+
+#no global cycles
+
+Read,9DS_17,Start
+
+#18 keys remaining
+
+#==========================
+#Parting
+
+#no global cycles
+
+Read,9D_19,Start
+
+#==========================
+#Plural
+
+#stun in t-11
+
+Read,9D_20,Start,hazardcycle_t-11
+   1
+Read,9D_20,endhazardcycle_t-11
+
+#==========================
+#True Love
+
+#no global cycles
+
+Read,9D_21,Start
+
+#==========================
+#Reunification-A
+
+#hazardcycle at start
+#2 stuns in v-00-lobby
+#keycycles in lvl_void
+#(kinda)
+
+Read,9DSP_22A,Start,hazardcycle_v-00-lobby
+   0
+Read,9DSP_22A,endhazardcycle_v-00-lobby,stun_v-00-lobby
+   1,R
+   2,R,J
+StunPause
+   8,R,J
+SkipInput 3 1
+  15,U,Z
+   3,R
+EndStunPause
+StunPause
+   1,R
+EndStunPause
+StunPause
+   6,R
+SkipInput 3 1
+  15,L,U,Z
+   6
+   3,L
+   1,R
+SkipInput 3 1
+   7,R,Z
+EndStunPause
+Read,9DSP_22A,endstun_v-00-lobby,keycycle_lvl-void_1
+ 138
+  15,R,X
+ 123
+  15,R,X
+ 108
+  15,R,X
+  82
+Read,9DSP_22A,endkeycycle_lvl-void_1,keycycle_lvl-void_2
+ 397,R,D
+Read,9DSP_22A,endkeycycle_lvl-void_2,keycycle_lvl-void_3
+  65
+  12,J
+  15,U,X
+ 121
+  15,U,X
+   1,J
+ 235
+Read,9DSP_22A,endkeycycle_lvl-void_3,keycycle_lvl-void_4
+  89
+  14,L,D,X
+   1,R,J
+  15,R,D,X
+  15,D,C
+ 245
+  13,R
+  10
+  15,R,Z
+ 106
+  12,J
+  15,R,X
+  97
+Read,9DSP_22A,endkeycycle_lvl-void_4,keycycle_lvl-void_5
+  87
+  12,J
+  14,U,X
+   9,R,J
+  40
+
+#2 keys remaining
+
+#==========================
+#AREA_10eIIECKP_v99of_the_Mu
+
+#keycycle in y-06
+#keycycle in y-15s
+#keycycle in y-??? (up-key-2d)
+
+Read,9DP_23,Start,keycycle_y-06
+  36,R
+Read,9DP_23,endkeycycle_y-06,lvl_y-10 (1)
+Read,9DP_23,route_y-15s,keycycle_y-15s
+ 102,D
+Read,9DP_23,endkeycycle_y-15s,keycycle_up-key-2d
+  28,R,G
+Read,9DP_23,endkeycycle_up-key-2d
+
+#==========================
+#Reunification-B
+
+#hazardcycle in w-00-point-of-no-return
+
+Read,9DSP_22B,Start
+
+#==========================
+#Point of No Return
+
+#no global cycles
+
+   0
+Read,9D_24,Start
+
+#==========================
+#Mostly Absolute Certainty
+
+#hazardcycle in w-15
+#2 stuns in w-16
+Read,9D_25,Start,hazardcycle_w-16
+   0
+Read,9D_25,endhazardcycle_w-16,stun_w-16_1
+   1
+StunPause
+   1
+   1,J
+   8
+SkipInput 3 1
+  10,R,Z
+   1,R,K
+   1,L,J,G
+EndStunPause
+StunPause
+   1,R,J
+EndStunPause
+StunPause
+   1,R,J
+   2,R
+SkipInput 3 1
+   5,R,D,X
+   2,R
+   3,R,K,G
+EndStunPause
+   1,R,K
+   3,K
+   2,R,K
+StunPause
+   5,R,K
+EndStunPause
+Read,9D_25,endstun_w-16_1,stun_w-16_2
+   3,R
+StunPause
+   3,R
+   1,R,D,J
+EndStunPause
+   2,R,J
+   1,S,N
+  10,O
+   5,R
+   4,J
+Read,9D_25,endstun_w-16_2
+
+#==========================
+#Bottomless
+
+#hazardcycle in x-07
+#stun in x-10
+#stun in x-11
+#hazardcycle in xx-07
+
+Read,9DP_26,Start,hazardcycle_x-10
+   0
+Read,9DP_26,endhazardcycle_x-10,stun_x-11
+   2,R
+   1,S,N
+  10,O
+   1,R,D
+   1,S,N
+  10,O
+   1,R,D
+SkipInput 3 1
+   7,R,U,Z
+   1,S,N
+  10,O
+   4,R,U,Z
+   1,S,N
+  10,O
+   4,R,U,Z
+Read,9DP_26,endstun_x-11,hazardcycle_xx-10-final-goodbye
+   2
+Read,9DP_26,hazardcycle_xx-10-final-goodbye
+
+#==========================
+#Final Goodbye-A
+
+#4 stuns in xx-10-final-goodbye
+
+Read,9DSP_27A,Start
+
+#==========================
+#Final Goodbye-B
+#(The Vision)
+
+#global cycles are potentially here
+#(might do with berry detaching
+#in end-platinum-8)
+
+   1
+Read,9DP_27B,Start
+
+#==========================
+
+ChapterTime: 57:57.299(204547)
