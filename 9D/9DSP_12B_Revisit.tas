@@ -1,0 +1,155 @@
+RecordCount: 2151
+
+console load nameguysdsidespack/0/10-Farewell 102480 -15536
+   1
+
+console give_dsides_plat
+
+#lvl_k-01 (1)
+  36
+
+#Start
+  28,L,U,X
+   4,Z
+   4,L,J
+   2,L
+   4,L,J
+   5,L
+   1,G
+   6,K
+   7
+  23,U,G
+   6,J,G
+  40
+
+#lvl_k-01b
+   4
+   1,K,G
+   6
+   6,L,D,X
+   1,R,J
+   3,R
+   1,R,J
+   3,R
+   1,R,D,K
+   1,R,J,G
+   5,R
+   2,R,J
+   4,R
+   5,R,D
+   5,R,K
+   1
+  14,R,U,X
+   1,R,J,G
+   3,J
+   1
+   1,R
+   1,R,K,G
+   6,R
+  31,R,K
+  15,U,X
+   7,R
+  14,R,U,Z
+   7,R,J,G
+   5,R
+   1,R,J
+  12,R,D
+   6,D
+   5,L,K
+  11,R,D,X
+   1,J
+   6
+  15,D,X
+  15,U,C
+   2,L,J
+  77
+  14,R,D,X
+   1,L,J
+  12,D,X
+  40
+
+#lvl_k-01 (2)
+Read,9DS_12B,lvl_k-01 (2),lvl_k-12
+
+#lvl_k-12
+   5,R
+   1,R,J
+   6,R,K,G
+  10,R
+  20,R,K
+   7,R
+   1
+   4,D,X
+  11,R,U,X
+  12,L,G
+  11,D
+   8,L,D
+   5,L,J
+   4,D,X
+  10,U,X
+   3,J
+  66,L
+   1
+   9,L
+  15,U,X
+   5,L
+   7,L,J
+   5,L
+   1,L,K,G
+  23,L,J,G
+  23,L,U,X
+  40,L
+   1,R,J
+   4,R,K
+  33,R,U,X
+  19,R,G
+   1,R,J,G
+   1,R,K,G
+   1,R,J,G
+  15,R,K,G
+  74
+  20,L,X
+  15,U,C
+   2,L
+  15,U,X
+   2,L
+  12,R,J,G
+  13,K,G
+   7,L,J
+   5,L,K,G
+  15,U,Z
+   1,L
+   5,J
+   6,L,J
+   3,J
+  14,U,X
+   3,L,J
+  11,R,J
+   2,R,K,G
+   1,R,J,G
+   7,R
+  15,R
+  15,U,X
+  11,R,G
+  10,R,D,G
+   9,G
+   1,L,J
+  20,L,K
+   7,J,G
+   2,R,J
+  16,R,K
+  15,L,J
+  16,U,X
+  17,U,C
+ 135
+
+#Original 9DS:
+#1:09.020(4060)
+
+#w/ Platinum: +25f
+#1:09.445(4085)
+
+  40
+
+#lvl_l-01
+  71
