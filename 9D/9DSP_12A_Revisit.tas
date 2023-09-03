@@ -1,0 +1,153 @@
+#By med and euni
+
+#0M
+console load nameguysdsidespack/0/10-Farewell j-00
+   1
+
+console give_dsides_plat
+
+#Section 0M
+#lvl_j-00 (1)
+  36
+
+#Start
+Read,9DS_12A,Start,lvl_j-00b
+
+#lvl_j-00b
+   3,L
+   1,R,J,G
+   1,R,K,G
+   7,R,J,G
+   1,R
+   6,R,Z
+   1,R,K
+   6,R
+   5,R,J
+   5,R
+   1,J
+   4,R
+   6
+   3,R
+   1
+   5,R,U,Z
+AnalogMode,Square
+  27,F,21.5
+AnalogMode,Precise
+   3,F,0
+   4,F,15
+  15,R,Z
+  12,D
+   7,L,D
+   8,R,D
+   5,R,J
+   6,K,G
+  77
+  15,L,D,X
+  17,L,D,C
+   4,L,Z
+   1,L,J
+  10,L
+   5
+   1,L
+  11,R,D,X
+  40
+
+#lvl_j-00 (2)
+Read,9DS_12A,lvl_j-00 (2),lvl_j-02b
+
+#lvl_j-02b
+  10,L,J
+   5,L
+   3,L,J
+   2,L,D
+  15,D
+  18,L,D,X
+   6,D
+   5,L,D
+   1,J
+   5,L,J
+   5,L
+   5,L,J
+  14,L,Z
+   1,L,K,G
+   1,K
+  17,L,K
+  40,R,U,X
+   2,D
+   2,R,D
+  17,L,D
+  18,L,D,X
+  10,R,D,C
+   2,R,J
+   3,R,K,G
+   1,R,J,G
+   1,J
+  18,R,J
+   2,R,K,G
+  11,R,J,G
+   5,R
+   5,R,J
+  24,R,U,Z
+   7,R,K
+   5,R,X
+   2,R,J
+   1,J
+   1,R,J
+  40
+
+#lvl_j-02
+Read,9DS_12A,lvl_j-02 (2),hazardcycle_j-07
+#hazardcycle_j-07
+   2
+#endhazardcycle_j-07
+Read,9DS_12A,endhazardcycle_j-07,lvl_j-10
+
+#lvl_j-10
+   5,R,J
+   9,R
+  14,R,U,Z
+  39,R
+  10,R,X
+  36,L
+  15,L,U,Z
+  41,R
+  18,R,X
+   4
+  14,R
+  15,R,Z
+   8,R
+  15,R,U,X
+   6,R
+  37
+   6,L
+   3
+  10,R,U,X
+  26,L
+  15,L,X
+   4,L
+  37
+  10,L
+  29,L,X
+  22,R
+  18,R,U,X
+  18,R,U,C
+  30
+  16,R
+  16,L,U,X
+  30
+  11,L
+  14,U,X
+ 183
+
+#Original 9DS:
+#1:12.675(4275)
+
+#w/ Platinum:
+#1:13.712(4336)
+
+  40
+
+#lvl_k-01
+  73
+
+AnalogMode,Ignore
