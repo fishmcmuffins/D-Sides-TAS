@@ -1,0 +1,100 @@
+console load nameguysdsidespack/0/10-Farewell 21869 -3776
+   1
+
+console givekey
+console givekey
+
+console give_dsides_plat
+console give_golden
+
+console cheat
+
+#lvl_c-02
+  36
+   9,U,X
+  40
+
+#lvl_cc-05
+  11,R
+  13,U,X
+#Start
+Read,9DSP_04,Start,keycycle_cc-00-lobby_1
+#keycycle_cc-00-lobby_1
+ 112,K,G
+  21,L,K
+  70,D
+#endkeycycle_cc-00-lobby_1
+Read,9DSP_04,endkeycycle_cc-00-lobby_1,hazardcycle_cc-03
+#hazardcycle_cc-03
+   1,G
+#endhazardcycle_cc-03
+Read,9DSP_04,endhazardcycle_cc-03,stun_cc-03
+#stun_cc-03
+StunPause
+   1,R,J
+   4,R
+   1,R,J
+   7,R
+   1
+   1,R
+   8,D
+   1
+   6,D
+   2,L
+EndStunPause
+#endstun_cc-03
+Read,9DSP_04,endstun_cc-03,keycycle_cc-03
+#keycycle_cc-03
+  53,R,G
+#endkeycycle_cc-03
+Read,9DSP_04,endkeycycle_cc-03,keycycle_cc-00-lobby_2
+#keycycle_cc-00-lobby_2
+  87,D
+#endkeycycle_cc-00-lobby_2
+Read,9DSP_04,endkeycycle_cc-00-lobby_2,lvl_cc-06
+
+#lvl_cc-06
+Read,9D_04,lvl_cc-06,hazardcycle_cc-07
+#hazardcycle_cc-07
+   1
+#endhazardcycle_cc-07
+Read,9D_04,endhazardcycle_cc-07,hazardcycle_d-03
+#hazardcycle_d-03
+   4,Z
+   2,R,J
+   8,R
+   1,R,J
+   4,Z
+   1,R,J
+   7,R
+  40
+
+#lvl_d-01
+   2,L,J
+   1,K
+   6,L,J,G
+   6,J
+  12,L,K,G
+   1,J,G
+   2,R,J
+  10,U,X
+  74,R,J
+   2,J
+   1,R,J
+   5,L,Z
+   1,R,J
+   3,R
+   1,R,J
+   3,R
+  33,R,J
+  19,R,U,X
+  24,R,C
+  15,U,X
+  49,R,D
+   8,R
+  25,R,Z
+  16,R,V
+
+#0:56.831(3343)
+
+  40
