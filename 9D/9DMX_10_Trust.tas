@@ -1,0 +1,105 @@
+console load nameguysdsidespack/0/10-Farewell 87489.36 -11163.62
+   1
+
+console give_golden
+
+#lvl_h-08
+  36
+  12,U,Z
+   3,J
+   6,R,J
+  11,R
+   2,R,K
+   9,R,D,X
+   1,R,J
+   1,S
+   1,D,O
+  34
+   7,R
+  40
+
+#lvl_hh-01
+   1,R,K
+   7,R,D,X
+   1,S
+   1,D,O
+  34
+   4,R
+   4,Z
+   4,R,J
+#Start
+Read,9D_10,Start,hazardcycle_hh-08
+#hazardcycle_hh-08
+   1
+#endhazardcycle_hh-08
+Read,9D_10,endhazardcycle_hh-08,stun_hh-08
+#stun_hh-08
+StunPause
+   2,R,K
+SkipInput 3 1
+  13,R,D,X
+EndStunPause
+   2,R,D,X
+   1
+   9,R
+StunPause
+  14,R
+EndStunPause
+#endstun_hh-08
+   2,R
+   4,R,K,G
+   5,R
+   7,R,K
+  10,R
+   1,R
+   4,R,D,J
+  40,J
+
+#lvl_i-01
+   4,R,J
+  15,U,X
+  10,L,J,G
+   2,L
+   3,L,K,G
+   7,L
+  14,L,Z
+   1,R,J
+  14,R,U,X
+   1,S,N
+   1,D,J
+  34
+   1,R,U,X
+  14,R,D
+   1,S,N
+   1,D,J
+  34
+  38,R,D
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R,K
+   2,R,J
+   1,R,K,G
+   8,R
+  40
+
+#lvl_i-02
+   4,R
+   6,R,J
+   4,R,K,G
+  12,R,X
+   6,R,Z
+   1,R,J
+   8,R
+  19,R,D,X
+  34,R,J
+  29,R,U,X
+   1,R,J,G
+   3,R
+   1,R,J,G
+   7,R
+  13,R,U,X
+   1,R,J,G
+   5,R
+   2
+#0:47.345(2785)
