@@ -1,0 +1,30 @@
+console load nameguysdsidespack/0/10-Farewell 50419 -8143.88
+   1
+
+console give_dsides_plat
+
+#lvl_dd-04
+  36
+  10,R,Z
+
+#hazardcycle_dd-00-lobby
+   0
+
+#Start
+Read,9DSP_07,Start,lvl_e-05
+
+#lvl_e-05
+   7,R,K,G
+  33,R
+  27,R,U,X
+  10
+   4,Z
+   8,R,J
+   1,L
+   6,R
+   1,R,J
+   2,R
+
+#0:34.833(2049)
+
+  40
