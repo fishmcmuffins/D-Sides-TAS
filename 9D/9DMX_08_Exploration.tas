@@ -1,0 +1,106 @@
+console load nameguysdsidespack/0/10-Farewell e-05 1
+
+#console load nameguysdsidespack/0/10-Farewell 62244 -9659
+#play,Section f-09,37
+   1
+
+#lvl_e-05
+  36
+  24,L
+   4,D,X
+   8,R,J
+   1,L
+   6,R
+   1,R,J
+   2,R
+  40
+
+#Start
+#lvl_f-01
+   1,R
+  15,U,X
+  13,D
+   1,R,D
+   1,D
+  14,R,D
+   6,D
+   1,R,D
+   7,R,Z
+   1,R,J
+   7,R
+  23,R,J
+   6,R
+  46,R,X
+   4,R,J
+   7,R,Z
+  19,R,J
+  30,U,X
+  26,R,C
+   4,R
+  27,R,D,X
+   4,R,J
+   7,R,K
+   5,R
+   4,R,J
+   5,R
+   4,X
+  10,R,X
+   6,R
+   4,D,X
+  10,R,J
+   1,R
+   4,R,J
+   1,J
+  15,R,J
+   4,K,G
+  11,R,D,X
+   8,R,J
+   3,R,K
+   7,R
+   4,D,X
+  19,R,U,X
+   4,R,J
+   3,R,K
+  20,R,D,X
+   4,L,J
+  17,R,U,X
+   4,J
+  44,R,D,X
+   1,R
+  25,R,U,C
+   4,R,J
+   1,R,K
+  20,R,D
+  22,R,U,X
+   4,J
+   4,D,X
+   4,R,J
+   7,R
+   4,R,J,G
+  16,R
+   4
+  11,R
+  18,R,X
+   4,L,G
+  14,D
+   9,R,D
+   4,D,X
+   9,R,X
+   4,R,J
+  40
+
+#lvl_f-02
+Read,9D_08,lvl_f-02,lvl_f-16
+
+#lvl_f-16
+  12,L
+   6,L,J,G
+   4,D,X
+   6,L,X
+   6,L,J
+   1,R,K,G
+  14,U,X
+   1,R,J
+   1,R,K,G
+  10
+#1:40.674(5922)
