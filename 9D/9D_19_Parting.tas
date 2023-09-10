@@ -1,4 +1,4 @@
-RecordCount: 2902
+RecordCount: 2955
 console load nameguysdsidespack/0/10-Farewell 181264 -48272
    1
 
@@ -274,20 +274,18 @@ EndRepeat
   31,L,X
   33,R
    9,U,X
+  15,R,J
+   7,R
   13,R,J
-  26,R
-  21,R,Z
-   3,R,K
-   6,R
-   1,R,K
-   1,K
-   1,R,K
+  10,R
+   3,R,D
+  25,R,Z
+   3
+   5,J,G
    2
-   2,R
-   1
-   1,R,J,G
-   2,R,K,G
-   1,R,D
-  12,D
-   2,R
-#0:44.591(2623)
+   1,J,G
+   7,R
+  10,R,Z
+   6,R,J
+#0:44.744(2632)
+  40,J
