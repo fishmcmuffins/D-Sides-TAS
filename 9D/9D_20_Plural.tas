@@ -8,12 +8,11 @@ Set,Session.Inventory.Dashes,2
 
 #Respawn
   36
-
-#Start
    5,R,Z
    6,R,J
   40,J
 
+#Start
 #lvl_t-03
    1,R,J
   10,K
