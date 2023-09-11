@@ -410,7 +410,7 @@ SkipInput 3 1
   17,R,G
    1,G
 EndStunPause
-#endstun_v-00-lobby_1
+#endstun_v-00-lobby_2
   19,G
    1,L,D
   25,L,G
@@ -698,5 +698,7 @@ EndStunPause
   12,J
   14,U,X
    9,R,J
+
 #2:29.362(8786)
+
   40
