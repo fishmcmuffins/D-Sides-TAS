@@ -1,4 +1,4 @@
-RecordCount: 555
+RecordCount: 557
 
 #1000M
 console load nameguysdsidespack/0/10-Farewell 109280 -18296
@@ -55,15 +55,12 @@ console load nameguysdsidespack/0/10-Farewell 109280 -18296
   40
 
 #lvl_l-02
-Read,9D_13A,lvl_l-02,lvl_l-03
-
-#lvl_l-03 (1)
-Read,9DS_13A,lvl_l-03 (1), lvl_l-03b
+Read,9DS_13A,lvl_l-02,lvl_l-03b
 
 #lvl_l-03b
 Read,9DSP_13A,lvl_l-03b,lvl_l-03
 
-#lvl_l-03 (2)
+#lvl_l-03 (1)
    3,R
   12,R,J
   10,R,Z
@@ -139,7 +136,7 @@ Read,9DSP_13A,lvl_l-03b,lvl_l-03
    3,D
   40
 
-#lvl_l-03 (3)
+#lvl_l-03 (2)
   15,L,D,X
   10,D,C
    1,J
@@ -265,6 +262,6 @@ Read,9D_13A,endkeycycle_l-04,lvl_l-11
   19,U,X
  253
 
-#1:23.181(4893)
+#1:23.011(4883)
 
   40
