@@ -1,6 +1,6 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
-RecordCount: 13412
+RecordCount: 13430
 console load nameguysdsidespack/0/10-Farewell 213188 -52541
    1
 
@@ -19,8 +19,7 @@ console givekey
    1,R,G
 
 #Start
-   6,J,G
-   5
+   7,J,G
   12,R,Z
    1,L,J
    7,L
@@ -29,29 +28,42 @@ console givekey
    1,R
    1,K
   17,U,X
-   3,L,J,G
-  53,L
-  55,G
+   2,L,J,G
+   1,L,K,G
+  12,L
+  22,L,X
+  10,L,U,G
+  39,G
+   8,L,D,G
+   1,L,J,G
+  13,L,D
   15,L,D,X
-   5,L,J
-  27,R,J
-  13,G
+   3,L,J
+  21,R,J
+   2,R
+   3
+   1,G
    1,U,G
 repeat 4
    1,G
    1,U,G
 endrepeat
-   7,G
+   6,G
    2,U,G
   12,J,G
-   9,K,G
+   8,K,G
+   1,R,K
    1,J
    7,L,J
   18,U,X
   15,R,D
-  23,L,D
-   1,L,D
-  18,G
+  22,L,D
+   1
+   1,L
+  11,G
+   1,D,G
+   1,G
+   1,U,G
    1
    1,K
    5,L,Z
@@ -60,9 +72,8 @@ endrepeat
    1,L,J,G
    1,L,K,G
    2,L
-   3,L,J
-   4,L
-   7,L,J
+   4,L,J
+  10,L
   15,L,Z
   14,L,D
   13,U,X
@@ -78,7 +89,7 @@ endrepeat
 Read,9D_23,lvl_v-99b,keycycle_y-06
 
 #keycycle_y-06
-  10,R
+  23,R
 #endkeycycle_y-06
 
 Read,9D_23,endkeycycle_y-06,lvl_y-10 (1)
@@ -144,7 +155,7 @@ play,lvl_y-15s
 
 #lvl_y-15s
 #keycycle_y-15s
- 122,D
+ 103,D
 #endkeycycle_y-15s
 Read,9D_23,endkeycycle_y-15s,Right-Up.1
 
@@ -401,7 +412,7 @@ Read,9D_23,endkeycycle_y-15s,Right-Up.1
   60,R,G
    9,G
 #keycycle_up-key
-  32,R,G
+  25,R,G
 #endkeycycle_up-key
    1
    9,J
@@ -592,4 +603,4 @@ endrepeat
   19,R
    9,D
 
-#4:25.846(15638)
+#4:24.061(15533)
