@@ -1,6 +1,6 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
-RecordCount: 13407
+RecordCount: 13408
 console load nameguysdsidespack/0/10-Farewell 213188 -52541
    1
 
@@ -1793,11 +1793,6 @@ play,lvl_y-15s
   10,J
   11,U,X
    8,R,J
-
-
-
-
-
   29,R,D
   10,R,X
    9,R,J
@@ -1860,6 +1855,102 @@ repeat 33
 endrepeat
    1
 
-#4:07.554(14562)
-
+#lvl_void
  189
+   1,L,J
+  14,R,D,X
+   1,L,J
+  15,L,D,X
+   1,J
+   5
+  13,D,X
+  40
+
+#lvl_v-00-upperer-a
+   2,D
+   7,D
+   1,J
+  18
+  16,R,D,X
+   1,J
+  12
+  14,R,D,X
+   1,R,J
+   9,R,D,X
+  40
+
+#lvl_v-00-upperer-b
+   6,R,D,X
+  15,D,C
+   6,R,D
+   4,X
+  11,R,J
+   9,R
+   1,D
+  15,R,D,X
+  15,L,D,K
+   9,R,U,X
+   1,R,J,G
+   1,R
+   1,R,J,G
+   6,R
+   4,R,J
+   5,R,D
+   9,D
+   8,R,D
+   1,D
+   3,R,D
+   3,R
+  13,R,U,Z
+   1,K
+   7
+   7,R,Z
+   1,L,J
+   9,L
+   7,R
+   1
+   1,R
+  15,R,Z
+   2,R,K
+   5,R,J,G
+   3,R
+   4,R,K
+  14,R,D
+  13,R,Z
+   1,R,J
+   2,J
+   5,R,Z
+   1,R,J,G
+  11,R,D
+   9,D
+  15,R,Z
+   4,R,K
+   1,J
+   2,R,J
+   9,K
+  11,L,Z
+   1,J
+  12,K
+   1,J
+  12,L,Z
+   1,K
+  11,J
+   1,R,J
+   1
+   1,R
+   1,K
+   1,R,K
+  11,R,Z
+   1,L,J
+  12,K,G
+   4,J
+  13,R,Z
+   2,R,K
+#4:19.964(15292)
+  40
+
+#lvl_w-00-point-of-no-return
+   1,R
+   1,S
+   1,D,J
+  69,O
