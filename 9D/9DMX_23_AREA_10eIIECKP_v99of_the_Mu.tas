@@ -1,12 +1,12 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
-RecordCount: 13407
+RecordCount: 13408
 console load nameguysdsidespack/0/10-Farewell 213188 -52541
    1
 
 console give_golden
 
-#console give_dsides_plat
+console give_dsides_plat
 
 #If you want the y-14 route,
 #you can comment out one of
@@ -501,10 +501,94 @@ repeat 33
 endrepeat
    1
 
-#Original:
-#4:07.554(14562)
-
-#Golden: +253f
-#4:11.855(14815)
-
+#lvl_void
  189
+   1,L,J
+  14,R,D,X
+   1,L,J
+  15,L,D,X
+   1,J
+   5
+  13,D,X
+  40
+
+#lvl_v-00-upperer-a
+   2,D
+   7,D
+   1,J
+  18
+  16,R,D,X
+   1,J
+  12
+  14,R,D,X
+   1,R,J
+   9,R,D,X
+  40
+
+#lvl_v-00-upperer-b
+   6,R,D,X
+  15,D,C
+   6,R,D
+   4,X
+  11,R,J
+   9,R
+   1,D
+  15,R,D,X
+  15,L,D,K
+   9,R,U,X
+   1,R,J,G
+   1,R
+   1,R,J,G
+   6,R
+   4,R,J
+   5,R,D
+   9,D
+   8,R,D
+   1,D
+   3,R,D
+   3,R
+  13,R,U,Z
+   1,K
+   7
+  15,U,X
+   2,L,J
+  11,L
+  13,L,X
+   1,L,J
+   1,L
+   9,U,C
+   1,L,J
+   3,L
+   1,J
+   8
+   3,R
+  10,R,D,J
+  15,R,D,X
+   1,R,D,J
+   3,R
+  15,R,X
+   9,R,D
+   6,R,Z
+   1,R,J
+   7,R
+   1,R,J
+  12,R,D,X
+   6,R,J
+  15,R,D,X
+  11,R,C
+  43
+
+#lvl_w-00-point-of-no-return
+   4,R
+  10,R,Z
+  10,R,J
+   4,J
+  14,U,X
+  18,L,J
+   5,L,K,G
+   7,L
+  15,L,U,X
+  19,R
+   9,D
+
+#4:25.795(15635)
