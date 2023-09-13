@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 2695
+RecordCount: 2759
 
 console load nameguysdsidespack/0/10-Farewell 212416 -50688.1666963995
    1
@@ -327,9 +327,9 @@ EndStunPause
   19,L,Z
   19
   77
-#hazardcycle_v-07
+#hazardcycle_v-00-lobby_2
    1
-#endhazardcycle_v-07
+#endhazardcycle_v-00-lobby_2
    6,R,Z
    1,R,J
   40
@@ -357,23 +357,22 @@ EndStunPause
 #lvl_v-07 (2)
    1,L,C
    1,L,J
-   2,L
-#stun_v-07
-StunPause
-   5,L
-  10,J
-   4,L,J
-  25,L,U,J,G
-   9,R,D
-SkipInput 3 1
+   7,L
+   1,J
+   5,L,J
+   6,R,J
+ 106,R,U,G
+   1,R,D
+   8
   12,U,X
-  13,G
-   8,L,G
-   1,D,G
-EndStunPause
-#endstun_v-07
-  17,D,G
-  22,L,D,G
+  43,R,G
+   1,R,D
+   1,R,K,G
+  12
+   1,L,J
+   1,L,K
+  89,L,U,K,G
+   5,L,G
    7,L,J,G
   12,L,U,G
   16,R,D
@@ -410,7 +409,7 @@ SkipInput 3 1
   17,R,G
    1,G
 EndStunPause
-#endstun_v-00-lobby_2
+#endstun_v-00-lobby_1
   19,G
    1,L,D
   25,L,G
@@ -421,22 +420,22 @@ EndStunPause
   72,R,U,G
    1,R,D
    1,R,J,G
-  16,J
+  10,J
+   6
   13,G
    9,D
   15,R,G
    3,L,J
-  20,L,J,G
-  39,L,D,G
-  10,L,D,G
-   5,D,G
+  21,L,J,G
+  46,L,D,G
+   8,D,G
    1,L
   15,R,U,X
   26,D
   10,U,X
-  70,D,G
-   7,D
-   3,D
+  68,D,G
+   2,G
+  11,D
   14,U,X
   21,G
    1,D
@@ -629,7 +628,7 @@ EndStunPause
   15,R,X
  108
   15,R,X
-  71
+  67
 #endkeycycle_lvl-void_1
 
   14,L,Z
@@ -643,7 +642,7 @@ EndStunPause
   15,R,X
 
 #keycycle_lvl-void_2
- 399,R,D
+ 398,R,D
 #endkeycycle_lvl-void_2
 
   10,R,X
@@ -699,6 +698,6 @@ EndStunPause
   14,U,X
    9,R,J
 
-#2:29.362(8786)
+#2:24.364(8492)
 
   40
