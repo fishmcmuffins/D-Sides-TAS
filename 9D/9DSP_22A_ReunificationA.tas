@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 2705
+RecordCount: 3162
 
 console load nameguysdsidespack/0/10-Farewell 212416 -50688.1666963995
    1
@@ -9,10 +9,10 @@ Set,Session.Inventory.Dashes,2
 
 console give_dsides_plat
 
-#just spawn 21 keys
+#just spawn 22 keys
 #regardless of how many
 #are collected in reuni
-Repeat,21
+Repeat,22
 console givekey
 EndRepeat
 
@@ -442,160 +442,200 @@ EndStunPause
    2,L,J
    1,J
   10,L,J
-
-
-
-
    1,K
   15,R,K
   27,R,X
-  15,R,D,C
-  15,D,X
-  15,L,D
-  15,L,Z
-  15,L,V
-  15,L,Z
+  10,R,D,C
+   7,L,J
    1,L
-  15,L,V
-   1,L
+   1,L,J
+   5,L,D
+  13,D
+   4,L,D
+  27,L,D,X
+   3,L
+   3,L,D
   14,L,Z
-   8,L,J
-   2,L,K,G
-   8,K
-  13,L,Z
    1,L,J
-   7,L
-   8,L,K
-   4,K
-   1,J,G
-   1,L,J
-   1,J
-   1,L,J
-   1,K
-   1,J,G
+   7,L,D,X
+   1,L,K
+   5,L
+   1,L,K
+   4,L
+  12,L,J
+   1,R,K,G
+   3,L,K
+   2,J
    1,R,J
    1,R,K,G
   12,R,J,G
   14,U,Z
-  13,K
-   4,L,K
+  13,J
+   4,L,J
   40
 
 #lvl_v-00-upperer-b
   11
-  15,U,X
-  10,L
+  14,U,X
+   1,J
+   1,K
+   7,L
   12,L,Z
   43
 
 #lvl_v-00-upperer-a (2)
    3,L
-  15,L,Z
-  15,R,D,X
-   6,L,D
-   4,L
-   1,L,D
-   4,L,J
-  10,L,X
-  12,L,J
-   4,R,K
-  13,U,X
-   2,R,J
-  11,R
+   2,L
+   1,L,D,J
+  18,R
+   9,R,D
+   2,L,D
+  18,L,Z
+   1,L,K
+  14,U,X
+  11,J
+   1,K
+   3
+   4,R
   10,R,X
-   8,R,J
-   2,J
-  15,U,X
    5,R,J
+   4,R
+  14,U,X
+   5,K
   40
 
 #lvl_void
-   3,R
-   8,R,J
-  14,R,U,X
-   2,J,G
-
-#keycycle_lvl-void_1
- 138
-  15,R,X
- 123
-  15,R,X
- 108
-  15,R,X
-  80
-#endkeycycle_lvl-void_1
-
-  14,L,Z
-   1,R,J
-   7,R
-   1,R,J
-  12,R,K,G
-  15,U,X
-   1,R,J
-  11,R
-  15,R,X
-
-#keycycle_lvl-void_2
- 395,R,D
-#endkeycycle_lvl-void_2
-
-  10,R,X
-   4,R,J
-  25
-   5,L
-
-#keycycle_lvl-void_3
-  75
-  12,J
-  15,U,X
- 130
-  15,U,X
-   1,J
- 225
-#endkeycycle_lvl-void_3
-
-  10,L,X
-  12,R,J
-   1,K,G
+   5
+   5,J
    1
-  15,R,X
-
-#keycycle_lvl-void_4
-  88
+  14,R,U,X
+   2,K,G
+   7,L
+   3,L,J
+  15,L,D,X
+   6,L
+   1,L,K
+  25
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   5,R,X
+  19,R,J
+   1,R,K,G
+#keycycle_lvl-void_1
+ 135,D
+   4,Z
+   1,R,J
+ 140
+  40,L
+  15
+#endkeycycle_lvl-void_1
+   1,K
+   5
+   2,K
+   8
   14,L,D,X
    1,R,J
-  15,R,D,X
-  15,D,C
- 226
-  13,R
-  10
-  15,R,Z
- 106
-  12,J
-  15,R,X
-  89
-#endkeycycle_lvl-void_4
-
-  12,J
-   4,K,G
-   2,L,K
-  10,R,X
-   9,R,J
-  15,U,X
-  11,R
-
-#keycycle_lvl-void_5
- 100
-#endkeycycle_lvl-void_5
-
-  12,J
+   8,R,D,X
+   4,R,K,G
+   3
+   2,R
+   1,R,K
+   8,R
+   5,R,D,J
+  11,R,K,G
   14,U,X
-   9,R,J
-
-#Original 9DS:
-#1:48.256(6368)
-
-#w/Platinum:
-#1:52.387(6611)
-
+   5,R,J
+   1,K
+   1,J
+  16,R,J
+#keycycle_lvl-void_2
+ 300
+#endkeycycle_lvl-void_2
+   9,L,K
+   3,K
+  12,J,G
+  11,K
+  33,D
+  11,R,D
+   1,D
+   2,R
+   6,R,X
+   5,R,J
+  18,R
+   2,R,K
+  10,K
+  11,J
+   7
+#keycycle_lvl-void_3
+  80,G
+   4,K,G
+   1,L,K
+ 100
+  10,L,D,J
+   2,K,G
+   1,R,K
+  10
+   2,L
+ 204
+  11,R,J
+   1,J
+   8,K,G
+   3,L,K
+   5,R,Z
+   1,R,J,G
+  11,R
+ 114
+#endkeycycle_lvl-void_3
+  14,R,Z
+   1,R,K
+  22,D,X
+#keycycle_lvl-void_4
+  99
+   2,R
+   1,R,J
+  15,D,X
+  17,R
+  54
+  10,J
+   2
+  11,K,G
+   3,L
+  32,R,D
+  15,R,X
+ 100
+   1,R,J
+ 101
+#endkeycycle_lvl-void_4
+  13,L,X
+  17,R,K
+   3,R,J,G
+   8,R,K,G
+   1,K
+   7,U,Z
+   6,R,J
+  18,R
+  15,R
+#keycycle_lvl-void_5
+  76,D
+#endkeycycle_lvl-void_5
+  10,D,J
+   1,K,G
+   5,L,K
+   5,R,K
+   5,R
+   3,K
+  14,U,X
+#1:50.313(6489)
   40
