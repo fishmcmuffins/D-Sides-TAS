@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 2477
+RecordCount: 2516
 
 console load nameguysdsidespack/0/10-Farewell 212416 -50688.1666963995
    1
@@ -186,6 +186,7 @@ EndRepeat
 #lvl_v-03
    1
   72,O
+  26
    4,Z
    5,R,J
    6,R
@@ -196,17 +197,18 @@ EndRepeat
   12,R,X
    1,R,J,G
    2,R,K,G
-  24,R,J,G
-   7,J
-   3,K,G
-   1,L,K
-  32,R,J,G
-   1,K
-   8,R,K
+   6,R,J,G
    5,R
-   2,R,K
-  10,R
-  29,R,Z
+   1,R,J
+   8,R
+  14,R,U,X
+   1,R,K,G
+   8,R
+   1
+   5,R,D
+   5,R,D,J
+   5,R
+  13,R,J
    1,S
    1,D,J
   69,O
@@ -343,40 +345,54 @@ EndStunPause
   15,R,X
   12,R,Z
    3,L,J
-  14,L,U,X
-   1,R,K,G
-   5,L,K
-  15,U,X
-   1,R,J,G
-  13,R
+  13,L,U,X
+   1,R
+   3,K,G
+   1,L,K
+  13,U,X
+   1,J
+   2
+   1,K
+   7,R
+   3,R,D,J
+   2,R
    3
-   5,R,D,J
-  14,U,X
-   4,R,J
+   1,L,K,G
+   8
+  12,U,X
+   2,R,J
+   1,R,K,G
+   1,J
   43
 
 #lvl_v-00-upperer-a (1)
-  11,R,J,G
-  14,R,X
-  13,J,G
+   3,R,K,G
+   8,R
+  14,R,U,Z
+   2,J
    6,R,Z
    1,R,J
    7,R
    2,R,J
   15,R,D,X
-  13,L,C
-   3,L,J
-  10,K,G
-   6,L,Z
+   2,R
+   8,D,K
+   9,L,Z
+   7,L,J
+   1,L,K,G
+  14,L,D,X
    1,L,J
-   7,L
-   2,L,J
-  15,L,D,X
-   7,L,D,C
+  12,D,X
+   1,K
+   1,J
+   1
+   9,L,D,X
    1,L,J
-  12,L
-   9,L,J
-  11,L,X
+   3,L
+   1,L,J
+   3,L
+   7,L,K
+  13,L,X
    1,L,J
   10
   13,D,X
@@ -463,128 +479,174 @@ EndStunPause
 
 #lvl_v-00-upperer-b
   11
-  15,U,X
-  10,L
+  14,U,X
+   1,J
+   1,K
+   7,L
   12,L,Z
   43
 
 #lvl_v-00-upperer-a (2)
    3,L
-  15,L,Z
-  15,R,D,X
-   6,L,D
-   4,L
-   1,L,D
-   4,L,J
-  10,L,X
-  12,L,J
-   4,R,K
-  13,U,X
-   2,R,J
-  11,R
+   2,L
+   1,L,D,J
+  18,R
+   9,R,D
+   2,L,D
+  18,L,Z
+   1,L,K
+  14,U,X
+  11,J
+   1,K
+   3
+   4,R
   10,R,X
-   8,R,J
-   2,J
-  15,U,X
    5,R,J
+   4,R
+  14,U,X
+   5,K
   40
 
 #lvl_void
-   3,R
-   8,R,J
-  14,R,U,X
-   2,J,G
-
- 138
-
-  15,R,X
-
- 123
-
-  15,R,X
-
- 108
-
-  15,R,X
-
-  70
-
-  14,L,Z
-   1,R,J
-   7,R
-   1,R,J
-  12,R,K,G
-  15,U,X
-   1,R,J
-  11,R
-  15,R,X
-
- 392,R,D
-
-  10,R,X
-   4,R,J
-  25
-   5,L
-
-  75
-
-  12,J
-  15,U,X
-
- 130
-
-  15,U,X
-   1,J
-
- 225
-
-  10,L,X
-  12,R,J
-   1,K,G
+   5
+   5,J
    1
-  15,R,X
-
-  88
-
+  14,R,U,X
+   2,K,G
+   7,L
+   3,L,J
+  15,L,D,X
+   6,L
+   1,L,K
+  25
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   5,R,X
+  19,R,J
+   1,R,K,G
+#keycycle_lvl-void_1
+ 150,D
+   4,Z
+   1,R,J
+ 142
+  40,L
+  20
+#endkeycycle_lvl-void_1
+   1,K
+   5
+   2,K
+   8
   14,L,D,X
    1,R,J
-  15,R,D,X
-  15,D,C
-
- 226
-
-  13,R
-  10
-  15,R,Z
-
- 106
-
-  12,J
-  15,R,X
-
-  89
-
-  12,J
-   4,K,G
-   2,L,K
-  10,R,X
-   9,R,J
-  15,U,X
-  11,R
-
-  92
-
-  12,J
+   8,R,D,X
+   4,R,K,G
+   3
+   2,R
+   1,R,K
+   8,R
+   5,R,D,J
+  11,R,K,G
   14,U,X
-   9,R,J
+   5,R,J
+   1,K
+   1,J
+  16,R,J
+#keycycle_lvl-void_2
+ 305
+#endkeycycle_lvl-void_2
+   9,L,K
+   3,K
+  12,J,G
+  11,K
+  33,D
+  11,R,D
+   1,D
+   2,R
+   6,R,X
+   5,R,J
+  18,R
+   2,R,K
+  10,K
+  11,J
+   7
+#keycycle_lvl-void_3
+  81,G
+   4,K,G
+   1,L,K
+ 100
+  10,L,D,J
+   2,K,G
+   1,R,K
+  10
+   2,L
+ 206
+  11,R,J
+   1,J
+   8,K,G
+   3,L,K
+   5,R,Z
+   1,R,J,G
+  11,R
+ 114
+#endkeycycle_lvl-void_3
+  14,R,Z
+   1,R,K
+  22,D,X
+#keycycle_lvl-void_4
+  99
+   2,R
+   1,R,J
+  15,D,X
+  17,R
+  54
+  10,J
+   2
+  11,K,G
+   3,L
+  32,R,D
+  15,R,X
+ 100
+   1,R,J
+ 101
+#endkeycycle_lvl-void_4
+  13,L,X
+  17,R,K
+   3,R,J,G
+   8,R,K,G
+   1,K
+   7,U,Z
+   6,R,J
+  18,R
+  15,R
+#keycycle_lvl-void_5
+  76,D
+#endkeycycle_lvl-void_5
+  10,D,J
+   1,K,G
+   5,L,K
+   5,R,K
+   5,R
+   3,K
+  14,U,X
 
 #original (upper lobby move.)
 #1:19.237(4661)
 
 #key +6
-#1:48.256(6368)
-#+1707f
-
+#1:47.100(6300)
+#+1639f
   40
 
 
