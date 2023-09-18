@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 3162
+RecordCount: 3462
 
 console load nameguysdsidespack/0/10-Farewell 212416 -50688.1666963995
    1
@@ -77,13 +77,14 @@ EndRepeat
   13,D
   15,L,D,X
    1,R,D
-  17,R,D,C
-   4,R,D
-   2,R,J
-  13,L,K
+  15,R,D,C
+   4,R
+   7,R,Z
+   1,R,J,G
+   2,J
+  10,R,J
   77
-  15,D,X
-   5,R,Z
+  13,R,D,X
    1,R,J
    3,R
   40
@@ -138,23 +139,27 @@ EndRepeat
   16,R,D
    8,D
    2,R,D
-  15,D
-  43,L,J
-   8,R,K
+  14,D
+  10,L,J
+   5,L
+   7,L,J
+   1,L
+   1,L,J
+  19,L
+   5,K,G
   77
-   7,R,D
-   6,R,X
-   6,L,J
-   1,L,K,G
-   9,L
+#left cb could clear
+#ledge with rounding
+#error from pre-bubble
+  15,L,U,X
+   7,L,D,C
   40
 
 #lvl_v-00-lobby (3)
-   1,L
-   4,L,D,J
-   3,L
+   7,L,J
+   1,K
   14,U,X
-  10,J
+  12,J
    3,L,J
   14,U,X
    6,K
@@ -186,59 +191,65 @@ EndRepeat
 
 #lvl_v-03 (1)
   11
-  15,L,Z
   11,D,X
   40
 
 #lvl_v-02 (2)
    4,L
-  15,L,X
-  13,L,U,Z
+  22,L,X
+  14,L,U,Z
   40
 
 #lvl_v-03 (2)
-   6,R
-  14
-   7,U,Z
-  32,R
-  13,R,X
+  14,L
+   6,U,X
+  29,R
+  14,R,X
    1,R,J,G
    2,R,K,G
-  24,R,J,G
-   7,J
-   1,K,G
-   2
-   1,L
-  32,R,J,G
-   1,K
-   9,R,K
-   4,R
-   2,R,K
-  12,R
-  27,R,Z
+   5,R,J,G
    7,R
-  12,R,D
+   3,R,J
+   5,R
+  14,R,U,X
+   1,R,K,G
+   8,R
+   1
+  16,R,J
+   3,K,G
+   1
+   1,R,J,G
+   4,L,J
+   6,R,J
+   1,R
+   1,R,K,G
+   1,R,J,G
+  30,R,D
+  19,R
   77
-   2,R
-   5
-  18,R,U,X
-  15,U,C
-   7,L
-  20,L,U,X
+  15,U,X
+   8,L
+  15,U,X
+   8,L
   40
 
 #lvl_v-00-lobby (4)
-   4,L
+   3,L
   15,U,X
-  12,L
-  16,U,X
-   7,J
-   1,R,J
-   2,R
-   1,L,K,G
-   1,L,J,G
+  13,L
+  15,U,Z
+   1,R
+   5,J,G
+   1,L,J
+   1,L
+   1,K
+   1,R,K
+   9,J
+   1
+   1,K
+   1,J
    7,L
-  10,L,Z
+   9,L,Z
    1,L,J
    7,L
    1,L,K
@@ -286,7 +297,7 @@ EndRepeat
   11,L,D
   77
 #hazardcycle_v-00-lobby
-   0
+   2
 #endhazardcycle_v-00-lobby
    7,L,Z
    1,R,J
@@ -352,40 +363,54 @@ EndStunPause
   15,R,X
   12,R,Z
    3,L,J
-  14,L,U,X
-   1,R,K,G
-   5,L,K
-  15,U,X
-   1,R,J,G
-  13,R
+  13,L,U,X
+   1,R
+   3,K,G
+   1,L,K
+  13,U,X
+   1,J
+   2
+   1,K
+   7,R
+   3,R,D,J
+   2,R
    3
-   5,R,D,J
-  14,U,X
-   4,R,J
+   1,L,K,G
+   8
+  12,U,X
+   2,R,J
+   1,R,K,G
+   1,J
   43
 
 #lvl_v-00-upperer-a (1)
-  11,R,J,G
-  14,R,X
-  13,J,G
+   3,R,K,G
+   8,R
+  14,R,U,Z
+   2,J
    6,R,Z
    1,R,J
    7,R
    2,R,J
   15,R,D,X
-  13,L,C
-   3,L,J
-  10,K,G
-   6,L,Z
+   2,R
+   8,D,K
+   9,L,Z
+   7,L,J
+   1,L,K,G
+  14,L,D,X
    1,L,J
-   7,L
-   2,L,J
-  15,L,D,X
-   7,L,D,C
+  12,D,X
+   1,K
+   1,J
+   1
+   9,L,D,X
    1,L,J
-  12,L
-   9,L,J
-  11,L,X
+   3,L
+   1,L,J
+   3,L
+   7,L,K
+  13,L,X
    1,L,J
   10
   13,D,X
@@ -445,16 +470,18 @@ EndStunPause
    1,K
   15,R,K
   27,R,X
-  10,R,D,C
-   7,L,J
+   7,R,Z
+   6,L,J
    1,L
    1,L,J
-   5,L,D
-  13,D
-   4,L,D
-  27,L,D,X
-   3,L
+   4,L
+  19,D
    3,L,D
+   1,D
+  15,L,D,X
+   1
+   5,L
+   2,L,D
   14,L,Z
    1,L,J
    7,L,D,X
@@ -534,12 +561,12 @@ EndStunPause
   19,R,J
    1,R,K,G
 #keycycle_lvl-void_1
- 135,D
+ 155,D
    4,Z
    1,R,J
- 140
+ 127
   40,L
-  15
+  38
 #endkeycycle_lvl-void_1
    1,K
    5
@@ -561,7 +588,7 @@ EndStunPause
    1,J
   16,R,J
 #keycycle_lvl-void_2
- 300
+ 310
 #endkeycycle_lvl-void_2
    9,L,K
    3,K
@@ -579,16 +606,16 @@ EndStunPause
   11,J
    7
 #keycycle_lvl-void_3
-  80,G
+  91,G
    4,K,G
    1,L,K
- 100
+ 106
   10,L,D,J
    2,K,G
    1,R,K
   10
    2,L
- 204
+ 213
   11,R,J
    1,J
    8,K,G
@@ -596,18 +623,18 @@ EndStunPause
    5,R,Z
    1,R,J,G
   11,R
- 114
+ 115
 #endkeycycle_lvl-void_3
   14,R,Z
    1,R,K
   22,D,X
 #keycycle_lvl-void_4
-  99
+ 100
    2,R
    1,R,J
   15,D,X
   17,R
-  54
+  55
   10,J
    2
   11,K,G
@@ -628,7 +655,7 @@ EndStunPause
   18,R
   15,R
 #keycycle_lvl-void_5
-  76,D
+  77,D
 #endkeycycle_lvl-void_5
   10,D,J
    1,K,G
@@ -637,5 +664,5 @@ EndStunPause
    5,R
    3,K
   14,U,X
-#1:50.313(6489)
+#1:50.296(6488)
   40
