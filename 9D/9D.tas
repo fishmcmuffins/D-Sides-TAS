@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 494
+RecordCount: 550
 
 console hearts 8
 
@@ -56,7 +56,7 @@ Read,9D_04,endhazardcycle_cc-07
 Read,9D_05,Start,hazardcycle_d-03
 Read,9D_05,stunless_d-03,endstunless_d-03
 Read,9D_05,endbranch_d-03,hazardcycle_d-10
-   2
+   1
 Read,9D_05,hazardcycle_d-10
 
 #==========================
@@ -91,7 +91,7 @@ Read,9D_08,Start
 #stun in h-01
 
 Read,9D_09,Start,hazardcycle_g-06
-   2
+   1
 Read,9D_09,endhazardcycle_g-06,stun_g-09
 StunPause
    1,R,J
@@ -110,21 +110,16 @@ Read,9D_09,endstun_g-09,stun_h-01
 StunPause
   12,R,J
 EndStunPause
-
+   1,R,J
 Read,9D_09,endstun_h-01,hazardcycle_h-03
    1
 Read,9D_09,endhazardcycle_h-03,stun_h-03
-   2,R,J
 StunPause
-   1,R,J
-   3,R
+   4,R
 EndStunPause
-   2,R
-   7,R,D,X
-StunPause
-   4,R,D,X
-EndStunPause
-   4,R,D,X
+   1,R
+   7,R,D,K
+  13,R,D,X
 Read,9D_09,endstun_h-03
 
 #==========================
@@ -145,8 +140,7 @@ EndStunPause
    1
    7,R
 StunPause
-   2,R
-  14,R
+  16,R
 EndStunPause
 Read,9D_10,endstun_hh-08
 
@@ -180,7 +174,7 @@ Read,9D_11,endstun_i-05
 #hazardcycle in j-07
 
 Read,9D_12A,Start,hazardcycle_j-07
-   1
+   2
 Read,9D_12A,endhazardcycle_j-07,lvl_j-08
 Read,9DS_12A,lvl_j-08
 
@@ -197,7 +191,7 @@ Read,9D_12B,Start
 #keycycle in l-04
 
 Read,9D_13A,Start,keycycle_l-04
-   2
+   3
 Read,9D_13A,endkeycycle_l-04
 
 #==========================
@@ -235,15 +229,17 @@ Read,9D_15,Start
 #2 stuns in CP-37
 
 Read,9D_16,Start,hazardcycle_CP-37
-   1
+   0
 Read,9D_16,endhazardcycle_CP-37,stun_CP-37_1
    2,R
 StunPause
   11,R,U
+SkipInput 3 1
+  10,R,Z
+   3,R,Z
 EndStunPause
 StunPause
-SkipInput 3 1
-  15,R,Z
+   2,R,Z
    1,R,J
    1,R,K
    1,R,J
@@ -279,18 +275,9 @@ Read,9D_19,Start
 #==========================
 #Plural
 
-#stun in t-11
+#no global cycles
 
-Read,9D_20,Start,hazardcycle_t-11
-   2
-Read,9D_20,endhazardcycle_t-11,stun_t-11
-   2,U,Z
-StunPause
-   1
-SkipInput 3 1
-   8,U,C
-EndStunPause
-Read,9D_20,endstun_t-11
+Read,9D_20,Start
 
 #==========================
 #True Love
@@ -307,7 +294,7 @@ Read,9D_21,Start
 #keydoor in v-00-upper
 #hazardcycle in w-00-point-of-no-return
 
-   2
+   1
 Read,9D_22,Start,stun_v-00-lobby_1
    1,L,U,Z
 StunPause
@@ -323,16 +310,15 @@ Read,9D_22,endstun_v-00-lobby_1,stun_v-00-lobby_2
    1,R
    2,R,J
 StunPause
-   7,R,J
-   1,R,J
+   8,R,J
 SkipInput 3 1
   15,U,Z
-   1,R
+  10,R
+SkipInput 3 1
+   8,L,U,Z
 EndStunPause
 StunPause
-   9,R
-SkipInput 3 1
-  15,L,U,Z
+   7,L,U,Z
    6
    3,L
    1,R
@@ -340,7 +326,7 @@ SkipInput 3 1
    7,R,Z
 EndStunPause
 Read,9D_22,endstun_v-00-lobby_2,keycycle_v-00-upper
-  27,G
+  26,G
 Read,9D_22,endkeycycle_v-00-upper
 
 #==========================
@@ -348,7 +334,6 @@ Read,9D_22,endkeycycle_v-00-upper
 
 #no global cycles
 
-   3
 Read,9D_24,Start
 
 #==========================
@@ -358,20 +343,19 @@ Read,9D_24,Start
 #2 stuns in w-16
 
 Read,9D_25,Start,hazardcycle_w-16
-   2
+   0
 Read,9D_25,endhazardcycle_w-16,stun_w-16_1
    1
 StunPause
    1
    1,J
-   8
+   4
+EndStunPause
+   1
+StunPause
+   3
 SkipInput 3 1
-   8,R,Z
-EndStunPause
-StunPause
-   1,R,Z
-EndStunPause
-StunPause
+   9,R,Z
    1,R,Z
    1,R,K
    1,L,J,G
@@ -383,20 +367,24 @@ SkipInput 3 1
 EndStunPause
    1,R,K
    3,K
-   2,R,K
+   3,R,K
 StunPause
-   5,R,K
+   4,R,K
 EndStunPause
 Read,9D_25,endstun_w-16_1,stun_w-16_2
+   1,R
+   1,S,N
+  10,O
    3,R
 StunPause
-   3,R
+   2,R
    1,R,D,J
 EndStunPause
    2,R,J
+   1,R
    1,S,N
-   1,O
-  14,R
+  10,O
+   4,R
    4,J
 Read,9D_25,endstun_w-16_2
 
@@ -412,14 +400,24 @@ Read,9D_26,Start,hazardcycle_x-10
    0
 Read,9D_26,endhazardcycle_x-10,stun_x-11
    2,R
-StunPause
-   2,R
-SkipInput 3 1
-   8,R,U,Z
-EndStunPause
-   7,R,U,Z
+   1,S,N
+  10,O
+   1,R,D
+   1,S,N
+  10,O
+   1,R,D
+   5,R,U,Z
+   1,S,N
+  10,O
+   1,R,U,Z
+   1,S,N
+  10,O
+   4,R,U,Z
+   1,S,N
+  10,O
+   5,R,U,Z
 Read,9D_26,endstun_x-11,hazardcycle_xx-10-final-goodbye
-   0
+   1
 Read,9D_26,hazardcycle_xx-10-final-goodbye
 
 #==========================
@@ -431,4 +429,4 @@ Read,9D_27,Start
 
 #==========================
 
-ChapterTime: 47:24.457(167321)
+ChapterTime: 47:15.770(166810)
