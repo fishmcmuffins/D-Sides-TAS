@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 2731
+RecordCount: 2778
 
 console load nameguysdsidespack/0/10-Farewell 26836 -4300
    1
@@ -45,40 +45,36 @@ console load nameguysdsidespack/0/10-Farewell 26836 -4300
    5,D,X
    4,D,C
    1,R,C
-  15,R,X
-  15,R
-  14,R,U,X
-   8,R
+  21,R,X
+  21,R,C
+   5,J,G
 #hazardcycle_d-03
-   1
+   2
 play,endhazardcycle_d-03
 
 #===================
 
 #stunless_d-03
-   6,L,D,X
+   6,R,D,X
    1,R,J
-   7,R
-   1,R,J
-   1,R
+   6,R
+   1
+   2,R,K
    8,R,U,X
-   7,R,K,G
+   5,R,J,G
+   2,R
   40
 
 #lvl_d-03 (1)
+   8,R,X
+   1,R,J,G
+  12,R
    1,R,K
-  11,R
-   1,R,D
-   1,R
-   3,R,J
-   5,R
-  22,R,J
-   3,R,D
-  16,R,Z
-   6,G
-   4,D,G
-   1,G
-   2,D,G
+  21,R,D
+   3,R
+  15,R,Z
+   7,G
+   6,D,G
    1,R,J,G
    1,R,K,G
    1,R,J,G
@@ -291,29 +287,26 @@ play,endbranch_d-03
 #====================
 
 #endhazardcycle_d-03
-   6,L,D,X
+   6,R,D,X
    1,R,J
-   7,R
-   1,R,J
-   1,R
+   6,R
+   1
+   2,R,K
    8,R,U,X
-   7,R,K,G
+   5,R,J,G
+   2,R
   40
 
 #lvl_d-03 (2)
+   8,R,X
+   1,R,J,G
+  12,R
    1,R,K
-  11,R
-   1,R,D
-   1,R
-   3,R,J
-   5,R
-  22,R,J
-   3,R,D
-  16,R,Z
-   6,G
-   4,D,G
-   1,G
-   2,D,G
+  21,R,D
+   3,R
+  15,R,Z
+   7,G
+   6,D,G
    1,R,J,G
    1,R,K,G
    1,R,J,G
@@ -433,49 +426,50 @@ EndStunPause
 #lvl_d-06 (2)
    2,R
    1,J
+   1,L
   10,R,D,X
    1,R,J
-   1
-   5,R
+   6,R
    1,R,J
    5,R,D
    7,R
-  23,R,U,Z
-   2,R,K,G
-   1,L,K
-   1,R,J,G
-   1,K,G
-   6,R
-   1,R,K
+  22,R,U,Z
+   3,R,K,G
+   1,J,G
+   3,R
+   1
    1,R
-   3,L
-   1,L,D
-  10,R,D,X
-  10,R,J
-  23,R
+   3,R,J
+   1,R
+   1,L
+   1
+   1,D
+  14,R,D,X
+   7,R,J
+  22,R
   10,L,D,X
   10,R,J
   10,R
   14,R,Z
    1,R,J
    2,R
-  15,R,U,Z
+  14,R,U,Z
 #endroute_stun_d-03
 
 #====================
 
 #endbranch_d-03
-  15,R,C
-   7,R
+  22,R,X
   16,R,U,Z
-  15,R,U,C
+  15,R,U,X
   29,R,D
-   4,L,D
+   3,D
+   1,R,D
   11,L,D,X
   16,R,J
   12,R
   14,R,Z
-  11,L,D,C
+  11,L,D,X
   23,R,J
   18,R,U,X
   16,R,U,C
@@ -483,7 +477,6 @@ EndStunPause
    5,R,J
   10,R,D,X
    9,R
-#hazardcycle_d-10
   14,R,D,X
    8,R,J
   18,R,D,X
@@ -493,95 +486,97 @@ EndStunPause
   14,R,U,Z
    1,K,G
    1,L
-   1,R
+   1
    1,R,J,G
    1,L,J
    8,R,J
-  10,R
-   7,R,K
-  10,R,Z
+   5,R
    2,R,J
-   5,R,K,G
-   2,K
+   3,R
+   4,X
+   5,R,J
+   2,J
+   1,R,K,G
+   1,K
+   4,R,K
+   5,R,J,G
   40
 
 #lvl_d-07
-   5,K
+   6,R
   14,R,D,X
-  16,R,J
-   5,J
-   2,R,J
-  18,R,U,X
-   1
-  15,R,U,C
-   9
-  13,L,D,X
-   1,R,J
+  19,R,J
    2,R
+   1,R,J
    1
-   1,J
-   3,R
-   4,R,D
-   6,R,K
+  18,R,U,X
+   2
+  15,R,U,X
+   9
+  12,L,Z
+   1,R,J
+   4,R
+   3,R,J
+   4,D
+   1,R,K
    2,K
+   4,R,K
+   8,R
+   1,K
+   6,R
    3
-   1,R
-   1
-   1,R
-  12
-  15,R,D
-   5,R
-  24,R,U,X
-  18,R,C
+  16,R,Z
+  15,R,U,V
+  29,R,D
+   1,D
+   1,R,D
+   2,D
   10,L
-   1,L,K
-  16
+   1
+   2,J
   14,R,Z
    1,R,J
-   8,R,Z
-   2,L,J
-   2,L
-   2,L,J
-   3,L
-   6
-   4,Z
-   1,R,K
-   6,R
-  31,R,J
-  36,R,U,X
-  10
-   2,L
-   1,L,K
-  10,R,X
-   3,R,J
-   3,R
-  10
-   1,J
-   7
-  13,R
-   9
-   3,D
+   7,R,D,X
+   1,L,J
    1
+   4,J
+   3,L,J
+   1,L
+   2,L,J
+   2,L
+   4,Z
+   1,R,J
+   5,R
+  10,R,J
+   4,R
+  22
+   8,R
+  20,R,X
+   7,R,D,J
+  25,J
+  14,L,Z
+   1,R,J
+   6,J
+  16
+  16,R
+   6
+   1,R,D
+   1,D
   15,R,U,X
    8
   14,R,Z
-  12,R,J
-  25,R,D,X
+  10,R,J
+  18,R,D,X
+   7,R
   14,R,Z
-  26,R,J
-  24,R,U,X
-   1,G
-   6,K,G
-   1,L,K
-   1,R,J,G
-   4,R,K,G
-   2,K
-   1,R,K
-   1,J,G
+  25,R,J
+  23,R,U,X
+   4,J,G
+   1,L
+  12,R,K,G
    7,R
    4,X
-   5,R,J
-   2,R
+   6,R,J
    7,R,K,G
   40
 
@@ -589,14 +584,15 @@ EndStunPause
    5,R,K
   10,R,X
   14,R,J
-  10,U,Z
-  50,R
+  11,U,X
+   6
+  43,R
   14,R,X
    8,R,J,G
   18,R
    1,L
-   4,K,G
-   3,R,K
+   5,K,G
+   2,R,K
    9,R
    1,R,K
   14,R
@@ -626,19 +622,23 @@ EndStunPause
    7,R,X
    1,R,J,G
    1,R,K,G
-  18,R
+  16,R
    1
-   8,R
+  10,R
   15,R,U,X
-   2,R,J,G
+   1,R,J,G
+  11,R,K,G
+   5,R
+   1,R,K
+   1,R
+   1,R,K
+  13,R
+   1,R,J,G
    5,R
    1,R,J
-   7,R
-   1,K
-   4,R,K
-  18,R
-   1,R,J,G
-  46,R,K,G
+   9,R
+   7,R,K
+  26,R
    6,R,D
    1,L,D
    1,J
@@ -648,11 +648,13 @@ EndStunPause
    1,D
    1,R,J,G
   14,R
+#+1f wait
+   9,R,K
+   8,R
    1,K
-   7,R,K
-   5,R
-   2,R,K
-  10,R
+   4,R
+   3
+   1,R
    8,L,D,X
    1,R,J
    6,R
@@ -671,9 +673,9 @@ EndStunPause
    2,R,K
   18,R,D,X
    2,R
-  16,R,U,Z
-  19,R,U,X
-  17,R,U,C
+  16,R,U,X
+  19,R,U,C
+  17,R,U,X
   10,R,Z
    1,R,J
    4,R
@@ -693,13 +695,14 @@ EndStunPause
    1,R,J
    4
   14,R,U,Z
-  17,R
+   6
+  11,R
   15,R,U,X
    1,R,K,G
-   2,L,K
-   3,R,K
+   3,L,K
+   2,R,K
    7,R
-   6,R,X
-   6,R,J
-#0:51.986(3058)
-  40,J
+   5,R,X
+   7,R,J
+#0:51.646(3038)
+  40
