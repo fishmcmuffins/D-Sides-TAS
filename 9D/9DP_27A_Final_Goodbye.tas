@@ -13,8 +13,8 @@ Set,Level.TimerStarted,true
 
 console give_dsides_plat
 
-#+2f in bottomless
-Set,Level.TimeActive,2533.194335937500
+#+1f in bottomless
+Set,Level.TimeActive,2510.528320312500
 
 Invoke Player.FinishFlingBird
 #Start
@@ -196,9 +196,8 @@ Invoke Player.FinishFlingBird
   13,R,K
    3,L
 #stun_xx-10-final-goodbye_1
-   2,L
 StunPause
-   1,L
+   3,L
    9,L,J,G
    3,J
   12,K,G
@@ -213,9 +212,9 @@ StunPause
    1,J
   11,R,J
 SkipInput 3 1
-   7,R,X
+   6,R,X
 SkipInput 3 1
-   8,R,X
+   9,R,X
   15,R,D
 EndStunPause
 StunPause
@@ -239,8 +238,7 @@ StunPause
 SkipInput 3 1
   15,R,C
    1,R
-  10
-   7
+  17
 EndStunPause
 StunPause
    1
@@ -1105,10 +1103,10 @@ endrepeat
   18
 
 #Original (time when cutscene is skipped)
-#4:20.933(15349)
-
-#Platinum: -44f
 #4:20.185(15305)
+
+#Platinum: +11f
+#4:20.372(15316)
 
 #lvl_end-platinum
   89
