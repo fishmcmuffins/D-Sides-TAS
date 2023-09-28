@@ -3,6 +3,7 @@ console load nameguysdsidespack/0/10-Farewell 226120 -52600
 
 #lvl_w-08
   36
+
 #Start
   13,R,X
    1,L,J
@@ -17,10 +18,11 @@ console load nameguysdsidespack/0/10-Farewell 226120 -52600
    5,R,D,X
    2,R,K,G
    2,R
+   1
   40
 
 #lvl_w-09
-  12,R
+  11,R
   43,R,J
   25,R,U,X
   14,G
@@ -217,19 +219,22 @@ console load nameguysdsidespack/0/10-Farewell 226120 -52600
   31,R,J
    7,R,X
   40
+
 #lvl_w-12
    8,R,X
-  24,R,D
-  11,L,D,C
+  14,R,D
+  15,D,X
+   2,R,D
+   5,R,Z
    1,R,J
    7,R
   12,R,K
-  40,R,X
+  38,R,X
   30,D,C
   30,R,Z
    4,R,J
-   3,R,K
-   8,R,U,X
+   1,R,K
+  10,R,U,X
   70
   11,R,D
    1,R,D
@@ -501,7 +506,7 @@ AnalogMode,Precise
   10,U,G
    4,Z
 #hazardcycle_w-16
-   1
+   2
 #endhazardcycle_w-16
   11,R,J
    3,R
@@ -887,7 +892,7 @@ EndStunPause
    9,R,D
   15,D,X
   11,R,D
-#3:08.666(11098)
+#3:08.615(11095)
   40
 
 AnalogMode,Ignore
