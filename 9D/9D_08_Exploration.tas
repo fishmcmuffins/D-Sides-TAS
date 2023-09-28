@@ -24,7 +24,13 @@ console load nameguysdsidespack/0/10-Farewell e-05 1
    4,R,J
    7,R,Z
   19,R,J
+
+
+
   30,U,X
+
+
+
   26,R,C
    4,R
   27,R,D,X
@@ -520,12 +526,13 @@ endrepeat
    1,R,K,G
    8,R,J,G
   15,R,D,X
-   7,L,D
+   3,R,D
+   4,L,D
    9,L,X
-   6,R,C
-  30,R,J
+   7,R,C
+  29,R,J
   15,U,X
-   3,R
+   1,R
   25,R,X
   13,U,C
    5,R,J
@@ -533,7 +540,6 @@ endrepeat
   40
 
 #lvl_f-12
-
    1,J,G
    1
    8,J,G
@@ -795,4 +801,4 @@ endrepeat
    1,R,J
    1,R,K,G
   10
-#1:39.756(5868)
+#1:39.722(5866)
