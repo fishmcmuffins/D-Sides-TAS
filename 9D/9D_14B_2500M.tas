@@ -114,55 +114,54 @@ console load nameguysdsidespack/0/10-Farewell 132169 -30311
 
 #lvl_o-04
    8,L,D,X
-  14,L,J
-  19,L
-   2,L,D
-   1,L,G
-   6,L,J
-   8,L
-   4,D,X
-  16,L,U,X
+  12,L,J
+  26,L
+   1,L,D
+  22,L,U,Z
    1,R
-   1,J,G
+   1,K,G
    5,L
-   8,L,J
-   1,R,K,G
-   3,L,K
-  18,R,K,G
-   1,R,J,G
-  13,R,K,G
-   5,K
-   2
-   1,K
-   7
+   9,L,K
    1,J
-   4,L
-  42,R,G
-   2,R,J,G
-   6,R,J,G
-   1,L,J
-
-   3,L,K,G
-  15,U,X
-  34,L,J
-   2,J
+  28,R,J
+   6,R,K,G
+  12,R
+   6,G
+   2,U,G
+  16,G
   11,K,G
+  10
+   1,R
+   1
+   2,R
    1,R,K
-  23,R,J
-   1,R,K,G
-  12,R,J,G
-   6,R
-  14,L,X
+   2,R,J
+   6,J
+   1
+  13,K
+   3,R,K
+   1,K
+   1,R,K
+  10,R,X
    1,R,J
-  29,L,J
+  10,J
+   1,L,K,G
+   1,L,J,G
+   6,L,K,G
+   1,J,G
+  10,L,J
+   1,R,J
+  13,L,J
   15,U,X
    5,L
-  19,L,J
-  20,R,J
-  35,R,U,X
-  16,U,C
-  15,R,J
-  14,R
+  18,L,K
+   2,K
+  18,R,K
+  36,R,U,Z
+  15,U,X
+   4,R
+  10,R,J
+  18,R
    9,R,D,J
   40
 
@@ -686,10 +685,7 @@ lvl_o-10s
   16,U,X
   15,D,Z
   21,R,V
-  54
-#comment if starting from middle
-#no i don't know why
-   2
+  56
 
 #lvl_o-13
    2,R
@@ -1006,8 +1002,8 @@ lvl_o-10s
    4,D,C
   12,L,U,C
    4,D,X
-  11,U,X
+  10,U,X
    1,J
-#2:28.767(8751)
+#2:27.373(8669)
   40
 #lvl_p-01
