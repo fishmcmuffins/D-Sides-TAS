@@ -1,23 +1,34 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
-RecordCount: 14257
-console load nameguysdsidespack/0/10-Farewell 213188 -52541
+RecordCount: 14293
+console load nameguysdsidespack/0/10-Farewell 213185 -52448
    1
 
 #If you want the y-14 route,
 #you can comment out one of
 #these.
+#(must edit key cycles)
+console givekey
 console givekey
 console givekey
 
-#lvl_v-99
-  36
-   1,R,G
+#lvl_void (1)
+ 102
+   6,R
+   8,R,J
+   1,K
+   1,J
+   7,L,J
+   3,R,K,G
+  19,U,X
+  40
 
 #Start
-   4,J,G
-   2,L,J
-  10,L,K
+#lvl_v-99
+   6,R,J
+   4,L,J
+   1,K
+   1,R
   15,U,X
    2,L
    1,L,J,G
@@ -1890,7 +1901,7 @@ repeat 33
 endrepeat
    1
 
-#lvl_void
+#lvl_void (2)
  189
    1,L,J
   14,R,D,X
@@ -1981,7 +1992,7 @@ endrepeat
    4,J
   13,R,Z
    2,R,K
-#4:14.235(14955)
+#4:16.666(15098)
   40
 
 #lvl_w-00-point-of-no-return
