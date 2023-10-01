@@ -1,4 +1,4 @@
-RecordCount: 832
+RecordCount: 921
 
 #1000M
 console load nameguysdsidespack/0/10-Farewell 109280 -18296
@@ -115,28 +115,30 @@ console givekey
   15,U,X
    8,R
    4,J
-  16,R
-repeat 36
+   7
+  15,D,X
+repeat 20
    1,D
    1
 endrepeat
 #keycycle_l-04
-   9
+  22
 #endkeycycle_l-04
-   7,D,J
-   3,L,J
+   1,K
+  14
+   6,L,D,J
+   3,J
+   2
   14,U,X
-   1,J
   40
 
 #lvl_l-05
-   4,R
-   1,R,J,G
-  12,R,K,G
-  26,R,U,X
+  16,R,K
+  22,R,U,X
    4,R,J
    4,R,K
-  24,R,D,X
+   3,R
+  25,R,D,X
    1,L,D
    6,R,D
    3,R
@@ -482,6 +484,6 @@ endrepeat
   19,U,X
  253
 
-#1:05.603(3859)
+#1:05.569(3857)
 
   40
