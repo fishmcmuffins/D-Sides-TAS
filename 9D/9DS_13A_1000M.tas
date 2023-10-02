@@ -1,4 +1,4 @@
-RecordCount: 557
+RecordCount: 574
 
 console load nameguysdsidespack/0/10-Farewell 109280 -18296
    1
@@ -122,18 +122,21 @@ play,route_l-04key
   15,U,X
    8,R
    4,J
-  16,R
-repeat 36
+   7
+  15,D,X
+repeat 20
    1,D
    1
 endrepeat
 #keycycle_l-04
-  13
+  27
 #endkeycycle_l-04
-   7,D,J
-   3,L,J
+   1,K
+  14
+   6,L,D,J
+   3,J
+   2
   14,U,X
-   1,J
   40
 #endroute_l-04nokey
 
@@ -224,25 +227,30 @@ play,lvl_l-05
   15,U,X
   10,R
   12
-   8,J
-  71
-   7,D,K
-   3,L,K
+   5,L,J
+   3,J
+  56
+
+
+
+   1,K
+  14
+   6,L,D,J
+   3,J
+   2
   14,U,X
-   1,J
   40
 #endroute_l-04key
 
 #====================
 
 #lvl_l-05
-   4,R
-   1,R,J,G
-  12,R,K,G
-  26,R,U,X
+  16,R,K
+  22,R,U,X
    4,R,J
    4,R,K
-  24,R,D,X
+   3,R
+  25,R,D,X
    1,L,D
    6,R,D
    3,R
@@ -271,8 +279,8 @@ play,lvl_l-05
 Read,9D_13A,lvl_l-06
 
 #original
-#1:07.388(3964)
+#1:05.365(3845)
 
 #key +2
-#1:20.784(4752)
-#+788f
+#1:19.543(4679)
+#+834f
