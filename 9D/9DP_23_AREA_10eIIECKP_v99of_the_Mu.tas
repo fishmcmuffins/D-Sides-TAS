@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
-RecordCount: 13403
-console load nameguysdsidespack/0/10-Farewell 213188 -52541
+RecordCount: 14389
+console load nameguysdsidespack/0/10-Farewell 213185 -52448
    1
 
 console give_dsides_plat
@@ -9,14 +9,24 @@ console give_dsides_plat
 #If you want the y-14 route,
 #you can comment out one of
 #these.
+#(must edit key cycles)
+console givekey
 console givekey
 console givekey
 
-#lvl_v-99
-  36
-   1,R,G
+#lvl_void (1)
+ 102
+   6,R
+   8,R,J
+   1,K
+   1,J
+   7,L,J
+   3,R,K,G
+  19,U,X
+  40
 
 #Start
+#lvl_v-99
 Read,9D_23,Start,lvl_y-06 (1)
 
 #lvl_y-06 (1)
@@ -173,128 +183,12 @@ play,lvl_y-15s
 
 #lvl_y-15s
 #keycycle_y-15s
- 112,D
+ 105,D
 #endkeycycle_y-15s
 Read,9D_23,endkeycycle_y-15s,Right-Up.1
 
 #Right-Up.1
-   2,R,J
-   5,R,D
-  33,R,D
-   1,G
-   9,R,J,G
-  12,U,X
-  20,R,J
-  15,R,U,Z
-   4,R
-  10,U,X
-  40
-
-#Up.1
-  18,R,J
-   5,K
-  16,U,Z
-  12,J,G
-   8,K,G
-   4,R,K
-   1,R,J,G
-   1,R
-   1,R,J,G
-   7,R
-  15,R,Z
-   3,R
-  10,U,X
-  40
-
-#Up-Right.1
-  11,L,J
-   4,L
-   8,U,X
-   1,R,J
-   9,L,J
-   5,R,J
-   5,R,K,G
-   3,R
-  24,R,D,X
-   1,G
-   9,R,J,G
-   9,U,X
-  12,R,J
-   8,R,K,G
-  24,R,D,X
-   1,G
-   9,R,J,G
-  11,U,X
-  11,R,J
-  13,R
-   6,R,Z
-   8,R,J
-  40
-
-#Right.1
-   1,R,J
-  38,R,D
-   1,G
-   9,R,J,G
-  10,U,X
-  18,R,J
-  25,R,D,X
-   1,G
-  14,R,J,G
-  11,U,Z
-  11,R,J
-   8,R,K,G
-  24,R,D,X
-   1,G
-   9,R,J,G
-   5,U,X
-  22,R,J
-   5,R,K,G
-   7,R
-   4,R,Z
-   1,R,J
-   7,R
-   2,R,D,J
-  40
-
-#Right-Up.Ridge
-   2,R,D,J
-   4,R
-  39,R,D,X
-   1,G
-   9,R,J,G
-   9,U,X
-   8,R,J
-  11,R
-  20,R,J
-   1,K,G
-  18,U,X
-  40
-
-#Up-Right.2
-  11,L,J
-   4,L
-   8,U,X
-   1,R,J
-   9,L,J
-   5,R,J
-   5,R,K,G
-   3,R
-  24,R,D,X
-   1,G
-   9,R,J,G
-   9,U,X
-  12,R,J
-   8,R,K,G
-  24,R,D,X
-   1,G
-   9,R,J,G
-  11,U,X
-  11,R,J
-  13,R
-   6,R,Z
-   8,R,J
-  40
+Read,9D_23,Right-Up.1,Right.2
 
 #Right.2
    1,R,J
@@ -304,198 +198,64 @@ Read,9D_23,endkeycycle_y-15s,Right-Up.1
   15,R,Z
    2,L
   17,L,J,G
+   7,R,K
+   1,R
    8,R,K
-   8,R
    2,R,J,G
   32,R,D
   15,R,Z
    6,U,C
   13,R,J
-   3,R,K,G
-  12,R
-  21,D
-  16,R,Z
-  22,R,U,C
-  12,J,G
-   2,K,G
+   2,R,K,G
+  32,R,D
+  15,R,Z
+   6,U,C
+  13,R,J
+   7,R
+   1,R,K,G
    7,R
    6,R,Z
    8,R,J
   40
 
 #Right-Up.2
-   1,R,J
-  38,R,D
-   1,G
-   9,R,J,G
-   8,U,X
-  23,R,J
-  18,R,U,X
-  13,U,C
-  40
+Read,9D_23,Right-Up.3,Up.Key
 
-#Up.2
+#Up.Key
   11,L,J
    4,L
    8,U,X
    1,R,J
    9,L,J
-   5,R,J
-  11,R,K,G
-  15,R,U,Z
-  13,U,X
-  40
-
-#Up-Right.Wind
-  11,L,J
-   3,L
-   7,U,X
+   2,R,J
+   3,J
+   1,K,G
+  11,G
+  25,U,G
+   5,J,G
+  15,R,Z
+  14,L,D,X
    1,R,J
-   4,R,J
-   6,R,J
-   1,R,K,G
-   6,R
-  26,R,D,X
-   1,G
-   9,R,J,G
-   6,U,X
-  13,R,J
-   7,R,K,G
-  26,R,D,X
-   1,G
-   9,R,J,G
-   5,U,X
-  14,R,J
-   9,R
-   2
-   7,R,Z
-   6,R,J
-   1,R
-  40
-
-#Right.PostWind
-   1,R,J
-  33,R,D
+   1,J
+  15,D,X
+   3,R
    5
-   1,G
-   9,R,J,G
-  10,U,X
-  18,R,J
-  25,R,D,X
-   1,G
-  14,R,J,G
-  11,U,Z
-  11,R,J
-   8,R,K,G
-  24,R,D,X
-   1,G
-   9,R,J,G
-   5,U,X
-  22,R,J
-   5,R,K,G
-   7,R
-   6,R,Z
-   8,R,J
-  40
-
-#Right-Up.Seeker
-   1,R,J
-  38,R,D
-   1,G
-   9,R,J,G
-  12,U,X
-  16,R,J
-  15,U,Z
-  15,R,X
-   1,R,J
-  10,U,C
-  40
-
-#Up.Key
-   2,L,J
-  10,R,J
-  15,U,X
-   9,J,G
-   7,R
-  18,R,U,X
-  60,R,G
-   9,G
-#keycycle_up-key
-  35,R,G
-#endkeycycle_up-key
+   1,R
    1
-   9,J
-   7,R,Z
-   8,R,J,G
+   1,R
+  73
+#keycycle_up-key
+  19
+#endkeycycle_up-key
+   5,R
+   1
+   9,U,Z
+   9,R,J
    7,U,X
   40
 
 #lvl_y-999999999
-   3
-  20,L,J
-   3,J
-  20,L,U,X
-  11,R
-  15,R,U,X
-   9,L
-  15,D,X
-   1
-  10,L,C
-   1,L,J
-   9,L
-  15,D,X
-  16,L
-  15,U,X
-   8,L
-  10,R,J
-   1,R
-   9,L,K
-   7,L
-   6,L
-  29
-   3,L,J
-   3,J
-  10,J
-  11,U,X
-   8,R,J
-  29,R,D
-  10,R,X
-  16,R,J
-  15,U,X
-  20,R
-  11,R,J
-   2,J
-  15,D,X
-  17
-  16,J
-   6,R,J
-   5,R,K
-  15,U,Z
-  12,R
-  10,R,J
-  19,U,X
-   1,J,G
-  12,R
-  15,R,Z
-  15,D,X
-  10,R,D,C
-   1,L,J
-  21,L
-  14,L,J
-  15,U,X
-  14,R,U,C
-  11,J,G
-   1,L,J
-   1,R,K,G
-  12,K
-   5,J,G
-  15,R
-  27,R
-  13,R,J
-  11,K,G
-   5,R,Z
-   7,R,J
- 250
+Read,9D_23,lvl_y-999999999,lvl_y-end
 
 #lvl_y-end
    5,R,X
@@ -522,7 +282,8 @@ repeat 33
 endrepeat
    1
 
-Read,9D_23,lvl_void,lvl_v-00-upperer-b
+#lvl_void (2)
+Read,9D_23,lvl_void (2),lvl_v-00-upperer-b
 
 #lvl_v-00-upperer-b
    6,R,D,X
@@ -592,4 +353,4 @@ Read,9D_23,lvl_void,lvl_v-00-upperer-b
   15,D,C
    6
 
-#4:17.465(15145)
+#4:19.658(15274)
