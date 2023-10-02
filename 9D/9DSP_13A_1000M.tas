@@ -1,4 +1,4 @@
-RecordCount: 577
+RecordCount: 582
 
 console load nameguysdsidespack/0/10-Farewell 109280 -18296
    1
@@ -78,18 +78,19 @@ Read,9DS_13A,Start,lvl_l-03b
   15,U,X
    8,R
    4,J
-  16,R
-repeat 36
+   7
+  15,D,X
+repeat 20
    1,D
    1
 endrepeat
 #keycycle_l-04
-  19
+  33
 #endkeycycle_l-04
 Read,9D_13A,endkeycycle_l-04
 
 #Original 9DS:
-#1:20.784(4752)
+#1:19.543(4679)
 
 #Platinum + 1 key: +56f
-#1:13.236(4308)
+#1:11.995(4235)
