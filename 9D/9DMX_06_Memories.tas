@@ -1,26 +1,25 @@
-console load nameguysdsidespack/0/10-Farewell 36709 -4968
+console load nameguysdsidespack/0/10-Farewell 36702 -4968.3
    1
 
 #lvl_d-09
   36
-   4,X
-   6,R,J
-  40,J
+   5,R,X
+   7,R,J
+  40
 
 #Start
 #lvl_d-10
-   2,R,J
-   2,R
-   1,R,J,G
-   7,R
+   4,R
+   1,R,K,G
+   8,R
   11,J
    1
   15,U,X
    6
-   3,L
+   3,R
    3
    2
-   2,L
+   2
    1
   20,D
    2
@@ -52,7 +51,6 @@ StunPause
 EndStunPause
 #endstun_d-10_2
 
-
 Read,9DS_06,endstun_d-10_2,lvl_d-14
 
 #lvl_d-14
@@ -77,4 +75,4 @@ EndStunPause
 #endstun_d-19
 Read,9DSP_06,endstun_d-19
 
-#2:08.180(7540)
+#2:08.231(7543)
