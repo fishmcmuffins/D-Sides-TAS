@@ -1,12 +1,18 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 2764
+RecordCount: 3556
 
 console load nameguysdsidespack/0/10-Farewell 212416 -50688.1666963995
    1
+Set,Session.Inventory.Dashes,2
 
-Repeat,21
+console give_dsides_plat
+
+#just spawn 22 keys
+#regardless of how many
+#are collected in reuni
+Repeat,22
 console givekey
 EndRepeat
 
@@ -14,690 +20,142 @@ EndRepeat
 #wait for orb entry
 #moon block cycle
   57
-
-#hazardcycle_v-00-lobby_1
-   0
 #Start
-  30,R,U,X
-   4,R,Z
+  15,R,U,X
+  10,R,Z
    1,R,J
    7,R
-   5,R,J
-   2,R
+   7,R,J
   15,R,D,X
-  20,L,D,C
-   1,L,J
+  15,L,D,C
+  15,L,D,X
   14,L,Z
    1,L,J
-  11,L,X
-   4,L,J
-  10,K
+   9,L,X
+  12,L,J
+   2,K
    5,L,Z
    1,L,J
    7,L
-  14,L,J
+  10,L,J
+  14,L,Z
+   1,L,J
+   4,J
+   3
   15,L,D,X
-   3,L,D
-   1,L,J
-  14,L,D,X
-   8,L,J
-   1,L,K,G
-  14,L,D,X
-  12,L,J
-   6,J
-  12,K,G
-   8,J,G
-   4,R,J
-   1,R,K
-  25,R,J
-  15,U,X
-   6,L,J,G
-   7,L
-   3,L,J
-   7,L,Z
-   1,L,J
-   7,L
+   1,D
+   1,L,D
+   1,D
+   2,L,D
+   1,L
+   2,L,J
+   3,L
+  17,L,K,G
    2
-   1,J
-   5,L,U,Z
+   1,L,K
+   1
+  15,U,X
+  15,U,C
+   1,L
+   9,J,G
+   2,L
+   1,L,K,G
+   7,L
+   4,Z
+   2,L,J
+   1,L,K,G
+  10,L
+   1,L,J
+   6,L,U,Z
   43
 
 #lvl_v-04
-   3,L
-   1,R,K,G
-   2,L,K
-  12,L
-   6,D,X
-  43,L
-   6,L,U,X
-   9,L,J,G
-   7,L,K,G
-   4,L
-  40,R
-   1,J
-  16,R,K,G
-  15,U,X
-  19,L,J
-  25,L,G
-   4,L,J,G
-  47,L,G
-   2,L,J,G
-   2,L
-   1,J,G
-   6,L,J
-   5,R,J
-   1,K
-   6,L,K
-   2,L
-   2,J
-  25,D
-  30,L,D
-  10,D
-  15,R,D
-  40
-
-#lvl_v-05
-  18,R,D
-  16,L,D,X
-  21,R,D,C
-   2,R,J
-   5,K
-  11,R,Z
-  77
-  15,D,X
-   4,R,Z
-   1,R,J
-   4,R
-  40
-
-#lvl_v-00-lobby (2)
-   3,R
-  15,R,J
-  14,R,D,X
-   2,R,J
-  10,R
-  13,R,U,X
-   1,R,J,G
-   2,R,K,G
-   1,R,J,G
-   1,R,K,G
-  13,R
-  10,R,J
-   1,R,K
-  14,R,U,X
-   1,R,J,G
-  12,R
-   4,R,J
-  16,R,D,X
-  22,R,J
-  11,U,X
-   6,R,J
-   7,L,K
-   2,L
-   8,R,J
-   7,R
-   4,R,Z
-   4,R,J
-   5,R,K,G
-  43
-
-#lvl_v-01
-   5,R
-   4,L
-   5,L
-  10,L,Z
-   4,R,J
-  11,R
-   5
-  15,R,X
-   1,R,G
-  15,L,D
-   3,L,D
-   1,D
-   2,D
-   1,L,D
-  13,R,Z
-   1,R,J
-   7,R
-   3
-  22,R,Z
-  18,R
-  22,R,U,Z
-  15,R,X
-  20,R,D
-   8,D
-   3,L,D
-  10,D
-   1,L,J
-  42,L,J
-   7,R,K
-  77
-   8,L,D
-   1,L
-  10,R,X
-   7,L,J
-   2,L,K,G
-  10,L,D,X
-  40
-
-#lvl_v-00-lobby (3)
-   7,L,J
-  15,U,X
-   4,J
-   1
-   3,K
-   7,L
-   6,L,Z
-   1,L,J
-   3,L
-   1,L,J
-   3,L
-   1,L,J
-  10,L,X
-   4,D,C
-  15,L,J
-   5,L,K,G
-   1,K
-   2,K
-   2
-  13,R,J
-  10,L,X
-  30,R,J
-  24,R,U,X
-   3,J,G
-   1,J
-   2,L,J
-   1,R,K,G
-   1,L,K
-  17,R,K
-   1,R,J,G
-   9,R,K,G
-   8,R
-   2,R,K
-   3,R
-   5,L,D
-  10,L,J
-   3,J
-  15,U,X
-   1,R,J
-   7,R
-   4
-  15,U,X
-   5,J,G
-   1
-   1
-   1,J,G
-   1
-   1,R,K,G
-   8,R
-   6,R,J
-  15,U,X
-   1
+Read,9DSP_22A,lvl_v-04,hazardcycle_v-00-lobby
+#hazardcycle_v-00-lobby
+   0
+#endhazardcycle_v-00-lobby
+Read,9DSP_22A,endhazardcycle_v-00-lobby,stun_v-00-lobby
+#stun_v-00-lobby
    1,R
-  43
-
-#lvl_v-03 (1)
-  15,U,X
-   2,L
-  40
-
-#lvl_v-00-lobby (4)
-  15,U,X
-   4,R
-  43
-
-#lvl_v-03 (2)
-   4,D,X
-   1,L,U,X
-  40
-
-#lvl_v-00-lobby (5)
-  10,L,U,X
-  14,U,C
-   3,L,J
-  11,L
-   4,D,X
-   3,L,X
-   1,L,J
-   7,L
-   1,L,J
-   4,L
-  28,L,J
-  14,U,X
-   8,J
-   3,K,G
-  18
-   4,D,X
-  11,L,X
-   5
-  48,L,J
-  13,L,D
-   2,L
-   8,L,D,X
-  18,L
-  13,L,X
-   1,L,J,G
-   2
-  17,L,D
-   1,D
-   2,L
-  12,L
-   4,L,X
-#stun_v-00-lobby_1
-   2,L,X
+   2,R,J
 StunPause
-  21,L,X
-  11,L
-SkipInput 3 1
-  14,L,X
-   1,R,J
-SkipInput 3 1
-  14,U,X
-   7,L,J
-EndStunPause
-#endstun_v-00-lobby_1
-  10,L,J
-   8,K,G
-   7,L
-  12,L,J
-   4,K,G
-  10,L,Z
-   5,L,J
-   9,L,D,X
-  43
-
-#lvl_v-07 (1)
-   4,L,D,X
-   5,L,J
-  15,R,U,X
-   5,R,D
-   8,L,D
-  14,L,Z
-   1,R,J
-  10,L,D,X
-  12,L,J
-   5,L,J
-  16,L
-   1
-   3,L
-   1
-   1,L
-   4,L,D
-   3,L
-  19,L,Z
-  19
-  77
-#hazardcycle_v-00-lobby_2
-   2
-#endhazardcycle_v-00-lobby_2
-   6,R,Z
-   1,R,J
-  40
-
-#lvl_v-00-lobby (6)
-   6,R,J
-   1,R
-   1,R,J
-   2,R
    8,R,J
-  12,R,D
-  36,L,D
-  15,L,D,X
-   1,L,J
-   4,D,C
-  15,L,C
-  13,L,D,X
-   1,L,J
-   5,L
-  15,D,X
-   4,D,C
-   5,L,C
-  43
-
-#lvl_v-07 (2)
-   1,L,C
-   1,L,J
-   7,L
-   1,J
-   5,L,J
-   6,R,J
- 106,R,U,G
-   1,R,D
-   8
-  12,U,X
-  43,R,G
-   1,R,D
-   1,R,K,G
-  12
-   1,L,J
-   1,L,K
-  89,L,U,K,G
-   5,L,G
-   7,L,J,G
-  12,L,U,G
-  16,R,D
-   8,U,X
- 102,R,U,G
-   1,R
-   1,R,J,G
-   1,R,K,G
-  12,R
-   2,R,J
-   7,R,Z
-   1,R,J
-  17,R,G
-  40
-
-#lvl_v-00-lobby (7)
-  10,R,U,G
-   1,J,G
-   3,R,D,G
-#stun_v-00-lobby_2
-   5,R,D,G
-StunPause
-   6,R,D,G
-  38,L,D,G
-   1,L,D
-   6,L
-   1,R
 SkipInput 3 1
-  15,L,X
+  15,U,Z
   10,R
-  20,R
 SkipInput 3 1
-   5,U,X
-  17,R,G
-   1,G
-EndStunPause
-#endstun_v-00-lobby_2
-  19,G
-   1,L,D
-  25,L,G
-   1,R,J
-  41,R,G
-   1,R
-  15,R,U,X
-  72,R,U,G
-   1,R,D
-   1,R,J,G
-  10,J
+  15,L,U,Z
    6
-  13,G
-   9,D
-  15,R,G
-   3,L,J
-  21,L,J,G
-  46,L,D,G
-   8,D,G
-   1,L
-  15,R,U,X
-  26,D
-  10,U,X
-  68,D,G
-   2,G
-  11,D
-  14,U,X
-  21,G
-   1,D
-  12,U,X
-  43
-
-#lvl_v-00-upper (1)
-  11,R
-  10,R,D,X
-   4,R,J
-   5,R,K,G
-  10,R,Z
-  21,L,J
-  15,U,X
-   5,R,J,G
-   9,L,K
-   2
-   1,R,J
-   7,R
-  10,R,X
-   5,R,J
-   4,K
-  15,U,X
-   1,R
-  43
-
-#lvl_v-00-upperer-a (1)
-  11,R
-  10,R,D,X
-   2,R,J
-   7,R,K,G
-  12,J
-   1,K
-  12,R,Z
-   1,R,J
-   5
-   2,R
-   1,R,J
-  16,R,D,X
-   4,L,C
-  14,L,J
-   2,L,K,G
-   7,L
-   4,L,Z
-   3,L,J
    3,L
-   8,L,J
-   1,L
-  15,D,X
-   4,L,Z
-   1,L,J
-  12,L
-   5,L,J
-   5,L,D,X
-   3,L,J,G
-   8,L
-   1,L,J
-  10
-  13,D,X
-  40
-
-#lvl_v-00-upper (2)
-   9,D
-   1,J
-  10
-  15,D,X
-   1,J
-   7
-  15,D,X
-   1,J
-   7
-  16,D,X
-  12,L,Z
-   1,R,J
-   2,R
-  18,R,D,X
-   1,D
-   1,R,J
-   1,J
-   3
    1,R
-   5,R,D,X
-   2,R,J,G
-   1,R,J
-   6,R
-   1,R,J
-   1,R,D
-   2,R,D
-   5,R,J
-   1,R
-   8,R,K
-   1,R,K
-   3,R
-   7,R,D,X
-   1,J,G
-   9
-   3,R
-  15,R,D,X
-   1,R
-   8,R,Z
-   1,R,J
-   3,R
-   1,R,J
-   3,R
-   1,R,K
-   1,R,J,G
-  14,R,D,X
-   1,R,J
-  14,R,D,X
-   2,R,J
-   2,J
-   9,R,X
-   7,L,C
-   2,L,J
-   1,J
-  10,L,J
-   1,K
-  15,R,K
-  27,R,X
-  15,R,D,C
-  15,D,X
-  15,L,D
-  15,L,Z
-  15,L,V
-  15,L,Z
-   1,L
-  15,L,V
-   1,L
-  14,L,Z
-   8,L,J
-   2,L,K,G
-   8,K
-  13,L,Z
-   1,L,J
-   7,L
-   8,L,K
-   4,K
-   1,J,G
-   1,L,J
-   1,J
-   1,L,J
-   1,K
-   1,J,G
-   1,R,J
-   1,R,K,G
-  12,R,J,G
-  14,U,Z
-  13,K
-   4,L,K
-  40
-
-#lvl_v-00-upperer-b
-  11
-  15,U,X
-  10,L
-  12,L,Z
-  43
-
-#lvl_v-00-upperer-a (2)
-   3,L
-  15,L,Z
-  15,R,D,X
-   6,L,D
-   4,L
-   1,L,D
-   4,L,J
-  10,L,X
-  12,L,J
-   4,R,K
-  13,U,X
-   2,R,J
-  11,R
-  10,R,X
-   8,R,J
-   2,J
-  15,U,X
-   5,R,J
-  40
-
-#lvl_void
-   3,R
-   8,R,J
-  14,R,U,X
-   2,J,G
-
+SkipInput 3 1
+   7,R,Z
+EndStunPause
+#endstun_v-00-lobby
+Read,9DSP_22A,endstun_v-00-lobby,keycycle_lvl-void_1
 #keycycle_lvl-void_1
- 138
-  15,R,X
+ 140,D
+   4,Z
+   1,R,J
  123
-  15,R,X
- 108
-  15,R,X
-  67
+  40,L
+  35
 #endkeycycle_lvl-void_1
-
-  14,L,Z
-   1,R,J
-   7,R
-   1,R,J
-  12,R,K,G
-  15,U,X
-   1,R,J
-  11,R
-  15,R,X
-
+Read,9DSP_22A,endkeycycle_lvl-void_1,keycycle_lvl-void_2
 #keycycle_lvl-void_2
- 398,R,D
+ 306
 #endkeycycle_lvl-void_2
-
-  10,R,X
-   4,R,J
-  25
-   5,L
-
+Read,9DSP_22A,endkeycycle_lvl-void_2,keycycle_lvl-void_3
 #keycycle_lvl-void_3
-  82
-  12,J
-  15,U,X
- 111
-  15,U,X
-   1,J
- 225
-#endkeycycle_lvl-void_3
-
-  10,L,X
-  12,R,J
-   1,K,G
-   1
-  15,R,X
-
-#keycycle_lvl-void_4
-  97
-  14,L,D,X
-   1,R,J
-  15,R,D,X
-  15,D,C
- 249
-  13,R
-  10
-  15,R,Z
- 106
-  12,J
-  15,R,X
-  93
-#endkeycycle_lvl-void_4
-
-  12,J
+  91,G
    4,K,G
-   2,L,K
-  10,R,X
-   9,R,J
-  15,U,X
+   1,L,K
+ 106
+  10,L,D,J
+   2,K,G
+   1,R,K
+  10
+   2,L
+ 212
+  11,R,J
+   1,J
+   8,K,G
+   3,L,K
+   5,R,Z
+   1,R,J,G
   11,R
-
+ 115
+#endkeycycle_lvl-void_3
+Read,9DSP_22A,endkeycycle_lvl-void_3,keycycle_lvl-void_4
+#keycycle_lvl-void_4
+ 100
+   2,R
+   1,R,J
+  15,D,X
+  17,R
+  55
+  10,J
+   2
+  11,K,G
+   3,L
+  32,R,D
+  15,R,X
+ 100
+   1,R,J
+ 101
+#endkeycycle_lvl-void_4
+Read,9DSP_22A,endkeycycle_lvl-void_4,keycycle_lvl-void_5
 #keycycle_lvl-void_5
-  98
+  77,D
 #endkeycycle_lvl-void_5
-
-  12,J
+  10,D,J
+   1,K,G
+   5,L,K
+   5,R,K
+   5,R
+   3,K
   14,U,X
-   9,R,J
 
-#2:24.177(8481)
+#1:51.724(6572)
 
   40
