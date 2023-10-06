@@ -46,30 +46,46 @@ console load nameguysdsidespack/0/10-Farewell 226120 -52600
    5
   26,R
    1
-  12,U,Z
-  15,R,J
-   1,J
-  15,R,X
-  17,L,D
-   6,R,D
-  25,R
-  57,L
-   2,J
-  30,R,U,X
+  15,U,Z
+   1,R
+  50,R,J
+   1,R,D
+  16,D
+   5
+   2,L
+   1
+  17,R,K
+   1,K
+   1,R,K
+   1
+  15,U,X
+  14,R,J
+  16,R
+   1
+   1,R
    2
    6,L,J
-  24,L
-   1
-  18,R,D
-  11,R,X
-  14,R
-  23,L,D
+   7,L
+   2,L,J
+  14,L
+   3,L,D
+  17,R,D
+  12,R,X
+  27,R,D
+   5,D
   15,L,D,X
+   7,L,D
   29,R
-  22,R,U,X
+  21,R,U,X
   19,R,C
-   8,R
-  23,R,U,X
+   8
+   1,L
+  15,R,U,X
+   1
+   5,R
+   1
+   1,R
+   1
    7,R,D,C
    1,R,J
    4
@@ -127,20 +143,6 @@ console load nameguysdsidespack/0/10-Farewell 226120 -52600
   20,R,J
   14,R,D,X
   31,R,J
-#  33,U,X
-#   8,R,U,C
-#  45,R
-#  57,R,D,X
-#   1,R
-#   1,R,J
-#   3,R
-#  13,R,U,X
-#  51,R,D,G
-#   1
-#  99,L,D
-
-
-
   36,U,X
   44,R
    7,R,D,X
@@ -155,7 +157,6 @@ console load nameguysdsidespack/0/10-Farewell 226120 -52600
   56,R,D,G
    1
   11,D
-
   19,D,X
    5,L
   13,L,D,X
@@ -166,16 +167,14 @@ console load nameguysdsidespack/0/10-Farewell 226120 -52600
   12,R,J
    7,R
   15,U,X
-
    5,R
    4
   21,R,G
    1
   20,L
-  14
+   8
   36,R,X
    8,R,U,C
-
   52,R,U,J,G
   10,R,D,G
    5,R
@@ -192,11 +191,13 @@ console load nameguysdsidespack/0/10-Farewell 226120 -52600
   32,L,G
    3,L,D,G
   16,R,D,G
-  77,R,U,G
+  69,R,U,G
    1,R
-  15,R,X
-  13,U,C
-  33,L,G
+  18,R,X
+  14,U,C
+  26,L,G
+   3,G
+   1,L,G
   53,R,U,J,G
    2,R,D,G
    2,R,U,G
@@ -207,15 +208,16 @@ console load nameguysdsidespack/0/10-Farewell 226120 -52600
   18,R,D
   17,R,U,Z
    4,R
-   6,R,U,Z
-  24,R
-  14,U,X
-  43,R,J
+   5,R,U,Z
+  22,R
+  15,U,X
+   2,R
+  45,R,J
    7,R,Z
    1,R,K
-   1,R
+   3,R
    1,R,K
-   5,R
+   3,R
   31,R,J
    7,R,X
   40
@@ -305,6 +307,7 @@ console load nameguysdsidespack/0/10-Farewell 226120 -52600
   13,R,J
   37,R
   40
+
 #lvl_w-13
    3,R
   22,R,D,X
@@ -403,30 +406,37 @@ endrepeat
   13,R,D
   41,R
   40
+
 #lvl_w-14
-  18,R
-  20,R,U,Z
-   7
+   4,R
+   9
+  15,R,U,Z
    1,L
-   5,K,G
-   1,J
-   2,K,G
-  32,R,K
-  30,R,U,Z
-   1,L,J,G
+   1,R
+   7
+   9,J,G
+   5
+   2,R
+   1
+   1,K
+   3,L
+  10,R,D,X
+   1,R
+   1,L
+   3
+   5,Z
+   1,R,K
    1,R,J
-   3,J
-  10,R
-  15,R,D,X
-  30,R
+  50,R,D,K
+  16,R,X
   51,R
   21,R,D,X
 AnalogMode,Square
-  27,F,57
+  27,F,55.95
 AnalogMode,Precise
   18,F,90
-  32,F,59.315
-  18,F,0
+  32,F,59.35
+  17,F,0
    5,R,Z
    1,R,J
    6,R
@@ -440,16 +450,19 @@ AnalogMode,Precise
   21
    4,R,G
    7
-  11,R,U,Z
-  21,L
+  10,R,U,Z
+   7
+  12,L
+   1
 AnalogMode,Square
-  30,F,38
+  30,F,36.18
 AnalogMode,Precise
    2,F,0
    3,F,45
-  58,F,92.8
+  57,F,95.27
+   1,F,92.8
   12,F,67
-  21,F,51.8
+  21,F,50.6
   15,R,U,Z
   57,R
    7
@@ -460,19 +473,19 @@ AnalogMode,Precise
   27,R,U
   92,F,70.45
    4,F,45
-  10,F,350
-   1,F,0
-  11,L,X
+  11,F,5.99
+  12,L,X
   31,R
   27,R,D,X
-  14
+  15
   39,L,D
   17,R
-  22,R,U,X
-  15
-  34,R,D
+  21,R,U,X
+   7
+  38,R,D
+   2,D
   12,R,U,Z
-  13,R
+  12,R
   40
 
 #lvl_w-15
@@ -480,17 +493,19 @@ AnalogMode,Precise
   15,U,X
   44,R
   15,R,D,X
+   2,R
    1
-   5,R
-   8,L
+   2,R
+   7,L
   15,L,D
-  21,R
-  13,R,U,Z
+   1,D
+  22,R
+  12,R,U,Z
    1,L,J,G
   23,R,J
-   9,R
-   1,L
-  13,D
+  10,R
+   1,L,D
+  12,D
   24,G
    8,D,G
    1,R,K
@@ -506,7 +521,7 @@ AnalogMode,Precise
   10,U,G
    4,Z
 #hazardcycle_w-16
-   2
+   1
 #endhazardcycle_w-16
   11,R,J
    3,R
@@ -555,9 +570,10 @@ EndStunPause
   30,R,D,X
    4,R
 #stun_w-16_2
+   1,R
    1,S,N
    1,O
-  12,R
+  11,R
 StunPause
    3,R
    1,R,D,J
@@ -569,6 +585,7 @@ EndStunPause
    4,J
 #endstun_w-16_2
   40
+
 #lvl_w-17
    1,J
    2,R,J
@@ -892,7 +909,7 @@ EndStunPause
    9,R,D
   15,D,X
   11,R,D
-#3:08.615(11095)
+#3:07.493(11029)
   40
 
 AnalogMode,Ignore
