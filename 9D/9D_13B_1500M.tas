@@ -88,70 +88,62 @@ console load nameguysdsidespack/0/10-Farewell 114584 -21424
   10,J
    2
    1,K
-   5,R
-   6
-   2,R
-   4,D,X
-   2,R,X
-   9,R,J
-   1,L,J
-  13,L
-  12,L
-  10,R
-   1,R,G
-  20,R,J
-  10,U,X
-  16,J
-  10,R,J
-   1,K,G
-   6
-   5,R
-  10,R,D,X
-   4,R,J
-   1,R
-   4
-   4,D,X
-  11,R,X
-   1,R
-   6
-
-   4,D,X
-   3,L,X
+   7,R
+   9,R,Z
+   5,R,J
+   3,J
+  12
+  12,D
+  10,R,D
+  11,R,U,Z
+   1,L,K,G
+   5,L,J,G
    1,R,J
-   6,L,J
-   3,L
-   1,L,J
-   5,L
+  13,L,J
+   1,K,G
+   1,R,K
+   1,J
+  18,R,J
+   3,R
+   4
+   1,L,D,K
+  10,R,D,X
+   4,R,K
+   5,R
+  16,R,Z
+   1
    2,R
-   5,R,D
-   2,D
-   2
-   4,D,X
-   9,R,U,X
-   1,L,J,G
-  17,L
-   6,R,D
-  20,R
-  27,R,X
-  14,U,C
-   2,J
-  10,R,J
-  40,R
-  11,R,D
-   4,D,X
+   3
+   9,L,Z
+   6,R,J
+  10,R
+   4,R,D
+   9,R,D,K
+  15,D,X
+  25,R,C
+  15,R,V
+   1,L
+   4,J,G
+  11,R,J
+   2,R,K,G
+   4,L,K
+   1,R,J,G
+   1,J
+   6,R,J
+   9,R
+   1,R,J
+  38,R
   15,R,U,X
   18,U,C
-   4,D,X
-  10,R,X
+   2,R
+  16,R,X
+  14,R,Z
    7,R,J
-   1,R,K,G
-   7,R
-   4,D,X
-   1,R,U,X
+   5,R,U,Z
   40
 
 #lvl_m-03
-   9,R,U,X
+   9,R,U,Z
    2,J
   12,R,X
    4,R,J
@@ -165,15 +157,16 @@ console load nameguysdsidespack/0/10-Farewell 114584 -21424
    4,K,G
   15,R,K
   31,R,X
-   4,D,C
-   6,R,C
-   4,R,J
+   5,R,Z
+   5,R,J
+   2,R
+   2,R,J
    9,R
   15,D,X
-   9,R,D
    1,R
-   1,R,D
-   4,D,X
+   8,R,D
+   1,R
+   4,Z
    1,R,J
    6,R
   11,R,D,J
@@ -186,11 +179,11 @@ console load nameguysdsidespack/0/10-Farewell 114584 -21424
    6,L,J
    1,J
    9,K
-  25
-  12,R
-   7,G
-   1,U,G
-   1,G
+  26
+  10,R
+   5,G
+   3
+   2,G
    1,J,G
   11,R
    2,G
@@ -519,73 +512,20 @@ console load nameguysdsidespack/0/10-Farewell 114584 -21424
   15,U,X
   15,J
   14,L
-  25,R,D
-   4,R
-   4,D,X
-  28,R,X
-   4,D,C
-  11,R,U,C
-   7,L
-   2,R
-  10,R,G
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
+  22,R,D
+  17,R
+  40,R,U,X
+  15,R,U,Z
+   1
+repeat 8
+   1,J,G
+   1,L,J
+   1,R,J
+   1,K,G
+   1,L,K
+   1,R,K
+endrepeat
+   6,J
   40
 
 #lvl_m-10
@@ -671,23 +611,20 @@ console load nameguysdsidespack/0/10-Farewell 114584 -21424
   20,L,J,G
   12,L
   10,L,D,X
-  16,L,J
-  11,U,X
-  18,R,J
-  10,K
-  10,J
-  10,K
-  10,J
-  10,K
-   1,J
-   2,K
-   1,L,K
-   1,R,J,G
-   1,R,K,G
-  12,R
+  18,L,J
+  15,U,Z
+  18,J
+  12,K
+  12,J
+  12,K
+   9,J
+   4
+   3,R
+   5,R,K
+  10,R,D,X
    9,R,J
-  15,R,U,X
-  59,R
+  12,U,X
+  58,R
   21,R,X
    1,R,G
    1,R,J,G
@@ -709,12 +646,16 @@ console load nameguysdsidespack/0/10-Farewell 114584 -21424
    4,R,X
    1,L,J
    5,L
-   1,L,D
-  23,L,J
-  15,D,X
-  13,L
-  16,L,J
+  18,L,J
+   3,J
+   1,L,J
+   1,J
+  11,L,X
+   8,R,J
+  10,L,X
+   1,L,K
+  15,R,K
   14,U,X
   65
-#1:25.340(5020)
+#1:24.609(4977)
   40
