@@ -4,7 +4,6 @@ console load nameguysdsidespack/0/10-Farewell 114584 -21424
 
 #Start
 #lvl_m-01
-#  36
   68
    4,D,X
    1,R,J
@@ -19,7 +18,6 @@ console load nameguysdsidespack/0/10-Farewell 114584 -21424
    9,L
   27,R,D
   15,D
-
    4,D,X
    1,R,X
    1,L,J
@@ -31,9 +29,7 @@ console load nameguysdsidespack/0/10-Farewell 114584 -21424
    2,L,J
   11,L
    4,D,X
-   1,L,J
-#
-   2,L,J
+   3,L,J
   13,L,D
   34,R,D
    4,D,X
@@ -310,7 +306,6 @@ console load nameguysdsidespack/0/10-Farewell 114584 -21424
    4,R
    7
   20,R,X
-
   19,R,C
   18,R,X
   15,R,C
@@ -342,65 +337,60 @@ console load nameguysdsidespack/0/10-Farewell 114584 -21424
    3,R
    2,R,K
   13,R,D,X
-  10,R,J
-   8,R,K,G
-   5,R
-  18,R,K
+   9,R,J
+   1,R
+   9,R,K,G
+   6,R
+   8,R,K
+   8,R
   25,R,J,G
    6,R
-  11,R,U,X
-   8,J,G
-   1,R,J
-   1,J
-   1,R,J
-   1,L,J
-   1,R,J
-  16,R,K,G
-   1,J,G
-  11,R,J
-   9,R
-   1,R,J
-   5,R
-   9,R,D
-  16,L,D
-  17,L
-  34,R
-  10,U,Z
-  44,R,J
-   1,G
-   1,R,K,G
+  12,R,U,X
+   8,K,G
+   1,R,K
+   1,K
+   1,R,K
    1,L,K
-   2,R,K
-   1,R,J,G
-   9,R
+   1,R,K
+  16,R,J,G
+  10,R,K,G
+  18,R
+   4,R,D
+  29,L,D
+   2,L
+  38,R
+  10,U,X
+  13,R,J
+   8,R
+   2,R,J
+  13,R
+   7,R,D
+   1,G
    1
+   1,R,D
+   6,G
+   2,D,G
+  12,R,K,G
+   1,J
+  10,R
+  27,R,Z
+  22,R,U,X
+  26,R,C
+  24,R,D,X
+  11,R
+  29,R,X
+  19,R,U,C
+  16,U,Z
    1,R
-   1
-   1,R
-   8,D
-   2,L,D
-   1,L
-   1
-   1,L
-  12,R
-  15,R,Z
-  22,R
-  15,R,U,X
-  10
-  21,R,C
-  18,R,D,X
-   1,R
-  14,R,D
-  21,R,X
-   7,U,C
-  20,R,J
-  12,U,Z
-  15,R,K
+  13,J
+   1,R,J
+   8,R
   15,R,X
   15,R,D,C
    4,Z
-   5,R,J
-   6,K,G
+   4,R,J
+   4,K,G
+   3,R
   40
 
 #lvl_m-07
@@ -409,22 +399,22 @@ console load nameguysdsidespack/0/10-Farewell 114584 -21424
    4,R
    9,R,J
    4,D,X
-  21,R,U,X
+  20,R,U,X
    1,R,G
    1,R,J,G
    4,L,J
    7,R,J
    1,R,K,G
    1,R,J,G
-  14,R
-   3,R,J
+   9,R
+   1,R,J
+   4,R
+   3,R,K
    5,R
-   2,R,J
+   2,R,K
   12,R,D
-   6
-   2,R
-   1
-   5,R
+   7
+   7,R
    4,R,D,J
    5,R
    3,R,J
@@ -464,7 +454,6 @@ console load nameguysdsidespack/0/10-Farewell 114584 -21424
   13,R,D
    9,R,X
    9,R,C
-#BRANCH KEY
    9,R,X
    9,R,C
    9,R,X
@@ -478,17 +467,10 @@ console load nameguysdsidespack/0/10-Farewell 114584 -21424
    4
    7,R,D
   14,L,D,X
-
    1,R,J
    4
   19,R,D
   15,R,U,X
-
-#   6,R,J
-#   7,R
-#   4,D,X
-#  21,R,X
-
   15,R,D,C
    4,R
    4,D,X
@@ -507,13 +489,10 @@ console load nameguysdsidespack/0/10-Farewell 114584 -21424
   17,R,D,C
   16,R,U,X
   15,R,U,C
-   6
-
-   1
+   7
   15,U,X
   18,R
-   8
-   1
+   9
    3,R
    2
    4,D,X
@@ -737,5 +716,5 @@ console load nameguysdsidespack/0/10-Farewell 114584 -21424
   16,L,J
   14,U,X
   65
-#1:25.459(5027)
+#1:25.340(5020)
   40
