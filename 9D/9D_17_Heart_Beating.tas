@@ -777,7 +777,7 @@ AnalogMode,Precise
    1,R,K
    7,R,D,X
 #jelly x subpx must be
-#>= .00 for the super
+#>= .511 for the cb
 #in next room to work
   13,G
    2,R,J,G
@@ -786,91 +786,93 @@ AnalogMode,Precise
 #lvl_r-08p
    1,R,J,G
    8,R,D,G
-  90,R,U,K,G
-  42,R,D,G
-   2,R,U,G
-   2,R,D,G
-  18,R,U,G
-   7,R
-  15,R,X
-   8,L,C
-   6,R,J
-  56,R,U,J,G
-   1
-   5,L
+  78,R,U,K,G
+   1,R,D,G
+   1,R,U,G
+  49,R,D,G
+  28,R,U,G
    3
+  14,R,X
+   3,R,J,G
+   1,R,K,G
+  48,R,U,K,G
+   2
+   1,R
+   2,J,G
+   1,K,G
+   5
+   2,R
+   5,L
    4,Z
-   1,R,J
-   7,R,K,G
-  95,R,G
-  27,R,D,G
-   1,D,G
-   1,R,J
-  10,L,X
-  11,R,J
-  34,R,U,J,G
-   8,R,J
-   1,J
-   1,R,J
-   1,J
-  10,U,X
-  35,R,U,J,G
-   2,U,J,G
-   9,R,U,J,G
-   2,R,G
-  10,G
-   2,R,G
+   1,R,K
+   2,R,J,G
+   8,R
+   1,R,K
+ 113,R,U,K,G
+   7,R
+  14,R,U,X
+  44,R,U,K,G
+  19,R,G
+   1,R,U,J,G
   40
 
 #lvl_r-09p
-   4,K
+   4,J
    8
   14,R,Z
    1,R,J
    5,R,D,X
   13,G
- 129,R,U,K,G
+ 126,R,U,K,G
    7,R
   14,U,X
   38,R,U,K,G
    7,R
   14,R,U,X
-  70,R,U,K,G
-  13,R,D,G
-   4,R
-   9,L,Z
+  60,R,U,K,G
+   2,R,D,G
+   2,R,U,G
+  15,R,D,G
+   2,R,U,G
+   2,R
+   8,L,Z
    1,R,J
-   7,R
+   6,R
    1,R,K
    6,R,U,X
   13,G
   40
 
 #lvl_r-10p
-  24,R,U,K,G
+
+  15,R,U,K,G
+   6,U,K,G
+   4,G
    1
-   1,R,K
-   4,J,G
-   1,R
+   1,J,G
+   3
+   1,L
    1,K
-   7,L,J,G
+   8,L,J,G
    3,L
-  21,L,J,G
+  21,L,U,J,G
    1,R
-  20,R,U,X
+   3,L
+  18,R,U,X
   17,R,G
   20,R,K,G
-   5,R,D,K
-   2,K
-   3
+   6,R,D,K
+   4,K
   11,U,X
-  25,R,U,J,G
-  14,L,J,G
+  24,R,J,G
+  11,L,J,G
    1,R
    3,L
-  11,U,X
-  15,L,J
-  12,U,X
+   1,J
+   1,L,J
+  10,U,X
+  14,L,J
+  13,U,X
    3,L,J
    9,J
    2
@@ -920,13 +922,12 @@ AnalogMode,Precise
    5,R
    3,R,K
    4,R
-   2,R,J
-   2,R
+   4,R,J
   15,R,D,X
    1,R
    9,R,D,J
-  16,R,D,X
-  10,R
+  18,R,D,X
+   8,R
    1,R,K,G
   14
    2,R,D
@@ -1101,6 +1102,7 @@ AnalogMode,Precise
   10,R,Z
    5,R,J
    8,R,U,Z
+   1
   36,R,C
   11,R,U,X
    1,R,K,G
@@ -1116,13 +1118,12 @@ AnalogMode,Precise
   12,R,K
    1,J,G
    1,K
-  10,R,X
-   2,R,X
+  12,R,X
    6,R,J
    2,J
    4,R,J
   29,R,D
-  21,R,X
+  20,R,X
    8,R,J
    8,J
   11,R,K
@@ -1352,7 +1353,7 @@ AnalogMode,Precise
    1,R,K
    9,R
  237
-#3:29.695(12335)
+#3:28.454(12262)
   40
 
 #lvl_t-00
