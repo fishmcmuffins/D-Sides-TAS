@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 2871
+RecordCount: 3311
 console load nameguysdsidespack/0/10-Farewell 188372.063894272 -48424 48.66644 0
    1
 Set,Session.Inventory.Dashes,2
@@ -71,10 +71,9 @@ Set,Session.Inventory.Dashes,2
   40
 
 #lvl_t-04
-   2,R
-  12,R,D,X
-   8,R,J
-  16,R,U,X
+   3,R
+  16,R,J
+  14,R,U,X
   41,L
  150,R,C
   15,R,D,X
@@ -104,17 +103,14 @@ Set,Session.Inventory.Dashes,2
    1,G
    2,D,G
    1
-   1,J,G
+   1,J
    1,K,G
-  15,R,D,X
-   6,R
-   8,R,D
-   1,R
-   1,R,D
-  15,R,U,X
-  31,R,D
-  15,R,U,X
-   7,R,U,C
+  17,R,D,X
+   1,D
+  11,R
+  30,R,X
+  15,R,U,C
+   9,R,U,X
   44,R
   19,R,D,X
    9,R
@@ -189,7 +185,7 @@ Set,Session.Inventory.Dashes,2
    7,L,K
   23,L
   44,R
-   9,R,U,Z
+   9,R,U,X
    3,R,J,G
    1,R
    2
@@ -200,21 +196,26 @@ Set,Session.Inventory.Dashes,2
 
 #lvl_t-06
   15,R,D,X
-  10,R,Z
-  13,R,J
+   5,R,Z
+   1,R,J
+   4
+   1,J
+   1
+   1,R
+   4,R,K
+   7,R
   15,U,X
-  15,U,Z
-   3,L,K,G
-   7,L
+  15,U,C
+   1,L,J,G
+   5,L
+   1
+   1,L
    6,L,Z
    1,L,J,N
   10,L
    1,X
   16
   18
-#hazardcycle_t-11
-   0
-#endhazardcycle_t-11
  154,D
    1,X
   19
@@ -335,13 +336,23 @@ Set,Session.Inventory.Dashes,2
    1
   20,R,D,X
    8,R
-  46,R,G
+  30,G
+   1,D,G
+   1,G
+   2,D,G
+   2,G
+   4,D,G
+   4,G
+   1,U,G
    1
    1,R,J,G
    1,R,K,G
    1,R,J,G
-   5,R,X
-  18,R,K,G
+   1,R,K,G
+   6,R
+   1
+   1,R,J
+  13,R,U,X
   45,L
   15,R,U,X
   10,R
@@ -474,7 +485,7 @@ AnalogMode,Precise
   15,U,C
    4,L
  253
-#1:30.100(5300)
+#1:29.743(5279)
   40
 
 #lvl_u-01
