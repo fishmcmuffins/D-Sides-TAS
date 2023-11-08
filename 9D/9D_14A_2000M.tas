@@ -916,57 +916,75 @@ EndStunPause
    8,L,K,G
    8,L
   44
-   3,R
-   1,J
-   2,K,G
-  15,L,K
-   1,R,J
-  22,R,K
    4,R
-  12,U,X
-  12,L,J
-   6,J
-  11,K,G
+   8,J,G
+   4,L,J
+  15,U,X
+   2,L
+  18,K
+  12,J,G
+  10,K,G
    1,R,K
-  11,J
-   1,L,J
-   9,K,G
-   4
-   9,J,G
-   4
+   1,L
+  12,J
+  12,K,G
+   4,J,G
+   2,R,J
+   1,R
    1,K
-   2,J,G
-  45,R,J
+  12,R,K
    2
-   2,R
-  10,R,K
-  29,R,X
-  18,R,C
-  21,R,X
-  15,U,C
+   1,R
+   1,J
+   5,R
+  30,R,J
+   1,R,D
+   1,R
+   1,D
+   9,K
+  15,R,X
+   1
+  12,R
+  18,R,X
+  20,R,C
+  15,U,X
    2,R
   19,L,J
    1,L,K,G
-  10,L,J,G
+   9,L,J,G
    5,L
-   1
-   2,L
-  34,L,K
-  11,J,G
-   5,R,J
+   3,L,J
+   1,K,G
+   3,L,K
+   7,R,K
   15,U,X
-   5
-   6,K,G
-  11,J,G
-   1,L,J
-   1,R,K,G
-   1,L,K
+   1,L
+  21,L,J
+   1,K
   10,R,K
-  13,J,G
-  11,K,G
+   1,R
+  10,J,G
+   1,R,J
+   1,L,J
+   7,L
+   1,R,D,K
+   3,L,K
+   3,L
+   1,L,J,G
+   1,L,K,G
+   1,J,G
+   3,L
+   3,L,J
+   1,J
+   1,R,J
+   1
+   1,G
+   2,K,G
+   1,R,K
    1,L,K
    1,R,J,G
-   4,L,J
+   1,K
+   2,L,K
   15,L,U,X
   15,L,U,C
    7,U,X
@@ -974,32 +992,35 @@ EndStunPause
   15,U,X
   11,J,G
    7
-  20,U,G
+   6,G
+  14,U,G
    7,G
-   1
-   9,R,Z
-   8,R,K
-   2,R
-  14,R,K
-  11,R,J
+   1,L
+   4,Z
+   1,R,J
+  17,R
+   2,R,D
+   1,R
+  21,R,J
   15,U,X
-   8,K,G
+   1,R,K,G
+   3,K
+   5,R,K
+   1,R
    1,R,J,G
-   9,R
-  20,R
-   5,D
-  12,R,K
+   7,R
+   1,R,K
+  10,K
+   7
   15,U,X
-  17,D
-  20,R,D
-   3,R
-  10,R,J
-  14,U,X
+  41,R,D
+   9,R,D,J
+  15,U,X
   23,L,J
   15,U,X
-   2,L
-  18,R,K
-#2:17.938(8114)
+   3,L
+  17,R,K
+#2:16.884(8052)
   40
 
 AnalogMode,Ignore
