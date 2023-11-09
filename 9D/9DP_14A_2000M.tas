@@ -76,8 +76,10 @@ Read,9D_14A,Start,lvl_n-07
   40
 
 #lvl_n-08
-Read,9D_14A,lvl_n-08
+Read,9D_14A,lvl_n-08,hazardcycle_n-12
+   0
+Read,9D_14A,endhazardcycle_n-12
 
-#2:18.516(8148)
+#2:15.541(7973)
 
 AnalogMode,Ignore
