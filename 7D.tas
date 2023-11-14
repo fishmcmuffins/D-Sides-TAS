@@ -1,4 +1,4 @@
-RecordCount: 28259
+RecordCount: 28412
 
 #Created by dahlukeh, Fishmcmuffins and Euni
 
@@ -1609,25 +1609,28 @@ endrepeat
    1,R,J
    1,R
    1,R,J
-   8,R
-  15,R,X
-  10,R
+   4,R
+  17,R,X
   15,R,Z
-   2,R
-  29,D
-  13,R,Z
-  14,R,J
-   5,J
+  17,R,D
+   2,D
+
+  11,D
+  14,R,Z
+  11,R,J
+   7,R
   15,U,X
+  10,R,Z
+   5,R,J
   14,R,Z
    1,R,J
-  14,R,Z
-   1,R,J
+   1,R
   15,R,D,X
   17,D
-   7
-   6,R
-   2
+   5,D
+   6
+   3,R
+   1
   12,L,X
   14,R,J
   15,R,D,X
@@ -3265,46 +3268,47 @@ AnalogMode Precise
   10,F,56
    9,F,52
   10,F,0
-  18,F,310.5
+  18,F,309.7253
    1,F,309.32,0.69
    4,L
    1,L,J,G
    8,L,K,G
    2,L
-  15,L,X
+  16,L,X
   22,L,C
    1
    6,L,U,X
   26
    1,L,U
-   5,F,316.04
+   5,F,316.24
    8,F,0
    8,F,45
-  24,F,99
-  10,F,103.3
-   6,F,97.331
+  24,F,99.28
+   8,F,103.31
+   8,F,98.034
    3,F,65
    8,F,35
   13,F,330
-  19,F,275.5
+  19,F,275.33
   10,F,257.6
-  28,F,254.76
-  15,F,206.4
-  16,F,200.67
+  28,F,254.83
+  15,F,206.3
+  16,F,200.9017
   14,L
    2,L,D
    1,L
    1,L,D
    4,L
-  16,L,D
-  13,R,D
-  13,D
-   1,L,D
+  17,L,D
+  15,R,D
+   8,D
+  12,L,D
+  16,R,D
    1,D
-   9,L,D
-  17,R,D
-   2,D
    1,R,D
+   1,D
+   1,R,D
+   1,D
    1,J
    5,L,J
    1,J
@@ -3319,14 +3323,14 @@ AnalogMode Precise
   15,L,Z
   26
 AnalogMode Square
-   1,F,216.85
+   1,F,216.8
 AnalogMode Precise
   11,F,150
    8,F,136
-   1,F,134.72
+   1,F,134.85
   10,F,75
   10,F,20
-  11,F,344.99
+  11,F,344.96
    6,F,15
    7,F,29.8
    9,F,344
@@ -3355,7 +3359,7 @@ AnalogMode Precise
 #lvl_g-03
   72
 #CP-03 Spinner Cycle
-   1
+   2
 #no-wind
 #CP-12
   15,L,J
@@ -4423,4 +4427,4 @@ EndRepeat
    8,R,U,X
  135,R
 
-ChapterTime: 9:55.051(35003)
+ChapterTime: 9:54.881(34993)
