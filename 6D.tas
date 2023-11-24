@@ -1,4 +1,4 @@
-RecordCount: 13965
+RecordCount: 14178
 
 #original draft by dahlukeh and gnommis
 #significant rewrites and timesave
@@ -303,44 +303,39 @@ console load nameguysdsidespack/0/6-ReflectionD
    6,R,Z
    2,R,J
    1,R,K,G
-   5,R
-   1,R,J
+   6,R
   40
 
 #lvl_a-07
-   4,R,J
-   1,R
-   1,R,K
-  10,R,D,J
-   5,R
-   3,R,K
+   3,R
+   5,R,J
+   9,R
+   1,R,J
+  12,R
+   4
    1,R
    1
-   1
-   1,R
-   9,L,U,X
-  41,R
   15,R,Z
-  14,L
-   9,L,D
-  23,R
-  15,D,X
-   3,R,D
-   5,D
-   5,L
-   1,L,D
-   1,L,D
-   1,L,D
+  19,L
+  28,R
+  15,R,U,X
+  22,R,D
    1,D
-  41,R
-  18,R,X
-   7,U,C
-  30,R
-  12,R,U,X
-  15
-  23,R
-  12,R,D,X
-   4,R,J
+   1,R,D
+   9,L,D
+   6,L
+   1
+   1,L
+  43,R
+  13,R,U,Z
+  32,R
+  11,R,U,X
+  14,L
+  25,R
+  11,R,D,X
+   1,R,J
+   1,J
+   2,R,J
    1,R
    5,R,D,X
    5,R,K,G
@@ -352,8 +347,7 @@ console load nameguysdsidespack/0/6-ReflectionD
 
 #lvl_a-08
    9,R,J
-   1,R
-   4
+   5,R
   11,U,X
   10,R,J
    2,R
@@ -361,9 +355,9 @@ console load nameguysdsidespack/0/6-ReflectionD
    1,R,D
 AnalogMode Precise
   37,F,101.8
-   1,F,103
+   1,F,102.85
    5,F,135
-  16,F,162
+  16,F,161.1
    1,F,160.5
    5,F,135
    8,F,90
@@ -1106,7 +1100,7 @@ AnalogMode Precise
    6,R
 
 #Spinner Cycle
-   1,L,J
+   0,L,J
 #
 
    5,R,Z
@@ -3198,4 +3192,4 @@ EndRepeat
   31,L,D
   54,R,J
 
-ChapterTime: 7:58.516(28148)
+ChapterTime: 7:58.312(28136)
