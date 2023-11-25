@@ -1,4 +1,4 @@
-RecordCount: 14178
+RecordCount: 14648
 
 #original draft by dahlukeh and gnommis
 #significant rewrites and timesave
@@ -1098,11 +1098,6 @@ AnalogMode Precise
    1,R,D
   15,R,Z
    6,R
-
-#Spinner Cycle
-   0,L,J
-#
-
    5,R,Z
    1,R,J
    1,R
@@ -1143,57 +1138,71 @@ AnalogMode Precise
    5,R,K,G
   40
 
-#lvl_b-11
-   1,R,K
-   2,K
+#lvl_b-11 (1)
+   3,R,K
   15,R,D,X
-   4,R,J
-   7,R
-  16,R,D,X
-  15,R,D,C
-StunPause
-   4,R,D
-SkipInput 3 1
+   2,R,J
+   3,R
+   2
+   2,J
+   2
+   1,R,J
   15,D,X
-SkipInput 3 1
   15,D,C
-SkipInput 3 1
-  15,D,X
-SkipInput 3 1
-   5,D,C
-EndStunPause
-  10,D
-   1,L
-   3,D
-   1,L
-  15,D,X
-   1,L
-  15,L,D,C
   15,L,D,X
-  15,D,C
+  15,L,D,C
+   1
+  15,L,Z
+   7,U
+   1,F,20
+  15,R,D,X
+   1,F,140
+   1,R
+  18,R,X
+  18,R,C
+  15,R,Z
+   1,F,83
+   2,U
+  15,R,D,X
+  15,R,D,C
+  15,R,D,X
+  12,R,D,C
+   1,R,J
+   2,R
+   8,R,D,X
+  43
+
+#lvl_b-11s
+   1,L,J
+  43
+
+#lvl_b-11 (2)
+   6,L
+  15,L,D,X
+   5,L
+  18,D,X
+  15,L,D,C
   15,D,X
   15,L,D,C
-   2,D
   15,L,Z
   15,L,V
-  15,L,X
+   5,F,264.15
+  15,L,D,X
   15,L,D,C
-  11,D
-   1,L,D
   15,D,X
+   6,R,D
   27,L,D
-  23,F,173.15
-   1,F,170
-   6,F,135
-  31,F,105.5
-   1,F,102.5
+  25,F,188.43
+   9,F,135
+  29,F,105.5
+   1,F,102.4
    7,F,60
    7,F,27
-   1,F,32.4
+   1,F,30.2
   10,F,90
-  11,F,121
+  12,F,117
    1
-   1,F,90
+   1,F,117
   15,R,Z
    6,R
    4,Z
@@ -1202,46 +1211,71 @@ EndStunPause
 
 #lvl_b-12
    3,R,J
-   4,R
-   3,R,J
    1,R
-  15,K,G
-  17,L,U,X
-  23,L,D
-  29,L,G
-   5,L,D,G
-  26,L,G
-  38,F,90
-   5,F,111.1
-   5,F,90
-  13,F,65
-   1,F,68.3
+   1,R,J
+   2,R
+   2,R,K
+   2,K
+  19,J,G
+  20,L,U,Z
+   1
+  12,L,K,G
+   8,J,G
+   1,L,J
+   1,J
+   1,R,J
+   1,L,K,G
+   1,L,J,G
+   1
+   3,R
+   3
+   3,R
+   1,L,D
+   1
+   1,L
+   1
+   1,L
+   1
+   1,L
+   4
+   1,G
+   1
+   1,L,J,G
+   1,K,G
+   5,R,D,X
+  53,R,U
+  14,F,62.5
+   7,F,90
+  16,F,113.15
    4,F,90
-  14,F,113.2
-   5,F,90
-  13,F,88.4
-   3,F,90
-  12,F,104.3
-   3,F,90
-   1,F,87
-   4,F,60
-   4,R
-  19,R,D,X
-  27,R,U
-   2,F,41
-   7,F,40
-   1,F,39.4
-  13,F,0
-   7,L,U,X
-  75,L,G
+  14,F,88.3
+   4,F,90
+  27,F,105.02
+  14,F,114
+   6,F,90
+   8,F,45
+   5,F,0
+   1,F,0,0.69
+   3,R
+  11,L,U,X
+   6,L,J,G
+   2
+   4,L
+   1
+   1,L
+   1
+  33,G
+   1
+   1,J,G
+   1,L,K,G
+   6
+  12,L
    1,L,J,G
    1,L,K,G
    1,L,J,G
-   3,R,J
-  11,R
-   5,R,D
-   5,R
-   6
+  17,R,J
+   4,R,D
+  12,R
 #midsync
   13,L,U,X
    9,R
@@ -1367,7 +1401,7 @@ AnalogMode Ignore
   12,R,D,X
    6
 #spinner cycle
-   0
+   2
 #
   10,R,D,C
    4,R,J
@@ -3192,4 +3226,4 @@ EndRepeat
   31,L,D
   54,R,J
 
-ChapterTime: 7:58.312(28136)
+ChapterTime: 7:56.833(28049)
