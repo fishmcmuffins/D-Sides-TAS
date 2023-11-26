@@ -368,8 +368,6 @@ AnalogMode Precise
    5,R,X
   26
    1,R,D
-#this feather is awful
-#someone please improve it
   13,F,126.9
   16,F,153.38
   11,F,90
