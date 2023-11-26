@@ -1,4 +1,4 @@
-RecordCount: 15732
+RecordCount: 16018
 
 #original draft by dahlukeh and gnommis
 #significant rewrites and timesave
@@ -368,8 +368,8 @@ AnalogMode Precise
    5,R,X
   26
    1,R,D
-#this feather is awful
-#someone please improve it
+#this feather is decent
+#someone please observe it
   13,F,126.9
   16,F,153.38
   11,F,90
@@ -2339,54 +2339,45 @@ AnalogMode Ignore
   40
 
 #lvl_boss-15
-  11,L,D
+  15,L,D
   15,R,D,X
-  19,L,D
-   4,L
-   3,L,J
-   3,L
-  15,L,U,X
+   8,L,D
+   1,L
+  14,L,X
    1,L,J,G
-   3,R,J
+   2,R,J
+   1,R
+   1,L,J,G
    7,L
    6,L,Z
    1,R,J
-  12,R,D
+   7,R
   10,R,D,J
-   1,K,G
-   6,L,K
-   4,L
-   3,J,G
-   1,K,G
-   1,R,K
-   1,L,K
-   1,J
-   5,R,J
-   1,R,K,G
-   7,R,J,G
-   2,R
-   7,R,J
-   1,R
-  15,R,Z
-  20,D
-  13,R,D
-   8,D
-   8,D,J
-   7,R,J
-  12,R,K,G
-   5,R,J,G
+   1,L,J
    1,K
-   8,R,K
-   2,L,K
-   2,L
-   8,R,Z
+   4,L,J,G
+   8,R,J
+   1,K,G
+   2,L,K,G
+  21,R,J,G
+  13,R,D
+  15,R,Z
+  15,D
+  19,R,D
+   3,D
+  12,J
+   5,R,J
+  13,R,K,G
+  12,J,G
+   5,K
+   6,R,Z
    1,R,J,G
    1,R
    1,R,J
-   2,R,K
+   1,R,K
    2,R
-   2,R,J
-  40
+   2,R,K
+  40,K
 
 #lvl_boss-16
    6,R,K
@@ -2710,36 +2701,26 @@ AnalogMode Ignore
   38,R,D
   18,R,X
   11,R
-  18,R,C
-   5,R
-  18,R,U,X
-   6,R
-  18,R,U,C
-   6,R
-  15,R,U,X
-  50,R
-
-   5,R
-  15,L,U,Z
-   1
-   8,L
-  44,R,D
-   6,R
+  22,R,C
+  26,R,U,X
+  43,R,U,C
+  57,R,U,X
   40
 
 #lvl_center-03
+   2,R,J
   15,R,X
    1,R,J
-   4,J
-  11,R,J
+  13,J
+   4,R,J
   26,R,X
-   9,R,J
-   3,R
+  11,R,J
+   1,R
    5,R,Z
    1,R,J
    6,R
-  31,R,K
-  15,R,X
+  32,R,K
+  14,R,X
   37,L
   15,L,D,X
    4,L,D
@@ -2766,69 +2747,66 @@ AnalogMode Ignore
    1,R,J
    4,J
    3,R,J
-   4,R
-  24,R,K
-   5,K
-   1,R,J,G
-   3,L,J
-   3,R,J
    1,R
-   1,R,K,G
-   6,R,J,G
-  17,R
-  12,R,K
-  23,R,X
+   1,R,J
+   2,R
+  30,R,K
+   2,G
+   5,R,X
+   1,R,J,G
+   2,R,K,G
+   1,R,J,G
+  20,R,K,G
   37,R
   40,R,X
   30,R,C
   37,R
   13,L,D,X
-  26
-   1,R,U
-  44,F,67
-   5,F,90
-  31,F,131.6
-   7,L,Z
+  27,R,D
+  40,F,101.15
+   5,F,91.1
+  28,F,67.7
+   2,G
+   5,R,X
+   1,R,J,G
+   9,R
    1,R,J
-  12,R,D
-   1,R,K
-   5,R
-  10,R,K
-  21,R,U,X
-  58,L
-   4
-  14,R,D,X
-   5,R,J
-  31,R,D
+   1,R
+   3,R,D
+  16,R,K
+  14,R,U,X
+  66,D
+   5,L,D
+  23,G
+   9,U,G
+   7,R,Z
+   1,R,J
+  15,R
   40
 
 #lvl_center-05
-   1,R,J
-  14,R
-   2,R,K
-   8,R
-   1,R,J
+   1,R
+   2,R,D
+   8,D
+   1,R,D,J
+   5,J
+   6,R,J
+   7,R
+   4,R,J
    5,R
-   1,J
-   2,R,J
-   5,R
-   1,R,K,G
-  19,R,J,G
-  14,R,D,X
-  13,R,J
-   5,R,X
+  14,R,X
   27,R,U
    8,F,90
-  19,F,111.2
+  18,F,111.19
   23,F,67.47
    3,F,45
-  25,F,85.5
+  25,F,84.9
    6,F,90
    1,F,96
    9,F,45
   14,R,X
   27,R,D
-  80,F,93.45
+  80,F,93.4
   40
 
 #lvl_center-06
@@ -2837,22 +2815,22 @@ AnalogMode Ignore
    9,F,135
    6,R
    1,R,J
-  11,R
+  12,R
   27,R,D
   83,F,90
-  15,R,X
+  14,R,X
   27,R,U
-  63,F,85.5
-  56,F,89.5
+  59,F,84.3
+  60,F,89.5
    4,R,X
    1,R,D,X
-  11,R,U
+   3,R,U
   40
 
 #lvl_center-07
-  16,R,U
- 104,F,88.27
-  27,F,90
+  24,R,U
+  98,F,88.01
+  29,F,90
   14,R,Z
   26,L
   34,R,D
@@ -2909,11 +2887,14 @@ AnalogMode Ignore
 #lvl_center-09
    4,R,K
   15,R,U,X
-  25,R,D
-   3,D
-   5,R,D
+  23,R,D
+   4,D
+   3,R,D
+   3,R
+   1,R,D
    1,R
-   4,G
+   1,R,D
+   2,G
    1
    1,R,J,G
    1,R,K,G
@@ -2929,11 +2910,10 @@ AnalogMode Ignore
   16,R,D
    1,R,J
   11,J
-
-  16,R,J
-  26
-  31,G
-   2,D,G
+  17,R,J
+  25
+  28,G
+   3,D,G
    1
    1,R,J,G
    1,R,K,G
@@ -2942,39 +2922,39 @@ AnalogMode Ignore
    7,R
    1,R,D,J
    5
-   1,J
+   2,J
    3
   13,R
-   3,R,D,K
-  36,R
+  20,R,D,K
+  17,R
    6,R,Z
   40
 
 #lvl_center-10
    8,R,Z
-   7,R,J
+   6,R,J
+   1,J
   18,R,D,X
-   5,R,D
-   4,R
-   5,R,D
-   2,R,D,J
-   5,R
-   2,R,J
-   1,R
-   2,R,J
-   9,R,D,X
-   3,R,J,G
+   6,R
+   3,R,D,J
+  11,R,U,X
    1,R,K,G
-   1,K
-  14,R,K
-   4,R,J,G
-  15,R
-   1,R
+   5
+  17,R,D
+   4,R,D
+  10,R,J
+   1,L,J
+   7,K,G
+   2
+   1,R,J,G
+   7,R
    1,R,K
-  16,R
+  18,R
+   1
    6,R,D,X
   27,R,U
-  88,F,76
+  58,F,78
+  34,F,75
   14,R,X
   44,R
   15,R,X
@@ -2996,8 +2976,8 @@ AnalogMode Ignore
    2,L,J
    4,J
    5,R,J
-  20,R
-  74
+  24,R
+  70
    4,Z
    1,R,J
    1,R,K,G
@@ -3012,11 +2992,13 @@ repeat 3
    1,R,J
   14,R
 endrepeat
+   4,R,J
+   5,R
    2,R,J
-  15,R
-  18,R,J
-  65,R,D
-   6,D
+  11,R
+  20,R,J
+  66,R,D
+   5,D
   14,R,D,X
    1,R,J
    3,R
@@ -3028,14 +3010,17 @@ endrepeat
   40
 
 #lvl_center-12
-   8,R
+
+   6,R
+   2,R,J
+   1,R
    1,R,J
    6,R
    4,R,K
-   4,R,J,G
-   5,R
+   7,R,J,G
+   2,R
    4,X
-   5,R,D,X
+   6,R,D,X
   19,R,J
   12,R,D,X
   10,R,J
@@ -3044,8 +3029,8 @@ endrepeat
   10,R,X
    4,R,J
   15,R
-   5,K
-   6,R,K
+   4,K
+   7,R,K
    2,K
    1,J
    1,R,J
@@ -3149,4 +3134,4 @@ EndRepeat
   31,L,D
   54,R,J
 
-ChapterTime: 7:42.876(27228)
+ChapterTime: 7:40.836(27108)
