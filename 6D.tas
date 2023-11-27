@@ -1,4 +1,4 @@
-RecordCount: 17873
+RecordCount: 18108
 
 #original draft by dahlukeh and gnommis
 #significant rewrites and timesave
@@ -1421,7 +1421,7 @@ AnalogMode Ignore
   26,R
   12,R,D,X
    6
-#spinner cycle
+#boss-03 spinner cycle
    0
 #
   10,R,D,C
@@ -2248,15 +2248,13 @@ AnalogMode Ignore
   40
 
 #lvl_boss-13
-  13,R,D
-   4,L
-   2,R,D
-  15,R,U,Z
-  14,L
-   1
-   1,L
+   1,L,D
+   6,R,D
+  12,R
+  14,R,U,Z
   17,R
-  22,R,D,X
+  15,R,D,X
+   8,R
   65,D
   10,L,D
    3,L,D
@@ -2327,40 +2325,49 @@ AnalogMode Ignore
    4,D,X
   11,R,X
   16,R
-  17,R,D
-   4,D
-   4,L,D
-   1,L,J
-  35,D
-  19,L,D
-  15,R,D,X
-   3,R,D
-  18,L,D
+  16,R,D
+   2,D
+  28,L,D
+   2,R,D
+  24,R
+  12,R,D
+   8,L,D
   40
 
 #lvl_boss-15
-  15,L,D
-  15,R,D,X
-   8,L,D
+   2,L,D
+   4,L
+   3,L,D
+   3,L
+   1,L,D
    1,L
+   1,L,D
+   1,L
+  15,R,D,X
+   9,L,D
   14,L,X
    1,L,J,G
    2,R,J
    1,R
-   1,L,J,G
+   1,L,K,G
    7,L
-   6,L,Z
+   7,L,D,X
    1,R,J
-   7,R
-  10,R,D,J
-   1,L,J
-   1,K
-   4,L,J,G
-   8,R,J
-   1,K,G
-   2,L,K,G
-  21,R,J,G
-  13,R,D
+   1
+   5,R
+   8,R,D,K
+   3,R
+   1,L
+   1,J
+  11,K,G
+   1,R,K
+   1,R,J,G
+   3,L,J
+   1,R,J
+   1,R,K,G
+   1,R,J,G
+   2,R,K,G
+  16,R
   15,R,Z
   15,D
   19,R,D
@@ -2486,6 +2493,9 @@ AnalogMode Ignore
    6,R
   13,R,U,X
   24
+#center-01 spinner cycle
+   2
+#
    1,J
    1,K
   18,L,K
@@ -3097,4 +3107,4 @@ EndRepeat
   31,L,D
   54,R,J
 
-ChapterTime: 7:36.535(26855)
+ChapterTime: 7:35.821(26813)
