@@ -1,4 +1,4 @@
-RecordCount: 18531
+RecordCount: 18565
 
 #original draft by dahlukeh and gnommis
 #significant rewrites and timesave
@@ -1686,23 +1686,20 @@ EndStunPause
   27,R,U
    9,F,35
   10,F,48
-  14,F,62
+   8,F,62
+  10
   14,R,X
   37,R
   13,R,X
   17,R
-  19,R,U,X
-  10
+  29,R,U,X
   17,R
-  15,U,X
-   3
-  10,R
-  17,R
-  19,R,D,X
+  15,R,D,X
   14,R
-  18,R,U,C
-  18,R,Z
-  15,R,C
+   4,R,D
+  18,R,U,X
+  19,R,C
+  16,R,X
   44,R
   15,R,X
   18,R
@@ -3101,4 +3098,4 @@ EndRepeat
   31,L,D
   54,R,J
 
-ChapterTime: 7:33.883(26699)
+ChapterTime: 7:33.373(26669)
