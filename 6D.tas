@@ -1,4 +1,4 @@
-RecordCount: 18886
+RecordCount: 19017
 
 #original draft by dahlukeh and gnommis
 #significant rewrites and timesave
@@ -1947,24 +1947,17 @@ EndStunPause
   17,L
   57,D
    1,L,D
-  10,D
-   9,R
-   5,R,D
-   1,R
-  29,R,X
+   4,D
    1
-   1,R
-   1
-   1,J,G
-   2
-   2,R
-   1
-   2,R
-   4,Z
+   2,D
+   4
+  18,R
+  31,R,X
+   5,L,D,C
    1,R,J
-   6,R
+   7,R
   12,R,D,J
-  46,R
+  45,L
   53,R,X
    1,J,G
    1,L,J
@@ -2479,7 +2472,7 @@ AnalogMode Ignore
   13,R,U,X
   24
 #center-01 spinner cycle
-   0
+   1
 #
    1,J
    1,K
@@ -3068,4 +3061,4 @@ EndRepeat
   31,L,D
   54,R,J
 
-ChapterTime: 7:31.027(26531)
+ChapterTime: 7:30.976(26528)
