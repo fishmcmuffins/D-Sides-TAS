@@ -1,4 +1,4 @@
-RecordCount: 19231
+RecordCount: 19518
 
 #original draft by dahlukeh and gnommis
 #significant rewrites and timesave
@@ -397,20 +397,24 @@ AnalogMode Precise
 #lvl_a-09
   10,R,U,X
   18,R
-  40,R,U,X
+  19,R,U,X
+   1
+  20,R
    6,R,J
    5,R
-  18,R,J
-   1,R,K
-  14,R,Z
-   1,L,J
-   6,L,D,X
-  30,D
-   5,L,D
+  10,R,K
+   5,R
+   1
+   1,R
+   1
+  15,R,D,X
+   6,L,D,C
+  30
+   5,L
    1,J
-   3,R,D
-   7,D
-   4,L,D
+   3,R
+   7
+   4,L
    1,L
    5,L,Z
    1,R,J
@@ -425,7 +429,7 @@ AnalogMode Precise
    1,R
    2,R,J,G
    7,R
-   4,R,D,X
+   4,Z
    1,R,J
    6,R
    2,R,D,J
@@ -433,9 +437,9 @@ AnalogMode Precise
   40
 
 #lvl_a-10
-   5,R
-  10
-   2,D
+   3,R,K
+   6,R
+   7,D
   13,L,D,X
    4,L,K,G
    1,K
@@ -443,9 +447,9 @@ AnalogMode Precise
    5,K
    6
    1,R,J
-   2,R
-   4,R,D
-   7,D
+   1,R
+   5,R
+   7
    1,L,D
    1,R,D
    1,L,D
@@ -453,56 +457,59 @@ AnalogMode Precise
    1,L,D
    1,R,D
    1,L,D
-   1
-   2,D
-   1,L,G
-  12,D,G
-  26,U,G
+   4,D
+   1,G
+  30,D,G
    2
    1,L,K,G
-   1,L,J,G
-  22,R,J
-  13,R
-   1,R,D
-   1,R
-   3,R,D
-  14,R,U,X
-   2,R,J,G
+   1,J,G
    2
-   5,R
-   1,R,D,J
-   8,R,U,X
-   3,R,J,G
+   9,R,K,G
+   5,K
+   6,R,K
+   1,R
+   1,R,K
+  14,R,U,X
+   1,R,J,G
    1,J
-   2,R,J
-   2,R,K,G
+   1,R,J
+   7,R
+  12,R,U,X
+   1,R,K,G
+   1,K
   40
 
 #lvl_a-11
-   2,K
-   6,R,K
-   9,R,J,G
-  19,R
-   2
-   4,D
-   7
-  41,R,D
-  16,R,Z
-   6
+   5,R,K
+   1,R,J,G
+   1,J
+   2,R,J
+   7,R
+   1,R,K
+   1,R
+   2,R,K
+   5,R
+   1
+  15,R,Z
+   4
+   1,R
   52,R,D
-   2,D
+   4,R
   15,R,X
-   6
+   1
+   3,R
+   1
    1,R
    7
-  38,R
-  11,R,U,X
-  17,R
-  11,R,U,X
+  39,R
+  11,R,U,Z
+  17,L
+  12,R,U,X
    2,R,J,G
    7,R
    4,Z
-   4,R,J
+   2,R,J
+   2,R
    5,R,K,G
    4,R
   40
@@ -1149,7 +1156,7 @@ endrepeat
    5,R,K,G
   40
 
-#lvl_b-11 (1)
+#lvl_b-11 (0)
    3,R,K
   15,R,D,X
    2,R,J
@@ -1187,7 +1194,7 @@ endrepeat
    1,L,J
   43
 
-#lvl_b-11 (2)
+#lvl_b-11 (1)
    6,L
   15,L,D,X
    5,L
@@ -3058,4 +3065,4 @@ EndRepeat
   31,L,D
   54,R,J
 
-ChapterTime: 7:30.670(26510)
+ChapterTime: 7:29.242(26426)
