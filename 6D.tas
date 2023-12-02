@@ -1,4 +1,4 @@
-RecordCount: 19522
+RecordCount: 19581
 
 #by aqmlyn and Lmjacks
 #previous versions by
@@ -1411,15 +1411,14 @@ AnalogMode Square
 AnalogMode Ignore
    2,F,16
    5,F,45
-  35,F,86.37
-   8,F,73.6
-   1
+  40,F,82.9
+   3,F,70
    5,U,X
-  26,R
-  12,R,D,X
-   6
+  25,R
+  13,R,D,X
+   5
 #boss-03 spinner cycle
-   1
+   0
 #
   10,R,D,C
    4,R,J
@@ -1574,24 +1573,22 @@ EndStunPause
    9
   15,R,Z
   18,D
-  11,R,D
-   1,D
-  16,R,Z
-   1,J
-   1,R
-   2
-  17,R
-  15,R,Z
-  12,R
-  30,R,U,X
+   3,R,D
+   4,R
+   1
+  21,R
+  31,R,U,X
+  28,R,Z
+  28,R,U,X
   25,R,U,Z
    2,R,J,G
-   3,L,J
-   1,L
-   2,R,K,G
+   4,L,J
+   1,R,K,G
+   1,R,K,G
    7,R
   12,R,X
-   6,R,J
+   5,R,J
+   1
    9,R,Z
    3,R,J
   40
@@ -2475,7 +2472,7 @@ AnalogMode Ignore
   13,R,U,X
   24
 #center-01 spinner cycle
-   0
+   2
 #
    1,J
    1,K
@@ -3057,4 +3054,4 @@ EndRepeat
   31,L,D
   54,R,J
 
-ChapterTime: 7:29.021(26413)
+ChapterTime: 7:29.174(26422)
