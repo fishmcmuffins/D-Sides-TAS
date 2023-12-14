@@ -60,22 +60,9 @@ EndStunPause
   40
 
 #lvl_e-01
-Read,9DS_07,lvl_e-00,lvl_e-05
+Read,9DS_07,lvl_e-00,Time
 
-#lvl_e-05
-   7,R,K,G
-  33,R
-  27,R,U,X
-  10
-   4,Z
-   7,R,J
-   1,R,K,G
-   2,R
+#Time
+MidwayFileTime: 0:34.714(2042)
 
-#Original 9DS:
-#0:52.819(3107)
-
-#w/ Platinum:
-#0:34.697(2041)
-
-  40
+Read,9DS_07,Time
