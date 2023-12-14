@@ -1,14 +1,8 @@
 #By med and euni
 
-#0M
 console load nameguysdsidespack/0/10-Farewell j-00
-
-#500M
-#console load nameguysdsidespack/0/10-Farewell 102480 -15536
-#play,Section 500M
    1
 
-#Section 0M
 #lvl_j-00
   36
 #Start
@@ -314,7 +308,8 @@ console load nameguysdsidespack/0/10-Farewell j-00
   11,L
   14,U,X
  183
-#0:44.166(2598)
+#Time
+MidwayFileTime: 0:44.778(2634)
   40
 
 #k-01
