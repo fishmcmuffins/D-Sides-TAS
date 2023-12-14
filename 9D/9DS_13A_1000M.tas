@@ -1,4 +1,4 @@
-RecordCount: 574
+RecordCount: 575
 
 console load nameguysdsidespack/0/10-Farewell 109280 -18296
    1
@@ -7,23 +7,9 @@ console load nameguysdsidespack/0/10-Farewell 109280 -18296
   36
 
 #Start
-Read,9D_13A,Start,lvl_l-02
+Read,9D_13A,Start,route_l-03b
 
-#lvl_l-02
-   7,R,U,Z
-  15,R,X
-   8,L,J
-   1,R,J
-   1,L,K
-   3,R,K
-  11,R,J
-  18,L,U,X
-   6,L,J
-   1,L,K
-   2,L,J,G
-   3,J
-   1,L,J
-   1,J
+#route_l-03b
   36,U,X
   24,L
   15,U,Z
@@ -230,9 +216,6 @@ play,lvl_l-05
    5,L,J
    3,J
   56
-
-
-
    1,K
   14
    6,L,D,J
@@ -276,11 +259,9 @@ play,lvl_l-05
   40
 
 #lvl_l-06
-Read,9D_13A,lvl_l-06
+Read,9D_13A,lvl_l-06,Time
 
-#original
-#1:05.365(3845)
+#Time
+MidwayFileTime: 1:19.645(4685)
 
-#key +2
-#1:19.543(4679)
-#+834f
+Read,9D_13A,Time
