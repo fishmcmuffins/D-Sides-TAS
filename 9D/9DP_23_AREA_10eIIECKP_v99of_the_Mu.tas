@@ -1,6 +1,6 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
-RecordCount: 14389
+RecordCount: 14514
 console load nameguysdsidespack/0/10-Farewell 213185 -52448
    1
 
@@ -222,68 +222,46 @@ Read,9D_23,Right-Up.1,Right.2
 Read,9D_23,Right-Up.3,Up.Key
 
 #Up.Key
-  11,L,J
-   4,L
-   8,U,X
+   1,L,J
    1,R,J
-   9,L,J
-   2,R,J
-   3,J
-   1,K,G
-  11,G
-  25,U,G
-   5,J,G
+  16,J
+  15,U,X
+   4,K,G
+  10
+   6,G
+  18,U,G
+   4,J,G
   15,R,Z
-  14,L,D,X
+   2
+   8,L,Z
+   1,L,J
+   1,L
+   1,R,K
    1,R,J
-   1,J
-  15,D,X
-   3,R
-   5
+   1,R,K
+   1,R,J
+   2,D
+   2
+   1,D
+   3
+  31,U,G
+  15,U,Z
    1,R
-   1
-   1,R
-  73
 #keycycle_up-key
-  19
+  61
 #endkeycycle_up-key
-   5,R
-   1
-   9,U,Z
-   9,R,J
-   7,U,X
+   7,L,D,X
+   1,R,J
+   3,R
+   1,R,D,K
+   3,K
+   8,U,X
   40
 
 #lvl_y-999999999
-Read,9D_23,lvl_y-999999999,lvl_y-end
-
-#lvl_y-end
-   5,R,X
-  11,R,J
-   8,R
-   9,L,J
-  15,D,X
-  23,D
-   8,R,Z
-   1,L,J
-   7,L
-   3,L,J
-  15,L,D,X
-   2,L,J
-   7,L,U,X
-  10,L,K,G
-  12,L,J,G
-   4,K
-   8,L
-   1,R
-repeat 33
-   2,D
-   1,R
-endrepeat
-   1
-
-#lvl_void (2)
-Read,9D_23,lvl_void (2),lvl_v-00-upperer-b
+Read,9D_23,lvl_y-999999999,collect
+   9,U
+Read,9D_23,collect,lvl_v-00-upperer-b
 
 #lvl_v-00-upperer-b
    6,R,D,X
@@ -339,18 +317,7 @@ Read,9D_23,lvl_void (2),lvl_v-00-upperer-b
   43
 
 #lvl_w-00-point-of-no-return
-   4,R
-  10,R,Z
-  10,R,J
-   4,J
-  14,U,X
-  18,L,J
-   5,L,K,G
-   7,L
-  13,L,X
-   1,R,J
-   1,R
-  15,D,C
-   6
+Read,9DP_22,lvl_w-00-point-of-no-return,Time
 
-#4:19.658(15274)
+#Time
+MidwayFileTime: 4:17.278(15134)
