@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 5761
+RecordCount: 5763
 
 console load nameguysdsidespack/0/10-Farewell 196528 -48208
    1
@@ -107,77 +107,17 @@ Set,Session.Inventory.Dashes,2
    4,R
   15,D,X
    1,R
-   9,R,Z
-   4,R,J,G
+   9,R,X
+   1,R,J,G
    9,R
+   1,R,K
+   1,K
   40
 
 #lvl_u-03
-Read,9D_21,lvl_u-03,lvl_u-10
+Read,9D_21,lvl_u-03,Time
 
-#lvl_u-10
-   3
-   8,R
-  15,U,X
-   7,R,Z
-   1,R,J
-   4,R
-   2,R,J
-   1,R
-   1,R,J
-   7,R,D
-   6,R,K
-   5,R
-   3,R,K
-  12,R
-  15,R,U,X
-  11,R,C
-  11,J
-   1,R,J
-   1,J
-   1,R,J
-  18,R,Z
-   1,R,K
-   4,R
-  12,R,U,Z
-  12
-   5,J
-  19,U,X
-   2,J
-   1
-   1,J,G
-   7,L,D
-   4,Z
-   1,L,J
-   7,L
-   3,L,K
-   6,L
-   1,L,J
-  14,L,U,Z
-   2,K
-   6,L,Z
-   8,L,J
-   4,L
-   6,L,D,K
-   1
-   2,L
-   8,U,Z
-   9,J
-   1,R,K
-  15,U,X
-  10,J
-   8,L,J
-   8,L,K,G
-   7,L
-  10,L,X
-  22,R,J
-  20,R,U,X
-  15,U,C
- 465
+#Time
+MidwayFileTime: 1:22.705(4865)
 
-#1:23.453(4909)
-
-  40
-
-#lvl_v-00-lobby
-  57
+Read,9D_21,Time
