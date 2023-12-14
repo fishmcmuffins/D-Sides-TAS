@@ -254,144 +254,9 @@ Read,9D_14B,lvl_o-07 (2),lvl_o-11
   56
 
 #lvl_o-13
-Read,9D_14B,lvl_o-13,lvl_o-14
+Read,9D_14B,lvl_o-13,route_p-01_key
 
-#lvl_o-14
-   6,L,J
-   3,L
-   1,L,K,G
-   1,L
-  10,L,Z
-  14,L,J
-   2,L
-   1,G
-  12,K,G
-   1,K,G
-   5,J,G
-   3,R,J
-   4,J
-   7
-   1,G
-   6,L,K
-   7,U,X
-  54,R,J
-   3,R,D
-   1,R,K,G
-   1,R,J,G
-   9,R
-  21,R,K
-   7,R
-  12,R,J
-  13,R,U,X
-   1,K
-  11,L,K
-  31,L
-   2
-   2,R,J
-   1,R
-   1,L
-   3
-   1,J
-  10
-   2,L
-   6,G
-   1,U,G
-   1
-   1,L,K,G
-   1,L,J,G
-   1,L,K,G
-  28,L,J,G
-  15,U,X
-  10,R
-  39
-   5,R,Z
-  15,R,J
-  17,R,X
-  19,R,U,Z
-  13,U,X
-   2,R,J
-  15,U,Z
-   3,K
-   1,J
-   1,K,G
-   7,L
-   4,Z
-   6,L,J
-  39,L,X
-  11,U,C
-  14,J
-  14,U,X
-  12,J
-  30,R,X
-   1,G
-  18,D
-   1,L
-   2,D
-   1,J
-   1,K
-   9,R,K
-   5,R
-   1,J
-   8,L,K,G
-   1,R,K
-   1,K
-   1,R
-   1
-   1,J
-   9,K
-   5,R,K
-   1,R,J,G
-   4,R,K,G
-   7,R
-   2,R,K
-   8,R
-  15,U,X
-   2,R
-  25,L,J
-  12,K,G
-   5,J,G
-   2,L,J
-   5,U,X
-  16,R,K
-  15,U,X
-  20,L
- 134
-  15,L,D,X
-  10,D
-   1,J
-  14,R
-  13,R,Z
-  12,R,K,G
-   5,R
-   4,R,K
-  15,L,U,Z
-  12,J
-   6,K
-   1,J
-   1,K
-   7,L
-   2,L,J
-  10,L,X
-   5,K
-   3,L,K
-  15,U,X
-  26,L,D
-   7,L,J
-  15,U,X
-  21,L,D
-   6,L
-   3,L,J
-  15,U,X
-   8,L,D
-   1,R
-   1
-   1,R
-   7,L,D
-   1,D
-   4,L,D
-   9,L,K
-  14,U,Z
-   4,J
+#route_p-01_key
   67,R,X
    7,U,C
   14,J
@@ -426,12 +291,6 @@ Read,9D_14B,lvl_o-13,lvl_o-14
    1,L,J,G
    2,R,J
    1,K
-
-#original
-#2:24.687(8511)
-
-#key +3 (almost)
-#2:42.401(9553)
-#+1042f
-
+#Time
+MidwayFileTime: 2:43.013(9589)
   40
