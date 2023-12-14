@@ -1,4 +1,4 @@
-RecordCount: 3174
+RecordCount: 2444
 
 console load nameguysdsidespack/0/10-Farewell 102480 -15536
    1
@@ -6,6 +6,7 @@ console load nameguysdsidespack/0/10-Farewell 102480 -15536
 #lvl_k-01
   36
 #Start
+***S
    2,R,J
    2,R
   24,R,U,X
@@ -17,6 +18,7 @@ console load nameguysdsidespack/0/10-Farewell 102480 -15536
    1,R
    1,R,J
    2,R
+#endroute_k-01b
    9,R,D,K
    2,R,J,G
   15,R
@@ -265,6 +267,7 @@ console load nameguysdsidespack/0/10-Farewell 102480 -15536
 #lvl_k-08
    3,R
   13,U,Z
+#endroute_k-07b
    3,R,J
    1,G
    7
@@ -471,7 +474,8 @@ console load nameguysdsidespack/0/10-Farewell 102480 -15536
   15,U,X
   15,U,C
  135
-#0:54.043(3179)
+#Time
+MidwayFileTime: 0:54.655(3215)
   40
 
 #lvl_l-01
