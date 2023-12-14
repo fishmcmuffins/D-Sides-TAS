@@ -1,4 +1,4 @@
-RecordCount: 1616
+RecordCount: 975
 
 console load nameguysdsidespack/0/10-Farewell 109280 -18296
    1
@@ -57,6 +57,7 @@ console givekey
    3,J
    1,L,J
    1,J
+#route_l-03b
   36,U,X
   24,L
   15,U,Z
@@ -480,5 +481,6 @@ endrepeat
   51
   19,U,X
  253
-#1:04.872(3816)
+#Time
+MidwayFileTime: 1:05.484(3852)
   40
