@@ -262,12 +262,7 @@ EndStunPause
    7,R
    6,R,K
   11,U,X
-
-#Original:
-#1:46.386(6258)
-
-#Platinum: (time lost can
-#only be measured in creation)
-#1:59.034(7002)
+#Time
+MidwayFileTime: 1:58.881(6993)
 
 AnalogMode,Ignore
