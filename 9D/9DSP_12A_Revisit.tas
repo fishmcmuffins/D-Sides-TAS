@@ -110,54 +110,11 @@ Read,9DS_12A,lvl_j-02 (2),hazardcycle_j-07
 #hazardcycle_j-07
    2
 #endhazardcycle_j-07
-Read,9DS_12A,endhazardcycle_j-07,lvl_j-10
+Read,9DS_12A,endhazardcycle_j-07,Time
 
-#lvl_j-10
-   5,R,J
-   9,R
-  14,R,U,Z
-  39,R
-  10,R,X
-  36,L
-  15,L,U,Z
-  41,R
-  18,R,X
-   4
-  14,R
-  15,R,Z
-   8,R
-  15,R,U,X
-   6,R
-  37
-   6,L
-   3
-  10,R,U,X
-  26,L
-  15,L,X
-   4,L
-  37
-  10,L
-  29,L,X
-  22,R
-  18,R,U,X
-  18,R,U,C
-  30
-  16,R
-  16,L,U,X
-  30
-  11,L
-  14,U,X
- 183
+#Time
+MidwayFileTime: 1:14.154(4362)
 
-#Original 9DS:
-#1:12.675(4275)
-
-#w/ Platinum:
-#1:13.559(4327)
-
-  40
-
-#lvl_k-01
-  73
+Read,9DS_12A,Time
 
 AnalogMode,Ignore
