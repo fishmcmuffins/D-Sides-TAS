@@ -182,7 +182,7 @@ Read,9D_09,Start,lvl_g-01
 #lvl_g-04
 Read,9D_09,lvl_g-04,hazardcycle_g-06
 #hazardcycle_g-06
-   2
+   0
 #endhazardcycle_g-06
 Read,9D_09,endhazardcycle_g-06,stun_g-06
 #stun_g-06
@@ -214,7 +214,7 @@ EndStunPause
 #stun_h-01
    2,R,J
 StunPause
-  11,R,J
+  12,R,J
 EndStunPause
 #endstun_h-01
 Read,9D_09,endstun_h-01,hazardcycle_h-03
@@ -230,5 +230,9 @@ EndStunPause
    7,R,D,K
   13,R,D,X
 #endstun_h-03
-Read,9D_09,endstun_h-03
-#1:38.243(5779)
+Read,9D_09,endstun_h-03,Time
+
+#Time
+MidwayFileTime: 1:38.702(5806)
+
+Read,9D_09,Time
