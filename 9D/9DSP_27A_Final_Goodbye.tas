@@ -638,13 +638,12 @@ EndStunPause
   43
 
 #lvl_xx-10-true-final-goodbye
-Read,9DP_27A,lvl_xx-10-true-final-goodbye,lvl_end-platinum
+Read,9D_27,lvl_xx-10-true-final-goodbye,route_end-platinum
 
-#Original (time when cutscene is skipped)
-#4:17.805(15165)
+#Time
+MidwayFileTime: 4:17.159(15127)
 
-#Platinum + MB: +21f
-#4:18.162(15186)
+Read,9D_27,route_end-platinum,lvl_end-granny
 
 #lvl_end-platinum
   89
