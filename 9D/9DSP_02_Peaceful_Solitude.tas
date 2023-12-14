@@ -243,10 +243,9 @@ EndStunPause
   43
 
 #lvl_aa-04
-Read,9D_02,lvl_aa-04
+Read,9D_02,lvl_aa-04,Time
 
-#Original 9DS_02:
-#0:46.597(2741)
+#Time
+MidwayFileTime: 0:47.753(2809)
 
-#w/ Platinum: +72f
-#0:47.821(2813)
+Read,9D_02,Time
