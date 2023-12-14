@@ -221,11 +221,6 @@ Read,9D_04,endhazardcycle_cc-07,hazardcycle_d-03
    1,R
   25,R,Z
   16,R,V
-
-#Original 9DP:
-#0:53.839(3167)
-
-#with 9DS changes: +72f
-#0:55.063(3239)
-
+#Time
+MidwayFileTime: 0:55.675(3275)
   40
