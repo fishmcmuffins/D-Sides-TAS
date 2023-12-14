@@ -201,7 +201,7 @@ Read,9D_14B,Start,lvl_o-11
    2
 
 #lvl_o-13
-Read,9D_14B,lvl_o-13,lvl_o-14
+Read,9DS_14B,lvl_o-13,Time
 
 #lvl_o-14
    6,L,J
