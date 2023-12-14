@@ -90,17 +90,6 @@ console load nameguysdsidespack/0/10-Farewell e-05 1
   40
 
 #lvl_f-02
-Read,9D_08,lvl_f-02,lvl_f-16
-
-#lvl_f-16
-  12,L
-   6,L,J,G
-   4,D,X
-   6,L,X
-   6,L,J
-   1,R,K,G
-  14,U,X
-   1,R,J
-   1,R,K,G
-  10
-#1:40.674(5922)
+Read,9D_08,lvl_f-02,Time
+#Time
+MidwayFileTime: 1:41.252(5956)
