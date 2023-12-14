@@ -1,11 +1,9 @@
-RecordCount: 565
+RecordCount: 569
 
-#1000M
 console load nameguysdsidespack/0/10-Farewell 109280 -18296
    1
 
-#Section 1000M
-#l-01
+#lvl_l-01
   36
 
 #Start
@@ -42,26 +40,44 @@ console load nameguysdsidespack/0/10-Farewell 109280 -18296
    3,R
   18,R,Z
    4,R,J
-   1,R,K
-  20,R,U,X
-   8,L,J,G
-   2,R,K,G
-  16,R,X
+  29,R,U,X
+  16,R,C
    4,R,J
    5,R,K
-   1,R,J,G
-   4,R
-   8,R,U,Z
+   2,R,J,G
+   1,R
+  11,R,U,Z
   40
 
 #lvl_l-02
-Read,9DS_13A,lvl_l-02,lvl_l-03b
+   2,R,U,Z
+   1,L
+   1,J,G
+   3
+  13,R,Z
+   8,L,J
+   1,R,J
+   1,L,K
+   3,R,K
+  12,R,J
+  18,L,U,X
+   6,L,J
+   1,L,K
+   2,L,J,G
+   3,J
+   1,L,J
+   1,J
+#route_l-03b
+Read,9DS_13A,route_l-03b,lvl_l-03b
 
 #lvl_l-03b
 Read,9DSP_13A,lvl_l-03b,keycycle_l-04
 #keycycle_l-04
   33
 #endkeycycle_l-04
-Read,9D_13A,endkeycycle_l-04
+Read,9D_13A,endkeycycle_l-04,Time
 
-#1:13.066(4298)
+#Time
+MidwayFileTime: 1:13.168(4304)
+
+Read,9D_13A,Time
