@@ -8,7 +8,6 @@ Set,Player.StateMachine.State,10
   40
 
 #lvl_m-13
-Set,Level.TimerStarted,true
 #Start
   72
    5,R
@@ -1040,7 +1039,8 @@ EndStunPause
   15,U,X
    3,L
   17,R,K
-#2:14.997(7941)
+#Time
+MidwayFileTime: 2:16.306(8018)
   40
 
 AnalogMode,Ignore
