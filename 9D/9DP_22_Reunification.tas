@@ -118,9 +118,5 @@ Read,9D_22,endkeycycle_v-00-upper,lvl_v-00-upperer-b
    1,R
   15,D,C
    6
-
-#Original:
-#0:34.952(2056)
-
-#Platinum: +80f
-#0:36.312(2136)
+#Time
+MidwayFileTime: 0:36.924(2172)
