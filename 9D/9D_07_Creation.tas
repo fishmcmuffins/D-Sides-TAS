@@ -24,6 +24,7 @@ console load nameguysdsidespack/0/10-Farewell dd-04
    7,R
    6,R,K
   12,U,X
+#endroute_d-19
   34,L,U,C
    2
    1,J
@@ -100,6 +101,7 @@ EndStunPause
    3,R,X
    6,D,C
    7,L,X
+#endroute_e-00
   15,R,Z
   15,R,X
   17,R,D
@@ -284,5 +286,6 @@ EndStunPause
    7,R,J
    1,R,K,G
    2,R
-#0:33.592(1976)
+#Time
+MidwayFileTime: 0:34.204(2012)
   40
