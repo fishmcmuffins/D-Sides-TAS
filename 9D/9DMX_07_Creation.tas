@@ -38,20 +38,9 @@ SkipInput 3 1
    6,K,G
 EndStunPause
 #endstun_dd-00-lobby
-Read,9DSP_07,endstun_dd-00-lobby,lvl_e-05
+Read,9DSP_07,endstun_dd-00-lobby,Time
 
-#lvl_e-05
-   7,R,K,G
-  33,R
-  27,R,U,X
-  10
-   4,Z
-   8,R,J
-   1,L
-   6,R
-   1,R,J
-   2,R
+#Time
+MidwayFileTime: 0:34.714(2042)
 
-#0:34.833(2049)
-
-  40
+Read,9DSP_07,Time
