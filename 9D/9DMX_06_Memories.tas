@@ -73,6 +73,9 @@ StunPause
 EndStunPause
    2,R
 #endstun_d-19
-Read,9DSP_06,endstun_d-19
+Read,9DSP_06,endstun_d-19,Time
 
-#2:08.231(7543)
+#Time
+MidwayFileTime: 2:08.843(7579)
+
+Read,9DSP_06,Time
