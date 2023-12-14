@@ -54,10 +54,9 @@ console load nameguysdsidespack/0/10-Farewell
   40
 
 #lvl_a-00
-Read,9D_01,lvl_a-00
+Read,9D_01,lvl_a-00,Time
 
-#Original:
-#0:45.135(2655)
+#Time
+MidwayFileTime: 0:47.889(2817)
 
-#plat: +124f
-#0:47.243(2779)
+Read,9D_01,Time
