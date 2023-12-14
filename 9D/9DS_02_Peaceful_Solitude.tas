@@ -247,11 +247,9 @@ EndStunPause
   43
 
 #lvl_aa-04
-Read,9D_02,lvl_aa-04
+Read,9D_02,lvl_aa-04,Time
 
-#original
-#0:25.432(1496)
+#Time
+MidwayFileTime: 0:46.529(2737)
 
-#keys +3
-#0:46.597(2741)
-#+1245f
+Read,9D_02,Time
