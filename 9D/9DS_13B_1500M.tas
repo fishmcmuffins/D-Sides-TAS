@@ -89,11 +89,12 @@ Read,9D_13B,lvl_m-04,lvl_m-08
    9,R,X
    9,R,C
    9,R,X
+***
 #hazardcycle_m-08s
 #comment out next 2 lines
 #to access stunless route
-   2
-play,endhazardcycle_m-08s
+#   2
+#play,endhazardcycle_m-08s
 
 #====================
 
@@ -168,6 +169,7 @@ play,endhazardcycle_m-08s
   10,D,X
   40
 #endstunless_m-08s
+play,lvl_m-08 (2)
 
 #====================
 
@@ -268,6 +270,9 @@ EndStunPause
   40
 
 #lvl_m-09
-Read,9D_13B,lvl_m-09
+Read,9D_13B,lvl_m-09,Time
 
-#1:32.157(5421)
+#Time
+MidwayFileTime: 1:32.327(5431)
+
+Read,9D_13B,Time
