@@ -611,11 +611,11 @@ EndStunPause
   43
 
 #lvl_xx-10-true-final-goodbye
-Read,9DP_27A,lvl_xx-10-true-final-goodbye,lvl_end-platinum
+Read,9DP_27A,lvl_xx-10-true-final-goodbye,Time
 
-#4:20.372(15316)
+#Time
+MidwayFileTime: 4:19.369(15257)
 
-#lvl_end-platinum
-  89
+Read,9DP_27A,Time
 
 AnalogMode,Ignore
