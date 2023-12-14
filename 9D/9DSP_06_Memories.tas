@@ -61,7 +61,6 @@ EndStunPause
 #endstun_d-19
 Read,9DP_06,endstun_d-19,lvl_dd-00-lobby
 
-
 #lvl_dd-00-lobby
    1,R,U,Z
    1,L
@@ -109,11 +108,7 @@ Read,9DP_06,endstun_d-19,lvl_dd-00-lobby
    5,R,J,G
    7,R
   10,R,Z
-
-#Original Platinum:
-#1:59.034(7002)
-
-#Platinum + 1 key + different end point:
-#2:07.007(7471)
+#Time
+MidwayFileTime: 2:07.619(7507)
 
 AnalogMode,Ignore
