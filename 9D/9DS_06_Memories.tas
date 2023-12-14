@@ -195,33 +195,11 @@ Read,9D_06,endstun_d-10_2,lvl_d-12
   43
 
 #lvl_d-14
-Read,9D_06,lvl_d-14,lvl_d-19
+Read,9D_06,lvl_d-14,Time
 
-#lvl_d-19
-   1,R
-   1,R,J
-   5,R,D,K
-   1,R
-   3,R,J,G
-   8,R,U,X
-   1,R,K,G
-  10,R
-  14,R,J
-  14,R,X
-  11,L,J
-  14,U,X
-  15,U,C
-   7,R,U,X
+#Time
+MidwayFileTime: 1:51.996(6588)
 
-#original
-#1:46.386(6258)
-
-#key+1
-#1:52.149(6597)
-#+339f
-
-  40
-   1
-  72,O
+Read,9D_06,Time
 
 AnalogMode,Ignore
