@@ -955,7 +955,8 @@ AnalogMode,Precise
   12,R,K,G
   12,R,J,G
   13,R,K,G
-#2:02.808(7224)
+#Time
+MidwayFileTime: 2:03.420(7260)
   40
 
 AnalogMode Ignore
