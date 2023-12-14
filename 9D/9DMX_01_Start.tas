@@ -75,6 +75,9 @@ Read,9DP_01,a-00-intro,lvl_a-00
   40
 
 #lvl_a-02
-Read,9D_01,lvl_a-02
+Read,9D_01,lvl_a-02,Time
 
-#0:47.668(2804)
+#Time
+MidwayFileTime: 0:48.994(2882)
+
+Read,9D_01,Time
