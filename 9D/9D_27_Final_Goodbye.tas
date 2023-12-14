@@ -1120,6 +1120,7 @@ repeat 68
 endrepeat
    2,R,J
    5,R
+#route_end-platinum
   38
    1,S
    1,D,O
@@ -1160,6 +1161,7 @@ endrepeat
   12,R,J,G
   21,R,X
  135
-#4:23.449(15497)
+#Time
+MidwayFileTime: 4:23.449(15497)
 
 AnalogMode,Ignore
