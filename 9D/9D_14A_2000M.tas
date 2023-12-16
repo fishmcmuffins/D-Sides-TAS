@@ -889,17 +889,22 @@ EndStunPause
   23,J
   15,U,X
    5,R
-   8,R,J
-   1,R
+   7,R,J
+   2,R
    1,K,G
-   1,J
-  17,L
-   4
-   1,L
-   1,K
-  32,L,K
-  33,L,U,Z
+   1,L,K
+   3,L
+  18,R
+   6,R,Z
+   1,L,J
+  27,L,K,G
+   4,K
+   1,L,J,G
+   2
+   1,L,K,G
+   2,K
    3
+   4,R
   10,U,X
   41
   15,L,U,C
@@ -1037,7 +1042,7 @@ EndStunPause
    3,L
   17,R,K
 #Time
-MidwayFileTime: 2:15.694(7982)
+MidwayFileTime: 2:15.371(7963)
   40
 
 AnalogMode,Ignore
