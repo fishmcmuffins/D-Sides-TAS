@@ -268,14 +268,14 @@ AnalogMode,Precise
   15,R,X
   31,R,D
   16,R,Z
-#hazardcycle_n-05
-   1
-#endhazardcycle_n-05
   16,U,C
   18,R,J
   16,U,X
   18,K
    3,J
+#hazardcycle_n-05
+   1
+#endhazardcycle_n-05
    7,R,Z
    5,R,K
    6,R,J,G
@@ -856,33 +856,38 @@ EndStunPause
   14,R,U,Z
    1,R,J,G
    3,L,J
-   6,R,J
-   3,K,G
-   2,R,K
-   1,R
-   1
-   1,R
-  11,R,D,X
    5,R,J
+   1,J
+   1,R,K,G
+   1,K
+   1,R,K
+   2,K
+   2
+   1,R
+  12,R,D,X
+   3,R,J
+   1,J
   15,R,D,X
-   4,R
-  29,R,K
-   9,R,Z
+   1,R,D,K
+   2,K
+   6,R,K
+  15,R,D,X
+   5,R,J
+   5,R,K,G
+   9,R,U,X
   40
 
 #lvl_n-13
-   5,R,Z
-   5,R,J
+   5,R,U,X
+   4,R,J,G
+   1,R
+   1
   12,R,D,X
-   1,R,J
-   1,J
-   4,R,K,G
-   1,K
-   3,R,K
-   5,R,D,X
+   3,R,K,G
+   4,R
    1,R,J,G
-  13,R
-  18,R,K
+  12,R
+  14,R,K
   13,U,X
   15,U,C
    5,L
@@ -1042,7 +1047,7 @@ EndStunPause
    3,L
   17,R,K
 #Time
-MidwayFileTime: 2:15.371(7963)
+MidwayFileTime: 2:15.184(7952)
   40
 
 AnalogMode,Ignore
