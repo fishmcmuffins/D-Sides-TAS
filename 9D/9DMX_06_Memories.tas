@@ -9,20 +9,14 @@ console load nameguysdsidespack/0/10-Farewell 36702 -4968.3
 
 #Start
 #lvl_d-10
-   4,R
-   1,R,K,G
-   8,R
-  11,J
-   1
+   4,R,J
+   1,K,G
+   7,J,G
+   7,L,J
   15,U,X
-   6
-   3,R
-   3
-   2
-   2
+  17
+  21,D
    1
-  20,D
-   2
    1,D
    4,R,Z
 #hazardcycle_d-10_1
@@ -76,6 +70,6 @@ EndStunPause
 Read,9DSP_06,endstun_d-19,Time
 
 #Time
-MidwayFileTime: 2:08.843(7579)
+MidwayFileTime: 2:08.741(7573)
 
 Read,9DSP_06,Time
