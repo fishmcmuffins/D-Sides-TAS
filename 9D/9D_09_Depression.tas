@@ -166,82 +166,86 @@ console load nameguysdsidespack/0/10-Farewell 66964 -10384
 
 #lvl_g-01
    9,R,D,X
-   6,R,J
+   8,R,J
+  12,R
+  14,R,U,X
+   1,R,K,G
+   4,R
+   7
+  14,R,D,X
+   1,R,J
+  13,R,D,X
+   1,R,J,G
+   2,R,K,G
+   4,R,J,G
+   4,R
+  14,R,U,X
+   1,R,J,G
+   2,R,K,G
+   2,R,J,G
    1,R
-   1,R,J
-  11,R
-  15,R,U,X
-   1,R,K,G
-   7,R
-  14,R,Z
-   1,R,J
-   7,R
-  14,R,D,X
-   1,R,K,G
-   2,R,J,G
-   1,R,K,G
-   9,R,J,G
-  13,R,U,X
-   2,R,K,G
-   1,R,J,G
-   2,R,K,G
-   2,R,J,G
-   7,R
-   3,R,K
-   3,K
+   2
+   4,R
+   1,K
+   4,R,K
+   1,R
+   1
    2,R
-  14,R,D,X
+  13,R,D,X
    1,R,J,G
    2,R,K,G
    1,R,J,G
-   7,R,K,G
-   7,R
-   1,R,K
-   3,R
-   5
-   6,D
-   6,R,D
+   2,R,K,G
+   5,K
+   3
+   5,R
+   1
+   9,R
+   2
+   1,D
+   7,R,D
    9,R,U,X
    8,R,J,G
   40
 
 #lvl_g-02
-   9,R,J
+   8,R,J
   17,R,U,X
-   3,R,J,G
-   3,R,K,G
-   8,R,J,G
-   7,R,D,X
-   2,R,K,G
-   5,R
-   2,R,K
-   1
-   5,R,J
-   7,R,D,X
-   1,R,K,G
    2,R,J,G
+   1,R
+   1,R,K,G
+   2,R
+   6,R,J,G
+   2,R
+   1
+   6,R,D,X
+   1,R,K,G
+   4,R
+   1
+   1,R
+   1,R,K
+   1
+   2,R
+   1,R,J
+   9,R,X
+   1,R,K,G
+   1,R,J,G
+   1,R
    1,R,K,G
    1,K
-   1,R,K
-   8,R
-   2,R,K
-   7,R
-   5,R,J,G
+   6,R,K
    5,R
-   1,R,J
-   1,J
-   7
-   9,R
-  10,R,U,X
+   1,R,K
+  14,R
+  23,R,J,G
   40
 
 #lvl_g-03
-   4,R,U,X
-   1,R,K,G
-   9,R
-  12,D,C
-  33,R
-  21
+   3,R,J
+   8,R
+   9,D,X
+  36,R
+  18
   43,R
   13,L
    1
@@ -250,7 +254,9 @@ console load nameguysdsidespack/0/10-Farewell 66964 -10384
    3
   13,L
   15,R,U,X
-  37,R
+  35,R
+   1
+   1,R
   11
    1
   34,R
@@ -263,8 +269,8 @@ console load nameguysdsidespack/0/10-Farewell 66964 -10384
   24,R
   15,U,X
   16,R
-  51
-   2,L
+  50
+   3,L
   14,R,D,X
   55,R,J
    1
@@ -408,7 +414,7 @@ console load nameguysdsidespack/0/10-Farewell 66964 -10384
    2,R
    2
 #hazardcycle_g-06
-   2
+   0
 #endhazardcycle_g-06
    3,K
    4,R,K
@@ -538,10 +544,10 @@ EndStunPause
 #stun_h-01
    3,R,J
 StunPause
-   1,R,J
+   5,R,J
 EndStunPause
 StunPause
-  10,R,J
+   6,R,J
 EndStunPause
 #endstun_h-01
    2,R
@@ -785,4 +791,4 @@ EndStunPause
    4,Z
    4,R,J
 #Time
-MidwayFileTime: 1:34.928(5584)
+MidwayFileTime: 1:34.571(5563)
