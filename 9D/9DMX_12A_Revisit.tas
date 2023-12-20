@@ -7,32 +7,29 @@ console load nameguysdsidespack/0/10-Farewell j-00
   36
 
 #Start
-   8,L,J
+   7,L,J
   10,L,X
-  13,L,J
+   3,L,J
+  10,J
   14,R,D,X
    1,R,J
   11,R,D,X
    1,R,J
-   1,R
-   6
-   2,R
-   6,R,Z
-   1,R,K
    7,R
+   1,R,K
+  13,R,D,X
    1,R,J
-  12,R,D,X
+   4,R
+   1,R,J
+   2,R
    4,R,K
-   2,R,J,G
-  11,R,K,G
-   1,K
-   4
-  15,U,X
-   2,L
+   9,R,J,G
+   7,J
+  17,U,X
    1,L,J
    6,L
    2
-   2,J
+   1,J
   11,R,K,G
    1,K
    2,J,G
@@ -44,12 +41,12 @@ console load nameguysdsidespack/0/10-Farewell j-00
 #lvl_j-00b
 Read,9DSP_12A,lvl_j-00b,hazardcycle_j-07
 #hazardcycle_j-07
-   0
+   2
 #endhazardcycle_j-07
 Read,9DS_12A,endhazardcycle_j-07,Time
 
 #Time
-MidwayFileTime: 1:14.868(4404)
+MidwayFileTime: 1:14.766(4398)
 
 Read,9DS_12A,Time
 
