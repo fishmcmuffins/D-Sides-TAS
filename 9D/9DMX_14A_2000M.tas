@@ -17,31 +17,25 @@ Read,9D_14A,Start,lvl_n-01
 
 #lvl_n-01
   71
-   4,L,J
+   2,R,D,J
   10,L,X
    1,L,J
    8,R,J
-  11,R,D,X
-   1,R,J,G
-  12,R
-   1,R,J
-   2,R
-   4
-  15,D,X
-   1,L,J
-   6,R,K
-   1,R
-  24,R,U,X
-   7,L,D,C
+  10,R,D,X
+   6,R,J
+   1
+  18,R,U,X
+   7
+   7,L,D,X
    1,R,J
    6,R
    2,R,K
   15,R,D,X
-   6,R,J
+   7,R,J
    2,J
    1,R,J
    1,J
-   3,R,J
+   2,R,J
   15,R,D,X
 #society if this
 #bubble popped
@@ -67,25 +61,25 @@ Read,9D_14A,Start,lvl_n-01
 
 #lvl_n-02
 Read,9D_14A,lvl_n-02,hazardcycle_n-05
-   1
+   0
 Read,9D_14A,endhazardcycle_n-05,lvl_n-07
 
 #lvl_n-07
 Read,9DP_14A,lvl_n-07,lvl_n-08
 
 #lvl_n-08
-Read,9D_14A,lvl_n-08,lvl_n-09
+Read,9D_14A,lvl_n-08,hazardcycle_n-12
+   0
+Read,9D_14A,endhazardcycle_n-12,lvl_n-09
 
 #lvl_n-09 (1)
 Read,9DS_14A,lvl_n-09 (1),lvl_n-10
 
 #lvl_n-10
-Read,9D_14A,lvl_n-10,hazardcycle_n-12
-   1
-Read,9D_14A,endhazardcycle_n-12,Time
+Read,9D_14A,lvl_n-10,Time
 
 #Time
-MidwayFileTime: 2:23.480(8440)
+MidwayFileTime: 2:21.746(8338)
 
 Read,9DS_14A,Time
 
