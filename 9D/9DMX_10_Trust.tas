@@ -62,44 +62,42 @@ EndStunPause
    2,L
    3,L,K,G
    7,L
-  14,L,Z
-   1,R,J
-  14,R,U,X
-   1,S,N
+  10,L,Z
+   4,R,J
+   1,J
+  13,R,U,X
+   1,S
    1,D,J
   34
-   1,R,U,X
-  14,R,D
-   1,S,N
-   1,D,J
-  34
-  38,R,D
+   4,R
+  48,L,D
+  10,L,Z
    1,R,J
    1,R,K
    1,R,J
    1,R,K
-   2,R,J
-   1,R,K,G
-   8,R
+   1,R,J
+   1,R,K
+   6,R,D,X
+   1,S
+   1,D,J
+  34
+  11,R,D,J
+   3,R
   40
 
 #lvl_i-02
-   4,R
-   6,R,J
-   4,R,K,G
-  12,R,X
-   6,R,Z
+   2,R
+   2,R,J
+   2,R
    1,R,J
-   8,R
-  19,R,D,X
-  34,R,J
-  29,R,U,X
-   1,R,J,G
-   3,R
-   1,R,J,G
-   7,R
-  13,R,U,X
-   1,R,J,G
+   3,R,D
+  36,R,D,K
+  17,R,U,X
+   2,R,J,G
+   3,L,J
+   2,R,J
+   1,R,K,G
    7,R
 #Time
-MidwayFileTime: 0:47.957(2821)
+MidwayFileTime: 0:47.056(2768)
