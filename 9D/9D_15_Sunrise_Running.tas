@@ -84,22 +84,23 @@ console load nameguysdsidespack/0/10-Farewell 135764 -35048
    1,L
    1,L,J
    2,L
-
    1,L,K
    3,K
    4,L,K
    7,L
-  23,D
-   2,R,D
-  15,L,Z
-  15,U,C
-   2,R
-   2
+  13,D
+   6,L,D
+   1,D
+   1,L,D
+   2,D
+  14,L,D,X
+   1,L,J
+  17,U,X
    9,L,J
   10,R,J
   13,R,K,G
   13,R,J,G
-  12,R,K,G
+  13,R,K,G
   12,R,J,G
    7,R
   12,R,J
@@ -109,11 +110,13 @@ console load nameguysdsidespack/0/10-Farewell 135764 -35048
 
 #CP-72
    1,R,J
-   4,R
+   1,R
    1,R,J
-   6,R
-   2,R,J
-  10,R
+   2,R
+   1,R,K
+   5,R
+   2,R,K
+  11,R
   10,R,J
   15,U,X
    6,L,J,G
@@ -231,8 +234,10 @@ console load nameguysdsidespack/0/10-Farewell 135764 -35048
    7,R
   17,R
   13,R,Z
-   6,R,J
-  14,R,U,X
+   4,R,J
+   2,J
+#+2f moonblock cycle
+  16,R,U,X
   97
 
 #CP-68
@@ -954,7 +959,7 @@ AnalogMode,Precise
   12,R,J,G
   13,R,K,G
 #Time
-MidwayFileTime: 2:02.978(7234)
+MidwayFileTime: 2:02.961(7233)
   40
 
 AnalogMode Ignore
