@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 5763
+RecordCount: 5852
 
 console load nameguysdsidespack/0/10-Farewell 196528 -48208
    1
@@ -13,111 +13,70 @@ Set,Session.Inventory.Dashes,2
 #same moon block cycle
   73
 #Start
-   5,R,X
-   6,L,J
-   4,L,K,G
-  14,L,D,X
-   1,R,J
-   2
-   5,R
-   1,R,J
+   4,X
+   1,L,J
+   2,J
+   2,L,J
+   2,L,K,G
+   2,K
    1
-   9,R,D,C
-   6,R,J
-   9,R,K,G
-   3,R,J,G
-   7,R,K,G
+   1,L
+  12,L,D,X
+   1,R,J
+   3,R
+   1,R,J
+   3,R
+   1,R,K
+   8,R,D,X
+   2,R,J,G
+   6,R
+   1,R,J
+   1,R
+   2,R,D
+  11,R,U,X
+   3,R,K,G
+   3,K
   15,R,D,X
    3,R,J
   14,R,U,X
    4,R,K,G
    3,R
   15,R,D,X
-   7,R,J
-   5,R
-  16,R,J
-   9,R,K
-   5,R
-  12,R,U,Z
-   3,R,J,G
-  25,R,D
-  12,R,U,Z
-   1,L,K,G
-  29,R,K
-   1,R,J
-  12,R,D,X
-  10,R,J
-  15,R,D,X
-   1,R,K
+   8,R,J
+  17,R
+   4,R,K
    6,R
-   2,R,K
-   3,R
-  24,R,J
-  17,R,D,X
-   6,R
-   1,R,D
-  16,R,U,C
-   1
-   8,L,U,X
-  13,R
-   7,R,Z
-   1,R,J
-   2,R
-  40
-
-#lvl_u-02
-   5,R
-  21,R,J
-  15,U,X
-   1,J
-   5,R,K,G
-   2,R
-   1,R,J,G
-   1,R,K,G
-   9,R,J,G
-   7,R
-   1,R,D
-  23,D
-  11,R,D
-  14,R,Z
-  17,R,X
-  11,U,C
-  17,U,X
-   7,R,J
-   9,R,X
-  15,R,D,C
-  15,R,D,X
-  15,R,D,C
-   4,R
-  11,R,Z
-   2,R,J
-   4,R
-   3,R,J
-  10,R,D
-  11,D
-  13,R,Z
-  11,U,X
-  16,J
-  15,U,C
-  10,R,J
-   4,J
-  12,R,Z
-  11,D,X
-   2,R,J
-   4,R
-  15,D,X
-   1,R
-   9,R,X
-   1,R,J,G
+  14,R,U,Z
+   4,R,J,G
    9,R
-   1,R,K
-   1,K
+   1,R,J
+  13,R
+   8,R,U,Z
+   1,L,J,G
+  10,R,J
+  12,R
+  12,R,J
+  15,R,D,X
+   4,R,J
+   4,R
+  15,R,D,X
+   8,R,J
+   4,R
+  15,R,D,X
+   2,R
+  15,R,U,C
+   4
+  11,L,X
+   9,R
+   6,R,J,G
+   1,R
+   5,R,U,Z
   40
 
 #lvl_u-03
-Read,9D_21,lvl_u-03,Time
+Read,9D_21,lvl_u-02,Time
 
 #Time
-MidwayFileTime: 1:22.705(4865)
+MidwayFileTime: 1:21.634(4802)
 
 Read,9D_21,Time
