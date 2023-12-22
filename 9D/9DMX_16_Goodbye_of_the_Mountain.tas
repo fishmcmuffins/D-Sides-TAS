@@ -1,77 +1,51 @@
 console load nameguysdsidespack/0/10-Farewell 145652 -39958
    1
   36
-
 #hazardcycle_CP-37
    2,R,G
-
+#-----------
    1,R,G
    3,R,J,G
   40
 
 #lvl_q-01
 #Start
-   4,R,J,G
-  10,R
-  12,R,J
-   4,L,K,G
-   6,K
-  15,D,X
-
-#fireball cycle CP-49
-#+12f
-  12
-
-  10,R,C
-   7,R,J
-  10,R,Z
+   5,J
    1,R,J
-   8,R
-   2
-   1,R,G
-   4,R,Z
-   1,R,J
-   1,R,K,G
-   1,R,J,G
-   1,R,K,G
-  10,R
-   2,R,D
-   8,R,J
-  17,R
-  14,R,U,X
-   6,R,J,G
-   1
-   7,R
-   2,R,J
+   1,K
    1,J
-   8,R
-   2,R,J,G
-   1
-  14,R
-   4,R,J,G
-   3,R
+   7,R,J
+   5,R
+   2,R,J
+   1,K
+   1,J
+  11,R,J
+   5,R
+  16,R,D,X
+   4,Z
+   1,R,J
+   2,J
+   3
+   1,J
    1
    6,R
-   7,R,J
-   1,R,K,G
-   5,R
-   8
-  10,R,J
-  30,R
-   5,R,J
-  19,R
-   7,L,Z
+   2,G
+   4,Z
    1,R,J
-   7,R
-   5,R,J
-  14,R,D,X
+   1,R,K,G
    1,R,J,G
-   7,R
-  37,R,J
-   9,K,G
-   2
-   1,J,G
-   1
+   6,R
+   3,R,J
+  24,R,D,K
+   3,R,J,G
+  14,R,K,G
+   1,K
+  13,R,D,X
+   3,R,J,G
+  26,R,D
+   2,R,J
+  16,R
+  25,R,K
    9,J,G
    1,R,J
    1,J
@@ -251,19 +225,8 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
    2,L,J
    9,R,J
    7,R
-
-#sawblade cycle
-#+10f+34f
-#+44f
-   8,R
-   1
-   1,R
-   5
-   1,R
-  36
-
-   7,R
-
+   1,R,K
+  14,R
    1,R,J
   32,R,D
    4,R
@@ -381,12 +344,13 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
    5,L
    8,D
   18,R,D
-  18,R,Z
+  15,R,Z
+   3
   14,U,V
   22,R,J
    1,K
-  27,D
-  11,R,D
+  28,D
+  10,R,D
   13,R
   14,U,Z
    2,R,J
@@ -471,6 +435,6 @@ EndStunPause
 Read,9DP_16,endstun_CP-37_2,Time
 
 #Time
-MidwayFileTime: 2:36.247(9191)
+MidwayFileTime: 2:32.677(8981)
 
 Read,9DP_16,Time
