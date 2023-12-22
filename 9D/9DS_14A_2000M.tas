@@ -10,7 +10,9 @@ Set,Player.StateMachine.State,10
 #lvl_m-13
 Set,Level.TimerStarted,true
 #Start
-Read,9D_14A,Start,lvl_n-09
+Read,9D_14A,Start,hazardcycle_n-12
+   2
+Read,9D_14A,endhazardcycle_n-12,lvl_n-09
 
 #lvl_n-09 (1)
    9,R
@@ -80,12 +82,10 @@ Read,9D_14A,Start,lvl_n-09
   40
 
 #lvl_n-10
-Read,9D_14A,lvl_n-10,hazardcycle_n-12
-   0
-Read,9D_14A,endhazardcycle_n-12,Time
+Read,9D_14A,lvl_n-10,Time
 
 #Time
-MidwayFileTime: 2:21.865(8345)
+MidwayFileTime: 2:20.794(8282)
 
 Read,9D_14A,Time
 
