@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 3556
+RecordCount: 3591
 
 console load nameguysdsidespack/0/10-Farewell 212416 -50688.1666963995
    1
@@ -28,12 +28,14 @@ EndRepeat
    7,R,J
   15,R,D,X
   15,L,D,C
-  15,L,D,X
-  14,L,Z
+   1,J
+  14,L,D,X
    1,L,J
-   9,L,X
-  12,L,J
-   2,K
+  14,L,D,X
+   1,L,J
+   2,L
+  14,L,U,Z
+   1,K
    5,L,Z
    1,L,J
    7,L
@@ -43,11 +45,10 @@ EndRepeat
    4,J
    3
   15,L,D,X
-   1,D
-   1,L,D
-   1,D
-   2,L,D
+   1
    1,L
+   1
+   3,L
    2,L,J
    3,L
   17,L,K,G
@@ -72,7 +73,7 @@ EndRepeat
 #lvl_v-04
 Read,9DSP_22A,lvl_v-04,hazardcycle_v-00-lobby
 #hazardcycle_v-00-lobby
-   0
+   2
 #endhazardcycle_v-00-lobby
 Read,9DSP_22A,endhazardcycle_v-00-lobby,stun_v-00-lobby
 #stun_v-00-lobby
@@ -94,7 +95,7 @@ EndStunPause
 #endstun_v-00-lobby
 Read,9DSP_22A,endstun_v-00-lobby,keycycle_lvl-void_1
 #keycycle_lvl-void_1
- 140,D
+ 142,D
    4,Z
    1,R,J
  123
@@ -103,7 +104,7 @@ Read,9DSP_22A,endstun_v-00-lobby,keycycle_lvl-void_1
 #endkeycycle_lvl-void_1
 Read,9DSP_22A,endkeycycle_lvl-void_1,keycycle_lvl-void_2
 #keycycle_lvl-void_2
- 306
+ 307
 #endkeycycle_lvl-void_2
 Read,9DSP_22A,endkeycycle_lvl-void_2,keycycle_lvl-void_3
 #keycycle_lvl-void_3
