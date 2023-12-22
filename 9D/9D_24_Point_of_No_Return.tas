@@ -22,7 +22,7 @@ console load nameguysdsidespack/0/10-Farewell 213328 -52440
   40
 
 #lvl_w-01
-   2,R
+   2,R,D,X
    1,R,J
   12,R
   19,R,J
@@ -30,6 +30,7 @@ console load nameguysdsidespack/0/10-Farewell 213328 -52440
    5,R
   46,R,J
    2
+#endroute_platinum
   30,R
   34,R
    1,R,D
