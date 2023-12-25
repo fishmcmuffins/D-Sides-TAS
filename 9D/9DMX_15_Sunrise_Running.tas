@@ -85,16 +85,15 @@ Read,9D_15,CP-74,nice
   16,L,X
    3,L
    4
-   6,R
-   1
-   1,R
-  10,U,X
-  11,L
-  15,R,X
-   2,R,J,G
    7,R
-  20,R
-  13,R,Z
+   1
+  12,U,Z
+   7,R
+  12,R,X
+   4,R
+   9,R,D,X
+  19,R
+  14,R,Z
    6,R,J
   14,R,U,X
   97
@@ -142,7 +141,7 @@ Read,9D_15,CP-74,nice
 Read,9DS_15,lvl_p-02,Time
 
 #Time
-MidwayFileTime: 2:11.410(7730)
+MidwayFileTime: 2:11.342(7726)
 
 Read,9DS_15,Time
 
