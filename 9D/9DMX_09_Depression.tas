@@ -7,7 +7,126 @@ console give_golden
   36
 
 #Start
-Read,9D_09,Start,lvl_g-01
+Read,9D_09,Start,lvl_f-99
+
+#lvl_f-99
+   5,R,D,X
+   5,R,J,G
+   5,R
+   2,R,J
+   1,R,K,G
+  12,R
+   9,R,J
+   1
+   4,R
+   2,R,J
+  13,R
+  14,R,U,X
+  25,R,J,G
+   2,R,K
+   5,R
+  10
+  12,R,D
+   4,R
+   1,R,D
+  13,R
+   4,D,X
+  16,R,U,X
+   1,R
+   1,L
+   1,K
+   2,J,G
+   9,R,J
+   5,R
+   8,R,J
+   4,R
+   1
+  12,R,U,Z
+   1,L
+   1,K,G
+   5
+   1,R,K
+  15,R
+   9,R,U,Z
+   1,L
+   7,J,G
+   1,R,J
+   6,R
+  21,R,J
+  10,R,D,X
+   6,R,K
+   3,R
+  14,R,D,X
+   3,R,J
+   3,R
+  11,R,D,X
+   1,R,K
+   3,R
+   1,R,K
+   3,R
+   9,R,J
+   6,R
+   1,R,J
+   3,R
+  15,R,U,X
+  23,R
+   1
+   3,D
+   4,Z
+   1,R,K
+   9,R
+   1,R,J
+  19,R,D,X
+  23,R,K
+   8,R
+  14,R,U,X
+   1,R,J,G
+   1,R,K,G
+   7,R
+
+   2,R,D,J
+  26,R,D,X
+   7,R,D,C
+   1,R,J
+   1,R,K,G
+   2,R,J,G
+   1,R,K,G
+   2,R,J,G
+   5,R
+   1,R,J
+   1
+   6,R
+   3,R,K
+   3,R
+  18,R,D,X
+  14,R
+  16,R,U,Z
+  15,U,X
+   4,R
+  10,J
+  16
+  10,R,D
+   2,D
+  13,R,D
+   8,D
+  15,R,Z
+  23,R,U,C
+  23,R,U,X
+  15,R,C
+  23,R,D
+   4,D,X
+   1,R,X
+   2,R,J
+   7,R
+  24,R,J
+  14,R
+  26,R,X
+   4,Z
+   8,R,J
+   4,R
+   1,R,J
+   5,R,D,X
+  40
 
 #lvl_g-01
    9,R,D,X
