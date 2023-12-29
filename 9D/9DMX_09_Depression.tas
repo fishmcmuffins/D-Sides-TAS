@@ -7,7 +7,38 @@ console give_golden
   36
 
 #Start
-Read,9D_09,Start,lvl_f-99
+Read,9D_09,Start,lvl_f-17
+
+#lvl_f-17
+  18,R,J
+  14,R,Z
+  30,R,J
+  11,U,X
+  27,R,J
+   1,R,K,G
+  12,R
+   4,R,J
+  14,L,D,X
+   1,R,J
+   5,R,D,X
+   1,R,J,G
+   5,R
+  40
+
+#lvl_f-00
+   2,J
+   1,R,J
+   1,R,K,G
+  13,R
+  11,R,J
+   9,R,D,X
+   1,R,K,G
+   6,R
+   1,R,J,G
+  12,R
+   2,R,K
+   7,R,D,X
+  40
 
 #lvl_f-99
    5,R,D,X
