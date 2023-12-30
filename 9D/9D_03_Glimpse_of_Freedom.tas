@@ -621,24 +621,23 @@ EndRepeat
 
 #lvl_c-01-heartgate
    8,R,U,X
-   4,R,J,G
-  14,R,Z
-   8,R,J
-  15,R,D,X
-  10,R
-  11,R,D,X
+   1,J
+   1,L,J
+   5
+  13,R,Z
+   2,R,J
+  24,R,D,X
+   1,R,K
+   9,R
+   1,R,J
+  10,R,D,X
    1,R,J
    1,R,K,G
-   2,R
-   5,R,D,X
+   2,R,J,G
+   4,R,K,G
    1,R,J,G
-   1,R,K,G
-   5,R
-   1,S
-  11,J,X
-   2,R
-   1
-  21,R,D,X
+   1,R
+  22,R,D,X
    4,R,J
    6,R
    1,R,J
@@ -670,4 +669,4 @@ EndRepeat
   11,L
   13,U,X
 #Time
-MidwayFileTime: 1:40.045(5885)
+MidwayFileTime: 1:39.841(5873)
