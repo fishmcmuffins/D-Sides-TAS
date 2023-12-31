@@ -1,6 +1,9 @@
 console load nameguysdsidespack/0/10-Farewell 66964 -10384
    1
 
+#Move to background
+#evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foreground.Backdrops.Count and i >= 0 do if invokeMethod(level.Foreground.Backdrops[i].Name, "Contains", "dark") then level.Background.Backdrops:Add(level.Foreground.Backdrops[i]); level.Foreground.Backdrops:RemoveAt(i); else i = i + 1 end end i = nil
+
 #lvl_f-16
   36
 #hazardcycle_f-99
@@ -638,29 +641,24 @@ EndStunPause
   13,R,K,G
   21,R,D,X
    1,R,J
-   5,R
-   2,R,J
-   5,R,D,X
-   1,R,J,G
-   1,R,K,G
-   5,R
-   1,S
-  11,R,J,X
-   2,R
-   2,R,J
-  13,R,U,X
+  11,R,D,X
    2,R,J,G
    1,R,K,G
-   1,R,J,G
-   1,R
+   2,R,J,G
+   7,R
+   2,R,K
+  12,R,U,X
+   2,R,J,G
    1,R,K,G
+   2,R,J,G
+   2,R,K,G
    7,R
    1,R,J
   10,R,D,X
-   1,R,J,G
-   8,R
-   2,R,J
-   1,J
+   1,R,K,G
+   7,R
+   1
+   3,R,J
   14,R,D,X
 #stun_h-03
 StunPause
@@ -761,4 +759,7 @@ EndStunPause
    4,Z
    4,R,J
 #Time
-MidwayFileTime: 1:30.916(5348)
+MidwayFileTime: 1:30.746(5338)
+
+#Restore to foreground
+#evallua if bgs then while level.Background.Backdrops.Count > bgs do level.Foreground.Backdrops:Add(level.Background.Backdrops[bgs]); level.Background.Backdrops:RemoveAt(bgs); end bgs = nil end
