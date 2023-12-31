@@ -7,122 +7,119 @@ console load nameguysdsidespack/0/10-Farewell 66964 -10384
 #lvl_f-16
   36
 #hazardcycle_f-99
-   2
+   1
 #Start
   14,R,X
    4,R,J
+   1,R
    8,R,K
-  47,R,X
+   1,R
+  45,R,X
    4,L,J
-   4,Z
-  17,L,K
-  17,U,X
+   7,L,Z
+   9,L,K
+   5,K
+  16,U,X
   40
 
 #lvl_f-17
-  18,R,J
-  14,R,Z
-  30,R,J
-  11,U,X
-  24,R,J
+  17,R,J
    3,R
-   1,K,G
-  10
-   8,L,Z
+  14,R,Z
+  23,R,K
+   5,R
+  10,U,X
+  15,R,J
+  10,R
    1,R,J
-   7,R
+   1,R
+   1,R,K,G
+  10,R
+   4,Z
+   1,R,J
+   4,R
   40
 
 #lvl_f-00
-   2,R,K
-   5,R,D,X
-   1,R,J,G
-   3,J
-   5,R
-   1,R,J
+   2,R,J
+   1,R,D,K
+   3,R,J,G
+  12,R,K,G
+  15,R,D,X
+   4,R,J
+   7,R,U,X
+   2,R,K,G
    7,R
-   1
-  10,R,D,K
+   7,R,J
    9,R,D,X
-   1,R,J,G
-   6,R
-   1,R,J
-   1,R,K,G
-  11,R
-   2,R,D,J
-   8,R,D,X
   40
 
 #lvl_f-99
+   6,R,D,X
+   6,R,K
+   2,R
    5,R,D,X
-   3,R,J,G
-   4,R,K,G
-   5,R
-   2,R,K
    1,R,J,G
-   8,R
-   1,R,J
+   1,R
+   1
+   9,R
+   3,R,K
    3,R
-   8,R,D,K
+  14,R,U,Z
+   1,L,J,G
+   2,R,J
    5,R
-   2,R,K
-  12,R
-  14,R,U,X
-  18,R,J,G
-   4,R
-   2
-   2,R,D,K
-   6
-   1,R
-   5,D
-  15,R,D
-  18,R
-  18,R,U,Z
-   1,L
-   1,K
-   2,J,G
-   9,R,J
-   5,R
-   9,R,J
+   1,R,J
    1,R
    1,R,J
+  15,R,D
+   6,R,K
+   5,R
+   3,R,K
+  18,R
+   7,R,D
+   1,R
+  13,R,U,Z
+   1,L
+   1,J,G
+   3,R,J
    1,J
-   2
-  12,R,U,Z
+   6,R,J
+  10,R
+   5,R,J
+  11,R,U,Z
    1,L
    1,K,G
-   5
-   1,R,K
-  15,R
+   6
+   5,R
+  11,R,K
    9,R,U,Z
    1,L
    7,J,G
    1,R,J
    6,R
-  19,R,J
-   2
-#moon block cycle
+  18,R,J
    3
+#moon block cycle
+   2
 #----------------
   10,R,D,X
-   6,R,K
-   3,R
-  14,R,D,X
-   3,R,J
-   3,R
-  11,R,D,X
-   1,R,K
-   3,R
-   1,R,K
-   3,R
-   9,R,J
-   6,R
    1,R,J
-   3,R
-  15,R,U,X
-  22,R
+   2,R
    2
-   3,D
+  14,R,Z
+   1,R,K
+  14,R,D,X
+   1,R,J
+   7,R,D,X
+   1,R,K
+   7,R
+   9,R,J
+   5,R
+   4,R,J
+   1,R
+  15,R,U,X
+  27,R,D
    4,Z
    1,R,K
    9,R
@@ -141,40 +138,42 @@ console load nameguysdsidespack/0/10-Farewell 66964 -10384
    1,R,K,G
    2,R,J,G
    1,R,K,G
-   2,R,J,G
+   1,R,J,G
    5,R
-   2,R,J
+   4,R,J
    1,R
    2,R,J
-   3,R
-   3,R,K
-   2,R,J,G
-   1,R
+   2,R
+   3,R,D,K
+   1,R,J,G
+   2,R
   18,R,D,X
+   1,R
    6,R,U,Z
    1,L,K,G
-   1
-   7,R,K
+   2,R,K
+   6,R
+   1,R,K
 #stun_f-99
    8,R,D
+   1,R
 StunPause
-  10,R,D
+   1,R,D
+   9,R
 SkipInput 3 1
    9,R,U,Z
 EndStunPause
-   3,R
+   2,R,U,Z
 #endstun_f-99
   21,R,J,G
-  15,R,D
-   1,D
-   6,R,D
-   3,R,K
-   5,R,J,G
+  23,R
+   2,R,K
+   6,R,J,G
   40
 
 #lvl_g-01
    6,R
-   1,R,K
+   1,R,D,K
    1,R
   14,R,U,X
    3,R,J,G
@@ -389,52 +388,54 @@ EndStunPause
    2,R
    2
 #hazardcycle_g-06
-   2
+   1
 #endhazardcycle_g-06
    3,K
    4,R,K
    1,K
   15,R,X
-  20,D
-   9,R,D
+  24,D
+   5,R,D
    5,R
-  11,R,J
-   6,R,Z
-   2,R,K
-   6,R,J,G
+  12,R,U,X
+   1,J,G
+   1,R,J
+   7
+   2,K
+  14,L,D,X
+   1,R,J
+   5,R,D,X
+   3,R,K,G
+   5,R
+   1,R,J
   40
 
 #lvl_g-06
-   1,R,J
-   6,R
+   3,R,J
+   4,R
    2,R,D
-  19,R,D,K
-   3,R,J,G
+  11,R,J
+   4,R
+   3,R,K,G
    5,R
-  19,R,J
-  33,R,U,X
-   1
-   1,K,G
-   6,R,K
+   7,R,K
    9,R
-   1,R,K
-   5,R
-   1,J
-   5,R
-   1,R,J
-  21,R
-  30,R,K,G
-   4,J,G
-   1,R
-   1
-   1,R
+  14,R,U,X
+   8,R,J,G
+   7,R
+   2,R,J
+  11,R
    2
+   1,K,G
    1,R
    1
+   1,R
+   3
+   1,R
    1,L
-   1,K
-   3,L,K
-   2,K
+   1,J
+   3,L,J
+   2,J
   15,L,U,X
   11,R
   24,U,G
@@ -617,7 +618,7 @@ EndStunPause
    9,D,X
    9,D,C
 #hazardcycle_h-03
-   0
+   1
 #endhazardcycle_h-03
   15,R,Z
   14,R,U,X
@@ -661,12 +662,17 @@ EndStunPause
    3,R,J
   14,R,D,X
 #stun_h-03
+   2,R,D,X
 StunPause
-   4,R,D,X
+   2,R,D,X
 EndStunPause
    1,R,D,X
    7,R,D,K
-  13,R,D,X
+StunPause
+SkipInput 3 1
+   5,R,D,X
+EndStunPause
+   8,R,D,X
 #endstun_h-03
   40
 
@@ -759,7 +765,7 @@ EndStunPause
    4,Z
    4,R,J
 #Time
-MidwayFileTime: 1:30.508(5324)
+MidwayFileTime: 1:28.587(5211)
 
 #Restore to foreground
 #evallua if bgs then while level.Background.Backdrops.Count > bgs do level.Foreground.Backdrops:Add(level.Background.Backdrops[bgs]); level.Background.Backdrops:RemoveAt(bgs); end bgs = nil end
