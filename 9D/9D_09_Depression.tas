@@ -388,7 +388,7 @@ EndStunPause
    2,R
    2
 #hazardcycle_g-06
-   1
+   2
 #endhazardcycle_g-06
    3,K
    4,R,K
@@ -422,9 +422,9 @@ EndStunPause
    9,R
   14,R,U,X
    8,R,J,G
-   7,R
+   9,R
    2,R,J
-  11,R
+   9,R
    2
    1,K,G
    1,R
@@ -433,16 +433,16 @@ EndStunPause
    3
    1,R
    1,L
-   1,J
-   3,L,J
-   2,J
+   5,R,J
+   1,L,J
+   1,L
   15,L,U,X
-  11,R
-  24,U,G
-   3,G
-   1,U,G
+   9,R
+  23,U,G
    1,G
    1,U,G
+   3,G
+   2,U,G
    1
    1,R,J,G
    1,R,K,G
@@ -453,90 +453,89 @@ EndStunPause
    1,R,J,G
    1,R,K,G
    1,R,J,G
-   5
-  13,R,D,X
+   7,R
+  11,R,D,X
 #stun_g-06
-   2,R,D,X
-   2,R,D
+   4,R,D,X
 StunPause
-   4,R,D
+   4,R
 EndStunPause
 #endstun_g-06
-   7,R,D
-   4,R,D,J
-   2,R,K,G
+  10,R
   40
 
 #lvl_g-07
-   3
-   3,R
-   6,R,K
-  14,R,U,Z
+   2,R
+   2,R,K
+   2,R
+   5
+  14,R,U,X
    1,L,J,G
    5,R
   40
 
 #lvl_g-08
-  13,R,J
-   1,J
-  17,R,U,Z
-   5,K,G
-   5,R,K
-   4,R,J,G
-  11,R,U,X
-   1,R,K,G
-   1,R,J,G
-   5,J
-  15,R,J
-   3,R
-  12,R,D,X
+   6,R,J
+   7,R
+  17,R,U,X
+  11,R,J,G
    4,R,K,G
-   6,R
+  11,R,U,X
+   1,R,J,G
+   2,R,K,G
+   5,K
+   7,R,K
+   5,R
+   2,R,K
+   2,R
+   1
+  10,R,D,X
+   2,R,J,G
+   2
+   4,R
+   1,R,J
+   2,R
    1,R,K
-   2,R
-   2,R
   40
 
 #lvl_g-09
-  25,R,D,J
+   1,K
+   9,R,K
+   9,R
+   2,R,K
+   2,R
 #stun_g-09
+   2,R
 StunPause
-   1,R,J
-SkipInput 3 1
-   8,R,D,X
+   2,R
 EndStunPause
-   9,R,D
-   1,R
-   1,R,D
+  10,R,D
+   1,R,J,G
 StunPause
-   3,R,J,G
+   2,R,J,G
 EndStunPause
 #endstun_g-09
-   7,R,J
+   7,R,J,G
   40
 
 #lvl_h-01
-  14,R,J
-#stun_h-01
-   3,R,J
-StunPause
-  10,R,J
-EndStunPause
    1,R,J
-#endstun_h-01
-   2,R
-  14,R,X
-   1,R,K,G
-   2,K
-   1
-   1,R,J,G
-   2,J
-   1
+  14,R
+#stun_h-01
+   1,R
+StunPause
    6,R
-   8,R,D,K
-   1,R
+   2,R,D
+EndStunPause
+#endstun_h-01
+   3,R,D
    1
-   1,R
+  12,R,U,X
+   1,J,G
+   7
+   1,D,K
+   7,R,K
+   3,R
   17,R,D,X
   12,R,D,C
   15,R,U,X
@@ -549,47 +548,51 @@ EndStunPause
    5,R,J
    9,R,X
    9,R,C
-  23,R,D,X
+  22,R,D,X
+   2,G
+   3
   15,R,Z
-   3,R,J,G
-   1,R
+   1,R,J,G
    1,R,K,G
-   2,R
-  22,R,J,G
-   1,J
-   2,R,J
-   1,L,J
-   3,K,G
-  29,R,K
-   2,R,J,G
+   1,R
+   1,R,J,G
+   2,R,K,G
+   3
+   4,R
+  13,R,D,J
+   1,L,K,G
+   7,R,K
+   4,R
    1
-   4,R
-   4,R,J
-   4,R
    1,R,K
-  10,R
+   7,R
+   1,R,J,G
+   4,R,K,G
+  15,R
   23,R,X
   14,R,C
    1,R,J,G
    2,R,K,G
    1,R,J,G
-  29,R,D
-   2,R,K
-  10,R,Z
+  22,R
+   6,R,D
+   1,R
+   4,Z
    4,R,J
-   5,R,K,G
-   4,R
+   4,R,K,G
+   7,R
+   4,R,J
   40
 
 #lvl_h-02
-   1,R
+   1,R,J
   15,R,D,X
    1,R,J
-  25,R,D
-  13,R,U,Z
-   1,L,K,G
-  18,R,K
-   1,R
+  24,R,D
+  12,R,U,Z
+   1,L,J,G
+  10,R,J
+   7,R
   18,L,U,C
   15,R,D,X
    6,D
@@ -612,9 +615,8 @@ EndStunPause
   16,R,C
   14,R,X
    1,R,J,G
-   2,R,K,G
-   1,R,J,G
-  22,R,D
+   4,R,K,G
+  24,R,D
    9,D,X
    9,D,C
 #hazardcycle_h-03
@@ -765,7 +767,7 @@ EndStunPause
    4,Z
    4,R,J
 #Time
-MidwayFileTime: 1:28.587(5211)
+MidwayFileTime: 1:27.040(5120)
 
 #Restore to foreground
 #evallua if bgs then while level.Background.Backdrops.Count > bgs do level.Foreground.Backdrops:Add(level.Background.Backdrops[bgs]); level.Background.Backdrops:RemoveAt(bgs); end bgs = nil end
