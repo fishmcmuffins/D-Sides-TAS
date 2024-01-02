@@ -77,23 +77,31 @@ console load nameguysdsidespack/0/10-Farewell 87489.36 -11163.62
   34
    8,R
    3,R,D
-  13,R,K
-  15,U,X
+  16,R,K
+   9,L,U,X
    1,L,J,G
-   4
    1,L
    1
    1,L
-  25,U,G
-  17,G
-   3,U,G
-   1,G
-   1,U,G
-   3,G
    1
+   2,R
+   1,L
+  11,K,G
+   1,R,K
    1,J
+  16,L,J
    1,L,K,G
-  36,R,K
+   1,L
+  11
+   2,R
+   1,G
+   1
+   1,R,J,G
+  12,R,K,G
+   5,R
+   1,R,K
+   8,R
+   8,D
    4,Z
    1,R,J
    6,R
@@ -166,59 +174,31 @@ console load nameguysdsidespack/0/10-Farewell 87489.36 -11163.62
    1,R,J
    1,K
    1
-   9,R,D,X
-   1,L,J
+  10,R,D,X
+   2,L,J
+   9,R,K
+   6,R
+  15,L,D,X
+   4,Z
+   1,R,J
+   1,R,K,G
+   1,R,J,G
+   1,R,K,G
+   9,R,J,G
+   5,R
+   1,R,J
+  15,R,D
+   1,D
+   8,R,D
+   8,D
+   1,R,D
+   9,R
+   7,R,J
+  32,L,Z
+  12,J,G
    7
-   1,G
-   1,K,G
-   1,R,K
-   4,L,K
-   6,L
-   3,L,K
-   3,L
-  12,R
-   1,G
-   1
-   1,R,J,G
-   1,R,K,G
-   1,R,J,G
-   1,R,K,G
-   1,R,J,G
-   7,R
-  16,R,K
-  15,R,D,X
-  20,R
-   2,R,D
-   7,D
-   9,R,D,X
-   1,L,J
-   2
-   2,J
-   2
-   2,L
-  11,L,D,K
-   5,L
-   4,L,K
-  10,L,U,X
-   1,J,G
-   4,L
-   6
-  11,R
-  22,G
-   1,D,G
-   1,G
-   2,D,G
-   6,G
-   1
-   1,R,K,G
-   1,R,J,G
-   1,R,K,G
-   1,R,J,G
-  15,R,D,X
-   7,D
-   2
-  12,K,G
- 167
+  31,D
+ 210
    1,R,J
    9,Z
    1,L,J
@@ -257,7 +237,7 @@ console load nameguysdsidespack/0/10-Farewell 87489.36 -11163.62
    8,R,K
   13,J
 #hazardcycle_hh-08
-   1
+   2
 #endhazardcycle_hh-08
    1,S
    1,D,J
@@ -341,4 +321,4 @@ EndStunPause
    4,R,J,G
    7,R
 #Time
-MidwayFileTime: 0:45.407(2671)
+MidwayFileTime: 0:44.846(2638)
