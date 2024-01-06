@@ -279,6 +279,7 @@ evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foregroun
   15,R
    1,R,J
    1,J
+#stun_hh-08
    6,R,J
 StunPause
 SkipInput 3 1
@@ -289,6 +290,7 @@ StunPause
   14,R
 EndStunPause
    3,R
+#endstun_hh-08
    6,R,K,G
    5,R
    2,R,K
