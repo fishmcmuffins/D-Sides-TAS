@@ -3,6 +3,9 @@ console load nameguysdsidespack/0/10-Farewell 87489.36 -11163.62
 
 console give_golden
 
+#Move to background
+evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foreground.Backdrops.Count and i >= 0 do if invokeMethod(level.Foreground.Backdrops[i].Name, "Contains", "dark") then level.Background.Backdrops:Add(level.Foreground.Backdrops[i]); level.Foreground.Backdrops:RemoveAt(i); else i = i + 1 end end i = nil
+
 #lvl_h-08
   36
   12,U,Z
@@ -30,36 +33,35 @@ console give_golden
 #Start
 Read,9D_10,Start,hazardcycle_hh-08
 #hazardcycle_hh-08
-   1
+   0
 #endhazardcycle_hh-08
 Read,9D_10,endhazardcycle_hh-08,stun_hh-08
 #stun_hh-08
+   6,R,J
 StunPause
-   2,R,K
 SkipInput 3 1
-  13,R,D,X
+  15,R,D,X
 EndStunPause
-   2,R,D,X
-   1
    9,R
 StunPause
   14,R
 EndStunPause
+   3,R
 #endstun_hh-08
-   2,R
-   4,R,K,G
+   6,R,K,G
    5,R
-   7,R,K
-  10,R
+   2,R,K
+  13,R
    1,R
-   4,R,D,J
+   2,R,D,J
+   2,J
   40,J
 
 #lvl_i-01
    4,R,J
   15,U,X
-  10,L,J,G
-   2,L
+  11,L,J,G
+   1,L
    3,L,K,G
    7,L
   10,L,Z
@@ -100,4 +102,4 @@ EndStunPause
    1,R,K,G
    7,R
 #Time
-MidwayFileTime: 0:47.056(2768)
+MidwayFileTime: 0:46.206(2718)
