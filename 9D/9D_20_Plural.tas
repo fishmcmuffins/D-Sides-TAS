@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 3481
+RecordCount: 3497
 console load nameguysdsidespack/0/10-Farewell 188372.063894272 -48424 48.66644 0
    1
 Set,Session.Inventory.Dashes,2
@@ -201,14 +201,15 @@ Set,Session.Inventory.Dashes,2
    1,L,J,G
    4
    1,L
-   3
-   4,R
-   4,Z
-   1,L,J
-   1
    2,L
-   1,L,N
-  18,L
+   7,R,D,X
+   1,L,J
+   4,L
+   1
+   1,L
+   1,N
+   4,C
+  15,L
   18
  154,D
    1,X
@@ -480,7 +481,7 @@ AnalogMode,Precise
    4,L
  253
 #Time
-MidwayFileTime: 1:29.369(5257)
+MidwayFileTime: 1:29.352(5256)
   40
 
 #lvl_u-01
