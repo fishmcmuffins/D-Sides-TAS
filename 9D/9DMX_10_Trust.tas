@@ -35,34 +35,38 @@ Read,9D_10,Start,hazardcycle_hh-08
 #hazardcycle_hh-08
    0
 #endhazardcycle_hh-08
-Read,9D_10,endhazardcycle_hh-08,stun_hh-08
+Read,9D_10,endhazardcycle_hh-08,lvl_hh-08
+
+#lvl_hh-08
+   5,R,U,X
+   3,R,J,G
+  13,R,K,G
+  14,R,U,X
+   3,R,J,G
+  12,R,K,G
+  15,R
+   1,R,J
 #stun_hh-08
-   6,R,J
+   7,R
 StunPause
-SkipInput 3 1
-  15,R,D,X
+  10,R,D
 EndStunPause
-   9,R
-StunPause
-  14,R
-EndStunPause
-   3,R
+   3,R,D
 #endstun_hh-08
-   6,R,K,G
-   5,R
-   2,R,K
-  13,R
-   1,R
-   2,R,D,J
-   2,J
+  19,R,D
+  12,R,Z
+   5,R,K,G
+   6,R
+  17,R,K
+   4,R,D,J
   40,J
 
 #lvl_i-01
-   4,R,J
+   5,R,J
   15,U,X
   11,L,J,G
    1,L
-   3,L,K,G
+   2,L,K,G
    7,L
   10,L,Z
    4,R,J
@@ -102,4 +106,4 @@ EndStunPause
    1,R,K,G
    7,R
 #Time
-MidwayFileTime: 0:46.206(2718)
+MidwayFileTime: 0:44.778(2634)
