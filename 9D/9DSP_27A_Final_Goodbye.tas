@@ -638,14 +638,11 @@ EndStunPause
   43
 
 #lvl_xx-10-true-final-goodbye
-Read,9D_27,lvl_xx-10-true-final-goodbye,route_end-platinum
+Read,9DP_27,lvl_xx-10-true-final-goodbye,Time
 
 #Time
 MidwayFileTime: 4:17.159(15127)
 
-Read,9D_27,route_end-platinum,lvl_end-granny
-
-#lvl_end-platinum
-  89
+Read,9DP_27,Time
 
 AnalogMode,Ignore
