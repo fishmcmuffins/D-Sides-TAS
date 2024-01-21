@@ -1,4 +1,4 @@
-RecordCount: 11867
+RecordCount: 11880
 
 console load nameguysdsidespack/0/3-Resort
    1
@@ -1195,8 +1195,9 @@ console load nameguysdsidespack/0/3-Resort
    1,L
    1,K
    2
-#spinner cycle
+#Spinner Cycle [d-01]
    0
+###
    4,Z
    1,R,J
    1,R
@@ -1239,7 +1240,11 @@ EndStunPause
   17,U,X
    1
    4,R
-  18,R,J
+  17,R,J
+   1
+#Spinner Cycle [d-04]
+   1
+###
    5,R,Z
    1,R,J
    7,R
@@ -1437,8 +1442,9 @@ EndStunPause
    1,K
    5,R,K
   18,R,D,X
+   2,R,J
 StunPause
-   9,R,J
+   7,R,J
    2,R
 SkipInput 3 1
    8,R,X
@@ -1510,5 +1516,4 @@ AnalogMode Precise
  135,L,D
 
 AnalogMode Ignore
-
-ChapterTime: 2:48.334(9902)
+ChapterTime: 2:48.164(9892)
