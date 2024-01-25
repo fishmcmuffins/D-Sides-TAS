@@ -167,6 +167,10 @@ console load nameguysdsidespack/0/10-Farewell e-05 1
    3,R
    4
   15,U,X
+#branch_ta1
+
+#ta1_0
+#minimum
   34,R,J
   13,L
    2
@@ -179,7 +183,66 @@ console load nameguysdsidespack/0/10-Farewell e-05 1
   34,R
   14,R,U,X
   16
+#end_ta1_0
+play,endbranch_ta1
+
+#ta1_1
+#+.00567
+  29,R,J
+  18,L
+  21,R,Z
+  22,R,K
+  63,R
+  15,R,U,X
+  10
+#end_ta1_1
+play,endbranch_ta1
+
+#ta1_2
+#+.01041
+  30,R,J
+  17,L
+  21,R,Z
+  21,R,K
+  63,R
+  15,R,U,X
+  11
+#end_ta1_2
+
+#endbranch_ta1
   15,L,C
+#branch_ta2
+
+#ta2_0
+#minimum
+   5
+  26,G
+   1,D,G
+   4,G
+   1,D,G
+   1,G
+   4
+   1,R
+   1,K
+  23,R,K
+   2,K
+   1
+  21,R,Z
+  36,R
+  27,R,X
+   4,Z
+   7,R,J
+   1,R
+   1,R,J
+   2,R
+   8,R,D,K
+   6,J,G
+   1
+#end_ta2_0
+play,endbranch_ta2
+
+#ta2_1
+#+.00118
   37,G
    5
    2,R
@@ -197,6 +260,55 @@ console load nameguysdsidespack/0/10-Farewell e-05 1
    8,R,D,K
    6,J,G
    1
+#end_ta2_1
+play,endbranch_ta2
+
+#ta2_2
+#+.00193
+  36,G
+   5
+   2,R
+   1,K
+  26,R,K
+  21,R,Z
+  38,R
+  25,R,X
+   4,Z
+   7,R,J
+   1,R
+   1,R,J
+   2,R
+   8,R,D,K
+   7,J,G
+#end_ta2_2
+play,endbranch_ta2
+
+#ta2_3
+#+.00335
+   8
+  24,G
+   4,U,G
+   1,G
+   1,U,G
+   1,G
+   1
+   1,J
+   2,K,G
+  27,R,K
+  21,R,Z
+  38,R
+  25,R,X
+   4,Z
+   7,R,J
+   1,R
+   1,R,J
+   2,R
+   6,R,D,K
+   8,J,G
+   1
+#end_ta2_3
+
+#endbranch_ta2
    1,K
    5,R,Z
    1,R,J
