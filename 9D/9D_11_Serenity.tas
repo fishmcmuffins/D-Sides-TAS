@@ -4,7 +4,9 @@ console load nameguysdsidespack/0/10-Farewell 93870 -11808
 #lvl_i-02
   36
 #hazardcycle_i-05
+   2
 #Start
+   1,J
    4,Z
    7,R,J
    5,R,K,G
@@ -465,7 +467,7 @@ EndStunPause
   19,U,X
  292
 #Time
-MidwayFileTime: 1:04.413(3789)
+MidwayFileTime: 1:04.464(3792)
   40
 
 #lvl_j-00
