@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 752
+RecordCount: 907
 
 console hearts 8
 
@@ -29,7 +29,9 @@ Read,9D_02,endhazardcycle_aa-00-lobby
 
 #hazardcycle in b-08
 
-Read,9D_03,Start
+Read,9D_03,Start,hazardcycle_c-01-heartgate
+   1
+Read,9D_03,endhazardcycle_c-01-heartgate
 
 #==========================
 #Curiosity
@@ -40,7 +42,7 @@ Read,9D_03,Start
 #stun in cc-07
 
 Read,9D_04,Start,hazardcycle_cc-03
-   1,G
+   2,G
 Read,9D_04,endhazardcycle_cc-03,hazardcycle_cc-07
    2
 Read,9D_04,endhazardcycle_cc-07
@@ -124,8 +126,16 @@ StunPause
    4,R
 EndStunPause
    1,R
-  14,R,U,X
-   3,R,J,G
+   4,R,U,X
+   1,S,N
+  10,O
+  10,R,U,X
+   1,S,N
+  10,O
+   1,R,J,G
+   1,S,N
+  10,O
+   2,R,J,G
   40
 
 #lvl_d-04
@@ -232,51 +242,56 @@ Read,9D_07,Start
 #==========================
 #Exploration
 
-#no global cycles
+#timeactive in f-04
 
-Read,9D_08,Start
+Read,9D_08,Start,branch_ta1
+Read,9D_08,ta1_2,end_ta1_2
+Read,9D_08,endbranch_ta1,branch_ta2
+Read,9D_08,ta2_2,end_ta2_2
+Read,9D_08,endbranch_ta2
 
 #==========================
 #Depression
 
+#hazardcycle at start
+#stun in f-99
 #hazardcycle in g-05
 #stun in g-06
 #2 stuns in g-09
 #stun in h-01
+#hazardcycle in h-02
+#stun in h-03
 
+   2
 Read,9D_09,Start,hazardcycle_g-06
-   1
+   2
 Read,9D_09,endhazardcycle_g-06,stun_g-09
+   2,R
 StunPause
-   1,R,J
-SkipInput 3 1
-   8,R,D,X
+   2,R
 EndStunPause
-   9,R,D
    1,R
-   1,R,D
+   9,R,D
+   1,R,J,G
 StunPause
-   3,R,J,G
+   2,R,J
 EndStunPause
 Read,9D_09,endstun_g-09,stun_h-01
-   3,R,J
-StunPause
-  10,R,J
-EndStunPause
-   1,R,J
-Read,9D_09,endstun_h-01,hazardcycle_h-03
-   0
-Read,9D_09,endhazardcycle_h-03,stun_h-03
-StunPause
-   4,R
-EndStunPause
    1,R
-   7,R,D,K
 StunPause
-SkipInput 3 1
-   5,R,D,X
+   6,R
+   2,R,D
 EndStunPause
-   8,R,D,X
+Read,9D_09,endstun_h-01,hazardcycle_h-03
+   2
+Read,9D_09,endhazardcycle_h-03,stun_h-03
+   2,R,D,X
+StunPause
+   2,R,D,X
+EndStunPause
+   1,R,D,X
+   7,R,D,K
+  13,R,D,X
 Read,9D_09,endstun_h-03
 
 #==========================
@@ -286,19 +301,13 @@ Read,9D_09,endstun_h-03
 #2 stuns in hh-08
 
 Read,9D_10,Start,hazardcycle_hh-08
-   1
+   2
 Read,9D_10,endhazardcycle_hh-08,stun_hh-08
+   7,R
 StunPause
-   2,R,K
-SkipInput 3 1
-  13,R,D,X
+  10,R,D
 EndStunPause
-   2,R,D,X
-   1
-   9,R
-StunPause
-  14,R
-EndStunPause
+   3,R,D
 Read,9D_10,endstun_hh-08
 
 #==========================
@@ -317,11 +326,14 @@ EndStunPause
   25,R
 StunPause
    3,R
-SkipInput 3 1
-  15,R,Z
-   1,R
-SkipInput 3 1
-  14,R,Z
+   1,Z
+SkipInput
+   3
+  12,R
+   1,Z
+SkipInput
+   3
+  10,R
 EndStunPause
 Read,9D_11,endstun_i-05
 
@@ -331,7 +343,7 @@ Read,9D_11,endstun_i-05
 #hazardcycle in j-07
 
 Read,9D_12A,Start,hazardcycle_j-07
-   2
+   1
 Read,9D_12A,endhazardcycle_j-07,lvl_j-08
 Read,9DS_12A,lvl_j-08
 
@@ -348,22 +360,43 @@ Read,9D_12B,Start
 #keycycle in l-04
 
 Read,9D_13A,Start,keycycle_l-04
-   3
+  15
 Read,9D_13A,endkeycycle_l-04
 
 #==========================
 #1500M
 
-#no global cycles
+#TimeActive in m-06
 
-Read,9D_13B,Start
+Read,9D_13B,Start,branch_ta2
+Read,9D_13B,ta2_9,end_ta2_9
+Read,9D_13B,endbranch_ta2,branch_ta3
+  36,R,K
+  27,R
+  24,R
+   1,R,K
+  15,R
+  15,R,Z
+  21,R
+   5,R,Z
+   2,R,J
+   5,R
+Read,9D_13B,endbranch_ta3
+
 
 #==========================
 #2000M
 
-#no global cycles
+#hazardcycle in n-03
+#stun in n-05
+#hazardcycle in n-08
+#stun in n-12
 
-Read,9D_14A,Start
+Read,9D_14A,Start,hazardcycle_n-05
+   2
+Read,9D_14A,endhazardcycle_n-05,hazardcycle_n-12
+   1
+Read,9D_14A,endhazardcycle_n-12
 
 #==========================
 #2500M
@@ -390,6 +423,8 @@ Read,9D_16,Start,hazardcycle_CP-37
 Read,9D_16,endhazardcycle_CP-37,stun_CP-37_1
    2,R
 StunPause
+#why tf does holding up
+#make her sink faster
   11,R,U
 SkipInput 3 1
   15,R,Z
@@ -397,6 +432,8 @@ SkipInput 3 1
    1,R,K
    1,R,J
    1,R,K
+EndStunPause
+StunPause
    1,R,J
    1,R,K
    1,R,J
@@ -405,7 +442,10 @@ EndStunPause
 Read,9D_16,endstun_CP-37_1,stun_CP-37_2
    1,R,J
 StunPause
-  11,R,J
+   5,R,J
+EndStunPause
+StunPause
+   6,R,J
    1,R,K,G
    7,R,D
 EndStunPause
@@ -448,7 +488,7 @@ Read,9D_21,Start
 #keydoor in v-00-upper
 #hazardcycle in w-00-point-of-no-return
 
-   2
+   0
 Read,9D_22,Start,stun_v-00-lobby_1
    1,L,U,Z
 StunPause
@@ -457,25 +497,21 @@ SkipInput 3 1
   14,U,C
    1,R,J
 SkipInput 3 1
-   5,R,U,J,Z
-EndStunPause
-StunPause
-   4,R,U,J,Z
+   9,R,U,J,Z
 EndStunPause
    6,R,U,J,Z
 Read,9D_22,endstun_v-00-lobby_1,stun_v-00-lobby_2
 StunPause
    1,R
-   9,R,J
+  10,R,J
+SkipInput 3 1
+  13,U,Z
 EndStunPause
-   1,R,J
-   4,U,Z
 StunPause
-  11,U,Z
+   2,U,Z
   10,R
 SkipInput 3 1
-   8,L,U,Z
-   7,L,U,Z
+  15,L,U,Z
    6
    3,L
    1,R
@@ -483,7 +519,7 @@ SkipInput 3 1
    7,R,Z
 EndStunPause
 Read,9D_22,endstun_v-00-lobby_2,keycycle_v-00-upper
-  26,G
+  30,G
 Read,9D_22,endkeycycle_v-00-upper
 
 #==========================
@@ -500,13 +536,19 @@ Read,9D_24,Start
 #2 stuns in w-16
 
 Read,9D_25,Start,hazardcycle_w-16
-   2
+   1
 Read,9D_25,endhazardcycle_w-16,stun_w-16_1
    1
 StunPause
    1
    1,J
-   8
+   3
+EndStunPause
+StunPause
+   1
+EndStunPause
+StunPause
+   4
 SkipInput 3 1
    9,R,Z
    1,R,Z
@@ -522,18 +564,12 @@ EndStunPause
    3,K
    4,R,K
 StunPause
-   1,R,K
-EndStunPause
-   1,S,N
-  10,O
-   1,R,K
-StunPause
-   1,R,K
+   3,R,K
 EndStunPause
 Read,9D_25,endstun_w-16_1,stun_w-16_2
-   5,R
+   3,R
 StunPause
-   1,R
+   3,R
    1,R,D,J
 EndStunPause
    2,R,J
@@ -556,19 +592,23 @@ Read,9D_26,Start,hazardcycle_x-10
 Read,9D_26,endhazardcycle_x-10,stun_x-11
    2,R
    1,R,D
-StunPause
+   1,S,N
+  10,O
    1,R,D
-SkipInput 3 1
-   4,R,U,Z
-EndStunPause
-   3,R,U,Z
-StunPause
-   2,R,U,Z
-EndStunPause
+   1,S,N
+  10,O
    6,R,U,Z
+   1,S,N
+  10,O
+   4,R,U,Z
+   1,S,N
+  10,O
+   5,R,U,Z
 Read,9D_26,endstun_x-11,hazardcycle_xx-10-final-goodbye
-   0
+   5
 Read,9D_26,hazardcycle_xx-10-final-goodbye
+#TimeActive for FGFG measured here
+#w/o cycle wait in Bottomless
 
 #==========================
 #Final Goodbye
@@ -579,4 +619,4 @@ Read,9D_27,Start
 
 #==========================
 
-ChapterTime: 46:58.277(165781)
+ChapterTime: 46:16.168(163304)
