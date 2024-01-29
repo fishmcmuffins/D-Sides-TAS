@@ -1,6 +1,7 @@
-
 console load nameguysdsidespack/0/10-Farewell 114584 -21424
    1
+
+Set,Level.TimeActive,512
 
 #Start
 #lvl_m-01
@@ -377,7 +378,7 @@ endrepeat
   24,R,D,X
 #branch_ta2
 
-play,ta2_11
+#all +0f
 
 #ta2_0
 #minimum
@@ -399,7 +400,7 @@ play,ta2_11
 play,endbranch_ta2
 
 #ta2_1
-#+.00128
+#+.00178
    5,R
    6,R,D
   28,R,X
@@ -417,7 +418,7 @@ play,endbranch_ta2
 play,endbranch_ta2
 
 #ta2_2
-#+.00311
+#+.00349
    6,R
    4,R,D
   29,R,X
@@ -435,7 +436,7 @@ play,endbranch_ta2
 play,endbranch_ta2
 
 #ta2_3
-#+.00432
+#+.00477
    6,R
    6,R,D
   27,R,X
@@ -453,7 +454,7 @@ play,endbranch_ta2
 play,endbranch_ta2
 
 #ta2_4
-#+.00546
+#+.00593
    9,R
    1,R,D
   30,R,X
@@ -471,7 +472,7 @@ play,endbranch_ta2
 play,endbranch_ta2
 
 #ta2_5
-#+.00626
+#+.00641
    2,R
    1,R,D
    2,R
@@ -492,7 +493,7 @@ play,endbranch_ta2
 play,endbranch_ta2
 
 #ta2_6
-#+.00699
+#+.00689
   11,R
   29,R,X
   19,R,U,C
@@ -508,7 +509,7 @@ play,endbranch_ta2
 play,endbranch_ta2
 
 #ta2_7
-#+.00845
+#+.00836
    8,R
    3,R,D
   29,R,X
@@ -526,7 +527,7 @@ play,endbranch_ta2
 play,endbranch_ta2
 
 #ta2_8
-#+.00949
+#+.00940
    7,R
    4,R,D
   29,R,X
@@ -544,7 +545,7 @@ play,endbranch_ta2
 play,endbranch_ta2
 
 #ta2_9
-#+.01171
+#+.01186
    2,R
    1,R,D
    2,R
@@ -564,7 +565,7 @@ play,endbranch_ta2
 play,endbranch_ta2
 
 #ta2_10
-#+.01370
+#+.01381
    2,R
    1,R,D
    2,R
@@ -583,7 +584,7 @@ play,endbranch_ta2
 play,endbranch_ta2
 
 #ta2_11
-#+.01491
+#+.01489
   12,R
   28,R,X
   19,R,U,C
@@ -775,9 +776,10 @@ endrepeat
    4,R
 #branch_ta3
 
-play,ta3_0_8
+#+0f: 0, 3, 7, 8, 9
+#+1f: 1, 2, 4, 5, 6
 
-#ta3_0_0
+#ta3_0
 #minimum
   13
    1,D
@@ -793,8 +795,8 @@ play,ta3_0_8
 #end_ta3_0
 play,endbranch_ta3
 
-#ta3_1_1
-#+.00122
+#ta3_1
+#+.00116
   13
    1,D
   41
@@ -812,8 +814,8 @@ play,endbranch_ta3
 #end_ta3_1
 play,endbranch_ta3
 
-#ta3_1_2
-#+.00315
+#ta3_2
+#+.00305
    4,R
   48
    2,R
@@ -834,8 +836,8 @@ play,endbranch_ta3
 #end_ta3_2
 play,endbranch_ta3
 
-#ta3_0_3
-#+.00518
+#ta3_3
+#+.00513
   13
    1,D
   40
@@ -851,8 +853,8 @@ play,endbranch_ta3
 #end_ta3_3
 play,endbranch_ta3
 
-#ta3_1_4
-#+.00724
+#ta3_4
+#+.00720
   13
    1,D
   40
@@ -871,8 +873,8 @@ play,endbranch_ta3
 #end_ta3_4
 play,endbranch_ta3
 
-#ta3_1_5
-#+.00884
+#ta3_5
+#+.00879
   13
    1,D
   42
@@ -890,8 +892,8 @@ play,endbranch_ta3
 #end_ta3_5
 play,endbranch_ta3
 
-#ta3_1_6
-#+.01188
+#ta3_6
+#+.01172
    4,R
   44
    2,R
@@ -916,8 +918,8 @@ play,endbranch_ta3
 #end_ta3_6
 play,endbranch_ta3
 
-#ta3_0_7
-#+.01299
+#ta3_7
+#+.01294
    4,R
   46
    2,R
@@ -943,8 +945,8 @@ play,endbranch_ta3
 #end_ta3_7
 play,endbranch_ta3
 
-#ta3_0_8
-#+.01421
+#ta3_8
+#+.01428
   12
    1,D
   39
@@ -961,8 +963,8 @@ play,endbranch_ta3
 #end_ta3_8
 play,endbranch_ta3
 
-#ta3_0_9
-#+.01525
+#ta3_9
+#+.01513
   54
    8,J
    2,R
