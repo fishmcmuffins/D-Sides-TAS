@@ -1,8 +1,9 @@
 console load nameguysdsidespack/0/10-Farewell e-05 1
-
-#console load nameguysdsidespack/0/10-Farewell 62244 -9659
-#play,Section f-09,37
    1
+
+Set,Level.TimeActive,256
+#512 has same TADelta
+
 #lvl_e-05
   36
   24,L
@@ -170,7 +171,7 @@ console load nameguysdsidespack/0/10-Farewell e-05 1
 #branch_ta1
 
 #ta1_0
-#minimum
+#+.01092
   34,R,J
   13,L
    2
@@ -187,7 +188,7 @@ console load nameguysdsidespack/0/10-Farewell e-05 1
 play,endbranch_ta1
 
 #ta1_1
-#+.00567
+#minimum
   29,R,J
   18,L
   21,R,Z
@@ -199,7 +200,7 @@ play,endbranch_ta1
 play,endbranch_ta1
 
 #ta1_2
-#+.01041
+#+.00476
   30,R,J
   17,L
   21,R,Z
@@ -212,6 +213,8 @@ play,endbranch_ta1
 #endbranch_ta1
   15,L,C
 #branch_ta2
+
+play,ta2_3
 
 #ta2_0
 #minimum
@@ -242,7 +245,7 @@ play,endbranch_ta1
 play,endbranch_ta2
 
 #ta2_1
-#+.00118
+#+.00116
   37,G
    5
    2,R
@@ -264,7 +267,7 @@ play,endbranch_ta2
 play,endbranch_ta2
 
 #ta2_2
-#+.00193
+#+.0196
   36,G
    5
    2,R
@@ -284,7 +287,7 @@ play,endbranch_ta2
 play,endbranch_ta2
 
 #ta2_3
-#+.00335
+#+.00333
    8
   24,G
    4,U,G
