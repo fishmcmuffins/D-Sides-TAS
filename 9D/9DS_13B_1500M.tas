@@ -69,7 +69,288 @@ Read,9D_13B,Start,lvl_m-03
   40,J
 
 #lvl_m-04
-Read,9D_13B,lvl_m-04,lvl_m-08
+Read,9D_13B,lvl_m-04,lvl_m-06
+
+#lvl_m-06
+   3,R
+   2,R,K
+  13,R,D,X
+   9,R,J
+   1,R
+   9,R,K,G
+   6,R
+   8,R,K
+   8,R
+  25,R,J,G
+   6,R
+  12,R,U,X
+   8,K,G
+   1,R,K
+   1,K
+   1,R,K
+   1,L,K
+   1,R,K
+  16,R,J,G
+  10,R,K,G
+  18,R
+   4,R,D
+#ta1 would go here
+#but do not use this
+#for manip, for your
+#own sanity's sake
+  29,L,D
+   2,L
+  38,R
+  10,U,X
+  13,R,J
+   8,R
+   2,R,J
+  13,R
+   7,R,D
+   1,G
+   1
+   1,R,D
+   6,G
+   2,D,G
+  12,R,K,G
+   1,J
+  10,R
+  27,R,Z
+  22,R,U,X
+  26,R,C
+  24,R,D,X
+#branch_ta2
+
+#all +0f
+
+#ta2_0
+#minimum
+   5,R
+   4,R,D
+   2,R
+  28,R,X
+  20,R,U,C
+  16,U,Z
+   1,R
+  12,J
+   2,R,J
+   3,R
+   5
+  15,R,X
+  15,R,D,C
+   4,Z
+#end_ta2_0
+play,endbranch_ta2
+
+#ta2_1
+#+.00178
+   5,R
+   6,R,D
+  28,R,X
+  20,R,U,C
+  16,U,Z
+   1,R
+  12,J
+   3,R,J
+   2,R
+   5
+  15,R,X
+  15,R,D,C
+   4,Z
+#end_ta2_1
+play,endbranch_ta2
+
+#ta2_2
+#+.00349
+   6,R
+   4,R,D
+  29,R,X
+  20,R,U,C
+  16,U,Z
+   1,R
+  12,J
+   2,R,J
+   3,R
+   5
+  15,R,X
+  15,R,D,C
+   4,Z
+#end_ta2_2
+play,endbranch_ta2
+
+#ta2_3
+#+.00477
+   6,R
+   6,R,D
+  27,R,X
+  20,R,U,C
+  16,U,Z
+   1,R
+  12,J
+   2,R,J
+   3,R
+   5
+  15,R,X
+  15,R,D,C
+   4,Z
+#end_ta2_3
+play,endbranch_ta2
+
+#ta2_4
+#+.00593
+   9,R
+   1,R,D
+  30,R,X
+  19,R,U,C
+  16,U,Z
+   1,R
+  12,J
+   2,R,J
+   3,R
+   5
+  15,R,X
+  15,R,D,C
+   4,Z
+#end_ta2_4
+play,endbranch_ta2
+
+#ta2_5
+#+.00641
+   2,R
+   1,R,D
+   2,R
+   3,R,D
+   1,R
+  30,R,X
+  20,R,U,C
+  16,U,Z
+   1,R
+  12,J
+   2,R,J
+   2,R
+   6
+  15,R,X
+  15,R,D,C
+   4,Z
+#end_ta2_5
+play,endbranch_ta2
+
+#ta2_6
+#+.00689
+  11,R
+  29,R,X
+  19,R,U,C
+  16,U,Z
+   1,R
+  13,J
+   1,R,J
+   8,R
+  15,R,X
+  15,R,D,C
+   4,Z
+#end_ta2_6
+play,endbranch_ta2
+
+#ta2_7
+#+.00836
+   8,R
+   3,R,D
+  29,R,X
+  19,R,U,C
+  16,U,Z
+   1,R
+  12,J
+   2,R,J
+   4,R
+   4
+  15,R,X
+  15,R,D,C
+   4,Z
+#end_ta2_7
+play,endbranch_ta2
+
+#ta2_8
+#+.00940
+   7,R
+   4,R,D
+  29,R,X
+  19,R,U,C
+  16,U,Z
+   1,R
+  12,J
+   2,R,J
+   4,R
+   4
+  15,R,X
+  15,R,D,C
+   4,Z
+#end_ta2_8
+play,endbranch_ta2
+
+#ta2_9
+#+.01186
+   2,R
+   1,R,D
+   2,R
+   4,R,D
+   3,R
+  23,R,X
+   3
+   8,U,C
+  23,R,J
+  12,U,Z
+   4,K
+  12,R,K
+  15,R,X
+  15,R,D,C
+   5,R,Z
+#end_ta2_9
+play,endbranch_ta2
+
+#ta2_10
+#+.01381
+   2,R
+   1,R,D
+   2,R
+   5,R,D
+   2,R
+  26,R,X
+   8,U,C
+  23,R,J
+  12,U,Z
+   4,K
+  12,R,K
+  15,R,X
+  15,R,D,C
+   5,R,Z
+#end_ta2_10
+play,endbranch_ta2
+
+#ta2_11
+#+.01489
+  12,R
+  28,R,X
+  19,R,U,C
+  16,U,Z
+   1,R
+  12,J
+   3,R,J
+   1,R
+   6
+  15,R,X
+  15,R,D,C
+   4,Z
+#end_ta2_11
+play,endbranch_ta2
+
+#endbranch_ta2
+   4,R,J
+   4,K,G
+   3,R
+  40
+
+#lvl_m-07
+Read,9D_13B,lvl_m-07,lvl_m-08
 
 #lvl_m-08 (1)
    6,R
@@ -92,8 +373,8 @@ Read,9D_13B,lvl_m-04,lvl_m-08
 #hazardcycle_m-08s
 #comment out next 2 lines
 #to access stunless route
-#   2
-#play,endhazardcycle_m-08s
+   0
+play,endhazardcycle_m-08s
 
 #====================
 
@@ -269,9 +550,225 @@ EndStunPause
   40
 
 #lvl_m-09
-Read,9D_13B,lvl_m-09,Time
+Read,9D_13B,lvl_m-09,lvl_m-11
 
+#lvl_m-11
+  11,R
+   8,R,D,X
+   4,R,K
+   4,R
+#branch_ta3
+
+#+0f: 0, 3, 7, 8, 9
+#+1f: 1, 2, 4, 5, 6
+
+#ta3_0
+#minimum
+  13
+   1,D
+  40
+   1,D
+  10,J
+   2
+  16,U,Z
+  63,R,J
+  40,R
+  15,R,Z
+  21,R
+#end_ta3_0
+play,endbranch_ta3
+
+#ta3_1
+#+.00116
+  13
+   1,D
+  41
+   1,D
+  10,J
+   1
+  17,U,Z
+  56,R,J
+   6,R,D
+  24,R
+   2,R,J
+  15,R
+  15,R,Z
+  21,R
+#end_ta3_1
+play,endbranch_ta3
+
+#ta3_2
+#+.00305
+   4,R
+  48
+   2,R
+   2,D
+   4,L,J
+   1,J
+   3,L,J
+   2,J
+  16,U,X
+  40,R,K
+   4,K
+  19,R,K
+  24,R
+   4,R,J
+  12,R
+  15,R,Z
+  23,R
+#end_ta3_2
+play,endbranch_ta3
+
+#ta3_3
+#+.00513
+  13
+   1,D
+  40
+  11,J
+   2
+  15,U,Z
+  50,R,K
+   4
+   9,R
+  41,R
+  15,R,Z
+  21,R
+#end_ta3_3
+play,endbranch_ta3
+
+#ta3_4
+#+.00720
+  13
+   1,D
+  40
+   1,D
+  10,J
+   2
+  16,U,Z
+  50,R,J
+   4
+   8,R
+  24,R
+   4,R,J
+  13,R
+  15,R,Z
+  22,R
+#end_ta3_4
+play,endbranch_ta3
+
+#ta3_5
+#+.00879
+  13
+   1,D
+  42
+   9,J
+  19,U,Z
+  52,R,J
+   1
+   1,D
+   7,R,D
+  24,R
+   4,R,J
+  13,R
+  15,R,Z
+  22,R
+#end_ta3_5
+play,endbranch_ta3
+
+#ta3_6
+#+.01172
+   4,R
+  44
+   2,R
+   2,D
+   3,L,J
+   1,J
+   2,L,J
+   1,J
+   1,L,J
+   4,J
+   2
+  16,U,Z
+  36,R,K
+   3,K
+   1,R,K
+   1,K
+  23,R,K
+  40,R
+  15,R,Z
+  15,R
+   7,R,D
+#end_ta3_6
+play,endbranch_ta3
+
+#ta3_7
+#+.01294
+   4,R
+  46
+   2,R
+   2,D
+   3,L,J
+   1,J
+   2,L,J
+   1,J
+   1,L,J
+   3,J
+   1,L,J
+  16,U,Z
+  36,R,K
+   2,K
+   1,R,K
+   1,K
+   3,R,K
+   1,K
+  20,R,K
+  40,R
+  15,R,Z
+  21,R
+#end_ta3_7
+play,endbranch_ta3
+
+#ta3_8
+#+.01428
+  12
+   1,D
+  39
+   8,J
+   6
+  16,U,X
+   1,L
+  36,R,J
+  27,R
+  40,R
+  15,R,Z
+  14,R
+   7,R,D
+#end_ta3_8
+play,endbranch_ta3
+
+#ta3_9
+#+.01513
+  54
+   8,J
+   2,R
+  19,U,X
+  63,R,J
+  40,R
+  15,R,Z
+  14,R
+   7,R,D
+#end_ta3_9
+play,endbranch_ta3
+
+#endbranch_ta3
+   5,R,Z
+   2,R,J
+   5,R
+  40
+
+#lvl_m-12
+Read,9D_13B,lvl_m-12,Time
 #Time
-MidwayFileTime: 1:32.327(5431)
+MidwayFileTime: 1:31.392(5376)
 
 Read,9D_13B,Time
