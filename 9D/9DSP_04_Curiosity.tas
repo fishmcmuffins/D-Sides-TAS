@@ -15,100 +15,21 @@ console give_dsides_plat
   11,R
   13,U,X
 #Start
-  96,R
-   7,R
-   7,R,Z
-   1,R,J
-   3
-  40
-
-#lvl_cc-00-lobby (1)
-   2,L
-   1,K,G
-   2,R,K
-   9,K
+Read,9DS_04,Start,keycycle_cc-00-lobby
 #keycycle_cc-00-lobby_1
- 112,K,G
-  21,L,K
-  70,D
+  59,G
 #endkeycycle_cc-00-lobby_1
-   9,D,J
-   3
-  12,K,G
-  11,J,G
-   1,K,G
-  10
-  32,R,D
-  16,D
-  37,R,D,X
-   8,R
-   3
-  10,L,D,X
-  40
-
-#lvl_cc-03
-   5,L,D
-  10,L,D,X
-   1,L,J
-   4,L
-  12,L,D,X
-   1,L,J
-   1,L,K,G
-   5,L,K
-   4,G
+Read,9DS_04,endkeycycle_cc-00-lobby,hazardcycle_cc-03
 #hazardcycle_cc-03
    1,G
 #endhazardcycle_cc-03
+Read,9DS_04,endhazardcycle_cc-03,branch_deathless
+
+#lvl_cc-03
   15,D,X
-  14,R,D
-   7,R,Z
-#stun_cc-03
-StunPause
-   1,R,J
-   4,R
-   1,R,J
-   7,R
-   1
-   1,R
-   8,D
-   1
-   6,D
-   2,L
-EndStunPause
-#endstun_cc-03
-   4,L
-  35,L,D
-   1,L
-  18
-  77
-  10,R,X
+   7,R,D
+  20,D
   20,R
-  77
-  25,R,D
-  12,R
-   1,R,J,G
-  14,R
-   4,R,Z
-   1,R,J
-  10,R
-   7,L,J
-  16,L
-  10,R
-   3,R,J
-  10,L,D,X
-   1,R,J
-   9,R
-#keycycle_cc-03
-  53,R,G
-#endkeycycle_cc-03
-   1
-   1,J
-  15
-   7,R,X
-   1,R,J,G
-  15,R,D
-   8,L,D
-  10,L
   77
   10,L,D,X
    2,L,J
@@ -140,7 +61,7 @@ EndStunPause
   11,U,X
   40
 
-#lvl_cc-00-lobby (2)
+#lvl_cc-00-lobby
    6,R,J
   12,J
   15,U,X
@@ -165,7 +86,7 @@ EndStunPause
   10,L
    4
 #keycycle_cc-00-lobby_2
-  87,D
+  88,D
 #endkeycycle_cc-00-lobby_2
   12,D,J
   11,K,G
@@ -222,5 +143,5 @@ Read,9D_04,endhazardcycle_cc-07,hazardcycle_d-03
   25,R,Z
   16,R,V
 #Time
-MidwayFileTime: 0:55.675(3275)
+MidwayFileTime: 0:56.831(3343)
   40
