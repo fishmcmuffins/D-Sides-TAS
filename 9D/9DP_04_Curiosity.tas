@@ -76,18 +76,21 @@ EndStunPause
    3,R,J
   10,L,D,X
    1,R,J
-   9,R
+  10,R
+   6,R,G
+   2,U,G
 #keycycle_cc-03
-  54,R,G
+  37,R,G
 #endkeycycle_cc-03
    1
    1,J
-  15
+  20
    7,R,X
-   1,R,J,G
-  15,R,D
-   8,L,D
-  10,L
+   2,R,J,G
+  19,R
+  11,R
+   2,D
+   2,R,D
   77
   10,L,D,X
    2,L,J
@@ -151,7 +154,7 @@ EndStunPause
    7,L,J
    2,L,K,G
    4,L
- 196
+ 197
    3,R,D,J
    9,L,J
   11,K,G
