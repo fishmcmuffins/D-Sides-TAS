@@ -7,10 +7,38 @@ Set,Player.StateMachine.State,10
    1
   40
 
+console give_dsides_plat
+
 #lvl_m-13
 Set,Level.TimerStarted,true
 #Start
-Read,9D_14A,Start,lvl_n-07
+Read,9D_14A,Start,hazardcycle_n-05
+#hazardcycle_n-05
+   1
+#endhazardcycle_n-05
+Read,9D_14A,endhazardcycle_n-05,stun_n-05
+#stun_n-05
+   6,R
+   1,S
+  11,R,J
+   1,R
+   1,R,D,K
+StunPause
+   4,R,D,K
+   3,R
+   2,R,J,G
+   1,J
+   1,R,J
+EndStunPause
+   3,R,J
+StunPause
+   5,R,J
+   5,R
+   4,L,K,G
+EndStunPause
+   1,K
+#endstun_n-05
+Read,9D_14A,endstun_n-05,lvl_n-07
 
 #lvl_n-07
   10,R,J,G
@@ -77,8 +105,24 @@ Read,9D_14A,Start,lvl_n-07
 
 #lvl_n-08
 Read,9D_14A,lvl_n-08,hazardcycle_n-12
+#hazardcycle_n-12
    2
-Read,9D_14A,endhazardcycle_n-12,Time
+#endhazardcycle_n-12
+Read,9D_14A,endhazardcycle_n-12,stun_n-12
+#stun_n-12
+   4,R,D,X
+StunPause
+   2,R,D,X
+   1,R
+SkipInput 3 1
+   5,R,U,C
+SkipInput 3
+   9,R,U,C
+   3,R,K,G
+EndStunPause
+   1,R,K
+#endstun_n-12
+Read,9D_14A,endstun_n-12,Time
 
 #Time
 MidwayFileTime: 2:15.779(7987)
