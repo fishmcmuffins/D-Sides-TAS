@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 876
+RecordCount: 882
 
 console hearts 8
 
@@ -370,8 +370,6 @@ Read,9D_13A,endkeycycle_l-04
 #TimeActive in m-06
 
 Read,9D_13B,Start,branch_ta2
-#thoroughly check 4+ if these
-#dont normally work out :3
 Read,9D_13B,ta2_9,end_ta2_9
 Read,9D_13B,endbranch_ta2,lvl_m-11
 #lvl_m-11
@@ -651,7 +649,71 @@ Read,9DP_27A,Start
 #affects where exactly it detaches
 #(Currently affects platinum-9)
 
-Read,9DP_27B,Start,lvl_end-platinum-9
+Read,9DP_27B,Start,lvl_end-platinum-8
+
+#lvl_end-platinum-8
+   1,R
+   1,R,K
+   4,R
+   4,R,D,J
+   3,R
+   3,K
+   4,J
+   1
+   5,R
+   8
+   9,R
+   4,R,K
+   6,R
+   9,R,J
+   5,R
+   2,R,J
+  12,R
+  19,R,D
+   8,D
+   1,L,D
+  15,R,D,X
+  15,R,Z
+  16,R,U,V
+  15,U,X
+   5,J,G
+   5,R,J
+   1,R,K,G
+   1,R,J,G
+  12,R
+   6
+   4,D
+  11,R,D
+   1,D
+   8,R,D
+   6,R,K
+   7,L,K
+   9,J,G
+   1,L,J
+   2,R,J
+   1,K
+  10,R,K
+   1,J,G
+   2,R,J
+   1,L
+  14,R,K,G
+   1,R,J,G
+   1,R,K,G
+   2
+  16,R
+  10,R,D
+   1
+  12,R
+   4,R,D
+  16,U,X
+  16,J
+   2,R,J
+   5,R,K,G
+  13,R
+   1,R,J
+  14,R
+   7,R,J
+  40
 
 #lvl_end-platinum-9
    1,R,J
@@ -779,8 +841,4 @@ Read,9DP_27B,lvl_end-platinum-10
 
 #==========================
 
-
-ChapterTime: 49:38.468(175204)
-
-
-#ChapterTime: 50:21.818(177754)
+ChapterTime: 49:38.502(175206)
