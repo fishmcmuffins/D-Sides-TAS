@@ -8,7 +8,7 @@ console give_dsides_plat
   10,R,Z
 
 #hazardcycle_dd-00-lobby
-   0
+   0,R,Z
 
 #Start
 Read,9DSP_07,Start,stun_dd-00-lobby
@@ -38,9 +38,23 @@ SkipInput 3 1
    6,K,G
 EndStunPause
 #endstun_dd-00-lobby
-Read,9DSP_07,endstun_dd-00-lobby,Time
+Read,9DSP_07,endstun_dd-00-lobby,lvl_e-00
 
+#lvl_e-00
+Read,9DS_07,lvl_e-00,any%_e-01
+Read,9D_07,endroute_e-00,lvl_e-05
+
+#lvl_e-05
+   7,R,K,G
+  33,R
+  27,R,U,X
+  10
+   4,R,Z
+   8,R,J
+   1,L
+   6,R
+   1,R,J
+   2,R
 #Time
-MidwayFileTime: 0:34.714(2042)
-
-Read,9DSP_07,Time
+MidwayFileTime: 0:34.850(2050)
+  40
