@@ -101,47 +101,8 @@ Read,9D_04,lvl_cc-06,hazardcycle_cc-07
 #hazardcycle_cc-07
    1
 #endhazardcycle_cc-07
-Read,9D_04,endhazardcycle_cc-07,hazardcycle_d-03
+Read,9D_04,endhazardcycle_cc-07,Time
 
-#hazardcycle_d-03
-   4,Z
-   2,R,J
-   8,R
-   1,R,J
-   4,Z
-   1,R,J
-   7,R
-  40
-
-#lvl_d-01
-   2,R,J
-   1,R
-   5,R,D,X
-   1,R,J,G
-   1
-  10,R
-   3,R,J
-   8,R
-   1,R,K,G
-   2,R
-   1
-   6,R
-   9,R,J
-   5,R
-   3,R,J
-   3,R
-   2
-   1,R
-   1
-  18,R,U,X
-  15,R,C
-  16,U,X
-  54,R,D
-   1,R
-   1,R,D
-   1,R
-  25,R,Z
-  16,R,V
 #Time
 MidwayFileTime: 0:56.831(3343)
-  40
+Read,9D_04,Time
