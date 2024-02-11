@@ -169,9 +169,9 @@ console load nameguysdsidespack/0/10-Farewell 135764 -35048
   18,U,X
    8
   16,R,U,X
-  14,L
+  15,L
   15,U,X
-   7,L
+   4,L
    6,R
   12,U,X
   42,L,D
@@ -179,19 +179,20 @@ console load nameguysdsidespack/0/10-Farewell 135764 -35048
    2,L,D
    4,D,X
   11,L,X
-   1
-  18,R,J,G
+   1,R
+  17,R,J,G
    1
    6,R,U,X
   25,L
-  14,U,X
-   9,R
-  17,L,U,X
+  15,U,X
+   2,L
+   8,R
+  15,L,U,X
    1
-  14,U,X
-   5,R
-  17,R,X
-   4
+  13,U,X
+   6,R
+  15,R,X
+   5,L
    5,R,D,X
    1,R,J
    1,R
@@ -199,10 +200,9 @@ console load nameguysdsidespack/0/10-Farewell 135764 -35048
    2,R
    9,R,J
    3,R,K,G
-
-#nice
   15,R,J,G
-   3,K,G
+   2,K,G
+   1
    5,R,X
   19,L
   19,L,U,X
@@ -233,10 +233,9 @@ console load nameguysdsidespack/0/10-Farewell 135764 -35048
    9,R,D,X
   19,R
   14,R,Z
-#+3f moonblock cycle
-   2,R,J
-   4
-  17,R,U,X
+#+7f moonblock cycle
+   4,J
+  23,R,U,X
   97
 
 #CP-68
@@ -353,8 +352,7 @@ console load nameguysdsidespack/0/10-Farewell 135764 -35048
   15,U,X
    1,R
    7,L
-   1
-   1
+   2
    1,J,G
    1,R,J
   15,R,K
@@ -386,7 +384,6 @@ console load nameguysdsidespack/0/10-Farewell 135764 -35048
    1,R,K
    4,J,G
    8,L,J
-
    1,L,K,G
    2,R,K
    2,K
