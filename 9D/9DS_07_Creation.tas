@@ -487,7 +487,7 @@ EndStunPause
    3,R,X
    6,D,C
    7,L,X
-#endroute_e-00
+#any%_e-01
 Read,9D_07,endroute_e-00,Time
 
 #Time
