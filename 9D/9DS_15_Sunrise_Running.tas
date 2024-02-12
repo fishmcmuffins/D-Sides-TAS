@@ -33,11 +33,53 @@ console load nameguysdsidespack/0/10-Farewell 135995.7 -35061
    5,R
    1,L
 
-Read,9D_15,CP-74,nice
+#CP-74
+Read,9D_15,CP-74,CP-70
 
-#nice
-  15,R,J,G
+#CP-70
+   4,D,X
+   1,R,X
+   1,R,J
+   4,R
+   1,R,J
+  13,J
+  18,U,X
+   8
+  16,R,U,X
+  15,L
+  15,U,X
+   4,L
+   6,R
+  12,U,X
+  42,L,D
+   5,D
+   2,L,D
+   4,D,X
+  11,L,X
+   1,R
+  17,R,J,G
+   1
+   6,R,U,X
+  25,L
+  15,U,X
+   2,L
+   8,R
+  15,L,U,X
+   1
+  13,U,X
+   6,R
+  15,R,X
+   5,L
+   5,R,D,X
+   1,R,J
+   1,R
+   1,R,J
+   2,R
+   9,R,J
    3,R,K,G
+  15,R,J,G
+   2,K,G
+   1
    5,R,X
   19,L
   19,L,U,X
@@ -291,7 +333,7 @@ Read,9D_15,CP-56,CP-54
 Read,9D_15,lvl_p-05,Time
 
 #Time
-MidwayFileTime: 2:09.353(7609)
+MidwayFileTime: 2:09.285(7605)
 
 Read,9D_15,Time
 
