@@ -1,8 +1,10 @@
 console load nameguysdsidespack/0/10-Farewell 145652 -39958
    1
+
+#lvl_p-05
   36
 #hazardcycle_CP-37
-   2,R,G
+   0,R,G
 #-----------
    1,R,G
    3,R,J,G
@@ -408,8 +410,8 @@ console load nameguysdsidespack/0/10-Farewell 145652 -39958
 #TODO remove this comment
 Read,9DP_16,lvl_q-02,stun_CP-37_1
 #stun_CP-37_1
-StunPause
    2,R
+StunPause
   11,R,U
 SkipInput 3 1
   15,R,Z
@@ -435,6 +437,6 @@ EndStunPause
 Read,9DP_16,endstun_CP-37_2,Time
 
 #Time
-MidwayFileTime: 2:32.677(8981)
+MidwayFileTime: 2:31.147(8891)
 
 Read,9DP_16,Time
