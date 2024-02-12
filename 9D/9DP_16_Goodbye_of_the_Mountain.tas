@@ -1,12 +1,14 @@
 console load nameguysdsidespack/0/10-Farewell 145652 -39958
    1
+
+#lvl_p-05
   36
 
 console give_dsides_plat
 
-#hazardcycle
+#hazardcycle_CP-37
    1,R,G
-
+#-----------
    1,R,G
    3,R,J,G
   40
@@ -412,6 +414,6 @@ EndStunPause
 Read,9D_16,lvl_q-05,Time
 
 #Time
-MidwayFileTime: 2:32.150(8950)
+MidwayFileTime: 2:30.790(8870)
 
 Read,9D_16,Time
