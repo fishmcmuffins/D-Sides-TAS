@@ -326,60 +326,64 @@ Read,9D_09,Start,lvl_f-17
 #lvl_g-04
 Read,9D_09,lvl_g-04,hazardcycle_g-06
 #hazardcycle_g-06
-   0
+   1
 #endhazardcycle_g-06
 Read,9D_09,endhazardcycle_g-06,stun_g-06
 #stun_g-06
-   2,R,D,X
-   2,R,D
+   4,R,D,X
 StunPause
-   4,R,D
+   4,R
 EndStunPause
 #endstun_g-06
 Read,9D_09,endstun_g-06,stun_g-09
 #stun_g-09
+   2,R
 StunPause
-   1,R,J
-SkipInput 3 1
-   8,R,D,X
+   2,R
 EndStunPause
-   9,R,D
-   1,R
-   1,R,D
+  10,R,D
+   1,R,J,G
 StunPause
-   3,R,J,G
+   2,R,J,G
 EndStunPause
 #endstun_g-09
-   7,R,J
+   7,R,J,G
   40
 
 #lvl_h-01
-  14,R,J
+   1,R,J
+  14,R
 #stun_h-01
-   3,R,J
+   1,R
 StunPause
-   5,R,J
-EndStunPause
-StunPause
-   6,R,J
+   6,R
+   2,R,D
 EndStunPause
 #endstun_h-01
 Read,9D_09,endstun_h-01,hazardcycle_h-03
 #hazardcycle_h-03
-   2
+   1
 #endhazardcycle_h-03
 Read,9D_09,endhazardcycle_h-03,stun_h-03
 #stun_h-03
+   2,R,D,X
 StunPause
-   4,R
+   2,R,D,X
 EndStunPause
-   1,R
+   1,R,D,X
    7,R,D,K
   13,R,D,X
 #endstun_h-03
 Read,9D_09,endstun_h-03,Time
 
 #Time
-MidwayFileTime: 1:34.571(5563)
 
-Read,9D_09,Time
+
+
+MidwayFileTime: 1:31.205(5365)
+
+
+
+#MidwayFileTime: 1:34.571(5563)
+
+#Read,9D_09,Time
