@@ -1,6 +1,6 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
-RecordCount: 14514
+RecordCount: 14523
 console load nameguysdsidespack/0/10-Farewell 213185 -52448
    1
 
@@ -27,7 +27,11 @@ console givekey
 
 #Start
 #lvl_v-99
-Read,9D_23,Start,lvl_y-06 (1)
+Read,9D_23,Start,hazardcycle_y-08
+#hazardcycle_y-08
+   1
+#endhazardcycle_y-08
+Read,9D_23,endhazardcycle_y-08,lvl_y-06 (1)
 
 #lvl_y-06 (1)
    1,L,J
@@ -120,7 +124,18 @@ Read,9D_23,Start,lvl_y-06 (1)
   40
 
 #lvl_y-06b
-Read,9D_23,lvl_y-06b,lvl_y-10 (1)
+Read,9D_23,lvl_y-06b,stun_y-08
+#stun_y-08
+   1,R
+StunPause
+   6,R
+   1,R,K
+   1,R
+   2,R,K
+EndStunPause
+   1,R,K
+#endstun_y-08
+Read,9D_23,endstun_y-08,lvl_y-10 (1)
 
 #lvl_y-10 (1)
 play,route_y-15s
@@ -183,7 +198,7 @@ play,lvl_y-15s
 
 #lvl_y-15s
 #keycycle_y-15s
- 105,D
+ 119,D
 #endkeycycle_y-15s
 Read,9D_23,endkeycycle_y-15s,Right-Up.1
 
@@ -248,7 +263,7 @@ Read,9D_23,Right-Up.3,Up.Key
   15,U,Z
    1,R
 #keycycle_up-key
-  61
+  42
 #endkeycycle_up-key
    7,L,D,X
    1,R,J
@@ -325,4 +340,4 @@ Read,9D_23,collect,lvl_v-00-upperer-b
 Read,9DP_22,lvl_w-00-point-of-no-return,Time
 
 #Time
-MidwayFileTime: 4:20.457(15321)
+MidwayFileTime: 4:14.898(14994)
