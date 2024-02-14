@@ -254,15 +254,13 @@ console load nameguysdsidespack/0/10-Farewell 135764 -35048
    1,R
   14,R,X
   10,R,J,G
-   8,R,K,G
-   8,R
-   4,R,K
+   9,R,K,G
+   1,R
+  11,R,J
   15,U,X
-   4,R
-  15,U,X
-   3,R
+  16,U,C
   12,R,J,G
-   3,K,G
+   6,K,G
    5,J,G
    3
    3,R
@@ -955,7 +953,7 @@ AnalogMode,Precise
   12,R,J,G
   13,R,K,G
 #Time
-MidwayFileTime: 2:02.961(7233)
+MidwayFileTime: 2:02.927(7231)
   40
 
 AnalogMode Ignore
