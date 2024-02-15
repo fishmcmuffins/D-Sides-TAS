@@ -11,7 +11,7 @@ console load nameguysdsidespack/0/10-Farewell j-00
 
 #comment this out for no-key route
 #(will have to change spinner cycle)
-#play,route_key
+play,route_key
 
 #=================
 #route_no-key
