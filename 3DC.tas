@@ -1,0 +1,50 @@
+RecordCount: 11943
+
+console load nameguysdsidespack/0/3-Resort
+   1
+
+#Start
+  92
+
+#lvl_a-00
+   2,L,J
+   9,L,Z
+   1,L,J
+   6,L
+   2,L,J
+  14,L,D,X
+   1,L,J
+   6,L
+   1,L,J
+   3,L
+  13,L,U,X
+  39,L,J,G
+   1,L,K,G
+   3,R,K
+   5,L,K
+   1,L,J,G
+   8,L,K,G
+  19,L
+  12,L,J
+   5,L
+   4,L,J
+  36,L
+  14,L,D,X
+  19,L,J
+  13,U,Z
+  15,L,J
+   8,L
+   5,L,J
+   7,L
+   4,L,Z
+   1,L,J
+   7,L
+   3,L,J
+   9,L,U,X
+ 258
+   1,J
+  62
+   1,Q
+  32,J
+
+FileTime: 0:12.155(715)
