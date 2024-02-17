@@ -332,7 +332,7 @@ console load nameguysdsidespack/0/2-Oldsite
    1,K
   40
 
-#lvl_b-05
+#lvl_c-01
    4,R,J,G
    5,R
    4,R,J
@@ -370,7 +370,7 @@ console load nameguysdsidespack/0/2-Oldsite
    5,R,D,X
   40
 
-#lvl_c-01
+#lvl_c-02
    9,R,D,X
    1,R,J
   30,R,D,X
@@ -405,7 +405,7 @@ console load nameguysdsidespack/0/2-Oldsite
    1,R
   40
 
-#lvl_c-02
+#lvl_c-03
   30,R,D
    5,R,D
    2,R,J
@@ -491,7 +491,7 @@ console load nameguysdsidespack/0/2-Oldsite
    1,R,J
   40
 
-#lvl_c-03
+#lvl_c-04
   36,R,D
   13,R,U,Z
    1,L
