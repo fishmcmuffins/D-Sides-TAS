@@ -1,4 +1,4 @@
-RecordCount: 1985
+RecordCount: 2022
 
 console load nameguysdsidespack/0/4-Ridge
    1
@@ -857,8 +857,6 @@ console load nameguysdsidespack/0/4-Ridge
   11,K,G
    2,R
   23,R,J
-
-
   15,U,X
    9,J
    2,L,G
@@ -880,8 +878,6 @@ console load nameguysdsidespack/0/4-Ridge
    2,L
    4,L,K,G
    7,L
-
-
    9,R,Z
    1,L,J
    6,L
@@ -926,16 +922,17 @@ console load nameguysdsidespack/0/4-Ridge
    9,K,G
    1,L,K
   12,R,J,G
-   1,K,G
+   1,K
   10,R,K
+   2
   40
 
 #lvl_c-04n
-   7,R
+   5,R
    1,J,G
    1
-   2,L
-   6,L,D,X
+   4,L
+   4,L,Z
    1,L,J
    7,L
    3,L,J
