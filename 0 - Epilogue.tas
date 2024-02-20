@@ -89,24 +89,30 @@ console load nameguysdsidespack/0/9-Epilogue
    3,L,J
    1,J
    4,L,J
-
-   8,L,K
-   2,L
-   1,L,J
-  11,L,K
+   9,L,K
+  40,L
+   1
+  15,L
+   6,L,G
+   2,R
+  15,L
+   5,L,J,G
+  15,L
+   7,L,J
    5,L
-  10,L,J
-  22,L,D,K
-  30,L
-   4
-  17,L
-  12,L,U,G
-   4,L,G
+   1,L,J
+   4,L
+   1,L,J
+   4,L
+  16,L,U,G
+   1,L
    1,L,J,G
-   2,L,K,G
-  16,L,J,G
-   5,L,K,G
+   1,L
+  12,L,K,G
+   5,L
+   4,L,J,G
    7,L
+   1
    2,J
    9,L,J
    1,L,K,G
@@ -162,7 +168,7 @@ console load nameguysdsidespack/0/9-Epilogue
    7,L
   40
 
-#lvl_house
+#lvl_house (1)
   10,L
    1,L,J
   18,L
@@ -184,12 +190,18 @@ console load nameguysdsidespack/0/9-Epilogue
    5,L
    1,L,J
    4,L,K,G
-  40
+  43
 
 #lvl_b-01
-  24,L,J
-  22,L
-  11,L,D
+   8,L,K
+   5,L
+   5,L,J
+   3,R,J
+   1,L,J
+  18,R,D
+  15,L,X
+   8,L
+  10,D
   15,U,X
   16,L
   15,R,U,Z
@@ -366,19 +378,26 @@ console load nameguysdsidespack/0/9-Epilogue
   57,R,K
    5,R,J
   21,R,D
-  10,L,D
-  55,L
-   3,J,G
-  28,L,K,G
-   9,D
-   3,R,D
-   8,R
+   8,L,D
+  57,L
+   1,L,J,G
+   7,L,K,G
+   5,L
+   1,L,J
+   7,L
+  10,R,D
+   1
+   1,R,D
+   3,R
+   1,R,D
+   2,R
   23,L
    1
    3,L
    1,L,K,G
-   2,K
-   3,R,K
+   7,K
+   2,R,K
+   1,R
    1,L
    1,L,J,G
    1,L,K,G
@@ -482,11 +501,11 @@ console load nameguysdsidespack/0/9-Epilogue
   25,D
   40
   
-#lvl_house (1)
+#lvl_house (2)
   73,D
   22,L,D
   23,L,D,X
    1,L,J,G
  115,L,G
 
-ChapterTime: 1:08.187(4011)
+ChapterTime: 1:08.697(4041)
