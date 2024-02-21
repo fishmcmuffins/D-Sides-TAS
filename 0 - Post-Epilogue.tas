@@ -2,14 +2,13 @@ console load nameguysdsidespack/0/11-SecondEpilogue
    1
 
 #lvl_slideshow
+#Start
    8,U,X
   11,R,C
-6323,D,X
+6325,D,X
   40,D,X
 
-#Cutscene ends at 1:48.341
-
-#***S
+#Cutscene ends at 1:48.375(6375)
 
 #lvl_house
   11,D,X
@@ -93,7 +92,7 @@ endrepeat
    8,L
 
 #Timer Stops
-ChapterTime: 2:22.783(8399)
+ChapterTime: 2:22.817(8401)
 
    1,S
    1,D,J
