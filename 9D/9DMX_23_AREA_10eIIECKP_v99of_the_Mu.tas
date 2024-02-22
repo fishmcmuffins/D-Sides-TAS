@@ -1,6 +1,6 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
-RecordCount: 14389
+RecordCount: 14390
 console load nameguysdsidespack/0/10-Farewell 213185 -52448
    1
 
@@ -100,14 +100,27 @@ endrepeat
 
 #lvl_v-99b
 Read,9D_23,lvl_v-99b,hazardcycle_y-08
+#hazardcycle_y-08
    1
+#endhazardcycle_y-08
 Read,9D_23,endhazardcycle_y-08,lvl_y-06 (1)
 
 #lvl_y-06
 Read,9DP_23,lvl_y-06 (1),lvl_y-06b
 
 #lvl_y-06b
-Read,9D_23,lvl_y-06b,lvl_y-10 (1)
+Read,9D_23,lvl_y-06b,stun_y-08
+#stun_y-08
+   1,R
+StunPause
+   6,R
+   1,R,K
+   1,R
+   2,R,K
+EndStunPause
+   1,R,K
+#endstun_y-08
+Read,9D_23,endstun_y-08,lvl_y-10 (1)
 
 #lvl_y-10 (1)
 play,route_y-15s
