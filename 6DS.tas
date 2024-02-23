@@ -1,4 +1,4 @@
-RecordCount: 19883
+RecordCount: 20146
 
 #by aqmlyn and Lmjacks
 #previous versions by
@@ -6,13 +6,6 @@ RecordCount: 19883
 
 console load nameguysdsidespack/0/6-ReflectionD
    1
-
-#console load nameguysdsidespack/0/6-ReflectionD 10569 6763
-#play,midsync,37
-
-#console load nameguysdsidespack/0/6-ReflectionD 18695 7440
-#  40
-#play,midboss
 
 #Start
 Read,6D.tas,Start,lvl_b-11 (0)
@@ -54,10 +47,8 @@ Read,6D.tas,Start,lvl_b-11 (0)
    6,R,U,Z
   15,R,U,X
    1,R,J
-   1,R,K
-   2,R,J
-   1,R,K
-   7,D,X
+   2,R,K
+   8,R,D,X
    4,J
   15
   15,D,X
@@ -71,115 +62,104 @@ Read,6D.tas,Start,lvl_b-11 (0)
   18,D
    4,R,D
    1,D
-   8,R,D
-  10,L,D,X
+   6,R,D
+  10,R,D,X
    1,R,J
    1,R,K
    1,R,J
    1,R,K
    1,R,J
-   3,R,K
-  18,R,D,X
-   8,R,D,C
-   2,R,J
-  26
-AnalogMode Square
-   1,F,15
-AnalogMode Precise
-   2,F,27
-   1,F,24.089
-   1,F,31
-   1,F,23
-   2,F,19.899
-   8,F,64
-   1,F,64.9
-   1,F,72
-   1,F,72.584
-   1,F,79
-   1,F,81
-   1,F,83.807
-   1,F,77
-   8,F,77.798
-   1,F,85
-   1,F,78
-   1,F,85
+   1,R,K
+  14,R,D,X
+   4,U
+   6,R,Z
+   1,R,J
+   1,F,35
+AnalogMode,Square
+  27,F,31.4
+AnalogMode,Precise
+   2,F,0
+  29,F,64.61
   40
 
 #lvl_b-11sss (0)
-   1,F,58
-  35,F,58.815
-   1,F,59.54
-  37,F,87.907
-  11,F,86.9
-AnalogMode Ignore
-  14,R,X
-   6,R,J,G
-   8,R,X
+  35,F,64.61
+  34,F,85.94
+   3,F,75
+  18,R,X
+  13,R,Z
+   1,R,J
+   4,R
   40
 
 #lvl_b-11ssss (0)
-   3,R,X
+   2,R
+   1,R,D,J
+   2,R,K,G
+   7,R
+   1,R,J,G
+  10,R
+   3,R,D,K
+   3,K
    6,R,J,G
-   6,R,D,X
-   8,R,J,G
-   1,J
-   1,R,J
-   5,R
-   3,R,J
+   5,R,D,X
+   5,R,K,G
+   6,R
+   1,R,K
    3,R
-   4,R,J
-   8,R,K,G
-   8,R,D,X
-   6,R,J,G
-  11,R
-   4,R,D,J
-  40
+   2,R,J
+   8,R
+   4,R,D,K
+  40,K
 
 #lvl_b-11sssss (0)
-   2,R,D,J
-   1,L,K,G
-  18,R,K
-  68,R,D,X
-   4,R,Z
-   1,R,J
-  11,R
+   4,R,D,K
+  15,R,U,X
+  10,R
+  51
+   4,Z
+   1,J
+  13
    1,S
    1,D,J
   69,O
-   6,R,Z
+   9,R,Z
    1,R,J
-   6,R
-   1,R,J
-   2,R,K
-  14,R,Z
-   1,R,J
+   7,R
+   4,R,K
+   6,R,J,G
+   1,R
   40
 
 #lvl_b-11ssssss
-   4,R,J
-  55,R,D,X
-  28,R,J
-   7,L,K
-  20,L,D,X
+   1,R
+  15,R,D,X
+   1,R,J
+  30,R,D
+  17,D
+  17,L,D,X
+#this is an invis barrier
+#you can't cboost from it
+   1,L,J
+   1,J
    2,L,J
-  14,L,Z
-  10,L,J
+   3,L
+   1,L,J
+   5,L
   15,L,U,X
-  18,L,U,C
-  15,L,X
-  12,U,Z
-   3,L,J
-  18,L,K,G
+  16,L,U,C
+  15,L,U,X
+  15,U,C
+   5,K,G
+   2,L,K
    1,L,J,G
    7,L
-   6,L,Z
-   3,L,J
-   6,L,K,G
+   2,L,K
+  14,L,X
   40
 
 #lvl_b-11sssss (1)
-   2,L,K
-  20,L,D,X
+   5,L
    1,S
    1,D,J
   69,O
@@ -193,36 +173,29 @@ AnalogMode Ignore
   15,L,D,X
    3,L,J
   15,L,D,X
-   6,L,J
-  11,L,D,X
-  40,X
+   3,L,J
+   4,J
+  12,L,D,X
+  40
 
 #lvl_b-11sss (1)
-   4,L,D,X
+   3,L,D,X
+   4,L,D,K
    6,L
-  15,L,U,Z
-  15,L,X
-  39,L
-   5,R,Z
-   1,L,J
-   7,L
-   2,L,J
+   1,L,K
+   2,L
+  28,L,D,X
   40
 
 #lvl_b-11ss (1)
-   2,L,J
-  21,L,D,X
-   1,L,J
-   1,L,K
-   1,L,J
-   1,L,K
-   1,L,J
-   1,L,K
-  14,L,J
-   1,K,G
-   9,R,K
-  16,U,X
+   7,L,D
+   4,L,D
+   8,L,K
+   5,L
+   6,L,K
+  15,U,X
   18,J
+   7,K
   40
 
 #lvl_b-11s (1)
@@ -244,7 +217,7 @@ AnalogMode Ignore
 #lvl_b-11 (1)
 Read,6D.tas,lvl_b-11 (1),boss-03 spinner cycle
 #boss-03 spinner cycle
-   1
+   2
 #
   10,R,D,C
    4,R,J
@@ -283,4 +256,6 @@ Read,6D.tas,lvl_boss-01,center-01 spinner cycle
 #lvl_boss-18
 Read,6D.tas,lvl_boss-18
 
-ChapterTime: 7:54.759(27927)
+ChapterTime: 7:52.209(27777)
+
+AnalogMode,Ignore
