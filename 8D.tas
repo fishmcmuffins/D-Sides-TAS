@@ -1684,38 +1684,38 @@ EndStunPause
    5
    3,J,G
   14,R,Z
-  10,R,J
-   6,R,D
-  24,D
-  15,R,X
-   7,L,U,Z
+  25,R,J
+  15,R,D,X
+   2
+   1,R
+   5,L,U,X
   27,L,U
+   1,F,315.03
    8,F,0
-   7,F,45
-   1,F,180
-  61,F,90.5
    8,F,45
-  23,F,25
-  11,F,45
-   1,F,45,0.69
-  55,R
-  40,R,X
-  54,R,C
-   2,R,J,G
-   3,L,J
-   1,R,J
-   5,J
-   1,K,G
-   4
-   8,R
-   4,Z
+  39,F,92.5
+#yes this stun is faster
+#than downleft from gap
+   4,R,X
+   2,R,D,X
+StunPause
+   4,R,D,X
+EndStunPause
+   5,R,D,X
+  27,R,U
+  43,F,23
+  14,F,65
+  11,F,92.6
+  40,F,102.36
+  15,R,X
+  14,R,Z
    1,R,J
   11,R
   12,R,D,K
   17,R
   16,R,Z
   31,R,V
-  22,R,Z
+  23,R,Z
   11,R,D,X
   15,R,J
   15,U,X
@@ -1728,16 +1728,17 @@ EndStunPause
    4,R
    1,R,K
   16,R,D,X
-  56,R,D,C
-  15,R,X
-   9,R,C
+  31,R,D,C
+  34,R
+  22,R,X
+   7,R,C
   10,R,J
   14,R,D,X
-   1,R,J
-  25,R,X
-  22,R,C
-   7,R,X
-  13,R,J
+   1,R
+  24,R,X
+  28,R,C
+  15,R,U,X
+   2,R,J
   14,R,X
    1,R,J
   14,R,D,X
@@ -1776,4 +1777,4 @@ EndStunPause
 
 AnalogMode,Ignore
 
-ChapterTime: 4:04.375(14375)
+ChapterTime: 4:03.746(14338)
