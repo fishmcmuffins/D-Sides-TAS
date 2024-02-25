@@ -1,4 +1,4 @@
-RecordCount: 8609
+RecordCount: 8972
 
 #Created by dahlukeh and Fishmcmuffins
 #improvements by pansear and gnommis
@@ -1125,11 +1125,10 @@ endstunpause
   17,R,G
    5,R,J,G
   40
- 
+
 #lvl_f-08
    2,R,G
-   1,D,X
-   9,R,X
+  10,R,Z
    1,R,J
   12,R,J,G
    3,R,K,G
@@ -1138,50 +1137,123 @@ endstunpause
    2
    1,K
    2,R
-   1,D,X
-  13,R,X
-  18,R,G
-   9,D
-   2,J,G
-   5,L
-  20
-   6,L
-  14,R,D,X
+  15,R,Z
+  15,R,D
+   1,L,J
+   8,L
+  15,D,X
+   3,R,J
+  14,L,D,C
    1,R,J
-   5,R,D,X
-  13,R,G
-   4,L,G
-   1,L,J,G
+   8,R,D,X
+  19,R,G
+   4,R,J,G
+   1,R,K,G
+   4,R,G
+   1,R,J,G
   40
- 
+
 #lvl_f-09
-   4,L,J
+   6,R,G
    1,R
-   4,R,K,G
-   5,R,X
-  13,R,G
-   6,R,J,G
-  37,R,G
-   5,R,G
-   1,R,J
-   5,R,U,X
-  16,R,J,G
-  40
- 
-#lvl_f-10
-   3,R,J,G
-   4,R,G
+   7,R,U,Z
    1,J,G
-   4,R,G
-   2,R
-  22,R,K,G
-  17,R,G
+   3,J
+   7
+  14,L,D,X
+   1,R,J
+   5,R,D,J,X
+  18,R,J,G
+  30,R,K,G
    1,R
-   5,R,U,X
-  23,R,G
-   3,L,G
-  62,R,G
-  41,G
+  14,R,U,X
+  68,R,G
+  35,R,G
+   1,R
+  14,R,U,X
+  61,R,G
+   1,R,D,G
+   1,R,G
+   4,R,D,G
+   6,R,D,G
+  21,R,G
+   1,R
+   8
+   9,R
+  15,R,Z
+   5,R,D
+   3,L,D
+   5,R,D
+  21,R,G
+   1,R
+   7,R,D
+   1,J
+   8
+   1,J
+   1,R,J
+   1
+   2,R
+   1
+   1,R
+   7,L,D,X
+   1,R,J
+   6,R
+   1,R,J
+   8,R,D,X
+  13,R,G
+   3,R,J,G
+   2,R,G
+  40
+
+#lvl_f-10
+   9,R,G
+   1,R,J,G
+   1,J,G
+   1,R,J,G
+   1,J,G
+   7,R,J,G
+   2,R,G
+   1,R
+   1,R,J,G
+  12,R,U,X
+  34,R,G
+   1,R,D
+  22,R
+  15,U,X
+   8,R
+   9,J,G
+   3
+   7,K,G
+   2,L,K
+  32,L,D
+   2,D
+  22,D,G
+   2,R,D,G
+   1,D,G
+  39,R,J,G
+   1,R
+   2
+   4,D
+  19,R,X
+  14,R,U,C
+  25,G
+  11,R,G
+   2,G
+   1,R,D
+   1,R,J,G
+   2,R,J
+   3,R
+  24,R,G
+   2,L,G
+   2,L,D
+   1,L,J,G
+   6,R,X
+  55,R,G
+  28,G
+   1,R,G
+   1,G
+   1,R,G
+  42,G
   11,R
    1,R,J
   22,R
@@ -1201,8 +1273,10 @@ endstunpause
    7,R,U,X
    1,R,J,G
    7,R
-   1,D,C
-  12,L,C
+#Spinner Cycle [f-12]
+   1
+###
+  13,L,Z
    1,R,J
    7,R
    1,R,J
@@ -1211,7 +1285,7 @@ endstunpause
    3,R,J,G
    4,R,G
   40
- 
+
 #lvl_f-12
    1,R,J,G
   11,R,G
@@ -1227,27 +1301,12 @@ endstunpause
    7,R,D,X
   13,R,G
    1,R,J,G
-Repeat 4
-   1,S,N
-  10,J
+StunPause
+  10,R,J,G
+   8,R,G
    2,R,J,G
-EndRepeat
-   1,S,N
-  10,J
-   2,R,J,G
-Repeat 4
-   1,S,N
-  10,J
-   2,R,G
-EndRepeat
-   1,S,N
-  10,J
-   2,R,K,G
-Repeat 3
-   1,S,N
-  10,J
-   2,R,G
-EndRepeat
+   6,R,G
+EndStunPause
   19,R,G
   18,G
    8,R,G
@@ -1297,4 +1356,4 @@ EndRepeat
   15,L,X
  127
 
-ChapterTime: 3:18.747(11691)
+ChapterTime: 3:28.845(12285)
