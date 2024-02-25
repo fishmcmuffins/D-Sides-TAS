@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 909
+RecordCount: 930
 
 console load nameguysdsidespack/0/10-Farewell
    1
@@ -429,7 +429,7 @@ Read,9D_15,Start
 #2 stuns in CP-37
 
 Read,9D_16,Start,hazardcycle_CP-37
-   0
+   2
 Read,9D_16,endhazardcycle_CP-37,stun_CP-37_1
    2,R
 StunPause
@@ -546,46 +546,47 @@ Read,9D_24,Start
 #2 stuns in w-16
 
 Read,9D_25,Start,hazardcycle_w-16
-   1
+   2
 Read,9D_25,endhazardcycle_w-16,stun_w-16_1
-   1
+   2
 StunPause
-   1
    1,J
-   3
 EndStunPause
 StunPause
    1
 EndStunPause
 StunPause
-   4
+   7
 SkipInput 3 1
    9,R,Z
    1,R,Z
    1,R,K
    1,L,J,G
    2,R,J
-   1,R
+   2,R
 SkipInput 3 1
-   1,R
    7,R,D,X
    4,R,K,G
 EndStunPause
    3,K
-   4,R,K
-StunPause
    3,R,K
+StunPause
+   4,R,K
 EndStunPause
 Read,9D_25,endstun_w-16_1,stun_w-16_2
+   1,R
+   1,S,N
+  10,O
    3,R
 StunPause
-   3,R
+   2,R
    1,R,D,J
 EndStunPause
    2,R,J
+   1,R
    1,S,N
   10,O
-   5,R
+   4,R
    4,J
 Read,9D_25,endstun_w-16_2
 
@@ -601,21 +602,20 @@ Read,9D_26,Start,hazardcycle_x-10
    0
 Read,9D_26,endhazardcycle_x-10,stun_x-11
    2,R
-   1,R,D
+Repeat,2
    1,S,N
   10,O
    1,R,D
-   1,S,N
-  10,O
-   6,R,U,Z
+EndRepeat
+   7,R,U,Z
    1,S,N
   10,O
    4,R,U,Z
    1,S,N
   10,O
-   5,R,U,Z
+   4,R,U,Z
 Read,9D_26,endstun_x-11,hazardcycle_xx-10-final-goodbye
-   5
+   0
 Read,9D_26,hazardcycle_xx-10-final-goodbye
 #TimeActive for FGFG measured here
 #w/o cycle wait in Bottomless
@@ -629,4 +629,4 @@ Read,9D_27,Start
 
 #==========================
 
-ChapterTime: 46:16.168(163304)
+ChapterTime: 46:13.907(163171)
