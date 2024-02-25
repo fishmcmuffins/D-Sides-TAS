@@ -36,14 +36,6 @@ console load nameguysdsidespack/0/3-Resort
    8,L
    5,L,J
    7,L
-
-
-
-
-
-
-
-
    4,L,Z
    2,L,J
    8,L
@@ -115,7 +107,8 @@ console load nameguysdsidespack/0/3-Resort
    1,L
   15,U,X
   42,L,D
+
+MidwayChapterTime: 0:16.320(960)
+
    1,Q
   32,J
-
-MidwayFileTime: 0:18.445(1085)
