@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 1319
+RecordCount: 1374
 
 console load nameguysdsidespack/0/10-Farewell
    1
@@ -501,7 +501,7 @@ Read,9D_15,lvl_p-02
 #2 stuns in CP-37
 
 Read,9D_16,Start,hazardcycle_CP-37
-   1
+   2
 Read,9D_16,endhazardcycle_CP-37,stun_CP-37_1
    2,R
 StunPause
@@ -578,14 +578,12 @@ StunPause
 SkipInput 3 1
    4,U,Z
 EndStunPause
+   3,U,Z
 StunPause
-  11,U,Z
+   8,U,Z
   10,R
 SkipInput 3 1
-  10,L,U,Z
-EndStunPause
-StunPause
-   5,L,U,Z
+  15,L,U,Z
    6
    3,L
    1,R
@@ -600,13 +598,18 @@ Read,9DS_22A,endstun_v-00-lobby
 #AREA_10eIIECKP_v99of_the_Mu
 #And Reunification B
 
-#no global cycles
+#hazardcycle in v-99b
+#stun in y-08
 
-Read,9D_23,Start,lvl_y-10 (1)
+Read,9D_23,Start,hazardcycle_y-08
+   2
+Read,9D_23,endhazardcycle_y-08,lvl_y-10 (1)
+
+#lvl_y-10
 Read,9D_23,route_y-15s,keycycle_y-15s
- 105,D
+ 119,D
 Read,9D_23,endkeycycle_y-15s,keycycle_up-key
-  68,G
+  51,G
 Read,9D_23,endkeycycle_up-key
 
 #==========================
@@ -625,16 +628,10 @@ Read,9D_24,Start
 Read,9D_25,Start,hazardcycle_w-16
    2
 Read,9D_25,endhazardcycle_w-16,stun_w-16_1
-   1
+   2
 StunPause
-   1
    1,J
-   7
-EndStunPause
-StunPause
-   1
-EndStunPause
-StunPause
+   8
 SkipInput 3 1
   10,R,Z
    1,R,K
@@ -644,16 +641,27 @@ SkipInput 3 1
 SkipInput 3 1
    5,R,D,X
    2,R
-   3,R,K,G
+   2,R,K,G
 EndStunPause
+   1,R,K
+   1,S,N
+  10,O
    1,R,K
    3,K
    2,R,K
+   1,S,N
+  10,O
+   1,R,K
 StunPause
-   5,R,K
+   4,R,K
 EndStunPause
 Read,9D_25,endstun_w-16_1,stun_w-16_2
-   3,R
+   1,R
+Repeat,2
+   1,S,N
+  10,O
+   1,R
+EndRepeat
 StunPause
    3,R
    1,R,D,J
@@ -674,8 +682,10 @@ Read,9D_25,endstun_w-16_2
 #hazardcycle in xx-07
 
 Read,9D_26,Start,hazardcycle_x-10
-   0
+   2
 Read,9D_26,endhazardcycle_x-10,stun_x-11
+   1,S,N
+  10,O
    2,R
    1,S,N
   10,O
@@ -688,7 +698,7 @@ Read,9D_26,endhazardcycle_x-10,stun_x-11
   10,O
    4,R,U,Z
 Read,9D_26,endstun_x-11,hazardcycle_xx-10-final-goodbye
-   0
+   2
 Read,9D_26,hazardcycle_xx-10-final-goodbye
 
 #==========================
@@ -700,4 +710,4 @@ Read,9DS_27A,Start
 
 #==========================
 
-ChapterTime: 52:54.546(186738)
+ChapterTime: 52:44.652(186156)
