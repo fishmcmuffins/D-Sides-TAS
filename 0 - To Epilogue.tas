@@ -5,42 +5,52 @@
 
 Read,StartFullGameFile
 
+#Prologue D-Side
 Read,0 - Prologue.tas,Start
 
 Read,LoadDPost,Load1D
 
+#Forsaken City D-Side
 Read,1D,Start
 
 Read,LoadDPost
 
+#Old Site D-Side
 Read,2D,Start
 
 Read,LoadD
 
+#Celestial Resort D-Side
 Read,3D,Start
 
 Read,LoadD
 
+#Golden Ridge D-Side
 Read,4D,Start
 
 Read,LoadD
 
+#Mirror Temple D-Side
 Read,5D,Start
 
 Read,LoadD
 
+#Reflection D-Side
 Read,6D,Start
 
 Read,LoadD
 
+#Summit D-Side
 Read,7D,Start
 
 Read,LoadD
 
+#Core D-Side
 Read,8D,Start
 
 Read,LoadD
 
+#Epilogue D-Side
 Read,0 - Epilogue.tas,Start
 
   60
@@ -50,3 +60,5 @@ Add 197
  173
 
 Read,LoadJournal,Epilogue
+
+FileTime: 34:47.362(122786)
