@@ -13,11 +13,11 @@ Invoke BloomFadeTrigger[xx-09:5730].OnStay null
 Set,Level.TimerStarted,true
   30
 
-Set,Level.TimeActive,2840.264404296875
+Set,Level.TimeActive,2830.969482421875
 
-#+0f wait in bottomless
+#+2f wait in bottomless
 #hazard cycle
-   0
+   2
 #------------
 
 Invoke Player.FinishFlingBird
@@ -219,63 +219,75 @@ Invoke Player.FinishFlingBird
    1,L,J,G
 StunPause
    5,L,J,G
-   7,J
+   2,J
+EndStunPause
+   2,J
+StunPause
+   3,J
   12,K,G
   11,J,G
    1,R,J
    1,K
    1,J
+  12,R,J
 EndStunPause
-   1,R,J
 StunPause
-  13,R,J
+   1,R,J
+EndStunPause
+StunPause
+   1,R,J
 SkipInput 3 1
    6,R,X
 SkipInput 3
   12,R,X
    1,R
-  15,L,D
-EndStunPause
-StunPause
-   1,L,D
-EndStunPause
-StunPause
-   1,L,D
+  17,L,D
    2
 SkipInput 3 1
-  15,R,X
+   9,R,X
+EndStunPause
+StunPause
+   1,R,X
+EndStunPause
+StunPause
+   5,R,X
 SkipInput 3 1
    5,R,U,V
 SkipInput 3
   13,R,U,V
 SkipInput 3 1
   15,R,X
+  12,L
 EndStunPause
 StunPause
    1,L
 EndStunPause
 StunPause
-  20,L
-  21
+   8,L
+  31
 EndStunPause
 StunPause
    1
 EndStunPause
 StunPause
-  13
+   3
 SkipInput 3 1
    5,R,X
-  24,R,G
+  36,R,G
 EndStunPause
 StunPause
    1,R,G
 EndStunPause
 StunPause
-  18,R,G
+   6,R,G
   12,R,D,G
    7,D,G
 EndStunPause
   38,D,G
+#yes this is essential for 9DS
+#i love this checkpoint (lying)
+   1,S,N
+  10,O
 #endstun_xx-10-final-goodbye_1
    1,L,D,G
    1,D,G
@@ -311,7 +323,7 @@ EndStunPause
   13,R
    2
 #hazardcycle_xx-10-final-goodbye_2
-   1
+   0
 #endhazardcycle_xx-10-final-goodbye_2
   14,R,Z
    2,R,J
@@ -444,12 +456,10 @@ EndStunPause
   10,O
    1,R,J
    5,R
-   8,R,D,X
-StunPause
-   2,R,D,X
-   2,R,K,G
-EndStunPause
-   2,R,K,G
+  10,R,D,X
+   1,S,N
+  10,O
+   4,R,K,G
   12,R
    1,R,D,J
    3,J
@@ -462,12 +472,10 @@ EndStunPause
 #stun_xx-10-final-goodbye_3
   18,R,D,X
    2,R
+   4,R,Z
    1,S,N
   10,O
-  11,R,Z
-StunPause
-   3,R,Z
-EndStunPause
+  10,R,Z
    2,R,J
 #endstun_xx-10-final-goodbye_3
   21,R,D,X
@@ -570,13 +578,7 @@ EndStunPause
 #stun_xx-10-final-goodbye_4
    3,R,J,G
 StunPause
-   1,R,J
-EndStunPause
-StunPause
-   1,R,J
-EndStunPause
-StunPause
-  10,R,J
+  12,R,J
 EndStunPause
   27,R,J
   11,R,D
@@ -635,6 +637,7 @@ EndStunPause
 #lvl_xx-10-true-final-goodbye
 Read,9D_27,lvl_xx-10-true-final-goodbye,Time
 #Time
-MidwayFileTime: 4:21.919(15407)
+
+MidwayFileTime: 4:21.562(15386)
 
 AnalogMode,Ignore
