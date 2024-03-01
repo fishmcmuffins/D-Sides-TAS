@@ -66,39 +66,37 @@ EndStunPause
    9,R
   17,R,G
    8,G
-   2,R,J,G
-   6,J
-  12,K
+   3,J,G
+   1,L,J
+   8,R,J
+   8,K,G
    6,U,Z
    1,G
   43
 
 #lvl_aa-04
-   8,G
-   5,L,G
-  35,R,U,J,G
-   1,L
-  26,R,U,X
-   6,G
-   3,U,G
-repeat 15
-   1,G
-   1,U,G
-endrepeat
-   3,U,G
-  10,J,G
-   2,L,J
-   1,K
-   3,L,K
-  15,R,K
-   2,J,G
-   1,J
+   4,G
+   7,R,G
+   2,G
+   5,L,J,G
+  30,R,J,G
+   1,L,J
    4,R,J
-   2,R,K
    1,J
-   1,K
-   4,R,K
-   9,U,X
+  26,R,U,X
+   1,G
+   1
+   6,G
+  10,K,G
+   1,L,K
+  14,R,J,G
+  14,L,K
+  16,R,K
+   1,R,J,G
+   4,R,K,G
+   1,R
+   5,R,J
+  10,U,X
   40
 
 #lvl_aa-05
@@ -161,5 +159,5 @@ EndRepeat
   24,J,G
    1,R,K,G
 #Time
-MidwayFileTime: 0:23.154(1362)
+MidwayFileTime: 0:23.018(1354)
   40
