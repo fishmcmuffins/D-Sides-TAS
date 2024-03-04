@@ -1,4 +1,4 @@
-RecordCount: 11943
+RecordCount: 11987
 
 console load nameguysdsidespack/0/3-Resort
    1
@@ -30,13 +30,11 @@ console load nameguysdsidespack/0/3-Resort
    4,L,J
   36,L
   14,L,D,X
-  19,L,J
-  13,U,Z
-  15,L,J
-   8,L
-   5,L,J
-   7,L
-   4,L,Z
+  20,L,J
+  12,U,X
+  29,L,J
+   4,L
+   4,Z
    1,L,J
    7,L
    3,L,J
@@ -45,7 +43,7 @@ console load nameguysdsidespack/0/3-Resort
    1,J
   62
 
-MidwayChapterTime: 0:10.030(590)
+MidwayChapterTime: 0:09.996(588)
 
    1,Q
   32,J
