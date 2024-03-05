@@ -281,13 +281,10 @@ console load nameguysdsidespack/0/10-Farewell j-00
   36,L
   15,L,U,Z
   41,R
-  18,R,X
-   4
-  14,R
-  15,R,Z
-   8,R
-  15,R,U,X
-   6,R
+  15,R,X
+  21,R
+  21,R,Z
+  20,R,U,X
   37
    6,L
    3
@@ -309,7 +306,7 @@ console load nameguysdsidespack/0/10-Farewell j-00
   14,U,X
  183
 #Time
-MidwayFileTime: 0:44.778(2634)
+MidwayFileTime: 0:44.727(2631)
   40
 
 #k-01
