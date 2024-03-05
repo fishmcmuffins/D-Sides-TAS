@@ -1,4 +1,4 @@
-RecordCount: 4693
+RecordCount: 4864
 
 console load nameguysdsidespack/0/2-Oldsite
    1
@@ -26,15 +26,15 @@ Read,2D.tas,Start,lvl_c-01
    2
   15,R,J
    1,R,K,G
-   3,R,J,G
-  18,R
-  26,R,D
-  23,R,U,X
+   1,R,J,G
+   5,R
+   6,R,J
+   1,R
+  33,R,D
+  21,R,U,X
    4,R,J
-   9,R,K
-  14,R,U,X
-   5,J,G
-   2,L,J
+  16,R,K
+  16,R,U,X
   40
 
 #lvl_c-01a (1)
@@ -135,7 +135,7 @@ Read,2D.tas,Start,lvl_c-01
    1,O
   62
 
-MidwayChapterTime: 0:55.760(3280)
+MidwayChapterTime: 0:55.743(3279)
 
    1,S
    1,U,J
