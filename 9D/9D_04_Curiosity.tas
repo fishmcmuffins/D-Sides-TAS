@@ -133,21 +133,22 @@ EndStunPause
   40
 
 #lvl_cc-06
-   4,R,J
-   3,R
-   3,R,J,G
+   1,L,J,G
+   2,J
+   8,R
+   5,R,Z
+   4,R,K
+   4,R
+   1,R,D,J
    1,R
-   8,R,X
-   6,R
-  11,L
-  10,L,Z
+   1,R,K,G
+   1,R
+   5,R,J,G
+   5,J
    1,R,J
-  10,J
-  18,R,D
-   1,D
-   4,R,D
-  13,R,D,X
-  17,R,J
+   6,R
+  12,R,D,X
+  17,R,K
    2,R
   15,U,X
    3,R,J,G
@@ -313,5 +314,5 @@ EndStunPause
   25,R,Z
   16,R,V
 #Time
-MidwayFileTime: 0:47.396(2788)
+MidwayFileTime: 0:46.835(2755)
   40
