@@ -127,34 +127,34 @@ EndStunPause
    9,L,J
   11,K,G
    1
-   7,J,G
+   5,J,G
    5,R,J
-  13,U,X
+  14,U,X
   40
 
 #lvl_cc-06
-   1,L,J,G
-   2,J
-   8,R
-   5,R,Z
+   1,L,K,G
+   1,R,K
+   5,R
+   1,R,K
+   3,R
+   4,Z
    4,R,K
    4,R
    1,R,D,J
-   1,R
-   1,R,K,G
-   1,R
-   5,R,J,G
-   5,J
-   1,R,J
-   6,R
+   1
+   8,R,K,G
+   3,K
+   8,R,K
   12,R,D,X
-  17,R,K
-   2,R
+  15,R,K
+   2,K
+   2
   15,U,X
    3,R,J,G
    7,R
 #hazardcycle_cc-07
-   1
+   0
 #endhazardcycle_cc-07
   10,R,Z
   16,L,J
@@ -314,5 +314,5 @@ EndStunPause
   25,R,Z
   16,R,V
 #Time
-MidwayFileTime: 0:46.835(2755)
+MidwayFileTime: 0:46.784(2752)
   40
