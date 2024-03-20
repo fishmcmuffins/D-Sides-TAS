@@ -159,18 +159,19 @@ EndStunPause
    9,L,J
   11,K,G
    1
-   7,J,G
+   5,J,G
    5,R,J
-  13,U,X
+  14,U,X
   40
 
 #lvl_cc-06
 Read,9D_04,lvl_cc-06,hazardcycle_cc-07
 #hazardcycle_cc-07
-   2
+   1
 #endhazardcycle_cc-07
 Read,9D_04,endhazardcycle_cc-07,Time
-#hazardcycle_d-03
 #Time
-MidwayFileTime: 0:54.451(3203)
+
+MidwayFileTime: 0:53.839(3167)
+
   40
