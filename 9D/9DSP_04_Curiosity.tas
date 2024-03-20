@@ -83,26 +83,27 @@ Read,9DS_04,endhazardcycle_cc-03,branch_deathless
    4,L,J
    1,K
    4,L,K
-  10,L
-   4
+  11,L
+   3
+   1,L
 #keycycle_cc-00-lobby_2
-  88,D
+  87
 #endkeycycle_cc-00-lobby_2
   12,D,J
   11,K,G
-   8,J,G
-   3,R,J
-   2,K
-  13,U,X
+   1
+   5,J,G
+   5,R,J
+  14,U,X
   40
 
 #lvl_cc-06
 Read,9D_04,lvl_cc-06,hazardcycle_cc-07
 #hazardcycle_cc-07
-   1
+   0
 #endhazardcycle_cc-07
 Read,9D_04,endhazardcycle_cc-07,Time
 
 #Time
-MidwayFileTime: 0:56.831(3343)
+MidwayFileTime: 0:56.219(3307)
 Read,9D_04,Time
