@@ -7,7 +7,6 @@ console load nameguysdsidespack/0/10-Farewell 109280 -18296
   36
 
 #Start
-
   18,L,J
    8,K,G
    2,R,K
@@ -76,6 +75,6 @@ Read,9DSP_13A,lvl_l-03b,keycycle_l-04
 Read,9D_13A,endkeycycle_l-04,Time
 
 #Time
-MidwayFileTime: 1:12.964(4292)
+MidwayFileTime: 1:12.947(4291)
 
 Read,9D_13A,Time
