@@ -124,7 +124,7 @@ Read,9DSP_12A,lvl_j-02b,hazardcycle_j-07
 Read,9DS_12A,endhazardcycle_j-07,Time
 
 #Time
-MidwayFileTime: 1:14.766(4398)
+MidwayFileTime: 1:14.715(4395)
 
 Read,9DS_12A,Time
 
