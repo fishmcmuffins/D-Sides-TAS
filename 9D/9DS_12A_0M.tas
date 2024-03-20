@@ -453,7 +453,7 @@ AnalogMode,Precise
 Read,9D_12A,lvl_j-09,Time
 
 #Time
-MidwayFileTime: 1:13.168(4304)
+MidwayFileTime: 1:13.117(4301)
 
 Read,9D_12A,Time
 
