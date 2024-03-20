@@ -128,6 +128,7 @@ EndStunPause
    1,D,J
   69,O
 #branch_cc-03_spawn
+
 play,route_cc-01
 
 #===================
@@ -171,17 +172,20 @@ play,route_cc-01
    4,L,J
    1,K
    4,L,K
-  10,L
-   4
-  76,D
+  11,L
+   3
+   1,L
+  75
   12,D,J
   11,K,G
-   8,J,G
-   3,R,J
-   2,K
-  13,U,X
+   1
+   5,J,G
+   5,R,J
+  14,U,X
   40
 #endroute_hubexit
+
+play,lvl_cc-06
 
 #===================
 
@@ -393,23 +397,22 @@ play,route_cc-01
   15,U,X
   31,L,J
    2,L
-   1,D
-  71
+  72,D
   12,D,J
-  12,K,G
+  11,K,G
+   1
    5,J,G
-   2,L,J
-   3,R,J
-   2,K
-  13,U,X
+   5,R,J
+  14,U,X
   40
+
 #endroute_cc-01
 
 #===================
 
 #lvl_cc-06
 Read,9D_04,lvl_cc-06,hazardcycle_cc-07
-   1
+   0
 Read,9D_04,endhazardcycle_cc-07,lvl_cc-08
 
 #lvl_cc-08
@@ -417,7 +420,7 @@ Read,9D_04,endhazardcycle_cc-07,lvl_cc-08
   13,R
   15,D,X
 #keycycle_cc-08
- 103
+  86
 #endkeycycle_cc-08
    8,L,Z
    1,R,J
@@ -451,5 +454,5 @@ Read,9D_04,endhazardcycle_cc-07,lvl_cc-08
   25,R,Z
   15,R,V
 #Time
-MidwayFileTime: 1:18.965(4645)
+MidwayFileTime: 1:18.064(4592)
   40
