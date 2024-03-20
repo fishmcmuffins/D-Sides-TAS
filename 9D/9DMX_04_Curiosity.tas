@@ -28,14 +28,14 @@ Read,9DSP_04,endkeycycle_cc-00-lobby_1,hazardcycle_cc-03
 #endhazardcycle_cc-03
 Read,9DSP_04,endhazardcycle_cc-03,keycycle_cc-00-lobby_2
 #keycycle_cc-00-lobby_2
-  88,D
+  87
 #endkeycycle_cc-00-lobby_2
 Read,9DSP_04,endkeycycle_cc-00-lobby_2,lvl_cc-06
 
 #lvl_cc-06
 Read,9D_04,lvl_cc-06,hazardcycle_cc-07
 #hazardcycle_cc-07
-   1
+   0
 #endhazardcycle_cc-07
 Read,9D_04,endhazardcycle_cc-07,branch_golden
    4,Z
@@ -72,6 +72,7 @@ Read,9D_04,endhazardcycle_cc-07,branch_golden
   25,R,Z
   16,R,V
 #Time
-MidwayFileTime: 0:58.259(3427)
-#MidwayFileTime: 0:57.103(3359)
+
+MidwayFileTime: 0:57.647(3391)
+
   40
