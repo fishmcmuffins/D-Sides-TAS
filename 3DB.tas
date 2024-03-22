@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 4759
+RecordCount: 5241
 
 console hard nameguysdsidespack/0/3-Resort
    1
@@ -1620,263 +1620,281 @@ console hard nameguysdsidespack/0/3-Resort
   15,R,X
   30,D
   15,R,X
-  27,D
-  24,L,D
-  10
-  15,U,X
-  15,D,C
+  18,D
    2,R,D
+   2,D
+   1,R,D
    1,D
    1,R,D
+   3,D
+   1,L,J
+  13,L,D
    6,D
+   1,L,D
+  17,D
    1,R
-  18,R,X
-  20,R,C
+   1,D
+   1,R,D
+   3,R
+  16,R,X
+  22,R,C
+   2,L,J
   14,U,X
-  12,L,J
+  10,L,J
+   1,L
   15,R,D,X
    1,L,D
    5,R,D
-   6,L,D
-   5,L,Z
-   1,R,J
-   7,R
-   5,R,D
-  10,R,J
-  15,R,X
-  13,U,C
-  18,R,J
-   6,K,G
-   1,R,J,G
-  13,R
-   9,R,J
-  13,R
-   1,J
-   9,L
-  37,R,D
-  14,R,X
-  11,R,J
-   1,K
-   3,J
-  15,U,X
-   8,R
-  22,L,J
-  20,R,K
-  15,U,X
-   2,L,J,G
-   9,L
-   4,L,Z
-   1,L,J
-   7,L
-   1,L,J
-   2,L
-  15,L,X
-  15,L,U,C
-  19,L,D
-   8,D
-   1,L,D
    2,D
-   1,L,D
-  21,D
-   9,L,X
-  21,L,J
-  22,R,K
-  13,L,X
-   3,J,G
-   7,L
-  15,L,U,Z
-  15,L,X
-   9,R
-   1,R,J
+   1
+   1,D
+   2
    1,R
-  15,L,U,X
-  14,L,U,C
+   4,R,Z
+   1,R,J
+   6,R
+   4,R,D
+   4,R,J
+  12,R
+   9,R,U,X
+   1,L,U
    1,J,G
    4,R,J
-  36,R,D
-  12,R,J
-  15,U,X
-   9,R,J
-   3,L,J
-   6,R,J
-   9,R,G
-   1,J,G
-   1,L,J
-  13,R,K,G
-   2
-   4,J,G
-  15,R,Z
-  14,L,D
-   5,R,D
-   7,D
-  10,R,D
-  15,L,X
-   3,L,D
-  18,D,X
-  14,L,D,C
+   6,L,K
    7,R,J
-   4,R
-  15,R,D,X
-   3,R
-  14,R,U,X
-  11,J,G
-   2
-   2,K,G
-   8
-   4,R
-  15,R,U,X
-  15,U,C
-  42,R,D
-   9,J
-   2
   15,U,X
-  15,U,C
-  50,D
-   4,R,X
-   1,R,J
-  25,R,D
-   4,D
-   3,R,D
-  14,R,Z
+   1,R,J,G
+   1,L,J
+   1,J
+   1,L,J
+   7,J
+   1,R,J,G
+   1,R,K,G
+  13,R
    9,R,J
+   2,R
+  20,D
+  14,R,D
+   1,D
+   8,R,D
+   1,D
+  10,R,X
+   5,R,J
+   6,J
+   1,R,J
+  15,U,X
+   7,R
+  20,L,J
+   2,J
+   5,K,G
+   3,R,K
+   1,K
+  21,R
+   1,R,J,G
+   1,R,K,G
+   5,R
+   1,R,J
+   1,R
+   1,R,J
+   5,R
+  15,L,D,X
+   2
+   1,R
+  11,L,J,G
+   1,L
+   1,K,G
+   1,R,K
+   1,R,J
+  32,R,K
+   7,R,J,G
+   7,R
+  10,R,Z
+   7,R,J
   15,U,X
    5,L,J,G
   14,L,Z
    1,R,J
   14,R,Z
    1,R,J
-  13,R,D,X
-   1,J,G
-   2,L,J
-  26,L,K
-  15,U,X
-   2,L,J,G
-   7,L
-   4,L,Z
-   1,L,J
-   7,L
-   7,L,J
-   6,J
-   1,L,J
-   1,J
-  15,U,X
-   4,R
-  15,R,C
-  25,R,D
-   6,D
-  14,J
-   1,L,J
-  15,U,X
-   4
-  15,R,X
-  14,D
-   9,R,D
-   9,L,D
-   1,R,D
-  15,R,X
-  14,L,D
-  15,R,X
-   8,L,D
-   3,R,D
-  15,R,Z
-  25,D
-  12,J
-   7,K,G
-   1,L,K
-  14,R,J,G
-   1,K,G
-   1,R,K
-   4,K
-  15,U,X
+   9,R
    9,L,J
-   5,L
-  15,R,D,X
-  31,D
-  10,R,Z
-   5,L,J
-   2,L
-  20,L,D,X
+  14,L,U,X
+   6,L,J,G
+   6,L,Z
+   1,L,J
+   7,L
+   1,L,J
+  14,L,D,X
+  12,L,J
    1,L
-   2,L,J
-  15,R,X
+   1,L,J
+   1,L
+   1,L,J
+   2,L
+  15,U,X
+  37,L,D,C
+  31,L,U,X
+  15,D,C
+   8,L,D
+  10,D
+   3,R,D
+   9,L,X
+  20,L,J
+  20,R,K
+   1,R
+  13,L,X
+   1,L,J,G
+   1,L
+   1,L,J,G
+   7,L
+  15,L,U,Z
+  15,L,C
+   8,R
+   5,J
+  15,L,U,X
+  14,L,U,C
+   1,R,J
+  32,R,D
+   1,R
+   1,R,D
+   1,R
+  11,R,J
+  15,U,X
+  10,R,J
+   3,L,J
+   3,R,J
+   1,R,K,G
+   2,R
+   2,L
+   2,R
+   2,G
+   1,L,J
+  11,L,K
+   7,R,J
   15,R,Z
-   3,R
-  19,L,D
-   1,D
+  12,R,D
   14,L,D
-   9,L,Z
-  12,J
-  23,L,U,X
-  15,L,Z
-  28,L,X
-  16,L,Z
-  14,L,U,V
-  10,J,G
-   2,R,J
-  32,R,K
-   2,R,J,G
-   7,R
-   6,R,Z
+   5,R
+   7,R,D
+   2,R
+  18,L,X
+  15,D,C
+  10,L,Z
+   7,R,J
+   2,R
    1,R,J
    1,R
-   1
-   4,R
-   1,R,D
-  10,R,D,J
+  15,R,D,X
+   3,R
+  14,R,U,C
+   8,R,J,G
+   1,R
+   1,R,J,G
    2,R
-  14,R,U,X
-   1,J,G
-  15,U,X
-   4,R,J,G
+   1,R,J,G
    7,R
-#d-04 spinner cycle
-   1
-#=====
-   4,R,Z
+   4,R,X
    1,R,J
-   7,R
-   3,R,D
-  15,D,X
-  13,R,D
-  15,R,X
-  15,R,D
-   6,R,Z
-   1,R,J
-   7,R
-   1,R,J
+  10,R
    6,R,D,X
+   1,R,J
+   7,R
+   8,R,J
+  14,R,U,X
+   4,J,G
+   1,K,G
+   1,R
+   1
+   1,R
+   2
+   1,R
+   1,L
+   9,J
+   3,L,J
+   1,J
+  15,U,X
+   6,R
+  15,R,C
+  16,R,D
+  11,D
+   1
+   2,D
+  14,J
+  18,U,X
+  15,R,C
+  21,R,D
+  11,D
+#Spinner Cycle [d-04]
+   2
+#####
+   6,L,D,X
+   1,R,J
+   7,R
+   1,R,J
+  15,R,D,X
+  15,R,Z
+  25,D
+  10,R,Z
+   4,L,J
+   1,L
+   2,L,J
+  20,L,D,X
+   1,L,J
+   5,L,X
+  10,R,J
+   8,R
+   1,R,J
+   1,R
+   1,R,J
+   7,R
+  12,R,J
+   1,R,K,G
+   1,L,K
+  10,R,K
+  12,J,G
+  12,K,G
+   6,J,G
+   1,R,J
+   1,J
+   1,R,J
+  15,U,X
+  14,L,J
+  15,R,D,X
+  24,D
+   8,L,D
+   5,L,J
+  14,R,D,X
+   1,R,J
+   2,R,K
   40
 
 #lvl_d-04
-   8,R,D,X
-   8,R,J
-  11,R,D,X
-   5,R,J,G
-  10,R,U,X
-   1,R,J,G
-  25,R,D
-   4,R,Z
-   4,R,J
-   3,R
-StunPause
-  10,R
-   1,R,D
-   8,R,J
-   6,R
-   1,R,J
+  18,R,D,X
+   3,R,D,J
+  13,R,U,X
+   2,R,J,G
+   2,R
+  15,R,D,X
+   3,R,D
    1,R
+StunPause
+   3,R
+   2,R,J
+   5,R,J,G
+   6,J
+   1,R,J
 SkipInput 3 1
-   8,R,U,Z
+   8,R,U,C
 EndStunPause
-   8,R,U,Z
+   7,R,U,C
   15,R,X
    1,L,J
-  17,L
-   6
+  22,L
   14,R,D,X
    6,R,J
    2,R
-   2,R,J
+   1,J
+   1,R,J
    1,J
   15,U,X
   18,L
@@ -2017,4 +2035,4 @@ EndStunPause
   15,U,C
  135,L,D
 
-ChapterTime: 4:52.179(17187)
+ChapterTime: 4:43.900(16700)
