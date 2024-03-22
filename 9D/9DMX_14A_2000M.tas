@@ -62,7 +62,7 @@ Read,9D_14A,Start,lvl_n-01
 #lvl_n-02
 Read,9D_14A,lvl_n-02,hazardcycle_n-05
 #hazardcycle_n-05
-   0
+   1
 #endhazardcycle_n-05
 Read,9DP_14A,endhazardcycle_n-05,stun_n-05
 #stun_n-05
@@ -88,7 +88,7 @@ EndStunPause
 #endstun_n-05
 Read,9DP_14A,endstun_n-05,hazardcycle_n-12
 #hazardcycle_n-12
-   0
+   1
 #endhazardcycle_n-12
 Read,9D_14A,endhazardcycle_n-12,lvl_n-09
 
