@@ -1,4 +1,4 @@
-RecordCount: 11880
+RecordCount: 11881
 
 console load nameguysdsidespack/0/3-Resort
    1
@@ -1512,7 +1512,7 @@ AnalogMode Precise
    
 #lvl_d-08
   36,R,J
-  14,U,X
+  13,U,X
  135,L,D
 
 AnalogMode Ignore
