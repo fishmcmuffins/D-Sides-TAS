@@ -158,6 +158,9 @@ EndRepeat
    2,J
   24,J,G
    1,R,K,G
+Assert,Equal,aa-06,{Level.Session.Level}
+Assert,Equal,40,{GameInfo.TransitionFrames}
+Assert,NotEqual,,{Player.Holding}
 #Time
 MidwayFileTime: 0:23.018(1354)
   40

@@ -1,6 +1,6 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
-RecordCount: 15281
+RecordCount: 15282
 console load nameguysdsidespack/0/10-Farewell 213185 -52448
    1
 
@@ -2059,6 +2059,8 @@ endrepeat
    4,J
   13,R,Z
    2,R,K
+Assert,Equal,v-00-upperer-b,{Level.Session.Level}
+Assert,Equal,40,{GameInfo.TransitionFrames}
 #Time
 MidwayFileTime: 4:06.636(14508)
   40

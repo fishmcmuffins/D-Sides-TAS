@@ -914,5 +914,7 @@ endrepeat
    1,R,J
    1,R,K,G
   10
+Assert,Equal,f-16,{Level.Session.Level}
+Assert,Equal,66964,{Player.X}
 #Time
 MidwayFileTime: 1:38.005(5765)

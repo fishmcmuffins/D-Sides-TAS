@@ -2,7 +2,7 @@ console load nameguysdsidespack/0/10-Farewell 66964 -10384
    1
 
 #Move to background
-#evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foreground.Backdrops.Count and i >= 0 do if invokeMethod(level.Foreground.Backdrops[i].Name, "Contains", "dark") then level.Background.Backdrops:Add(level.Foreground.Backdrops[i]); level.Foreground.Backdrops:RemoveAt(i); else i = i + 1 end end i = nil
+evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foreground.Backdrops.Count and i >= 0 do if invokeMethod(level.Foreground.Backdrops[i].Name, "Contains", "dark") then level.Background.Backdrops:Add(level.Foreground.Backdrops[i]); level.Foreground.Backdrops:RemoveAt(i); else i = i + 1 end end i = nil
 
 #lvl_f-16
   36
@@ -766,6 +766,9 @@ EndStunPause
    4,R
    4,Z
    4,R,J
+Assert,Equal,hh-01,{Level.Session.Level}
+Assert,Equal,11364,[[return TAS.EverestInterop.EntityDataHelper.CachedEntityData[player.CurrentBooster].ID]]
+Assert,Equal,True,{CutsceneEntity.Running}
 #Time
 MidwayFileTime: 1:27.040(5120)
 

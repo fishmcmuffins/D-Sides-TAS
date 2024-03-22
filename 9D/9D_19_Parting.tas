@@ -1,4 +1,4 @@
-RecordCount: 2955
+RecordCount: 2956
 console load nameguysdsidespack/0/10-Farewell 181264 -48272
    1
 
@@ -287,6 +287,8 @@ EndRepeat
    7,R
   10,R,Z
    6,R,J
+Assert,Equal,t-02,{Level.Session.Level}
+Assert,Equal,40,{GameInfo.TransitionFrames}
 #Time
 MidwayFileTime: 0:45.356(2668)
   40,J

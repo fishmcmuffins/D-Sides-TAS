@@ -668,5 +668,7 @@ EndRepeat
 #lvl_cc-05
   11,L
   13,U,X
+Assert,NotEqual,,{Key[cc-05:3971].follower.Leader}
+Assert,Equal,0.9583333,{Key[cc-05:3971].wiggler.Counter}
 #Time
 MidwayFileTime: 1:39.841(5873)

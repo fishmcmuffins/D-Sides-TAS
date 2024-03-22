@@ -324,5 +324,7 @@ EndStunPause
    1,R,J,G
    2,L,J
    7,R
+Assert,Equal,i-02,{Level.Session.Level}
+Assert,Equal,True,[[return player.Position.Y < -11807.49999999999]]
 #Time
 MidwayFileTime: 0:43.418(2554)

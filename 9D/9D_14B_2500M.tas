@@ -985,6 +985,8 @@ console load nameguysdsidespack/0/10-Farewell 132169 -30311
   12,L,U,C
   14,U,X
    1,J
+Assert,Equal,o-14,{Level.Session.Level}
+Assert,Equal,40,{GameInfo.TransitionFrames}
 #Time
 MidwayFileTime: 2:25.265(8545)
   40

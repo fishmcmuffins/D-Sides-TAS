@@ -313,6 +313,8 @@ EndStunPause
    1,R
   25,R,Z
   16,R,V
+Assert,Equal,d-01,{Level.Session.Level}
+Assert,Equal,40,{GameInfo.TransitionFrames}
 #Time
 MidwayFileTime: 0:46.784(2752)
   40

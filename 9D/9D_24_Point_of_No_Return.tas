@@ -573,5 +573,7 @@ console load nameguysdsidespack/0/10-Farewell 213328 -52440
    1,R
    2,R,J,G
    9,R
+Assert,Equal,w-08,{Level.Session.Level}
+Assert,Equal,-52600,{Player.Bottom}
 #Time
 MidwayFileTime: 1:33.313(5489)

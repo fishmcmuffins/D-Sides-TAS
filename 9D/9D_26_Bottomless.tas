@@ -1,4 +1,4 @@
-RecordCount: 4163
+RecordCount: 4177
 
 #wip by Vasher
 #most of dinosaur game part was tased by ghajestis
@@ -1319,6 +1319,9 @@ endrepeat
    2,R,K,G
   27,R
    2
+Assert,Equal,xx-09,{Level.Session.Level}
+Assert,Equal,24,{Player.StateMachine.State}
+Assert,Equal,1,{Level.Zoom}
 #Time
 MidwayFileTime: 4:37.712(16336)
   30
