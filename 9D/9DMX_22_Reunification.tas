@@ -71,11 +71,11 @@ EndRepeat
   43
 
 #lvl_v-04
-Read,9DSP_22A,lvl_v-04,hazardcycle_v-00-lobby
+Read,9DSP_22,lvl_v-04,hazardcycle_v-00-lobby
 #hazardcycle_v-00-lobby
    2
 #endhazardcycle_v-00-lobby
-Read,9DSP_22A,endhazardcycle_v-00-lobby,stun_v-00-lobby
+Read,9DSP_22,endhazardcycle_v-00-lobby,stun_v-00-lobby
 #stun_v-00-lobby
    1,R
    2,R,J
@@ -93,7 +93,7 @@ SkipInput 3 1
    7,R,Z
 EndStunPause
 #endstun_v-00-lobby
-Read,9DSP_22A,endstun_v-00-lobby,keycycle_lvl-void_1
+Read,9DSP_22,endstun_v-00-lobby,keycycle_lvl-void_1
 #keycycle_lvl-void_1
  142,D
    4,Z
@@ -102,11 +102,11 @@ Read,9DSP_22A,endstun_v-00-lobby,keycycle_lvl-void_1
   40,L
   35
 #endkeycycle_lvl-void_1
-Read,9DSP_22A,endkeycycle_lvl-void_1,keycycle_lvl-void_2
+Read,9DSP_22,endkeycycle_lvl-void_1,keycycle_lvl-void_2
 #keycycle_lvl-void_2
  307
 #endkeycycle_lvl-void_2
-Read,9DSP_22A,endkeycycle_lvl-void_2,keycycle_lvl-void_3
+Read,9DSP_22,endkeycycle_lvl-void_2,keycycle_lvl-void_3
 #keycycle_lvl-void_3
   91,G
    4,K,G
@@ -127,7 +127,7 @@ Read,9DSP_22A,endkeycycle_lvl-void_2,keycycle_lvl-void_3
   11,R
  115
 #endkeycycle_lvl-void_3
-Read,9DSP_22A,endkeycycle_lvl-void_3,keycycle_lvl-void_4
+Read,9DSP_22,endkeycycle_lvl-void_3,keycycle_lvl-void_4
 #keycycle_lvl-void_4
  100
    2,R
@@ -145,7 +145,7 @@ Read,9DSP_22A,endkeycycle_lvl-void_3,keycycle_lvl-void_4
    1,R,J
  101
 #endkeycycle_lvl-void_4
-Read,9DSP_22A,endkeycycle_lvl-void_4,keycycle_lvl-void_5
+Read,9DSP_22,endkeycycle_lvl-void_4,keycycle_lvl-void_5
 #keycycle_lvl-void_5
   77,D
 #endkeycycle_lvl-void_5
