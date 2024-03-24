@@ -305,7 +305,7 @@ EndRepeat
   40
 
 #lvl_v-00-lobby (5)
-Read,9DS_22A,lvl_v-00-lobby (5),stun_v-00-lobby
+Read,9DS_22,lvl_v-00-lobby (5),stun_v-00-lobby
 #stun_v-00-lobby
    1,R
    2,R,J
@@ -328,7 +328,7 @@ SkipInput 3 1
    7,R,Z
 EndStunPause
 #endstun_v-00-lobby
-Read,9DS_22A,endstun_v-00-lobby,lvl_v-00-upper (2)
+Read,9DS_22,endstun_v-00-lobby,lvl_v-00-upper (2)
 
 #lvl_v-00-upper (1)
    9,D
@@ -416,7 +416,7 @@ Read,9DS_22A,endstun_v-00-lobby,lvl_v-00-upper (2)
   40
 
 #lvl_v-00-upperer-b
-Read,9DS_22A,lvl_v-00-upperer-b,lvl_void
+Read,9DS_22,lvl_v-00-upperer-b,lvl_void
 
 #lvl_void
    5
