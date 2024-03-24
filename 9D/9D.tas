@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 930
+RecordCount: 1008
 
 console load nameguysdsidespack/0/10-Farewell
    1
@@ -30,7 +30,7 @@ Read,9D_02,endhazardcycle_aa-00-lobby
 #hazardcycle in b-08
 
 Read,9D_03,Start,hazardcycle_c-01-heartgate
-   1
+   0
 Read,9D_03,endhazardcycle_c-01-heartgate
 
 #==========================
@@ -44,7 +44,7 @@ Read,9D_03,endhazardcycle_c-01-heartgate
 Read,9D_04,Start,hazardcycle_cc-03
    2,G
 Read,9D_04,endhazardcycle_cc-03,hazardcycle_cc-07
-   2
+   1
 Read,9D_04,endhazardcycle_cc-07
 
 #==========================
@@ -55,6 +55,7 @@ Read,9D_04,endhazardcycle_cc-07
 #stun in d-03~d-05
 
 Read,9D_05,Start,hazardcycle_d-03
+   1
    6,R,D,X
    1,R,J
    6,R
@@ -107,35 +108,30 @@ Read,9D_05,Start,hazardcycle_d-03
    1
    1,R
    1
-  11,R
+  10,R
 StunPause
-   5,R
+   6,R
    1
    1,R
    1,L
    1,J
    1,K,G
    3,J,G
-SkipInput 3 1
-   4,R,U,Z
 EndStunPause
    4,R,U,Z
+   4,R,U,Z
    3,R,J,G
-   1,R
 StunPause
    4,R
 EndStunPause
    1,R
-   4,R,U,X
    1,S,N
   10,O
-  10,R,U,X
+   1,R
+  14,R,U,X
    1,S,N
   10,O
-   1,R,J,G
-   1,S,N
-  10,O
-   2,R,J,G
+   3,R,J,G
   40
 
 #lvl_d-04
@@ -371,6 +367,7 @@ Read,9D_13A,endkeycycle_l-04
 Read,9D_13B,Start,branch_ta2
 Read,9D_13B,ta2_9,end_ta2_9
 Read,9D_13B,endbranch_ta2,lvl_m-11
+
 #lvl_m-11
   11,R
    8,R,D,X
@@ -393,7 +390,6 @@ Read,9D_13B,endbranch_ta2,lvl_m-11
   40
 Read,9D_13B,lvl_m-12
 
-
 #==========================
 #2000M
 
@@ -403,10 +399,25 @@ Read,9D_13B,lvl_m-12
 #stun in n-12
 
 Read,9D_14A,Start,hazardcycle_n-05
-   2
+   1
 Read,9D_14A,endhazardcycle_n-05,hazardcycle_n-12
    1
-Read,9D_14A,endhazardcycle_n-12
+Read,9D_14A,endhazardcycle_n-12,stun_n-12
+   4,R,D,X
+StunPause
+   2,R,D,X
+   1,R
+SkipInput 3 1
+   5,R,U,C
+SkipInput 3
+   7,R,U,C
+EndStunPause
+StunPause
+   2,R,U,C
+   3,R,K,G
+EndStunPause
+   1,R,K
+Read,9D_14A,endstun_n-12
 
 #==========================
 #2500M
@@ -433,8 +444,6 @@ Read,9D_16,Start,hazardcycle_CP-37
 Read,9D_16,endhazardcycle_CP-37,stun_CP-37_1
    2,R
 StunPause
-#why tf does holding up
-#make her sink faster
   11,R,U
 SkipInput 3 1
   15,R,Z
@@ -442,8 +451,6 @@ SkipInput 3 1
    1,R,K
    1,R,J
    1,R,K
-EndStunPause
-StunPause
    1,R,J
    1,R,K
    1,R,J
@@ -452,10 +459,7 @@ EndStunPause
 Read,9D_16,endstun_CP-37_1,stun_CP-37_2
    1,R,J
 StunPause
-   5,R,J
-EndStunPause
-StunPause
-   6,R,J
+  11,R,J
    1,R,K,G
    7,R,D
 EndStunPause
@@ -511,17 +515,18 @@ SkipInput 3 1
 EndStunPause
    6,R,U,J,Z
 Read,9D_22,endstun_v-00-lobby_1,stun_v-00-lobby_2
-StunPause
    1,R
-  10,R,J
-SkipInput 3 1
-  13,U,Z
-EndStunPause
+   2,R,J
 StunPause
-   2,U,Z
+   8,R,J
+SkipInput 3 1
+  15,U,Z
   10,R
 SkipInput 3 1
-  15,L,U,Z
+  10,L,U,Z
+EndStunPause
+StunPause
+   5,L,U,Z
    6
    3,L
    1,R
@@ -546,23 +551,23 @@ Read,9D_24,Start
 #2 stuns in w-16
 
 Read,9D_25,Start,hazardcycle_w-16
-   2
+   0
 Read,9D_25,endhazardcycle_w-16,stun_w-16_1
    2
 StunPause
    1,J
-EndStunPause
-StunPause
-   1
-EndStunPause
-StunPause
-   7
+   8
 SkipInput 3 1
    9,R,Z
    1,R,Z
    1,R,K
    1,L,J,G
-   2,R,J
+   1,R,J
+EndStunPause
+StunPause
+   1,R,J
+EndStunPause
+StunPause
    2,R
 SkipInput 3 1
    7,R,D,X
@@ -599,23 +604,22 @@ Read,9D_25,endstun_w-16_2
 #hazardcycle in xx-07
 
 Read,9D_26,Start,hazardcycle_x-10
-   0
+#used for stun_x-11 here
+   1
 Read,9D_26,endhazardcycle_x-10,stun_x-11
    2,R
-Repeat,2
    1,S,N
   10,O
-   1,R,D
-EndRepeat
-   7,R,U,Z
+   2,R,D
+   6,R,U,Z
    1,S,N
   10,O
-   4,R,U,Z
+   5,R,U,Z
    1,S,N
   10,O
    4,R,U,Z
 Read,9D_26,endstun_x-11,hazardcycle_xx-10-final-goodbye
-   0
+   2
 Read,9D_26,hazardcycle_xx-10-final-goodbye
 #TimeActive for FGFG measured here
 #w/o cycle wait in Bottomless
@@ -629,4 +633,4 @@ Read,9D_27,Start
 
 #==========================
 
-ChapterTime: 46:13.907(163171)
+ChapterTime: 46:12.683(163099)
