@@ -990,3 +990,6 @@ Assert,Equal,40,{GameInfo.TransitionFrames}
 #Time
 MidwayFileTime: 2:25.265(8545)
   40
+
+#transition freeze frames
+   3
