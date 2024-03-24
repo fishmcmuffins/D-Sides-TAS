@@ -13,11 +13,36 @@ Invoke BloomFadeTrigger[xx-09:5730].OnStay null
 Set,Level.TimerStarted,true
   30
 
+
+
+
+
+#TimeActive: 2448.518066406250
+
 #+0f in Bottomless
-Set,Level.TimeActive,2450.460449218750
+Set,Level.TimeActive,2448.518066406250
 #hazard cycle
-   0
+   2
 #------------
+
+
+
+
+
+
+
+#+0f in Bottomless
+#Set,Level.TimeActive,2450.460449218750
+#hazard cycle
+#   0
+#------------
+
+
+
+
+
+
+
 
 Invoke Player.FinishFlingBird
 #Start
@@ -216,70 +241,74 @@ Invoke Player.FinishFlingBird
   12,K
    1,L,J,G
 StunPause
-   5,L,J,G
+   3,L,J,G
+EndStunPause
+StunPause
+   1,L,J,G
+EndStunPause
+StunPause
+   1,L,J,G
    7,J
   12,K,G
-   3,J,G
-EndStunPause
-StunPause
-   1,J,G
-EndStunPause
-StunPause
-   7,J,G
+  11,J,G
    1,R,J
    1,K
    1,J
-  14,R,J
+   5,R,J
+EndStunPause
+StunPause
+   1,R,J
+EndStunPause
+StunPause
+   1,R,J
+   7,R,J
 SkipInput 3 1
    6,R,X
 SkipInput 3
   12,R,X
    1,R
-   2,L,D
-EndStunPause
-StunPause
-   1,L,D
-EndStunPause
-StunPause
-  14,L,D
+  17,L,D
    2
 SkipInput 3 1
-  15,R,X
+   4,R,X
+EndStunPause
+StunPause
+   1,R,X
+EndStunPause
+StunPause
+   1,R,X
+   9,R,X
 SkipInput 3 1
    5,R,U,V
 SkipInput 3
   13,R,U,V
 SkipInput 3 1
-   4,R,X
+  15,R,X
+   5,L
 EndStunPause
-   2,R,X
 StunPause
-   9,R,X
-  21,L
-  11
+   1,L
+EndStunPause
+StunPause
+  15,L
+  26
 EndStunPause
 StunPause
    1
 EndStunPause
 StunPause
-  23
+   8
 SkipInput 3 1
    5,R,X
-  14,R,G
+  29,R,G
 EndStunPause
 StunPause
    1,R,G
 EndStunPause
 StunPause
-  28,R,G
+  13,R,G
   12,R,D,G
-   1,D,G
-EndStunPause
-StunPause
-   1,D,G
-EndStunPause
-StunPause
-   5,D,G
+   7,D,G
 EndStunPause
   38,D,G
 #endstun_xx-10-final-goodbye_1
@@ -448,14 +477,16 @@ EndStunPause
    1,R,J,G
    1,S,N
   10,J
-   5,R,J
+   4,R,J
+StunPause
+   2,R,J
+   1,R
+EndStunPause
+   4,R
+   9,R,D,X
    1,S,N
   10,O
-   1,R,J
-   5,R
-  10,R,D,X
-   1,S,N
-  10,O
+   1,R,D,X
    4,R,K,G
   12,R
    1,R,D,J
@@ -468,10 +499,16 @@ EndStunPause
    5,R,K
 #stun_xx-10-final-goodbye_3
   18,R,D,X
-   2,R
    1,S,N
   10,O
-  14,R,Z
+   2,R
+   4,R,Z
+   1,S,N
+  10,O
+   8,R,Z
+   1,S,N
+  10,O
+   2,R,Z
    2,R,J
 #endstun_xx-10-final-goodbye_3
   21,R,D,X
@@ -514,6 +551,16 @@ EndStunPause
   15,R
   73,R,X
    4,L,G
+
+
+
+
+#   1,L,G
+#   2,L,G
+
+
+
+
   32,D
    1,K
   14,R
@@ -537,6 +584,15 @@ EndStunPause
   13,U,C
    3,R,J
   14,U,X
+
+#hazardcycle_xx-10-final-goodbye_3
+   1
+#endhazardcycle_xx-10-final-goodbye_2
+
+#Move to background
+#For Depression and Trust Sections
+evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foreground.Backdrops.Count and i >= 0 do if invokeMethod(level.Foreground.Backdrops[i].Name, "Contains", "dark") then level.Background.Backdrops:Add(level.Foreground.Backdrops[i]); level.Foreground.Backdrops:RemoveAt(i); else i = i + 1 end end i = nil
+
   16,R,U,C
    1
    2,R
@@ -564,11 +620,6 @@ EndStunPause
    7,R
    1,R,J
    9,R
-
-#Move to background
-#For Depression and Trust Sections
-#evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foreground.Backdrops.Count and i >= 0 do if invokeMethod(level.Foreground.Backdrops[i].Name, "Contains", "dark") then level.Background.Backdrops:Add(level.Foreground.Backdrops[i]); level.Foreground.Backdrops:RemoveAt(i); else i = i + 1 end end i = nil
-
    8,R,K
   15,R,D,X
    2,R,J
@@ -577,9 +628,15 @@ EndStunPause
   25,R,D,K
   14,R,U,Z
 #stun_xx-10-final-goodbye_4
-   3,R,J,G
+   4,R,J,G
 StunPause
-  11,R,J
+   5,R,J
+EndStunPause
+StunPause
+   1,R,J
+EndStunPause
+StunPause
+   4,R,J
 EndStunPause
   28,R,J
   11,R,D
@@ -651,11 +708,6 @@ EndStunPause
 AnalogMode,Precise
  165,F,92.19528
    2,F,92.1953
-
-
-#Restore to foreground
-#evallua if bgs then while level.Background.Backdrops.Count > bgs do level.Foreground.Backdrops:Add(level.Background.Backdrops[bgs]); level.Background.Backdrops:RemoveAt(bgs); end bgs = nil end
-
   11,R,J
    5,R
    1,R,J
@@ -1193,6 +1245,9 @@ endrepeat
  135
 
 #Time
-MidwayFileTime: 4:21.528(15384)
+MidwayFileTime: 4:22.327(15431)
 
 AnalogMode,Ignore
+
+#Restore to foreground
+evallua if bgs then while level.Background.Backdrops.Count > bgs do level.Foreground.Backdrops:Add(level.Background.Backdrops[bgs]); level.Background.Backdrops:RemoveAt(bgs); end bgs = nil end
