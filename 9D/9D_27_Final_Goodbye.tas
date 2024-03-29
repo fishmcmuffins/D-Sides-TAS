@@ -318,15 +318,16 @@ EndStunPause
    1,R,G
   38,R,U,G
    1,L
-  13,R
-   2
-#this doesn't work
+  10,R
+   5
+
 #hazardcycle_xx-10-final-goodbye_2
-   0
+   1
 #endhazardcycle_xx-10-final-goodbye_2
+
   14,R,Z
-   2,R,J
-   2,R
+   3,R,J
+   1,R
   14,R,D,X
    1,R,J
   14,R,U,X
@@ -453,18 +454,13 @@ EndStunPause
    3,R,K
   12,R,J,G
 #stun_xx-10-final-goodbye_2
-Stunpause
-   6,R,J,G
-EndStunPause
-   6,R,J
-Stunpause
-   4,R,J
-EndStunPause
-  12,R,J
+  28,R,J
    1,R,D
    2,R
    4,R,D,K
    1,R
+   1,S,N
+  10,O
   15,R,D,X
    5,R,J
    6,R
@@ -486,11 +482,10 @@ EndStunPause
    3,R
    1,S,N
   10,O
-   6,R,Z
-Stunpause
-   6,R,Z
-EndStunpause
-   2,R,Z
+  11,R,Z
+StunPause
+   3,R,Z
+EndStunPause
 #endstun_xx-10-final-goodbye_3
    2,R,J
   21,R,D,X
@@ -556,6 +551,7 @@ EndStunpause
   13,U,C
    3,R,J
   14,U,X
+
 #hazardcycle_xx-10-final-goodbye_3
    2
 #endhazardcycle_xx-10-final-goodbye_2
@@ -600,9 +596,15 @@ evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foregroun
   14,R,U,Z
 #stun_xx-10-final-goodbye_4
    4,R,J,G
-Stunpause
-  10,R,J
-EndStunpause
+StunPause
+   1,R,J
+EndStunPause
+StunPause
+   1,R,J
+EndStunPause
+StunPause
+   8,R,J
+EndStunPause
   39,R,J
 #endstun_xx-10-final-goodbye_4
    7
@@ -1214,7 +1216,7 @@ endrepeat
  135
 
 #Time
-MidwayFileTime: 4:10.495(14735)
+MidwayFileTime: 4:09.764(14692)
 
 AnalogMode,Ignore
 
