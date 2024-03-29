@@ -240,91 +240,106 @@ evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foregroun
    1,S
    1,D,J
   34
-   5,R
-   1
-   2,R
+   8,R
    1,R,J
-   3,R,D,K
-  13,R,U,X
+   1,R,K
+   1,K
+  14,R,U,X
    1,S
    1,D,J
   34
    3,R
-   8,R,J,G
-  22,R
-   5
-  10,R,Z
+   2,R,J,G
+  18,R
+   1,L,J,G
+  11,R,J
+  20,R
+   1,R,J
+   2,R
+  15,L,Z
+   1,R,J
+   6,L
+   9
+  13,R,D,X
    1,R,J
    2,R,K,G
    1,R,J,G
-   5,R,K,G
-   9,R,J,G
-   3,J
-   1,R,J
-   3,J
-  15,R,D,X
-   3,D
-   3,D,K
-   3,R,K
-   9,R,U,X
+   2,R,K,G
+  11,R,J,G
+   5,R
+   9,R,D,X
+   1,L,J,G
+   9,R,J
+   6,R
   40
 
 #lvl_hh-08
-   5,R,U,X
-   3,R,J,G
-  13,R,K,G
-  14,R,U,X
-   3,R,J,G
-  12,R,K,G
-  15,R
-   1,R,J
-#stun_hh-08
-   7,R
-StunPause
-  10,R,D
-EndStunPause
-   3,R,D
-#endstun_hh-08
-  19,R,D
-  12,R,Z
-   5,R,K,G
    6,R
-  17,R,K
+   1,R,J
+   8,R
+   1,R,J
+   2,R
+   6,R,U,Z
+   1,L,J,G
+   5,R
+   1,R,J
+   4,R
+   1,R,J
+   5,R
+   8,R,D,J
+#stun_hh-08
+   5,R
+   1,R,J
+StunPause
+   3,R,J
+   5,R,D
+EndStunPause
+  11,R,D
+#endstun_hh-08
+   3,R
+  14,R,Z
+   2,R,J,G
+   9,R
+   1,R,J
+   8,R
    4,R,D,J
   40,J
 
 #lvl_i-01
-   8,R,J
-  10,R,D,X
-   1,S
-   1,D,J
-  34
-   2,R,J
-   1,R
-   2,R
+   2,D,J
+   2,R,D,J
+   3,D,J
    9,R,D,X
    1,S
    1,D,J
-  34,J
-   4,R,J
-   1,R,K
-  10,R,J
-   3,R
+  34
+   1
+   5,R
+   6,R,D,X
+   1,S
+   1,D,J
+  34
+   1,R,D,X
+  11,R,J
+   4,R
   40
 
 #lvl_i-02
-   2,R
+   1,R
    4,R,J
-   2,R
+   1,R
+   1,R,J
+   1,R
    4,R,D
-  42,R,K
-  17,R,U,X
-   2,R,J,G
-  13,R,K,G
-   1,R,J,G
-   2,L,J
+  39,R,J
+  14,R,U,X
+  12,R,J,G
+   1,R,K,G
+   1,K
+   2,L,K
    7,R
+
 Assert,Equal,i-02,{Level.Session.Level}
 Assert,Equal,True,[[return player.Position.Y < -11807.49999999999]]
 #Time
-MidwayFileTime: 0:43.418(2554)
+MidwayFileTime: 0:43.146(2538)
