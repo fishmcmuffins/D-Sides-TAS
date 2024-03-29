@@ -154,7 +154,7 @@ EndStunPause
    3,R,J,G
    7,R
 #hazardcycle_cc-07
-   0
+   1
 #endhazardcycle_cc-07
   10,R,Z
   16,L,J
@@ -192,7 +192,8 @@ EndStunPause
    1,K
    1,R,K
    5,R
-   9,R,K
+   5,R,K
+   4,R
    1,R,J,G
    9,R
   13,R,U,X
@@ -200,9 +201,10 @@ EndStunPause
   18,R
    1,R,D
   14,D
-  21
-   7,L
-   5
+  13,L
+   7,R
+   8,G
+   2
   12,R,Z
    1,R,J
    1,R,K,G
@@ -210,53 +212,48 @@ EndStunPause
    1,R,J,G
   15,R,K,G
   15,R,D,X
-   4,R,D
-   5,R,D,J
-  18,R
    3,R,D
-   2,D
-   3
-  13,R,U,Z
-   3,K,G
-   2
-   1,J,G
-   4
-   2,R
-   1,L
-   1,L,K
-  14,R,Z
-   1,L,J
-  15,L,D,X
-   9
-   2,J
-   5,R,J
-  10,R,D,C
-   1,R,K
-   2,R,J,G
-   1,R,K,G
-   3,R,J,G
-   5,R,D,X
-   6,R,K,G
-   9,R
-   1,R,K
-   8,R
+   4,R,J
+   5,R
    1,R,J
-   3,R
-  15,R,D,J,X
-   6,R,J
-   3,J
+  17,R
+   3,R,D
+   1,R
+  13,R,U,Z
+   1,R,J,G
+   3,L,J
+   1,J
+   1,R,K,G
+   1,R,J,G
+   2,R,K,G
+  14,R
+  15,L,D,X
+   8,J
+   4,L,J
+  13,R,D,X
+   1,R,J
+   2,R,K,G
+   1,R,J,G
+   5,R,D,X
+   1,R,J,G
+   6,R,K,G
+  18,R
+   1,R,J
+   2,R
+   1
+  18,R,D,K,X
+   6,R,K
   40
 
 #lvl_cc-08
-   3,R,D,K
+   2,R,D,J
   11,R
+   2
+   1,K
+  14
+   1,L
    1
-  13,K
-   1,R,K
-   1,K
-   1,R,K
-   1,K
-   1,R,K
+   1,L
   77
   10,R
    7,R,J
@@ -311,5 +308,5 @@ EndStunPause
 Assert,Equal,d-01,{Level.Session.Level}
 Assert,Equal,40,{GameInfo.TransitionFrames}
 #Time
-MidwayFileTime: 0:46.682(2746)
+MidwayFileTime: 0:46.529(2737)
   40
