@@ -4,9 +4,8 @@ console load nameguysdsidespack/0/10-Farewell 93870 -11808
 #lvl_i-02
   36
 #hazardcycle_i-05
-   2
+   0
 #Start
-   1,J
    4,Z
    7,R,J
    5,R,K,G
@@ -421,7 +420,6 @@ EndStunPause
   40
 
 #lvl_i-11
-
    1,J,G
   10,R
    5,R,Z
@@ -469,7 +467,8 @@ EndStunPause
 Assert,Equal,i-12,{Level.Session.Level}
 Assert,Equal,40,{GameInfo.TransitionFrames}
 #Time
-MidwayFileTime: 1:04.464(3792)
+MidwayFileTime: 1:04.413(3789)
+#MidwayFileTime: 1:04.464(3792)
   40
 
 #lvl_j-00
