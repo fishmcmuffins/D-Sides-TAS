@@ -60,9 +60,6 @@ evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foregroun
    5,R,X
   19,R,C
   15,U,X
-#hazardcycle_hh-08
-   0
-#endhazardcycle_hh-08
   11,R,C
    4,D,X
   10,R,X
@@ -176,14 +173,18 @@ evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foregroun
    1,D,O
   34
   15,D,X
-   1,R,D
+#hazardcycle_hh-08
+   0
+#endhazardcycle_hh-08
+   1,R
    1,R,J
    1,K
    1
   10,R,D,X
    2,L,J
    9,R,K
-   6,R
+   5,R
+   1
   15,L,D,X
    4,Z
    1,R,J
@@ -198,19 +199,20 @@ evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foregroun
    8,R,D
    8,D
    1,R,D
-   9,R
-   7,R,J
-  32,L,Z
-  12,J,G
-   7
-  31,D
- 210
-   1,R,J
-   9,Z
-   1,L,J
+   8,R
+   1
+   6,J
    2
+  31,L,Z
+  10,J,G
+   7
+  32,D
+ 211
+   9,R,Z
+   1,L,J
+   3
    1,J
-   5
+   4
   14,L,Z
    1,R,K
    8,R,D,X
@@ -225,8 +227,8 @@ evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foregroun
   12,R,K
   13,R,U,Z
    1,L
-   5,L,J,G
-   1,R,K,G
+   4,J,G
+   2,R,J
    1,R
   40
 
@@ -235,111 +237,99 @@ evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foregroun
    1,S
    1,D,J
   34
-   2,R
+   1,R
   17,R,U,X
    1,S
    1,D,J
-  34
-   8,R
-   1,R,J
-   1,R,K
-   1,K
+  42
+   1,R
+   2,R,K
   14,R,U,X
    1,S
    1,D,J
   34
    3,R
-   2,R,J,G
-  18,R
+  38,R,J,G
+   3
+   6,L,D,X
    1,L,J,G
-  11,R,J
-  20,R
-   1,R,J
-   2,R
-  15,L,Z
-   1,R,J
-   6,L
    9
-  13,R,D,X
+  14,L
+  11,R,D,X
    1,R,J
    2,R,K,G
    1,R,J,G
+   6,R,U,X
    2,R,K,G
-  11,R,J,G
+   3,R,J,G
    5,R
-   9,R,D,X
-   1,L,J,G
-   9,R,J
-   6,R
+   2,R,J
+   1,J
+   5,R
+   2,R,K
+   5,R
+   2,K
+   8,R,U,X
   40
 
 #lvl_hh-08
-   6,R
-   1,R,J
-   8,R
-   1,R,J
-   2,R
-   6,R,U,Z
-   1,L,J,G
-   5,R
-   1,R,J
-   4,R
-   1,R,J
-   5,R
-   8,R,D,J
-#stun_hh-08
-   5,R
-   1,R,J
-StunPause
-   3,R,J
-   5,R,D
-EndStunPause
-  11,R,D
-#endstun_hh-08
+   3,R,U,X
+   1,R,J,G
+   2
    3,R
-  14,R,Z
-   2,R,J,G
-   9,R
-   1,R,J
-   8,R
-   4,R,D,J
-  40,J
-
-#lvl_i-01
-   2,D,J
-   2,R,D,J
-   3,D,J
-   9,R,D,X
-   1,S
-   1,D,J
-  34
-   1
-   5,R
-   6,R,D,X
-   1,S
-   1,D,J
-  34
-   1,R,D,X
-  11,R,J
-   4,R
-  40
-
-#lvl_i-02
-   1,R
    4,R,J
    1,R
    1,R,J
    1,R
-   4,R,D
-  39,R,J
-  14,R,U,X
-  12,R,J,G
-   1,R,K,G
-   1,K
-   2,L,K
+   5,R,U,X
+   1,L,K,G
+  14,R
+   3,R,D
+   3,R,J
+   6,R
+#stun_hh-08
+   2,R
+StunPause
+   1,R
+   1,R,J
+   2,R
+EndStunPause
+#endstun_hh-08
    7,R
+   2,R,D
+  14,R,Z
+   1,R,J,G
+  16,R
+   2,R,K
+  40,K
+
+#lvl_i-01
+   5,R,K
+   2,R,J,G
+   6,R,D,X
+   1,S
+   1,D,J
+  34
+   5,R,K
+   1,S
+   1,D,J
+  34
+   3,R,K
+   7,R
+  40
+
+#lvl_i-02
+   2,R
+   1,R,K
+   2,R
+   2,R,D
+  18,R,J
+  13,R,U,X
+   1,R,K,G
+   1,L
+   6,R
 
 Assert,Equal,i-02,{Level.Session.Level}
 Assert,Equal,True,[[return player.Position.Y < -11807.49999999999]]
 #Time
-MidwayFileTime: 0:43.146(2538)
+MidwayFileTime: 0:41.106(2418)
