@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 1008
+RecordCount: 1144
 
 console load nameguysdsidespack/0/10-Farewell
    1
@@ -39,12 +39,11 @@ Read,9D_03,endhazardcycle_c-01-heartgate
 #hazardcycle in cc-00-lobby
 #stun in cc-03
 #hazardcycle in cc-06
-#stun in cc-07
 
 Read,9D_04,Start,hazardcycle_cc-03
    2,G
 Read,9D_04,endhazardcycle_cc-03,hazardcycle_cc-07
-   1
+   2
 Read,9D_04,endhazardcycle_cc-07
 
 #==========================
@@ -55,7 +54,7 @@ Read,9D_04,endhazardcycle_cc-07
 #stun in d-03~d-05
 
 Read,9D_05,Start,hazardcycle_d-03
-   1
+   2
    6,R,D,X
    1,R,J
    6,R
@@ -118,8 +117,7 @@ StunPause
    1,K,G
    3,J,G
 EndStunPause
-   4,R,U,Z
-   4,R,U,Z
+   8,R,U,Z
    3,R,J,G
 StunPause
    4,R
@@ -243,7 +241,7 @@ Read,9D_07,Start
 Read,9D_08,Start,branch_ta1
 Read,9D_08,ta1_2,end_ta1_2
 Read,9D_08,endbranch_ta1,branch_ta2
-Read,9D_08,ta2_2,end_ta2_2
+Read,9D_08,ta2_1,end_ta2_1
 Read,9D_08,endbranch_ta2
 
 #==========================
@@ -268,9 +266,9 @@ StunPause
 EndStunPause
    1,R
    9,R,D
-   1,R,J,G
+   2,R,J,G
 StunPause
-   2,R,J
+   1,R,J
 EndStunPause
 Read,9D_09,endstun_g-09,stun_h-01
    1,R
@@ -294,16 +292,17 @@ Read,9D_09,endstun_h-03
 #Trust
 
 #hazardcycle in hh-07
-#2 stuns in hh-08
+#stun in hh-08
 
 Read,9D_10,Start,hazardcycle_hh-08
-   2
+   0
 Read,9D_10,endhazardcycle_hh-08,stun_hh-08
-   7,R
+   2,R
 StunPause
-  10,R,D
+   1,R
+   1,R,J
+   2,R
 EndStunPause
-   3,R,D
 Read,9D_10,endstun_hh-08
 
 #==========================
@@ -400,7 +399,27 @@ Read,9D_13B,lvl_m-12
 
 Read,9D_14A,Start,hazardcycle_n-05
    1
-Read,9D_14A,endhazardcycle_n-05,hazardcycle_n-12
+Read,9D_14A,endhazardcycle_n-05,stun_n-05
+   6,R
+   1,S
+  11,R,J
+   1,R
+   1,R,D,K
+StunPause
+   4,R,D,K
+   3,R
+   2,R,J,G
+   1,J
+   1,R,J
+EndStunPause
+   3,R,J
+StunPause
+   5,R,J
+   5,R
+   4,L,K,G
+EndStunPause
+   1,K
+Read,9D_14A,endstun_n-05,hazardcycle_n-12
    1
 Read,9D_14A,endhazardcycle_n-12,stun_n-12
    4,R,D,X
@@ -410,10 +429,7 @@ StunPause
 SkipInput 3 1
    5,R,U,C
 SkipInput 3
-   7,R,U,C
-EndStunPause
-StunPause
-   2,R,U,C
+   9,R,U,C
    3,R,K,G
 EndStunPause
    1,R,K
@@ -440,13 +456,15 @@ Read,9D_15,Start
 #2 stuns in CP-37
 
 Read,9D_16,Start,hazardcycle_CP-37
-   2
+   1
 Read,9D_16,endhazardcycle_CP-37,stun_CP-37_1
    2,R
 StunPause
   11,R,U
 SkipInput 3 1
   15,R,Z
+EndStunPause
+StunPause
    1,R,J
    1,R,K
    1,R,J
@@ -459,7 +477,10 @@ EndStunPause
 Read,9D_16,endstun_CP-37_1,stun_CP-37_2
    1,R,J
 StunPause
-  11,R,J
+   1,R,J
+EndStunPause
+StunPause
+  10,R,J
    1,R,K,G
    7,R,D
 EndStunPause
@@ -520,13 +541,13 @@ Read,9D_22,endstun_v-00-lobby_1,stun_v-00-lobby_2
 StunPause
    8,R,J
 SkipInput 3 1
-  15,U,Z
-  10,R
-SkipInput 3 1
-  10,L,U,Z
+  12,U,Z
 EndStunPause
 StunPause
-   5,L,U,Z
+   3,U,Z
+  10,R
+SkipInput 3 1
+  15,L,U,Z
    6
    3,L
    1,R
@@ -551,7 +572,7 @@ Read,9D_24,Start
 #2 stuns in w-16
 
 Read,9D_25,Start,hazardcycle_w-16
-   0
+   2
 Read,9D_25,endhazardcycle_w-16,stun_w-16_1
    2
 StunPause
@@ -562,36 +583,35 @@ SkipInput 3 1
    1,R,Z
    1,R,K
    1,L,J,G
-   1,R,J
-EndStunPause
-StunPause
-   1,R,J
-EndStunPause
-StunPause
+   2,R,J
    2,R
 SkipInput 3 1
    7,R,D,X
-   4,R,K,G
+   1,R,K,G
+EndStunPause
+StunPause
+   1,R,K
+EndStunPause
+StunPause
+   2,R,K
 EndStunPause
    3,K
-   3,R,K
-StunPause
-   4,R,K
-EndStunPause
-Read,9D_25,endstun_w-16_1,stun_w-16_2
-   1,R
    1,S,N
   10,O
+   2,R,K
+StunPause
+   5,R,K
+EndStunPause
+Read,9D_25,endstun_w-16_1,stun_w-16_2
    3,R
 StunPause
-   2,R
+   3,R
    1,R,D,J
 EndStunPause
    2,R,J
-   1,R
    1,S,N
   10,O
-   4,R
+   5,R
    4,J
 Read,9D_25,endstun_w-16_2
 
@@ -604,9 +624,11 @@ Read,9D_25,endstun_w-16_2
 #hazardcycle in xx-07
 
 Read,9D_26,Start,hazardcycle_x-10
-#used for stun_x-11 here
-   1
+#can't be used for x-11 here
+   2
 Read,9D_26,endhazardcycle_x-10,stun_x-11
+   1,S,N
+  10,O
    2,R
    1,S,N
   10,O
@@ -619,7 +641,7 @@ Read,9D_26,endhazardcycle_x-10,stun_x-11
   10,O
    4,R,U,Z
 Read,9D_26,endstun_x-11,hazardcycle_xx-10-final-goodbye
-   2
+   5
 Read,9D_26,hazardcycle_xx-10-final-goodbye
 #TimeActive for FGFG measured here
 #w/o cycle wait in Bottomless
@@ -633,4 +655,4 @@ Read,9D_27,Start
 
 #==========================
 
-ChapterTime: 46:12.683(163099)
+ChapterTime: 45:57.808(162224)
