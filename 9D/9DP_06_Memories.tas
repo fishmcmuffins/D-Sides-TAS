@@ -1,43 +1,136 @@
 console load nameguysdsidespack/0/10-Farewell 36702 -4968.3
    1
 
+Set,Level.TimeActive,256
+#512 has same TADelta
+
 console give_dsides_plat
 
 #lvl_d-09
   36
+#hazardcycle_d-10
+   2
+#endhazardcycle_d-10
    5,R,X
    7,R,J
   40
 
 #Start
 #lvl_d-10
-   3,R,J
-   1,R
-   5,R,Z
-#hazardcycle_d-10_1
-   1
-#endhazardcycle_d-10_1
-Read,9D_06,endhazardcycle_d-10_1,stun_d-10_1
+Read,9D_06,lvl_d-10,stun_d-10_1
 #stun_d-10_1
-   2,R,D
+   3,R,D
 StunPause
    2,R,D
-   1,R,J
-   5,R
+   1,R,D,K
+   3
+   2,R
 EndStunPause
+   1,R
+   1,R,K
 #endstun_d-10_1
-Read,9D_06,endstun_d-10_1,hazardcycle_d-10_2
-#hazardcycle_d-10_2
-   2
-#endhazardcycle_d-10_2
-Read,9D_06,endhazardcycle_d-10_2,stun_d-10_2
+Read,9D_06,endstun_d-10_1,stun_d-10_2
 #stun_d-10_2
-   2,F,5.01
 StunPause
-   4,F,5.01
-  30,F,33.53
-   4,F,90
+   1,R,K,G
+   1,J
+   1
+   1,R
+   1,K
+   1,R,J,G
+   1
+   1,K
+   1,R,J,G
+   1
+   1,K
+   1,R,J,G
+   1
+   1,R
+   1,K
+   1,R,J,G
+   1
+   1,K
+   1,R,J,G
+   1
+   1,K
+   1,R,J,G
+   1
+   1,R
+   1,K
+   1,R,J,G
+   1
+   1,K
+   1,R,J,G
+   1
+   1,K
+   1,R,J,G
+   1
+   1,R
+   1,K
+   1,R,J,G
+   1
+   1,K
+   1,R,J,G
+   1
+   1,K
+   1,R,J,G
+   2
+   1,K
+   1,R,J,G
+   1
+   1,K
+   1,R,J,G
+   1
+   1,K
+   1,R,J,G
+   1
+   1,R
+   1,K
+   1,R,J,G
+   1
+   1,K
+   1,R,J,G
+   1
+   1,K
+   1,R,J,G
+   1
+   1,R
+   1,K
+   1,R,J,G
+   1
+   1,K
+   1,R,J,G
+   1
+   1,K
+   1,R,J,G
+   1
+   1,R
+   1,K
+   1,R,J,G
+   1
+   1,K
+   1,R,J,G
+   1
+   1,K
+   1,R,J,G
+   1
+   1,R
+   1,K
+   1,R,J,G
+   1
+   1,K
+   1,R,J,G
+   1
+   1,K
+   1,R,J,G
+   1
+   1,K
+   2,R,J,G
+SkipInput 3 1
+   8,R,U,Z
+   3,R,K,G
 EndStunPause
+   1,R,K
 #endstun_d-10_2
 Read,9D_06,endstun_d-10_2,lvl_d-18
 
@@ -92,7 +185,7 @@ Read,9D_06,endstun_d-10_2,lvl_d-18
   16,L
    6,G
 #hazardcycle_d-19
-   0,G
+   2,G
 #endhazardcycle_d-19
    7,U,G
   19,L,K,G
@@ -262,7 +355,8 @@ EndStunPause
    7,R
    6,R,K
   11,U,X
+
 #Time
-MidwayFileTime: 1:58.881(6993)
+MidwayFileTime: 1:56.824(6872)
 
 AnalogMode,Ignore
