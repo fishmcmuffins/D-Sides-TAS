@@ -167,11 +167,11 @@ EndStunPause
 #lvl_cc-06
 Read,9D_04,lvl_cc-06,hazardcycle_cc-07
 #hazardcycle_cc-07
-   1
+   2
 #endhazardcycle_cc-07
 Read,9D_04,endhazardcycle_cc-07,Time
-#Time
 
-MidwayFileTime: 0:53.839(3167)
+#Time
+MidwayFileTime: 0:53.584(3152)
 
   40
