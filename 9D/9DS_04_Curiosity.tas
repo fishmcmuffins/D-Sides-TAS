@@ -413,16 +413,16 @@ play,lvl_cc-06
 #lvl_cc-06
 Read,9D_04,lvl_cc-06,hazardcycle_cc-07
 #hazardcycle_cc-07
-   0
+   1
 #endhazardcycle_cc-07
 Read,9D_04,endhazardcycle_cc-07,lvl_cc-08
 
 #lvl_cc-08
-   1,R,D,J
-  13,R
+   2,R,D,J
+  11,R
   15,D,X
 #keycycle_cc-08
-  86
+  85
 #endkeycycle_cc-08
    8,L,Z
    1,R,J
@@ -455,6 +455,8 @@ Read,9D_04,endhazardcycle_cc-07,lvl_cc-08
    8,R
   25,R,Z
   15,R,V
+
 #Time
-MidwayFileTime: 1:18.064(4592)
+MidwayFileTime: 1:17.792(4576)
+
   40
