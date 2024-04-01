@@ -7,7 +7,7 @@ Set,Level.TimeActive,256
 #lvl_d-09
   36
 #hazardcycle_d-10
-   0
+   1
 #endhazardcycle_d-10
    5,R,X
    7,R,J
@@ -23,170 +23,150 @@ Set,Level.TimeActive,256
    1,K
    4,J,G
    1,L,J
-   7,R,J
-  19,R
-   1,R,D
-  16,G
-   1,D,G
-   1,G
-   1,D,G
-   1,G
-   2,D,G
-   2,G
-   2,U,G
-   1
-   1,R,J,G
-   1,R,K,G
-   1,R,J,G
-   1,R,K,G
-   1,J,G
-   5
-   1,R
-   1
-#stun_d-10_1
-   3,R,D
-StunPause
-   2,R,D
-   1,R,D,K
-   3
-   2,R
-EndStunPause
-   1,R
-   1,R,K
-#endstun_d-10_1
+   6,R,J
    6,R
-  13,R,U,Z
-   1,R,J,G
-  10,R
+   2,R,J
+  13,R
+  31,G
    1
-   8,R
+   1,R,J,G
+   1,R,K,G
+   1,R,J,G
+   1,R,K,G
+   1,R,J,G
+   7,R
+#stun_d-10_1
    2,R,D
-  12,R,U,Z
-#stun_d-10_2
+   1,R,K
 StunPause
+   5,R
+   1,R,K
+EndStunPause
+   2,R,K
+#endstun_d-10_1
+   5,R
+  12,R,U,X
+   2,R,J,G
+  12,R
+   3
+   1,R
+   1
+   1,R
+   1
+   9,R,U,Z
+#stun_d-10_2
    1,R,K,G
    1,J
+   1,R,K,G
+StunPause
    1
-   1,R
-   1,K
-   1,R,J,G
-   1
-   1,K
-   1,R,J,G
-   1
-   1,K
-   1,R,J,G
-   1
-   1,R
-   1,K
-   1,R,J,G
-   1
-   1,K
-   1,R,J,G
-   1
-   1,K
-   1,R,J,G
-   1
-   1,R
-   1,K
-   1,R,J,G
-   1
-   1,K
-   1,R,J,G
-   1
-   1,K
-   1,R,J,G
-   1
-   1,R
-   1,K
-   1,R,J,G
-   1
-   1,K
-   1,R,J,G
-   1
-   1,K
-   1,R,J,G
+   1,J
+   1,R,K,G
    2
-   1,K
-   1,R,J,G
+   1,J
+   1,R,K,G
    1
-   1,K
-   1,R,J,G
+   1,J
+   1,R,K,G
    1
-   1,K
-   1,R,J,G
+   1,J
+   1,R,K,G
+   2
+   1,J
+   1,R,K,G
    1
-   1,R
-   1,K
-   1,R,J,G
+   1,J
+   1,R,K,G
    1
-   1,K
-   1,R,J,G
-   1
-   1,K
-   1,R,J,G
-   1
-   1,R
-   1,K
-   1,R,J,G
-   1
-   1,K
-   1,R,J,G
-   1
-   1,K
-   1,R,J,G
+   1,J
+   1,R,K,G
    1
    1,R
-   1,K
-   1,R,J,G
+   1,J
+   1,R,K,G
    1
-   1,K
-   1,R,J,G
+   1,J
+   1,R,K,G
    1
-   1,K
-   1,R,J,G
+   1,J
+   1,R,K,G
+   2
+   1,J
+   1,R,K,G
+   1
+   1,J
+   1,R,K,G
+   1
+   1,J
+   1,R,K,G
    1
    1,R
-   1,K
-   1,R,J,G
+   1,J
+   1,R,K,G
    1
-   1,K
-   1,R,J,G
+   1,J
+   1,R,K,G
    1
-   1,K
-   1,R,J,G
+   1,J
+   1,R,K,G
    1
-   1,K
-   2,R,J,G
+   1,R
+   1,J
+   1,R,K,G
+   1
+   1,J
+   1,R,K,G
+   1
+   1,J
+   1,R,K,G
+   1
+   1,R
+   1,J
+   1,R,K,G
+   1
+   1,J
+   1,R,K,G
+   1
+   1,J
+   1,R,K,G
+   1
+   1,J
+   2,R,K,G
 SkipInput 3 1
    8,R,U,Z
+   1,R,J,G
    3,R,K,G
 EndStunPause
-   1,R,K
 #endstun_d-10_2
-  10,R,K
-   1,K
-   5,J,G
-   2,K,G
+  12,R,K,G
+   4,R,J,G
+   2,R,K,G
   40
 
 #lvl_d-11
-   4,K
-   5,R,K
-  19,R
-   1,R,J
-  12,R
-   7,R,K
-  16,K
-  16,U,X
-  12,J,G
-  10,K,G
-   2
-   2,J,G
-   2
-   4,R
-   1
-   6,L,Z
+   3,R,K
+   1,K
+  12,R,K
+  16,R,D,X
+   6,R,J
+   5,R
+   3,R,J
+   3,R
+   1,K
+   3,R,K
+   8,K
+  15,U,X
+   3,J
+   1,R,K,G
+  10,R,J,G
+   1,R
+   1,K,G
+   1,L
+  12,R,J,G
+   2,R
+   4
+   1,R
+   5,L,Z
    7,R,K
    1,K
    4,R
@@ -700,7 +680,7 @@ EndStunPause
 Assert,Equal,d-19,{Level.Session.Level}
 Assert,Equal,40,{GameInfo.TransitionFrames}
 #Time
-MidwayFileTime: 1:43.887(6111)
+MidwayFileTime: 1:41.626(5978)
   40
    1
   72,O
