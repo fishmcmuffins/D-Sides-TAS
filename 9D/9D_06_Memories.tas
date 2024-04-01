@@ -7,7 +7,7 @@ Set,Level.TimeActive,256
 #lvl_d-09
   36
 #hazardcycle_d-10
-   2
+   0
 #endhazardcycle_d-10
    5,R,X
    7,R,J
@@ -16,30 +16,22 @@ Set,Level.TimeActive,256
 #Start
 #lvl_d-10
    4,R,J
-   1,K,G
+  12,R,Z
+   2,K
    1,R,K
-   1,L,K
-   9,L,Z
-   1,R,J
-   3
-   3,R
-   1
-   5,R,D
-   6,R,K
-   6,R
-   1,R,J,G
-   9
-   4,R
-   6,L,X
-   1,K,G
-  13,L
-   4,R
+  14,R,X
+   1,K
+   4,J,G
+   1,L,J
+   7,R,J
+  19,R
+   1,R,D
+  16,G
+   1,D,G
    1,G
-   8
-   9,G
-   1,U,G
+   1,D,G
    1,G
-   2,U,G
+   2,D,G
    2,G
    2,U,G
    1
@@ -708,7 +700,7 @@ EndStunPause
 Assert,Equal,d-19,{Level.Session.Level}
 Assert,Equal,40,{GameInfo.TransitionFrames}
 #Time
-MidwayFileTime: 1:44.142(6126)
+MidwayFileTime: 1:43.887(6111)
   40
    1
   72,O
