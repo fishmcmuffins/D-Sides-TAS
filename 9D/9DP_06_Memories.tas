@@ -9,7 +9,7 @@ console give_dsides_plat
 #lvl_d-09
   36
 #hazardcycle_d-10
-   2
+   1
 #endhazardcycle_d-10
    5,R,X
    7,R,J
@@ -19,118 +19,98 @@ console give_dsides_plat
 #lvl_d-10
 Read,9D_06,lvl_d-10,stun_d-10_1
 #stun_d-10_1
-   3,R,D
-StunPause
    2,R,D
-   1,R,D,K
-   3
-   2,R
-EndStunPause
-   1,R
    1,R,K
+StunPause
+   5,R
+   1,R,K
+EndStunPause
+   2,R,K
 #endstun_d-10_1
 Read,9D_06,endstun_d-10_1,stun_d-10_2
 #stun_d-10_2
-StunPause
    1,R,K,G
    1,J
+   1,R,K,G
+StunPause
    1
-   1,R
-   1,K
-   1,R,J,G
-   1
-   1,K
-   1,R,J,G
-   1
-   1,K
-   1,R,J,G
-   1
-   1,R
-   1,K
-   1,R,J,G
-   1
-   1,K
-   1,R,J,G
-   1
-   1,K
-   1,R,J,G
-   1
-   1,R
-   1,K
-   1,R,J,G
-   1
-   1,K
-   1,R,J,G
-   1
-   1,K
-   1,R,J,G
-   1
-   1,R
-   1,K
-   1,R,J,G
-   1
-   1,K
-   1,R,J,G
-   1
-   1,K
-   1,R,J,G
+   1,J
+   1,R,K,G
    2
-   1,K
-   1,R,J,G
+   1,J
+   1,R,K,G
    1
-   1,K
-   1,R,J,G
+   1,J
+   1,R,K,G
    1
-   1,K
-   1,R,J,G
+   1,J
+   1,R,K,G
+   2
+   1,J
+   1,R,K,G
    1
-   1,R
-   1,K
-   1,R,J,G
+   1,J
+   1,R,K,G
    1
-   1,K
-   1,R,J,G
-   1
-   1,K
-   1,R,J,G
-   1
-   1,R
-   1,K
-   1,R,J,G
-   1
-   1,K
-   1,R,J,G
-   1
-   1,K
-   1,R,J,G
+   1,J
+   1,R,K,G
    1
    1,R
-   1,K
-   1,R,J,G
+   1,J
+   1,R,K,G
    1
-   1,K
-   1,R,J,G
+   1,J
+   1,R,K,G
    1
-   1,K
-   1,R,J,G
+   1,J
+   1,R,K,G
+   2
+   1,J
+   1,R,K,G
+   1
+   1,J
+   1,R,K,G
+   1
+   1,J
+   1,R,K,G
    1
    1,R
-   1,K
-   1,R,J,G
+   1,J
+   1,R,K,G
    1
-   1,K
-   1,R,J,G
+   1,J
+   1,R,K,G
    1
-   1,K
-   1,R,J,G
+   1,J
+   1,R,K,G
    1
-   1,K
-   2,R,J,G
+   1,R
+   1,J
+   1,R,K,G
+   1
+   1,J
+   1,R,K,G
+   1
+   1,J
+   1,R,K,G
+   1
+   1,R
+   1,J
+   1,R,K,G
+   1
+   1,J
+   1,R,K,G
+   1
+   1,J
+   1,R,K,G
+   1
+   1,J
+   2,R,K,G
 SkipInput 3 1
    8,R,U,Z
+   1,R,J,G
    3,R,K,G
 EndStunPause
-   1,R,K
 #endstun_d-10_2
 Read,9D_06,endstun_d-10_2,lvl_d-18
 
@@ -357,6 +337,6 @@ EndStunPause
   11,U,X
 
 #Time
-MidwayFileTime: 1:56.824(6872)
+MidwayFileTime: 1:54.308(6724)
 
 AnalogMode,Ignore
