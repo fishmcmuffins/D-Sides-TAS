@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 3462
+RecordCount: 3541
 
 console load nameguysdsidespack/0/10-Farewell 212416 -50688.1666963995
    1
@@ -168,7 +168,7 @@ EndRepeat
    8,R,K,G
   43
 
-#lvl_v-02 (1)
+#lvl_v-02
    1,R
    7,R,K
    1,J
@@ -176,37 +176,37 @@ EndRepeat
    5,R
    3,R,J
   14,R,Z
-  10,R,J
-   3,R
-  15,R,D,X
-   2,R,J
-   3,R
-  16,R,Z
-   5,R
-  16
+   9,R,J
+   1,J
+   4
+  12,R,D,X
+  19,R
+  20,R,U,X
+  15,U,C
+  12,L
+  36,D
+   1,L
+   1
+   1,L
+  28,L
   15,U,X
-   6,R
-  20,U,C
+   6,L
+  15,U,X
+   1,L
   40
 
-#lvl_v-03 (1)
-  11
-  11,D,X
-  40
-
-#lvl_v-02 (2)
-   4,L
-  22,L,X
-  14,L,U,Z
-  40
-
-#lvl_v-03 (2)
-  14,L
-   6,U,X
+#lvl_v-03
+   5,L
+   2
+   1,L
+   3
+  15,L,Z
+   7,U,X
   29,R
   14,R,X
    1,R,J,G
-   2,R,K,G
+   1,R,K,G
+   1,R
    5,R,J,G
    7,R
    3,R,J
@@ -297,7 +297,7 @@ EndRepeat
   11,L,D
   77
 #hazardcycle_v-00-lobby
-   2
+   1
 #endhazardcycle_v-00-lobby
    7,L,Z
    1,R,J
@@ -451,9 +451,9 @@ Read,9DS_22,lvl_v-00-upperer-b,lvl_void
  155,D
    4,Z
    1,R,J
- 127
+ 136
   40,L
-  38
+  27
 #endkeycycle_lvl-void_1
    1,K
    5
@@ -475,7 +475,7 @@ Read,9DS_22,lvl_v-00-upperer-b,lvl_void
    1,J
   16,R,J
 #keycycle_lvl-void_2
- 310
+ 304
 #endkeycycle_lvl-void_2
    9,L,K
    3,K
@@ -496,13 +496,13 @@ Read,9DS_22,lvl_v-00-upperer-b,lvl_void
   91,G
    4,K,G
    1,L,K
- 106
+  92
   10,L,D,J
    2,K,G
    1,R,K
   10
    2,L
- 213
+ 204
   11,R,J
    1,J
    8,K,G
@@ -510,18 +510,18 @@ Read,9DS_22,lvl_v-00-upperer-b,lvl_void
    5,R,Z
    1,R,J,G
   11,R
- 115
+ 112
 #endkeycycle_lvl-void_3
   14,R,Z
    1,R,K
   22,D,X
 #keycycle_lvl-void_4
- 100
+  99
    2,R
    1,R,J
   15,D,X
   17,R
-  55
+  54
   10,J
    2
   11,K,G
@@ -542,7 +542,7 @@ Read,9DS_22,lvl_v-00-upperer-b,lvl_void
   18,R
   15,R
 #keycycle_lvl-void_5
-  77,D
+  76,D
 #endkeycycle_lvl-void_5
   10,D,J
    1,K,G
@@ -552,5 +552,5 @@ Read,9DS_22,lvl_v-00-upperer-b,lvl_void
    3,K
   14,U,X
 #Time
-MidwayFileTime: 1:50.908(6524)
+MidwayFileTime: 1:49.565(6445)
   40
