@@ -60,32 +60,37 @@ play,lvl_aa-02
 #lvl_aa-01
   10,R,D,X
    4,D
-   8,R,D
-   5,R
-  20,R,X
-  24,R
-  19,R,Z
-   8,R
-  15,R,X
-  17,L
-  11,R,Z
-   8,R,J
-   3,R,K,G
-   5,R
-   2,R,J
-  17,R
-   1,G
+  20
+   1,D
+  12,R,X
+   1,R,J,G
+   1,R,K,G
+   6,R
+   1,R,K
    1
+  26,R,J
+  14,R,U,X
+   3,R,J,G
+   3,J
+   5
    1,J
+   5
+   8,R
+  15,L,X
+  16
+  14,R,D,X
+   1,R,J
+   2,R,K,G
+   1,R,J,G
+   2,R,K,G
+   1,R,J,G
+   2,J
+   1,R
    4
-   5,L
-   2,R
-  17,R,D
-   3,R
-  13,R,Z
-  33,R
-  17,R,U,X
-  19,R
+  14,R,D
+  19,R,Z
+   1,L
+  19,D
   77
    8,L,X
   40
@@ -148,7 +153,7 @@ endroute_aa-01
   13,L,J
   77
 #hazardcycle_aa-03
-   0
+   1
 #endhazardcycle_aa-03
   18,L,D,X
    4,Z
@@ -250,6 +255,6 @@ EndStunPause
 Read,9D_02,lvl_aa-04,Time
 
 #Time
-MidwayFileTime: 0:47.107(2771)
+MidwayFileTime: 0:46.189(2717)
 
 Read,9D_02,Time
