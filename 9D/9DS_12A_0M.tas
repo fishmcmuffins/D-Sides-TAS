@@ -316,7 +316,7 @@ AnalogMode,Precise
    5,R
    2
 #hazardcycle_j-07
-   2
+   1
 #endhazardcycle_j-07
    2,L,J
   11,U,X
@@ -396,11 +396,15 @@ AnalogMode,Precise
   40
 
 #lvl_j-07
-   3
-   5,J
-  14,R
    1
-   1,R,N
+   3,R,J
+   2,J
+   2,R,J
+   2,R
+   1,R,K,G
+   5,R
+   2
+   1,X
    1
   65,U
    1,X
@@ -462,7 +466,7 @@ AnalogMode,Precise
 Read,9D_12A,lvl_j-09,Time
 
 #Time
-MidwayFileTime: 1:12.624(4272)
+MidwayFileTime: 1:12.522(4266)
 
 Read,9D_12A,Time
 
