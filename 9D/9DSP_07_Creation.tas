@@ -1,6 +1,13 @@
 console load nameguysdsidespack/0/10-Farewell 50419 -8143.88
    1
 
+#THIS FILE IS OBSOLETE FOR ANY
+#ACTUAL RUN, BUT IT COULD
+#EXIST FOR KEYS OTHER THAN e-00
+
+#DONT DELETE UNLESS GENERAL
+#COMMUNITY CONSENSUS AGREES
+
 console give_dsides_plat
 
 #lvl_dd-04
@@ -11,25 +18,14 @@ console give_dsides_plat
    0,R,Z
 
 #Start
-   4,L,K
-   1,L
-  12,L,K
-  45,L,Z
-   3,R
-   3,R,J
-   6,J
-  15,U,V
-   8,K
-   9,R,K
-   1,J,G
+Read,9DS_07,endroute_d-19,stun_dd-00-lobby
 #stun_dd-00-lobby
-   2,J,G
+   2,R,J
 StunPause
-   7,J,G
-   1
    1,K,G
-   4
-   2,R
+   4,R
+   1
+   1,R
    1,L
    3,L,D
    8,L,J
@@ -47,11 +43,9 @@ SkipInput 3 1
   15,R,U,Z
    6,K,G
 EndStunPause
+   3,K,G
 #endstun_dd-00-lobby
-   2,K,G
-   1,J,G
-   4
-   3,L
+   7,L
    6,L,Z
    1,L,J
    7,L
@@ -63,6 +57,6 @@ EndStunPause
 Read,9DS_07,lvl_e-00,Time
 
 #Time
-MidwayFileTime: 0:34.714(2042)
+MidwayFileTime: 0:34.034(2002)
 
 Read,9DS_07,Time
