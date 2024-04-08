@@ -584,6 +584,7 @@ console load nameguysdsidespack/0/10-Farewell 132169 -30311
    9,R,D
    4,D,X
   11,R,X
+#endroute_o-11
   19,U,C
   18,R,X
   12,L
@@ -672,6 +673,19 @@ console load nameguysdsidespack/0/10-Farewell 132169 -30311
   15,D,Z
   21,R,V
   56
+
+
+
+
+
+
+#1:39.246(5838)
+
+
+
+
+
+
 
 #lvl_o-13
    2,R
