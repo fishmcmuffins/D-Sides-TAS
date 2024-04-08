@@ -8,7 +8,6 @@ Set,Player.StateMachine.State,10
   40
 
 #lvl_m-13
-Set,Level.TimerStarted,true
 #Start
 Read,9D_14A,Start,hazardcycle_n-05
 #hazardcycle_n-05
