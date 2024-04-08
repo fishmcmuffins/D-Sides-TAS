@@ -4,44 +4,13 @@ console load nameguysdsidespack/0/10-Farewell 8684.2 -1184.39
 
 #lvl_a-10
   36
-#CP-only hazard cycle
-   0
-#=============
    5,R,Z
    4,R,J
    5,R
   40
 
 #Start
-play,route_aa-01
-
 #lvl_aa-00-lobby (1)
-#route_aa-02
-   1,J
-  13,R,Z
-  13,R,J
-   4,R
-  14,R,U,Z
-   1,R,K,G
-   2,R,J,G
-   7,R
-  13,R,U,Z
-   1,K,G
-   5
-   2,R
-  12,R,Z
-   1,R,J
-   3,R,K,G
-   3,R
-   5,R,U,Z
-  43
-#endroute_aa-02
-
-play,lvl_aa-02
-
-#====================
-
-#route_aa-01
    1,R
   12,R,Z
    1,R,J
@@ -94,97 +63,40 @@ play,lvl_aa-02
   20,R,Z
    1,S
    1,D,J
+#hazardcycle_aa-00-lobby
+   0
+#endhazardcycle_aa-00-lobby
   69,O
-   4,L,D,X
+   4,L,Z
    4,L,J
   40
 
 #lvl_aa-00-lobby (2)
-   3,L,J
-   4,J
-  13,U,X
-  12,R,J
-   9,R
-   2
-  13,R,Z
-   1,R,J
-   3,R,K,G
-   3,R
-   5,R,U,Z
-  43
-
-#endroute_aa-01
-
-#====================
-
-#lvl_aa-02
-   3,R,U,X
-   5,L,J,G
-   3,R,J,G
-  13,U,X
-  30,L,U,J,G
-   1,D
-   5,L,D
-   1,J
-   1,L,K,G
-   7,K
-   1,R,K
-  28,L,K,G
-  20,R,U,J,G
-   4,U,J,G
-   1,L
-   4
-  15,R,Z
-  10
-  15,R,Z
-  14,L,D
-   6,R,D
-   4,J
-   8,R,J
-  14,R,U,X
-   7,R,J,G
-   1,K,G
-   6,R,G
-   1,L
-   7,R,J
-   4,L,J
-   6,J
-   1,J
-  15,U,X
-  18,R
-   1,R,J,G
-   5,R,K,G
-   1,S
-   1,D,J
-#hazardcycle_aa-03
-   1
-#endhazardcycle_aa-03
-  69,O
-   4,Z
-   1,L,K
-  12,L,D
-   5,L,D,X
-  40
-
-#lvl_aa-00-lobby (3)
-   7,L,D,X
-  10,L,J
-  11,L,Z
+   5,L,J
+   2,L
+  14,U,X
+   8,L,J
+   3,R,J
+   2,R
+   9,L
+  11,L,J
+  10,L,Z
    1,L,K
    2,L,J,G
    1,L,K,G
    2,L,J,G
    3,L,K,G
-   5,L
-   2,L,K
-   9,L
+  13,L
    1
+   2,L
+   2
    1,R,J
   43
 
 #lvl_aa-03
    7,L,J
    1,R,K,G
+#stun_aa-03
    1,L,K
 StunPause
   17,L,K
@@ -192,6 +104,7 @@ SkipInput 3 1
   14,U,X
 EndStunPause
    3
+#endstun_aa-03
    4,R,J
    1,S
    1,D,J
@@ -229,7 +142,7 @@ EndStunPause
   14,R,G
   40,J
 
-#lvl_aa-00-lobby (4)
+#lvl_aa-00-lobby (3)
    6,R,J,G
   10,R,K,G
 StunPause
@@ -260,6 +173,6 @@ EndStunPause
 Read,9D_02,lvl_aa-04,Time
 
 #Time
-MidwayFileTime: 0:44.965(2645)
+MidwayFileTime: 0:37.145(2185)
 
-Read,9D_02,Time
+  40
