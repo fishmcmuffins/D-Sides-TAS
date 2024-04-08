@@ -6,7 +6,7 @@ console load nameguysdsidespack/0/10-Farewell 114584 -21424
 Read,9D_13B,Start,lvl_m-03
 
 #lvl_m-03
-   9,R,U,X
+   9,R,U,Z
    2,J
   12,R,X
    4,R,J
@@ -20,15 +20,16 @@ Read,9D_13B,Start,lvl_m-03
    4,K,G
   15,R,K
   31,R,X
-   4,D,C
-   6,R,C
-   4,R,J
+   5,R,Z
+   5,R,J
+   2,R
+   2,R,J
    9,R
   15,D,X
-   9,R,D
    1,R
-   1,R,D
-   4,D,X
+   8,R,D
+   1,R
+   4,Z
    1,R,J
    6,R
   11,R,D,J
@@ -41,11 +42,11 @@ Read,9D_13B,Start,lvl_m-03
    6,L,J
    1,J
    9,K
-  25
-  12,R
-   7,G
-   1,U,G
-   1,G
+  26
+  10,R
+   5,G
+   3
+   2,G
    1,J,G
   11,R
    2,G
@@ -54,12 +55,20 @@ Read,9D_13B,Start,lvl_m-03
    1,R,J,G
    6,R,K,G
    6,R,J,G
-  27,R
-  15,U,X
-  17,D
-  15,R,D
+   5,R
+   2
+   1,R
+  12
+  15,R,U,Z
+  18
+   1,L
+   1
+   1,L
+   1
+   1,L,D
    1,D
-   8,R,D
+  14,R,D
+   2,R
   15,R,Z
    6,R,X
    7,R,J
@@ -479,8 +488,9 @@ play,lvl_m-08 (2)
   14,R,Z
    9,R,K
   14,R,D,X
-  16,R,J
-   1,R
+  15,R,J
+#stun_m-08
+   2,R
 StunPause
   10,R
 SkipInput 3 1
@@ -492,6 +502,7 @@ SkipInput 3 1
    5,R,D,X
 EndStunPause
    2,R,D,X
+#endstun_m-08
    6,R,J
    1,R
    1,R,K,G
@@ -769,6 +780,6 @@ play,endbranch_ta3
 #lvl_m-12
 Read,9D_13B,lvl_m-12,Time
 #Time
-MidwayFileTime: 1:31.392(5376)
+MidwayFileTime: 1:31.239(5367)
 
 Read,9D_13B,Time
