@@ -15,10 +15,10 @@ Invoke BloomFadeTrigger[xx-09:5730].OnStay null
 Set,Level.TimerStarted,true
   30
 
-#+4f in Bottomless
-Set,Level.TimeActive,2858.241455078125
+#+0f in Bottomless
+Set,Level.TimeActive,2850.963867187500
 #hazard cycle
-   4
+   0
 #-------------
 
 Invoke Player.FinishFlingBird
@@ -221,70 +221,61 @@ Invoke Player.FinishFlingBird
 StunPause
    5,L,J,G
    7,J
-   7,K,G
-EndStunPause
-StunPause
-   1,K,G
-EndStunPause
-StunPause
-   4,K,G
+  12,K,G
   11,J,G
+EndStunPause
+StunPause
    1,R,J
+EndStunPause
+StunPause
    1,K
    1,J
   14,R,J
 SkipInput 3 1
    6,R,X
 SkipInput 3
-   9,R,X
-EndStunPause
-StunPause
-   1,R,X
-EndStunPause
-StunPause
-   2,R,X
+  12,R,X
    1,R
-  17,L,D
+  10,L,D
+EndStunPause
+StunPause
+   1,L,D
+EndStunPause
+StunPause
+   6,L,D
    2
 SkipInput 3 1
   15,R,X
 SkipInput 3 1
    5,R,U,V
 SkipInput 3
-   6,R,U,V
-EndStunPause
-StunPause
-   1,R,U,V
-EndStunPause
-StunPause
-   6,R,U,V
+  13,R,U,V
 SkipInput 3 1
-  15,R,X
+  12,R,X
+EndStunPause
+StunPause
+   1,R,X
+EndStunPause
+StunPause
+   2,R,X
   21,L
-   2
+  16
 EndStunPause
 StunPause
    1
 EndStunPause
 StunPause
-  32
+  18
 SkipInput 3 1
    5,R,X
-   5,R,G
+  21,R,G
 EndStunPause
 StunPause
    1,R,G
 EndStunPause
 StunPause
-  37,R,G
-   4,R,D,G
-EndStunPause
-StunPause
-   1,R,D,G
-EndStunPause
-StunPause
-   1,R,D,G
-   6,R,D,G
+  21,R,G
+  12,R,D,G
    7,D,G
 EndStunPause
   38,D,G
@@ -324,7 +315,7 @@ EndStunPause
    5
 
 #hazardcycle_xx-10-final-goodbye_2
-   0
+   1
 #endhazardcycle_xx-10-final-goodbye_2
 
   14,R,Z
@@ -483,10 +474,17 @@ EndStunPause
 #stun_xx-10-final-goodbye_3
    2,R,D
    3,R
-   4,R,Z
    1,S,N
   10,O
-  10,R,Z
+   8,R,Z
+Repeat,2
+   1,S,N
+  10,O
+   1,R,Z
+EndRepeat
+   1,S,N
+  10,O
+   4,R,Z
 #endstun_xx-10-final-goodbye_3
    2,R,J
   21,R,D,X
@@ -664,7 +662,7 @@ EndStunPause
 Read,9DP_27,lvl_xx-10-true-final-goodbye,Time
 
 #Time
-MidwayFileTime: 4:04.256(14368)
+MidwayFileTime: 4:04.579(14387)
 
 Read,9DP_27,Time
 
