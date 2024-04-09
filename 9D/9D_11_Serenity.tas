@@ -4,7 +4,7 @@ console load nameguysdsidespack/0/10-Farewell 93870 -11808
 #lvl_i-02
   36
 #hazardcycle_i-05
-   0
+   1
 #Start
    4,Z
    7,R,J
@@ -45,28 +45,26 @@ console load nameguysdsidespack/0/10-Farewell 93870 -11808
    1,R,J,G
    1,R,K,G
    1,R
-   9,R,J,G
+  11,R,J,G
+   2,R,K,G
    1,R
-   6,R,D,X
+   6,R,J,G
+   4,R
    1,R,K,G
-   1,R,J,G
+   7,R
+   1,R,K
    1,R
-   1,R,K,G
-   2,R,J,G
-   5,R
-   1,S
-  11,R,J
-   2,R
-   4,R,D,K
-  33,R,D
-   1,D
+   3,R,K
+  15,R,D,X
+  16,R
    6,R,U,Z
    1,L
-   2,K,G
-   3
-   2,R
+   1,K,G
+   5
+   4,K
+   2,R,K
   22,R
-  15,U,X
+  16,U,X
   14,J
   40
 
@@ -467,8 +465,7 @@ EndStunPause
 Assert,Equal,i-12,{Level.Session.Level}
 Assert,Equal,40,{GameInfo.TransitionFrames}
 #Time
-MidwayFileTime: 1:04.413(3789)
-#MidwayFileTime: 1:04.464(3792)
+MidwayFileTime: 1:04.345(3785)
   40
 
 #lvl_j-00
