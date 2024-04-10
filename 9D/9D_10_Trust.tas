@@ -306,30 +306,28 @@ EndStunPause
 #lvl_i-01
    5,R,K
    2,R,J,G
-   6,R,D,X
+   1,R,J,G
+  10,R,D,J,X
    1,S
    1,D,J
   34
    5,R,K
-   1,S
-   1,D,J
-  34
-   3,R,K
-   7,R
+   5,R
+   5,R,K
   40
 
 #lvl_i-02
-   2,R
-   1,R,K
-   2,R
-   2,R,D
-  18,R,J
-  13,R,U,X
+   7,R,K
+   3,R,D
+  31,R,D,J
+  14,R,U,X
    1,R,K,G
+   2,L,K
    1,L
-   6,R
+   1,R,J,G
+   7,R
 
 Assert,Equal,i-02,{Level.Session.Level}
 Assert,Equal,True,[[return player.Position.Y < -11807.49999999999]]
 #Time
-MidwayFileTime: 0:41.106(2418)
+MidwayFileTime: 0:40.936(2408)
