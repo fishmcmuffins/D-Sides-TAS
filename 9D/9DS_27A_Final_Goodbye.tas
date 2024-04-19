@@ -13,11 +13,11 @@ Invoke BloomFadeTrigger[xx-09:5730].OnStay null
 Set,Level.TimerStarted,true
   30
 
-Set,Level.TimeActive,2829.363525390625
+Set,Level.TimeActive,2816.961914062500
 
-#+3f wait in bottomless
+#+0f wait in bottomless
 #hazard cycle
-   3
+   0
 #------------
 
 Invoke Player.FinishFlingBird
@@ -221,13 +221,13 @@ StunPause
    5,L,J,G
    7,J
   12,K,G
-   9,J,G
+   5,J,G
 EndStunPause
 StunPause
    1,J,G
 EndStunPause
 StunPause
-   1,J,G
+   5,J,G
    1,R,J
    1,K
    1,J
@@ -237,13 +237,13 @@ SkipInput 3 1
 SkipInput 3
   12,R,X
    1,R
-  10,L,D
+   6,L,D
 EndStunPause
 StunPause
    1,L,D
 EndStunPause
 StunPause
-   6,L,D
+  10,L,D
    2
 SkipInput 3 1
   15,R,X
@@ -252,32 +252,38 @@ SkipInput 3 1
 SkipInput 3
   13,R,U,V
 SkipInput 3 1
-  10,R,X
+   6,R,X
 EndStunPause
 StunPause
    1,R,X
 EndStunPause
 StunPause
-   4,R,X
+   8,R,X
   21,L
-  16
+  12
 EndStunPause
 StunPause
    1
 EndStunPause
 StunPause
-  18
+  22
 SkipInput 3 1
    5,R,X
-  19,R,G
+  15,R,G
 EndStunPause
 StunPause
    1,R,G
 EndStunPause
 StunPause
-  23,R,G
+  27,R,G
   12,R,D,G
-   7,D,G
+   2,D,G
+EndStunPause
+StunPause
+   1,D,G
+EndStunPause
+StunPause
+   4,D,G
 EndStunPause
   38,D,G
 #endstun_xx-10-final-goodbye_1
@@ -287,39 +293,41 @@ EndStunPause
    1,D,G
   39,L,D,G
  116,L,U,G
+#wouldn't be final goodbye
+#without something silly
   24,L,D,G
-   1,L,J,G
-   8,L,D,J
-  14,L
-  35
-  10,R,Z
+   1,R,D
+  11,R
+   4
+  10,L,Z
+   1,L,J
+   5,L
+  15,D,X
+   1
+  11,R,Z
    1,R,J
    2,R,K,G
    1,R,J,G
    1,R,K,G
-   6,R,D,X
+   5,R,D,X
   13,G
    1,R,J,G
-   2,G
-  45,R,G
-   1,R,D,G
+ 280,R,G
+ 400,R,D,G
+  37,R,D,G
    1,R,G
-  15,R,D,G
-   1,R,G
-1038,R,U,K,G
-   3,R,D,G
-   3,R,U,G
- 324,R,D,G
-  22,R,U,G
+  38,R,U,G
    1,L
-  13,R
-   2
+  10,R
+   5
+
 #hazardcycle_xx-10-final-goodbye_2
    0
 #endhazardcycle_xx-10-final-goodbye_2
+
   14,R,Z
-   2,R,J
-   2,R
+   3,R,J
+   1,R
   14,R,D,X
    1,R,J
   14,R,U,X
@@ -362,17 +370,24 @@ EndStunPause
    1,D
    1,R,D
    1,D
-  84,R,D
+  70,R,D
+#moon block cycles
+  13,R
+   4
+   6
+#(equals 9f wait)
+#-----------
    2,R
    1,R,J
   14,R,Z
    1,R,J
    2,R,K,G
    1,R,J,G
-   2,R,K,G
+   3,R,K,G
    5,R
-  39,R,K
-   5,R,D
+  34,R,K
+   8,R,D
+   1,R
   14,R,U,X
    1,J,G
    1
@@ -380,18 +395,19 @@ EndStunPause
    1
    4,R
    1
-   2,R
    1,R,K
-   3,R
+   1,K
+   4,R
    1,R,J,G
-   3,J
-   2,R,J
+   2,J
+   1,R,J
    5,R
-   5,R,J
+   3,R,J
+   4,R
   15,R,K,G
-   6,K
-   3
-   1,R
+   8,K
+   1
+   1,R,K
    5
    3,R
   11,L,D,X
@@ -419,7 +435,8 @@ EndStunPause
    2,R
    2,L
    1
-   8,G
+   6,G
+   2,U,G
    1,J,G
    2
    1,R
@@ -435,48 +452,40 @@ EndStunPause
    6,R,K,G
    3,K
    3,R,K
+  12,R,J,G
 #stun_xx-10-final-goodbye_2
-  21,R,J,G
-  13,R
-   3,R,D
-   9,R,D,K
-   2,R,J,G
-   1,S,N
-  10,J
-   4,R,J
+  14,R,J
    1,S,N
   10,O
-   1,R,J
-   5,R
-   8,R,D,X
-StunPause
-   2,R,D,X
-   2,R,K,G
-EndStunPause
-   2,R,K,G
-  12,R
-   1,R,D,J
-   3,J
-  10,R,J
-  16,R,D,X
-#endstun_xx-10-final-goodbye_2
-   8,R,D,K
-   2,K
-   5,R,K
-#stun_xx-10-final-goodbye_3
-  18,R,D,X
+  14,R,J
+   1,R,D
    2,R
+   4,R,D,K
+   1,R
+  15,R,D,X
+   5,R,J
+   6,R
+   1
+   4,R,D
+   1,R,D,K
+   1,K
+   2,R,K
+   5,R
+   2,R,K
+   6,R
+  11,R,D,J
+   3,R
+#endstun_xx-10-final-goodbye_2
+  16,R,K,G
+  15,R,D,X
+#stun_xx-10-final-goodbye_3
+   2,R,D
+   3,R
    1,S,N
   10,O
-   6,R,Z
-   1,S,N
-  10,O
-   4,R,Z
-StunPause
-   4,R,Z
-EndStunPause
-   2,R,J
+  14,R,Z
 #endstun_xx-10-final-goodbye_3
+   2,R,J
   21,R,D,X
   20,R,U,C
   88,R,X
@@ -540,6 +549,15 @@ EndStunPause
   13,U,C
    3,R,J
   14,U,X
+
+#hazardcycle_xx-10-final-goodbye_3
+   2
+#endhazardcycle_xx-10-final-goodbye_2
+
+#Move to background
+#For Depression and Trust Sections
+evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foreground.Backdrops.Count and i >= 0 do if invokeMethod(level.Foreground.Backdrops[i].Name, "Contains", "dark") then level.Background.Backdrops:Add(level.Foreground.Backdrops[i]); level.Foreground.Backdrops:RemoveAt(i); else i = i + 1 end end i = nil
+
   16,R,U,C
    1
    2,R
@@ -567,11 +585,6 @@ EndStunPause
    7,R
    1,R,J
    9,R
-
-#Move to background
-#For Depression and Trust Sections
-#evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foreground.Backdrops.Count and i >= 0 do if invokeMethod(level.Foreground.Backdrops[i].Name, "Contains", "dark") then level.Background.Backdrops:Add(level.Foreground.Backdrops[i]); level.Foreground.Backdrops:RemoveAt(i); else i = i + 1 end end i = nil
-
    8,R,K
   15,R,D,X
    2,R,J
@@ -580,45 +593,50 @@ EndStunPause
   25,R,D,K
   14,R,U,Z
 #stun_xx-10-final-goodbye_4
-   3,R,J,G
+   4,R,J,G
 StunPause
-  12,R,J
+  10,R,J
 EndStunPause
-  27,R,J
-  11,R,D
+  39,R,J
 #endstun_xx-10-final-goodbye_4
+   7
+  24,R
+   3
+   3,R
+  25,R,Z
    5
-  29,R
-   1
-  29,R,Z
-   2,R,K,G
-   6,L,K
-   2,R,K
-   1,R,J,G
-  12,R,K,G
-   5,R
-   4,R,K
-  21,R
-   6,R,D
-  36,R,U,X
-  38,R,U,C
+   3,R,K,G
    2,R,J,G
+   6,L,J
+   2,R,J
+   1,R,K,G
+  12,R,J,G
+   5,R
+   5,R,K
+  21,R
+   3,R,D
+  36,R,U,X
+  39,R,U,C
+   2
+   1,R,J,G
+   3,J,G
    6,L,J
    1,R,K,G
    1,R,J,G
    2,R,K,G
    5,R
-   3,R,K
-  14,R
+   2,R,K
+  15,R
+#well fuck me then
    5,R,Z
-   5,R,J
+   6,R,J
+   2,R
    1,R
-   1,R,J
-   5,R
+   3,R
    8,R,K
    6,R,J,G
-  17,R,D,X
-  10,R,J
+  18,R,D,X
+   9,R,J
   15,R,D,X
    1,R,J
   15,R,D,X
@@ -627,7 +645,8 @@ EndStunPause
   11,R,J,G
    7,R,K,G
   15,R,D,X
-   3,D
+   1,R,D
+   2,D
    1,R,D
    2,R,J
    8,R
@@ -645,6 +664,6 @@ Read,9D_27,lvl_xx-10-true-final-goodbye,Time
 #evallua if bgs then while level.Background.Backdrops.Count > bgs do level.Foreground.Backdrops:Add(level.Background.Backdrops[bgs]); level.Background.Backdrops:RemoveAt(bgs); end bgs = nil end
 
 #Time
-MidwayFileTime: 4:22.140(15420)
+MidwayFileTime: 4:09.152(14656)
 
 AnalogMode,Ignore
