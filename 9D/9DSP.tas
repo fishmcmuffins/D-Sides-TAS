@@ -1,12 +1,15 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 1994
+RecordCount: 2078
 
 console load nameguysdsidespack/0/10-Farewell
    1
 
 console hearts 1
+
+#Move darkness to background
+evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foreground.Backdrops.Count and i >= 0 do if invokeMethod(level.Foreground.Backdrops[i].Name, "Contains", "dark") then level.Background.Backdrops:Add(level.Foreground.Backdrops[i]); level.Foreground.Backdrops:RemoveAt(i); else i = i + 1 end end i = nil
 
 #==========================
 #Start
@@ -240,7 +243,7 @@ Read,9D_10,endstun_hh-08
 #hazardcycle at start
 #stun in i-05
 
-   1
+   2
 Read,9D_11,Start,stun_i-05
    2,R
 StunPause
@@ -287,7 +290,7 @@ Read,9DS_12B,lvl_k-07 (1)
 #keycycle in l-04
 
 Read,9DSP_13A,Start,keycycle_l-04
-  39
+  28
 Read,9DSP_13A,endkeycycle_l-04
 
 #11 keys remaining
@@ -304,7 +307,7 @@ Read,9DSP_13A,endkeycycle_l-04
 Read,9DS_13B,Start,branch_ta2
 Read,9DS_13B,ta2_3,end_ta2_3
 Read,9DS_13B,endbranch_ta2,hazardcycle_m-08s
-   1
+   0
 Read,9DS_13B,endhazardcycle_m-08s,branch_ta3
 #+0f: 0, 3, 7, 8, 9
 #+1f: 1, 2, 4, 5, 6
@@ -322,7 +325,10 @@ Read,9DS_13B,endbranch_ta3
 #stun in n-12
 
 Read,9DP_14A,Start,hazardcycle_n-05
-   5
+   2
+#wait so that drift happens
+#while unpaused during stun
+   3
 Read,9DP_14A,endhazardcycle_n-05,stun_n-05
    6,R
    1,S
@@ -336,14 +342,15 @@ StunPause
    1,J
    1,R,J
 EndStunPause
-   6,R,J
+   4,R,J
 StunPause
-   2,R,J
-   3,R
+   4,R,J
+SkipInput 2
+   5,R
+   2,L,K,G
 EndStunPause
 StunPause
-   2,R
-   4,L,K,G
+   2,K
 EndStunPause
    1,K
 Read,9DP_14A,endstun_n-05,hazardcycle_n-12
@@ -372,7 +379,7 @@ Read,9DS_14B,route_p-01_key
 
 Read,9DS_15,Start,lvl_p-05
 Read,9D_15,lvl_p-05,hazardcycle_CP-37
-   1
+   0
 Read,9D_15,hazardcycle_CP-37
 
 #17 keys remaining
@@ -385,24 +392,27 @@ Read,9D_15,hazardcycle_CP-37
 Read,9DP_16,Start,stun_CP-37_1
    2,R
 StunPause
-   9,R,U
-EndStunPause
-StunPause
-   2,R,U
+  11,R,U
 SkipInput 3 1
   15,R,Z
    1,R,J
    1,R,K
    1,R,J
    1,R,K
+EndStunPause
+StunPause
    1,R,J
    1,R,K
    1,R,J
    1,R
 EndStunPause
 Read,9DP_16,endstun_CP-37_1,stun_CP-37_2
+   1,R,J
 StunPause
-  12,R,J
+   3,R,J
+EndStunPause
+StunPause
+   8,R,J
    1,R,K,G
    7,R,D
 EndStunPause
@@ -455,11 +465,11 @@ Read,9DSP_22,endhazardcycle_v-00-lobby,stun_v-00-lobby
 StunPause
    8,R,J
 SkipInput 3 1
-   6,U,Z
+  15,U,Z
+   7,R
 EndStunPause
 StunPause
-   9,U,Z
-  10,R
+   3,R
 SkipInput 3 1
   15,L,U,Z
    6
@@ -469,25 +479,25 @@ SkipInput 3 1
    7,R,Z
 EndStunPause
 Read,9DSP_22,endstun_v-00-lobby,keycycle_lvl-void_1
- 157,D
+ 160,D
    4,Z
    1,R,J
  120
   40,L
-  24
+  36
 Read,9DSP_22,endkeycycle_lvl-void_1,keycycle_lvl-void_2
- 311
+ 287
 Read,9DSP_22,endkeycycle_lvl-void_2,keycycle_lvl-void_3
-  77,G
+  70,G
    4,K,G
    1,L,K
- 112
+ 100
   10,L,D,J
    2,K,G
    1,R,K
   10
    2,L
- 226
+ 207
   11,R,J
    1,J
    8,K,G
@@ -495,25 +505,25 @@ Read,9DSP_22,endkeycycle_lvl-void_2,keycycle_lvl-void_3
    5,R,Z
    1,R,J,G
   11,R
- 119
+ 115
 Read,9DSP_22,endkeycycle_lvl-void_3,keycycle_lvl-void_4
- 114
+ 104
    2,R
    1,R,J
   15,D,X
   17,R
-  53
+  45
   10,J
    2
   11,K,G
    3,L
   32,R,D
   15,R,X
- 120
+ 115
    1,R,J
-  95
+  93
 Read,9DSP_22,endkeycycle_lvl-void_4,keycycle_lvl-void_5
-  56,D
+  54,D
 Read,9DSP_22,endkeycycle_lvl-void_5
 
 #2 keys remaining
@@ -528,7 +538,7 @@ Read,9DSP_22,endkeycycle_lvl-void_5
 #keycycle in y-??? (up-key)
 
 Read,9DP_23,Start,hazardcycle_y-08
-   0
+   2
 Read,9DP_23,endhazardcycle_y-08,stun_y-08
    1,R
 StunPause
@@ -542,9 +552,9 @@ Read,9DP_23,endstun_y-08,lvl_y-10 (1)
 
 #lvl_y-10
 Read,9DP_23,route_y-15s,keycycle_y-15s
- 104,D
+ 101,D
 Read,9DP_23,endkeycycle_y-15s,keycycle_up-key
-  51,G
+  52,G
 Read,9DP_23,endkeycycle_up-key
 
 #==========================
@@ -561,45 +571,38 @@ Read,9D_24,endroute_platinum
 #2 stuns in w-16
 
 Read,9D_25,Start,hazardcycle_w-16
-   2
+   1
 Read,9D_25,endhazardcycle_w-16,stun_w-16_1
    2
 StunPause
    1,J
    8
 SkipInput 3 1
-  10,R,Z
+   7,R,Z
+SkipInput 1
+   3,R,Z
    1,R,K
    1,L,J,G
    2,R,J
    2,R
 SkipInput 3 1
    5,R,D,X
-   1,R
-EndStunPause
-   1,R
-   1,R,K,G
-StunPause
-   2,R,K
+   2,R
+   3,R,K,G
 EndStunPause
    1,R,K
    3,K
-   1,S,N
-  10,O
-   4,R,K
+   2,R,K
 StunPause
-   3,R,K
+   5,R,K
 EndStunPause
 Read,9D_25,endstun_w-16_1,stun_w-16_2
-   5,R
+   3,R
 StunPause
-   1,R
+   3,R
    1,R,D,J
 EndStunPause
-   1,R,J
-   1,S,N
-  10,O
-   1,R,J
+   2,R,J
    1,S,N
   10,O
    5,R
@@ -618,13 +621,14 @@ Read,9DP_26,Start,hazardcycle_x-10
    1
 Read,9DP_26,endhazardcycle_x-10,stun_x-11
    2,R
+   1,R,D
    1,S,N
   10,O
-   2,R,D
-   6,R,U,Z
+   1,R,D
+   7,R,U,Z
    1,S,N
   10,O
-   5,R,U,Z
+   4,R,U,Z
    1,S,N
   10,O
    4,R,U,Z
@@ -721,4 +725,4 @@ Read,9DP_27B,lvl_end-platinum-9
 
 #==========================
 
-ChapterTime: 55:55.953(197409)
+ChapterTime: 55:52.451(197203)
