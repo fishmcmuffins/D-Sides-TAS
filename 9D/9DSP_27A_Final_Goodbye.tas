@@ -16,7 +16,8 @@ Set,Level.TimerStarted,true
   30
 
 #+0f in Bottomless
-Set,Level.TimeActive,2850.963867187500
+#Set,Level.TimeActive,2850.963867187500
+Set,Level.TimeActive,2847.9091796875
 #hazard cycle
    0
 #-------------
@@ -215,67 +216,73 @@ Invoke Player.FinishFlingBird
   15,R,X
    1,R,K
 #stun_xx-10-final-goodbye_1
+#trust me it's worth it
   12,K
    1,L,J,G
-#trust me it's worth it
 StunPause
    5,L,J,G
    7,J
-  12,K,G
+  11,K,G
+EndStunPause
+StunPause
+   1,K,G
+EndStunPause
+StunPause
   11,J,G
-EndStunPause
-StunPause
    1,R,J
-EndStunPause
-StunPause
    1,K
    1,J
   14,R,J
 SkipInput 3 1
    6,R,X
 SkipInput 3
-  12,R,X
+  11,R,X
+EndStunPause
+StunPause
+   1,R,X
+EndStunPause
+StunPause
    1,R
-  10,L,D
-EndStunPause
-StunPause
-   1,L,D
-EndStunPause
-StunPause
-   6,L,D
+  17,L,D
    2
 SkipInput 3 1
   15,R,X
 SkipInput 3 1
    5,R,U,V
 SkipInput 3
-  13,R,U,V
+  10,R,U,V
+EndStunPause
+StunPause
+   1,R,U,V
+EndStunPause
+StunPause
+   2,R,U,V
 SkipInput 3 1
-  12,R,X
-EndStunPause
-StunPause
-   1,R,X
-EndStunPause
-StunPause
-   2,R,X
+  15,R,X
   21,L
-  16
+   4
 EndStunPause
 StunPause
    1
 EndStunPause
 StunPause
-  18
+  30
 SkipInput 3 1
    5,R,X
-  21,R,G
+   9,R,G
 EndStunPause
 StunPause
    1,R,G
 EndStunPause
 StunPause
-  21,R,G
-  12,R,D,G
+  33,R,G
+   6,R,D,G
+EndStunPause
+StunPause
+   1,R,D,G
+EndStunPause
+StunPause
+   5,R,D,G
    7,D,G
 EndStunPause
   38,D,G
@@ -315,7 +322,7 @@ EndStunPause
    5
 
 #hazardcycle_xx-10-final-goodbye_2
-   1
+   0
 #endhazardcycle_xx-10-final-goodbye_2
 
   14,R,Z
@@ -474,17 +481,10 @@ EndStunPause
 #stun_xx-10-final-goodbye_3
    2,R,D
    3,R
-   1,S,N
-  10,O
-   8,R,Z
-Repeat,2
-   1,S,N
-  10,O
-   1,R,Z
-EndRepeat
-   1,S,N
-  10,O
    4,R,Z
+   1,S,N
+  10,O
+  10,R,Z
 #endstun_xx-10-final-goodbye_3
    2,R,J
   21,R,D,X
@@ -628,7 +628,6 @@ EndStunPause
    5,R
    2,R,K
   15,R
-#well fuck me then
    5,R,Z
    6,R,J
    2,R
@@ -662,7 +661,7 @@ EndStunPause
 Read,9DP_27,lvl_xx-10-true-final-goodbye,Time
 
 #Time
-MidwayFileTime: 4:04.579(14387)
+MidwayFileTime: 4:04.188(14364)
 
 Read,9DP_27,Time
 
