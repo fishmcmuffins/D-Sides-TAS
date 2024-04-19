@@ -325,7 +325,8 @@ EndStunPause
    2,L,K
    1,L
    1,R,J,G
-   7,R
+   5,R
+   2
 
 Assert,Equal,i-02,{Level.Session.Level}
 Assert,Equal,True,[[return player.Position.Y < -11807.49999999999]]
