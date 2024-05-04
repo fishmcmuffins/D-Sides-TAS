@@ -1,5 +1,4 @@
 console load nameguysdsidespack/1/0-PrologueWithDash
-ChapterTime: 0:13.022(766)
    1
 
 #Start
@@ -47,7 +46,6 @@ ChapterTime: 0:13.022(766)
    4,L,J
    1,K
    8,R,G
-   
   10,J,G
    1,L,J
    1,K
@@ -117,3 +115,5 @@ ChapterTime: 0:13.022(766)
   10,R,J
   14,R,U,X
  135,L
+
+ChapterTime: 0:13.022(766)
