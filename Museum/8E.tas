@@ -1,4 +1,4 @@
-RecordCount: 548
+RecordCount: 1080
 
 console hard nameguysdsidespack/1/1-CoreOldMashup
    1
@@ -10,256 +10,182 @@ console hearts 1
 
 #lvl_intro
   13,R,Z
-  28,R,J
-Repeat,3
-   1,J
-   1,R,J
-EndRepeat
+  29,R,J
+   5,J
   12,K,G
-  11,J,G
-   1,L,J
-   9,R,K,G
- 122,R,G
-  14,R,Z
-   2,R,J
-  13,R,D,X
+  10,J,G
+   2
+   9,K,G
+ 122,G
+  12,R,Z
+   1,R,J
+   2,R
+   9,R,D,X
+   5,R,J,G
+   3,R
   40
 
 #lvl_00
-   1,R
-   1,R,J
-  14,R,D,X
-   2,R,J
    3,R
-  10,L
-  10,L,J,G
-  21,L,G
-  34,R,G
-   4,R,Z
-  46,R,J
-  15,R,U,X
-  33,R,G
-  28,U,G
-   1,R,J,G
-  13,R
-   4,R,Z
+   6,R,J
+  15,R,D,X
+   7,D
+  14,L,D,C
    1,R,J
-   5,R
+  10,R,D,X
+  60,R,J
+  19,R,U,X
+   2,J,G
+   1,L,J
+  12,R,K,G
+   7,R
+   4,R,Z
+   5,R,J
+   1,R
   40
 
 #lvl_01
-   1,R
-   1,R,J
-   5,R,D
-  10,L,D
-  14,R,D
-   6,R
-  31
-  10,R,J
-  50,R,D
-  12,R
-  30
-   2,R,J
-  14,L
-  25,D
-   6,R,D
-  27,R,X
-  33
-   9,R,J
-   4,R
-  18,L
-  16,R,Z
-   8,R,J
-  19,R
-   1,R,J,G
-   1,R,K,G
-  21,R
-   1,R,J
-   1,J
-   1,R,J
-   1,R,K,G
-   1,R,J,G
-  14,R
-   1,R,J
-  14,R
-   1,R,J
+  20,R
+   4,R,D
+   8,R
+  10
+   8,R
+  11,R,J
+  42,R,D
+  16,R
+  10
    5,R
+   8,R,J
+  13,R
+   2,R,J
+   4,R
+   6,R,D
+  12,L,D
+  10,R,D
+  15,R,X
+   5,R
+  10
+  16,R
+  41,R,J
+   4,J
+  15,R,Z
+   1,L
+   5,J,G
+   2,R,J
+   5,R
+   4,R,J
+  10,R
+   1,R,J,G
+   1,R,K,G
+  20,R
+   1
+   1,R,J
+   1,R
+   1,R,K,G
+   1,R,J,G
+  12,R
+   1,R,J
+  12,R
   40
 
 #lvl_02
-  12,R
-   1,R,D,J
-   5,L
-  37
-   1,L,J
-   1,L
-  16,R
-   6
-  14,R
-   1
-   1,R
-   1
-   1,R
+  35,R
   12,R,J
-  31,R,D
-  22,R
-  25
-   3,R
-   4,R,Z
-  20,R,J
-   1,J
-   1,R,J
-   1,J
-   1,R,J
-   4,J
-   1,R,J
-   1,J
-   1,R,J
-   1,J
-  12,K,G
-   9,J,G
-   7,L,K
-  15,R,X
-  31,L
-  11,R,J
-   7,R
-  10,R,J
-  12,K,G
-   7,R,J,G
-  18,R
-   1,R,J
-  26,R,D
+  53,R
+  19
+   9,R,Z
+  12,R,J
    5,R
+   2,R,J
+   1,R
+  14,R,U,Z
+  10,R,J,G
+  21,R
   15,R,Z
-   9,L,D
-   7,R,D
-   6,R,J
-  23,R
-   2
-   2,R
+  21,D
+   1,R,D
+   1,D
+   1,R,D
+   1,D
+   5,R,D
+   5,R,J
+  25,R
+   2,R,D
    1,R,J,G
+   1,R,K,G
+  11,R
+   1,R,J
+  16,R
+   6,R,J
+  32,R
+   4,R,J
+  15,U,X
+  33,R,D
+  49,R,D
+  15,D
+  46,R,D
+   9,D
+   1,R,D
+   8,D
+   7,L
+  36,R
+  12
+   5,R
+   8,R,J
+  36,R
+   1,R,D,J
+  37,R
+  11
+   8,R
+   7,R,J
+  33,R,D
+   9,D
+  18,R,Z
+   7,U,X
+  15,L,J
+  11,L
+  15,U,G
+  23,G
+   7,R,X
+  31,R,J
+  33,R,X
+   7,R,J
+  28,R,D
+  20,R
+  29,R,X
+  32,R,C
+  32,R,X
+  31,R,C
+  22,R,X
+  23,R,Z
+  36,R,X
+   1,R,J
+  14,R
+  16,R,J
+  12,K,G
+   3,J,G
+   1,L,J
+  12,R,K,G
+   3,R
+   4
+   4,R,Z
+   1,R,J
    6,R,K,G
    7,R
-  13,R,J
-  12,R
-   4,R,J
-  35,R
-  26
-  12,J
-  15,U,X
-  23,R,D
-   8,L,D
-  11,R,D
-  23,R
-   8,D
-  15,R,D
-  16,L,D
-  18,R
-  29,R,D
-  19,L,D
-   1
-  28,R
-   3,L
-  10,R
-  30
-   1,J
    1,R,J
-  52,R
-   1,R,J
-  40,R
-  31
-   1,J
-   1,R,J
-   7,R
-  13,L,D
-   6,D
-  12,R,D
-   4,R
-  18,R,Z
-   7,U,C
-   1,R,J
-  14,L,J
-  12,L,G
-  15,U,G
-  25,R,G
-   4,R,Z
-  33,R,J
-   1,G
-   4,K,G
-   3,R,J,G
-  16,R
-  39,R,J
-  41,R,U,X
-   2,R,D
-  15,R,C
-  18,R,Z
-  12,L
-   2,R
-   5,L
-  18,R,X
-   4,R,D
-  15,R,Z
-  16,L
-   6,R
-   6,R,D
-  15,R,Z
-  18,R,X
-  15,R,U,C
-  37,R
-   7,R,Z
-  15,R,J,G
-  12,K,G
-  12,J,G
-   7,K,G
-   9,R
-   2,R,J
-   9,R
-   2,R,J
-   1,R
    1,R,K,G
-   1,R,J,G
-  10,R
-   1,R,J,G
-   1,R,K,G
-  13,R
-  25,R
-   9,R,D
-  12,R
-   9,R,D
-  12,R
-  10,R,D
-   7,R
-   9,R,D
-   7,R
-   9,R,D
+   9,R
+   1,R,J
+  28,R,D
+   1,R,J
+   9,R
    1,R,J
   14,R
-  35,R
-  10,L
-  13,R
-  44,R,J
-  28
-   3,R
-   4,R,Z
-  12,R,J
-  38,R
-  27,R,U,X
-  24,D
-Repeat,48
-   1,R,D
-   1,L,D
-EndRepeat
-   1,R,D
+  16
+   4,L
+  10,R,Z
+  52,R,J
+  14,R,U,X
+ 135,D
 
-
-
-
-#ChapterTime: 0:49.062(2886)
-
-
-
-ChapterTime: 0:48.229(2837)
-
-
-
-#2886-2837
+ChapterTime: 0:38.029(2237)
