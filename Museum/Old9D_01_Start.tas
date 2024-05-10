@@ -1,0 +1,372 @@
+console load nameguysdsidespack/1/6-FinalGoodbyeOld
+   1
+
+#Start
+  90
+
+#Spinner Cycle [a-06~a-09]
+   1
+
+#lvl_a-00-intro
+   2,L,J
+   8,J
+  15,U,X
+   8,J,G
+   2,R,J
+  12,L,K,G
+   3,L
+   1
+   3,L
+   4,Z
+   3,L,J
+   6,L
+  18
+  15,U,X
+   3,L
+ 177
+  40
+
+#lvl_a-00
+  65
+  14,R,Z
+   1,R,J
+  10,R,U,X
+   1,R,J,G
+   1,R,K,G
+   7,R
+   2,R,J
+  15,R,U,X
+   1,R,J,G
+   1,R,K,G
+   1,R
+   1,R,J,G
+   2,R,K,G
+   7,R
+   1,L,D,J
+   1,R,J
+  14,R,U,X
+  10,R,J,G
+  34,R
+  10,R,J
+   5,R,K,G
+   1,R
+   5,R,U,X
+  40
+
+#lvl_a-01
+   6,R,U,X
+   4,J,G
+   2,R,J
+   1,J
+   3,R,J
+  15,R,D,X
+   4,R
+   3,R,D
+   1,D
+   1,L,D,J
+   1,L,K,G
+   1,L,J,G
+   6,R,J
+   3,R
+  11,R,J,G
+   9,R
+  15,R,U,X
+  32,R,U,C
+   4,Z
+  10,R,J
+   9,R,K,G
+   2,R
+  40
+
+#lvl_a-02
+   3,R
+   2,R,K
+   7,R,J,G
+  13,R,Z
+   1,L,J
+   4
+  14,R,D,X
+   1,R,J
+   9,R
+   4,R,J
+   4,R
+  34,R,Z
+  11,R,D
+  16,R,X
+  29,R,U,Z
+   8,J,G
+   9,K,G
+  12,J,G
+  16
+   2,R
+   1,L,J
+   1,J
+   7
+   2,R,J
+   1,G
+   6,J,G
+  10,R,J
+  25,R,Z
+  10,R,V
+   1,R,J
+   1,R,K,G
+   1,R
+   1,R,J,G
+  12,R,K,G
+   9,R
+   1,R,K
+   7,R
+   1,L
+   6,R
+   7,R,D
+  68
+  18,R
+   1,R,J
+  10,R,D,X
+   2,L,J
+   3,L
+   1,L,J
+  17,D,X
+   5,L,Z
+   1,R,J
+   2
+   4,R
+   1,R,J
+   2,R
+   5,R,D,X
+   1,R,J,G
+   5,R
+   1,R,J
+  40
+
+#lvl_a-03
+   5,R
+   2,R,J
+  15,R
+   1,R,J
+  14,R
+   1,R,J
+  14,R
+   9,R,D,J
+   5,R
+   2,R,J
+   3
+   1,R
+   3
+  15,D,X
+   4,J
+  15,R,J
+  15,U,X
+  18,R
+   4,Z
+   3,R,J
+   2,R,K,G
+   4,R,J,G
+  40
+
+#lvl_a-04
+   7,R,J,G
+  11,R,K,G
+  12,R,Z
+   2,R,J
+   6,R
+   1,R,J
+   1,R
+  14,R,U,X
+  24,G
+   4,R,G
+  18,G
+  15,D,G
+  27,L,U,G
+   1,U,G
+   1,L,U,G
+   1,U,G
+   1,L,U,G
+   1,U,G
+   1,L,U,G
+   1,U,G
+   1,L,U,G
+  73,R,U,G
+   1,R
+  29,R,U,Z
+   5,U,X
+ 123,R,U,G
+  17,R,G
+   2,R,D,G
+  17,D,G
+   1,R,D,G
+   3,D,G
+   1,R,D,G
+   1,D,G
+   1,L,D,G
+   1,D,G
+   1,L,D,G
+   5,D,G
+   1,R
+   6,L
+  11,R
+  38,R,G
+   7,R
+  14,R,U,X
+  21,R,G
+   1,L
+  23,R
+   1,R,D
+   8,R,J
+   3,R
+  14,R,Z
+   1,L,J
+  14,L,Z
+   1,R,J
+   6,R,D,X
+   1,R,J,G
+   3
+   6,R
+   1
+   2,R
+   4,R,J
+  40
+
+#lvl_a-05
+  11,R
+  14,R,Z
+   1,R,J
+   2,R,K,G
+   6,R,D,X
+   1,R,J,G
+   2,R,K,G
+   1,R,J,G
+   2,R,K,G
+   1,K
+   8,R,K
+  17,R
+  14,R,U,X
+   1,R,J,G
+   1,R,K,G
+   7,R
+   1,R,D,J
+  11,R,D,X
+   1,R,J,G
+   1,R
+   1,R,K,G
+   1,R,J,G
+   1,R
+   1,R,K,G
+   6,R
+   1,S
+  10,J
+   1,R,J
+   1,R
+   1,R,D,J
+   5,J
+   3,R,J
+   1,J
+   1,R,J
+   5,R,U,X
+  40
+
+#lvl_a-06
+   9,R,U,X
+   4,R
+  12,R,U,Z
+   2,R,J,G
+   9,R,J,G
+   5,R
+   1,R,J
+   4,R
+   1,R,J
+   5,R
+  40
+
+#lvl_a-07
+  14,R,U,X
+   7,R,J
+   7,R
+   8,R,U,X
+   2,R,J,G
+   5,R
+   3,R,J
+#stun_a-07
+   2,R,J
+   1,S,N
+  10,O
+   2,R,J
+#endstun_a-07
+   2,R,J
+   4,R
+   5
+  40
+
+#lvl_a-08
+  17,R,U,X
+  13,R,J,G
+   5,R,U,X
+   1,J,G
+   2,R
+   1
+   2,R
+   5,R,J
+   1,R
+   2,R,J
+   2,R
+  12,R,K,G
+   5,R
+   6,R,J
+   8,R
+  14,R,U,X
+   5,R,J,G
+  40
+
+#lvl_a-09
+   2,R
+   2,R,K,G
+   3,R
+  15,R,U,X
+  11,R
+   1
+   7,G
+  11,U,G
+   1
+   1,R,J,G
+   1,R,K,G
+   1,R,J,G
+   1,R,K,G
+   1,K
+   6,R,D,X
+   1,L,J,G
+#stun_a-09
+   2,L,J
+StunPause
+   2
+   5,R
+EndStunPause
+   2,R,J
+#endstun_a-09
+   1,R
+   4,R,J
+  14,R,U,Z
+   3,R,J,G
+  40
+
+#lvl_a-10
+   3,R,J,G
+   6,J
+   5,R,U,X
+   2,K,G
+   7
+   4,R
+  16,L,J
+  17,R,U,Z
+  14,R,U,X
+   1,J,G
+   2,R
+   1
+   4,R
+   5,R,Z
+   4,R,J
+   5,R
+
+#Time
+MidwayFileTime: 0:47.855(2815)
+
+  40
