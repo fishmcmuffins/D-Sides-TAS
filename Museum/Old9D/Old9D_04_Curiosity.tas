@@ -43,13 +43,16 @@ console load nameguysdsidespack/1/6-FinalGoodbyeOld 21869 -3776
   15,D,X
   14,R,D
    4,R,Z
+#stun_cc-03
    2,R,J
 StunPause
    5,R,J
   12,R,D
   18,L,D
 EndStunPause
-  24,L,D
+   2,L,D
+#endstun_cc-03
+  22,L,D
    5,D
    9,L,D
    1,L
@@ -275,13 +278,6 @@ EndStunPause
    4,R,J
    1,R,K,G
   11,R
-
-
-
-
-
-
-
    4,Z
    1,R,J
    7,R
@@ -318,7 +314,6 @@ EndStunPause
   16,R,V
 
 #Time
-#MidwayFileTime: 0:46.529(2737)
 MidwayFileTime: 0:48.263(2839)
 
   40
