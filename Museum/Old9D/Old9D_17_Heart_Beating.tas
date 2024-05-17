@@ -1,6 +1,8 @@
 console load nameguysdsidespack/1/6-FinalGoodbyeOld 154964 -45183
    1
 
+console hearts 1
+
 #lvl_q-07
   36
 Set,Session.Inventory.NoRefills,true
