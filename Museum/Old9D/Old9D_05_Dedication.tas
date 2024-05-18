@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 3090
+RecordCount: 3093
 
 console load nameguysdsidespack/1/6-FinalGoodbyeOld 26836 -4300
    1
@@ -51,6 +51,248 @@ console load nameguysdsidespack/1/6-FinalGoodbyeOld 26836 -4300
    5,J,G
 #hazardcycle_d-03
    0
+play,endhazardcycle_d-03
+
+#stunless_d-03
+   6,R,D,X
+   1,R,J
+   6,R
+   1
+   2,R,K
+   8,R,U,X
+   5,R,J,G
+   2,R
+  40
+
+#lvl_d-03 (1)
+   8,R,X
+   1,R,J,G
+  12,R
+   1,R,K
+  21,R,D
+   3,R
+  15,R,Z
+   7,G
+   6,D,G
+   1,R,J,G
+   1,R,K,G
+   1,R,J,G
+   1,R
+   3,R,K,G
+   5,R
+   3,R,K
+   1,K
+   6,L,J
+  12,R,J
+  15,U,X
+   1,R
+  15,R,C
+  16,L,D
+   2,D
+  13
+   3,R
+   1
+   8,L,Z
+   1,R,J
+   7,R
+   2,R
+   2,R,J
+   1
+   9,R,Z
+   1,R,J,G
+   3,L,J
+   1,R,K,G
+   4,R
+   1
+   2,R
+   4,Z
+   6,R,J
+   5,R
+   6
+  10,L,K
+   4,R,K
+  38,R,U,Z
+  17,R,D
+   9,L,D
+   2,L
+   3,R
+  17
+  12,R
+   1,R,D,J
+  10,R
+  13,R,X
+   3,R,J,G
+   2
+   1,R,J,G
+   1
+   1,R,J,G
+   5
+   2,R
+   9,L,Z
+   1,R,J
+   6,R
+   1,R,J
+   2,R
+   5,R,D,X
+   9,R,J,G
+  40
+
+#lvl_d-04 (1)
+   1,R,J
+  11,R
+  19,R,J
+   4,D,X
+  54,R,U,X
+   5,R,D
+   4,D,C
+  11,R,U,X
+   1
+  14,R
+   1,R,J,G
+   7,R
+  46,R,D
+  16,L,D,X
+  10,L,D,G
+  19,G
+   3,D,G
+  50,R
+  43,R,U,X
+   4,R,D
+   4,D,C
+  15,R,C
+   4,D,X
+  21,R,U,X
+  29,R,G
+   8,R,J,G
+   3,R,K,G
+   2,R,J,G
+  11,R,K,G
+   5,R
+   8,R,J
+  21,R,D
+   4,D
+  15,U,X
+  15,U,C
+   1,L,J,G
+  24,L,D,G
+  24,L,G
+  19,R,J
+  38,R,D
+  15,R,X
+  15,D,C
+   2,L
+  14,L,C
+  10,R,J
+   4,R
+  15,R,D,X
+   1,R,K,G
+   6,R,J,G
+  40
+
+#lvl_d-05 (1)
+   6,R,J
+  11,R
+   1,R,J
+  11,R
+  15,R,Z
+  15,R
+   1
+   1,R
+   5
+  10,L,C
+   7,R,K
+   5,L,K
+  13,L
+   3,R
+  14,R,Z
+   1,R,J
+  10,R,D
+   7,L,D
+   1,L
+  14,R,Z
+  14,D
+   1,R,D
+   1,D
+   1,R,D
+   2,D
+   1,L
+  13,R,Z
+   3,R,J
+  17,R
+   1,R,J
+   1,R
+  26,R,Z
+  14,R,V
+  24,R,J
+   1,J
+  14,U,X
+   6,R,J
+  13,R
+   4,D,X
+   1,R,X
+   1,R,J
+  14,R
+   6,R,D,J
+   5,R
+   2,R,J
+  24,R,D
+   2,R
+   1,R,D
+  19,R,Z
+  16,R,X
+  17,U,C
+   1,R,J,G
+   7,R
+   4,R,X
+   7,R,J
+   9,R
+   5,R,Z
+   6,R,J
+  40
+
+#lvl_d-06 (1)
+   1,R
+   1,R,J
+   3,R
+   1,J
+  10,R,D,X
+   1,R,J
+   1
+   5,R
+   1,R,J
+   5,R,D
+   7,R
+  23,R,U,Z
+   3,R,K,G
+   1,J,G
+   3,R
+   1
+   1,R
+   3,R,J
+   1,R
+   1,L
+   1
+   1,D
+  14,R,D,X
+   8,R,J
+   6,R
+   1,R,J
+   8,R,D
+   2,D
+   5
+  10,L,D,X
+  10,R,J
+  10,R
+  14,R,Z
+   1,R,J
+   2,R
+  14,R,U,Z
+
+#endstunless_d-03
+play,endbranch_d-03
+
+#===================
+
 #endhazardcycle_d-03
    6,R,D,X
    1,R,J
@@ -62,7 +304,7 @@ console load nameguysdsidespack/1/6-FinalGoodbyeOld 26836 -4300
    2,R
   40
 
-#lvl_d-03
+#lvl_d-03 (2)
    8,R,X
    1,R,J,G
   12,R
@@ -126,7 +368,7 @@ EndStunPause
    3,J,G
   40
 
-#lvl_d-04
+#lvl_d-04 (2)
    7,R,U,Z
    1,J,G
    2
@@ -167,7 +409,7 @@ EndStunPause
   10,R,X
   40
 
-#lvl_d-05
+#lvl_d-05 (2)
    3,R,X
    3,R,J,G
 #stun_d-05
@@ -224,7 +466,7 @@ EndStunPause
    6,R,J
   40
 
-#lvl_d-06
+#lvl_d-06 (2)
    1,R
    1,R,J
    3,R
@@ -261,6 +503,12 @@ EndStunPause
    1,R,J
    2,R
   14,R,U,Z
+
+#endroute_stun_d-03
+
+#===================
+
+#endbranch_d-03
   22,R,X
   16,R,U,Z
   15,R,U,X
@@ -492,6 +740,10 @@ EndStunPause
    7,R,J
 
 #Time
+#Stun route
 MidwayFileTime: 0:58.157(3421)
+
+#Stunless route
+#MidwayFileTime: 1:08.323(4019)
 
   40,J
