@@ -5,7 +5,8 @@ console load nameguysdsidespack/0/10-Farewell
   90
 #spinner cycle
    1
-#a-00-intro
+
+#lvl_a-00-intro
    2,L,J
    8,J
   15,U,X
@@ -196,6 +197,15 @@ console load nameguysdsidespack/0/10-Farewell
   92,R,U,J,G
   20,R,D,G
   31,D,G
+
+
+
+
+#3570.291040241718, -557.416413068771
+
+
+
+
    1,R
    6,L
   11,R
@@ -289,6 +299,15 @@ console load nameguysdsidespack/0/10-Farewell
    1,R,J
    4,R,K,G
   27,R,U,X
+
+
+
+
+#7628.000000000000, -1018.551471561194
+
+
+
+
    8,G
   10,U,G
    1
