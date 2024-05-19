@@ -597,6 +597,7 @@ EndRepeat
    1,R,J
    2
    9,R,D,X
+#branch_golden
    1,R,J
    7,R
    2,R,J
