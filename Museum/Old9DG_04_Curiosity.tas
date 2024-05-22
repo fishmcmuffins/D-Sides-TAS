@@ -1,0 +1,169 @@
+console load nameguysdsidespack/1/6-FinalGoodbyeOld 21869 -3776
+   1
+
+console give_golden
+
+#lvl_c-02
+  36
+   9,U,X
+  40
+
+#lvl_cc-05
+  11,R
+  13,U,X
+#Start
+Read,Old9D_04,Start,hazardcycle_cc-03
+#hazardcycle_cc-03
+   1,G
+#endhazardcycle_cc-03
+  15,D,X
+  14,R,D
+   4,R,Z
+#stun_cc-03
+   2,R,J
+StunPause
+   5,R,J
+  12,R,D
+  18,L,D
+EndStunPause
+   2,L,D
+#endstun_cc-03
+  22,L,D
+   5,D
+   9,L,D
+   1,L
+  19
+  77
+  12,R,X
+   7,R
+   1
+   6,R
+   1,R,J,G
+   5,R
+  77
+  17,R,D
+  20,R
+   4,R,J,G
+  16,R
+   4,R,Z
+   1,R,J
+   8,R
+   6,L,J
+  17,L
+  11,R
+   3,J
+   4,R,J
+  10,L,D,X
+   1,R,J
+   4
+   6,R
+   6,R,G
+   2,U,G
+#keycycle_cc-03
+  29,R,G
+#endkeycycle_cc-03
+   1
+   1,J
+  20
+   7,R,X
+   2,R,J,G
+  19,R
+  11,R
+   2,D
+   2,R,D
+  77
+  10,L,D,X
+   2,L,J
+   3,L
+  15,L,D,X
+   1,L,D,J
+   9
+  15,D,X
+   5,R,D
+  10,D
+  11,R,Z
+  19,R,J
+   7,R
+  15,L
+  77
+  14,L,D
+   3,D
+   1,J
+  16
+  15,L,Z
+   5,R
+  13,R,J,G
+   4,K,G
+   5,L,K
+   5,L
+   2
+   1,L,J
+   3,J
+  11,U,X
+  40
+
+#lvl_cc-00-lobby
+   3
+   6,R,J
+  12,J
+  15,U,Z
+   9,J,G
+   7,R
+  10,R,Z
+  19,L,J
+  12,U,X
+  14,J
+   1,L,K,G
+   8,L,J,G
+   5,L
+   2,L,J
+   2,L
+  51,U,X
+#keycycle_cc-00-lobby_1
+  36
+#endkeycycle_cc-00-lobby_1
+  12,L,D,J
+   6,K,G
+   1,R,K
+   1,L,K
+   1,J,G
+  10,R,J
+   1,K,G
+   9,R,K
+   1,L,K
+   1,R,K
+   5,J,G
+   7,L,J
+   2,L,K,G
+   4,L
+#keycycle_cc-00-lobby_2
+ 195
+#endkeycycle_cc-00-lobby_2
+   3,R,D,J
+   9,L,J
+  11,K,G
+   1
+   5,J,G
+   5,R,J
+  14,U,X
+  40
+
+#lvl_cc-06
+Read,Old9D_04,lvl_cc-06,hazardcycle_cc-07
+#hazardcycle_cc-07
+   0
+#endhazardcycle_cc-07
+Read,Old9D_04,endhazardcycle_cc-07,stun_cc-07
+#stun_cc-07
+   2,R,D,K,X
+StunPause
+   2,R,D,K,X
+EndStunPause
+   2,R,D,K,X
+#endstun_cc-07
+Read,Old9D_04,endstun_cc-07,Time
+
+#Time
+MidwayFileTime: 0:55.216(3248)
+
+  40
