@@ -1,11 +1,11 @@
 console load nameguysdsidespack/0/10-Farewell
    1
 
-#spinner cycle
-   0
-
 #Start
   90
+
+#spinner cycle
+   0
 
 #lvl_a-00-intro
    2,L,J
@@ -19,37 +19,33 @@ console load nameguysdsidespack/0/10-Farewell
    3,L
    4,L,Z
    1,L,J
-   7,L
-   6,L,J
-   1,J
-   2
+   2,L
+   1,L,J
+   4,L
+   8,L,J
   15,L,D,X
-   5,L,D
-  10,R,D
    1,L,D
-   4,R,D
+   6,R,D
    1,L,D
-   4,R,D
+  17,R,D
   13,R,X
-  12,R,J
-   6,R,K,G
-  10,R,X
-   1,R,J
-   3,J
-   1
-   3,K
-   1
+   7,R,J
+   1,R,K,G
+   3,L,K
+   5,R,K
+   1,R,J,G
+   9,R,K,G
+   1,R
   15,U,X
    1,R,J,G
-   5,R
-   2
+   7,R
    4,R,Z
-   3,R,J
-   2,R,K,G
-  10,R
+   2,R,J
+   3,R,K,G
+   9,R
   18
   15,U,X
-   3,R
+   3
  177
   40
 
@@ -57,6 +53,6 @@ console load nameguysdsidespack/0/10-Farewell
 Read,9D_01,lvl_a-00,Time
 
 #Time
-MidwayFileTime: 0:47.889(2817)
+MidwayFileTime: 0:47.736(2808)
 
 Read,9D_01,Time
