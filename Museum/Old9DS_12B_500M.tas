@@ -1,0 +1,93 @@
+RecordCount: 2461
+
+console load nameguysdsidespack/1/6-FinalGoodbyeOld 102480 -15536
+   1
+
+#lvl_k-01
+  36
+
+#Start
+Read,Old9D_12B,Start,lvl_k-07
+
+#lvl_k-07 (1)
+  10,R,X
+  16,R
+   2
+   6,R,Z
+   4,R,J,G
+   1,J
+  10
+   1,R
+  44,L
+   1,L,D
+   1,L
+   2,L,D
+  31,L,U,Z
+  12,J
+   1,K,G
+  10,R,K
+   8,J
+   1,K
+   1,L
+   6
+  34,D
+   8,D,J
+  11,K,G
+   4,R,K
+  12,U,X
+  40
+
+#lvl_k-07b
+   4
+   2,R
+   3,R,J
+   1,L,J
+   6,J
+  10,R,J
+  15,U,X
+   1,R
+   1
+   1,R
+   1,L,K,G
+   8,R,K
+   1,R
+   1,L,J,G
+  10,L
+   4
+   4,Z
+   1,R,K
+   1,L,J,G
+   1,R,J
+   8,R
+   2,R,J
+  14,R,D
+  28,D
+   1,R
+  40
+
+#lvl_k-07 (2)
+   5,R
+   1,D
+   2,R
+   8,R,X
+   2,R,J,G
+   5,R
+   3,R,J
+  11,R,D
+   8,R
+   6,R,Z
+   3,R,J
+  40
+
+#lvl_k-08
+   3,R,J
+   3,K
+  12,U,X
+   3,R,J
+#endroute_k-07b
+Read,Old9D_12B,endroute_k-07b,Time
+
+#Time
+MidwayFileTime: 1:00.418(3554)
+
+Read,Old9D_12B,Time
