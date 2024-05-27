@@ -305,7 +305,7 @@ EndRepeat
   15,D,X
 #keycycle_z-moom_3
   56
-#keycycle_z-moom_3
+#endkeycycle_z-moom_3
    9,R,Z
    1,R,J
    7,R
