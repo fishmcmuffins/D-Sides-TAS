@@ -357,7 +357,7 @@ EndRepeat
   11,U,X
    1,J
   11
-  30,R
+  21,R
    1,S
    1,D,J
   69,O
@@ -504,7 +504,7 @@ EndRepeat
    2,R,K
 
 #Time
-MidwayFileTime: 1:09.003(4059)
+MidwayFileTime: 1:08.850(4050)
 
   40
 
