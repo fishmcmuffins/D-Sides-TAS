@@ -1,0 +1,178 @@
+Console load nameguysdsidespack/1/6-FinalGoodbyeOld 8684 -1184.4
+   1
+
+#lvl_a-10
+  36
+   5,R,Z
+   4,R,J
+   5,R
+  40
+
+#Start
+#lvl_aa-00-lobby (1)
+   1,R
+  12,R,Z
+   1,R,J
+   2,J
+  14,R,D,X
+   5,R,J
+   1,J
+   1
+  11,R,D,X
+   1,R,J,G
+  11,R
+   2,R,D,J
+   3,R
+   4,R,J,G
+   6,J
+   5,R,D,X
+  43
+
+#lvl_aa-01
+  10,R,D,X
+   4,D
+  20
+   1,D
+  12,R,X
+   1,R,J,G
+   1,R,K,G
+   6,R
+   1,R,K
+   1
+  12,R,J
+   5,R
+   3,R,J
+   6,R
+  14,R,U,X
+   1,R,J,G
+   2,J
+   5
+   1,J
+   9
+  15,L,D,X
+  13
+  14,R,D,X
+   1,R,J
+   2,R,K,G
+   1,R,J,G
+   2,R,K,G
+   1,R,J,G
+   2,J
+  15,R
+   2,R,D
+  19,R,Z
+   1,S
+   1,D,J
+#hazardcycle_aa-03
+   1
+#endhazardcycle_aa-03
+  69,O
+   4,L,Z
+   4,L,J
+  40
+
+#lvl_aa-00-lobby (2)
+   5,L,J
+   2,L
+  14,U,X
+   8,L,J
+   3,R,J
+   2,R
+   9,L
+  11,L,J
+  10,L,Z
+   1,L,K
+   2,L,J,G
+   1,L,K,G
+   2,L,J,G
+   3,L,K,G
+  13,L
+   1
+   2,L
+   2
+   1,R,J
+  43
+
+#lvl_aa-03
+   7,L,J
+   1,R,K,G
+#stun_aa-03
+   2,L,K
+StunPause
+  16,L,K
+SkipInput 3 1
+  14,U,X
+EndStunPause
+   3
+#endstun_aa-03
+   4,R,J
+   1,S
+   1,D,J
+#hazardcycle_aa-00-lobby
+   2
+#endhazardcycle_aa-00-lobby
+  69,O
+   1,L,J
+   7,L
+  10,R,Z
+   6,L,J
+   4,L
+   1,L,J
+   2,R,J
+   4,R
+   1,L
+   5,R,X
+  19,R,G
+   7,G
+   1
+   1,R,J,G
+   1,R
+   1
+   1,R
+   5
+   1,R
+   1,L
+   2
+   5,L,Z
+   1,R,J
+   4,R
+   1,R,J
+   4,R,K,G
+  10,R,D,X
+  14,R,G
+  40,J
+
+#lvl_aa-00-lobby (3)
+   6,R,J,G
+  10,R,K,G
+StunPause
+  10,R,K,G
+   1,R
+   1,R,K
+   1,R
+   1,K
+   1
+   1,R
+   1
+SkipInput 3 1
+  14,U,X
+  16,R,G
+EndStunPause
+  16,R,G
+   8,R,D,G
+   3,R,J,G
+   1,L,J
+   2,R,J
+   6,J
+   8,K,G
+   6,U,Z
+   1,G
+  43
+
+#lvl_aa-04
+Read,Old9D_02,lvl_aa-04,Time
+
+#Time
+MidwayFileTime: 0:37.196(2188)
+
+  40
