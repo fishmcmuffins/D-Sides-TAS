@@ -77,10 +77,10 @@ Read,Old9D_14A,Start,lvl_n-09
   40
 
 #lvl_n-10
-Read,Old9D_14A,lvl_n-10
+Read,Old9D_14A,lvl_n-10,Time
 
 #Time
-MidwayFileTime: 2:40.293(9429)
+MidwayFileTime: 2:39.613(9389)
 
   40
 
