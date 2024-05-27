@@ -45,26 +45,23 @@ Console load nameguysdsidespack/1/6-FinalGoodbyeOld 8684 -1184.4
    6,R
   14,R,U,X
    1,R,J,G
-   2,J
-   5
-   1,J
-   9
+   6,R
+   8
   15,L,D,X
-  13
+  12
   14,R,D,X
    1,R,J
    2,R,K,G
    1,R,J,G
    2,R,K,G
-   1,R,J,G
-   2,J
+   3,R,J,G
   15,R
    2,R,D
   19,R,Z
    1,S
    1,D,J
 #hazardcycle_aa-03
-   1
+   0
 #endhazardcycle_aa-03
   69,O
    4,L,Z
@@ -97,9 +94,9 @@ Console load nameguysdsidespack/1/6-FinalGoodbyeOld 8684 -1184.4
    7,L,J
    1,R,K,G
 #stun_aa-03
-   2,L,K
+   1,L,K
 StunPause
-  16,L,K
+  17,L,K
 SkipInput 3 1
   14,U,X
 EndStunPause
@@ -109,7 +106,7 @@ EndStunPause
    1,S
    1,D,J
 #hazardcycle_aa-00-lobby
-   2
+   1
 #endhazardcycle_aa-00-lobby
   69,O
    1,L,J
@@ -173,6 +170,6 @@ EndStunPause
 Read,Old9D_02,lvl_aa-04,Time
 
 #Time
-MidwayFileTime: 0:37.196(2188)
+MidwayFileTime: 0:37.094(2182)
 
   40
