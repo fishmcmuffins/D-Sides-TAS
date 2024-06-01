@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 1280
+RecordCount: 1307
 
 console load nameguysdsidespack/0/10-Farewell
    1
@@ -765,25 +765,8 @@ Read,9D_25,endstun_w-16_2
 #stun in x-11
 #hazardcycle in xx-07
 
-Read,9D_26,Start,hazardcycle_x-10
-#used for x-11 here
-   1
-Read,9D_26,endhazardcycle_x-10,stun_x-11
-   2,R
-   1,R,D
-   1,S,N
-  10,O
-   1,R,D
-   7,R,U,Z
-   1,S,N
-  10,O
-   4,R,U,Z
-   1,S,N
-  10,O
-   4,R,U,Z
-Read,9D_26,endstun_x-11,hazardcycle_xx-10-final-goodbye
-   3
-Read,9D_26,hazardcycle_xx-10-final-goodbye
+Read,9D_26,Start
+
 #TimeActive for FGFG measured here
 #w/o cycle wait in Bottomless
 
@@ -796,6 +779,5 @@ Read,9D_27,Start
 
 #==========================
 
-ChapterTime: 45:54.867(162051)
-
+ChapterTime: 45:54.646(162038)
 AnalogMode,Ignore
