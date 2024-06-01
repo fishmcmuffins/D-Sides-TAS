@@ -884,35 +884,24 @@ EndStunPause
    1,R,J
    6,R,D,X
   13,G
-  98,R,U,J,G
-   1,L
-  24,R,U,Z
-  17,R,X
-  14,R,C
-   2,R,J,G
-   1,R
-  12,R,K,G
-   7,R
-   3,R,J
-  14,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-  12,R,D,X
-   1,R,J
-   2,R
-  15,R,D,X
-  15,D,C
-  15,D,X
-  15,R,D
-  15,D,X
-   9,R,D
-  15,D,X
-  11,R,D
+  101,R,U,J,G
+4,R
+15,R,U,X
+7
+5,R,U,X
+66,R,G,D
+15,R,J
+10,R,X
+14,R,G
+76,R,G,J,U
+32,R,G,D
+106,G,D
+24,G,D
+25,R,G,D
 Assert,Equal,w-20,{Level.Session.Level}
 Assert,Equal,40,{GameInfo.TransitionFrames}
 #Time
-MidwayFileTime: 3:08.105(11065)
+MidwayFileTime: 3:11.284(11252)
   40
 
 AnalogMode,Ignore
