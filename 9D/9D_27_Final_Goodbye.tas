@@ -14,10 +14,10 @@ Set,Level.TimerStarted,true
   30
 
 #+3f in Bottomless
-Set,Level.TimeActive,2444.011962890625
 #hazard cycle
    3
 #-------------
+Set,Level.TimeActive,2443.801513
 
 Invoke Player.FinishFlingBird
 #Start
@@ -217,72 +217,71 @@ Invoke Player.FinishFlingBird
    1,L,J,G
 #trust me it's worth it
 StunPause
-   5,L,J,G
+   3,L,J,G
+EndStunPause
+StunPause
+1,L,J,G
+EndStunPause
+StunPause
+1,L,J,G
    7,J
   12,K,G
-   5,J,G
-EndStunPause
-StunPause
-   1,J,G
-EndStunPause
-StunPause
-   5,J,G
+   11,J,G
    1,R,J
    1,K
    1,J
+SkipInput 1 8
   14,R,J
 SkipInput 3 1
    6,R,X
 SkipInput 3
   12,R,X
    1,R
-   6,L,D
-EndStunPause
-StunPause
-   1,L,D
-EndStunPause
-StunPause
-  10,L,D
+  17,L,D
    2
 SkipInput 3 1
-  15,R,X
+  7,R,X
+EndStunPause
+StunPause
+1,R,X
+EndStunPause
+StunPause
+7,R,X
 SkipInput 3 1
    5,R,U,V
 SkipInput 3
   13,R,U,V
 SkipInput 3 1
    6,R,X
-EndStunPause
-StunPause
    1,R,X
-EndStunPause
-StunPause
    8,R,X
-  21,L
-  12
+8,L
 EndStunPause
 StunPause
-   1
+1,L
 EndStunPause
 StunPause
-  22
+12,L
+  29
+EndStunPause
+StunPause
+1,
+EndStunPause
+StunPause
+  5
 SkipInput 3 1
    5,R,X
   15,R,G
-EndStunPause
-StunPause
    1,R,G
+  16,R,G
 EndStunPause
 StunPause
-  27,R,G
+1,R,G
+EndStunPause
+StunPause
+10,R,G
   12,R,D,G
-   2,D,G
-EndStunPause
-StunPause
-   1,D,G
-EndStunPause
-StunPause
-   4,D,G
+   7,D,G
 EndStunPause
   38,D,G
 #endstun_xx-10-final-goodbye_1
@@ -321,7 +320,7 @@ EndStunPause
    5
 
 #hazardcycle_xx-10-final-goodbye_2
-   0
+   2
 #endhazardcycle_xx-10-final-goodbye_2
 
   14,R,Z
@@ -482,7 +481,10 @@ EndStunPause
    3,R
    1,S,N
   10,O
-  14,R,Z
+11,R,Z
+StunPause
+  3,R,Z
+EndStunPause
 #endstun_xx-10-final-goodbye_3
    2,R,J
   21,R,D,X
@@ -594,7 +596,13 @@ evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foregroun
 #stun_xx-10-final-goodbye_4
    4,R,J,G
 StunPause
-  10,R,J
+3,R,J
+EndStunPause
+StunPause
+1,R,J
+EndStunPause
+StunPause
+  6,R,J
 EndStunPause
   39,R,J
 #endstun_xx-10-final-goodbye_4
@@ -1207,7 +1215,7 @@ endrepeat
  135
 
 #Time
-MidwayFileTime: 4:09.203(14659)
+MidwayFileTime: 4:09.611(14683)
 AnalogMode,Ignore
 
 #Restore to foreground
