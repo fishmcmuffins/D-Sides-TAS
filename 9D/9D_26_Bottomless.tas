@@ -8,7 +8,7 @@ Invoke Player.FinishFlingBird
 Invoke LightningBreakerBox.Break
 Set,Level.Lighting.Alpha,0
 Set,Session.LightingAlphaAdd,-1
-Set,Level.Bloom.Base,0.25
+Set,Level.Bloom.Base,0.1
 Invoke Level.Session.SetCounter blackhole_strength 2
 
 #lvl_w-13
@@ -546,33 +546,44 @@ EndStunPause
   67,R,U,G
   29,R,D,G
   81,D,G
-   1,K,G
-  32,D,G
-  13,L,U,G
-  21,L,D,G
-   7,L
-  14,L,U,X
-  73,L,D,G
-  85,D,G
-  16,R,D,G
-   3,R,U,G
-   2
-  15,R,U,Z
-   7,R,X
-  34,R,G
-   7,R,G
+   3,L,D,K
+   2,L
+   8
+  14,R,D,X
+   1,L,J
+   5,L,D,X
+  17,L,D,G
+  15,D,G
+   6,G
+   5
+   2,L
+  17,L,U,Z
+   1,G
+  27,L,D
+  70,F,192.83
+  10,F,135
+   9,F,90
+  22,F,82.55
+   4,F,97.4
+  15,R,X
    1,R
-  20,R,D
-  19,D
-   2
-  23,D,X
+  15,R,D,C
+  22,L,D
+   3,D
+   1
+  15,D,X
+   5,R,D
   17,L
-  33,L,D,X
-  33,D
+  24,L,D,X
+   1,D
+   9,L,D
+  32,D
+   1,L,D
+   1,D
   22,R,D
   15,L,D
-   2,D
    9,L
+   2
   46,R
   31,L
    1,L,D
@@ -585,25 +596,28 @@ EndStunPause
   25,R,D
    2,D
    2,R,D
-  25,L,D
-   1
+  24,L,D
+   2,D
   12,R
   15,R,X
   15,R,C
   15,R,D
-  75,D
-  15,R,J
-  10,J
+  10,D
+   1,R,D
+  65,D
+  19,R,J
+   5,J
+   2,R,J
   14,L,U,X
-  54,L,D,G
-  52,D,G
-  14,L,D,G
+  59,L,D,G
+  36,D,G
+  13,L,D,G
   23,L
   15,D,X
   15,L,D,G
-  61,D,G
-  70,R,D,G
-  38,D,G
+  62,D,G
+  71,R,D,G
+  37,D,G
   93,G
   17,R,G
    1,D
@@ -840,7 +854,6 @@ EndStunPause
   13,R,U,G
   10,R,J,G
   14,R,G
-
    1,R,J,G
   25,R,D,J,G
   15,R,D,G
@@ -850,7 +863,7 @@ EndStunPause
    3,L,G
    5,L,D
 #hazardcycle_x-10
-   3
+   0
 #endhazardcycle_x-10
   12,L,Z
    1,R,J
@@ -1014,17 +1027,17 @@ AnalogMode,Ignore
    1,R,J
    7,R,K
 StunPause
-   3,R,K
-EndStunPause
-StunPause
-   1,R,K
-EndStunPause
-StunPause
-   8,R,K
+  12,R,K
    1,K
 SkipInput 3 1
    6,U,X
-   7,R,J
+   3,R,J
+EndStunPause
+StunPause
+   1,R,J
+EndStunPause
+StunPause
+   3,R,J
    8,R
    1,J
    1,R,J
@@ -1032,11 +1045,7 @@ SkipInput 3 1
    2,R
    8,L
    1
-EndStunPause
-StunPause
    1,L
-EndStunPause
-StunPause
    1,R
    2,G
    2
@@ -1048,11 +1057,17 @@ SkipInput 3 1
    1,R,J,G
    1,R,K,G
    1,R,J,G
-   6,R
+   1,R
+EndStunPause
+StunPause
+   1,R
+EndStunPause
+StunPause
+   4,R
    1,R,J
    1,R
-   1,R,J
 EndStunPause
+   1,R,J
    6,R,D,X
   13,R,G
    3,R,J,G
@@ -1167,49 +1182,41 @@ EndStunPause
    1,R,J
   16,R,K,G
 StunPause
-   6,R,J,G
+   4,R,J,G
 EndStunPause
-  14,R,J,G
+  16,R,J,G
   11,R
    1,R,J
    4,R
    2,R,J,G
   18,R
    1,R,J
-   9,R
-StunPause
-   2,R
-EndStunPause
-   3,R
-   1,R,J
-   2,R
-StunPause
-   2,R
-EndStunPause
-   6,R
-StunPause
-   1,R
-EndStunPause
+  10,R
    4,R
    1,R,J
-   3,R
+   2,R
 StunPause
    2,R
 EndStunPause
-   6,R
-StunPause
    1,R
-EndStunPause
-StunPause
-   1,R
-EndStunPause
-   2,R
    1,R,J
+   5,R
+StunPause
    2,R
+EndStunPause
+   2,R
+   1,R,K
+   3,R
 StunPause
    2,R
 EndStunPause
   10,R
+   1,R,J
+   1,R
+StunPause
+   2,R
+EndStunPause
+  11,R
    1,R,J
   12,R
   43
@@ -1609,7 +1616,7 @@ endrepeat
   27,R
    2
 #Time
-MidwayFileTime: 5:39.796(19988)
+MidwayFileTime: 5:37.229(19837)
   30
 
 AnalogMode,Ignore
