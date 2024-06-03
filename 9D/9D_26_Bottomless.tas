@@ -832,40 +832,44 @@ EndStunPause
   19,G
    2,R,G
   25,R
- 140,R,G
-  30,R,D
-   5,R,X
-  18,G
-  11,R,J,G
-   8,R,G
+ 120,R,G
+   3
+   7,G
+  20,D
+  12,D,X
+   1,L,D
+   1,K,G
+   1,J,G
+  16,K,G
+   5,G
   40
 
 #lvl_x-07
-   9,R,G
+   3,G
+   1,R,G
   27
   23,R,G
   30,R
  138,R,U,J,G
-  35,R,U,K,G
+  34,R,U,K,G
    4,R,D,G
-   4
+   1
+   3,D
   24,R,U,X
+   4,C
    1,R,J
   13,R,U,G
+   4,R,U,G
+   5,R,J,G
+  23,L,U,J,G
+  26,L,D,G
+  17,R,D,G
+   4,R,G
   10,R,J,G
-  14,R,G
-   1,R,J,G
-  25,R,D,J,G
-  15,R,D,G
-  14,D,G
-  22,R,D,G
-  20,R,J,G
-   3,L,G
-   5,L,D
-#hazardcycle_x-10
-   1
-#endhazardcycle_x-10
-  12,L,Z
+   1,R
+  14,R,Z
+   1,L,J
+  11,L,Z
    1,R,J
    4,R
    1,R,J
@@ -1020,10 +1024,10 @@ AnalogMode,Ignore
    1,R
    1,L,G
   44,R
-  36,L
-  11,J,G
-   1
-  12,K,G
+   3,L
+  12,R,U,X
+  18,L,J
+   6,K,G
    1,R,J
    7,R,K
 StunPause
@@ -1032,17 +1036,18 @@ StunPause
 SkipInput 3 1
    6,U,X
    7,R,J
-EndStunPause
-StunPause
    1,R
-EndStunPause
-StunPause
    7,R
-   1,J
+   1
+   3,R
    1,R,J
-   1,R
-   2,R
-   8,L
+   1,L,J
+EndStunPause
+StunPause
+   1,L
+EndStunPause
+StunPause
+   6,L
    1
    1,L
    1,R
@@ -1056,13 +1061,7 @@ SkipInput 3 1
    1,R,J,G
    1,R,K,G
    1,R,J,G
-   3,R
-EndStunPause
-StunPause
-   1,R
-EndStunPause
-StunPause
-   2,R
+   6,R
    1,R,J
    1,R
 EndStunPause
@@ -1111,9 +1110,9 @@ EndStunPause
   40
 
 #lvl_xx-02
-   5,R
+   3,R
 StunPause
-   1,R
+   3,R
 EndStunPause
    5,R
    5,R,J
@@ -1199,21 +1198,26 @@ StunPause
 EndStunPause
    1,R
    1,R,J
-   5,R
-StunPause
-   2,R
-EndStunPause
-   2,R
-   1,R,K
    3,R
 StunPause
    2,R
 EndStunPause
-  10,R
+   4,R
+   1,R,K
+   8,R
    1,R,J
    1,R
 StunPause
-   2,R
+   1,R
+EndStunPause
+   4,R
+   1,R,J
+   1,R
+StunPause
+   1,R
+EndStunPause
+StunPause
+   1,R
 EndStunPause
   11,R
    1,R,J
@@ -1615,7 +1619,7 @@ endrepeat
   27,R
    2
 #Time
-MidwayFileTime: 5:36.923(19819)
+MidwayFileTime: 5:35.682(19746)
   30
 
 AnalogMode,Ignore
