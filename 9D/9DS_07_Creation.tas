@@ -68,7 +68,7 @@ console load nameguysdsidespack/0/10-Farewell dd-04
 #=====================
 
 #branch_dd-04_exit
-#play,route_dd-02
+play,route_dd-02
 
 #=====================
 #route_e-00
@@ -509,6 +509,11 @@ EndStunPause
 Read,9D_07,endroute_e-00,Time
 
 #Time
+
+#Creation Lobby Keys Route
 MidwayFileTime: 1:21.464(4792)
+
+#Exit Lobby ASAP Route
+#MidwayFileTime: 0:52.003(3059)
 
 Read,9D_07,Time
