@@ -13,11 +13,11 @@ Invoke BloomFadeTrigger[xx-09:5730].OnStay null
 Set,Level.TimerStarted,true
   30
 
+Set,Level.TimeActive,2407.913574218750
 #+0f in Bottomless
 #hazard cycle
    0
 #-------------
-Set,Level.TimeActive,2407.913574218750
 
 Invoke Player.FinishFlingBird
 #Start
