@@ -1029,7 +1029,9 @@ AnalogMode,Ignore
   18,L,J
    6,K,G
    1,R,J
-   7,R,K
+   5,R,K
+#stun_x-10
+   2,R,K
 StunPause
   12,R,K
    1,K
@@ -1067,6 +1069,7 @@ SkipInput 3 1
 EndStunPause
    1,R,J
    6,R,D,X
+#endstun_x-10
   13,R,G
    3,R,J,G
   38,R,G
@@ -1110,11 +1113,15 @@ EndStunPause
   40
 
 #lvl_xx-02
-   3,R
+   1,R
+#stun_xx-02
+   2,R
 StunPause
    3,R
 EndStunPause
-   5,R
+   2,R
+#endstun_xx-02
+   3,R
    5,R,J
    6,R
    1,R,J
@@ -1178,11 +1185,15 @@ EndStunPause
   15,R
    2
    1,R,J
-  16,R,K,G
+  14,R,K,G
+#stun_xx-04_1
+   2,R,K
 StunPause
    4,R,J,G
 EndStunPause
-  16,R,J,G
+   2,R,J
+#endstun_xx-04_1
+  14,R,J
   11,R
    1,R,J
    4,R
@@ -1192,6 +1203,7 @@ EndStunPause
   10,R
    4,R
    1,R,J
+#stun_xx-04_2
    2,R
 StunPause
    2,R
@@ -1219,7 +1231,9 @@ EndStunPause
 StunPause
    1,R
 EndStunPause
-  11,R
+   4,R
+#endstun_xx-04_2
+   7,R
    1,R,J
   12,R
   43
