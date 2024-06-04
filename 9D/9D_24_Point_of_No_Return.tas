@@ -979,3 +979,5 @@ Assert,Equal,24,{Player.StateMachine.State}
 Assert,Equal,1,{Level.Zoom}
 #Time
 MidwayFileTime: 3:02.750(10750)
+
+  30
