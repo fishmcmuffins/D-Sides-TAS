@@ -1013,228 +1013,204 @@ AnalogMode,Ignore
    1,F,2.121
    9,F,62
    1,F,71
-  30,F,123
-   1,F,122.23062
-   3,F,123
-   5,R,G
-  10,R
-  12,R,U,X
-  56,L,U,G
-  15,L,D,G
+  34,F,118
+  14,R,G
    1,R
-   1,L,G
-  44,R
+  15,R,U,X
+   5
+  24,G
+   1
+  12,L
+  20,G
+   1,U,G
+   1,L,J,G
+   4,R,J
+   1,R
+   4
+   2,J
+   7,L
+   3,L,K
+   5,L
+   5,L,K
    3,L
-  12,R,U,X
-  18,L,J
-   6,K,G
-   1,R,J
-   5,R,K
-#stun_x-10
-   2,R,K
+   5,R,X
 StunPause
-  12,R,K
-   1,K
-SkipInput 3 1
-   6,U,X
-   7,R,J
-   1,R
+   3,R,X
+EndStunPause
+StunPause
+   1,R,X
+EndStunPause
+StunPause
+   6,R,X
    7,R
    1
-   3,R
-   1,R,J
-   1,L,J
-EndStunPause
-StunPause
-   1,L
-EndStunPause
-StunPause
-   6,L
-   1
-   1,L
-   1,R
-   2,G
+   4,R
+  10,L
+   1,R,J,G
+   5,R
    2
-   2,G
-   1
-   1,G
-SkipInput 3 1
-   5,R,D,X
-   1,R,J,G
-   1,R,K,G
-   1,R,J,G
-   6,R
-   1,R,J
+   2,R
+   2
    1,R
 EndStunPause
+StunPause
+   1,R
+EndStunPause
+StunPause
+   1,J
    1,R,J
-   6,R,D,X
-#endstun_x-10
-  13,R,G
-   3,R,J,G
+   5
+   2,J
+  10,L
+SkipInput 3 1
+   6,L,Z
+   1,R,J
+   3,R
+EndStunPause
+   1,R
+   2,D
+   1,R
+   1,R,K
+   5,R,D,X
+  13,G
+   2,R,J,G
   38,R,G
    1,L
-  18,R,D,J,X
-   6,R,J
-   3,R,K
+  18,R,D,K,X
+   5,R,K
+   2,R,J
   40
 
 #lvl_x-11
-  63,R,K
-   5,R,D,X
-   3,R,J,G
-  13,R
+  25,R,J
+  21,R,D,X
+   5,R
+   1,R,D
+  15,R,D,C
+   1,R,K,G
+  12,R
    1,R,J
   14,R
-   1,R,J
-   3,R
-   3
+   1,R,K
+   1,R
+   2
   40
 
 #lvl_xx-01
-   8,R
-   1,R,J
-  14,R
-   1,R,J
    3,R
+   1,R,K
+  10,R,D
+   1,R,D,J
+   1,R,K,G
+   5,R
+   4,R,K
    7,R,D,X
    1,R,J,G
    5,R
    1,R,J
-   8,R
-   1,R,J
+   7,R
+   6,R,K
+   5,R
+   2,R,K
   14,R
-   2,R,J
-  16,R
-   2,R,J
-  16,R
    1,R,J
-   3,R
+   1,R,K,G
+  12,R
+   1,R,J
+   7,R
   40
 
 #lvl_xx-02
+   1,R,J
    1,R
-#stun_xx-02
-   2,R
+   1,R,J
+   1,R
 StunPause
-   3,R
+   2,R
 EndStunPause
    2,R
-#endstun_xx-02
-   3,R
-   5,R,J
-   6,R
-   1,R,J
-   1,R,K,G
-  11,K
-   1
-  14,R
-   1,R,J
-   4,R,K,G
-   1,K
-   2,R,K
-   9,R
-   3
-   1,R,J
-   6,R,K,G
+  10,R,D,J
+   1,J
+   4
    2,R
-  11,R,J,G
-  35,R,D
    3,R,J
+   7,R
+   5,R,D,K
+   4,R,J,G
+   1,R
+  10,R,K,G
+   7,R
+   3,R,D,J
+   1,R,K,G
+   2,K
+   4,R,J,G
+   5,R
+   1,R,J
+   2,R,K,G
+   2,R,J,G
+  21,R
+   5,R,D
   40
 
 #lvl_xx-03
-   1,R
-  10,R
+   8,R,D
    1,R,J
-  14,R
-  10,R,J
-   3,R
-   2
-   1,R,J,G
-  17,R
-   7,R,J
-   6,R,K,G
-   1,R,J,G
-   5,R
-   2,R,J
-   8,R
-   4,R,J
    6,R
    2,R,J
-  10,R
-   3,R,J
-  19,R
-   3,R,J
+   7,R
+   6,R,K
+   4,R,J,G
+  12,R,K,G
    5,R
+   2,R,K
+  11,R
+   2,R,D
+   1,R,J
+   5,R,K,G
+#+1f
+  22,R
    2,R,J
-  10,R
-   5,R,J
-   1,J
+   4,R,K,G
+   5,R
+   2,R,K
+   2,R
+   1,R,J
+  12,R
   40
 
 #lvl_xx-04
-   4,R,J
-  20,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-   1
-  15,R
-   2
-   1,R,J
-  14,R,K,G
-#stun_xx-04_1
+   6,R
    2,R,K
+   1,R
 StunPause
-   4,R,J,G
+   2,R
 EndStunPause
+  13,R
    2,R,J
-#endstun_xx-04_1
-  14,R,J
+   5,R
+   2,R,J
   11,R
+   2,R,K
+   7,R,J,G
+   4,R,K,G
+   1,R,J,G
+   3,J
    1,R,J
-   4,R
-   2,R,J,G
-  18,R
+   5,R
    1,R,J
-  10,R
-   4,R
-   1,R,J
-#stun_xx-04_2
-   2,R
-StunPause
-   2,R
-EndStunPause
    1,R
-   1,R,J
-   3,R
-StunPause
-   2,R
-EndStunPause
-   4,R
+   2,R,J
+   1,R
    1,R,K
-   8,R
+   1,R,J,G
+   9,R
+   3,R,K
+  21,R
    1,R,J
-   1,R
-StunPause
-   1,R
-EndStunPause
-   4,R
+   5,R
    1,R,J
-   1,R
-StunPause
-   1,R
-EndStunPause
-StunPause
-   1,R
-EndStunPause
-   4,R
-#endstun_xx-04_2
-   7,R
-   1,R,J
+   6,R
+   1,R,K
   12,R
   43
 
@@ -1242,216 +1218,97 @@ EndStunPause
    2,R
    1,R,J
   14,R
-   7,R,J
-  19,R
-   4,R,J
+   4,R,K
   17,R
-   4,R,J
-  17,R
-   1,R,J
-  14,R
-   4,R,J
-   5,R
-   2,R,J
-  11,R
-   5,R,J
-  17,R
-   5,R,J
-  17,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-   5,R
-   4,R,J
-   8,R
-  39,R,J
-  30,R,K
-  11,R,D
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-  22,R
-   4,R,D
-   1,R,J
-  21,R,D
-   1,J
-  20,R
-Repeat 11
-   1,R,J
-  14,R
-EndRepeat
-  20,R,J
-  17,R
-  49,R
-  27,R,J
-  12,R,D
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   5,R,J
-  17,R
-   1,R,J
-  14,R
-   1,L,J
-   5,L,J
-   6,L
-  14,R
-  11,R,J
-  22,R
-  50,R
-  12,R,J
-   5,R
-   9,R,K
-  12,R
-repeat 3
-   1,R,J
-  14,R
-endrepeat
-  12,R,J
-   5,R
-   1,R,K
-  17,R
-  40,R
-repeat 2
-   1,R,J
-  14,R
-endrepeat
-   1,R
-   1,R,J
-  43
-
-#lvl_xx-06
-  14,R
-repeat 8
-   1,R,J
-  14,R
-endrepeat
-   7,R,J
-  19,R
-repeat 5
-   1,R,J
-  14,R
-endrepeat
-   8,R,J
-   6,R
-   2,R,K
-  12,R
-repeat 2
-   1,R,J
-  14,R
-endrepeat
-   1,R,J
-  13,R
-  58,R,D
-repeat 8
-   1,R,J
-  14,R
-endrepeat
-   1,D
-  14,R
-repeat 3
-   1,R,J
-  14,R
-endrepeat
-  10,R
-   7,R,J
-   5,R
-   3,R,K
-  12,R
-repeat 3
-   1,R,J
-  14,R
-endrepeat
-   5,R,J
-  17,R
-repeat 2
-   1,R,J
-  14,R
-endrepeat
-   4,R
-  49,R
-  12,R,D
-repeat 5
-   1,R,J
-  14,R
-endrepeat
-   4,R,J
-   5,R
-   1,R,K
-  11,R
-   7,R,J
-   5,R
-   1,R,K
-  13,R
-repeat 3
-   1,R,J
-  14,R
-endrepeat
-   4,R,J
-   5,R
-   2,R,K
-  12,R
-   6,R,J
-  18,R
-   4,R,J
-  17,R
-   4,R,J
-   9,R
-   2,R,K
-   6,R
-repeat 5
-   1,R,J
-  14,R
-endrepeat
-  10,R,J
-  20,R
-  58,R,D
-repeat 3
-   1,R,J
-  14,R
-endrepeat
-  40
-
-#lvl_xx-07
-repeat 9
-   1,R,J
-  14,R
-endrepeat
-   1
-  14,R
-   1,R,J
-  22,R
-repeat 2
-   1,R,J
-  14,R
-endrepeat
-   4,R
-  12,R,J
-  22,R
-repeat 4
-   1,R,J
-  14,R
-endrepeat
-   5,R
-   7,R,J
-  19,R
-   6,R,J
-  18,R
-   1,R,J
- 157,R
-  48,R,D
    1,R,J
   12,R
    2
+   1,R,D,K
+  14,R
+   2,R,D,J
+   5,R
+   3,R,J
+   3,R
+   1,R,J
+   5,R
+   1,R,D,K
+  34,R,D
+   3,R
+   7,R,D,J
+   2,R
+   3,R,K,G
+  15,R
+  10,R,J
+   5,R
+   1,S
+  11,J,X
+   4,R
+  19,R,J
+   1,R,K,G
+   6,R
+   2,R,K
+  43
+
+#lvl_xx-06
+   1,R,J
+   3,R
+  20,R,K
+  15,R,D
+   5,R,J
+   7,R,K,G
+StunPause
+   2
+EndStunPause
+  19,R,D
+   3,D
+   3,R,D
+   2,R,D
+  12,R,D,J
+   5,R
    2,R,J
-  28,R
+   1,R
+   1,R,J
+   8,R
+   1,R,K
+   2,R,J,G
+StunPause
+   1,R,J,G
+   1,R,K,G
+EndStunPause
+   1,K
+  34,R,K
+  16,R,D
+   8,R,D,J
+   5,R
+   1,R,J
+   4,R
+StunPause
+   1,R
+EndStunPause
+StunPause
+   1,R
+   1,R,K
+   4,R,J,G
+EndStunPause
+  15,R
+  40
+
+#lvl_xx-07
+  15,R,D
+   8,R,J
+   5,R
+   1,R,J
+  14,R
+  31,R,D,K
+   7
+ 193,R
+   1,R,J
+   1
+  11,R
+   2
+   1,R,K
+  22,R
+   5,R,D
    1,R,J,G
   29,R,K,G
   13,R,D,X
@@ -1633,7 +1490,7 @@ endrepeat
   27,R
    2
 #Time
-MidwayFileTime: 5:35.682(19746)
+MidwayFileTime: 4:55.868(17404)
   30
 
 AnalogMode,Ignore
