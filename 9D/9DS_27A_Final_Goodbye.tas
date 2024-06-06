@@ -13,11 +13,11 @@ Invoke BloomFadeTrigger[xx-09:5730].OnStay null
 Set,Level.TimerStarted,true
   30
 
-Set,Level.TimeActive,2816.961914062500
+Set,Level.TimeActive,2780.863525390625
 
-#+0f wait in bottomless
+#+3f wait in bottomless
 #hazard cycle
-   0
+   3
 #------------
 
 Invoke Player.FinishFlingBird
@@ -221,13 +221,13 @@ StunPause
    5,L,J,G
    7,J
   12,K,G
-   5,J,G
+   9,J,G
 EndStunPause
 StunPause
-   1,J,G
+   1,J
 EndStunPause
 StunPause
-   5,J,G
+   1,J
    1,R,J
    1,K
    1,J
@@ -237,13 +237,13 @@ SkipInput 3 1
 SkipInput 3
   12,R,X
    1,R
-   6,L,D
+  10,L,D
 EndStunPause
 StunPause
    1,L,D
 EndStunPause
 StunPause
-  10,L,D
+   6,L,D
    2
 SkipInput 3 1
   15,R,X
@@ -252,38 +252,33 @@ SkipInput 3 1
 SkipInput 3
   13,R,U,V
 SkipInput 3 1
-   6,R,X
+  10,R,X
 EndStunPause
 StunPause
    1,R,X
 EndStunPause
 StunPause
-   8,R,X
+   1,R,X
+   3,R,X
   21,L
-  12
+  16
 EndStunPause
 StunPause
    1
 EndStunPause
 StunPause
-  22
+  18
 SkipInput 3 1
    5,R,X
-  15,R,G
+  19,R,G
 EndStunPause
 StunPause
    1,R,G
 EndStunPause
 StunPause
-  27,R,G
+  23,R,G
   12,R,D,G
-   2,D,G
-EndStunPause
-StunPause
-   1,D,G
-EndStunPause
-StunPause
-   4,D,G
+   7,D,G
 EndStunPause
   38,D,G
 #endstun_xx-10-final-goodbye_1
@@ -322,7 +317,7 @@ EndStunPause
    5
 
 #hazardcycle_xx-10-final-goodbye_2
-   0
+   1
 #endhazardcycle_xx-10-final-goodbye_2
 
   14,R,Z
@@ -552,7 +547,7 @@ EndStunPause
 
 #hazardcycle_xx-10-final-goodbye_3
    2
-#endhazardcycle_xx-10-final-goodbye_2
+#endhazardcycle_xx-10-final-goodbye_3
 
 #Move to background
 #For Depression and Trust Sections
@@ -664,6 +659,6 @@ Read,9D_27,lvl_xx-10-true-final-goodbye,Time
 #evallua if bgs then while level.Background.Backdrops.Count > bgs do level.Foreground.Backdrops:Add(level.Background.Backdrops[bgs]); level.Background.Backdrops:RemoveAt(bgs); end bgs = nil end
 
 #Time
-MidwayFileTime: 4:09.152(14656)
+MidwayFileTime: 4:09.033(14649)
 
 AnalogMode,Ignore
