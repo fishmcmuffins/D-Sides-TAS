@@ -150,50 +150,49 @@ Read,9D_06,endstun_d-10_2,lvl_d-12
   70,L,U,C
   40
 
-#lvl_d-12s (KEY)
+#lvl_d-12s
   48,L
    6,R
   18,R,J
-  47,R,D
+  43,R,D
+  14,R,Z
+   4,R,J
+   4
+   2,R,J
+   2,R
+  10,D,X
   40
 
 #lvl_d-12 (2)
-   9,R,D
-   3,R
-  14,R,D,X
-  27,R,U,C
-  26,R,X
- 128,R,C
-  23,R,D,X
-   1,R,J
-   7,R,D,X
-   7,R,J
-   4,R
-   2,R,J
-   4,D,X
-   7,R,U,X
+   1,S
+   1,D,J
+  69,O
+   6,R,U,X
   40
 
 #lvl_d-13
-   4,R,U,X
-  14,U,C
-   8,J
-   3,K,G
-   9,R
-   4,D,X
-   3,L,X
-   1,R,J
-  13,R,D
-  15,D,X
-   5,R,D
-   7,L,D
+   9,R,U,X
+  15,U,C
+   3,L
+   6,R,J
+   2,L
+   1,R,K,G
    1
+   8,R
+   5,L,Z
+   1,R,J
+   1,R
+  12,D
+  15,D,X
+   3,R,D
+   6,D
   14,R,D,X
    1,R,J
    3,R,K,G
   17,R,J,G
   15,R,D,X
    3,R
+#endbranch_d-12_deathwarp
   15,R,Z
   13,R,X
   28,R,Z
@@ -273,7 +272,7 @@ Read,9D_06,endstun_d-10_2,lvl_d-12
 Read,9D_06,lvl_d-14,Time
 
 #Time
-MidwayFileTime: 1:47.389(6317)
+MidwayFileTime: 1:45.009(6177)
 
 Read,9D_06,Time
 
