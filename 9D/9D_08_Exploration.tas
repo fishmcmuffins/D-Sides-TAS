@@ -635,6 +635,9 @@ endrepeat
   29,R,J
   15,U,X
    1,R
+#hazardcycle_f-13
+   1
+#endhazardcycle_f-13
   24,R,X
   12,U,Z
    5,R,J
@@ -644,12 +647,18 @@ endrepeat
 #lvl_f-12
    1,L,J,G
    1
-   8,K,G
-   8,J,G
-   4,R,J
-  13,L,Z
-  18,R,J
-   9,R
+
+   6,K,G
+   4
+   4,L,N
+   3
+   3,J
+   8,R,J
+  10,L,Z
+  15,R,J
+   3,R
+   3,R,J
+   6,R
   15,U,X
   10,R,J
    2,J,G
@@ -679,7 +688,9 @@ endrepeat
    1,L
    5
    1,G
-  10,L,D
+   6,L,D
+   3,D
+   1,L,D
    6,G
    9,D,G
    4,G
@@ -687,16 +698,16 @@ endrepeat
    3,G
    7,R,Z
    9,R,J
-   6,R
+   4,R
    1,R,J
-  15,R
+  17,R
   30,R,U,X
-  31,R
+  33,R
   14,G
    7,J,G
    4,K,G
-   6,R,K
-   3,R
+   5,R,K
+   4,R
   15,R,X
   24,L,D
    4,R,D
@@ -714,8 +725,7 @@ endrepeat
    1,J
   42,R,J
    2
-   5,D
-   1
+   6,D
    1,K
    5,R,K
    7,K
@@ -759,106 +769,70 @@ endrepeat
   15,R,X
   15,R,C
   29,R,D
-  10,D
-   7,J
-   7
-   2,G
-   5,R,X
+   2,D
+   1
+   1,D
+   5
+   1,D
+   9,J
+   3,L,J
+   1,K
+   4,L,K
+   7,L
+  12,U,G
+  10,G
+  12,D,G
+   1
+   1,R,G
+   1,R,J,G
    1,R,K,G
-   2,R,J,G
-   4,R,K,G
-   6,R,J,G
-   5,R
-   2,R,J
-  14,R
+   1,R,J,G
+   6,R,D,X
+   1,R,K,G
+   6,R
    1,R,K
-  10,R,J,G
+   2,R
+   9,R,J
+   8,R,D,X
   40
 
 #lvl_f-13
-  11,R
-   5,R,D
-   1,R,K
-   5,R
-   7,R,K
+   4,R,D,K
+   1,R,J,G
+   2
+   1,K,G
+   1
    4,R
-  10
-   1,D
-  15,R,U,Z
-  11,R
-  10,U,X
-  13,R,J
-  39,R,D
-  11,R
-   1,J
-  12
-   1,R
-  27,D
-   4,R,D
-   1,R,J
-   5,R
-   8,R,J
-   6,R
-  27,R,U,X
-   4,D,C
-  21,R,U,C
-   5,R
+   2,R,J
   15,R,D,X
-   8,R
-  30
-  19,R,D
+   1,R,K
+   1,K
+   3
+   2,R
+   2,R,K
+  13,R,U,Z
+   2,L,K,G
+  11,R,K
    3,R
-  15,R,X
-   5
-  15,U,C
-   5,L
-  13,R
-  31,R,X
-   6,R,D
-   1,R
-   1,R,D
-   7,R
-   4,D,X
-  11,R,X
-  24,R,C
+   2
+   2,K
+   4
   15,R,U,X
-  15,R,U,C
-  24,R,D
-   1
-  14,R,U,X
-   8,L
-  15,R,X
-  14,R,D
-  36,R
-  42,R,X
-  14,R,D
-   1,R
-   1,R,D
-  15,R,U,C
-  17,R,Z
-   1
-   1,J,G
-   1,L,J
-   1,R,K,G
-   1,R,J,G
-   3,J
-   1,R,K,G
-   1,R,J,G
-   7,R
-   5,R,K
-   5,R,D,X
+   5,R,D,C
   40
 
 #lvl_f-14
-  14,R,D
+  14,D
   18,R,C
    4,L,G
    6,R,D
-  19,L,D
+  18,L,D
+   1
   10,L,X
    4,R,G
-   9,D
-   5,R,D
+   9
+   4,R
+   1,R,D
    4,D,X
   16,R,X
    4,R,J
@@ -907,4 +881,4 @@ endrepeat
 Assert,Equal,f-16,{Level.Session.Level}
 Assert,Equal,66964,{Player.X}
 #Time
-MidwayFileTime: 1:37.937(5761)
+MidwayFileTime: 1:28.451(5203)
