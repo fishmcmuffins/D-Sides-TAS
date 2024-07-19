@@ -355,29 +355,24 @@ EndStunPause
    2,J,G
    3,R,J
    1,R,K,G
-   1,R,J,G
-   1,R
-   1,R,K,G
-   2,R
+   2,R,J,G
+   3,R,K,G
    3,R,J,G
    7,R
-  14,R,J
+  15,R,J
   15,U,X
-  13,R
-   1
-  20,R,C
-   1,R,J,G
-   3
-   2,R
-   1,J
-   1,R
-  14,L,D
+  20,R
+  14,R,Z
+   1,K,G
+   9,R
+   1,L
+   9
+   2,G
+   2
+   1,L,D
+   2
    6,G
-   1,D,G
-   1,G
-   1,D,G
-   8,G
-  15,U,G
+  19,U,G
    4,Z
    1,R,K
    5,R
@@ -405,39 +400,34 @@ EndStunPause
    1,L,J,G
    1,R
    5
-  22,R,D
-   1,D
-   1,R,D
-   1,D
+  20,R,D
+   3,D
+   2,R,D
   15,R,Z
-  15,U,X
-  10
-   7,L
-  47,R
-  12,U,X
+   1
+  15,U,V
+   9,L
+  44,R
+   2
+  11,U,Z
    7
-  28,R
-   4
+  29,R
+   3
   15,R,Z
-   6
+   7
   10,R,U,V
   44,R
    5
   25,D,X
-   1,L,D
-   1,D
-   3,L,D
+   5,L,D
   11,L,Z
-  25,R
+  26,R
   18,R,U,X
   15,U,C
-   2,R
+   1,R
   64,R
   12,R,D
-  20,R,X
-   1
-   4,R
-   1
+  26,R,X
   13,R,U,Z
   50,R
    5,D
@@ -680,7 +670,7 @@ EndStunPause
 Assert,Equal,d-19,{Level.Session.Level}
 Assert,Equal,40,{GameInfo.TransitionFrames}
 #Time
-MidwayFileTime: 1:41.626(5978)
+MidwayFileTime: 1:41.473(5969)
   40
    1
   72,O
