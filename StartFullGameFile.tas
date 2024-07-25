@@ -33,10 +33,8 @@ Add 41
    1,D
    1,F,180
    1,D
-#for bot sync check (starts from
-#museum)
-   1,L
-#   1,R
+#for changing to the correct mod
+   1,R
 #####
 #input however many left 
 #(or right) inputs you need
