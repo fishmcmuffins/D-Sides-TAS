@@ -13,10 +13,10 @@ Invoke BloomFadeTrigger[xx-09:5730].OnStay null
 Set,Level.TimerStarted,true
   30
 
-Set,Level.TimeActive,2407.913574218750
-#+0f in Bottomless
+Set,Level.TimeActive,2342.769042968750
+#+2f in Bottomless
 #hazard cycle
-   0
+   2
 #-------------
 
 Invoke Player.FinishFlingBird
@@ -218,66 +218,70 @@ Invoke Player.FinishFlingBird
 #trust me it's worth it
 StunPause
    5,L,J,G
-   7,J
+EndStunPause
+StunPause
+   1,J
+EndStunPause
+StunPause
+   6,J
   12,K,G
   11,J,G
+   1,R,J
+   1,K
+   1,J
+   9,R,J
 EndStunPause
 StunPause
    1,R,J
 EndStunPause
 StunPause
-   1,K
-   1,J
-  14,R,J
+   4,R,J
 SkipInput 3 1
    6,R,X
 SkipInput 3
   12,R,X
    1,R
-  10,L,D
-EndStunPause
-StunPause
-   1,L,D
-EndStunPause
-StunPause
-   6,L,D
+  17,L,D
    2
 SkipInput 3 1
-  15,R,X
+   6,R,X
+EndStunPause
+StunPause
+   1,R,X
+EndStunPause
+StunPause
+   8,R,X
 SkipInput 3 1
    5,R,U,V
 SkipInput 3
   13,R,U,V
 SkipInput 3 1
-  12,R,X
+  15,R,X
+   9,L
 EndStunPause
-   2,R,X
 StunPause
-   1,R,X
-  21,L
-  19
+   1,L
+EndStunPause
+StunPause
+  11,L
+  28
 EndStunPause
 StunPause
    1
 EndStunPause
 StunPause
-  15
+   6
 SkipInput 3 1
    5,R,X
-  22,R,G
+  33,R,G
 EndStunPause
+   2,R,G
 StunPause
-   1,R,G
-EndStunPause
-StunPause
-  20,R,G
+   8,R,G
   12,R,D,G
    7,D,G
 EndStunPause
   38,D,G
-#bruh
-   1,S,N
-  10,O
 #endstun_xx-10-final-goodbye_1
    1,L,D,G
    1,D,G
@@ -314,7 +318,7 @@ EndStunPause
    5
 
 #hazardcycle_xx-10-final-goodbye_2
-   1
+   2
 #endhazardcycle_xx-10-final-goodbye_2
 
   14,R,Z
@@ -446,14 +450,13 @@ EndStunPause
    3,R,K
   12,R,J,G
 #stun_xx-10-final-goodbye_2
-  14,R,J
-   1,S,N
-  10,O
-  14,R,J
+  28,R,J
    1,R,D
    2,R
    4,R,D,K
    1,R
+   1,S,N
+  10,O
   15,R,D,X
    5,R,J
    6,R
@@ -475,16 +478,10 @@ EndStunPause
    3,R
    1,S,N
   10,O
-   5,R,Z
-   1,S,N
-  10,O
-   1,R,Z
-   1,S,N
-  10,O
-   4,R,Z
-   1,S,N
-  10,O
-   4,R,Z
+  11,R,Z
+StunPause
+   3,R,Z
+EndStunPause
 #endstun_xx-10-final-goodbye_3
    2,R,J
   21,R,D,X
@@ -596,7 +593,13 @@ evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foregroun
 #stun_xx-10-final-goodbye_4
    4,R,J,G
 StunPause
-  10,R,J
+   5,R,J
+EndStunPause
+StunPause
+   1,R,J
+EndStunPause
+StunPause
+   4,R,J
 EndStunPause
   39,R,J
 #endstun_xx-10-final-goodbye_4
@@ -1209,7 +1212,8 @@ endrepeat
  135
 
 #Time
-MidwayFileTime: 4:09.543(14679)
+MidwayFileTime: 4:09.594(14682)
+
 AnalogMode,Ignore
 
 #Restore to foreground
