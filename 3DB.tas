@@ -1,10 +1,10 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 5350
+RecordCount: 5543
 
 console hard nameguysdsidespack/0/3-Resort
-   2
+   1
 
 #Start
   92
@@ -359,17 +359,18 @@ console hard nameguysdsidespack/0/3-Resort
   40
 
 #lvl_a-05
-   9,R,J
+   5,R
+   4,L
   15,D,X
-   7,L,D,C
+   6,L,Z
    1,R,J
    7,R
   41,R,J
   12,K,G
   12,J,G
-  12,K,G
+  10,K,G
    9,R,J,G
-   3,J
+   4,J
   15,R,U,X
    4
    6,R,Z
@@ -1976,4 +1977,4 @@ EndStunPause
   15,U,C
  135,L,D
 
-ChapterTime: 4:37.219(16307)
+ChapterTime: 4:37.168(16304)
