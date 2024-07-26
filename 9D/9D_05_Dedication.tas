@@ -409,8 +409,9 @@ StunPause
    1,R,J
    2,J
 EndStunPause
+   6,R,J
 #endstun_d-05
-   9,R,J
+   3,R,J
    5,R
    2
    2,R,J
