@@ -4,7 +4,7 @@ console load nameguysdsidespack/0/10-Farewell
 #Start
   90
 #spinner cycle
-   1
+   0
 
 #lvl_a-00-intro
    2,L,J
@@ -83,11 +83,13 @@ console load nameguysdsidespack/0/10-Farewell
 #lvl_a-02
    3,R
    2,R,K
-   7,R,J,G
-  13,R,Z
-   1,L,J
-   4
-  14,R,D,X
+   1,R,J,G
+   3,J
+   2,R,J
+  15,R,U,X
+  12
+   1,K
+   4,Z
    1,R,J
    9,R
    4,R,J
@@ -347,5 +349,5 @@ console load nameguysdsidespack/0/10-Farewell
 Assert,Equal,a-10,{Level.Session.Level}
 Assert,Equal,40,{GameInfo.TransitionFrames}
 #Time
-MidwayFileTime: 0:45.781(2693)
+MidwayFileTime: 0:45.747(2691)
   40
