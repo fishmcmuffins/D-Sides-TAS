@@ -1,4 +1,4 @@
-RecordCount: 9250
+RecordCount: 9542
 
 #Created by dahlukeh and Fishmcmuffins
 #improvements by pansear and gnommis
@@ -690,7 +690,7 @@ endrepeat
   12,U,X
    1,L
   40
- 
+
 #lvl_e-05
    2,J,G
    3
@@ -728,23 +728,35 @@ endrepeat
 #   7,J
 #   8,K
   13
-  79,L,X
+  80,L,X
   15,D,C
-  15,D
-   9,J
+   5,R,D
+   1,D
+   5,R,D
+   2
+   2,R
+   1,D
+   1,R,D
+   1,L,D,J
+   2,L,K,G
+   1,J,G
+   2,L,J,G
+   6,J,G
    1
-  15,R,D,X
-   3,R,J
+  10,R,J,G
+  11,R,K,G
    1,R
-   3,R,J
-   5,R
-  15,U,X
-  78,L,G
-   4,J
-   7,K,G
-   9,R,K
-  12,R,J,G
-   8,R,K,G
+   4,R,J,G
+   1,J
+   1,R
+   1
+   1,R
+   2,L
+   1
+   1,L
+  22,R,J,G
+  14,U,X
+   7,R,J
   40
 
 #lvl_e-06
@@ -752,7 +764,7 @@ endrepeat
    5,R
 #f-05 Waiting Frames
 #multiple of 3
-  48
+ 123
 #--------------
    4,Z
    1,R,J
@@ -836,7 +848,7 @@ endrepeat
   14,L,U,X
 
 #f-04 Spinner Cycle
-   2
+   1
 #--------------
   21,U,C
   15,U,Z
