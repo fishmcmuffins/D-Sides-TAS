@@ -1,4 +1,4 @@
-RecordCount: 9164
+RecordCount: 9166
 
 #Created by dahlukeh and Fishmcmuffins
 #improvements by pansear and gnommis
@@ -276,7 +276,7 @@ Read,5D.tas,lvl_e-01,lvl_e-06
    3,K,G
   14,L,U,X
 #Spinner Cycle [f-04]
-   0
+   2
 #####
   21,U,C
   15,U,Z
@@ -355,4 +355,4 @@ Read,5D.tas,lvl_f-03,lvl_f-11
 #lvl_f-12
 Read,5D.tas,lvl_f-12
 
-ChapterTime: 3:39.827(12931)
+ChapterTime: 3:38.603(12859)
