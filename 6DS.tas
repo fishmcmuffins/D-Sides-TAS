@@ -1,4 +1,4 @@
-RecordCount: 20146
+RecordCount: 20147
 
 #by aqmlyn and Lmjacks
 #previous versions by
@@ -230,11 +230,10 @@ Read,6D.tas,lvl_b-11 (1),boss-03 spinner cycle
    2,R,J
    2
   40
-
 #lvl_boss-01
 Read,6D.tas,lvl_boss-01,center-01 spinner cycle
 #center-01 spinner cycle
-   2
+   1
 #
    1,J
    1,K
@@ -256,6 +255,6 @@ Read,6D.tas,lvl_boss-01,center-01 spinner cycle
 #lvl_boss-18
 Read,6D.tas,lvl_boss-18
 
-ChapterTime: 7:52.209(27777)
+ChapterTime: 7:52.056(27768)
 
 AnalogMode,Ignore
