@@ -728,9 +728,11 @@ Read,9D_24,Start
 
 #hazardcycle in w-15
 #2 stuns in w-16
+#hazardcycle in x-01
 #stun in x-10
 #stun in xx-02
-#2 stuns in xx-04
+#stun in xx-04
+#3 stuns in xx-06
 #hazardcycle in xx-07
 
 Read,9D_26,Start,hazardcycle_w-16
