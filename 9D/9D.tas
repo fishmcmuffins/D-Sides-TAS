@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 1485
+RecordCount: 1498
 
 console load nameguysdsidespack/0/10-Farewell
    1
@@ -44,7 +44,7 @@ Read,9D_03,endhazardcycle_c-01-heartgate
 #hazardcycle in cc-06
 
 Read,9D_04,Start,hazardcycle_cc-03
-   2,G
+   1,G
 Read,9D_04,endhazardcycle_cc-03,hazardcycle_cc-07
    2
 Read,9D_04,endhazardcycle_cc-07
@@ -58,9 +58,9 @@ Read,9D_04,endhazardcycle_cc-07
 
 Read,9D_05,Start,hazardcycle_d-03
    2
-#+3f extra waiting for favourable
+#+9f extra waiting for favourable
 #drift
-   3
+   9
 #####
    6,R,D,X
    1,R,J
