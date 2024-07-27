@@ -1,4 +1,4 @@
-RecordCount: 19665
+RecordCount: 19881
 
 #by aqmlyn and Lmjacks
 #previous versions by
@@ -1614,20 +1614,22 @@ EndStunPause
   40,R,J
    2,R,D
    6,R
-  28,R,D
-  17,R,X
-  17,R
-  28,R,Z
-  11,R
-  33
-   2,L
-   1
-   3,L
+  10,R,D
+   8,R
+  15,R,Z
+  34,R
   15,R,D,X
-   1
-  36,R
-  14,R,U,Z
-  44,R
+   2,R,D
+  33
+   1,R
+   1,L
+   1,R
+   1,L
+   1,R
+  15,R,D,X
+  40,R
+  15,R,U,Z
+  44
   15,R,X
   10,R
    8
@@ -2457,7 +2459,7 @@ AnalogMode Ignore
   13,R,U,X
   24
 #center-01 spinner cycle
-   2
+   1
 #
    1,J
    1,K
@@ -3039,4 +3041,4 @@ EndRepeat
   31,L,D
   54,R,J
 
-ChapterTime: 7:28.358(26374)
+ChapterTime: 7:28.205(26365)
