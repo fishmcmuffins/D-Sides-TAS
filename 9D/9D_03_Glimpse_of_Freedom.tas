@@ -79,13 +79,14 @@ console load nameguysdsidespack/0/10-Farewell 8885.51124763489 -1959.4 297.6
    1,L
   13,U,X
   26,L,U,J,G
-  10,U,J,G
-   1,L,D,J
+   7,U,J,G
+   2,L,U,J,G
+   1,U,J,G
+   1,D,J
    1,J
-   1,L,J
-   1,J
-   2,R,J
-   1,L,J
+   1,R,J
+   1,R
+   1,L
    4,K,G
    1,R,K
    5,L,X
@@ -93,26 +94,22 @@ console load nameguysdsidespack/0/10-Farewell 8885.51124763489 -1959.4 297.6
    2,L,K,G
    1,L,J,G
    4,L,J
-  13,L,J,G
-   4,L,G
-  26,L,U,K,G
-   1,L,D,K
-   2,L,K
-   7,L
-   2,R
-   1
-   1,R
-   2,L,J,G
+  17,L,J,G
+  24,L,U,K,G
+   4,L,U,G
+   2,L,D,K
+   6,L
+   3
+   1,J
   11,R,D,X
    1,R,J
    2,R,K,G
    1,R,J,G
    1,R,K,G
    6,R,D,X
-  13,G
-   4,R,G
-  45,R,U,J,G
-   1,R,D,G
+  17,R,G
+  43,R,U,J,G
+   2,R,D,G
    6,R
   15,U,X
   21,U,J,G
@@ -485,7 +482,7 @@ EndRepeat
   24,L,D,G
   11,L,D
 #hazardcycle_c-01-heartgate
-   1
+   0
 #endhazardcycle_c-01-heartgate
   14,R,U,X
   21,R,G
@@ -682,4 +679,4 @@ EndRepeat
 Assert,NotEqual,,{Key[cc-05:3971].follower.Leader}
 Assert,Equal,0.9583333,{Key[cc-05:3971].wiggler.Counter}
 #Time
-MidwayFileTime: 1:39.773(5869)
+MidwayFileTime: 1:39.671(5863)
