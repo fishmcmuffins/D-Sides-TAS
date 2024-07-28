@@ -78,10 +78,10 @@ console load nameguysdsidespack/0/10-Farewell 8885.51124763489 -1959.4 297.6
    1,L,J
    1,L
   13,U,X
-  26,L,U,J,G
-   7,U,J,G
-   2,L,U,J,G
-   1,U,J,G
+  26,L,J,G
+   7,J,G
+   2,L,J,G
+   1,J,G
    1,D,J
    1,J
    1,R,J
@@ -95,8 +95,8 @@ console load nameguysdsidespack/0/10-Farewell 8885.51124763489 -1959.4 297.6
    1,L,J,G
    4,L,J
   17,L,J,G
-  24,L,U,K,G
-   4,L,U,G
+  24,L,K,G
+   4,L,G
    2,L,D,K
    6,L
    3
@@ -447,25 +447,31 @@ console load nameguysdsidespack/0/10-Farewell 8885.51124763489 -1959.4 297.6
    1
   14,R,U,Z
    6
-  51,R
-  12,L,K
-   5
-   1,K
-  18
-  11,R,Z
+  43,R
+  11,R,X
+   1,R,J
+   2,R
+  13
+  15,L,X
+   1,J
+   2,L,J
+   5,L
+   1,L,J
+  10
+  14,R,D,X
    1,R,J
    2,R,K,G
    1,R,J,G
-   7,R,K,G
-   9,R
-  28,R,D,G
-  20,R,U,G
-   1,R
-   7,R,U,Z
-   7
-   9,U,X
-  41,R,J,G
-  33,R,D,G
+   2,R,K,G
+   1,R,J,G
+   3,J
+  10,R,X
+  19,G
+  14,R,U,G
+   2,R
+   9
+  10,U,X
+  74,R,D,G
    1,D,G
    1,R,D,G
    2,D,G
@@ -487,10 +493,10 @@ console load nameguysdsidespack/0/10-Farewell 8885.51124763489 -1959.4 297.6
    6,R
   66,R,U,G
   10,R,D,G
-  24,L,D,G
-  11,L,D
+  25,L,D,G
+  10,L,D
 #hazardcycle_c-01-heartgate
-   0
+   1
 #endhazardcycle_c-01-heartgate
   14,R,U,X
   21,R,G
@@ -687,4 +693,4 @@ console load nameguysdsidespack/0/10-Farewell 8885.51124763489 -1959.4 297.6
 Assert,NotEqual,,{Key[cc-05:3971].follower.Leader}
 Assert,Equal,0.9583333,{Key[cc-05:3971].wiggler.Counter}
 #Time
-MidwayFileTime: 1:39.671(5863)
+MidwayFileTime: 1:39.620(5860)
