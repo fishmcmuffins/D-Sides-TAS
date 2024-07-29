@@ -388,7 +388,7 @@ EndStunPause
    2,R
    2
 #hazardcycle_g-06
-   2
+   0
 #endhazardcycle_g-06
    3,K
    4,R,K
@@ -416,35 +416,49 @@ EndStunPause
    2,R,D
   11,R,J
    4,R
-   3,R,K,G
+   1,R,K,G
    5,R
-   7,R,K
-   9,R
+   2,R,K
+  22,R
   14,R,U,X
-   8,R,J,G
-   9,R
-   2,R,J
-   9,R
+   1,L,J,G
+   1,R,J
+   5,R
+   1,R,J
+   5,R
    2
-   1,K,G
    1,R
    1
-   1,R
-   3
-   1,R
-   1,L
-   5,R,J
-   1,L,J
-   1,L
-  15,L,U,X
-   9,R
-  23,U,G
    1,G
-   1,U,G
-   3,G
-   2,U,G
-   1
-   1,R,J,G
+   1,R,K,G
+   6,R
+   3,R,K
+   5,R
+  11,R,J
+   4,R
+   1,K,G
+   6,R
+   1,L
+   1,L,K
+   7
+   2,L
+   1,L,K
+   3
+   1,G
+  10,J,G
+  11
+   1,G
+   3,L,D
+   1,L,K
+   6,L
+   2,L,J
+   4,J
+   1,R,K,G
+   2,R,J,G
+   9,R
+   1,G
+   4,Z
+   1,R,J
    1,R,K,G
    1,R,J,G
    1,R,K,G
@@ -452,91 +466,60 @@ EndStunPause
    1,R,K,G
    1,R,J,G
    1,R,K,G
-   1,R,J,G
-   7,R
-  11,R,D,X
+   4,R,J,G
+   4
+   1,R
+  13,R,D,X
 #stun_g-06
-   4,R,D,X
+   2,R,D,X
 StunPause
-   4,R
+   2,R,D
 EndStunPause
 #endstun_g-06
-  10,R
+   9,R,D
   40
 
 #lvl_g-07
-   2,R
-   2,R,K
-   2,R
-   5
-  14,R,U,X
-   1,L,J,G
-   5,R
+   4,R
+  10,R,J
+  12,R,U,Z
   40
 
 #lvl_g-08
-   6,R,J
-   7,R
-  17,R,U,X
-  11,R,J,G
-   4,R,K,G
-  11,R,U,X
-   1,R,J,G
+   1,R,U,X
+   1,L
+   1,L,J,G
+  11,R,J
+  14,R,U,X
+   1,R,K,G
+   6,R,J,G
+   8,R,K,G
+  15,R
+   2,R,J
    2,R,K,G
-   5,K
-   7,R,K
-   5,R
-   2,R,K
-   2,R
-   1
-  10,R,D,X
-   2,R,J,G
-   2
-   4,R
-   1,R,J
-   2,R
-   1,R,K
+   4,R,J,G
   40
 
 #lvl_g-09
-   1,K
-   9,R,K
-   9,R
-   2,R,K
+   7,R,J
    2,R
-#stun_g-09
-   2,R
-StunPause
-   2,R
-EndStunPause
-  10,R,D
-   1,R,J,G
-StunPause
-   2,R,J,G
-EndStunPause
-#endstun_g-09
-   7,R,J,G
+   3
+   1,J
+  17,R,D
+   4,R
+   1,L,J,G
+   1,R,J
+   1,R,J
+   4,R,J
   40
 
 #lvl_h-01
-   1,R,J
-  14,R
-#stun_h-01
-   1,R
-StunPause
-   6,R
-   2,R,D
-EndStunPause
-#endstun_h-01
-   3,R,D
-   1
-  12,R,U,X
-   1,J,G
-   7
-   1,D,K
-   7,R,K
-   3,R
-  17,R,D,X
+  16,R,J
+   4,R
+  10
+   8,R,U,X
+   7,J,G
+  23,D
   12,R,D,C
   15,R,U,X
   14,R,C
@@ -544,31 +527,30 @@ EndStunPause
    2,R,K,G
    1,R,J,G
    6,R,K,G
-  21,R
-   5,R,J
+  20,R,D
+   6,R,J
    9,R,X
    9,R,C
-  22,R,D,X
-   2,G
+#+3f moonblock cycle
    3
-  15,R,Z
-   1,R,J,G
-   1,R,K,G
+  22,R,D,X
+   1,D
+   1,R,D
+   1,G
+   1
    1,R
+  14,R,X
    1,R,J,G
    2,R,K,G
-   3
-   4,R
-  13,R,D,J
-   1,L,K,G
-   7,R,K
-   4,R
-   1
-   1,R,K
-   7,R
    1,R,J,G
-   4,R,K,G
-  15,R
+   5,R,K,G
+   7,R
+  10,R,J
+   1,L,K,G
+   8,R,J,G
+   4,R
+   1,R,K,G
+  10,R
   23,R,X
   14,R,C
    1,R,J,G
@@ -770,7 +752,7 @@ Assert,Equal,hh-01,{Level.Session.Level}
 Assert,Equal,11364,[[return TAS.EverestInterop.EntityDataHelper.CachedEntityData[player.CurrentBooster].ID]]
 Assert,Equal,True,{CutsceneEntity.Running}
 #Time
-MidwayFileTime: 1:27.040(5120)
+MidwayFileTime: 1:25.187(5011)
 
 #Restore to foreground
 #evallua if bgs then while level.Background.Backdrops.Count > bgs do level.Foreground.Backdrops:Add(level.Background.Backdrops[bgs]); level.Background.Backdrops:RemoveAt(bgs); end bgs = nil end
