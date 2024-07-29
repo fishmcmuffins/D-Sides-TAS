@@ -188,20 +188,20 @@ Set,Level.TimeActive,512
    4,R
   18,R,D,X
    2,D
-   8,R,D
-  15,R,Z
-   6,R,X
-   7,R,J
-   1,R,K,G
-   1,J,G
-   2,R,J
-  40,J
+   6,R,D
+   1,D
+  12,R,Z
+   1,R,J
+   3,J
+   7,R,U,X
+   5,K,G
+  40,K
 
 #lvl_m-04
-   1,R,J
-   1,L,J
-   1,J
-   2,R,J
+   1,L,K
+   1,K
+   1
+   2,R
   14,R,Z
    1,L,K,G
   16
@@ -1070,5 +1070,5 @@ play,endbranch_ta3
 Assert,Equal,m-12,{Level.Session.Level}
 Assert,Equal,40,{GameInfo.TransitionFrames}
 #Time
-MidwayFileTime: 1:23.759(4927)
+MidwayFileTime: 1:23.674(4922)
   40
