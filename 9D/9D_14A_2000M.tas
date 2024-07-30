@@ -139,23 +139,23 @@ AnalogMode,Precise
 #bubble popped
    2,K
    9,R,K
+   6,R
+   1,R,K
+  18,R
+   5,R,D
+  16,R,Z
+   5,L,U,X
   25,R
-   4,R,D
-  15,R,Z
-   1
-   1,R
-   1
-  25,R
-  21,R,U,X
-   2,R,J,G
-   2,L,J
+  22,R,U,X
+   1,R,J,G
    1,R,K,G
-   7,R
-  18,R,J
-   9,U,X
+   9,R
+   4,R,J
+  14,U,Z
    7,R,J
    4,L,J
   40
+
 #lvl_n-02
    1,K
    1,L,K
@@ -271,7 +271,7 @@ AnalogMode,Precise
   18,K
    3,J
 #hazardcycle_n-05
-   2
+   0
 #endhazardcycle_n-05
    7,R,Z
    5,R,K
@@ -317,52 +317,44 @@ endrepeat
    5,L
    6,R,J
   11,R,Z
-   4,K
-   4,R,K
-  15,R,D,X
-   1
-  15,L,C
-   5,R,D,X
-   8,U,X
-   2,X
-   8,R
-   5,L,C
-   1,J,G
-  10,L
-   3,R
-   2,G
-   8,R,D,X
-   1,R,J,G
-   1,R,K,G
-   1,R,J,G
-   1,R,K,G
-   1,R,J,G
-#stun_n-05
-   6,R
-   1,S
-  11,R,J
-   1,R
-   1,R,D,K
-StunPause
-   4,R,D,K
-   3,R
-   2,R,J,G
-   1,J
    1,R,J
-EndStunPause
-   3,R,J
-StunPause
-   5,R,J
+   5,J
+   9,R,D,X
+   1,L,J
+   2,L
    5,R
-   4,L,K,G
-EndStunPause
-   1,K
-#endstun_n-05
-   6,R,K
+  27,R,U
+   2,U
+   9,J
+   3
+  15,D,X
+   4,Z
+   1,R,J
+   1,R,K,G
+   1,R,J,G
+   1,R,K,G
+   1,R,J,G
    5,R
-   2,R,K
+#stun_n-05
    2,R
-   1
+StunPause
+   6,R,D,K
+   1,R
+   1,R,J,G
+EndStunPause
+   5,R,J
+StunPause 
+   3,R,J
+   5
+   3,L,K,G
+   1,R,K
+EndStunPause
+#endstun_n-05
+   7,R,K
+   1,R
+   4,R
+   2,R,K
+   3,R,K
   14,R,Z
    2,R,J,G
   33,R,K,G
@@ -1045,7 +1037,7 @@ EndStunPause
 Assert,Equal,n-13,{Level.Session.Level}
 Assert,Equal,40,{GameInfo.TransitionFrames}
 #Time
-MidwayFileTime: 2:14.929(7937)
+MidwayFileTime: 2:13.892(7876)
   40
 
 AnalogMode,Ignore
