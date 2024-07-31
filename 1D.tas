@@ -1,4 +1,4 @@
-RecordCount: 3293
+RecordCount: 3372
 
 console load nameguysdsidespack/0/1-City
    1
@@ -495,19 +495,20 @@ console load nameguysdsidespack/0/1-City
 
 #lvl_b-05
    1,R,Z
-   2,R,J
-   7,J
+   7,R,J
+   1,K,G
+   4,R,K
+   5
+   1,L
    1
-   1,R
-   4
-   1,L,D,J
-   4,J
-   7,L
    1,G
+   1
    8,J
    5
-   3,J
-   5
+   1,L
+   1,J
+   1,L
+   4
    1,G
    1
    1,J,G
@@ -706,4 +707,4 @@ console load nameguysdsidespack/0/1-City
    2,L
   72,L,D,X
 
-ChapterTime: 1:03.580(3740)
+ChapterTime: 1:03.444(3732)
