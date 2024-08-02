@@ -168,65 +168,55 @@ console load nameguysdsidespack/0/10-Farewell
 #lvl_a-04
    2,R,K
   11,R,U,X
-   1,R,J,G
-   1,L,J
-   7,R
-   9,L,Z
-   1,R,J
-   4,R
-   1,R,J
-   2,R
-  11,R,K
-  12,R
-   5,L,X
-  25,L,U,J,G
+   2,R,J,G
+   4
    1,R
-  11,L
-   1,L,K,G
-   1,R,K
-   7,L
-  14,L,Z
-   1,R,J
-   7,R
-  10,R,K
-   5,R
-   1,R,K
-   2,R
-   1,R,K
-   7,R
-   2
-   2,R
-  17,R,Z
-  40,R,U,J,G
-   2,R
-  18,R,U,Z
-   5,U,C
-  21,G
-   1,D
-   1,L,K,G
-  14
-   1,G
-   1,J,G
-   2,J
-   5
-   1,J
-   6
-   2,L
-   3
+   1
    1,R
+   4,L
    4,Z
    1,R,J
-  43,R,U,J,G
-   8,R,D,G
-  16,D,G
+   2,R
+   1,R,J
+   2,R
+  10,R,K
+   5,R
+   2,R,K
    1
-  18,L,D
-   1,L
-   1
+   1,R,K
+   4
+   5,L,X
+  24,L,U,J,G
+   1,R
+  12,L
+   1,L,K,G
+   2,R,K
+   7,L
+  13,L,Z
+   1,R,J
+   6,R
+  10,R,K
+  17,R
+   2
+  17,R,Z
+  71,R,U,J,G
+   9,R,D,G
+   1,R
+  20,R,Z
+  13,U,X
+   1,R,J
+  26,R,J,G
+  25,R,G
+  26,R,D,G
+   1,R
+   7,D
+  10,L,D
    1,D
-  27,R
+   1
+  22,R
+   1
   14,R,U,X
-  60,R,U,J,G
+  65,R,U,K,G
    1,L
   12,R
    5,R,J
@@ -354,5 +344,5 @@ console load nameguysdsidespack/0/10-Farewell
 Assert,Equal,a-10,{Level.Session.Level}
 Assert,Equal,40,{GameInfo.TransitionFrames}
 #Time
-MidwayFileTime: 0:44.642(2626)
+MidwayFileTime: 0:44.523(2619)
   40
