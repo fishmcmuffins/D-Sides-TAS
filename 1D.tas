@@ -1,4 +1,4 @@
-RecordCount: 3372
+RecordCount: 3800
 
 console load nameguysdsidespack/0/1-City
    1
@@ -117,6 +117,8 @@ console load nameguysdsidespack/0/1-City
    5,R
    1,G
    4
+
+
    9,G
    4,Z
    1,R,J
@@ -194,26 +196,26 @@ console load nameguysdsidespack/0/1-City
   11,R
    8,R,D,X
    1,R,J
-   2,R
-   1,R,J
-   1,R
-   2,G
-   5,L
-   5,L,Z
-   1,R,J
-   1,R,K,G
-   1,R,J,G
-   1,R,K,G
-   6,R
-   4,R,J
-  14,R,K,G
-  12,U,Z
-   9,R,J
-   3,R
-   1,R,J,G
-   1,R,K,G
    4,R
-  11
+   1,G
+   4
+   1,G
+   1
+   8,G
+   1
+   1,R,D,J
+   1,R,K,G
+   5,R,J,G
+   1,R,K,G
+   3,K
+   8,R,K
+  12,U,X
+  11,R,J
+   1,R,K,G
+   5,R
+   2,R,K
+   8,R
+   1
    1,L,D
   12,R,D
    1,R,J
@@ -707,4 +709,4 @@ console load nameguysdsidespack/0/1-City
    2,L
   72,L,D,X
 
-ChapterTime: 1:03.444(3732)
+ChapterTime: 1:03.393(3729)
