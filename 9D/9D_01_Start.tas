@@ -160,24 +160,22 @@ console load nameguysdsidespack/0/10-Farewell
   15,R,J
   15,U,X
   18,R
-   4,Z
-   3,R,J
-   2,R,K,G
-   4,R,J,G
+   4,X
+   4,R,J
+   5,R,K,G
   40
 
 #lvl_a-04
-   7,R,J,G
-   1,R,K,G
-   4,L,K
-   6,R,K
+   2,R,K
+  11,R,U,X
    1,R,J,G
-   2,R,K,G
+   1,L,J
+   7,R
    9,L,Z
    1,R,J
-   3,R
+   4,R
    1,R,J
-   3,R
+   2,R
   11,R,K
   12,R
    5,L,X
@@ -343,5 +341,5 @@ console load nameguysdsidespack/0/10-Farewell
 Assert,Equal,a-10,{Level.Session.Level}
 Assert,Equal,40,{GameInfo.TransitionFrames}
 #Time
-MidwayFileTime: 0:44.999(2647)
+MidwayFileTime: 0:44.965(2645)
   40
