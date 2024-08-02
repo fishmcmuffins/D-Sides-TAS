@@ -1,4 +1,4 @@
-RecordCount: 9292
+RecordCount: 10152
 
 #Created by dahlukeh and Fishmcmuffins
 #improvements by pansear and gnommis
@@ -715,25 +715,9 @@ endrepeat
   15,R,Z
   14,R,D
    5,D
-#~10f, 12 pauses
-#Spinner Cycle
-#2 cycles work
-   0
-#--------------
   22,U,X
   15,R,C
    7,R
-#  13
-#  61,L,X
-#StunPause
-#  20,R
-#SkipInput,3,1
-#   7,R,U,Z
-#EndStunPause
-#   8,R,U,Z
-#   6,R
-#   7,J
-#   8,K
   13
   80,L,X
   15,D,C
@@ -771,7 +755,7 @@ endrepeat
    5,R
 #f-05 Waiting Frames
 #multiple of 3
- 123
+ 114
 #--------------
    4,Z
    1,R,J
@@ -853,7 +837,6 @@ endrepeat
    1,J
    3,K,G
   14,L,U,X
-
 #f-04 Spinner Cycle
    2
 #--------------
@@ -979,7 +962,7 @@ SkipInput,8,2
 EndStunPause
   16,D,X
 #f-05 Spinner Cycle
-   0
+   2
 #--------------
    2,J
   14,L,Z
@@ -1016,44 +999,43 @@ EndStunPause
    1,R
    1,R,D
    2,R,D,J
-   4,R
+   3,R
+   1
    1,R,J
-   1,R
-   5,R,K,G
-   9,R,Z
-#drift frame
-#might be faster to have spinner deload before drift
-   3,R,Z
+   1
+   1,R,K,G
+   4,K
+  14,R,Z
    1,L,J
-   1,L
-stunpause
-   5,L
+   3,L
+StunPause
+   3,L
    2,L,J
 SkipInput,3,1
   15,L,D,X
-   3,L
+   4,L
 SkipInput,3,1
   15,D,X
-   2,D
-endstunpause
+   3,D
+EndStunPause
    5,D
-   1
    4,R
    1
-   5,R,J
-  13,R,G
-   7,R,J,G
-   5,R,G
-   7,R,J,G
-   1,R,D,J
    1,R,J
-   2,R
-   2,R,J
-  16,R
-  14,L,Z
+  13,G
+  10,R,J,G
+   5,R,G
+  10,R,J,G
+   1,R,G
+   1,G
+   1,R,J,G
+   3,R,G
+   1,R,D
+   6,R
+  14,L,D,X
    1,R,J
    5,R,D,X
-  13,R,G
+  13,G
   27,R,J,G
   23,R,G
   40
@@ -1113,130 +1095,141 @@ endstunpause
   42
   15,D,X
   42
-  15,D,X
-  83,L
-   5,R
+#f-12 spinner cycle
    2
-  10,L
-   1,L,D
-   2,L,J
-   2,L
-  18,R,D
+#--------------
+  15,D,X
+  85
+   1,L
+   1,D
+   8,L
+   1,L,D,J
+   1,L,K
+   5,L,D
+  13,R,D
    1,R
    3,R,J
-   5,R
-   1,D,X
-  13,R,X
-   4,R,J
+   6,R
+  10,R,Z
+   5,R,J
   15,R,D,X
-   8,R
-   2,R,J
-  17,R
-   5,U,X
-  22,R,G
+   9,R
+   3,R,J
    5,R
+   3,R,J
+   5,R
+   7,R,U,J,X
+  21,J,G
+   3,L,D,J
+   1,L
+   1,L,J
+   4,Z
    1,R,J
-   2,R
-  15,R,D,X
-  14,L,D,C
-   1,R,J
-   5,R,D,X
-  17,R,G
-   5,R,J,G
+  13,G
+  15,R,G
+   3,R,D,G
   40
 
 #lvl_f-08
-   2,R,G
-  10,R,Z
-   1,R,J
-  12,R,J,G
-   3,R,K,G
-  12,R,G
-   7,R,J
-   2
-   1,K
+   3,R,D,G
+  11,R,J,G
+   5,R,G
+   2,R,J,G
+   9,R,G
+   4,R,J,G
+   6,R,J
    2,R
   15,R,Z
-  30,R,G
-   5,R,J,G
-  10,R,G
-  33,G
-   3,R,G
-   4,R,J,G
-   1,K,G
-   1,R
-  15,L,Z
-   3,L
-  69
-   1
-   1,J
+   5,R
    3
-   5
-   2,J
-   1
-   4
-   9,R,Z
+   1,R
+   3
+   3,R
+  13,G
+   1,R,J,G
+  18,R,G
+   1,R,J,G
+  17,R,G
+   1,G
+   1,R,G
+   1,J,G
    1,R,J
-   8
+   1,L,J
+   1,L,K,G
+   5,L,K
+   8,L
+   2,L,K
+   6,L
+   9,L,Z
    1,R,J
-   5,R,U,Z
+   7,R
+   1,R,J
+   6,R,U,Z
   40
 
 #lvl_f-09
-   8,R,U,Z
-  55,R,J,G
-   4
+   7,R,U,Z
+  46,R,G
+   6,R,D,G
+   1,R
+   2,R
+   2,R,J
    6,R,U,X
   40
 
 #lvl_f-10
    2,R,U,X
-  21,R,J,G
-   3,R
-  20,R,K,G
+  13,G
+   9,R,G
+   3,R,J,G
+   2,R,G
+   1,R
+   8,R,U,X
+   1,R,J,G
+   2,R
+  13,G
+   3,R,G
+   1,R,J,G
   13,R,G
-   8,G
-   1,G
-   1
-   6,R,U,X
-   1,J,G
-   3
-  20,G
-  10,R,G
-   4,G
+   9,R,D,G
+   1,D,G
    1,R,G
-  50,G
-   1,L,G
-   1,R,G
-  37,G
-  11,R
-   1,R,J
-  22,R
-  14,L,D,X
+  12,R,J,G
+   8,R,G
+   2,R,J,G
+  12,R,G
+   1,R,D
+  14,L,Z
    1,R,J
    5,R,D,X
-  13,R,G
+  13,G
    2,R,J,G
-   8,R,G
-   3,R,J,G
+   9,R,G
+   2,J,G
   40
 
 #lvl_f-11
-  15,R,J,G
-  20,R,G
+   4,J,G
+   2,G
+   1,R,G
+   1,G
+   8,R,G
+   2,R,J,G
+   5,R,G
+   9,R,J,G
+  12,R,G
    1,R
-   7,R,U,X
-   1,R,J,G
-   7,R
-#Spinner Cycle [f-12]
-   2
-###
-  13,L,Z
+   9,R,X
+   1,J
+   1,L,J
+   1,L
+   6
+   9,L,Z
    1,R,J
    7,R
    1,R,J
    5,R,D,X
-  13,R,G
+  13,G
    3,R,J,G
    4,R,G
   40
@@ -1311,4 +1304,4 @@ EndStunPause
   15,L,X
  127
 
-ChapterTime: 3:20.634(11802)
+ChapterTime: 3:16.248(11544)
