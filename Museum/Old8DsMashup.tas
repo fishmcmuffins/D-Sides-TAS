@@ -1,13 +1,19 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 7133
+RecordCount: 7141
 
 console load nameguysdsidespack/1/1-CoreOldMashup
    1
 
 #Start
  190
+
+#Spinner Cycle [b-02]
+   0
+#####
+
+#lvl_00
    4,R,Z
    1,R,J
    7,R
@@ -669,6 +675,7 @@ endrepeat
    2,R,K
    4,L,J
   40
+
 #lvl_c-03
    8
   21,L,J,G
@@ -824,7 +831,10 @@ EndRepeat
   15,U,X
    1,R
   15,R,X
-  13,R,Z
+  12,R,Z
+#Spinner Cycle [c-04]
+   1
+#####
   15,R,X
   15,U,C
    3,R
@@ -859,6 +869,9 @@ EndStunPause
   23,F,0
   10,F,22
   12,R,Z
+#Spinner Cycle [space_a]
+   0
+#####
   17,U,X
   72
   40
@@ -1124,6 +1137,7 @@ EndRepeat
 #lvl_c-07 (1)
    5,R,X
   40
+
 #lvl_space_a (1)
   13,R
   15,R,Z
@@ -1272,4 +1286,5 @@ endstunpause
   18,R,J
   12,U,X
  135,D
+
 ChapterTime: 3:32.721(12513)
