@@ -7,7 +7,7 @@ evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foregroun
 #lvl_f-16
   36
 #hazardcycle_f-99
-   0
+   2
 #Start
   14,R,X
    4,R,J
@@ -98,13 +98,7 @@ evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foregroun
    7,J,G
    1,R,J
    6,R
-  18,R,J
-   1
-   1
-   1
-#moon block cycle
-   5
-#----------------
+  21,R,J
   10,R,D,X
    1,R,J
    2,R
@@ -127,100 +121,88 @@ evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foregroun
    9,R
    1,R,J
   19,R,D,X
-  23,R,K
-   8,R
+  24,R,K
+   7,R
   14,R,U,X
    1,R,J,G
    1,R,K,G
-   7,R
-   2,R,D,J
-  26,R,D,X
-   7,R,D,C
-   1,R,J
-   1,R,K,G
+   1,R,G
+   1,R,J,G
+   9,R,K,G
+   2,R
+   3
+   1,K
+  27,D
+  13,L,D,X
+   6,J
+   7,L
+   2,R,J
+  13,R,D,X
+   1,R,K
    2,R,J,G
    1,R,K,G
+   2,R,J,G
+   3,R,K,G
+  10,R,D,X
    1,R,J,G
-   5,R
-   4,R,J
-   1,R
-   2,R,J
+   1,R,K,G
    2,R
-   3,R,D,K
-   1,R,J,G
-   2,R
-  19,R,D,X
-   1,D
+   3,R,J,G
+   1,J
+   5
+  18,R,D,X
    7,R
-   6,R,U,Z
-   1,R
+   8,R,U,Z
 #stun_f-99
-   1,L,J,G
-   6,R,J
-   1,R
+   2,R,U,Z
 StunPause
-   5,R
-   2,R,J
-   1,R
+   2,R,U,Z
 EndStunPause
 #endstun_f-99
-   2,R
-   5,R,Z
-  25,R,K,G
-  20,R,D
-   3,R,J
-   5,R,K,G
+   2,R,U,Z
+   2,R,K,G
+   6,R
+  17,R,K
+   1,R,D
+   1,L,J
   40
 
 #lvl_g-01
-   7,R
-   1,R,J
-   1,R
+   1,J
   14,R,U,X
-   4,R,K,G
-   9,R
-   1,R,K
-   6,R
-  10,R,U,X
-   1,R,J,G
-   2,R,K,G
-   1,R,J,G
-   7,R
-   2,R,J
+   1,K,G
+   1,R
+  11
+  14,R,U,X
+   2,J,G
   12,R,U,X
    1,R,K,G
-  21,R,J,G
-  12,R
+  11,R,J,G
+   5,R
+   2,R,J
+   5,R
   40
 
 #lvl_g-02
-   3,R
-   2,R,D
-  15,R,U,X
-   1,R,K,G
-   2,R,J,G
-   1,R,K,G
-   6,R,J,G
-  13,R
-   2,R,K
-   3,R
-   9,R,D,X
+  12,R,X
    1,R,J,G
    1,R,K,G
-   1,R
+   3
    1,R,J,G
-  27,R,K,G
+   1,J
+   3,R,J
+   7,R
+   3,R,J
+   4,R
+  10,R,K,G
+   9,R
   40
 
 #lvl_g-03
-   7,R
-  11,D,X
-  33,R
-   7
-   1,R
-   8
-   3,D
-   2
+   6,R
+  10,D,X
+  35,R
+  19
   43,R
   13,L
    1
@@ -378,7 +360,7 @@ EndStunPause
   14,L,J
   11,L
 #hazardcycle_g-09
-   2
+   1
 #endhazardcycle_g-09
    1,G
   11,K,G
@@ -690,7 +672,7 @@ Assert,Equal,hh-01,{Level.Session.Level}
 Assert,Equal,11364,[[return TAS.EverestInterop.EntityDataHelper.CachedEntityData[player.CurrentBooster].ID]]
 Assert,Equal,True,{CutsceneEntity.Running}
 #Time
-MidwayFileTime: 1:21.277(4781)
+MidwayFileTime: 1:19.696(4688)
 
 #Restore to foreground
 #evallua if bgs then while level.Background.Backdrops.Count > bgs do level.Foreground.Backdrops:Add(level.Background.Backdrops[bgs]); level.Background.Backdrops:RemoveAt(bgs); end bgs = nil end
