@@ -3,7 +3,7 @@
 #Start from Begin
 #More Things Like Everest and D - Sides idk
 
-Read,StartFullGameFile.tas
+Read,StartFullGameFile
 
 #Prologue D-Side
 Read,0 - Prologue.tas,Start
@@ -112,16 +112,7 @@ Read,LoadD.tas
 #Epilogue D-Side
 Read,0 - Epilogue.tas,Start
 
-  60
-   1,J
- 196
-Add 197
- 185
-   1,J
-  43
-   1,J
-  46
-Add 1
+Read,Load9D.tas
 
 #Final Goodbye / Farewell D-Side
 Read,9D/9D.tas,Start
@@ -138,4 +129,4 @@ Add 197
 
 Read,LoadJournal,Epilogue
 
-FileTime: 1:33:34.845(330285)
+FileTime: 1:33:19.630(329390)
