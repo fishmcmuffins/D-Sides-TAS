@@ -1,0 +1,25 @@
+#used for All Levels
+#8E, 7E, and 5BGV are only
+#playable via cheat mode
+
+console load 0
+Set,CheatMode,false
+   1
+
+#Start
+  61
+
+#lvl_0
+   5,L
+   1,L,J
+   3,L
+  40
+
+#lvl_-1
+   1,L
+   1,R,N
+   1,G
+   1,F,
+   1,L,U,D,G
+   1,J
+ 123

@@ -1,0 +1,17 @@
+unsafe
+   1,X
+  42
+   1,U
+  48
+Repeat,6
+   1,L
+   9
+EndRepeat
+   1,J
+  43
+#Cassette
+   1,R
+   1,J
+ 304
+
+Add 1
