@@ -1,0 +1,78 @@
+#To sync:
+#Use Celeste v.1.4.0.0
+#Start from Begin
+#More Things Like Everest and D - Sides idk
+
+Read,StartFullMuseumFile
+
+#Prologue D-Side w/ Dashes
+Read,0 - PrologueDash.tas,Start
+
+  60
+   1,J
+ 196
+Add 197
+ 185
+   1,J
+  43
+   1,J
+  46
+Add 1
+
+#Old Core D-Sides Mashup
+Read,Old8DsMashup.tas,Start
+
+Read,../LoadD.tas
+
+#Old Old Summit D-Side
+#(The first ver. of 7D)
+Read,OldOld7D.tas,Start
+
+Read,../LoadD.tas
+
+#Old Summit D-Side
+#(The second ver. of 7D)
+Read,Old7D.tas,Start
+
+Read,../LoadD.tas
+
+#Old Reflection D-Side
+Read,Old6D.tas,Start
+
+Read,../LoadD.tas
+
+#Old Old Celestial Resort D-Side
+#(The first ver. of 3D)
+Read,OldOld3D.tas,Start
+
+Read,../LoadD.tas
+
+#Old Final Goodbye
+#(AKA Old Farewell D-Side)
+#(Currently crashes in Trust due
+#to buggy dialogue code)
+Read,Old9D/Old9D.tas,Start
+
+Read,../LoadD.tas
+
+#Old Celestial Resort D-Side
+#(The second ver. of 3D)
+#(also known as Old 3Dark)
+Read,Old3D.tas,Start
+
+unsafe
+  60
+   1,J
+ 196
+Add 197
+ 165
+   1,J
+  83
+Add 7
+   1,S
+  60
+   1,X
+  62
+Read,../LoadJournal,Epilogue
+
+FileTime: 1:19:15.461(279733)
