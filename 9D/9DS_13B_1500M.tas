@@ -67,15 +67,15 @@ Read,9D_13B,Start,lvl_m-03
    1
    1,L,D
    1,D
-  14,R,D
-   2,R
+  13,R,D
+   3,R
   15,R,Z
    6,R,X
-   7,R,J
-   1,R,K,G
-   1,J,G
-   2,R,J
-  40,J
+   7,R,K
+   1,R,J,G
+   1,K,G
+   2,R,K
+  40,K
 
 #lvl_m-04
 Read,9D_13B,lvl_m-04,lvl_m-06
@@ -382,7 +382,7 @@ Read,9D_13B,lvl_m-07,lvl_m-08
 #hazardcycle_m-08s
 #comment out next 2 lines
 #to access stunless route
-   0
+   2
 play,endhazardcycle_m-08s
 
 #====================
@@ -552,11 +552,18 @@ EndStunPause
    1,R
   24,R,Z
   14,U,C
-   2,R,J
-  11,R
-   4,D,X
-   3,R,J
-   1,R,K,G
+   2,J
+   5
+   1,R
+   3
+   4,K
+   4,L
+   4,Z
+   1,R,J
+   3,R
+   1,R,J
+   1,R,K
+   1,R,J,G
    6,R
   40
 
@@ -780,6 +787,7 @@ play,endbranch_ta3
 #lvl_m-12
 Read,9D_13B,lvl_m-12,Time
 #Time
-MidwayFileTime: 1:31.239(5367)
+
+MidwayFileTime: 1:30.321(5313)
 
 Read,9D_13B,Time
