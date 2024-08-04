@@ -340,7 +340,8 @@ console load nameguysdsidespack/0/10-Farewell
    4,R
    5,R,Z
    4,R,J
-   5,R
+   1,R
+   4,R,J
 Assert,Equal,a-10,{Level.Session.Level}
 Assert,Equal,40,{GameInfo.TransitionFrames}
 #Time
