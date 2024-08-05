@@ -8,16 +8,7 @@ Read,StartFullMuseumFile
 #Prologue D-Side w/ Dashes
 Read,0 - PrologueDash.tas,Start
 
-  60
-   1,J
- 196
-Add 197
- 185
-   1,J
-  43
-   1,J
-  46
-Add 1
+Read,../Load9D.tas
 
 #Old Core D-Sides Mashup
 Read,Old8DsMashup.tas,Start
