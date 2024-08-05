@@ -13,11 +13,11 @@ Invoke BloomFadeTrigger[xx-09:5730].OnStay null
 Set,Level.TimerStarted,true
   30
 
-Set,Level.TimeActive,2713.912353515625
+Set,Level.TimeActive,2702.122802734375
 
-#+3f wait in bottomless
+#+2f wait in bottomless
 #hazard cycle
-   3
+   2
 #------------
 
 Invoke Player.FinishFlingBird
@@ -220,69 +220,77 @@ Invoke Player.FinishFlingBird
 StunPause
    5,L,J,G
    7,J
-  12,K,G
-   7,J,G
+   3,K,G
 EndStunPause
 StunPause
-   1,J
+   1,K
 EndStunPause
 StunPause
-   3,J
+   8,K
+  11,J,G
    1,R,J
    1,K
    1,J
   14,R,J
 SkipInput 3 1
    6,R,X
-SkipInput 3
-  12,R,X
-   1,R
-   6,L,D
 EndStunPause
-StunPause
-   1,L,D
-EndStunPause
-StunPause
-  10,L,D
-   2
-SkipInput 3 1
-  15,R,X
-SkipInput 3 1
-   5,R,U,V
-SkipInput 3
-  13,R,U,V
-SkipInput 3 1
-   8,R,X
-EndStunPause
+#would normally use SkipInput 3
+#for this but weird drift
+#management pausing means this
+#doesnt really work here
+   3,R,X
 StunPause
    1,R,X
 EndStunPause
 StunPause
-   6,R,X
-  21,L
-  12
+   8,R,X
+   1,R
+  17,L,D
+   2
+SkipInput 3 1
+  15,R,X
+SkipInput 3 1
+   4,R,U,V
 EndStunPause
 StunPause
-   1
+   1,R,U,V
+EndStunPause
+   3,R,U,V
+StunPause
+  10,R,U,V
+SkipInput 3 1
+  15,R,X
+  17,L
 EndStunPause
 StunPause
-  22
+   1,L
+EndStunPause
+StunPause
+   3,L
+  35
 SkipInput 3 1
    5,R,X
-  17,R,G
+   1,R,G
 EndStunPause
 StunPause
    1,R,G
 EndStunPause
 StunPause
-  25,R,G
+  39,R,G
+EndStunPause
+StunPause
+   1,R,G
+EndStunPause
+StunPause
+   1,R,G
   12,R,D,G
    2,D,G
-EndStunPause
-StunPause
+#EndStunPause
+#StunPause
    1,D,G
-EndStunPause
-StunPause
+#EndStunPause
+#StunPause
    4,D,G
 EndStunPause
   38,D,G
@@ -322,7 +330,7 @@ EndStunPause
    5
 
 #hazardcycle_xx-10-final-goodbye_2
-   0
+   1
 #endhazardcycle_xx-10-final-goodbye_2
 
   14,R,Z
@@ -454,14 +462,13 @@ EndStunPause
    3,R,K
   12,R,J,G
 #stun_xx-10-final-goodbye_2
-  14,R,J
-   1,S,N
-  10,O
-  14,R,J
+  28,R,J
    1,R,D
    2,R
    4,R,D,K
    1,R
+   1,S,N
+  10,O
   15,R,D,X
    5,R,J
    6,R
@@ -483,7 +490,13 @@ EndStunPause
    3,R
    1,S,N
   10,O
-  14,R,Z
+   9,R,Z
+   1,S,N
+  10,O
+   1,R,Z
+   1,S,N
+  10,O
+   4,R,Z
 #endstun_xx-10-final-goodbye_3
    2,R,J
   21,R,D,X
@@ -664,6 +677,6 @@ Read,9D_27,lvl_xx-10-true-final-goodbye,Time
 #evallua if bgs then while level.Background.Backdrops.Count > bgs do level.Foreground.Backdrops:Add(level.Background.Backdrops[bgs]); level.Background.Backdrops:RemoveAt(bgs); end bgs = nil end
 
 #Time
-MidwayFileTime: 4:09.203(14659)
+MidwayFileTime: 4:09.577(14681)
 
 AnalogMode,Ignore
