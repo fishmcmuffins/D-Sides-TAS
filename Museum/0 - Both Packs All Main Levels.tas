@@ -1,0 +1,129 @@
+#Combines Main pack Drue Ending
+#and Museum pack All Main Levels
+
+#To sync:
+#Use Celeste v.1.4.0.0
+#Start from Begin
+#More Things Like Everest and D - Sides idk
+
+Read,../StartFullGameFile
+
+#Prologue D-Side
+Read,../0 - Prologue.tas,Start
+
+Read,../LoadDPost.tas,Load1D
+
+#Forsaken City D-Side
+Read,../1D.tas,Start
+
+Read,../LoadDPost.tas
+
+#Old Site D-Side
+Read,../2D.tas,Start
+
+Read,../LoadD.tas
+
+#Celestial Resort D-Side
+Read,../3D.tas,Start
+
+Read,../LoadD.tas
+
+#Golden Ridge D-Side
+Read,../4D.tas,Start
+
+Read,../LoadD.tas
+
+#Mirror Temple D-Side
+Read,../5D.tas,Start
+
+Read,../LoadD.tas
+
+#Reflection D-Side
+Read,../6D.tas,Start
+
+Read,../LoadD.tas
+
+#Summit D-Side
+Read,../7D.tas,Start
+
+Read,../LoadD.tas
+
+#Core D-Side
+Read,../8D.tas,Start
+
+Read,../LoadD.tas
+
+#Epilogue D-Side
+Read,../0 - Epilogue.tas,Start
+
+Read,../Load9D.tas
+
+#Final Goodbye / Farewell D-Side
+Read,../9D/9D.tas,Start
+
+Read,LoadMuseumFromMain.tas
+
+#Prologue D-Side w/ Dashes
+Read,0 - PrologueDash.tas,Start
+
+Read,../Load9D.tas
+
+#Old Core D-Sides Mashup
+Read,Old8DsMashup.tas,Start
+
+Read,../LoadD.tas
+
+#Old Old Summit D-Side
+#(The first ver. of 7D)
+Read,OldOld7D.tas,Start
+
+Read,../LoadD.tas
+
+#Old Summit D-Side
+#(The second ver. of 7D)
+Read,Old7D.tas,Start
+
+Read,../LoadD.tas
+
+#Old Reflection D-Side
+Read,Old6D.tas,Start
+
+Read,../LoadD.tas
+
+#Old Old Celestial Resort D-Side
+#(The first ver. of 3D)
+Read,OldOld3D.tas,Start
+
+Read,../LoadD.tas
+
+#Old Final Goodbye
+#(AKA Old Farewell D-Side)
+#(Currently crashes in Trust due
+#to buggy dialogue code)
+Read,Old9D/Old9D.tas,Start
+
+Read,../LoadD.tas
+
+#Old Celestial Resort D-Side
+#(The second ver. of 3D)
+#(also known as Old 3Dark)
+Read,Old3D.tas,Start
+
+Read,LoadMainFromMuseum.tas
+
+#Post-Epilogue
+Read,../0 - Post-Epilogue.tas,Start
+
+Add 197
+  60
+   1,X
+  62
+Read,../LoadJournal.tas,Epilogue
+
+   1,X
+  60
+   1,D
+  60
+Read,../LoadJournal.tas,Epilogue
+
+FileTime: 2:40:14.894(565582)
