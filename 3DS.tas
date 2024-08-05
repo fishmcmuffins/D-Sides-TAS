@@ -1,4 +1,4 @@
-RecordCount: 12087
+RecordCount: 12106
 
 console load nameguysdsidespack/0/3-Resort
    1
@@ -7,6 +7,9 @@ console load nameguysdsidespack/0/3-Resort
   92
 
 #lvl_a-00
+#+2f: wait for cycles
+   2
+#####
    2,L,J
    9,L,Z
    1,L,J
@@ -30,22 +33,23 @@ console load nameguysdsidespack/0/3-Resort
    4,L,J
   36,L
   14,L,D,X
-  19,L,J
-  13,U,Z
-  15,L,J
-   8,L
-   5,L,J
-   7,L
+  20,L,J
+  12,U,X
+  29,L,J
+   3,L
+   1
    4,L,Z
    2,L,J
    8,L
    1,L,J
    4,L,Z
    1,L,J
-   7,L
-   1,J
-   2,L,J
-   2,L
+   3
+   4,L
+   1,L,J
+   2,J
+   1
+   1,L
   15,L,Z
   34,L,D
    8,L
@@ -57,9 +61,9 @@ console load nameguysdsidespack/0/3-Resort
   12,L
    6,L
   15,L,X
-   8
+   9
    1,L
-  11,D
+  10,D
    6,R,D
   70,G
    5,D,G
