@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 1440
+RecordCount: 1460
 
 console load nameguysdsidespack/1/6-FinalGoodbyeOld
    1
@@ -46,23 +46,23 @@ Read,Old9D_03,Start
 #stun in cc-07
 
 Read,Old9D_04,Start,hazardcycle_cc-03
-   2,G
+   0,G
 Read,Old9D_04,endhazardcycle_cc-03,stun_cc-03
    2,R,J
 StunPause
    5,R,J
   12,R,D
-   4,L,D
+   6,L,D
 EndStunPause
 StunPause
    1,L,D
 EndStunPause
 StunPause
-  13,L,D
+  11,L,D
 EndStunPause
    2,L,D
 Read,Old9D_04,endstun_cc-03,hazardcycle_cc-07
-   1
+   2
 Read,Old9D_04,endhazardcycle_cc-07
 
 #==========================
@@ -85,7 +85,7 @@ Read,Old9D_05,hazardcycle_d-10
 #stun in d-18
 
 Read,Old9D_06,Start,hazardcycle_d-18
-   1
+   2
 Read,Old9D_06,endhazardcycle_d-18
 
 #==========================
@@ -190,9 +190,9 @@ Read,Old9D_10,endhazardcycle_hh-08
 #stun in i-05
 
 #+99f wait for drift
-  99
+ 117
 #####
-   1
+   0
 Read,Old9D_11,Start,stun_i-05
    1,L,J,G
   11,R,J
@@ -232,7 +232,7 @@ Read,Old9D_12B,Start
 #keycycle in l-04
 
 Read,Old9D_13A,Start,keycycle_l-04
-  26
+  22
 Read,Old9D_13A,endkeycycle_l-04
 
 #==========================
@@ -262,6 +262,7 @@ Read,Old9D_13B,Start,lvl_m-11
    2,R,J
    5,R
   40
+
 Read,Old9D_13B,lvl_m-12
 
 #==========================
@@ -335,12 +336,12 @@ Read,Old9D_22,endhazardcycle_v-00-lobby,stun_v-00-lobby
    3,R,J,G
 StunPause
    3,R,J,G
-  20,R,K,G
+  25,R,K,G
+   1,R,J
+   2,R
 EndStunPause
 StunPause
-   5,R,K,G
-   1,R,J
-   7,R
+   5,R
 SkipInput 3 1
   21,R,Z
    2,R,J
@@ -380,4 +381,4 @@ Read,Old9D_26,Start
 
 #==========================
 
-ChapterTime: 42:31.275(150075)
+ChapterTime: 42:30.357(150021)
