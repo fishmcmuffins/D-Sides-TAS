@@ -13,10 +13,9 @@ Invoke BloomFadeTrigger[xx-09:5730].OnStay null
 Set,Level.TimerStarted,true
   30
 
-Set,Level.TimeActive,2332.822753906250
-#+2f in Bottomless
+Set,Level.TimeActive,2331.4614
 #hazard cycle
-   2
+   0
 #-------------
 
 Invoke Player.FinishFlingBird
@@ -219,72 +218,69 @@ Invoke Player.FinishFlingBird
 StunPause
    5,L,J,G
    7,J
-   3,K,G
+  12,K,G
+   5,J,G
 EndStunPause
 StunPause
-   1,K
+   1,J,G
 EndStunPause
 StunPause
-   8,K
-  11,J,G
+   5,J,G
    1,R,J
    1,K
    1,J
   14,R,J
 SkipInput 3 1
    6,R,X
+SkipInput 3
+  12,R,X
+   1,R
+   4,L,D
 EndStunPause
-#would normally use SkipInput 3
-#for this but weird drift
-#management pausing means this
-#doesnt really work here
-   3,R,X
+StunPause
+   1,L,D
+EndStunPause
+StunPause
+  12,L,D
+   2
+SkipInput 3 1
+  15,R,X
+SkipInput 3 1
+   5,R,U,V
+SkipInput 3
+  13,R,U,V
+SkipInput 3 1
+   6,R,X
+EndStunPause
 StunPause
    1,R,X
 EndStunPause
 StunPause
    8,R,X
-   1,R
-  17,L,D
-   2
-SkipInput 3 1
-  15,R,X
-SkipInput 3 1
-   4,R,U,V
+  21,L
+  10
 EndStunPause
 StunPause
-   1,R,U,V
-EndStunPause
-   3,R,U,V
-StunPause
-  10,R,U,V
-SkipInput 3 1
-  15,R,X
-  17,L
+   1
 EndStunPause
 StunPause
-   1,L
-EndStunPause
-StunPause
-   3,L
-  35
+  24
 SkipInput 3 1
    5,R,X
-   1,R,G
+  15,R,G
 EndStunPause
 StunPause
    1,R,G
 EndStunPause
 StunPause
-  39,R,G
-EndStunPause
-StunPause
-   1,R,G
-EndStunPause
-StunPause
-   1,R,G
+  27,R,G
   12,R,D,G
-   7,D,G
+EndStunPause
+StunPause
+   1,D,G
+EndStunPause
+StunPause
+   6,D,G
 EndStunPause
   38,D,G
 #endstun_xx-10-final-goodbye_1
@@ -323,7 +319,7 @@ EndStunPause
    5
 
 #hazardcycle_xx-10-final-goodbye_2
-   1
+   0
 #endhazardcycle_xx-10-final-goodbye_2
 
   14,R,Z
@@ -455,13 +451,14 @@ EndStunPause
    3,R,K
   12,R,J,G
 #stun_xx-10-final-goodbye_2
-  28,R,J
+  14,R,J
+   1,S,N
+  10,O
+  14,R,J
    1,R,D
    2,R
    4,R,D,K
    1,R
-   1,S,N
-  10,O
   15,R,D,X
    5,R,J
    6,R
@@ -483,13 +480,7 @@ EndStunPause
    3,R
    1,S,N
   10,O
-   9,R,Z
-   1,S,N
-  10,O
-   1,R,Z
-   1,S,N
-  10,O
-   4,R,Z
+  14,R,Z
 #endstun_xx-10-final-goodbye_3
    2,R,J
   21,R,D,X
@@ -1214,7 +1205,7 @@ endrepeat
  135
 
 #Time
-MidwayFileTime: 4:09.577(14681)
+MidwayFileTime: 4:09.152(14656)
 
 AnalogMode,Ignore
 
