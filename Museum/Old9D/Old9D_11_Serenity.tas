@@ -9,7 +9,7 @@ Set,Level.TimeActive,1024
 #lvl_i-02
   36
 #hazardcycle_i-05
-   2
+   0
 #Start
    4,Z
    7,R,J
@@ -86,31 +86,32 @@ Set,Level.TimeActive,1024
   40
 
 #lvl_i-05
-   2,R
+   1,R
+   1,R,K,G
    8,R,J,G
-   1,R
-  14,R,U,X
+   3,J
+   1,K
+   2,L,K
+   2
+  13,R,U,X
    1,R,J,G
-   2,L,J
-   1,R,J
    1,R
-   4,R,K,G
-  17,R,D
-   4,D
+  18
    1,G
    1,J,G
    4,L,J
-   2,K,G
    1
+   1,K,G
    1,L
    1
    1,L
-   1
+   2
    1,L
    1
    1,R
    7
-   8,R,D
+   5,R
+   3,R,D
    1,G
    2,R
    1,R,J,G
@@ -459,7 +460,7 @@ EndStunPause
  292
 
 #Time
-MidwayFileTime: 1:03.087(3711)
+MidwayFileTime: 1:02.985(3705)
   40
 
 #lvl_j-00
