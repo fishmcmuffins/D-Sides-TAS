@@ -120,7 +120,7 @@ EndStunPause
 Read,9D_14A,endstun_n-12,Time
 
 #Time
-MidwayFileTime: 2:19.451(8203)
+MidwayFileTime: 2:19.400(8200)
 
 Read,9D_14A,Time
 
