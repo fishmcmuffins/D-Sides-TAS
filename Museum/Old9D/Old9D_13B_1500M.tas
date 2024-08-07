@@ -197,21 +197,20 @@ Set,Level.TimeActive,512
    4,R
   18,R,D,X
    2,D
-   8,R,D
-  15,R,Z
-   6,R,X
-   7,R,J
-   1,R,K,G
-   1,J,G
-   2,R,J
-  40,J
+   6,R,D
+   1,D
+  12,R,Z
+   1,R,J
+   3,J
+   7,R,U,X
+   5,K,G
+  40,K
 
 #lvl_m-04
-   1,R,J
-   1,L,J
-   1,J
-   1,R,J
-   1,J
+   1,L,K
+   1,K
+   1,R
+   2
   14,R,Z
    2,L,K,G
    5,L
@@ -221,7 +220,9 @@ Set,Level.TimeActive,512
    5,R,J
    5,R
    2,R,J
-   3,R
+   1,R
+   1,R,J
+   1,R
   25,R,U,X
   10,R,C
   14,R,J
@@ -496,38 +497,49 @@ Set,Level.TimeActive,512
   16,R
   11,R,J
   23,R,D
-   4,D,X
-  19,R,X
+  15,R,Z
+   5,R
+   1
+   1,R
+   1
   14,U,C
-   2,R,J
-  11,R
-   4,D,X
-   3,R,J
-   1,R,K,G
+   2,K
+   6
+   1,R
+   2
+   4,K
+   4,L
+   4,Z
+   1,R,J
+   1,R
+   1,R,J
+   2,R
+   1,R,K
+   1,R,J,G
    6,R
   40
 
 #lvl_m-09
-   4,R
-  13,R,J
-   6,J
-  15,U,X
-  15,J
-  14,L
-  22,R,D
-  17,R
-  40,R,U,X
-  15,R,U,Z
-   1
-repeat 8
-   1,J,G
-   1,L,J
+   1,R
    1,R,J
-   1,K,G
-   1,L,K
-   1,R,K
-endrepeat
-   6,J
+   1,R
+  14,R,K
+   1,K
+  10,R,K
+   3,R
+  18,R,U,X
+  16,L,J
+  12,K,G
+   9,J
+  31,R,D
+   2
+   1,D
+   1
+   1,D
+  15,R,Z
+  15,U,X
+  18,J
+   7,K,G
   40
 
 #lvl_m-10
@@ -851,6 +863,6 @@ play,endbranch_ta3
   65
 
 #Time
-MidwayFileTime: 1:26.853(5109)
+MidwayFileTime: 1:26.258(5074)
 
   40
