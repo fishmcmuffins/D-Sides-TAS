@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 1843
+RecordCount: 1847
 
 console load nameguysdsidespack/0/10-Farewell
    1
@@ -543,7 +543,6 @@ Read,9D_21,Start
 #hazardcycle in v-07
 #stun in v-00-lobby
 
-#Start
 Read,9DS_22,Start,hazardcycle_v-00-lobby
    2
 Read,9DS_22,endhazardcycle_v-00-lobby,stun_v-00-lobby
@@ -662,7 +661,7 @@ EndStunPause
    4,J
 Read,9D_26,endstun_w-16_2,hazardcycle_x-10
 #+9f: drift wait
-   9,G
+  12,G
 #####
    2,G
 Read,9D_26,endhazardcycle_x-10,stun_x-10
