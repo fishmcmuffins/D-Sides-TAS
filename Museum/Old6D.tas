@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 76
+RecordCount: 131
 
 console load nameguysdsidespack/1/4-ReflectionOld
    1
@@ -1717,24 +1717,21 @@ console load nameguysdsidespack/1/4-ReflectionOld
   40
 
 #lvl_lastroom
-   1,D,X
-  13,R,X
-  30,R,J
-   9,R
-  15,R,X
-   5,R
-   4,R,D,X
-   8,R,J
-  11,R
-  15,R,J
-  16,U,X
-   5,J,G
-   4,R,J,G
-  11,R,K,G
-   4,J,G
-  38,L,X
-  15,L,D,X
-  52,R,D,C
-  37,L,U,X
+  11,R,Z
+   1,R,J
+  10,R
+   6,D,X
+  40,R
+  23,R,U,X
+   1,R,J,G
+   6,R
+   3
+   2,R
+  10,R,Z
+   6,R,J
+   2,R
+  16,R,U,Z
+   5,J
+ 139,R,U,X
 
-ChapterTime: 5:17.917(18701)
+ChapterTime: 5:17.611(18683)
