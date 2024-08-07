@@ -20,15 +20,18 @@ Set,Player.StateMachine.State,10
   10,R
   10,R,Z
    1,L,J
-   5,L
+   1,L
+   1,L,K
+   3,L
   22,L,J
   15,L,X
   18
   15,J
-  15,U,X
-  37
-  15,R
-  17,R,X
+  14,U,X
+
+  41
+   7,R
+  20,R,X
   15,R,U,C
   23,R,X
   18,L,U,C
@@ -45,7 +48,7 @@ Set,Player.StateMachine.State,10
    4,L,J
   17,L
   10,L,D,X
-   6,L,K
+   6,L,J
   16,U,X
   20,L,J
    1,K
@@ -96,25 +99,25 @@ AnalogMode,Precise
    1,F,0,0.69
    8,R
    8,L
-   9,J,G
+   1,J,G
+   3,L,J
+   5,J
    4,L,K,G
    1,R,K
-   7,K
-   5,J,G
+   6,K
+   1,J,G
+   4,R,J
    1,L,J
-   1,L
-   1,K
-  20,L,K
-  23,L,U,Z
-   1
-   3,R,J,G
-   1,J
-   1,K
+   1,R,J
+   2,K,G
+  19,L,K
+  22,L,U,Z
+   2
+   1,R,J,G
+   2,L,J
   27,L,K
-   2,K
-   1,J
-  17,R,J
-  27,R,U,X
+  25,R,J
+  24,R,U,X
  151
   40
 
@@ -1033,7 +1036,7 @@ EndStunPause
 Assert,Equal,n-13,{Level.Session.Level}
 Assert,Equal,40,{GameInfo.TransitionFrames}
 #Time
-MidwayFileTime: 2:13.841(7873)
+MidwayFileTime: 2:13.790(7870)
   40
 
 AnalogMode,Ignore
