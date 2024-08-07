@@ -302,7 +302,7 @@ EndStunPause
    9,R,Z
   39,R,J
 #hazardcycle_d-18
-   2
+   0
 #endhazardcycle_d-18
   21,R,X
   21,R,Z
@@ -393,29 +393,24 @@ EndStunPause
    2,J,G
    3,R,J
    1,R,K,G
-   1,R,J,G
-   1,R
-   1,R,K,G
-   2,R
+   2,R,J,G
+   3,R,K,G
    3,R,J,G
    7,R
-  14,R,J
+  15,R,J
   15,U,X
-  13,R
-   1
-  20,R,C
-   1,R,J,G
-   3
-   2,R
-   1,J
-   1,R
-  14,L,D
+  20,R
+  14,R,Z
+   1,K,G
+   9,R
+   1,L
+   9
+   2,G
+   2
+   1,L,D
+   2
    6,G
-   1,D,G
-   1,G
-   1,D,G
-   8,G
-  15,U,G
+  19,U,G
    4,Z
    1,R,K
    5,R
@@ -746,7 +741,8 @@ EndStunPause
    7,R,U,X
 
 #Time
-MidwayFileTime: 1:36.254(5662)
+MidwayFileTime: 1:36.203(5659)
+#MidwayFileTime: 1:36.254(5662)
 
   40
    1
