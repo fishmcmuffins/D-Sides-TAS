@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 3591
+RecordCount: 3620
 
 console load nameguysdsidespack/0/10-Farewell 212416 -50688.1666963995
    1
@@ -73,7 +73,7 @@ EndRepeat
 #lvl_v-04
 Read,9DSP_22,lvl_v-04,hazardcycle_v-00-lobby
 #hazardcycle_v-00-lobby
-   2
+   1
 #endhazardcycle_v-00-lobby
 Read,9DSP_22,endhazardcycle_v-00-lobby,stun_v-00-lobby
 #stun_v-00-lobby
@@ -98,26 +98,26 @@ Read,9DSP_22,endstun_v-00-lobby,keycycle_lvl-void_1
  142,D
    4,Z
    1,R,J
- 123
+ 135
   40,L
-  35
+  22
 #endkeycycle_lvl-void_1
 Read,9DSP_22,endkeycycle_lvl-void_1,keycycle_lvl-void_2
 #keycycle_lvl-void_2
- 307
+ 302
 #endkeycycle_lvl-void_2
 Read,9DSP_22,endkeycycle_lvl-void_2,keycycle_lvl-void_3
 #keycycle_lvl-void_3
-  91,G
+  81,G
    4,K,G
    1,L,K
- 106
+ 100
   10,L,D,J
    2,K,G
    1,R,K
   10
    2,L
- 212
+ 204
   11,R,J
    1,J
    8,K,G
@@ -125,29 +125,29 @@ Read,9DSP_22,endkeycycle_lvl-void_2,keycycle_lvl-void_3
    5,R,Z
    1,R,J,G
   11,R
- 115
+ 114
 #endkeycycle_lvl-void_3
 Read,9DSP_22,endkeycycle_lvl-void_3,keycycle_lvl-void_4
 #keycycle_lvl-void_4
- 100
+  99
    2,R
    1,R,J
   15,D,X
   17,R
-  55
+  54
   10,J
    2
   11,K,G
    3,L
   32,R,D
   15,R,X
- 100
-   1,R,J
  101
+   1,R,J
+ 100
 #endkeycycle_lvl-void_4
 Read,9DSP_22,endkeycycle_lvl-void_4,keycycle_lvl-void_5
 #keycycle_lvl-void_5
-  77,D
+  76,D
 #endkeycycle_lvl-void_5
   10,D,J
    1,K,G
@@ -156,6 +156,8 @@ Read,9DSP_22,endkeycycle_lvl-void_4,keycycle_lvl-void_5
    5,R
    3,K
   14,U,X
+
 #Time
-MidwayFileTime: 1:52.336(6608)
+MidwayFileTime: 1:50.993(6529)
+
   40
