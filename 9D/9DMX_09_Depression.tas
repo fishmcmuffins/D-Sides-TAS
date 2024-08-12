@@ -6,33 +6,42 @@ console give_golden
 #Move to background
 evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foreground.Backdrops.Count and i >= 0 do if invokeMethod(level.Foreground.Backdrops[i].Name, "Contains", "dark") then level.Background.Backdrops:Add(level.Foreground.Backdrops[i]); level.Foreground.Backdrops:RemoveAt(i); else i = i + 1 end end i = nil
 
-Set,Level.TimeActive,512.01
-#256 has same TADelta
-
 #lvl_f-16
   36
-#CP hazard cycle
-   1
-#----------------
-
+#hazardcycle_f-99
+   2
 #Start
 Read,9D_09,Start,stun_f-99
+#extended labels just in case
 #stun_f-99
-Read,9D_09,stun_f-99,endstun_f-99
+   2,R,U,Z
+StunPause
+   2,R,U,Z
+EndStunPause
+   2,R,U,Z
+   2,R,K,G
+   4,R
+   1,L
+   1,L,J
+   1,R,J
+   5,L,J
+   1,L
+   1,L,J
+   3,L,D
 #endstun_f-99
-  21,R,J,G
-  23,R
-   2,R,K
-   6,R,J,G
+   8,L,D
+   2,L,J
   40
 
 #lvl_g-01
-   6,R
-  15,L,K
-   1,R,K
-   2,J,G
+   1,L,J
+  10,K,G
    1
-   5,R
+   1,R,J,G
+   1,R
+   1,K,G
+   1,R,K
+   1,R
    1,L
   14,R,D,X
    1,R,J
@@ -40,17 +49,19 @@ Read,9D_09,stun_f-99,endstun_f-99
    1,R,J,G
    2,R,K,G
    1,R,J,G
-  14,R,K,G
-  12,R,U,X
-   1,R,J,G
-   2,R,K,G
-   1,R,J,G
-   1,R
-   2
+  15,R,K,G
+  10,R,U,X
+   2,R,J,G
+   1,R,K,G
+   3,R,J,G
+   3,R
+   1
   14,R,U,Z
    1,R,K,G
    1
-  33,R,D
+  29,R,D
+   3,R
+   1,R,D
    9,R,U,X
    8,R,J,G
   40
@@ -71,8 +82,9 @@ Read,9D_09,stun_f-99,endstun_f-99
    1,R,J,G
    2,R,K,G
    3,R,J,G
-   3,R
+   1,R
    2
+   2,R
    2,R,J
   10,R
    5,R,K,G
@@ -80,8 +92,8 @@ Read,9D_09,stun_f-99,endstun_f-99
    1,R,K
    1,R
    1,R,K
-  10,R
-   4
+   9,R
+   5
    2,D,J
    9,R,U,X
   40
@@ -93,9 +105,12 @@ Read,9D_09,stun_f-99,endstun_f-99
    9,R
   12,D,X
   37,R
-  15
-   1,R,D
-   1,D
+  11
+   1,R
+   1
+   1,R
+   1
+   2,R,D
   43,R
   13,L
    1
@@ -163,8 +178,13 @@ Read,9D_09,stun_f-99,endstun_f-99
    2,R
    1
    1,R
-  12
-  18,L,G
+   9
+   1,D
+   1
+   1,D
+  16,L,G
+   1,D,G
+   1,G
    1
    1,K
    1,L,J,G
@@ -172,54 +192,26 @@ Read,9D_09,stun_f-99,endstun_f-99
    4,R
   15,U,X
   26,R,D
-  28,R,U,C
-   1,R,K
+  15,R,U,C
+  11,R
+   1
+   4,Z
+   2,R,J
+   1,R,K,G
    1,R
-   7,R,Z
+   1
+   7,R
    1,R,J
-   6,R
   54
 
 #lvl_g-04
-Read,9D_09,lvl_g-04,hazardcycle_g-06
-#hazardcycle_g-06
+Read,9D_09,lvl_g-04,hazardcycle_g-09
+#hazardcycle_g-09
    2
-#endhazardcycle_g-06
-Read,9D_09,endhazardcycle_g-06,stun_g-06
-#stun_g-06
-   4,R,D,X
-StunPause
-   4,R
-EndStunPause
-#endstun_g-06
-Read,9D_09,endstun_g-06,stun_g-09
-#stun_g-09
-   2,R
-StunPause
-   2,R
-EndStunPause
-  10,R,D
-   1,R,J,G
-StunPause
-   2,R,J,G
-EndStunPause
-#endstun_g-09
-   7,R,J,G
-  40
-
-#lvl_h-01
-   1,R,J
-  14,R
-#stun_h-01
-   1,R
-StunPause
-   6,R
-   2,R,D
-EndStunPause
-#endstun_h-01
-Read,9D_09,endstun_h-01,hazardcycle_h-03
+#endhazardcycle_g-09
+Read,9D_09,endhazardcycle_g-09,hazardcycle_h-03
 #hazardcycle_h-03
-   2
+   1
 #endhazardcycle_h-03
 Read,9D_09,endhazardcycle_h-03,stun_h-03
 #stun_h-03
@@ -229,14 +221,16 @@ StunPause
 EndStunPause
    1,R,D,X
    7,R,D,K
+   1,S,N
+  10,O
   13,R,D,X
 #endstun_h-03
 Read,9D_09,endstun_h-03,Time
 
 #Time
-MidwayFileTime: 1:28.298(5194)
+MidwayFileTime: 1:22.093(4829)
 
-#Read,9D_09,Time
+Read,9D_09,Time
 
 #Restore to foreground
-evallua if bgs then while level.Background.Backdrops.Count > bgs do level.Foreground.Backdrops:Add(level.Background.Backdrops[bgs]); level.Background.Backdrops:RemoveAt(bgs); end bgs = nil end
+#evallua if bgs then while level.Background.Backdrops.Count > bgs do level.Foreground.Backdrops:Add(level.Background.Backdrops[bgs]); level.Background.Backdrops:RemoveAt(bgs); end bgs = nil end
