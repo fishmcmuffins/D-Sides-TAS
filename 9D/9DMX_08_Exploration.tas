@@ -273,7 +273,11 @@ play,endbranch_ta2
   40
 
 #lvl_f-05
-Read,9D_08,lvl_f-05,Time
+Read,9D_08,lvl_f-05,hazardcycle_f-13
+#hazardcycle_f-13
+   1
+#endhazardcycle_f-13
+Read,9D_08,endhazardcycle_f-13,Time
 
 #Time
-MidwayFileTime: 1:38.923(5819)
+MidwayFileTime: 1:29.131(5243)
