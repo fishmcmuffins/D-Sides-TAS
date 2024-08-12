@@ -41,20 +41,19 @@ Read,9D_14A,Start,lvl_n-01
 #bubble popped
    2,K
    9,R,K
+   6,R
+   1,R,K
+  18,R
+   5,R,D
+  16,R,Z
+   5,L,U,X
   25,R
-   4,R,D
-  15,R,Z
-   1
-   1,R
-   1
-  25,R
-  21,R,U,X
-   2,R,J,G
-   2,L,J
+  22,R,U,X
+   1,R,J,G
    1,R,K,G
-   7,R
-  18,R,J
-   9,U,X
+   9,R
+   4,R,J
+  14,U,Z
    7,R,J
    4,L,J
   40
@@ -62,29 +61,23 @@ Read,9D_14A,Start,lvl_n-01
 #lvl_n-02
 Read,9D_14A,lvl_n-02,hazardcycle_n-05
 #hazardcycle_n-05
-   1
+   2
 #endhazardcycle_n-05
 Read,9DP_14A,endhazardcycle_n-05,stun_n-05
 #stun_n-05
-   6,R
-   1,S
-  11,R,J
+   2,R
+StunPause
+   6,R,D,K
    1,R
-   1,R,D,K
-StunPause
-   4,R,D,K
-   3,R
-   2,R,J,G
-   1,J
-   1,R,J
+   1,R,J,G
 EndStunPause
-   3,R,J
-StunPause
    5,R,J
-   5,R
-   4,L,K,G
+StunPause 
+   3,R,J
+   5
+   3,L,K,G
+   1,R,K
 EndStunPause
-   1,K
 #endstun_n-05
 Read,9DP_14A,endstun_n-05,hazardcycle_n-12
 #hazardcycle_n-12
@@ -96,10 +89,24 @@ Read,9D_14A,endhazardcycle_n-12,lvl_n-09
 Read,9DS_14A,lvl_n-09 (1),lvl_n-10
 
 #lvl_n-10
-Read,9D_14A,lvl_n-10,Time
+Read,9D_14A,lvl_n-10,stun_n-12
+#stun_n-12
+   4,R,D,X
+StunPause
+   2,R,D,X
+   1,R
+SkipInput 3 1
+   5,R,U,C
+SkipInput 3
+   9,R,U,C
+   3,R,K,G
+EndStunPause
+   1,R,K
+#endstun_n-12
+Read,9D_14A,endstun_n-12,Time
 
 #Time
-MidwayFileTime: 2:21.746(8338)
+MidwayFileTime: 2:20.658(8274)
 
 Read,9DS_14A,Time
 
