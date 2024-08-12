@@ -13,13 +13,12 @@ console give_dsides_plat
 #Start
 Read,9DSP_07,Start,stun_dd-00-lobby
 #stun_dd-00-lobby
-   2,J,G
+   2,R,J
 StunPause
-   7,J,G
-   1
    1,K,G
-   4
-   2,R
+   4,R
+   1
+   1,R
    1,L
    3,L,D
    8,L,J
@@ -37,6 +36,7 @@ SkipInput 3 1
   15,R,U,Z
    6,K,G
 EndStunPause
+   3,K,G
 #endstun_dd-00-lobby
 Read,9DSP_07,endstun_dd-00-lobby,lvl_e-00
 
@@ -56,5 +56,5 @@ Read,9D_07,endroute_e-00,lvl_e-05
    1,R,J
    2,R
 #Time
-MidwayFileTime: 0:34.850(2050)
+MidwayFileTime: 0:34.170(2010)
   40
