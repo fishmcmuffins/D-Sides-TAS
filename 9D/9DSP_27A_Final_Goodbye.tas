@@ -15,11 +15,10 @@ Invoke BloomFadeTrigger[xx-09:5730].OnStay null
 Set,Level.TimerStarted,true
   30
 
-#+0f in Bottomless
-#Set,Level.TimeActive,2850.963867187500
-Set,Level.TimeActive,2847.9091796875
+Set,Level.TimeActive,2735.422119140625
+#+5f wait in bottomless
 #hazard cycle
-   0
+   5
 #-------------
 
 Invoke Player.FinishFlingBird
@@ -216,73 +215,73 @@ Invoke Player.FinishFlingBird
   15,R,X
    1,R,K
 #stun_xx-10-final-goodbye_1
-#trust me it's worth it
   12,K
    1,L,J,G
+#trust me it's worth it
 StunPause
    5,L,J,G
    7,J
-  11,K,G
+   1,K,G
 EndStunPause
 StunPause
    1,K,G
 EndStunPause
 StunPause
+  10,K,G
   11,J,G
    1,R,J
    1,K
    1,J
   14,R,J
 SkipInput 3 1
-   6,R,X
-SkipInput 3
-  11,R,X
+   4,R,X
 EndStunPause
 StunPause
    1,R,X
 EndStunPause
 StunPause
+   1,R,X
+SkipInput 3
+  12,R,X
    1,R
   17,L,D
    2
 SkipInput 3 1
-  15,R,X
+  14,R,X
+EndStunPause
+StunPause
+   1,R,X
+EndStunPause
+StunPause
 SkipInput 3 1
    5,R,U,V
 SkipInput 3
-  10,R,U,V
-EndStunPause
-StunPause
-   1,R,U,V
-EndStunPause
-StunPause
-   2,R,U,V
+  13,R,U,V
 SkipInput 3 1
   15,R,X
-  21,L
-   4
+  15,L
 EndStunPause
 StunPause
-   1
+   1,L
 EndStunPause
 StunPause
-  30
+   5,L
+  35
 SkipInput 3 1
-   5,R,X
-   9,R,G
+   4,R,X
+EndStunPause
+StunPause
+   1,R,X
+EndStunPause
+StunPause
+  39,R,G
 EndStunPause
 StunPause
    1,R,G
 EndStunPause
 StunPause
-  33,R,G
-   6,R,D,G
-EndStunPause
-StunPause
-   1,R,D,G
-EndStunPause
-StunPause
-   5,R,D,G
+   3,R,G
+  12,R,D,G
    7,D,G
 EndStunPause
   38,D,G
@@ -322,7 +321,7 @@ EndStunPause
    5
 
 #hazardcycle_xx-10-final-goodbye_2
-   0
+   1
 #endhazardcycle_xx-10-final-goodbye_2
 
   14,R,Z
@@ -454,14 +453,13 @@ EndStunPause
    3,R,K
   12,R,J,G
 #stun_xx-10-final-goodbye_2
-  14,R,J
-   1,S,N
-  10,O
-  14,R,J
+  28,R,J
    1,R,D
    2,R
    4,R,D,K
    1,R
+   1,S,N
+  10,O
   15,R,D,X
    5,R,J
    6,R
@@ -481,10 +479,15 @@ EndStunPause
 #stun_xx-10-final-goodbye_3
    2,R,D
    3,R
-   4,R,Z
    1,S,N
   10,O
-  10,R,Z
+   6,R,Z
+   1,S,N
+  10,O
+   4,R,Z
+StunPause
+   4,R,Z
+EndStunPause
 #endstun_xx-10-final-goodbye_3
    2,R,J
   21,R,D,X
@@ -552,7 +555,7 @@ EndStunPause
   14,U,X
 
 #hazardcycle_xx-10-final-goodbye_3
-   2
+   1
 #endhazardcycle_xx-10-final-goodbye_2
 
 #Move to background
@@ -628,6 +631,7 @@ EndStunPause
    5,R
    2,R,K
   15,R
+#well fuck me then
    5,R,Z
    6,R,J
    2,R
@@ -661,7 +665,7 @@ EndStunPause
 Read,9DP_27,lvl_xx-10-true-final-goodbye,Time
 
 #Time
-MidwayFileTime: 4:04.188(14364)
+MidwayFileTime: 4:04.834(14402)
 
 Read,9DP_27,Time
 
