@@ -1,0 +1,76 @@
+#By Lmjacks and gnommis
+
+console load nameguysdsidespack/0/9-Epilogue
+   1
+
+#Start
+  54
+
+#lvl_a-01 (0)
+   1,R,J
+   4,R
+  40
+
+#lvl_a-00
+  10,R
+   1,R,J
+  14,R
+   1,R,J
+  14,R
+  16,R,J
+   2,R,K,G
+   1,L,K
+   4,R,K
+   9,R
+   1,R,J
+   5,R
+  10,L
+   3,L,D
+   3,L
+   3,L,G
+   1
+   1,L,J,G
+   1,L,K,G
+   1,L,J,G
+   1,L,K,G
+   7,L
+   1,L,J
+   7,L,D
+  40
+
+#lvl_a-01 (1)
+   1,D
+  24,L,D
+   5,L,J
+   4,L,K,G
+   7,L
+  40
+
+#lvl_a-02
+   6,L
+   1,L,J
+  19,L
+   8,L,D,J
+   4,L
+   1,K
+  16,R,J,G
+   1,R,K,G
+   1,R
+   1,L,J
+   5,L,K
+   1,L
+   1,L,K,G
+   1,L,J,G
+  19,L
+   1,R
+   1,L
+   1,J
+   1,R,K,G
+   7,L,K
+   5,L
+  40
+
+#lvl_a-03
+Read,0 - Epilogue.tas,lvl_a-03
+
+ChapterTime: 1:09.224(4072)
