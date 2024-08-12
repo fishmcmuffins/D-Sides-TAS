@@ -1,0 +1,48 @@
+RecordCount: 3805
+
+console load nameguysdsidespack/0/1-City
+   1
+
+#Start
+#lvl_a-01
+   4,R,J
+   2,J
+  10,R,D,X
+   2,R,J
+   4,R,K,G
+  14,R,U,Z
+   4,R,J,G
+   3,R
+   2,R,J
+   1,J
+   1,K
+   7,L,J,G
+   3,L
+  10,R,U,X
+   1,R,J,G
+   4,R
+  20,R,D,X
+   1,R,D,J
+   1,J
+   2,R,J
+   2,J
+   1,L,K,G
+   5,R,K
+   1,R,J,G
+   2,R,K,G
+   2
+  17,R,D,X
+   3,R,J
+   2,R
+   1,L
+   4,J,G
+   5,R,J
+  13,U,X
+   4,R,J
+  16,J
+  40
+ 
+#lvl_a-02
+Read,1D.tas,lvl_a-02
+
+ChapterTime: 1:03.495(3735)
