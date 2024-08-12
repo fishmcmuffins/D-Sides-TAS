@@ -1,0 +1,53 @@
+console hard nameguysdsidespack/0/2-Oldsite
+   1
+
+#Move to background
+#evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foreground.Backdrops.Count and i >= 0 do if invokeMethod(level.Foreground.Backdrops[i].Name, "Contains", "dark") then level.Background.Backdrops:Add(level.Foreground.Backdrops[i]); level.Foreground.Backdrops:RemoveAt(i); else i = i + 1 end end i = nil
+
+#Start
+ 190
+
+#lvl_a-01
+  10,L,J
+   2,L
+  10,L,Z
+   5,R,J
+  15,R,D,X
+   2,R,J
+   4,R,K,G
+   8,R
+  40
+
+#lvl_a-02
+  27,R,X
+   4,R,J
+   3,R
+   4,R,Z
+   6,R,J
+  19,R
+   3
+   4,J,G
+   1,L,J
+   1,K
+   8,L,K
+   2,L
+   1
+  15,U,X
+   1,L
+  24,R,J
+   1,K,G
+   3,K
+   1,L,K
+   6,J
+   1,K
+   1,R,J,G
+   1,K
+  40
+
+#lvl_a-03
+Read,2DB.tas,lvl_a-03
+
+ChapterTime: 1:39.450(5850)
+
+#Restore to foreground
+#evallua if bgs then while level.Background.Backdrops.Count > bgs do level.Foreground.Backdrops:Add(level.Background.Backdrops[bgs]); level.Background.Backdrops:RemoveAt(bgs); end bgs = nil end
