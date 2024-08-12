@@ -1,0 +1,20 @@
+RecordCount: 4519
+
+console load nameguysdsidespack/0/2-Oldsite
+   1
+
+#Start
+  88
+
+#lvl_a-01
+   9,R,J
+  11,R,D,X
+   5,R,J
+   2,R,K,G
+  13,R,D,X
+  40
+
+#lvl_a-02
+Read,2D.tas,lvl_a-02
+
+ChapterTime: 1:15.497(4441)
