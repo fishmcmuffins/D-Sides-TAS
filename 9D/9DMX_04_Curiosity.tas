@@ -35,7 +35,7 @@ Read,9DSP_04,endkeycycle_cc-00-lobby_2,lvl_cc-06
 #lvl_cc-06
 Read,9D_04,lvl_cc-06,hazardcycle_cc-07
 #hazardcycle_cc-07
-   0
+   2
 #endhazardcycle_cc-07
 Read,9D_04,endhazardcycle_cc-07,branch_golden
    4,Z
@@ -71,8 +71,8 @@ Read,9D_04,endhazardcycle_cc-07,branch_golden
    4,R
   25,R,Z
   16,R,V
-#Time
 
-MidwayFileTime: 0:57.647(3391)
+#Time
+MidwayFileTime: 0:57.392(3376)
 
   40
