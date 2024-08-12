@@ -108,12 +108,12 @@ Read,9DS_12A,lvl_j-00 (2),lvl_j-02b
 #lvl_j-02
 Read,9DS_12A,lvl_j-02 (2),hazardcycle_j-07
 #hazardcycle_j-07
-   2
+   0
 #endhazardcycle_j-07
 Read,9DS_12A,endhazardcycle_j-07,Time
 
 #Time
-MidwayFileTime: 1:14.103(4359)
+MidwayFileTime: 1:13.457(4321)
 
 Read,9DS_12A,Time
 
