@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 882
+RecordCount: 989
 
 console hearts 8
 
@@ -21,7 +21,7 @@ Read,9DP_01,Start
 #stun in aa-00-lobby (2)
 
 Read,9D_02,Start,hazardcycle_aa-00-lobby
-   0
+   1
 Read,9D_02,endhazardcycle_aa-00-lobby
 
 #==========================
@@ -30,7 +30,7 @@ Read,9D_02,endhazardcycle_aa-00-lobby
 #hazardcycle in b-08
 
 Read,9D_03,Start,hazardcycle_c-01-heartgate
-   1
+   0
 Read,9D_03,endhazardcycle_c-01-heartgate
 
 #==========================
@@ -42,11 +42,11 @@ Read,9D_03,endhazardcycle_c-01-heartgate
 #stun in cc-07
 
 Read,9DP_04,Start,hazardcycle_cc-03
-   2,G
+   1,G
 Read,9DP_04,endhazardcycle_cc-03,keycycle_cc-03
   36,R,G
 Read,9DP_04,endkeycycle_cc-03,hazardcycle_cc-07
-   1
+   2
 Read,9DP_04,endhazardcycle_cc-07
 
 #==========================
@@ -55,9 +55,9 @@ Read,9DP_04,endhazardcycle_cc-07
 #alt stun/stunless routes
 #hazardcycle in d-02
 #stun in d-03~d-05
-#hazardcycle in d-06
 
 Read,9D_05,Start,hazardcycle_d-03
+   1
    6,R,D,X
    1,R,J
    6,R
@@ -128,15 +128,8 @@ EndStunPause
 StunPause
    3,R
 EndStunPause
-   1,S,N
-  10,O
    2,R
-   4,R,U,X
-   1,S,N
-  10,O
-  10,R,U,X
-   1,S,N
-  10,O
+  14,R,U,X
    3,R,J,G
   40
 
@@ -221,13 +214,160 @@ Read,9D_05,endroute_stun_d-03
 #==========================
 #Memories
 
-#stun in d-10
+#hazardcycle_1 in d-10
+#stun_1 in d-10
+#hazardcycle_2 in d-10
+#stun_2 in d-10
 
-Read,9DP_06,Start,hazardcycle_d-10_1
+#old any% d-10 ~ d-11 inputs
+   3,R,J
+   1,R
+   5,R,Z
+#hazardcycle_d-10
    0
-Read,9DP_06,endhazardcycle_d-10_1,hazardcycle_d-10_2
+#endhazardcycle_d-10
+  10,R,J
+   1,R
+   1,R,J
+  11,R,D
+  23,G
+   5,R,X
+   1,R,J,G
+   1,R,K,G
+   1,R,J,G
+   1,R,K,G
+   8,R,D
+#stun_d-10_1
+   2,R,D
+StunPause
+   2,R,D
+   1,R,J
+   5,R
+EndStunPause
+   2,R
+#endstun_d-10_1
+   4,R
+  13,R,U,X
+   3,R,J,G
+  23,R
+#hazardcycle_d-10_2
    2
-Read,9DP_06,endhazardcycle_d-10_2,hazardcycle_d-19
+#endhazardcycle_d-10_2
+   9,U,C
+  27,R,D
+AnalogMode Precise
+   4,F,90
+   6,F,143.9
+  10,F,90.8
+   9,F,45
+   8,F,5.01
+#stun_d-10_2
+   2,F,5.01
+StunPause
+   4,F,5.01
+  30,F,33.53
+   4,F,90
+EndStunPause
+#endstun_d-10_2
+  39,F,94
+   4,F,78
+  40,R
+  21,R,D
+  18,R,Z
+  15,U,C
+  15,R,Z
+  12
+   4,Z
+   3,R,J
+   1,R,K,G
+   8,R
+  40
+
+#lvl_d-11
+   1,R
+   1,R,J
+  12,R,D,X
+   4,R,K
+   1,R
+   3,R,K
+   1,R
+  29,R,J
+  18,R,U,X
+   1
+   2,R
+   6
+   1,R
+   6,L,D,X
+   2,R,J
+   5,R
+   1,R,K
+  29,R
+  15,R,D
+  19,R,X
+   3
+   1,R
+   7,L,D,X
+   2,R,J
+   3,R
+   2,R,J
+   7,R,K
+   9,R
+   1,R,K
+   4,R
+  14,R,Z
+  21,R,J
+  13,R,D,X
+  22,R,J
+  11,R,D,X
+  15,R,J
+  22,R
+   8
+  14,L,X
+  11,R,J
+   2
+   2,R
+  15,R,D,X
+  10,D
+   2,R,D
+   2,D
+   1,L,J
+   5,L
+   2,L,J
+   1,L
+   1,J
+   9,R,K
+   1,K
+  13,R
+   3,R,J
+   8,R
+  14,D
+  15,R,X
+  16
+   1,J
+   4
+   1,R
+   1
+   6,L
+   1
+   1,L
+   5,R,Z
+   1,R,J
+   2,R
+   1,R,J
+   4,R
+  25,R,K
+  14,R,U,X
+   5,R,J,G
+   8,R
+   3,R,D,K
+   4,R
+  40
+
+#lvl_d-12
+Read,9D_06,lvl_d-12,lvl_d-18
+
+#lvl_d-18
+Read,9DP_06,lvl_d-18,hazardcycle_d-19
    2,G
 Read,9DP_06,endhazardcycle_d-19
 
@@ -244,12 +384,18 @@ Read,9D_07,endroute_d-19
 #Exploration
 
 #timeactive in f-04
+#(not really used ATM, but could
+#be useful for more advanced TA
+#manip)
+#hazard cycle in f-11
 
 Read,9D_08,Start,branch_ta1
 Read,9D_08,ta1_0,end_ta1_0
 Read,9D_08,endbranch_ta1,branch_ta2
 Read,9D_08,ta2_0,end_ta2_0
-Read,9D_08,endbranch_ta2
+Read,9D_08,endbranch_ta2,hazardcycle_f-13
+   1
+Read,9D_08,endhazardcycle_f-13
 
 #==========================
 #Depression
@@ -257,34 +403,19 @@ Read,9D_08,endbranch_ta2
 #hazardcycle at start
 #stun in f-99
 #hazardcycle in g-05
-#stun in g-06
-#2 stuns in g-09
-#stun in h-01
 #hazardcycle in h-02
 #stun in h-03
 
-   2
-Read,9D_09,Start,hazardcycle_g-06
-   2
-Read,9D_09,endhazardcycle_g-06,stun_g-09
-   2,R
+   0
+Read,9D_09,Start,stun_f-99
+   2,R,U,Z
 StunPause
-   2,R
+   2,R,U,Z
 EndStunPause
-   1,R
-   9,R,D
-   1,R,J,G
-StunPause
-   2,R,J
-EndStunPause
-Read,9D_09,endstun_g-09,stun_h-01
-   1,R
-StunPause
-   6,R
-   2,R,D
-EndStunPause
-Read,9D_09,endstun_h-01,hazardcycle_h-03
-   2
+Read,9D_09,endstun_f-99,hazardcycle_g-09
+   1
+Read,9D_09,endhazardcycle_g-09,hazardcycle_h-03
+   1
 Read,9D_09,endhazardcycle_h-03,stun_h-03
    2,R,D,X
 StunPause
@@ -292,6 +423,8 @@ StunPause
 EndStunPause
    1,R,D,X
    7,R,D,K
+   1,S,N
+  10,O
   13,R,D,X
 Read,9D_09,endstun_h-03
 
@@ -304,11 +437,12 @@ Read,9D_09,endstun_h-03
 Read,9D_10,Start,hazardcycle_hh-08
    2
 Read,9D_10,endhazardcycle_hh-08,stun_hh-08
-   7,R
+   2,R
 StunPause
-  10,R,D
+   1,R
+   1,R,J
+   2,R
 EndStunPause
-   3,R,D
 Read,9D_10,endstun_hh-08
 
 #==========================
@@ -317,16 +451,16 @@ Read,9D_10,endstun_hh-08
 #hazardcycle at start
 #stun in i-05
 
-   0
+   2
 Read,9D_11,Start,stun_i-05
    2,R
 StunPause
    3,R,J
   10,R
 EndStunPause
-  25,R
+  24,R
 StunPause
-   3,R
+   4,R
    1,Z
 SkipInput
    3
@@ -361,7 +495,7 @@ Read,9D_12B,Start
 #keycycle in l-04
 
 Read,9D_13A,Start,keycycle_l-04
-  15
+  23
 Read,9D_13A,endkeycycle_l-04
 
 #==========================
@@ -370,8 +504,9 @@ Read,9D_13A,endkeycycle_l-04
 #TimeActive in m-06
 
 Read,9D_13B,Start,branch_ta2
-Read,9D_13B,ta2_9,end_ta2_9
+Read,9D_13B,ta2_4,end_ta2_4
 Read,9D_13B,endbranch_ta2,lvl_m-11
+
 #lvl_m-11
   11,R
    8,R,D,X
@@ -392,7 +527,17 @@ Read,9D_13B,endbranch_ta2,lvl_m-11
    2,R,J
    5,R
   40
+
+#lvl_m-12
 Read,9D_13B,lvl_m-12
+
+
+
+
+
+
+
+
 
 #==========================
 #2000M
@@ -403,30 +548,36 @@ Read,9D_13B,lvl_m-12
 #stun in n-12
 
 Read,9DP_14A,Start,hazardcycle_n-05
-   2
+   0
 Read,9DP_14A,endhazardcycle_n-05,stun_n-05
-   6,R
-   1,S
-  11,R,J
+   2,R
+StunPause
+   6,R,D,K
    1,R
-   1,R,D,K
-StunPause
-   4,R,D,K
-   3,R
-   2,R,J,G
-   1,J
-   1,R,J
+   1,R,J,G
 EndStunPause
-   3,R,J
-StunPause
    5,R,J
-   5,R
-   4,L,K,G
+StunPause 
+   3,R,J
+   5
+   3,L,K,G
+   1,R,K
 EndStunPause
-   1,K
 Read,9DP_14A,endstun_n-05,hazardcycle_n-12
-   1
-Read,9DP_14A,endhazardcycle_n-12
+   2
+Read,9DP_14A,endhazardcycle_n-12,stun_n-12
+   4,R,D,X
+StunPause
+   2,R,D,X
+   1,R
+SkipInput 3 1
+   5,R,U,C
+SkipInput 3
+   9,R,U,C
+   3,R,K,G
+EndStunPause
+   1,R,K
+Read,9DP_14A,endstun_n-12
 
 #==========================
 #2500M
@@ -454,10 +605,10 @@ Read,9DP_16,Start,stun_CP-37_1
 StunPause
   11,R,U
 SkipInput 3 1
-  11,R,Z
+   5,R,Z
 EndStunPause
 StunPause
-   4,R,Z
+  10,R,Z
    1,R,J
    1,R,K
    1,R,J
@@ -512,43 +663,43 @@ Read,9D_21,Start
 #keydoor in v-00-upper
 #hazardcycle in w-00-point-of-no-return
 
-   2
+   0
 Read,9DP_22,Start,stun_v-00-lobby_1
 StunPause
    4,L,U,Z
 SkipInput 3 1
-  12,U,C
-EndStunPause
-StunPause
-   2,U,C
+  14,U,C
    1,R,J
 SkipInput 3 1
-  10,R,U,J,Z
+   4,R,U,J,Z
+EndStunPause
+StunPause
+   6,R,U,J,Z
 EndStunPause
    5,R,U,J,Z
 Read,9DP_22,endstun_v-00-lobby_1,stun_v-00-lobby_2
    1,R
 StunPause
-   3,R,J
+   7,R,J
 EndStunPause
 StunPause
-   7,R,J
+   3,R,J
 SkipInput 3 1
   15,U,Z
   10,R
 SkipInput 3 1
   15,L,U,Z
    6
-   2,L
-EndStunPause
-StunPause
-   1,L
+   3,L
    1,R
 SkipInput 3 1
-   7,R,Z
+   5,R,Z
+EndStunPause
+StunPause
+   2,R,Z
 EndStunPause
 Read,9DP_22,endstun_v-00-lobby_2,keycycle_v-00-upper
-  14,G
+  30,G
 Read,9DP_22,endkeycycle_v-00-upper
 
 #==========================
@@ -560,79 +711,131 @@ Read,9D_24,endroute_platinum
 
 #==========================
 #Mostly Absolute Certainty
+#And Bottomless
 
 #hazardcycle in w-15
 #2 stuns in w-16
+#hazardcycle in x-01
+#stun in x-10
+#stun in xx-02
+#stun in xx-04
+#3 stuns in xx-06
+#hazardcycle in xx-07
 
-Read,9D_25,Start,hazardcycle_w-16
-   0
-Read,9D_25,endhazardcycle_w-16,stun_w-16_1
+Read,9D_26,Start,hazardcycle_w-16
+   1
+Read,9D_26,endhazardcycle_w-16,stun_w-16_1
    2
 StunPause
    1,J
    8
 SkipInput 3 1
-   5,R,Z
-EndStunPause
-StunPause
-   1,R,Z
-EndStunPause
-StunPause
-   4,R,Z
+  10,R,Z
    1,R,K
    1,L,J,G
    2,R,J
    2,R
 SkipInput 3 1
    7,R,D,X
-   4,R,K,G
+   3,R,K,G
 EndStunPause
+   1,R,K
    3,K
    3,R,K
 StunPause
-   4,R,K
+   3,R,K
+   1,R
 EndStunPause
-Read,9D_25,endstun_w-16_1,stun_w-16_2
+Read,9D_26,endstun_w-16_1,stun_w-16_2
    1,R
    1,S,N
   10,O
-   3,R
+   1,R
+   1,S,N
+  10,O
+   1,R
 StunPause
-   2,R
+   3,R
    1,R,D,J
 EndStunPause
    2,R,J
-   1,R
    1,S,N
   10,O
+   5,R
+   4,J
+Read,9D_26,endstun_w-16_2,hazardcycle_x-10
+#+81f: Drift wait for x-10 stun
+  81,G
+#####
+   2,G
+Read,9D_26,endhazardcycle_x-10,stun_x-10
+   2,R,X
+StunPause
+   9,R,X
+  12,R
+  10,L
+SkipInput 3 1
+   4,Z
+   1,R,J
+EndStunPause
+StunPause
+   1,K,G
+EndStunPause
+StunPause
+   5,R
+   2,L,K
+   3
+   5,L
+SkipInput 3 1
+   6,L,Z
+   1,R,J
    3,R
-   5,J
-Read,9D_25,endstun_w-16_2
-
-#==========================
-#Bottomless
-
-#hazardcycle in x-02
-#stun/unload in x-10
-#stun in x-11
-#hazardcycle in xx-07
-
-Read,9DP_26,Start,hazardcycle_x-10
-   1
-Read,9DP_26,endhazardcycle_x-10,stun_x-11
+EndStunPause
+   1,R
+   1,D
+Read,9D_26,endstun_x-10,stun_xx-02
+   1,R,J
+   1,R
+StunPause
    2,R
-Repeat,2
-   1,S,N
-  10,O
-   1,R,D
-EndRepeat
-   7,R,U,Z
-   1,S,N
-  10,O
-   8,R,U,Z
-Read,9DP_26,endstun_x-11,hazardcycle_xx-10-final-goodbye
-   1
-Read,9DP_26,hazardcycle_xx-10-final-goodbye
+EndStunPause
+   2,R
+Read,9D_26,endstun_xx-02,stun_xx-04
+   1,R,K
+   1,R
+StunPause
+   2,R
+EndStunPause
+   2,R
+Read,9D_26,endstun_xx-04,stun_xx-06_1
+   2,R,K
+StunPause
+   2
+EndStunPause
+   2,R,D
+Read,9D_26,endstun_xx-06_1,stun_xx-06_2
+   2,R,J,G
+StunPause
+   1,R,J
+   1,R,K,G
+EndStunPause
+   1,K
+   1,R,K
+Read,9D_26,endstun_xx-06_2,stun_xx-06_3
+   1,R,J
+   1,R
+StunPause
+   1,R
+   1,R,D,K
+EndStunPause
+   1,R,K
+   1,R,J,G
+Read,9D_26,endstun_xx-06_3,hazardcycle_xx-10-final-goodbye
+   5
+Read,9D_26,hazardcycle_xx-10-final-goodbye
+
+#TimeActive for FGFG measured here
+#w/o cycle wait in Bottomless
 
 #==========================
 #Final Goodbye-A
@@ -647,7 +850,8 @@ Read,9DP_27A,Start
 
 #The Berry moving up and down
 #affects where exactly it detaches
-#(Currently affects platinum-9)
+#(i think idk at this point)
+#(Currently affects platinum-8)
 
 Read,9DP_27B,Start,lvl_end-platinum-8
 
@@ -716,129 +920,10 @@ Read,9DP_27B,Start,lvl_end-platinum-8
   40
 
 #lvl_end-platinum-9
-   1,R,J
-   1,K
-   1,R
-   1,R,K
-   8,R
-   6,R,J
-   9,R
-  22,L
-   2
-  14,R,D
-   4,D
-   3
-   1,R
-   1
-   5,K
-   5,L,K
-   1,K
-   2
-   2,J,G
-   1,K
-   7,J,G
-   5,R,J
-   1,R,K,G
-   1,R,J,G
-  10,R
-   1,R,K
-  26,R,D
-   1,D
-  17,R
-   2,D
-   1,R
-   1,D
-   1,J
-  36,R,J
-  17,R
-   1,K
-  11,R,K
-  21,R
-   4,R,J,G
-   5,R
-   3,R,J
-   2,R
-   5,R,J
-  14,R,Z
-   3,K,G
-  13,R,K
-   3,R,J,G
-   4,R
-   5,R,J
-   1,L
-   1,K,G
-   3
-  11,R
-  14,R,X
-   3,R,J,G
-   9,R
-   1,R,J
-   3,R,K
-   6,R
-   1,R,J
-  14,R
-   1,R,K
-   5,R
-   1,R,K
-   4,R
-   3,R,J
-   1,R
-   1,R,J
-   4,R
-   3,R,K
-   1,R
-   1,R,K
-   4,R
-   1,R,D,J
-   5,R
-   1,R,J
-   1,R
-   1,R,J
-   4,R
-   3,D
-   1,R,D
-   2,D
-   9,R,D
-   6,R,K
-   5,R
-   5
-   8,R,D
-   6,R,K
-   5,R
-   5
-   3,R,D
-   3,R
-   1,R,D
-   1,R
-   4,R,J
-   1,R
-   1,R,J
-   4,R
-   3,R,K
-   1,R
-   1,R,K
-   4,R
-   1,R,J
-  15,R
-   2,R,K
-   1,R
-   1,R,J,G
-   9,R
-  49,R,D
-   4,R
-   1,R,D
-   1,R,K,G
-   1,R,J,G
-  11,R
-   1,R,K
-   6,R
-  13,J,G
-  67
-  40
-
-#lvl_end-platinum-10
-Read,9DP_27B,lvl_end-platinum-10
+Read,9DP_27B,lvl_end-platinum-9
 
 #==========================
 
-ChapterTime: 49:38.502(175206)
+ChapterTime: 47:22.689(167217)
+
+AnalogueMode Ignore
