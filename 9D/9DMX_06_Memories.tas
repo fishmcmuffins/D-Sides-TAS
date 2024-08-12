@@ -46,23 +46,104 @@ Set,Level.TimeActive,256
    1,R,J,G
    7,R
 #stun_d-10_1
-Read,9D_06,stun_d-10_1,endstun_d-10_1
+   2,R,D
+   1,R,K
+StunPause
+   5,R
+   1,R,K
+EndStunPause
+   2,R,K
 #endstun_d-10_1
 Read,9D_06,endstun_d-10_1,stun_d-10_2
 #stun_d-10_2
-Read,9D_06,stun_d-10_2,endstun_d-10_2
+   1,R,K,G
+   1,J
+   1,R,K,G
+StunPause
+   1
+   1,J
+   1,R,K,G
+   2
+   1,J
+   1,R,K,G
+   1
+   1,J
+   1,R,K,G
+   1
+   1,J
+   1,R,K,G
+   2
+   1,J
+   1,R,K,G
+   1
+   1,J
+   1,R,K,G
+   1
+   1,J
+   1,R,K,G
+   1
+   1,R
+   1,J
+   1,R,K,G
+   1
+   1,J
+   1,R,K,G
+   1
+   1,J
+   1,R,K,G
+   2
+   1,J
+   1,R,K,G
+   1
+   1,J
+   1,R,K,G
+   1
+   1,J
+   1,R,K,G
+   1
+   1,R
+   1,J
+   1,R,K,G
+   1
+   1,J
+   1,R,K,G
+   1
+   1,J
+   1,R,K,G
+   1
+   1,R
+   1,J
+   1,R,K,G
+   1
+   1,J
+   1,R,K,G
+   1
+   1,J
+   1,R,K,G
+   1
+   1,R
+   1,J
+   1,R,K,G
+   1
+   1,J
+   1,R,K,G
+   1
+   1,J
+   1,R,K,G
+   1
+   1,J
+   2,R,K,G
+SkipInput 3 1
+   8,R,U,Z
+   1,R,J,G
+   3,R,K,G
+EndStunPause
 #endstun_d-10_2
-Read,9DS_06,endstun_d-10_2,lvl_d-14
-
-#lvl_d-14
-Read,9D_06,lvl_d-14,lvl_d-18
-
-#lvl_d-18
-Read,9DP_06,lvl_d-18,hazardcycle_d-19
+Read,9DSP_06,endstun_d-10_2,hazardcycle_d-19
 #hazardcycle_d-19
    2,G
 #endhazardcycle_d-19
-Read,9DP_06,endhazardcycle_d-19,stun_d-19
+Read,9DSP_06,endhazardcycle_d-19,stun_d-19
 #stun_d-19
    1,R,J
 StunPause
@@ -77,6 +158,6 @@ EndStunPause
 Read,9DSP_06,endstun_d-19,Time
 
 #Time
-MidwayFileTime: 2:04.168(7304)
+MidwayFileTime: 2:04.015(7295)
 
 Read,9DSP_06,Time
