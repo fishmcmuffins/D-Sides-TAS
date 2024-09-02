@@ -1305,7 +1305,7 @@ EndStunPause
    1,R,J
   40
 
-#lvl_d-04
+#lvl_d-03
    6,J
   15
   10,D
@@ -1434,7 +1434,7 @@ EndStunPause
    1,J
   40
 
-#lvl_d-05
+#lvl_d-04
    4,R,J
   15,R,D,X
   15,R,J
@@ -1470,7 +1470,7 @@ AnalogMode Precise
    2,R,K
   40
 
-#lvl_d-03
+#lvl_d-05
    1,R,K
    6,R,J
    9,R,D,X
@@ -1510,7 +1510,7 @@ AnalogMode Precise
    4,R,J
   40
    
-#lvl_d-08
+#lvl_d-06
   36,R,J
   13,U,X
  135,L,D
