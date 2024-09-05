@@ -70,49 +70,44 @@ Read,Old9D_06,endstun_d-10,lvl_d-12
    1,S
    1,D,J
   69,O
-   2,R,J
-  10,L,D,X
-   1,L,J
-   4,L
-   9,D,X
+   7,L,Z
+   3,R,J
+   4
+   8,L,J
+   2,L
+  15,D,X
   40
 
 #lvl_d-12 (2)
-  16,R,D
-  10,R,D,X
-  27,R,U,C
-  26,R,X
- 128,R,C
-  23,R,D,X
-   1,R,J
-   7,R,D,X
-   7,R,J
-   4,R
-   2,R,J
-   4,D,X
-   7,R,U,X
+   1,S
+   1,D,J
+  69,O
+   6,R,U,X
   40
 
 #lvl_d-13
-   4,R,U,X
-  14,U,C
-   8,J
-   3,K,G
-   9,R
-   4,D,X
-   3,L,X
-   1,R,J
-  13,R,D
-  15,D,X
-   5,R,D
-   7,L,D
+   9,R,U,X
+  15,U,C
+   3,L
+   6,R,J
+   2,L
+   1,R,K,G
    1
+   8,R
+   5,L,Z
+   1,R,J
+   1,R
+  12,D
+  15,D,X
+   3,R,D
+   6,D
   14,R,D,X
    1,R,J
    3,R,K,G
   17,R,J,G
   15,R,D,X
    3,R
+#endbranch_d-12_deathwarp
   15,R,Z
   13,R,X
   28,R,Z
@@ -163,7 +158,7 @@ Read,Old9D_06,endstun_d-10,lvl_d-12
    9,R,Z
   39,R,J
 #hazardcycle_d-18
-   0
+   2
 #endhazardcycle_d-18
   21,R,X
   21,R,Z
@@ -212,7 +207,8 @@ EndStunPause
 Read,Old9D_06,endstun_d-18,Time
 
 #Time
-MidwayFileTime: 1:42.391(6023)
+#MidwayFileTime: 1:42.391(6023)
+MidwayFileTime: 1:39.807(5871)
 
 Read,Old9D_06,Time
 
