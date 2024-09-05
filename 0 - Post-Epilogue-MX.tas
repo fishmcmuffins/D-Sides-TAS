@@ -1,0 +1,231 @@
+console load nameguysdsidespack/0/11-SecondEpilogue
+   1
+
+#lvl_slideshow
+#Start
+Read,0 - Post-Epilogue.tas,Start,lvl_house
+
+#Cutscene ends at 1:48.375(6375)
+
+#lvl_house (0)
+  11,D,X
+  14,R,D,C
+   2,R,J
+   7,R,K,G
+   2,R,J,G
+   1,R
+   3
+   5,R,D,X
+   1,R,J,G
+  10,R
+  40
+
+#lvl_a-04 (0)
+   2,R
+   1,R,J
+   6,R,K,G
+  15,R,D,X
+   1,R,J
+  32,R,D,X
+  40
+
+#lvl_a-03 (0)
+  36,R,D,X
+   1,R,J
+   2
+   2,R
+  11,R,U,Z
+   1,R,J,G
+   9,R
+   1,R,D,J
+  16,R,D,X
+   1,R,D,J
+   6,R
+   2,R
+   1,R,J
+  14,R,U,X
+   1,R,J,G
+   8,R
+  40
+
+#lvl_a-02 (0)
+  37,R,D,X
+   2,R,J
+   5,R,D,X
+   4,R,J,G
+  17,R
+  12,R,U,X
+   3,R,J,G
+   1,J
+  40
+
+#lvl_a-01 (0)
+   2,J
+   5,R,D,X
+   8,R,J,G
+   5,R
+   1,R,J
+   6,R
+  11,R,J
+   9,R,U,X
+  40
+
+#lvl_a-00 (0)
+   6,R,U,X
+  14,R,U,C
+  12,J,G
+   1,K,G
+  40
+
+#lvl_a-00s
+  11
+   1,J,G
+   1,L,J
+   1,K
+   1,J
+  13,L,J
+  17,U,X
+   1,R,J,G
+   3,L,J
+   3,R,J
+   7,R
+   4,R,Z
+   4,R,J
+   4,R,K,G
+   3,R
+   1,J,G
+  17,L,D
+   4,L,J
+  15,L,D,X
+  28,R,D
+  40
+
+#lvl_a-00 (1)
+  15,R,D,X
+  14,R,D
+   9,R
+   1,R,G
+   1
+   1,J
+   7
+  18,U,G
+   1,J,G
+   1,K,G
+   6,J,G
+  40
+
+#lvl_a-01 (1)
+  15,L,D,X
+   3,L,J
+  14,L,D,X
+  40
+
+#lvl_a-02 (1)
+   1,L,D,X
+   1,L,J
+  10,L
+  13,L,U,Z
+   3,L,J,G
+   2,R,J
+   2,L,J
+   7,L
+   4,L,Z
+   2,L,J
+   9,L,K,G
+   7,L
+   2,L,J
+   5,L,X
+  40
+
+#lvl_a-03 (1)
+   1,L,X
+   2,L,J,G
+   7,L
+  17,L,D,X
+   6,L
+   1,L,D,J
+   1,J
+   1
+  14,L,U,Z
+   1,L,J,G
+  27,L,D
+  12,L,J
+  14,L,U,X
+   3,J,G
+   4
+   3,R
+  11,L,U,X
+   1,L,J,G
+   6,L
+  40
+
+#lvl_a-04 (1)
+  14,L,D,X
+   1,L,J
+  14,L,U,X
+   1,J,G
+   1
+   2,L
+   2
+   1,R
+   1
+  16,L
+  12,L,X
+   3,L,J
+  10,L,U,X
+   4,L,J,G
+   8,L,K,G
+   7,L
+  10,L,D,X
+   1,L,J
+  40
+
+#lvl_house (1)
+   6,L,J
+  15,L,D,X
+   1,L,J
+  17,L,D,X
+  13,L,J
+   9,L,U,X
+  40
+
+#lvl_b-01
+   6,L,U,X
+  15,U,C
+   3,R
+  40
+
+#lvl_b-02
+   3,R
+   8
+  14,L,U,X
+   1,L,J,G
+   7,L
+   1,L,J
+   9,L,D,X
+   1,L,J
+   4,L
+  21,L,J
+  15,L,U,X
+   9,L
+   1,L,G
+  19,D
+   6,L,D,J
+   1,L
+   1,K
+   7,L,Z
+   1,L,J
+   6,L
+   1,L,J
+   5,L,D,X
+  40
+
+#lvl_b-03s
+Read,0 - Post-Epilogue.tas,lvl_b-03s,Timer Stops
+
+#Timer Stops
+ChapterTime: 2:45.223(9719)
+
+   1,S
+   1,D,J
+  18
