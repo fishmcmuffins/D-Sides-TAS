@@ -1,0 +1,225 @@
+#To sync:
+#Use Celeste v.1.4.0.0
+#Start from Begin
+#More Things Like Everest and D - Sides idk
+#Oh and Platinum Berry!! Need that for the true max% :3
+
+#Check this file
+#to run the TAS yourself:
+Read,StartFullGameFile.tas
+
+#Prologue D-Side
+Read,0 - Prologue.tas,Start
+
+Read,LoadDPost.tas,Load1D
+
+#Forsaken City D-Side
+Read,1D.tas,Start
+
+Read,LoadDB.tas,0,Cassette
+
+   1,J
+  30
+   1,R
+   1,J
+  46
+
+Read,1DC.tas,Start,lvl_b-01b
+Read,1DSC.tas,lvl_b-01b (1)
+
+Read,LoadDBFromD.tas
+
+#Forsaken City Dark-Side
+Read,1DB.tas,Start
+
+Read,LoadDFromDB.tas,0,Post
+
+   1,J
+ 230
+   1,J
+ 136
+Add 1
+
+#Old Site D-Side
+Read,2DS.tas,Start
+
+Read,LoadDB.tas,0,Cassette
+
+   1,J
+  30
+   1,R
+   1,F,90
+   1,J
+  46
+
+Read,2DC0.tas,Start
+
+Read,LoadDBFromD.tas
+
+#Old Site Dark-Side
+Read,2DB.tas,Start
+
+Read,LoadDFromDB.tas
+
+#Celestial Resort D-Side
+Read,3DC.tas,Start
+Read,3DS.tas,Start
+Read,3D.tas,Start
+
+Read,LoadDB.tas
+
+#Celestial Resort Dark-Side
+Read,3DB.tas,Start
+
+Read,LoadDFromDB.tas
+
+#Golden Ridge D-Side
+Read,4DS.tas,Start
+
+Read,LoadDB.tas,0,Cassette
+
+   1,J
+  30
+   1,R
+   1,F,90
+   1,J
+  46
+
+Read,4DC0.tas,Start
+
+Read,LoadDBFromD.tas
+
+#Golden Ridge Dark-Side
+Read,4DB.tas,Start
+
+Read,LoadDFromDB.tas
+
+#Mirror Temple D-Side
+Read,5DS.tas,Start
+
+Read,LoadD.tas
+
+#Reflection D-Side
+Read,6DS.tas,Start
+
+Read,LoadD.tas
+
+#Summit D-Side
+Read,7DS.tas,Start
+
+Read,LoadD.tas
+
+#Core D-Side
+Read,8DS.tas,Start
+
+Read,LoadD.tas
+
+#Epilogue D-Side
+Read,0 - Epilogue-S.tas,Start
+
+Read,Load9D.tas
+
+#Final Goodbye / Farewell D-Side
+#Moonberry is gotten in 2nd run because of the moonberry checkpoint's golden berry
+Read,9D/9D.tas,Start
+
+Read,LoadD.tas
+
+#Post-Epilogue
+Read,0 - Post-Epilogue.tas,Start
+
+Read,LoadPrologueFromPostEpilogue.tas
+
+#Prologue-D Golden
+Read,0 - Prologue-MX.tas,Start
+
+Read,Load1DMXFromPrologue.tas
+
+#1D Golden
+Read,1DMX.tas,Start
+
+Read,LoadDBMXFromDMX.tas
+
+#1Dark Golden
+Read,1DBMX.tas,Start
+
+Read,LoadDMX.tas
+
+#2D Golden
+Read,2DMX.tas,Start
+
+Read,LoadDBMXFromDMX.tas
+
+#2Dark Golden
+Read,2DBMX.tas,Start
+
+Read,LoadDMX.tas
+
+#3D Golden
+Read,3DMX.tas,Start
+
+Read,LoadDBMXFromDMX.tas
+
+#3Dark Golden
+Read,3DBMX.tas,Start
+
+Read,LoadDMX.tas
+
+#4D Golden
+Read,4DMX.tas,Start
+
+Read,LoadDBMXFromDMX.tas
+
+#4Dark Golden
+Read,4DBMX.tas,Start
+
+Read,LoadDMX.tas
+
+#5D Golden
+Read,5DMX.tas,Start
+
+Read,LoadDMX.tas
+
+#6D Golden
+Read,6DMX.tas,Start
+
+Read,LoadDMX.tas
+
+#7D Golden
+Read,7DMX.tas,Start
+
+Read,LoadDMX.tas
+
+#8D Golden
+Read,8DMX.tas,Start
+
+Read,LoadDMX.tas,0,Epilogue
+   1,J
+  46
+Add 1
+
+#Epilogue-D Golden
+Read,0 - Epilogue-MX.tas,Start
+
+Read,Load9DMX.tas
+
+#9D Max%
+#Includes all 17 checkpoint goldens, the moonberry (because of the moonberry checkpoint golden), and the full level lengthed 9D Platinum Berry, which serves as the true "Golden Run" of this level.
+Read,9D/9DMX,Start
+
+Read,LoadDMX.tas,0,Epilogue
+   1,J
+  46
+Add 1
+
+#Post-Epilogue Golden
+Read,0 - Post-Epilogue-MX.tas,Start
+
+Add 197
+  60
+   1,X
+  62
+
+Read,LoadJournal.tas,Epilogue
+
+FileTime: 3:19:26.878(703934)
