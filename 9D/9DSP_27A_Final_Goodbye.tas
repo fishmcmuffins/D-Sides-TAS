@@ -667,6 +667,6 @@ Read,9DP_27,lvl_xx-10-true-final-goodbye,Time
 #Time
 MidwayFileTime: 4:04.834(14402)
 
-Read,9DP_27,Time
+Read,9DP_27A,Time
 
 AnalogMode,Ignore
