@@ -666,7 +666,7 @@ EndStunPause
   43
 
 #lvl_xx-10-true-final-goodbye
-Read,9DP_27,lvl_xx-10-true-final-goodbye,Time
+Read,9DP_27A,lvl_xx-10-true-final-goodbye,Time
 
 #Time
 MidwayFileTime: 4:04.613(14389)
