@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 10576
+RecordCount: 10769
 
 console load nameguysdsidespack/1/3-SummitOld
    1
@@ -639,7 +639,7 @@ EndStunPause
    8,R
    2
 #Spinner Cycle [d-05]
-   3
+   2
 #####
    6,R,Z
    1,R,J
@@ -712,9 +712,8 @@ EndStunPause
   16,L,X
   15,L,U,C
    3,R
-  37,R
-  15,R,X
-   8,U,C
+  42,R
+  11,R,X
   37,L
   26,L,X
   15,L,D,C
@@ -797,43 +796,31 @@ EndStunPause
   15,R,U,X
   44,R,C
    4,R,J
-   7,R,Z
-  33,R,J
-  47,R,X
-   4,R,J
   10,R,K
-  19,R
-   6
-  15,D,X
-  29,L,C
-  15,D,X
-  40,R,C
-   4,R,J
-   1,R,K
-   7,R
-   5
-  15,U,X
-  15,R,U,C
-   5,R
-   3
-   1,R
-  14,D
-   7,L,D
-   4,D
-   2,R,D
-   3,R
-   1,R,D
-   1,R
+  24,R
   15,R,X
-  50,R,C
+  18,R,D,C
    4,R,J
-   7,R,Z
-  28,R,J
-  91,R,X
+   4,Z
+   1,R,K
+  25,R,D
+  50,R,Z
    4,R,J
+   6,R
+   3,R,J
+   8,R
+  19,R,Z
+  60,R,X
+   4,R,J
+   8,R,K
+   7,R
    3,R,K
+   5,R
+  15,R,X
+  88,R,C
+   4,R,J
   15,U,X
-   7,R,Z
+  10,R,Z
    1,R,J
    6,R
    1,R,J
@@ -845,77 +832,69 @@ EndStunPause
    1,R,J
   34,R,D,X
    4,R,J
-   4,R,K
-  15,R,U,X
-  31,R,D,C
-   4,R,J
-   7,R,X
-   5,R,J
+   5,R,K
+  14,R,U,X
+   3,J,G
+  26,R,Z
+   2,R
+  10,R,K
    5,R
-   1,R,J
-   4,R
-   1,R,J
-  10,R
-  34,R,X
-   4,L,G
-  14,R,Z
-   4,L,G
-   3
-  18,L,D,X
-  18,R,D,C
-  53,R,X
-   4,L,G
-  18,L,U,X
-   4,R,Z
-   3,R,J
+   2,R,K
+  15,R,D,X
+  31,R,Z
+   4,R,J
+   1,R,K
+   1,K
+   3,R,K
+   5,R
+   2,R,K
    1,R
-   2,R,J
-   4,R
-   1,R,J
- 120,R,Z
+  15,R,Z
+  47,R,D,X
+   7,R,J
+  16,R,X
+ 124,R,Z
    8,R,J
    6,R,K
    5,R
-   5,R,J
+   6,R,K
   15,R,X
   41,U,C
   10,U,X
   40
 
 #lvl_c-03
-   3,R
-   1,L,J,G
-   1,L,K,G
-   1,L,J,G
-  10,L
-   3,J
-   3,L,J
-   1,J
-   2,L,J
+   8
+  12,L,J
   15,U,X
-  27,L,U,C
-   2,L,J
+  23,L,U,Z
+   5,L,J
   15,U,X
   18,R,U,C
-   6,R,J
-  22,R,K
-  15,R,U,Z
-  18,U,C
-  18,L,X
-  20,L,U,C
-  18,U,X
-  23,U,C
-   7,R
-  14,U,X
-  18,L,J
-   1,L,K
-  14,U,X
    5,R,J
+  21,R,K
+   4,K
+  15,R,U,Z
+   3
+  16,L,U,X
+  16,L,U,C
+  18,L,U,X
+   4,L,J
+   3,L,K
+  15,R,U,X
+  12,U,C
+  10,R
+   1
+  14,U,X
+  18,J
+   1,K
+  14,U,X
+   5,J
   40
 
 #lvl_c-04
-   8,R
-   3
+   7,R
+   4
    6,R,Z
    1,R,J
    7,R
@@ -926,53 +905,42 @@ EndStunPause
    2,R,J,G
   32,R,X
    4,R,J
-   7,R,Z
-  31,R,J
-  41,R,X
-   4,L,J
-  22,L,U,X
-   4,L,J
-  13,R,U,X
-   2,R,J,G
-  18,R,X
+  13,R,K
+  15,R,D,X
+   9,R
+  21,R,U,X
    4,R,J
-  17,R,K
+   4,Z
+   9,R,K
+   3,K
   15,U,X
-   5,R
-  18,L,U,X
-  15,L,U,C
-  62,L,Z
+   3,L
+  15,R,C
+  20,L,U,Z
+  20,L,J
+  15,L,U,X
+  25,L,U,C
    4,L,J
-  11,L,K
-   5,L
-   2,L,J
-  15,L,D,X
+   7,L,Z
+   7,L,J
    1,L
-  33,U,C
-   1,R
-  36,U,X
-  15,U,C
-  50,R,X
-   4,L,G
-  15,D,X
-   1,R,D
-   1,D
-   1,R,D
-   1,D
-   3,R,D
-   5,R
-   1,R,G
-   7,R,J,G
-  53,U,X
-   2,L
-  18,U,C
-  75,L,X
-   6,L,J
-   1,L
-  15,R,D,C
-  19,U,X
-  15,U,C
-  14,U,X
+  21,L,J
+  33,U,X
+  37,U,C
+  12,L
+  20,R,U,X
+   8,R,J
+  21,R,K
+  21,R,U,X
+  24,R,U,C
+  10,L,U,X
+   5,J,G
+  74,L,X
+   4
+  15,R,D,X
+  19,U,C
+  15,U,X
+  14,U,C
   40
 
 #lvl_c-05
@@ -1321,14 +1289,8 @@ EndStunPause
   15,R,D,X
   22,D,C
    7,R,Z
-#drift!!!
-#(actually decent drift???)
 StunPause
-   3,R,Z
-EndStunPause
-   2,R,Z
-StunPause
-   2,R,Z
+   7,R,Z
    1,R,J
 SkipInput 3 1
    4,R,Z
@@ -3825,16 +3787,4 @@ EndRepeat
 
 AnalogueMode Ignore
 
-ChapterTime: 11:16.328(39784)
-
-
-
-
-
-
-
-
-
-
-
-
+ChapterTime: 11:11.534(39502)
