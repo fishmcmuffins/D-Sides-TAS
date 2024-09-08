@@ -1,0 +1,366 @@
+#Combines Main pack Max%
+#and Museum pack Max%
+
+#To sync:
+#Use Celeste v.1.4.0.0
+#Start from Begin
+#More Things Like Everest and D - Sides idk
+#Oh and Platinum Berry!! Need that for the true max% :3
+
+Read,../StartFullGameFile
+
+#Prologue D-Side
+Read,../0 - Prologue.tas,Start
+
+Read,../LoadDPost.tas,Load1D
+
+#Forsaken City D-Side
+Read,../1D.tas,Start
+
+Read,../LoadDB.tas,0,Cassette
+
+   1,J
+  30
+   1,R
+   1,J
+  46
+
+Read,../1DC.tas,Start,lvl_b-01b
+Read,../1DSC.tas,lvl_b-01b (1)
+
+Read,../LoadDBFromD.tas
+
+#Forsaken City Dark-Side
+Read,../1DB.tas,Start
+
+Read,../LoadDFromDB.tas,0,Post
+
+   1,J
+ 230
+   1,J
+ 136
+Add 1
+
+#Old Site D-Side
+Read,../2DS.tas,Start
+
+Read,../LoadDB.tas,0,Cassette
+
+   1,J
+  30
+   1,R
+   1,F,90
+   1,J
+  46
+
+Read,../2DC0.tas,Start
+
+Read,../LoadDBFromD.tas
+
+#Old Site Dark-Side
+Read,../2DB.tas,Start
+
+Read,../LoadDFromDB.tas
+
+#Celestial Resort D-Side
+Read,../3DC.tas,Start
+Read,../3DS.tas,Start
+Read,../3D.tas,Start
+
+Read,../LoadDB.tas
+
+#Celestial Resort Dark-Side
+Read,../3DB.tas,Start
+
+Read,../LoadDFromDB.tas
+
+#Golden Ridge D-Side
+Read,../4DS.tas,Start
+
+Read,../LoadDB.tas,0,Cassette
+
+   1,J
+  30
+   1,R
+   1,F,90
+   1,J
+  46
+
+Read,../4DC0.tas,Start
+
+Read,../LoadDBFromD.tas
+
+#Golden Ridge Dark-Side
+Read,../4DB.tas,Start
+
+Read,../LoadDFromDB.tas
+
+#Mirror Temple D-Side
+Read,../5DS.tas,Start
+
+Read,../LoadD.tas
+
+#Reflection D-Side
+Read,../6DS.tas,Start
+
+Read,../LoadD.tas
+
+#Summit D-Side
+Read,../7DS.tas,Start
+
+Read,../LoadD.tas
+
+#Core D-Side
+Read,../8DS.tas,Start
+
+Read,../LoadD.tas
+
+#Epilogue D-Side
+Read,../0 - Epilogue-S.tas,Start
+
+Read,../Load9D.tas
+
+#Final Goodbye / Farewell D-Side
+Read,../9D/9D.tas,Start
+
+Read,../LoadD.tas
+
+#Post-Epilogue
+Read,../0 - Post-Epilogue.tas,Start
+
+Read,LoadMuseumFromPostEpilogue.tas
+
+#Prologue D-Side w/ Dashes
+Read,0 - PrologueDash.tas,Start
+
+Read,../Load9D.tas
+
+#Old Core D-Sides Mashup
+Read,Old8DsMashup-S.tas,Start
+
+Read,../LoadD.tas
+
+#Old Old Summit D-Side
+#(The first ver. of 7D)
+Read,OldOld7D.tas,Start
+
+Read,../LoadD.tas
+
+#Old Summit D-Side
+#(The second ver. of 7D)
+Read,Old7D.tas,Start
+
+Read,../LoadD.tas
+
+#Old Reflection D-Side
+Read,Old6D.tas,Start
+
+Read,../LoadD.tas
+
+#Old Old Celestial Resort D-Side
+#(The first ver. of 3D)
+Read,OldOld3D.tas,Start
+
+Read,../LoadD.tas
+
+#Old Final Goodbye
+#(AKA Old Farewell D-Side)
+#(Currently crashes in Trust due
+#to buggy dialogue code)
+Read,Old9D/Old9DS.tas,Start
+
+Read,../LoadD.tas
+
+#Old Celestial Resort D-Side
+#(The second ver. of 3D)
+#(also known as Old 3Dark)
+Read,Old3D.tas,Start
+
+#Enable Cheat Mode for "B-Sides"
+#Note: I made a stipulation that the golden runs for these levels can only take place after the levels are beaten previously, just like basically any other level with a golden berry. I think that is a very fair idea and I feel like people would generally agree with that sentiment. The levels with this property are 8E, 7E, and 5B Garbage Version.
+Read,LoadPrologue.tas
+Read,LoadEnableCheatMode.tas
+Read,Load8E.tas
+
+#Core E-Side
+#(AKA Old Core D-Sides Mashup B-Side)
+Read,8E.tas,Start
+
+Read,LoadDBFromDB.tas
+
+#Summit E-Side
+#(AKA Old Old Summit D-Side B-Side)
+Read,7E.tas,Start
+
+Read,LoadDBFromDB.tas,0,5BGV
+   1,J
+  30
+   1,R
+   1,J
+  30
+   1,J
+ 304
+Add 1
+
+#5B Garbage Version
+#(AKA 5B Funny Version)
+#(AKA Old Summit D-Side B-Side)
+#(This level has a lot of names)
+Read,5BGV.tas,Start
+
+Read,LoadPrologueMainFromMuseum.tas
+
+#Prologue-D Golden
+Read,../0 - Prologue-MX.tas,Start
+
+Read,../Load1DMXFromPrologue.tas
+
+#1D Golden
+Read,../1DMX.tas,Start
+
+Read,../LoadDBMXFromDMX.tas
+
+#1Dark Golden
+Read,../1DBMX.tas,Start
+
+Read,../LoadDMX.tas
+
+#2D Golden
+Read,../2DMX.tas,Start
+
+Read,../LoadDBMXFromDMX.tas
+
+#2Dark Golden
+Read,../2DBMX.tas,Start
+
+Read,../LoadDMX.tas
+
+#3D Golden
+Read,../3DMX.tas,Start
+
+Read,../LoadDBMXFromDMX.tas
+
+#3Dark Golden
+Read,../3DBMX.tas,Start
+
+Read,../LoadDMX.tas
+
+#4D Golden
+Read,../4DMX.tas,Start
+
+Read,../LoadDBMXFromDMX.tas
+
+#4Dark Golden
+Read,../4DBMX.tas,Start
+
+Read,../LoadDMX.tas
+
+#5D Golden
+Read,../5DMX.tas,Start
+
+Read,../LoadDMX.tas
+
+#6D Golden
+Read,../6DMX.tas,Start
+
+Read,../LoadDMX.tas
+
+#7D Golden
+Read,../7DMX.tas,Start
+
+Read,../LoadDMX.tas
+
+#8D Golden
+Read,../8DMX.tas,Start
+
+Read,../LoadDMX.tas,0,Epilogue
+   1,J
+  46
+Add 1
+
+#Epilogue-D Golden
+Read,../0 - Epilogue-MX.tas,Start
+
+Read,../Load9DMX.tas
+
+#9D Max%
+#Includes all 17 checkpoint goldens, the moonberry (because of the moonberry checkpoint golden), and the full level lengthed 9D Platinum Berry, which serves as the true "Golden Run" of this level.
+Read,../9D/9DMX,Start
+
+Read,LoadMuseumFrom9DMX.tas
+
+#Prologue w/ Dashes Golden
+Read,0 - PrologueDash-MX.tas,Start
+
+Read,../Load9DMX.tas
+
+#Old 8D Golden
+#This level already picks up the golden; the MX file for this also gets the red berries because why not
+Read,Old8DsMashup.tas,Start
+
+Read,../LoadDBMXFromDMX.tas,0,Checkpoints
+   1,J
+ 304
+Add 1
+
+#8E Golden
+Read,8EMX.tas,Start
+
+Read,../LoadDMX.tas
+
+#Old Old 7D Golden
+Read,OldOld7DMX.tas,Start
+
+Read,../LoadDBMXFromDMX.tas,0,Checkpoints
+   1,J
+ 304
+Add 1
+
+#7E Golden
+Read,7EMX.tas,Start
+
+Read,../LoadDMX.tas
+
+#Old 7D Golden
+Read,Old7DMX.tas,Start
+
+Read,../LoadDMX.tas
+
+#5BGV doesn't have a golden, the only way to "pick one up" is by using a command
+
+#Old 6D Golden
+Read,Old6DMX.tas,Start
+
+Read,../LoadDMX.tas
+
+#Old Old 3D Golden
+Read,OldOld3DMX.tas,Start
+
+#Old 9D also doesn't have a golden, and despite there being a golden specific checkpoint and a platinum berry in current 9D, there is no way to golden this level w/o using a command. 
+
+Read,../LoadDMX.tas,0,Enter
+   1,R
+   9
+Read,../LoadDMX.tas,Enter
+
+#Old 3D Golden
+Read,Old3DMX.tas,Start
+
+Read,LoadMainFromMuseum.tas
+
+#Post-Epilogue Golden
+Read,../0 - Post-Epilogue-MX.tas,Start
+
+Add 197
+  60
+   1,X
+  62
+Read,../LoadJournal.tas,Epilogue
+
+   1,X
+  60
+   1,D
+  60
+Read,../LoadJournal.tas,Epilogue
+
+FileTime: 5:37:30.706(1191218)
