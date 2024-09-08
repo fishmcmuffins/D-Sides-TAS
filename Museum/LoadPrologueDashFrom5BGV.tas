@@ -8,10 +8,15 @@ Add 197
   83
 Add 7
    1,S
-   1,R
-#Checkpoints
+  60
+   1,X
+  20
+Repeat,3
+   1,L
+   9
+EndRepeat
    1,J
-  30
+  43
    1,J
- 304
+  46
 Add 1

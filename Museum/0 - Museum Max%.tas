@@ -1,0 +1,160 @@
+#To sync:
+#Use Celeste v.1.4.0.0
+#Start from Begin
+#More Things Like Everest and D - Sides idk
+
+Read,StartFullMuseumFile
+
+#Prologue D-Side w/ Dashes
+Read,0 - PrologueDash.tas,Start
+
+Read,../Load9D.tas
+
+#Old Core D-Sides Mashup
+Read,Old8DsMashup-S.tas,Start
+
+Read,../LoadD.tas
+
+#Old Old Summit D-Side
+#(The first ver. of 7D)
+Read,OldOld7D.tas,Start
+
+Read,../LoadD.tas
+
+#Old Summit D-Side
+#(The second ver. of 7D)
+Read,Old7D.tas,Start
+
+Read,../LoadD.tas
+
+#Old Reflection D-Side
+Read,Old6D.tas,Start
+
+Read,../LoadD.tas
+
+#Old Old Celestial Resort D-Side
+#(The first ver. of 3D)
+Read,OldOld3D.tas,Start
+
+Read,../LoadD.tas
+
+#Old Final Goodbye
+#(AKA Old Farewell D-Side)
+#(Currently crashes in Trust due
+#to buggy dialogue code)
+Read,Old9D/Old9DS.tas,Start
+
+Read,../LoadD.tas
+
+#Old Celestial Resort D-Side
+#(The second ver. of 3D)
+#(also known as Old 3Dark)
+Read,Old3D.tas,Start
+
+#Enable Cheat Mode for "B-Sides"
+#Note: I made a stipulation that the golden runs for these levels can only take place after the levels are beaten previously, just like basically any other level with a golden berry. I think that is a very fair idea and I feel like people would generally agree with that sentiment. The levels with this property are 8E, 7E, and 5B Garbage Version.
+Read,LoadPrologue.tas
+Read,LoadEnableCheatMode.tas
+Read,Load8E.tas
+
+#Core E-Side
+#(AKA Old Core D-Sides Mashup B-Side)
+Read,8E.tas,Start
+
+Read,LoadDBFromDB.tas
+
+#Summit E-Side
+#(AKA Old Old Summit D-Side B-Side)
+Read,7E.tas,Start
+
+Read,LoadDBFromDB.tas,0,5BGV
+   1,J
+  30
+   1,R
+   1,J
+  30
+   1,J
+ 304
+Add 1
+
+#5B Garbage Version
+#(AKA 5B Funny Version)
+#(AKA Old Summit D-Side B-Side)
+#(This level has a lot of names)
+Read,5BGV.tas,Start
+
+Read,LoadPrologueDashFrom5BGV
+
+#Prologue w/ Dashes Golden
+Read,0 - PrologueDash-MX.tas,Start
+
+Read,../Load9DMX.tas
+
+#Old 8D Golden
+#This level already picks up the golden; the MX file for this also gets the red berries because why not
+Read,Old8DsMashup.tas,Start
+
+Read,../LoadDBMXFromDMX.tas,0,Checkpoints
+   1,J
+ 304
+Add 1
+
+#8E Golden
+Read,8EMX.tas,Start
+
+Read,../LoadDMX.tas
+
+#Old Old 7D Golden
+Read,OldOld7DMX.tas,Start
+
+Read,../LoadDBMXFromDMX.tas,0,Checkpoints
+   1,J
+ 304
+Add 1
+
+#7E Golden
+Read,7EMX.tas,Start
+
+Read,../LoadDMX.tas
+
+#Old 7D Golden
+Read,Old7DMX.tas,Start
+
+Read,../LoadDMX.tas
+
+#5BGV doesn't have a golden, the only way to "pick one up" is by using a command
+
+#Old 6D Golden
+Read,Old6DMX.tas,Start
+
+Read,../LoadDMX.tas
+
+#Old Old 3D Golden
+Read,OldOld3DMX.tas,Start
+
+#Old 9D also doesn't have a golden, and despite there being a golden specific checkpoint and a platinum berry in current 9D, there is no way to golden this level w/o using a command. 
+
+Read,../LoadDMX.tas,0,Enter
+   1,R
+   9
+Read,../LoadDMX.tas,Enter
+
+#Old 3D Golden
+Read,Old3DMX.tas,Start
+
+unsafe
+  60
+   1,J
+ 196
+Add 197
+ 165
+   1,J
+  83
+Add 7
+   1,S
+  60
+   1,X
+  62
+Read,../LoadJournal,Epilogue
+
+FileTime: 2:18:03.828(487284)
