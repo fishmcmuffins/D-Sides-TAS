@@ -1,18 +1,23 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 8920
+RecordCount: 8923
 
 console load nameguysdsidespack/1/1-CoreOldMashup
    1
+
+# prevent golden from spawning
+Set SaveData.Instance.CheatMode false
+Set SaveData.Instance.DebugMode false
 
 #Start
  190
 
 #Spinner Cycle [b-02]
    0
-#####
+#----
 
+## Start
 #lvl_00
 Read,Old8DsMashup.tas,lvl_00,lvl_a-01
 
@@ -307,7 +312,7 @@ Read,Old8DsMashup.tas,lvl_a-03,lvl_a-05
 #  14,L,D,X
 #   1,L,J
 #  40
-#####
+#----
 
 #lvl_a-04
    5,L
@@ -404,7 +409,9 @@ Read,Old8DsMashup.tas,lvl_a-03,lvl_a-05
    1,R
    1,J,G
   40
+## 
 
+## Incerno
 #lvl_b-00 (0)
    1,J
   25,R,J
@@ -627,7 +634,9 @@ EndRepeat
 
 #lvl_b-02
 Read,Old8DsMashup.tas,lvl_b-02,lvl_c-01
+## 
 
+## Overflow (rising)
 #lvl_c-01
 #alt route in c-02 is slower
 #than skipping lava trigger at
@@ -965,9 +974,11 @@ EndRepeat
    1,R
   15,R,X
   12,R,Z
+## 
 #Spinner Cycle [c-04]
    2
-#####
+#----
+## Overflow (cont.)
   15,R,X
   15,U,C
    3,R
@@ -994,18 +1005,18 @@ EndStunPause
   32,U,C
    1,L,U
    7,F,329
-  13,F,270
-   2,F,240
-  35,L,D,X
-   1,F,287
-   2,F,343
-  23,F,0
-  10,F,22
+   8,F,263
+  15,F,180
+   2,F,212.6
+   6,F,360
+  44,F,15
   12,R,Z
   17,U,X
   72
   40
+## 
 
+## Double Down (sandwich)
 #lvl_c-05
    4,L
    1,R,J
@@ -1428,7 +1439,8 @@ AnalogueMode Precise
   18,R,J
   12,U,X
  135,D
+## 
 
 AnalogueMode Ignore
 
-ChapterTime: 4:59.812(17636)
+ChapterTime: 4:59.676(17628)
