@@ -10,7 +10,7 @@ console load nameguysdsidespack/0/5-Temple
 
 #Spinner Cycle [c-04]
    0
-#####
+#-----
 
 #lvl_a-00
    4,R,Z
@@ -88,7 +88,7 @@ EndStunPause
    2,R,D
 #Spinner Cycle [c-01]
    2
-#####
+#----
    7,D,X
    9,L,J
   14,R,D,X
@@ -123,7 +123,7 @@ EndStunPause
 #Key Cycle
   79
 #  62
-#####
+#----
 
   15,D,X
    2,L,J
@@ -157,7 +157,7 @@ Read,5D.tas,lvl_d-01,lvl_e-06
 #multiple of 3
   90
 # 114
-#####
+#-----
    4,Z
    1,R,J
    5,R
@@ -240,7 +240,7 @@ Read,5D.tas,lvl_d-01,lvl_e-06
   14,L,U,X
 #Spinner Cycle [f-04]
    0
-#####
+#-----
   21,U,C
   15,U,Z
    8,L

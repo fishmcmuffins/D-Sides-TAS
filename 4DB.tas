@@ -13,6 +13,7 @@ console hard nameguysdsidespack/0/4-Ridge
    1
 #   1
 
+## Start
 #lvl_a-01
    4,R,Z
    1,R,J
@@ -219,6 +220,9 @@ console hard nameguysdsidespack/0/4-Ridge
   22,R
   15,R,Z
    4,R
+## 
+
+## Overhang
   17,R,U,X
    7,J,G
    5,R,Z
@@ -608,6 +612,9 @@ EndRepeat
   22,R,J
   13,R,K,G
    6,R,Z
+## 
+
+## Clouded Climb
    1,R,J
    7,R
    1,R,J
@@ -979,6 +986,9 @@ EndRepeat
    8,K,G
    3,R
    4
+## 
+
+## Shimmering Finale
    4,R,Z
    2,R,J
    3,R
@@ -1364,6 +1374,6 @@ EndRepeat
   15,D,X
    5,L,D
  135,R,D
-
+## 
 
 ChapterTime: 3:31.786(12458)

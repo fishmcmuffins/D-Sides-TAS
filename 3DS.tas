@@ -9,7 +9,7 @@ console load nameguysdsidespack/0/3-Resort
 #lvl_a-00
 #+2f: wait for cycles
    2
-#####
+#-----
    2,L,J
    9,L,Z
    1,L,J

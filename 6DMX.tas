@@ -158,7 +158,7 @@ AnalogMode Ignore
    5
 #Spinner Cycle [boss-03]
    1
-#####
+#-----
   10,R,D,C
    4,R,J
    1
@@ -223,7 +223,7 @@ Read,6D.tas,lvl_boss-01,lvl_boss-17
   24
 #Spinner Cycle [center-01]
    1
-#####
+#-----
    1,J
    1,K
   18,L,K

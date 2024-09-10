@@ -27,12 +27,13 @@ console load nameguysdsidespack/0/7-Summit
    1
 
 #Start
-#0m
   80
 
 #f-01 Spinner Cycle
    0
 #--------------
+
+## Start
 #lvl_a-00
    4,Z
    1,R,J
@@ -342,7 +343,9 @@ console load nameguysdsidespack/0/7-Summit
    1,L
  115
   40
+## 
 
+## 500M
 #lvl_b-01
   68
 #500m
@@ -758,7 +761,9 @@ console load nameguysdsidespack/0/7-Summit
   24,R,J
   89
   40
+## 
 
+## 1000M
 #lvl_c-01
   11,R
 #1000m
@@ -1192,7 +1197,9 @@ endrepeat
    3,L
   94
   40
+## 
 
+## 1500M
 #lvl_d-01
   71
 #1500m
@@ -1573,7 +1580,9 @@ endrepeat
   20,U,C
  129
   40
+## 
 
+## 2000M
 #lvl_e-01n
 #2000m
    2,L
@@ -2137,7 +2146,9 @@ endrepeat
   15,L,U,C
   99
   40
+## 
 
+## 2500M
 #lvl_f-01
   11,R
 #2500m
@@ -2672,7 +2683,9 @@ EndStunPause
   18,U,C
  247
   40
+## 
 
+## Downdraft
 #lvl_g-01
   65
 #3000m
@@ -2888,7 +2901,9 @@ EndRepeat
   14,U,C
  119
   40
+## 
 
+## Updraft
 #lvl_g-02
   72
 
@@ -3352,9 +3367,12 @@ AnalogMode Precise
 
 #lvl_g-03
   72
+## 
 #CP-08 Spinner Cycle
    2
 #no-wind
+
+## Nodraft
 #CP-12
   15,L,J
    1
@@ -3659,9 +3677,11 @@ EndStunPause
   19,U,X
   35,L,J
    1,G
+## 
 #CP-03 Spinner Cycle
    0,G
 #--------------
+## Nodraft (cont.)
    9,J,G
    1,R,J
    4,L,J
@@ -4324,5 +4344,6 @@ EndRepeat
   16,R,Z
    8,R,U,X
  135,R
+## 
 
 ChapterTime: 9:54.524(34972)

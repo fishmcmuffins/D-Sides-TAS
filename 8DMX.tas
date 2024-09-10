@@ -6,7 +6,7 @@ console hearts 7
 #Start
 #Spinner Cycle [space]
    0
-#####
+#-----
 
 #use the same spinner cycle wait
 #as any%, because getting golden
@@ -29,7 +29,7 @@ Repeat,36
    1
 EndRepeat
    1,G
-#####
+#-----
    1,J,G
    1,L,J
    1,K

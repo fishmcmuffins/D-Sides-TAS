@@ -7,6 +7,7 @@ console hard nameguysdsidespack/0/2-Oldsite
 #Start
  190
 
+## Start
 #lvl_a-01
    4,R,D,X
    1,R,J
@@ -270,6 +271,9 @@ EndRepeat
   10,K
    3,L,K
   72,R,X
+## 
+
+## Unbound
    1,R,J
    3
    7,R,D,X
@@ -477,7 +481,9 @@ EndRepeat
   15,U,X
   12,J
   40
+## 
 
+## Dream Recollection
 #lvl_c-01dark (1)
    5,R
    5,L
@@ -833,6 +839,7 @@ Repeat,37
    1
 EndRepeat
    1
+## 
 
 ChapterTime: 1:39.093(5829)
 

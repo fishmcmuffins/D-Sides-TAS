@@ -40,7 +40,7 @@ console load nameguysdsidespack/0/3-Resort
 Read,3D.tas,lvl_a-01,Spinner Cycle [d-01]
 #Spinner Cycle [d-01]
    0
-#####
+#-----
    4,Z
    1,R,J
    1,R
@@ -87,7 +87,7 @@ EndStunPause
    1
 #Spinner Cycle [d-04]
    1
-#####
+#-----
    5,R,Z
    1,R,J
    7,R

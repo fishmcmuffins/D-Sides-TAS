@@ -6,6 +6,7 @@ console load nameguysdsidespack/0/4-Ridge
 #Start
   69
 
+## Start
 #lvl_a-00
    4,Z
    1,R,J
@@ -376,6 +377,9 @@ console load nameguysdsidespack/0/4-Ridge
   14,R,D,X
    1,R,J
    5,R,U,Z
+## 
+
+## Heavywinds
   15,R,X
   13,R
   14,R,Z
@@ -784,6 +788,9 @@ console load nameguysdsidespack/0/4-Ridge
   21,R,J
    2,R
    3
+## 
+
+## Snowstorm
    4,Z
    1,R,J
    6,R
@@ -1296,6 +1303,7 @@ AnalogMode Precise
   14,L
   38,R
   83,G
+## 
 
 ChapterTime: 3:04.195(10835)
 
