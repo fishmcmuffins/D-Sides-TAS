@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 11872
+RecordCount: 12121
 
 console load nameguysdsidespack/1/3-SummitOld
    1
@@ -2382,56 +2382,64 @@ EndRepeat
    1,R,J
   15,R,U,Z
   12
-   3,L,J
-Repeat,3
-   2,R,K
+   1,J
    2,L,J
+Repeat, 3
+   2,K
+   2,J
 EndRepeat
-  15,D,X
-  21,R
-  16,R,D
-  15,R,Z
-  15,D,X
-  15,R,Z
-   5,R,D
-  15,R,U,V
-  14,R,D,X
+   2
+   2,L
+   8
+  15,R,D,X
+  15,L,D,C
+   3
+   9,R,Z
    1,R,J
-  23,R,D
-  27,R,G
-  10
-  18,R
-  16
-   8,D,J
-  14,R
-  33,D,X
-  12,R,Z
-   3,L,J
-  14,U,X
-   2,R,J
-   6,R,U,Z
-   1,R,J,G
-  13,R
+   6,R
+   1,R,K
+   1,R
+  15,R,D,X
+  12,R,D,J
+  12,R,D,X
+   1,R,J
+   1,R
+   7
+  15,D,X
+# 3f too slow :(
+   1,R,D
+   3,L,J,G
+  15,U,X
+  47
+  71,D
+  14,L,Z
+   1,R,J
+  15,R,U,Z
+   1,K
+  14,L,U,Z
+   4,J,G
+   1,R,J
+   7,R
+   6,R,Z
+   1,R,K
+   7,R
+   7,R,D,J
+  15,R,D,X
+   1
+   1,D,J
+   2,J
+   6
+   1,K
    6,R,Z
    1,R,J
-   7,R
-   3,R,D,J
-  15,R,D,X
-  15,U,C
-   8,R,D,X
-   1,R,J
-   7,R
-   1,R,J
-  14,R,D,X
-   1,L,J
-   9,D,X
-   4,R,J,G
-   2,R
-   3,R,J,G
-  10,R,X
+   1
+   6,R
+   1,R,K
+  12,R,D,X
    5,R,J
-  15,U,X
-   8,U,C
+  14,R,U,Z
+   1,J,G
+  13,U,X
   40
 
 #lvl_f--04
@@ -2457,94 +2465,68 @@ EndRepeat
   18,L,J
    1,L,K,G
    4,R,K
-  13,L,K
-  12,K
-  34
-   1,R
-   1
-   1,R
-   1
-  11,L
-  13,L,J
-  15,L,U,X
-  14,L,U,C
-   1,L,J,G
-   4,R,J
-   8,L,J
-   3,J
-   1,L,J
-  11,J
-  15
+   4,L,K
+  19,L
+  48
+   4,X
+  17,L,J
+  15,U,X
+  14,L
+   1,G
+  12,J,G
+   5
+   5,L
+   5
    5,R,X
   17,R,J
   23,R,U,X
-   2,R,J,G
-   4,L,J
-  21,R,J
-   1,J
-   5
-  10,L,D,X
-  30,L,J
-  15,L,U,X
-  48,L,U,C
-   2,L,J,G
-   2,R,J
-   7,L,J
- 109
-   5,R
-  21,R,J
-  20,U,X
-  20,R,J
-  15,U,X
-  21,R
-   1,R,J,G
-   2,R
-   1,R,J,G
-   2,L,J
-   3,R,J
-  11,R
-  16
-  15,D,X
-  11,J
    3
-  14,U,X
-  18,L,J
-   4,K,G
-   4,R,K
-  10,L,Z
-   1,L,J
+  11,J,G
+   5
+   2,R
+   8
    2,L
-   1
+   2
+  10,R,X
+   5,R,J
+  17,L,J
+  16,U,X
+  15,U,C
+   1,L,K,G
+   2,L
+   9,J,G
+   5
+   2,L
+  14,U,X
+   1,R
+  15,U,C
+   4,J,G
+   7,R
+  15,U,X
+  15,U,C
+   1,L,J,G
+   1,R
+   6,L
+   9,L,K
    1,L
-  15,L,Z
-  18,L,V
-  15,L,X
-  15,L,Z
-   1
-  12,L,J
-  11,K,G
-   1,R,K
-   1,R,J
-Repeat,4
-   2,R,K
-   2,L,J
-EndRepeat
+  15,U,X
+  14,L,Z
+   1,L,J
+  11,L
+   8,L,U,Z
+   4,R,J,G
+  17,L
+  20,L,X
+  14,U,C
    9,L,J
-   1,L
-   2,K,G
-   1,R
-   1,L
-   1,J,G
-   1,R
-   1,R,K,G
-   1,R,J,G
-   5,R
-   4
-   4,R,Z
+   9,J
+  11,K,G
+   7,R,K
+   2,R
+   4,Z
    1,R,J
    7,R
-   4,R,J
-   1,R,K,G
+   5,R,K
   15,R,U,X
   14,U,C
  220
@@ -2554,7 +2536,7 @@ EndRepeat
   69
 ## 
 #Spinner Cycle [h-10]
-   2
+   1
 #----
 ## 3000M
    4,R,Z
@@ -3840,4 +3822,4 @@ EndRepeat
 
 AnalogueMode Ignore
 
-ChapterTime: 10:50.794(38282)
+ChapterTime: 10:45.592(37976)
