@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 11524
+RecordCount: 11872
 
 console load nameguysdsidespack/1/3-SummitOld
    1
@@ -2329,48 +2329,45 @@ EndRepeat
    2,R
   15,R,D,X
   29,R,D,C
-# hyper bhop saves 1f but i dont want to touch the next room :3
+   6,R,D,X
    1,R,J
-  14,R,D,X
-   1,R,J
+   7,R
+   1,R,K
    9,R,D,X
   40
 
 #lvl_f--02
+   3,R,D,X
+   1,R,J
    3,R
    1,R,J
-   7,R
-  50,R,J
-  28,R,U,X
-  15,U,C
-  23,R
-  15,R,J
-   7,R,J
-  15,J
-  16,R,Z
-  26,L,V
-   1,L,J,G
-   5,L
    3,R
-  40,J
-  35,L,J
-   8,J
+  29,R,K
+  30,R,U,X
+  24,R,C
+  25,R,U,X
+   8
+   5,L,C
+  19,L,J
+  22
   16,L,Z
-  15,R,V
-  21,R,D
-   5,L,D
-  17,R,J
-  16,L,X
-  13,R
-  15,R,D,X
-  15,R,D,C
-  22,R
+  17,R,V
+  16
+   2,L
+   1
+   8,L,Z
    1,R,J
-  15,R,U,X
-  24,R,U,C
-   1,R,J
-  18,R,U,X
-   3,J,G
+   6,R
+   4,R,D
+   1,R,K
+   5,R
+   6,R,K
+  44,R,Z
+  31,R,X
+   9,R,C
+  13,R,J
+  10,R,X
+  18,R,J
   12,R,Z
    1,R,J
    5,R
@@ -3843,4 +3840,4 @@ EndRepeat
 
 AnalogueMode Ignore
 
-ChapterTime: 10:52.936(38408)
+ChapterTime: 10:50.794(38282)
