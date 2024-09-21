@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 12387
+RecordCount: 12692
 
 console load nameguysdsidespack/1/3-SummitOld
    1
@@ -3243,41 +3243,33 @@ AnalogueMode Precise
   17,F,
    2,F,20
   15,F,23
-  30,F,33.8
-   2,F,27
-   6,F,340
-   5,L,U,Z
-  26
-AnalogueMode Square
-   1,F,260
-AnalogueMode Precise
-  23,F,298.04
-   4,F,320
-   8,F,
-  14,F,0.8
-   1
-   1,R,J
-  10,R,X
-  26
-AnalogueMode Square
-   1,F,69.2
-AnalogueMode Precise
-  18,F,69.2
-  11,F,
-   7,F,320
-  39,F,297.7
-  11,F,
-  15,F,17.5
-   7,F,70
-  12,F,90
-  15,R,U,X
-   1,R
-   3
-  26
-   1,L,U
-  83,F,355.95
+  24,F,42.8
+   1,F,38.19
+  10,F,340
+  29,F,291
+   9,F,350
+  14,U,X
+   2,R,J
+   9,R,X
+AnalogMode, Square
+  27,F,50
+AnalogMode, Precise
+   9,F,90
+  10,F,30
+  10,F,330
+  31,F,291
+  10,F,350
+  18,F,0
+  26,F,23
+  15,R,U,Z
+  14,U,X
+AnalogMode, Square
+  27,F,322
+AnalogMode, Precise
+  43,F,0
   15,U,X
   14,U,C
+# camera locks 1 tile too low to skip this orb
   73
   40
 
@@ -3285,55 +3277,52 @@ AnalogueMode Precise
   65
   17,L,U,X
   15,L,U,C
-  11,L
+   4,L
+   1
+   6,L
    3
    5,R,Z
    1,L,J
-   7,L
-   2,J
-   3,L,K,G
-  14,L,D,X
+   3,L
    1,L,J
-   7,L,U,Z
-  28
-AnalogueMode Square
-   1,F,279.2
-AnalogueMode Precise
-   3,F,279.2
-   6,F,315
-  15,R,U,X
-   7,R,U,C
-  26
-AnalogueMode Square
-   1,F,100
-AnalogueMode Precise
-  18,F,
-  17,F,270
-  17,F,236.45
+   2,L
+   1
+   2,L,K
+   5,L,J,G
+  14,L,X
+  28,L,U
+   3,F,310
+   9,F,0
+   8,F,45
+  15,F,89.5
+  11,F,30
+  11,F,340.1
+  12,F,275
+   9,F,248
   15,L,X
   14,L,Z
    1,L,J
-  12,L,D,X
-   5,L,J
-   2,J
-   3
   11,L,D,X
-   1,L,J
-  28,D
-   1
-   1,L,D
+   5,L,J
+   5,L
+  15,L,D,X
+  14,L
+  13,L,D
+   1,L
   15,L,Z
   15,D,X
-  17
-   8,L
+   2,L
+  13
+  10,L
   20,L,J
   15,U,X
    1,L
   16,U,C
-  12,J,G
+  12,L,J,G
   12,K,G
   13,J,G
-  13,K,G
+  11,K,G
+   2,R,K
   40
 
 #lvl_h-14
@@ -3797,4 +3786,4 @@ EndRepeat
 
 AnalogueMode Ignore
 
-ChapterTime: 10:40.458(37674)
+ChapterTime: 10:38.724(37572)
