@@ -3,11 +3,11 @@ RecordCount: 9204
 #Created by dahlukeh and Fishmcmuffins
 #improvements by pansear and gnommis
 
-console load nameguysdsidespack/0/5-Temple 
+console load monikadsidespack/1/8-TempleOld
    1
 
 #Start
-Read,5D.tas,Start,lvl_d-04
+Read,Old5D.tas,Start,lvl_d-04
 
 #lvl_d-04 (1)
    9,R,D,X
@@ -207,7 +207,7 @@ endrepeat
   40
 
 #lvl_e-01
-Read,5D.tas,lvl_e-01,lvl_e-06
+Read,Old5D.tas,lvl_e-01,lvl_e-06
 
 #lvl_e-06
 #don't need to wait for drift
@@ -308,7 +308,7 @@ Read,5D.tas,lvl_e-01,lvl_e-06
   40
 
 #lvl_e-07
-Read,5D.tas,lvl_e-07,lvl_f-04
+Read,Old5D.tas,lvl_e-07,lvl_f-04
 
 #lvl_f-04
 #~40f, 15 pauses
@@ -349,7 +349,7 @@ EndStunPause
   40
 
 #lvl_f-03
-Read,5D.tas,lvl_f-03,lvl_f-07
+Read,Old5D.tas,lvl_f-03,lvl_f-07
 
 #lvl_f-07
   15,R,X
@@ -395,6 +395,6 @@ Read,5D.tas,lvl_f-03,lvl_f-07
   40
 
 #lvl_f-08
-Read,5D.tas,lvl_f-08
+Read,Old5D.tas,lvl_f-08
 
-ChapterTime: 3:33.656(12568)
+ChapterTime: 3:32.228(12484)
