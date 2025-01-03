@@ -1,4 +1,4 @@
-console load nameguysdsidespack/0/10-Farewell 145652 -39958
+console load monikadsidespack/0/10-Farewell 145652 -39958
    1
   36
 
@@ -836,7 +836,7 @@ EndStunPause
    3,L,K,G
    1,J
   40
- 
+
 #lvl_q-05
    1,K,G
   10,L,K
@@ -911,7 +911,7 @@ EndStunPause
    1,R,K
    1,L,K
   40
- 
+
 #lvl_q-06
    1,J,G
    2,L,J

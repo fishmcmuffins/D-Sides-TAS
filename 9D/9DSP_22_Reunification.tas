@@ -3,7 +3,7 @@
 
 RecordCount: 3763
 
-console load nameguysdsidespack/0/10-Farewell 212416 -50688.1666963995
+console load monikadsidespack/0/10-Farewell 212416 -50688.1666963995
    1
 Set,Session.Inventory.Dashes,2
 
@@ -327,7 +327,7 @@ EndStunPause
 #endstun_v-00-lobby
 Read,9DS_22,endstun_v-00-lobby,lvl_v-00-upper (2)
 
-#lvl_v-00-upper (1)
+#lvl_v-00-upper
    9,D
    1,J
   10

@@ -1,4 +1,4 @@
-console load nameguysdsidespack/1/6-FinalGoodbyeOld 145652 -39958
+console load monikadsidespack/1/6-FinalGoodbyeOld 145652 -39958
    1
 
 #lvl_p-05
@@ -616,7 +616,7 @@ console load nameguysdsidespack/1/6-FinalGoodbyeOld 145652 -39958
    7,R,K,G
    4,D,X
   10,R,X
- 
+
 #CP-40
    1,R,J
    9,R,D
@@ -652,7 +652,7 @@ console load nameguysdsidespack/1/6-FinalGoodbyeOld 145652 -39958
   18,R
    1,R,J
   17,R
- 
+
 #CP-39
    3,R,J
   19,R,D
@@ -686,7 +686,7 @@ console load nameguysdsidespack/1/6-FinalGoodbyeOld 145652 -39958
    3,R,J,G
   11,R,K,G
   23,R,D
- 
+
 #CP-37
    1,R,J
   21,R
@@ -837,7 +837,7 @@ console load nameguysdsidespack/1/6-FinalGoodbyeOld 145652 -39958
    3,L,K,G
    1,J
   40
- 
+
 #lvl_q-05
    1,K,G
   10,L,K
@@ -900,7 +900,7 @@ console load nameguysdsidespack/1/6-FinalGoodbyeOld 145652 -39958
    7,L,K,G
    2,J
   40
- 
+
 #lvl_q-06
    5,L
    1,L,K,G
@@ -1025,7 +1025,7 @@ console load nameguysdsidespack/1/6-FinalGoodbyeOld 145652 -39958
   15,U,X
   11,L,J
   40
- 
+
 #lvl_q-07
    1,R
    3,L

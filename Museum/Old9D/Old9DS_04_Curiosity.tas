@@ -1,4 +1,4 @@
-console load nameguysdsidespack/1/6-FinalGoodbyeOld 21869 -3776
+console load monikadsidespack/1/6-FinalGoodbyeOld 21869 -3776
    1
 
 console givekey
@@ -33,7 +33,7 @@ console givekey
    6,R,D,X
   40
 
-#lvl_cc-02 (1)
+#lvl_cc-02
    1,L,J
   40
 

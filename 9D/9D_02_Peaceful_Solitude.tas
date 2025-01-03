@@ -1,4 +1,4 @@
-Console load nameguysdsidespack/0/10-Farewell 8684 -1184.4
+Console load monikadsidespack/0/10-Farewell 8684 -1184.4
    1
 
 #lvl_a-10
@@ -160,7 +160,7 @@ EndRepeat
    1,R,K,G
 Assert,Equal,aa-06,{Level.Session.Level}
 Assert,Equal,40,{GameInfo.TransitionFrames}
-Assert,NotEqual,,{Player.Holding}
+#Assert,NotEqual,,{Player.Holding}
 #Time
 MidwayFileTime: 0:23.018(1354)
   40

@@ -4,7 +4,7 @@ Set,SaveData.Instance.CheatMode,true
 
 RecordCount: 9116
 
-console load nameguysdsidespack/1/1-CoreOldMashup
+console load monikadsidespack/1/1-CoreOldMashup
    1
 
 #Start
@@ -12,7 +12,7 @@ console load nameguysdsidespack/1/1-CoreOldMashup
 
 #Spinner Cycle [b-02]
    0
-#####
+#
 
 #lvl_00
 Read,Old8DsMashup.tas,lvl_00,lvl_a-01
@@ -1066,9 +1066,9 @@ EndRepeat
    5,U,C
 StunPause
   11,U,C
-SkipInput, 3,1
+SkipInput,3,1
    7,U,X
-SkipInput, 3,1
+SkipInput,3,1
    7,U,C
 EndStunPause
    3

@@ -322,7 +322,7 @@ EndRepeat
    1,R
    1,J,G
   43
-## 
+##
 
 ## Incerno
 #lvl_b-00
@@ -411,7 +411,7 @@ EndRepeat
 StunPause
    1
    1,R
-SkipInput, 3,1
+SkipInput,3,1
   13,R,D,X
    1,R,J
   10,R
@@ -578,7 +578,7 @@ EndRepeat
   28,R,D
    1,R,J
   40
-## 
+##
 
 ## Overflow (rising)
 #lvl_c-01
@@ -841,7 +841,7 @@ EndRepeat
    1,R
   15,R,X
   12,R,Z
-## 
+##
 #Spinner Cycle [c-04]
    1
 #----
@@ -859,9 +859,9 @@ EndRepeat
    5,U,C
 StunPause
   11,U,C
-SkipInput, 3,1
+SkipInput,3,1
    7,U,X
-SkipInput, 3,1
+SkipInput,3,1
    7,U,C
 EndStunPause
    3
@@ -878,7 +878,7 @@ EndStunPause
    6,F,360
   44,F,15
   12,R,Z
-## 
+##
 #Spinner Cycle [space_a]
    0
 #----
@@ -1304,6 +1304,6 @@ EndRepeat
   28,R,U,C
   21,R,U,X
  135,D
-## 
+##
 
 ChapterTime: 3:30.307(12371)

@@ -1,4 +1,4 @@
-console load nameguysdsidespack/1/6-FinalGoodbyeOld 132169 -30311
+console load monikadsidespack/1/6-FinalGoodbyeOld 132169 -30311
    1
 
 console give_golden
@@ -20,7 +20,7 @@ Read,Old9D_14B,Start,lvl_o-09 (1)
   10,U,X
   40
 
-#lvl_o-08 (1)
+#lvl_o-08
   11
   11,J,G
    1,R,J

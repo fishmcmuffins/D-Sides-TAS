@@ -5,7 +5,7 @@ RecordCount: 2105
 
 Set,SaveData.Instance.CheatMode,true
 
-console load nameguysdsidespack/0/10-Farewell
+console load monikadsidespack/0/10-Farewell
    1
 
 console hearts 1
@@ -79,7 +79,7 @@ Read,9DMX_04,endhazardcycle_cc-07
 Read,9D_05,Start,hazardcycle_d-03
 #+12f: Drift wait
   12
-#####
+#
 Read,9D_05,endhazardcycle_d-03,stun_d-03
    3,L
    4,Z
@@ -343,7 +343,7 @@ StunPause
    1,R,J,G
 EndStunPause
    3,R,J
-StunPause 
+StunPause
    5,R,J
    2
 EndStunPause

@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 RecordCount: 14397
-console load nameguysdsidespack/0/10-Farewell 213185 -52448
+console load monikadsidespack/0/10-Farewell 213185 -52448
    1
 
 console give_dsides_plat
@@ -16,7 +16,7 @@ console givekey
 console givekey
 console givekey
 
-#lvl_void (1)
+#lvl_void
  102
    6,R
    8,R,J

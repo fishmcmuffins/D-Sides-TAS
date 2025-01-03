@@ -3,7 +3,7 @@
 
 RecordCount: 2271
 
-console load nameguysdsidespack/0/10-Farewell
+console load monikadsidespack/0/10-Farewell
    1
 
 console hearts 1
@@ -416,7 +416,7 @@ StunPause
    1,R,J,G
 EndStunPause
    3,R,J
-StunPause 
+StunPause
    5,R,J
 EndStunPause
 StunPause

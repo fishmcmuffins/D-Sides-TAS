@@ -3,7 +3,7 @@
 
 RecordCount: 1591
 
-console load nameguysdsidespack/1/6-FinalGoodbyeOld
+console load monikadsidespack/1/6-FinalGoodbyeOld
    1
 
 console hearts 8
@@ -435,7 +435,7 @@ Read,Old9D_21,Start
    2,R
   43
 
-#lvl_v-03 (1)
+#lvl_v-03
 Read,Old9DS_22,lvl_v-03 (1),hazardcycle_v-00-lobby
    3
 Read,Old9DS_22,endhazardcycle_v-00-lobby,stun_v-00-lobby

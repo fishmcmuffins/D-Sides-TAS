@@ -3,7 +3,7 @@
 
 RecordCount: 8923
 
-console load nameguysdsidespack/1/1-CoreOldMashup
+console load monikadsidespack/1/1-CoreOldMashup
    1
 
 # prevent golden from spawning
@@ -409,7 +409,7 @@ Read,Old8DsMashup.tas,lvl_a-03,lvl_a-05
    1,R
    1,J,G
   40
-## 
+##
 
 ## Incerno
 #lvl_b-00 (0)
@@ -634,7 +634,7 @@ EndRepeat
 
 #lvl_b-02
 Read,Old8DsMashup.tas,lvl_b-02,lvl_c-01
-## 
+##
 
 ## Overflow (rising)
 #lvl_c-01
@@ -974,7 +974,7 @@ EndRepeat
    1,R
   15,R,X
   12,R,Z
-## 
+##
 #Spinner Cycle [c-04]
    2
 #----
@@ -992,9 +992,9 @@ EndRepeat
    5,U,C
 StunPause
   11,U,C
-SkipInput, 3,1
+SkipInput,3,1
    7,U,X
-SkipInput, 3,1
+SkipInput,3,1
    7,U,C
 EndStunPause
    3
@@ -1014,7 +1014,7 @@ EndStunPause
   17,U,X
   72
   40
-## 
+##
 
 ## Double Down (sandwich)
 #lvl_c-05
@@ -1439,7 +1439,7 @@ AnalogueMode Precise
   18,R,J
   12,U,X
  135,D
-## 
+##
 
 AnalogueMode Ignore
 

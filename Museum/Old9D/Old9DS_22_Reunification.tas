@@ -1,4 +1,4 @@
-console load nameguysdsidespack/1/6-FinalGoodbyeOld 212416 -49648.166696369648
+console load monikadsidespack/1/6-FinalGoodbyeOld 212416 -49648.166696369648
    1
 
 #lvl_v-00-lobby (1)
@@ -94,7 +94,7 @@ console load nameguysdsidespack/1/6-FinalGoodbyeOld 212416 -49648.166696369648
   15,U,X
    2,L
   40
-   
+
 #lvl_v-00-lobby (2)
   15,U,X
    4,R
@@ -160,7 +160,7 @@ console load nameguysdsidespack/1/6-FinalGoodbyeOld 212416 -49648.166696369648
    9,L,D,X
   43
 
-#lvl_v-07 (1)
+#lvl_v-07
    1,L,J
    3,L
    2

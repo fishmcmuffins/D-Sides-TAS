@@ -1,4 +1,4 @@
-console load nameguysdsidespack/0/10-Farewell 121024 -23719 0 -240
+console load monikadsidespack/0/10-Farewell 121024 -23719 0 -240
    1
 
 console give_dsides_plat
@@ -72,7 +72,7 @@ StunPause
    1,R,J,G
 EndStunPause
    5,R,J
-StunPause 
+StunPause
    3,R,J
    5
    3,L,K,G

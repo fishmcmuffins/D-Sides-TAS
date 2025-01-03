@@ -1,6 +1,6 @@
 #By Lmjacks and gnommis
 
-console load nameguysdsidespack/0/9-Epilogue
+console load monikadsidespack/0/9-Epilogue
    1
 
 #Start
@@ -584,7 +584,7 @@ Read,0 - Epilogue.tas,lvl_b-07,lvl_b-08
    1,L,J
    2,L
   40
-  
+
 #lvl_thegate (3)
   10,L
    1,L,J

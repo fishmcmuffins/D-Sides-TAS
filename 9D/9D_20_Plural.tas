@@ -2,7 +2,7 @@
 # https://gamebanana.com/mods/150759
 
 RecordCount: 3497
-console load nameguysdsidespack/0/10-Farewell 188372.063894272 -48424 48.66644 0
+console load monikadsidespack/0/10-Farewell 188372.063894272 -48424 48.66644 0
    1
 Set,Session.Inventory.Dashes,2
 

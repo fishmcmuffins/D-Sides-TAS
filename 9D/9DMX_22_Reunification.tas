@@ -3,7 +3,7 @@
 
 RecordCount: 3620
 
-console load nameguysdsidespack/0/10-Farewell 212416 -50688.1666963995
+console load monikadsidespack/0/10-Farewell 212416 -50688.1666963995
    1
 Set,Session.Inventory.Dashes,2
 
@@ -16,7 +16,7 @@ Repeat,22
 console givekey
 EndRepeat
 
-#lvl_v-00-lobby (1)
+#lvl_v-00-lobby
 #wait for orb entry
 #moon block cycle
   57

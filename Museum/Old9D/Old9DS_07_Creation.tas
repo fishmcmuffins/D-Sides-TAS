@@ -1,4 +1,4 @@
-console load nameguysdsidespack/1/6-FinalGoodbyeOld dd-04
+console load monikadsidespack/1/6-FinalGoodbyeOld dd-04
    1
 
 #lvl_dd-04
@@ -19,7 +19,7 @@ console givekey
    8,R,K,G
   40
 
-#lvl_dd-00-lobby (1)
+#lvl_dd-00-lobby
    3
    1,R
   13,U,X

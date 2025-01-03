@@ -2,7 +2,7 @@ RecordCount: 1498
 
 Set,SaveData.Instance.CheatMode,true
 
-console load nameguysdsidespack/1/7-ResortNew
+console load monikadsidespack/1/7-ResortNew
    1
 
 #Start
@@ -349,5 +349,5 @@ Read,Old3D,lvl_c-01,lvl_d-06
 
 #lvl_d-08
 Read,Old3D,lvl_d-08
-   
+
 ChapterTime: 3:54.209(13777)

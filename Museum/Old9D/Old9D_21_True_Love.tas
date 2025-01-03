@@ -1,4 +1,4 @@
-console load nameguysdsidespack/1/6-FinalGoodbyeOld u-01
+console load monikadsidespack/1/6-FinalGoodbyeOld u-01
    1
 
 #lvl_u-01
@@ -419,7 +419,7 @@ console load nameguysdsidespack/1/6-FinalGoodbyeOld u-01
 #can't be with 30 deg of vertical
 #abs(seeker.y - maddy.y) < 24 px
 #abs(seeker.x - maddy.x) > 16 px
-#there can't a wall between the 
+#there can't a wall between the
 #seeker and its target
 #so we want to lure the seeker down
 #but always have one of those conditions

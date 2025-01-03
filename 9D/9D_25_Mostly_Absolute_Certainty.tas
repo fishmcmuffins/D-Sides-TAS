@@ -1,4 +1,4 @@
-console load nameguysdsidespack/0/10-Farewell 226120 -52600
+console load monikadsidespack/0/10-Farewell 226120 -52600
    1
 
 #lvl_w-08
@@ -884,20 +884,20 @@ EndStunPause
    1,R,J
    6,R,D,X
   13,G
-  101,R,U,J,G
-4,R
-15,R,U,X
-7
-5,R,U,X
-66,R,G,D
-15,R,J
-10,R,X
-14,R,G
-76,R,G,J,U
-32,R,G,D
-106,G,D
-24,G,D
-25,R,G,D
+ 101,R,U,J,G
+   4,R
+  15,R,U,X
+   7
+   5,R,U,X
+  66,R,D,G
+  15,R,J
+  10,R,X
+  14,R,G
+  76,R,U,J,G
+  32,R,D,G
+ 106,D,G
+  24,D,G
+  25,R,D,G
 Assert,Equal,w-20,{Level.Session.Level}
 Assert,Equal,40,{GameInfo.TransitionFrames}
 #Time

@@ -3,7 +3,7 @@
 
 RecordCount: 5669
 
-console hard nameguysdsidespack/0/3-Resort
+console hard monikadsidespack/0/3-Resort
    1
 
 #Start
@@ -558,7 +558,7 @@ console hard nameguysdsidespack/0/3-Resort
   12,R,K
   12,L,J
   40
-## 
+##
 
 ## Tower of Dust
 #lvl_b-01
@@ -893,7 +893,7 @@ console hard nameguysdsidespack/0/3-Resort
   15,U,C
    1,R,J,G
    7,R
-## 
+##
 
 ## Cellar Cleanup
    5,L,Z
@@ -1183,7 +1183,7 @@ console hard nameguysdsidespack/0/3-Resort
    2,K,G
    1,J
   40
-## 
+##
 
 ## Staircase Sweep
 #lvl_c-05
@@ -1376,7 +1376,7 @@ console hard nameguysdsidespack/0/3-Resort
    1,R,J
   13,U,X
   40
-## 
+##
 
 ## Remainder
 #lvl_d-01
@@ -1759,7 +1759,7 @@ console hard nameguysdsidespack/0/3-Resort
   15,R,C
   21,R,D
   11,D
-## 
+##
 #Spinner Cycle [d-04]
    1
 #-----
@@ -1971,6 +1971,6 @@ EndStunPause
   15,U,X
   15,U,C
  135,L,D
-## 
+##
 
 ChapterTime: 4:34.210(16130)

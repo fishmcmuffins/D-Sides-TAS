@@ -5,7 +5,7 @@ RecordCount: 10634
 
 Set,SaveData.Instance.CheatMode,true
 
-console load nameguysdsidespack/1/2-SummitOldOld
+console load monikadsidespack/1/2-SummitOldOld
    1
 
 #Start
@@ -13,7 +13,7 @@ console load nameguysdsidespack/1/2-SummitOldOld
 
 #Spinner Cycle [b-01]
    2
-#####
+#
 
 #lvl_a-00_intro
 #this room already picks up
@@ -22,7 +22,7 @@ Read,OldOld7D.tas,lvl_a-00_intro,Spinner Cycle [d-05]
 
 #Spinner Cycle [d-05]
    2
-#####
+#
    6,R,Z
    1,R,J
    3,R
@@ -176,7 +176,7 @@ Read,OldOld7D.tas,lvl_f-01 (3),lvl_f-02
   15,R,D,X
 #Big Boy Key Cycle
  941,R
-#####
+#
    4,L,Z
    2,L,J
    2,L
@@ -204,7 +204,7 @@ Read,OldOld7D.tas,lvl_f-03,lvl_g-01
 
 #Spinner Cycle [g-02]
    1
-#####
+#
 
   15,L,U,X
   15,L,U,C
@@ -256,7 +256,7 @@ Read,OldOld7D.tas,lvl_g-02,lvl_i-01
   15,D,X
 #Key Cycle Wait
   61
-#####
+#
    1,R
    1
    1,R
