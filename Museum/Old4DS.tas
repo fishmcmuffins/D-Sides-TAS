@@ -1,10 +1,10 @@
 RecordCount: 2244
 
-console load nameguysdsidespack/0/4-Ridge
+console load monikadsidespack/1/9-RidgeOld
    1
 
 #Start
-Read,4D.tas,Start,lvl_c-04n
+Read,Old4D.tas,Start,lvl_c-04n
 
 #lvl_c-04n
    5,R
@@ -134,7 +134,7 @@ EndRepeat
   40
 
 #lvl_c-05w
-Read,4D.tas,lvl_c-05w
+Read,Old4D.tas,lvl_c-05w
 
 ChapterTime: 3:19.155(11715)
 
