@@ -1,9 +1,9 @@
-RecordCount: 10756
+RecordCount: 10757
 
 #Created by dahlukeh and Fishmcmuffins
 #improvements by pansear and gnommis
 
-console load nameguysdsidespack/0/5-Temple 
+console load monikadsidespack/1/8-TempleOld
    1
 
 #Start
@@ -177,7 +177,7 @@ console load nameguysdsidespack/0/5-Temple
    6,R
   15,R,X
    8,R
-## 
+##
 
 ## Main Hall
   34,U,X
@@ -292,7 +292,7 @@ console load nameguysdsidespack/0/5-Temple
   15,R,X
    2,R
   75,O
-## 
+##
 #Spinner Cycle
    1
 #-------------
@@ -362,7 +362,7 @@ EndStunPause
   11,R
   15,R,Z
   14,R
-## 
+##
 
 ## Upper Passage
   17,U,X
@@ -561,7 +561,7 @@ endrepeat
    1,L,K
    1,L,J
    1,L
-## 
+##
 
 ## Into the Mirror
   15,L,D,X
@@ -708,7 +708,7 @@ endrepeat
   12,U,X
    1,L
   40
- 
+
 #lvl_e-05
    2,J,G
    3
@@ -764,7 +764,7 @@ endrepeat
 #lvl_e-06
    6,R,J,G
    5,R
-## 
+##
 #f-05 Waiting Frames
 #multiple of 3
  114
@@ -850,7 +850,7 @@ endrepeat
    1,J
    3,K,G
   14,L,U,X
-## 
+##
 #f-04 Spinner Cycle
    2
 #--------------
@@ -976,7 +976,7 @@ SkipInput,8,2
   10,D
 EndStunPause
   16,D,X
-## 
+##
 #f-05 Spinner Cycle
    2
 #--------------
@@ -1112,7 +1112,7 @@ EndStunPause
   42
   15,D,X
   42
-## 
+##
 #f-12 spinner cycle
    2
 #--------------
@@ -1316,6 +1316,6 @@ endstunpause
    1,R
   15,L,X
  126
-## 
+##
 
 ChapterTime: 3:14.361(11433)
