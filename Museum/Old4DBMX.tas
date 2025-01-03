@@ -5,7 +5,7 @@ RecordCount: 3731
 
 Set,SaveData.Instance.CheatMode,true
 
-console hard nameguysdsidespack/0/4-Ridge
+console hard monikadsidespack/1/9-RidgeOld
    1
 
 #Start
@@ -54,6 +54,6 @@ console hard nameguysdsidespack/0/4-Ridge
   40
 
 #lvl_a-02
-Read,4DB.tas,lvl_a-02
+Read,Old4DB.tas,lvl_a-02
 
 ChapterTime: 3:31.990(12470)
