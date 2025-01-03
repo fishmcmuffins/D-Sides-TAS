@@ -1,9 +1,9 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 3696
+RecordCount: 3697
 
-console hard nameguysdsidespack/0/4-Ridge
+console hard monikadsidespack/1/9-RidgeOld
    1
 
 #Start
@@ -220,7 +220,7 @@ console hard nameguysdsidespack/0/4-Ridge
   22,R
   15,R,Z
    4,R
-## 
+##
 
 ## Overhang
   17,R,U,X
@@ -612,7 +612,7 @@ EndRepeat
   22,R,J
   13,R,K,G
    6,R,Z
-## 
+##
 
 ## Clouded Climb
    1,R,J
@@ -986,7 +986,7 @@ EndRepeat
    8,K,G
    3,R
    4
-## 
+##
 
 ## Shimmering Finale
    4,R,Z
@@ -1374,6 +1374,6 @@ EndRepeat
   15,D,X
    5,L,D
  135,R,D
-## 
+##
 
 ChapterTime: 3:31.786(12458)
