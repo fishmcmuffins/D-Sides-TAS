@@ -1,6 +1,6 @@
-RecordCount: 2022
+RecordCount: 2023
 
-console load nameguysdsidespack/0/4-Ridge
+console load monikadsidespack/1/9-RidgeOld
    1
 
 #Start
@@ -377,7 +377,7 @@ console load nameguysdsidespack/0/4-Ridge
   14,R,D,X
    1,R,J
    5,R,U,Z
-## 
+##
 
 ## Heavywinds
   15,R,X
@@ -788,7 +788,7 @@ console load nameguysdsidespack/0/4-Ridge
   21,R,J
    2,R
    3
-## 
+##
 
 ## Snowstorm
    4,Z
@@ -1303,7 +1303,7 @@ AnalogMode Precise
   14,L
   38,R
   83,G
-## 
+##
 
 ChapterTime: 3:04.195(10835)
 
