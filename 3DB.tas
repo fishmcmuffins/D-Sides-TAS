@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 6344
+RecordCount: 6457
 
 console hard monikadsidespack/0/3-Resort
    1
@@ -368,48 +368,51 @@ console hard monikadsidespack/0/3-Resort
    8,R
    2
   15,D,X
+##
+
+## Tower of Dust
    6,L,Z
    1,R,J
    7,R
-  41,R,J
-  12,K,G
-  12,J,G
-  10,K,G
-   9,R,J,G
-   4,J
-  15,R,U,X
-   3
-   6,R,Z
+  33,R,J
+  14,U,X
+  25,R,K
+  12,R,Z
   40
 
 #lvl_a-06
-   9
+   5,R
   15,D,X
-   8,L
-  15
-  11,R,Z
-   5,R,J
-  20,R,J
+  24
+  13,R,Z
+  22,R,J
+   3,R
   15,R,U,X
    6,R
    8
-  14,U,C
-  69,R,J
-  15,R,X
-   6
-  15,U,C
-  44,R
-   1,R,J,G
-   6,R,K,G
-  15,R,U,X
-  15,R,U,C
-   9
-  30,R,D
-   2
-  13,J
-  15,R,Z
+  14,U,Z
+  18,R,J
+   8,R
    1,R,J
-  14,R,D,X
+  28,R,D
+   3,D
+  21,R,X
+  15,R,U,Z
+   8
+  23,R,D
+   2,R
+   1,R,D
+  10,R,K,G
+   2,R
+  16,R,U,X
+  50,R,U,C
+   4,R,D
+   1,R
+   1,R,J
+  10,L,D,X
+   1,R,K
+   4,R
+  10,R,D,X
   40
 
 #lvl_a-07
@@ -563,9 +566,7 @@ console hard monikadsidespack/0/3-Resort
   12,R,K
   12,L,J
   40
-##
 
-## Tower of Dust
 #lvl_b-01
   11
    1,R,J
@@ -1766,7 +1767,7 @@ console hard monikadsidespack/0/3-Resort
   11,D
 ##
 #Spinner Cycle [d-04]
-   0
+   2
 #-----
 ## Remainder (cont.)
    6,L,D,X
@@ -1978,4 +1979,4 @@ EndStunPause
  135,L,D
 ##
 
-ChapterTime: 4:32.731(16043)
+ChapterTime: 4:31.711(15983)
