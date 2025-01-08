@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 4024
+RecordCount: 4127
 
 console hard monikadsidespack/0/4-Ridge
    1
@@ -10,7 +10,7 @@ console hard monikadsidespack/0/4-Ridge
   84
 
 #Spinner Cycle [d-11]
-   0
+   1
 #-----
 
 ## Start
@@ -18,31 +18,18 @@ console hard monikadsidespack/0/4-Ridge
    8,L,Z
    1,R,J
    7,R
-   3,R,J
-   3,R
-  12,R,D,X
-   1,R,J,G
-  10,R
-   8,R,J
+  12,R,J
+  15,R,D,X
+   7,R,D,J
    5,R
   14,R,U,X
-   1,R,J,G
-   1,J
-   3,R,J
-  10,R
-   1
-   9,R
-   8,R,J,G
-   7,R
-   1,R,J
-   2,R
-   1,R,J
-   9,R
-   2,J
-  11,R,J
-   1,R,K,G
-   7,R,J,G
-  52,R
+   4,R,J,G
+  19,R
+  28,R,J,G
+   2,R,K,G
+   5,R
+   2,R,J
+  35,R,D
   15,D,X
    3
   15,R,C
@@ -284,8 +271,7 @@ EndRepeat
    9,R,D,X
    1,R,J
    1,R
-   3
-  40
+  43
 
 #lvl_a-05
    1
@@ -1256,8 +1242,7 @@ EndRepeat
   14,R,D,X
   21,R,J
   15,R,X
-  17,R
-  32,R
+  49,R
    6,G
   23,U,G
    1,R
@@ -1461,8 +1446,7 @@ EndRepeat
    1,R,J
    1,K
    1,J
-  43,R,J
-  10,R,J
+  53,R,J
    5,J
    1,R,J
    3,J
@@ -1478,8 +1462,7 @@ EndRepeat
    1,J
    1,K
   28,R,K
-   7,L,K
-  46,L,K
+  53,L,K
    1,L,J,G
    4,L,K,G
    5,L
@@ -1830,8 +1813,7 @@ EndStunPause
   15,R,C
   19,R
   15,R,X
-  13,R
-  15,R
+  28,R
   10,L,X
   18,R,J
   15,R,X
@@ -2068,6 +2050,6 @@ EndRepeat
  135,R,U
 ##
 
-ChapterTime: 4:32.323(16019)
+ChapterTime: 4:31.762(15986)
 
 AnalogueMode Ignore
