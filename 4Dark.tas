@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 3908
+RecordCount: 4024
 
 console hard monikadsidespack/0/4-Ridge
    1
@@ -10,7 +10,7 @@ console hard monikadsidespack/0/4-Ridge
   84
 
 #Spinner Cycle [d-11]
-   2
+   0
 #-----
 
 ## Start
@@ -654,18 +654,33 @@ EndRepeat
   25,L,K
    5,L
    2,J
+   7
+   2,J
+   7
+   2,R,J
+   7
+   3,R,J
+   7
+   2,J
+   5,R
+   2
+   6,J
+   2
+   3,J
+   4
+  10,L,J
+   1,L
+   5
+  12,R,Z
    1,L,J
-  23,J
-   1,R,G
-  49,G
-   1,J,G
-   1,L,J
+   7,L,K,G
+   1,L
+   5,L,K
+   1,L
    1,L,K
-  19,L,J
-  24,L,D,X
-   8,L,J
-  14,U,X
-  14,L,J
+  15,L,D
+  14,U,Z
+  17,L,J
   40
 ##
 
@@ -2053,6 +2068,6 @@ EndRepeat
  135,R,U
 ##
 
-ChapterTime: 4:32.476(16028)
+ChapterTime: 4:32.323(16019)
 
 AnalogueMode Ignore
