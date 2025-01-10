@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 7911
+RecordCount: 8068
 
 AnalogMode Precise
 
@@ -1154,73 +1154,88 @@ console hard monikadsidespack/0/3-Resort
 
 ## Staircase Sweep
 #lvl_c-05
-   4,R
-   7,R,J,G
-  15,R,U,X
-  10,R,U,C
+
+   3,R
    1,R,J,G
-  10,R
-  17,R,J
-  15,R,U,Z
-  12,R
-  15,D,X
-  16,R,D
-  15,R,Z
-   8,R,U,X
-   1,L,J,G
-  12,R,J
-  12,L,K
-  50,R,J
-   3
-  10,D
-   2,R,D
-  15,R,Z
-  10,U,C
-  12,R,J
-   3,J
-  11,L,K
-   1,J,G
-   1,R,J
-  10,R,K
-  16,R
-   6,R,J
-  25,R,D
-   4,D
-   1,R,D
-   1,D
-   8,R,J
-  32,R,D
-  14,R,X
-   6,R,J
-   9,R
+   9,R,K,G
   15,U,X
-  24,R,D,C
-   1,R,K
-   1,R
-   9
-  15,R,Z
-  14,R
-  15,R,Z
-  11,R
-   1,R,J,G
-   9,R
-   7,L,Z
+   3,L
+   4
+   4,Z
    1,R,J
+   3,R
+   1,R,J
+   3,R
+   8,R,K
    7,R
+  15,R,U,Z
+  15,D,X
+  10,R,D
+  22,R,Z
+   1
+  15,R,U,V
+   1,J
+  10,L,J
+   1,K
+   9,R,K
+  45,R
+   5,R,D
+   1,R
+   1
+  13,R,U,Z
+   1,L
+   6,J,G
+  21,R,J
+  11,U,Z
+  10,R,K
+   2,R
+   1
+   1,R
+   1
+  12,R
+  13,D
+   1,J
+   6,R,J
+   5,R
    1,R,J
+  19,R
+   2
+   2,R
+   8,L
+   4,Z
+   2,R,K
+   4,R
+   7,R,J
+   7,R
+   3
   15,U,X
-  26,R,Z
-  15,R,V
-  15,R,D,X
+  15,R,D,C
+   5,R,D
+   2,R
+   2
+   4,Z
+  12,R,J
+  11,R
+  30,R,X
+   4,R,K
+   4
+   3,R
+   2,R,K
+  15,R,Z
+  10,R,U,X
+   1,R,J,G
    8,R
-  15,R,U,X
-  18,U,C
-  16,R
-  21,R,D,X
-   6,D
-  14,R
-  28,R,U,Z
-  16,R,V
+  15,R,D,X
+   6,R
+   3,R,D
+  27,R,U,C
+  15,U,X
+   6,R
+  28,R,C
+  29,R,X
+  26,R,U,C
+   1,K,G
+   7,R
    6,R,Z
    1,R,J
    7,R
@@ -1728,7 +1743,7 @@ console hard monikadsidespack/0/3-Resort
   11,D
 ##
 #Spinner Cycle [d-04]
-   1
+   2
 #-----
 ## Remainder (cont.)
    6,L,D,X
@@ -1944,6 +1959,6 @@ EndStunPause
  135,L,D
 ##
 
-ChapterTime: 4:09.543(14679)
+ChapterTime: 4:08.268(14604)
 
 AnalogMode Ignore
