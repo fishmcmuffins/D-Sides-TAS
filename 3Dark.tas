@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 8392
+RecordCount: 8471
 
 AnalogMode Precise
 
@@ -1412,143 +1412,81 @@ console hard monikadsidespack/0/3-Resort
    8,R
    2
 ##
-
+#Spinner Cycle [d-02]
+   0
+# ----------
 ## Remainder
-   7,R,Z
+
+   4,Z
    1,R,J
-   7,R
-   1,R,K
-   6,R,D,X
+   1,R
+   1,R,J
+   5,R
+   6,R,K
   40
 
-#lvl_d-02
+   2,K
+  16,R,K
+  35,R,U,X
+  19,R,U,C
+   1
+   1,R
+   1
+   1,R
+  13
+   9,R
+  14,R,D
+   4,Z
+   2,R,J
+   8,R
+   1,R,K
+   7,R,D,X
+  11,R,J
    8,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-  15,D,X
-   1,R
-   4,L,Z
-   1,L,J
-   7,L
-   3,L,D,J
-   1,J
-   1,L
-  21,R,U,X
-  15,R,U,C
-  30,R,D
-  10,D
-   8,J
    4,R,J
-  15,U,X
-   2,R
-  15,R,C
-  22,R
-   9,L,D
-  10,R,D,X
-   6,R,J
-  15,U,X
-  16,R
-  14,R,Z
-   5,J,G
-   7,R
-   5,R
-   4
-   2,R
-  15,L,X
-  11,L,D
-  18,R,D
-   8,D
-  15,R,X
-   6,L
-   2,R,J
-  15,R,X
-   4,R
-  14,R,Z
-   7,R,J
-  15,U,X
-  10,R
-   1
-   3,J,G
-   2,L,J
-  14,R,Z
-   1,R,J
-  11,R,X
-  10,J,G
-   7,R
-  15,U,X
-  15,D,C
-   5,J
-  11,L,J
+   9,R
+   1,R,K
   14,R,D,X
    1,R,J
-  15,D,X
-   6,L,D
-  14,L,D,X
-   1,L,J
-  10,L,D,X
-   1,R,J
-   3,R
-   1,R,J
-   3,R
-   2,R,J
-  15,R,X
-   6,R,D,C
-   1,R,J
-   7,R
-   1,R,J
-   8,D,X
-   7
-  18,R
-  16,R,U,X
-   1
-   1,R
-  18,U,C
-   4,L
-   3
-  16,L,X
-  33,D,C
-   4,R,D
-   7,R,Z
-   1,R,J
-   6,R
-   1,R,J
-  12,R,D,X
-   3,L,J
-  15,U,X
-  14,R,Z
+  14,R,D,X
    1,R,J
   10,R,D,X
-   1,L,J
-   7,L
-   1,L,D,J
-   7,L
-  15,U,X
-  15,R,C
+   4,R,J
    2,R
-  16,D
-   2,R,D
-   4,D
-   3
-  15,U,X
-   1,R
-  14,R,Z
+  14,R,D,X
    1,R,J
   14,R,D,X
    6,R,J
+   2,R
+  15,U,X
+   6,R,Z
+StunPause
+   8,R,Z
+   5,R,K
+SkipInput 3 1
+  15,U,X
+SkipInput 3 1
+  13,R,C
+   4,J
+SkipInput 3 1
+   8,R,U,Z
+   1,R,K,G
+   3,K
+EndStunPause
+   8,R,K
+  15,R,D,X
   40
 
 #lvl_d-03
-  15,R,X
-  30,D
+  15,R,C
+   7,R,D
+  24,D
   15,R,X
   18,D
    2,R,D
    2,D
-   1,R,D
-   1,D
-   1,R,D
-   3,D
+   2,R,D
+   4,D
    1,L,J
   13,L,D
    6,D
@@ -1964,6 +1902,6 @@ EndStunPause
  135,L,D
 ##
 
-ChapterTime: 4:04.188(14364)
+ChapterTime: 3:59.751(14103)
 
 AnalogMode Ignore
