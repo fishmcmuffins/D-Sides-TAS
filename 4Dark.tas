@@ -1,10 +1,18 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 4127
+RecordCount: 4143
 
 console hard monikadsidespack/0/4-Ridge
    1
+
+# tame the windsnow
+evallua alpha = 0.24 i = 0 while i < level.Foreground.Backdrops.Count do backdrop = level.Foreground.Backdrops[i] onlyin = System.String[1000] backdrop.OnlyIn:CopyTo(onlyin) j = 0 while j < onlyin.Length do shouldHide = true if not invokeMethod(onlyin[j], "Contains", "_a") then shouldHide = false break else j = j + 1 end if shouldHide then backdrop.Alpha = alpha end end i = i + 1 end
+
+# put decals in background
+AutoInput 5
+evallua decals = getEntities("Decal") i = 0 while i < decals.Count do if invokeMethod(decals[i].Name, "Contains", "mysterycloud") then decals[i].Depth = 9000 end i = i + 1 end decals = nil i = nil
+StartAutoInput
 
 #Start
   84
@@ -1761,6 +1769,7 @@ AnalogueMode Precise
   17,F,90
   37,R,D
   15,R,X
+EndAutoInput
 StunPause
    3,R
   26
@@ -1769,6 +1778,9 @@ AnalogueMode Square
 AnalogueMode Precise
    8,F,88
 EndStunPause
+AutoInput 5
+evallua decals = getEntities("Decal") i = 0 while i < decals.Count do if invokeMethod(decals[i].Name, "Contains", "mysterycloud") then decals[i].Depth = 9000 end i = i + 1 end decals = nil i = nil
+StartAutoInput
    3,F,88
   25,F,45
   48,F,83
@@ -2049,6 +2061,8 @@ EndRepeat
    4,R,U,Z
  135,R,U
 ##
+
+EndAutoInput
 
 ChapterTime: 4:31.762(15986)
 
