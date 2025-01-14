@@ -1,14 +1,17 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 8052
+RecordCount: 8053
 
 console hard monikadsidespack/0/5-Temple
    1
 
+evallua alpha = 0.55 for i = 0, level.Foreground.Backdrops.Count - 1 do if invokeMethod(level.Foreground.Backdrops[i].Name, "Contains", "mirror_veil") then level.Foreground.Backdrops[i].Alpha = alpha break else i = i + 1 end end i = nil
+
 #Start
   57
 
+## Start
 #lvl_a-00
   13
   22,R,J
@@ -214,7 +217,9 @@ console hard monikadsidespack/0/5-Temple
   11,R,D,J
    8,U,X
   43
+##
 
+## Cipher
 #lvl_b-01
   10,L,J
    2,J
@@ -852,9 +857,11 @@ EndRepeat
    2,R,J,G
   25,R,D
   15,R,Z
-# Spinner Cycle
+##
+# Spinner Cycle [b-07]
    1
-###
+# -------------
+## Sigil
   22,R,U,X
   26,R,J,G
   14,U,X
@@ -946,7 +953,9 @@ EndStunPause
   16,R,U,X
   36,D,C
   40
+##
 
+## Contact
 #lvl_c-00dark
    9
   15,R,D,X
@@ -1363,7 +1372,7 @@ EndRepeat
    1,J
    1,K,G
 # A cycle has to be skipped
-# here 
+# here
   18,L,D
   15,L,X
   15,L,D
@@ -1379,7 +1388,9 @@ EndRepeat
   30,R,C
   15,U,X
   40
+##
 
+## Red Reversion
 #lvl_d-00dark
    1,R
    2,R,J
@@ -1955,4 +1966,8 @@ EndRepeat
    3,L,Z
    1,L,J,G
   57,L
+##
+
 ChapterTime: 4:49.510(17030)
+
+AnalogMode Ignore
