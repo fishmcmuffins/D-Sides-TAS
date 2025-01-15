@@ -1,7 +1,9 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 4201
+RecordCount: 4314
+
+AnalogueMode Precise
 
 console hard monikadsidespack/0/4-Ridge
    1
@@ -1747,58 +1749,39 @@ EndRepeat
    1,R,J
    3,R
   14,R,Z
-   6,R,J
-   5,R,X
-  26
-   1,R,D
-AnalogueMode Precise
-  38,F,90.76
-   9,F,90
-  56,F,81.792
+   7,R,J
+  27,R,D
+  36,F,97
+  11,F,90
+  56,F,81.6
   17,F,90
-  37,R,D
-  15,R,X
-EndAutoInput
-StunPause
-   3,R
-  26
-AnalogueMode Square
-   1,F,90.3
-AnalogueMode Precise
-   8,F,88
-EndStunPause
-AutoInput 5
-evallua decals = getEntities("Decal") i = 0 while i < decals.Count do if invokeMethod(decals[i].Name, "Contains", "mysterycloud") then decals[i].Depth = 9000 end i = i + 1 end decals = nil i = nil
-StartAutoInput
-   3,F,88
-  25,F,45
-  48,F,83
-  22,F,52
-   2,F,60
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   2,L,K
-   5,R,Z
-  16,R,J,G
-  26
-   1,R,D
-  27,F,115.4
-  22,F,122
-  10,F,102
-   9,F,90
+  36,R,D
+  16,R,X
+   3
+  27,R,U
+   3,F,38
+  16,R,Z
+  27,R,U
+   2,F,0
+  62,F,79.8
+  10,F,18
+  14,F,350
+   6,F,1
+   2,F,120
+  10,F,124.6
+   8,F,70
+  36,F,106.3
+  29,F,116
+  11,F,90
   40
 
 #lvl_d-12
-   4,F,90
-  47,F,70.2
-  21,R,U
-  20,R,X
+   2,F,88
+  35,F,71.5
+   6,F,10
+   1,F,0,0.69
+  35,R
+  24,R,X
   15,R,C
   12,R,X
   20,R,C
@@ -2053,6 +2036,6 @@ EndRepeat
 
 EndAutoInput
 
-ChapterTime: 4:29.569(15857)
+ChapterTime: 4:26.220(15660)
 
 AnalogueMode Ignore
