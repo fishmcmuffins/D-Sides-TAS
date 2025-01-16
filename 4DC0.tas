@@ -1,0 +1,95 @@
+# Monika's D-Sides
+# https://gamebanana.com/mods/150759
+
+RecordCount: 3407
+
+console load monikadsidespack/0/4-Ridge
+   1
+
+#Start
+Read,4D,Start,lvl_b-07
+
+#lvl_b-07
+   2,R
+   1,R,J,G
+   1,R,K,G
+   7,R
+   4,R,Z
+   1,R,J
+   3,R
+   1,R,J
+   3,R
+   3,R,J
+  14,R,Z
+   1,R,J
+   1,R
+   9,L,D,X
+   1,R,J
+   1,R
+   1,R,J
+   2,R
+  11,R,J
+   5,R
+  15,R,D,X
+  11,R,J
+  15,R,D,X
+   5,R
+   9,R,J
+  13,R
+  14,R,Z
+   1,R,J
+   2,R
+   9,L,D,X
+   1,R,J
+   1,R
+   1,R,J
+   2,R
+   6,R,J
+  13,R
+   4,R,J
+   3,R
+   1,R,J
+   2,R
+  15,D,X
+#any%-end
+   4,R,D
+   9,L,D
+  40
+
+#lvl_c-01
+  15,L,D
+  10,L,D,X
+   5,L,J
+  40
+
+#lvl_c-01a
+  14,L,D,X
+   1,L,J
+  14,L,D,X
+   1,L,J
+  13,L,D,X
+   1,L,J
+   3,L
+   1,L,J
+   3,L
+   1,L,D,J
+   4,L,K,G
+   1,L
+   1,L,J
+   3,L
+   1,L,J
+   1,L
+  15,D,X
+   5,R,D
+   4,R,Z
+   1,R,J
+  12,R
+ 257
+   1,J
+  62
+
+MidwayFileTime: 1:37.699(5747)
+
+   1,S
+   1,U,J
+  32,O
