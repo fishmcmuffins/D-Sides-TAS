@@ -1,7 +1,10 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 4763
+RecordCount: 4765
+
+# put decals in background
+evallua for i = 0, Celeste.AreaData.Areas.Count - 1 do ad = Celeste.AreaData.Areas[i] if ad.SID == "monikadsidespack/0/4-Ridge" then md = ad.Mode[1].MapData break end end if md ~= nil then for j = 0, md.Levels.Count - 1 do room = md.Levels[j] k = 0 while k < room.FgDecals.Count do decal = room.FgDecals[k] if invokeMethod(decal.Texture, "Contains", "mysterycloud") then room.FgDecals:RemoveAt(k) room.BgDecals:Add(decal) else k = k + 1 end end end end
 
 AnalogueMode Precise
 
@@ -10,11 +13,6 @@ console hard monikadsidespack/0/4-Ridge
 
 # tame the windsnow
 evallua alpha = 0.24 i = 0 while i < level.Foreground.Backdrops.Count do backdrop = level.Foreground.Backdrops[i] onlyin = System.String[1000] backdrop.OnlyIn:CopyTo(onlyin) j = 0 while j < onlyin.Length do shouldHide = true if not invokeMethod(onlyin[j], "Contains", "_a") then shouldHide = false break else j = j + 1 end if shouldHide then backdrop.Alpha = alpha end end i = i + 1 end
-
-# put decals in background
-AutoInput 5
-evallua decals = getEntities("Decal") i = 0 while i < decals.Count do if invokeMethod(decals[i].Name, "Contains", "mysterycloud") then decals[i].Depth = 9000 end i = i + 1 end decals = nil i = nil
-StartAutoInput
 
 #Start
   84
@@ -2018,8 +2016,6 @@ EndRepeat
    4,R,U,Z
  135,R,U
 ##
-
-EndAutoInput
 
 ChapterTime: 4:18.349(15197)
 
