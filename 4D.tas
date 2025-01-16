@@ -9,6 +9,7 @@ console load monikadsidespack/0/4-Ridge
 #Start
   99
 
+## Start
 #lvl_a-01
    6,L,D,X
    1,R,J
@@ -343,7 +344,9 @@ console load monikadsidespack/0/4-Ridge
    5,L,K
    9,J,G
   40
+##
 
+## Overhang
 #lvl_b-01
    1,J
    1,K
@@ -775,6 +778,9 @@ console load monikadsidespack/0/4-Ridge
    4,R,Z
    1,R,J
   27,D
+##
+
+## Rugged Roof
   11,R,X
   15,R,C
   15,R,D,X
@@ -1318,6 +1324,9 @@ EndRepeat
    4,L,K
    7,R,K
    7,R
+##
+
+## Change of Flow
    6,R,Z
    1,R,J
    4,R
@@ -1767,6 +1776,7 @@ AnalogueMode Precise
    9,D,C
   38,L,D
   97,R,D
+##
 
 ChapterTime: 3:45.335(13255)
 
