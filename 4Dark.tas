@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 4528
+RecordCount: 4763
 
 AnalogueMode Precise
 
@@ -12,12 +12,9 @@ console hard monikadsidespack/0/4-Ridge
 evallua alpha = 0.24 i = 0 while i < level.Foreground.Backdrops.Count do backdrop = level.Foreground.Backdrops[i] onlyin = System.String[1000] backdrop.OnlyIn:CopyTo(onlyin) j = 0 while j < onlyin.Length do shouldHide = true if not invokeMethod(onlyin[j], "Contains", "_a") then shouldHide = false break else j = j + 1 end if shouldHide then backdrop.Alpha = alpha end end i = i + 1 end
 
 # put decals in background
-
-# note from bain: sorry for commenting this out, but it messes with speedups a bit by making them slower and doesn't work well in a fullgame run. this is a temporary solution so feel free to mess with this after darkny% has been drafted :3
-
-#AutoInput 5
-#evallua decals = getEntities("Decal") i = 0 while i < decals.Count do if invokeMethod(decals[i].Name, "Contains", "mysterycloud") then decals[i].Depth = 9000 end i = i + 1 end decals = nil i = nil
-#StartAutoInput
+AutoInput 5
+evallua decals = getEntities("Decal") i = 0 while i < decals.Count do if invokeMethod(decals[i].Name, "Contains", "mysterycloud") then decals[i].Depth = 9000 end i = i + 1 end decals = nil i = nil
+StartAutoInput
 
 #Start
   84
@@ -760,142 +757,124 @@ EndRepeat
   15,U,X
   18,L
   32,L,X
-   1,L,G
-   8,L,J,G
-  16,L
-  10,R,G
-  49,G
-   4,U,G
-   1
-   1,J
-   1,R,K,G
-  11,L,K
-   5,L
-   5,L,J
-  38,L,D
-  15,L,Z
-   1,G
-   8
-  15,L,G
-   1,U,G
-   1
+   6,G
+   1,D,G
+  10,G
+   3,D,G
+   3,G
+   3
    1,L,J,G
    1,L,K,G
    1,L,J,G
-   1,K,G
-   6,L
-   1,L,J
+   1,L,K,G
+   5,L
+   2
+   1,L
    1
-   7,L,J
-  22,L
+   2,L,D,J
+   2,J
+   3
+   1,L
+   1
+  28,L,D
+   7,L
+   1,L,D
+  14,L
+  24,U,G
+   1,G
+   1,U,G
+   1,L
+   1,L,J,G
+   1,L,K,G
+   1,L,J,G
+   5,J
+   1,L,K,G
+   2,K
+   3,L,K
+   7,L
+   1,L,K
+   1
+   8,L,J
+  15,L
+   8
   15,D,X
-  12
-   3,R
-  17,R,J
+  10
+  17,R,K
   14,U,X
-   2,L,J
+   6,L,J
   40
 
 #lvl_b-07
   11,L
-  11,L,Z
-   1,R,J
+  13,L,Z
+   1,R,K
    3,R
-   1,R,J
+   1,R,K
    3,R
-   1,R,J
-   4,R,K,G
-   4,R
-  14,R,X
-   1,R,J,G
+   2,R,J
+   1,R
+   5,R,D,X
+   1,R,K,G
+  11,R
+   5,R,D,J
+   5,R,D,X
+   1,R,K,G
    2,R
    1,R,J,G
-  10,R
-  18,R,J
+  11,R
+  10,R,K
   15,R,D,X
-   8,R
-   5,R,J
-   7,R
-   9,R,J
-  16,R,D,X
-  12,R,J
    5,R
-   4,R,J
-  12,R
-  12,R,J
-   5,R
-   2,R,J
-   3,R
-   1,R,J
-   4,R
-  15,R,Z
-  15,R,D
-  27,R
   10,R,J
-   2,R
-  15,R,X
-   1,R
-   2
-   1,R
-   4
-   9,L,Z
-   1,R,J
-   1
+   5,R
+  15,R,D,X
+   7,R,K
    4,R
-   1
-   1,R
-   2,R,J
-  17,R,D,X
-   8,R,J
-   7,R
-   1,R,J
-   4,R
-   1
-   1,R
+   7
+   5,L,D,J
+   4,R,J
+  10,R
+  15,R,Z
+  17,R
    4
-  15,U,X
-  50,L,D
-  14,L,Z
-   1,L,J
-   7,L
-   6,L,J
-   3,L
-   1,L,J,G
+   1,R
+   1
+  10,L,X
+  18,R,J
+  14,R,Z
+   2,R,K
+   5,R
+  15,R,D,X
+   1
+   1,R
+  10,R,J
+   5,R
+  15,R,U,X
+  42,L,D
    6,L
-  13,D,X
+   1,L,D
+  10,L,Z
+   1,L,J
+   6,L
+   7,L,K
+  15,L,X
+   2,D
+  12
+   6,L,D
   40
 
 #lvl_c-01_a1
-   5,L,D
-   1,J
-   8
-   1,L
+   3,L
    1
-  32,L,D
-   1,D
-   2,L,D
-  14,L,D,X
-   9,L,C
-   9,L,Z
-   9,L,U,X
-   9,L,C
-   9,L,Z
-  15,L,D,C
-   7,L,Z
-  12,U,X
-   9,R,D,C
-  15,R,X
-  14,R,Z
-   9,U,X
-  17,R,J
-  15,R,X
-   1
-  21,R,Z
-  15,R,X
-  40,R,D
-   4,R,Z
+   8,R,D
    1,R,J
-   4,R
+   7,R
+   9
+   1,G
+   2,R,K,G
+  42,R,D
+   2
+  16,R,Z
   15,R,U,X
   15,R,U,Z
    8,U,X
@@ -2040,8 +2019,8 @@ EndRepeat
  135,R,U
 ##
 
-#EndAutoInput
+EndAutoInput
 
-ChapterTime: 4:23.092(15476)
+ChapterTime: 4:18.349(15197)
 
 AnalogueMode Ignore
