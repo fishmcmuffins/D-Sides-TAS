@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 4481
+RecordCount: 4528
 
 AnalogueMode Precise
 
@@ -1606,28 +1606,28 @@ EndRepeat
   12,J,G
    9,K,G
    8,G
-Repeat,34
+Repeat,19
    1
    1,G
 EndRepeat
-  36,R,J,G
-  31,R,J
-  25,R,U,X
-  11,J,G
-   1,K,G
-   1,L,K
-   1,K
+   4
+   2,G
+   1,R,J,G
+   9,R
    1,J
-  14,L,J
-  12,L,X
+   1
+   1,R
+  37,R,J
+  38,R,K
+  15,U,X
+   3,R
+  19,L,J
+  10,L,X
   17,L,J
   15,U,X
-  12,L
-   3
-   8,L
-   2
-   1,L
-   1
+  20,L
+   4
+   3,L
   10,L,X
   25,R,J
    8,R,K,G
@@ -2039,6 +2039,6 @@ EndRepeat
 
 EndAutoInput
 
-ChapterTime: 4:23.466(15498)
+ChapterTime: 4:23.092(15476)
 
 AnalogueMode Ignore
