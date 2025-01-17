@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 4873
+RecordCount: 4977
 
 # put decals in background
 evallua for i = 0, Celeste.AreaData.Areas.Count - 1 do ad = Celeste.AreaData.Areas[i] if ad.SID == "monikadsidespack/0/4-Ridge" then md = ad.Mode[1].MapData break end end if md ~= nil then for j = 0, md.Levels.Count - 1 do room = md.Levels[j] k = 0 while k < room.FgDecals.Count do decal = room.FgDecals[k] if invokeMethod(decal.Texture, "Contains", "mysterycloud") then room.FgDecals:RemoveAt(k) room.BgDecals:Add(decal) else k = k + 1 end end end end
@@ -976,6 +976,9 @@ EndRepeat
    1,R,J
    1,R
    9,R,X
+##
+
+## Blizzard
    9,R,Z
   15,U,X
    9,R,C
@@ -985,50 +988,53 @@ EndRepeat
    1,R,D
   47,R
   30,R,U,Z
-   5,J,G
+   1,J,G
    1
-   1,R,K,G
-   4,L,K
-   7,R,K
+   3,K,G
+   1
+   1,R,J,G
+   4,L,J
+   7,R,J
    7,R
-##
-
-## Blizzard
-   4,R,Z
+   6,L,Z
+   1,R,K
+   6,R
    1,R,J
-   5,R
   40
 
 #lvl_c-05_a5
-   1,R
-   8,R,J
+   7,R,J
+   2,R
   15,R,D,X
-  12,R
-  18,R,X
-   8,R
-  20,R,Z
-  14,R,X
+   5,R,K
+  18,R,D,X
+   3,R
+  18,R,Z
+  13,R,C
   11,J,G
    1,L,J
    1,R,K,G
    2,R,J,G
-   3,R,K,G
+   2,R,K,G
+   1,R
    1,R,J,G
    1,R
    1
-   9,R
-   7,R,D,X
-   1,R,J
+   8,R
+   1,R,D
+   6,R,Z
+   1,R,K
    6,R
-  21,R,J
+   8,R,D,J
+  12,R
   14,R,Z
    1,R,J
-  10,R,D,X
+  11,R,D,X
    1,R,J
-   1,R
-   2,R,J
    4,R
    1,R,J
+   1,R
+   1,J
    1,R
    6,R,D,X
    1,R,J
@@ -1063,57 +1069,44 @@ EndRepeat
   31,R,X
   14,R,Z
   14,R,U,X
-   1,J,G
-  15,U,X
+  11,J,G
+  10,U,X
   40
 
 #lvl_c-07
-   5,J
-   6
-  14,R,Z
-   1,L,J
-   2
-   5,L
-   2,L,D,J
-   1,J
-   7,L,J
-   5,L
-   8,L,J
-  15,U,X
-   1,L
-  12,L,J,G
-  12,K,G
-  12,J,G
-   1,K,G
-   1,L,K
+   9
+   2,J
+  24,L,J
+  11,K,G
+   1,R,K
+   9,J
    1,K
-   2,R,K
-   2,K
-   4,R,K
-  21,R,X
-   1,G
+   1,J
+   9,L
+   7
+   1,K
+   5,L
+  14,L,K
+   2
+  13,J,G
+   1,L,K,G
+   1,K
+   3,R,K
+   1,K
+   1,R,K
+   1,L,K
+   5,K
+   1,L,K
    1,J,G
-   1,L,J
-  21,R,J
-   8
-  43,G
-   1,D,G
-   1,G
-   2,U,G
-   2,G
-   8,J,G
-   1,K,G
-   6
+   6,L,J
+   1,J
+  11,L,J
+  24,L,U,X
+  15,U,C
    1,L
-   5,L,J
-   1,J
-   1,L,J
-   1,J
-  15,U,X
-   1,R
   30,R,J
    1,R,K,G
-   1,J,G
+   6,J,G
    1,L,J
    1,R,K,G
    1,L,K
@@ -1992,6 +1985,6 @@ EndRepeat
  135,R,U
 ##
 
-ChapterTime: 4:17.108(15124)
+ChapterTime: 4:15.918(15054)
 
 AnalogueMode Ignore
