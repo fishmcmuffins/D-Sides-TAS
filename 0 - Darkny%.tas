@@ -1,0 +1,87 @@
+#To sync:
+#Use Celeste v.1.4.0.0
+#Start from Begin
+#More Things Like Everest and D - Sides idk
+
+Read,StartFullGameFile
+
+#Prologue D-Side
+Read,0 - Prologue,Start
+
+Read,LoadDPost,Load1D
+
+#This "completes" 5D (eventually 7D, 8D, or 9D) by only completing Dark-Sides, similar to Bny% in vanilla. As of right now, there are only 5 Dark-Sides, so 5D/5Dark is the last level that can be played with this restriction. Hopefully more can be added in future updates!
+
+#Forsaken City D-Side + Dark-Side
+Read,1DSC,Start,lvl_b-01b (1)
+Read,1DC,lvl_b-01b
+
+Read,LoadDBFromD
+
+Read,1Dark,Start
+
+Read,LoadDFromDB,0,Post
+   1,J
+ 230
+   1,J
+ 136
+
+#Old Site D-Side + Dark-Side
+Read,2DC,Start
+
+Read,LoadDBFromD
+
+Read,2Dark,Start
+
+Read,LoadDFromDB
+
+#Celestial Resort D-Side + Dark-Side
+Read,3DC,Start,Menu
+
+   1,S
+   1,U,J
+  32,O
+
+Read,LoadDBFromD
+
+Read,3Dark,Start
+
+Read,LoadDFromDB
+
+#Golden Ridge D-Side + Dark-Side
+Read,4DC0,Start
+
+Read,LoadDBFromD
+
+Read,4Dark,Start
+
+Read,LoadDFromDB
+
+#Mirror Temple D-Side + Dark-Side
+Read,5DC.tas,Start,Menu
+
+   1,S
+   1,U,J
+  32,O
+
+Read,LoadDBFromD
+
+Read,5Dark,Start
+
+unsafe
+  60
+   1,J
+ 196
+Add 197
+ 165
+   1,J
+  83
+Add 7
+   1,S
+  60
+   1,X
+  42
+
+Read,LoadJournal,Epilogue
+
+FileTime: 20:11.743(71279)
