@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 4977
+RecordCount: 5150
 
 # put decals in background
 evallua for i = 0, Celeste.AreaData.Areas.Count - 1 do ad = Celeste.AreaData.Areas[i] if ad.SID == "monikadsidespack/0/4-Ridge" then md = ad.Mode[1].MapData break end end if md ~= nil then for j = 0, md.Levels.Count - 1 do room = md.Levels[j] k = 0 while k < room.FgDecals.Count do decal = room.FgDecals[k] if invokeMethod(decal.Texture, "Contains", "mysterycloud") then room.FgDecals:RemoveAt(k) room.BgDecals:Add(decal) else k = k + 1 end end end end
@@ -975,10 +975,10 @@ EndRepeat
   11,R
    1,R,J
    1,R
-   9,R,X
 ##
 
 ## Blizzard
+   9,R,X
    9,R,Z
   15,U,X
    9,R,C
@@ -1332,78 +1332,60 @@ EndRepeat
 
 #lvl_d-01
    9,R,D,X
-   4,R,J
-  15,R,D,X
-   5,R
-  15,R,X
-  18,R,C
-  15,R,D,X
-  10,L
-   7,R,J
-   5,R
    1,R,J
-   4,R
+   1,J
+   8,R,J
+  15,R
+   6,R,D
+  22,R,X
+  15,R,D,C
+  10,D
+   4,Z
+   8,R,J
+   1,R
    1,R,J
-   5,R
-   7,L,D,X
+   1,R
    1,R,J
-   6,R
-   4,R,J
-  12,R
-  15,R,X
-   6,L,J
-   7,R,J
-  16,U,X
-#+5f for snowball at end
-   6
-#-----
+   1,R
+  26,R,K
+  15,U,X
+   7,R
   16,R,C
   15,R,X
-   9,D
-  17,R,D
+  26,D
   15,R,X
-   7,R,Z
+   6,R,Z
   15,R,U,X
   14,R,C
   15,R,D,X
-  16,R,U,C
-  15,R,X
-  24,R,D
-  25,R,Z
-   6,R,V
+  16,R,U,Z
+  15,R,D,X
+   8,R
+  25,R,C
+   8,R,Z
    1,R,J
    7,R
+   1,R,K
+  14,R,D,X
    1,R,J
-  12,R,D,X
-   1,R,J
-   7,R
-   1,R,J
-   6,R,U,X
+   8,R,U,Z
   40
 
 #lvl_d-06
-   2,R,U,X
-   1,L,U
-   4,J,G
-   8,R,J
-  19,U,X
-  15,U,C
-   1,L
-  12,J,G
-  12,K,G
-   5
-   4,J,G
-   1,R,J
+   3,L
+   1,L,K,G
+   8,R,K
+  18,U,X
+  14,U,C
+  35,L,J
    1,K
-   1,J
-  53,R,J
-   5,J
-   1,R,J
-   3,J
+  32,R,K
+   4
+  10,R
+  13,R,J
   15,U,X
-   2
-   1,L
-  29,R,J
+   2,R
+  29,R,K
   15,U,X
   29,L
    7,L,J,G
@@ -1411,59 +1393,54 @@ EndRepeat
    1,R,K
    1,J
    1,K
-  28,R,K
-  53,L,K
+  26,R,K
+  15,L
+  24,L,K
+  12,L
    1,L,J,G
-   4,L,K,G
-   5,L
-   6
-   1,L
-   1
+   1,L,K,G
+   7,L
+   2
+   4,L
    1,J
-  24,L,J
+  22,L,J
+   2,L
   15,U,X
    2,L
   25,R,J
-   1,K,G
+   5,K,G
+   1,R,K
+   1,K
+   1,R,K
    1,L,K
    1,R,K
-   2,J,G
-  15,L,J
+  13,R,J,G
+   2,R,K,G
+   1,L,K
+   8,R,K
+  31,R
+  28,R,J
+  15,U,X
+   5,R
    1,K,G
-  15
-  32,G
-   1,D,G
-   1,G
-   1,D,G
-   1,G
-   2
-  19,J
+   3,R,K
+   8,K
+  13,J,G
   11,K,G
-   1,R,K
+   2,L,K
    1,J
-   1,K
-  32,R,K
-  36,R,U,X
-   9,J,G
-   7
-  21,G
-  19,J
-   5,K,G
-   1
+  26,R,J
+   9
    1,L
+   1,R,K,G
+   5,K
    1,J
    1,K
-  11,L,K
-  36,L,D
-   2,D
-  14,L,X
-  12,L,J,G
-   4,K,G
-   1
-   1,R
-  12,L,J,G
-   7,L
-   5,L,Z
+  42,L,K
+   7
+   3,L,J
+  33,L,X
+   6,L,Z
    1,L,J
    1,L
    1,L,J
@@ -1985,6 +1962,6 @@ EndRepeat
  135,R,U
 ##
 
-ChapterTime: 4:15.918(15054)
+ChapterTime: 4:13.759(14927)
 
 AnalogueMode Ignore
