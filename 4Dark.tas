@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 5674
+RecordCount: 5798
 
 # put decals in background
 evallua for i = 0, Celeste.AreaData.Areas.Count - 1 do ad = Celeste.AreaData.Areas[i] if ad.SID == "monikadsidespack/0/4-Ridge" then md = ad.Mode[1].MapData break end end if md ~= nil then for j = 0, md.Levels.Count - 1 do room = md.Levels[j] k = 0 while k < room.FgDecals.Count do decal = room.FgDecals[k] if invokeMethod(decal.Texture, "Contains", "mysterycloud") then room.FgDecals:RemoveAt(k) room.BgDecals:Add(decal) else k = k + 1 end end end end
@@ -1674,54 +1674,67 @@ EndRepeat
    2,F,0
   62,F,79.8
   10,F,18
-  14,F,350
-   6,F,1
-   2,F,120
-  10,F,124.6
-   8,F,70
-  36,F,106.3
-  29,F,116
-  11,F,90
+
+   9,F,0
+  10,F,60
+  50,F,110.4
+  20,F,118
+  13,D,X
+   2,L,J,G
+  10,R,D,C
+   5,R,K
+   1,R
+   5,R,D,X
+   1,R,J,G
+   7,R
   40
 
 #lvl_d-12
-   2,F,88
-  35,F,71.5
-   6,F,10
-   1,F,0,0.69
-  35,R
-  24,R,X
-  15,R,C
-  12,R,X
-  20,R,C
-  23,R,X
-  15,R,C
-  19,R,D
-  15,D
-  10
-  13,R
-  11,R,J
-  15,R,X
-  26,R
-  15,R,C
-  19,R
-  15,R,X
-  28,R
+   4,R
+  10,R,K
+  15,R,D,X
+   4,R,J,G
+   9,R
+   1,R,J
+   5,R
+   1,R,D,K
+   7,R
+   3,R,K
+   6,R
+  13,R,U,X
+  31,R,D
+  15,R,Z
+   7,R,D
+  11,D
+   8
   10,L,X
-  18,R,J
-  15,R,X
+   1,R,J
+   3,J
+   6,R,J
+   1,J
+   1,R,J
+  16,R
+  18,R,D,X
+  13,R,D
+  29,R,C
+  27,R,X
+  15,R
+  10,L,X
+  19,R,J
+  14,R,X
   15,R,C
   30,R,D
   18,R,X
-  15,R,C
-  24,R,X
-   3,L
-   9,R,D,C
+  24,R,C
+  14,R,X
+   1,R
    1
-  27,R
-  15,R,D,X
-   7,R
-   2
+   1,R
+   9,R,D,X
+  10,R
+  15,R,Z
+  18,R,D
+   1,R
   15,D,X
    1
   14,R,Z
@@ -1943,6 +1956,6 @@ EndRepeat
  135,R,U
 ##
 
-ChapterTime: 4:09.764(14692)
+ChapterTime: 4:08.472(14616)
 
 AnalogueMode Ignore
