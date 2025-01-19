@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 4485
+RecordCount: 5649
 
 console load monikadsidespack/0/10-Farewell 345680 -49360
    1
@@ -1513,41 +1513,72 @@ AnalogMode,Ignore
    9,R,D,X
    8,R,K,G
   12,R
-   7,R,J
-  15,R,D,X
-  22,R,D,K
-#possible but slower
-#to skip bird
-   2,R,J,G
-   5,K,G
-   6,L,K
-  15,U,X
-   2
-  47,R
-  15,R,D,X
-  10,R
-   2,R,D
-   1,R,J
-   5,R,D,X
-   1,R,K
+   3,R,J
    1,R
-   1,R,K
+   9,R,J
+  10,R,U,Z
+   1,L,J,G
+   9,R,J
+   1,R
+   5,R,J
+   1,K
+   6,L,J,G
+  10,L
+  22,R,K
+   1,R
+   6,R,J
+   9,R,K
+   1,R
+  36,R,D,X
+  14,R,Z
+  28,R,X
+   7,R,U,C
+  56,R,U,J,G
+ 199,G
+   2,U,G
+   1,R
+   2,R,J,G
+   2,R
+   1,K,G
+   5,R
+   1,L
+   1,R
+   1,J
    6,R
-   1,R,J
-repeat 7
-   4,Z
-   2,R,K
+   4,R,J
+  11,R
+   1,R,G
+   5,R,X
+   1,R,J,G
+   1,R,K,G
+   1,R,J,G
+   1,R,K,G
    8,R
+  25,R,D,X
+   9,R,D,J
+   5,R,D,X
+   5,R,J,G
+   1,R
+   9,R,J
+  10,R
    1,R,J
-endrepeat
-   9,R,D,X
-   1,R,K
-   7,R
+   2,R
+   6,R,D,X
+   1,L,J,G
+   6,R,J
+  10,R
+  10,R,J
+   1,R
+   9,R,K
+Repeat,4
    1,R,J
-  14,R,D,X
-  31,R,K
-   5,L,D,X
- 135,L
+  14,R
+EndRepeat
+  10,R,J
+  15,R,D,X
+  96,R
+  20,R,D
+  19,R
 
 #Time
-MidwayFileTime: 3:07.748(11044)
+MidwayFileTime: 3:13.919(11407)
