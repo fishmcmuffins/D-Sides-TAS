@@ -100,17 +100,23 @@ EndStunPause
   40
 
 #lvl_aa-05
-   4,L,J
-   3,L
+   3,L,J
+   4,L
    1
    3,L
-  23,G
-  70,L,J,G
-  35,L,U,G
-  12,L
+  34,R,G
+   1,L
+  24,L,U,X
+  50,L,G
+  15,L,D,G
+  24,L,U,G
+   1,U,G
+   1,L,U,G
+  11,L
+   1
    9,U,X
-  14,L,G
-  16,R,G
+  16,L,G
+  17,R,G
    1,J
   12,L,K
    5,J,G
@@ -162,5 +168,5 @@ Assert,Equal,aa-06,{Level.Session.Level}
 Assert,Equal,40,{GameInfo.TransitionFrames}
 #Assert,NotEqual,,{Player.Holding}
 #Time
-MidwayFileTime: 0:23.018(1354)
+MidwayFileTime: 0:23.341(1373)
   40
