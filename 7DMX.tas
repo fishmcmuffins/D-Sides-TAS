@@ -1,4 +1,4 @@
-RecordCount: 28575
+RecordCount: 28580
 
 console load monikadsidespack/0/7-Summit
    1
@@ -7,7 +7,7 @@ console load monikadsidespack/0/7-Summit
   80
 
 #Spinner Cycle [f-01]
-   0
+   2
 #-----
 
 #lvl_a-00
@@ -53,4 +53,4 @@ console load monikadsidespack/0/7-Summit
 #lvl_a-01
 Read,7D.tas,lvl_a-01
 
-ChapterTime: 9:54.626(34978)
+ChapterTime: 9:55.391(35023)
