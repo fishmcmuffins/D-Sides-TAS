@@ -13,8 +13,7 @@ Invoke BloomFadeTrigger[xx-09:5730].OnStay null
 Set,Level.TimerStarted,true
   30
 
-Set,Level.TimeActive,2702.122802734375
-
+Set,Level.TimeActive,2702.322021484375
 #+2f wait in bottomless
 #hazard cycle
    2
@@ -220,61 +219,57 @@ Invoke Player.FinishFlingBird
 StunPause
    5,L,J,G
    7,J
-   3,K,G
+   1,K,G
 EndStunPause
 StunPause
    1,K
 EndStunPause
 StunPause
-   8,K
+  10,K
   11,J,G
    1,R,J
    1,K
    1,J
   14,R,J
 SkipInput 3 1
-   6,R,X
+   4,R,X
 EndStunPause
-#would normally use SkipInput 3
-#for this but weird drift
-#management pausing means this
-#doesnt really work here
-   3,R,X
 StunPause
    1,R,X
 EndStunPause
 StunPause
-   8,R,X
+   1,R,X
+SkipInput 3
+  12,R,X
    1,R
   17,L,D
    2
 SkipInput 3 1
-  15,R,X
-SkipInput 3 1
-   4,R,U,V
+  14,R,X
 EndStunPause
 StunPause
-   1,R,U,V
+   1,R,X
 EndStunPause
-   3,R,U,V
 StunPause
-  10,R,U,V
+SkipInput 3 1
+   5,R,U,V
+SkipInput 3
+  13,R,U,V
 SkipInput 3 1
   15,R,X
-  17,L
+  15,L
 EndStunPause
 StunPause
    1,L
 EndStunPause
 StunPause
-   3,L
+   5,L
   35
 SkipInput 3 1
-   5,R,X
-   1,R,G
+   4,R,X
 EndStunPause
 StunPause
-   1,R,G
+   1,R,X
 EndStunPause
 StunPause
   39,R,G
@@ -283,15 +278,9 @@ StunPause
    1,R,G
 EndStunPause
 StunPause
-   1,R,G
+   3,R,G
   12,R,D,G
-   2,D,G
-#EndStunPause
-#StunPause
-   1,D,G
-#EndStunPause
-#StunPause
-   4,D,G
+   7,D,G
 EndStunPause
   38,D,G
 #endstun_xx-10-final-goodbye_1
@@ -494,9 +483,9 @@ EndStunPause
    1,S,N
   10,O
    1,R,Z
-   1,S,N
-  10,O
+StunPause
    4,R,Z
+EndStunPause
 #endstun_xx-10-final-goodbye_3
    2,R,J
   21,R,D,X
@@ -564,7 +553,7 @@ EndStunPause
   14,U,X
 
 #hazardcycle_xx-10-final-goodbye_3
-   2
+   1
 #endhazardcycle_xx-10-final-goodbye_3
 
 #Move to background
@@ -677,6 +666,6 @@ Read,9D_27,lvl_xx-10-true-final-goodbye,Time
 #evallua if bgs then while level.Background.Backdrops.Count > bgs do level.Foreground.Backdrops:Add(level.Background.Backdrops[bgs]); level.Background.Backdrops:RemoveAt(bgs); end bgs = nil end
 
 #Time
-MidwayFileTime: 4:09.577(14681)
+MidwayFileTime: 4:09.747(14691)
 
 AnalogMode,Ignore
