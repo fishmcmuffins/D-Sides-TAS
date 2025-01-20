@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 1847
+RecordCount: 1899
 
 console load monikadsidespack/0/10-Farewell
    1
@@ -50,7 +50,7 @@ Read,9DS_02,endhazardcycle_aa-00-lobby
 #hazardcycle in b-08
 
 Read,9D_03,Start,hazardcycle_c-01-heartgate
-   1
+   0
 Read,9D_03,endhazardcycle_c-01-heartgate
 
 #==========================
@@ -64,7 +64,7 @@ Read,9D_03,endhazardcycle_c-01-heartgate
 #stun in cc-07
 
 Read,9DS_04,Start,keycycle_cc-00-lobby
-  78,G
+  72,G
 Read,9DS_04,endkeycycle_cc-00-lobby,hazardcycle_cc-03
    0,G
 Read,9DS_04,endhazardcycle_cc-03,branch_cc-03_spawn
@@ -72,7 +72,7 @@ Read,9DS_04,route_hubexit,endroute_hubexit
 
 #lvl_cc-06
 Read,9DS_04,lvl_cc-06,hazardcycle_cc-07
-   1
+   2
 Read,9DS_04,endhazardcycle_cc-07,keycycle_cc-08
   88
 Read,9DS_04,endkeycycle_cc-08
@@ -554,10 +554,10 @@ SkipInput 3 1
   15,U,Z
   10,R
 SkipInput 3 1
-  14,L,U,Z
+  12,L,U,Z
 EndStunPause
 StunPause
-   1,L,U,Z
+   3,L,U,Z
    6
    3,L
    1,R
@@ -582,7 +582,11 @@ Read,9D_23,endhazardcycle_y-08,stun_y-08
 StunPause
    6,R
    1,R,K
+EndStunPause
+StunPause
    1,R
+EndStunPause
+StunPause
    2,R,K
 EndStunPause
    1,R,K
@@ -616,7 +620,7 @@ Read,9D_24,Start
 #hazardcycle in xx-07
 
 Read,9D_26,Start,hazardcycle_w-16
-   0
+   2
 Read,9D_26,endhazardcycle_w-16,stun_w-16_1
    2
 StunPause
@@ -625,14 +629,13 @@ StunPause
 SkipInput 3 1
   10,R,Z
    1,R,K
+EndStunPause
+StunPause
    1,L,J,G
+EndStunPause
+StunPause
    2,R,J
-   1,R
-EndStunPause
-StunPause
-   1,R
-EndStunPause
-StunPause
+   2,R
 SkipInput 3 1
    7,R,D,X
    3,R,K,G
@@ -660,9 +663,6 @@ EndStunPause
    4,R
    4,J
 Read,9D_26,endstun_w-16_2,hazardcycle_x-10
-#+9f: drift wait
-  12,G
-#####
    2,G
 Read,9D_26,endhazardcycle_x-10,stun_x-10
    2,R,X
@@ -670,14 +670,14 @@ StunPause
    9,R,X
   12,R
   10,L
+EndStunPause
+StunPause
 SkipInput 3 1
    4,Z
+EndStunPause
+StunPause
    1,R,J
-EndStunPause
-StunPause
    1,K,G
-EndStunPause
-StunPause
    5,R
    2,L,K
    3
@@ -742,4 +742,4 @@ Read,9DS_27A,Start
 
 #==========================
 
-ChapterTime: 50:20.373(177669)
+ChapterTime: 50:20.764(177692)
