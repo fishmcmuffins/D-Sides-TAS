@@ -94,9 +94,15 @@ Read,4Dark,Start
 Read,LoadDFromDB
 
 #Mirror Temple D-Side
+Read,5DC,Start
 Read,5DS,Start
 
-Read,LoadD
+Read,LoadDB
+
+#Mirror Temple Dark-Side
+Read,5Dark,Start
+
+Read,LoadDFromDB
 
 #Reflection D-Side
 Read,6DS,Start
@@ -133,4 +139,4 @@ Add 197
 
 Read,LoadJournal,Epilogue
 
-FileTime: 1:44:15.286(367958)
+FileTime: 1:49:15.642(385626)
