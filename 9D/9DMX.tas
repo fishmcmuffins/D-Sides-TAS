@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 2105
+RecordCount: 2127
 
 Set,SaveData.Instance.CheatMode,true
 
@@ -47,7 +47,7 @@ Read,9DSP_02,endhazardcycle_aa-00-lobby
 #hazardcycle in b-08
 
 Read,9D_03,Start,hazardcycle_c-01-heartgate
-   1
+   0
 Read,9D_03,endhazardcycle_c-01-heartgate
 
 #==========================
@@ -60,7 +60,7 @@ Read,9D_03,endhazardcycle_c-01-heartgate
 #stun in cc-07
 
 Read,9DMX_04,Start,keycycle_cc-00-lobby_1
-  73,G
+  67,G
 Read,9DMX_04,endkeycycle_cc-00-lobby_1,hazardcycle_cc-03
    2,G
 Read,9DMX_04,endhazardcycle_cc-03,keycycle_cc-00-lobby_2
@@ -77,9 +77,7 @@ Read,9DMX_04,endhazardcycle_cc-07
 #stuns in d-03~d-05
 
 Read,9D_05,Start,hazardcycle_d-03
-#+12f: Drift wait
-  12
-#
+#any% dedication stun may be better, but don't feel like testing yet
 Read,9D_05,endhazardcycle_d-03,stun_d-03
    3,L
    4,Z
@@ -404,7 +402,7 @@ Read,9D_15,hazardcycle_CP-37
 Read,9DMX_16,Start,stun_CP-37_1
    2,R
 StunPause
-   5,R
+   5,R,U
 EndStunPause
 StunPause
    6,R,U
@@ -488,14 +486,14 @@ SkipInput 3 1
    7,R,Z
 EndStunPause
 Read,9DMX_22,endstun_v-00-lobby,keycycle_lvl-void_1
- 135,D
+ 136,D
    4,Z
    1,R,J
- 133
+ 134
   40,L
-  29
+  28
 Read,9DMX_22,endkeycycle_lvl-void_1,keycycle_lvl-void_2
- 314
+ 313
 Read,9DMX_22,endkeycycle_lvl-void_2,keycycle_lvl-void_3
   77,G
    4,K,G
@@ -821,4 +819,4 @@ Read,9DMX_27B,lvl_end-platinum-7
 
 #==========================
 
-ChapterTime: 54:25.717(192101)
+ChapterTime: 54:31.888(192464)
