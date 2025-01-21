@@ -5,17 +5,17 @@
 
 #Check this file
 #to run the TAS yourself:
-Read,StartFullGameFile.tas
+Read,StartFullGameFile
 
 #Prologue D-Side
-Read,0 - Prologue.tas,Start
+Read,0 - Prologue,Start
 
-Read,LoadDPost.tas,Load1D
+Read,LoadDPost,Load1D
 
 #Forsaken City D-Side
-Read,1D.tas,Start
+Read,1D,Start
 
-Read,LoadDB.tas,0,Cassette
+Read,LoadDB,0,Cassette
 
    1,J
   30
@@ -23,15 +23,15 @@ Read,LoadDB.tas,0,Cassette
    1,J
   46
 
-Read,1DC.tas,Start,lvl_b-01b
-Read,1DSC.tas,lvl_b-01b (1)
+Read,1DC,Start,lvl_b-01b
+Read,1DSC,lvl_b-01b (1)
 
-Read,LoadDBFromD.tas
+Read,LoadDBFromD
 
 #Forsaken City Dark-Side
-Read,1DB.tas,Start
+Read,1Dark,Start
 
-Read,LoadDFromDB.tas,0,Post
+Read,LoadDFromDB,0,Post
 
    1,J
  230
@@ -40,9 +40,9 @@ Read,LoadDFromDB.tas,0,Post
 Add 1
 
 #Old Site D-Side
-Read,2DS.tas,Start
+Read,2DS,Start
 
-Read,LoadDB.tas,0,Cassette
+Read,LoadDB,0,Cassette
 
    1,J
   30
@@ -51,80 +51,80 @@ Read,LoadDB.tas,0,Cassette
    1,J
   46
 
-Read,2DC0.tas,Start
+Read,2DC0,Start
 
-Read,LoadDBFromD.tas
+Read,LoadDBFromD
 
 #Old Site Dark-Side
-Read,2DB.tas,Start
+Read,2Dark,Start
 
-Read,LoadDFromDB.tas
+Read,LoadDFromDB
 
 #Celestial Resort D-Side
-Read,3DC.tas,Start
-Read,3DS.tas,Start
-Read,3D.tas,Start
+Read,3DC,Start
+Read,3DS,Start
+Read,3D,Start
 
-Read,LoadDB.tas
+Read,LoadDB
 
 #Celestial Resort Dark-Side
-Read,3DB.tas,Start
+Read,3Dark,Start
 
-Read,LoadDFromDB.tas
+Read,LoadDFromDB
 
 #Golden Ridge D-Side
-Read,4DS.tas,Start
+Read,4DC0,Start
 
-Read,LoadDB.tas,0,Cassette
-
+  51
+   1,S
    1,J
   30
-   1,R
-   1,F,90
    1,J
   46
 
-Read,4DC0.tas,Start
+Read,4DC1,Start,lvl_c-02
+Read,4D,lvl_c-02,lvl_d-08
+Read,4DS,lvl_d-08 (1)
 
-Read,LoadDBFromD.tas
+Read,LoadDB
 
 #Golden Ridge Dark-Side
-Read,4DB.tas,Start
+Read,4Dark,Start
 
-Read,LoadDFromDB.tas
+Read,LoadDFromDB
 
 #Mirror Temple D-Side
-Read,5DS.tas,Start
+Read,5DS,Start
 
-Read,LoadD.tas
+Read,LoadD
 
 #Reflection D-Side
-Read,6DS.tas,Start
+Read,6DS,Start
 
-Read,LoadD.tas
+Read,LoadD
 
 #Summit D-Side
-Read,7DS.tas,Start
+Read,7DS,Start
 
-Read,LoadD.tas
+Read,LoadD
 
 #Core D-Side
-Read,8DS.tas,Start
+Read,8DS,Start
 
-Read,LoadD.tas
+Read,LoadD
 
 #Epilogue D-Side
-Read,0 - Epilogue-S.tas,Start
+Read,0 - Epilogue-S,Start
 
-Read,Load9D.tas
+Read,Load9D
 
 #Final Goodbye / Farewell D-Side
-Read,9D/9DS.tas,Start
+Read,9D/9DS,Start
 
-Read,LoadD.tas
+Read,LoadD
 
 #Post-Epilogue
-Read,0 - Post-Epilogue.tas,Start
+Read,0 - Post-Epilogue,Start
 
 Add 197
   60
@@ -133,4 +133,4 @@ Add 197
 
 Read,LoadJournal,Epilogue
 
-FileTime: 1:42:37.553(362209)
+FileTime: 1:44:15.286(367958)
