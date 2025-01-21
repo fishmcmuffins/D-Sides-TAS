@@ -594,18 +594,6 @@ AnalogMode,Ignore
    4,R
   40
 
-
-
-
-
-
-#1:02.900(3700)
-
-
-
-
-
-
 #lvl_end-platinum-7
    4,R,K
    1,R
@@ -966,4 +954,4 @@ AnalogMode,Ignore
 Read,9DP_27B,lvl_end-platinum-11,Time
 
 #Time
-MidwayFileTime: 3:08.513(11089)
+MidwayFileTime: 3:14.684(11452)
