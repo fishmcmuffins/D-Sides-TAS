@@ -106,7 +106,7 @@ Read,9D_23,lvl_v-99b,hazardcycle_y-08
 Read,9D_23,endhazardcycle_y-08,lvl_y-06 (1)
 
 #lvl_y-06
-Read,9DP_23,lvl_y-06 (1),lvl_y-06b
+Read,9DP_23,lvl_y-06,lvl_y-06b
 
 #lvl_y-06b
 Read,9D_23,lvl_y-06b,stun_y-08
