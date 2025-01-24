@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 9040
+RecordCount: 9153
 
 console hard monikadsidespack/0/5-Temple
    1
@@ -634,7 +634,8 @@ Repeat, 10
    2,K
    2,J
 EndRepeat
-   9,L,K,G
+   6,L,K,G
+   1
    6,L,Z
    1,L,J
   11,L,D
@@ -656,19 +657,23 @@ EndRepeat
    8,L,D
   24,R,D
    3,L,D
-   5,D
+   3,D
+   1,L,D
+   1,D
   15,L,U,Z
    9
-  18,L,K
+  11,L,K
+   5,L
+   2,L,J
 # Looks slow but I don't feel like trying better strats right now.
-  18,L,D
-   8,R,D,X
+  11,L
+  14,R,D,X
    1,L,J
    4
-  40
+  43
 
 #lvl_a-07 (1)
-  11,L,D
+   8,L,D
   11,L,D,X
    3,J
    3,L,J
@@ -692,7 +697,6 @@ EndRepeat
 
 #lvl_a-06 (1)
   17,L,D
-
    5,L,Z
    1,L,J
    1,L
@@ -802,8 +806,8 @@ Repeat, 9
 EndRepeat
    7,R
   15,R,X
-  14,R,Z
-  21,L
+  15,R,Z
+  20,L
   10
   15,D,X
   41
@@ -815,19 +819,22 @@ EndRepeat
    3,D
    1,J,G
    7,R
-  42
+  10
+  15,D,X
+  22
    9,L
    1,J
    5,L,J
    2,R,J
   15,U,X
-  15,L,J
+  13,L,J
+   2,L
    1,K
    1,R,J,G
    7,L
    6,L,J
   12,L,K,G
-   5,L,J,G
+   4,L,J,G
    5,U,X
   40
 
@@ -889,7 +896,7 @@ EndRepeat
 ##
 
 # Spinner Cycle [b-07]
-   2
+   1
 # -------------
 
 ## Sigil
@@ -975,8 +982,6 @@ EndStunPause
   14,R,D,G
   29,D
   40
-
-
 
 #lvl_b-08a
   16,D
@@ -2015,6 +2020,6 @@ EndStunPause
   57,L
 ##
 
-ChapterTime: 4:46.195(16835)
+ChapterTime: 4:46.144(16832)
 
 AnalogMode Ignore
