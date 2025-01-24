@@ -1,7 +1,9 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 10876
+RecordCount: 10877
+
+console wipedebug
 
 console load monikadsidespack/1/2-SummitOldOld
    1
