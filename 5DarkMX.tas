@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 9181
+RecordCount: 9194
 
 console hard monikadsidespack/0/5-Temple
    1
@@ -160,6 +160,7 @@ EndRepeat
 Read,5Dark,lvl_b-09 (1),lvl_b-00 (3)
 
 #lvl_b-00 (2)
+#key cycle changes possible
   82
   15,L,U,Z
   10,L,J
@@ -173,12 +174,11 @@ Repeat, 9
 EndRepeat
    7,R
   15,R,X
-  14,R,Z
-#key cycle is different... and so is the part after for some reason?
-  21,L
+  15,R,Z
+  20,L
   10
   15,D,X
-  63
+  64
   11,L,D,J
   15,U,X
    1,J
@@ -187,7 +187,9 @@ EndRepeat
    3,D
    1,J,G
    7,R
-  36
+  10
+  15,D,X
+  14
    9,L
    1,J
    5,L,J
@@ -200,7 +202,7 @@ EndRepeat
    7,L
    6,L,J
   12,L,K,G
-   5,L,J,G
+   4,L,J,G
    5,U,X
   40
 
@@ -223,6 +225,6 @@ Read,5Dark,lvl_b-05dark, Spinner Cycle [b-07]
 Read,5Dark,lvl_b-07
 ##
 
-ChapterTime: 4:47.385(16905)
+ChapterTime: 4:47.334(16902)
 
 AnalogMode Ignore
