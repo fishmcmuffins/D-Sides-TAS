@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 10877
+RecordCount: 10893
 
 console wipedebug
 
@@ -2816,7 +2816,7 @@ AnalogMode Square
 ##
 
 #Key Cycle Wait
-  76
+  45
 #----
 
 ## 3000M (cont.)
@@ -2825,9 +2825,14 @@ AnalogMode Square
    1,R
    1
    2,R
+   1,J
+  14
+   1,J
+  14
   18,J
-  15,U,Z
-  14,U,X
+   1
+  18,U,Z
+  13,U,X
    8,R,J
    5,L,J
   40
@@ -3096,4 +3101,4 @@ AnalogMode Square
 
 AnalogueMode Ignore
 
-ChapterTime: 9:37.983(33999)
+ChapterTime: 9:37.966(33998)
