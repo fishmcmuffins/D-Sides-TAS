@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 6787
+RecordCount: 6788
 
 console load monikadsidespack/0/5-Temple
    1
@@ -42,18 +42,22 @@ console load monikadsidespack/0/5-Temple
 Read,5D,lvl_a-01,lvl_b-03
 
 #lvl_b-03
-   3,L,J
-   7,L
-  14,D,X
-  18,L,J
-  11,L,K,G
-  45,L,G
+   6,R,J
+  15,L,Z
+  12,R,J
+   5,L,J
+  35,L,K,G
+   3
+   1,L,G
+   1
+  17,L,G
    2,L,U,G
    1,L,G
    1,L,U,G
    2,L,G
    1,L,D,G
-  16,L,D
+  13,L,D
+   3,D
    2,R,D
    2,L,D
    1,R,D
@@ -245,6 +249,6 @@ EndStunPause
 #lvl_d-09
 Read,5D,lvl_d-09
 
-ChapterTime: 4:18.961(15233)
+ChapterTime: 4:18.502(15206)
 
 AnalogueMode Ignore
