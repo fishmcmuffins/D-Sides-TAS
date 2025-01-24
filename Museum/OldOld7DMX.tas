@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 10634
+RecordCount: 10656
 
 Set,SaveData.Instance.CheatMode,true
 
@@ -18,7 +18,7 @@ console load monikadsidespack/1/2-SummitOldOld
 #lvl_a-00_intro
 #this room already picks up
 #the golden optimally :p
-Read,OldOld7D.tas,lvl_a-00_intro,Spinner Cycle [d-05]
+Read,OldOld7D,lvl_a-00_intro,Spinner Cycle [d-05]
 
 #Spinner Cycle [d-05]
    2
@@ -59,7 +59,7 @@ Read,OldOld7D.tas,lvl_a-00_intro,Spinner Cycle [d-05]
   40
 
 #lvl_b-07
-Read,OldOld7D.tas,lvl_b-07,lvl_f-farright (1)
+Read,OldOld7D,lvl_b-07,lvl_f-farright (1)
 
 #lvl_f-farright
 #im going to assume the room
@@ -116,15 +116,9 @@ Read,OldOld7D.tas,lvl_b-07,lvl_f-farright (1)
   40
 
 #lvl_f-downright
-Read,OldOld7D.tas,lvl_f-downright (2),lvl_f-downleft
+Read,OldOld7D,lvl_f-downright (2),lvl_f-downleft
 
 #lvl_f-downleft
-#this room is technically done
-#deathless in any%, but thats an
-#alt route thats slower in the room
-#itself and only is faster overall
-#later in the level, so not gonna
-#read through these inputs yet
    5,L,D,X
    1,L,J
   23,D,C
@@ -160,8 +154,58 @@ Read,OldOld7D.tas,lvl_f-downright (2),lvl_f-downleft
    7,R
   61
 
-#lvl_f-01
-Read,OldOld7D.tas,lvl_f-01 (3),lvl_f-02
+#lvl_f-01 (1)
+#older inputs, i dont think its possible to demo to the key in f-midleft without a deathwarp.....
+   1,R,J
+  14,R,D,X
+   1,L,J
+  17,U,X
+   3,L,J
+   1,L,K,G
+  12,L,J,G
+   1,K,G
+   1,R,K
+   3,L,K
+  12,L,J,G
+   1,L,K,G
+   3,R,K
+   5,L,K
+   7,L
+   1,L,J
+  15,L
+   2,L,J
+   4,L
+   7,L,Z
+   1,L,J
+   4,L
+  61
+
+#lvl_f-midleft
+   3,L
+   2,L,J
+   7,L,D,X
+  35,L,C
+  15,L,U,X
+  16,L,C
+  22,U,X
+  15,R,C
+  10,R,X
+  21,L,C
+  27,D,X
+   4,L,Z
+  34,R,C
+  15,U,X
+   6,R
+  15,R,Z
+  28,R,D
+  35,L,X
+  15,L,U,C
+  16,L,X
+  74,R,C
+  61
+
+#lvl_f-01 (2)
+Read,OldOld7D,lvl_f-01 (4),lvl_f-02
 
 #lvl_f-02
    7,R
@@ -175,8 +219,8 @@ Read,OldOld7D.tas,lvl_f-01 (3),lvl_f-02
    2,R,J,G
   15,R,D,X
 #Big Boy Key Cycle
- 941,R
-#
+ 935,R
+#-----
    4,L,Z
    2,L,J
    2,L
@@ -197,7 +241,7 @@ Read,OldOld7D.tas,lvl_f-01 (3),lvl_f-02
   43
 
 #lvl_f-03
-Read,OldOld7D.tas,lvl_f-03,lvl_g-01
+Read,OldOld7D,lvl_f-03,lvl_g-01
 
 #lvl_g-01
   72
@@ -241,7 +285,7 @@ AnalogMode Precise
   40
 
 #lvl_g-02
-Read,OldOld7D.tas,lvl_g-02,lvl_i-01
+Read,OldOld7D,lvl_g-02,lvl_i-01
 
 #lvl_i-01
    7,R,D,X
@@ -254,24 +298,31 @@ Read,OldOld7D.tas,lvl_g-02,lvl_i-01
   14,R,Z
    1,L,J
   15,D,X
+
 #Key Cycle Wait
-  61
-#
+  20
+#----
+
    1,R
    1
    1,R
    1
    2,R
+   1,J
+  14
+   1,J
+  14
   18,J
-  15,U,Z
-  14,U,X
+   1
+  18,U,Z
+  13,U,X
    8,R,J
    5,L,J
   40
 
 #lvl_j-01
-Read,OldOld7D.tas,lvl_j-01
+Read,OldOld7D,lvl_j-01
 
 AnalogueMode Ignore
 
-ChapterTime: 10:02.378(35434)
+ChapterTime: 9:40.499(34147)
