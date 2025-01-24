@@ -6,17 +6,17 @@
 
 #Check this file
 #to run the TAS yourself:
-Read,StartFullGameFile.tas
+Read,StartFullGameFile
 
 #Prologue D-Side
-Read,0 - Prologue.tas,Start
+Read,0 - Prologue,Start
 
-Read,LoadDPost.tas,Load1D
+Read,LoadDPost,Load1D
 
 #Forsaken City D-Side
-Read,1D.tas,Start
+Read,1D,Start
 
-Read,LoadDB.tas,0,Cassette
+Read,LoadDB,0,Cassette
 
    1,J
   30
@@ -24,15 +24,15 @@ Read,LoadDB.tas,0,Cassette
    1,J
   46
 
-Read,1DC.tas,Start,lvl_b-01b
-Read,1DSC.tas,lvl_b-01b (1)
+Read,1DC,Start,lvl_b-01b
+Read,1DSC,lvl_b-01b (1)
 
-Read,LoadDBFromD.tas
+Read,LoadDBFromD
 
 #Forsaken City Dark-Side
-Read,1DB.tas,Start
+Read,1Dark,Start
 
-Read,LoadDFromDB.tas,0,Post
+Read,LoadDFromDB,0,Post
 
    1,J
  230
@@ -41,9 +41,9 @@ Read,LoadDFromDB.tas,0,Post
 Add 1
 
 #Old Site D-Side
-Read,2DS.tas,Start
+Read,2DS,Start
 
-Read,LoadDB.tas,0,Cassette
+Read,LoadDB,0,Cassette
 
    1,J
   30
@@ -52,174 +52,185 @@ Read,LoadDB.tas,0,Cassette
    1,J
   46
 
-Read,2DC0.tas,Start
+Read,2DC0,Start
 
-Read,LoadDBFromD.tas
+Read,LoadDBFromD
 
 #Old Site Dark-Side
-Read,2DB.tas,Start
+Read,2Dark,Start
 
-Read,LoadDFromDB.tas
+Read,LoadDFromDB
 
 #Celestial Resort D-Side
-Read,3DC.tas,Start
-Read,3DS.tas,Start
-Read,3D.tas,Start
+Read,3DC,Start
+Read,3DS,Start
+Read,3D,Start
 
-Read,LoadDB.tas
+Read,LoadDB
 
 #Celestial Resort Dark-Side
-Read,3DB.tas,Start
+Read,3Dark,Start
 
-Read,LoadDFromDB.tas
+Read,LoadDFromDB
 
 #Golden Ridge D-Side
-Read,4DS.tas,Start
+Read,4DC0,Start
 
-Read,LoadDB.tas,0,Cassette
-
+  51
+   1,S
    1,J
   30
-   1,R
-   1,F,90
    1,J
   46
 
-Read,4DC0.tas,Start
+Read,4DC1,Start,lvl_c-02
+Read,4D,lvl_c-02,lvl_d-08
+Read,4DS,lvl_d-08 (1)
 
-Read,LoadDBFromD.tas
+Read,LoadDB
 
 #Golden Ridge Dark-Side
-Read,4DB.tas,Start
+Read,4Dark,Start
 
-Read,LoadDFromDB.tas
+Read,LoadDFromDB
 
 #Mirror Temple D-Side
-Read,5DS.tas,Start
+Read,5DC,Start
+Read,5DS,Start
 
-Read,LoadD.tas
+Read,LoadDB
+
+#Mirror Temple Dark-Side
+Read,5Dark,Start
+
+Read,LoadDFromDB
 
 #Reflection D-Side
-Read,6DS.tas,Start
+Read,6DS,Start
 
-Read,LoadD.tas
+Read,LoadD
 
 #Summit D-Side
-Read,7DS.tas,Start
+Read,7DS,Start
 
-Read,LoadD.tas
+Read,LoadD
 
 #Core D-Side
-Read,8DS.tas,Start
+Read,8DS,Start
 
-Read,LoadD.tas
+Read,LoadD
 
 #Epilogue D-Side
-Read,0 - Epilogue-S.tas,Start
+Read,0 - Epilogue-S,Start
 
-Read,Load9D.tas
+Read,Load9D
 
 #Final Goodbye / Farewell D-Side
 #Moonberry is gotten in 2nd run because of the moonberry checkpoint's golden berry
 Read,9D/9D.tas,Start
 
-Read,LoadD.tas
+Read,LoadD
 
 #Post-Epilogue
-Read,0 - Post-Epilogue.tas,Start
+Read,0 - Post-Epilogue,Start
 
-Read,LoadPrologueFromPostEpilogue.tas
+Read,LoadPrologueFromPostEpilogue
 
 #Prologue-D Golden
-Read,0 - Prologue-MX.tas,Start
+Read,0 - Prologue-MX,Start
 
-Read,Load1DMXFromPrologue.tas
+Read,Load1DMXFromPrologue
 
 #1D Golden
-Read,1DMX.tas,Start
+Read,1DMX,Start
 
-Read,LoadDBMXFromDMX.tas
+Read,LoadDBMXFromDMX
 
 #1Dark Golden
-Read,1DBMX.tas,Start
+Read,1DarkMX,Start
 
-Read,LoadDMX.tas
+Read,LoadDMX
 
 #2D Golden
-Read,2DMX.tas,Start
+Read,2DMX,Start
 
-Read,LoadDBMXFromDMX.tas
+Read,LoadDBMXFromDMX
 
 #2Dark Golden
-Read,2DBMX.tas,Start
+Read,2DarkMX,Start
 
-Read,LoadDMX.tas
+Read,LoadDMX
 
 #3D Golden
-Read,3DMX.tas,Start
+Read,3DMX,Start
 
-Read,LoadDBMXFromDMX.tas
+Read,LoadDBMXFromDMX
 
 #3Dark Golden
-Read,3DBMX.tas,Start
+Read,3DarkMX,Start
 
-Read,LoadDMX.tas
+Read,LoadDMX
 
 #4D Golden
-Read,4DMX.tas,Start
+Read,4DMX,Start
 
-Read,LoadDBMXFromDMX.tas
+Read,LoadDBMXFromDMX
 
 #4Dark Golden
-Read,4DBMX.tas,Start
+Read,4DarkMX,Start
 
-Read,LoadDMX.tas
+Read,LoadDMX
 
 #5D Golden
-Read,5DMX.tas,Start
+Read,5DMX,Start
 
-Read,LoadDMX.tas
+Read,LoadDBMXFromDMX
+
+#5Dark Golden
+Read,5DarkMX,Start
+
+Read,LoadDMX
 
 #6D Golden
-Read,6DMX.tas,Start
+Read,6DMX,Start
 
-Read,LoadDMX.tas
+Read,LoadDMX
 
 #7D Golden
-Read,7DMX.tas,Start
+Read,7DMX,Start
 
-Read,LoadDMX.tas
+Read,LoadDMX
 
 #8D Golden
-Read,8DMX.tas,Start
+Read,8DMX,Start
 
-Read,LoadDMX.tas,0,Epilogue
+Read,LoadDMX,0,Epilogue
    1,J
   46
 Add 1
 
 #Epilogue-D Golden
-Read,0 - Epilogue-MX.tas,Start
+Read,0 - Epilogue-MX,Start
 
-Read,Load9DMX.tas
+Read,Load9DMX
 
 #9D Max%
 #Includes all 17 checkpoint goldens, the moonberry (because of the moonberry checkpoint golden), and the full level lengthed 9D Platinum Berry, which serves as the true "Golden Run" of this level.
 Read,9D/9DMX,Start
 
-Read,LoadDMX.tas,0,Epilogue
+Read,LoadDMX,0,Epilogue
    1,J
   46
 Add 1
 
 #Post-Epilogue Golden
-Read,0 - Post-Epilogue-MX.tas,Start
+Read,0 - Post-Epilogue-MX,Start
 
 Add 197
   60
    1,X
   62
 
-Read,LoadJournal.tas,Epilogue
+Read,LoadJournal,Epilogue
 
-FileTime: 3:19:26.878(703934)
+FileTime: 3:32:35.491(750323)
