@@ -1,10 +1,10 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 6196
+RecordCount: 6343
 
 # put decals in background
-evallua for i = 0, Celeste.AreaData.Areas.Count - 1 do ad = Celeste.AreaData.Areas[i] if ad.SID == monikadsidespack/0/4-Ridge then md = ad.Mode[1].MapData break end end if md ~= nil then for j = 0, md.Levels.Count - 1 do room = md.Levels[j] k = 0 while k < room.FgDecals.Count do decal = room.FgDecals[k] if invokeMethod(decal.Texture, Contains, mysterycloud) then room.FgDecals:RemoveAt(k) room.BgDecals:Add(decal) else k = k + 1 end end end end
+evallua for i = 0, Celeste.AreaData.Areas.Count - 1 do ad = Celeste.AreaData.Areas[i] if ad.SID == "monikadsidespack/0/4-Ridge" then md = ad.Mode[1].MapData break end end if md ~= nil then for j = 0, md.Levels.Count - 1 do room = md.Levels[j] k = 0 while k < room.FgDecals.Count do decal = room.FgDecals[k] if invokeMethod(decal.Texture, Contains, "mysterycloud") then room.FgDecals:RemoveAt(k) room.BgDecals:Add(decal) else k = k + 1 end end end end
 
 AnalogueMode Precise
 
@@ -12,7 +12,7 @@ console hard monikadsidespack/0/4-Ridge
    1
 
 # tame the windsnow
-evallua alpha = 0.24 i = 0 while i < level.Foreground.Backdrops.Count do backdrop = level.Foreground.Backdrops[i] onlyin = System.String[1000] backdrop.OnlyIn:CopyTo(onlyin) j = 0 while j < onlyin.Length do shouldHide = true if not invokeMethod(onlyin[j], Contains, _a) then shouldHide = false break else j = j + 1 end if shouldHide then backdrop.Alpha = alpha end end i = i + 1 end
+evallua alpha = 0.24 i = 0 while i < level.Foreground.Backdrops.Count do backdrop = level.Foreground.Backdrops[i] onlyin = System.String[1000] backdrop.OnlyIn:CopyTo(onlyin) j = 0 while j < onlyin.Length do shouldHide = true if not invokeMethod(onlyin[j], Contains, "_a") then shouldHide = false break else j = j + 1 end if shouldHide then backdrop.Alpha = alpha end end i = i + 1 end
 
 #Start
   84
@@ -1387,20 +1387,22 @@ EndRepeat
   14,L,Z
    1,L,J
   14,L,D,X
-  10,L,J
-  14,L,D,X
-  16,L,J
-  14,L,D,X
-   1,L,J
-  12,L,D,X
-   1,L,J
-   3,L
-   1,L,J
-   3,L
-  16,L,J
-  15,U,X
+   3,L,J
    4,L
-  18,L,J
+  14,L,D,X
+  14,L,J
+  14,L,D,X
+   1,L,J
+  14,L,D,X
+   1,L,J
+   3,L
+   1,L,J
+   3,L
+  15,L,K
+   5,J,G
+  15,U,X
+  17,L,J
+   1,J
    1,K
    1,J
   11,K
@@ -1409,69 +1411,63 @@ EndRepeat
    2,L,K
    1,J
    1,K
-   1,L,K
-   1,J
-   4,L,J
-   4,J
+   9,L,K
   40
 
 #lvl_e-05
-   7
-   1,J,G
-   1
+
+  11
+  11,R,Z
+   1,L,J
    1,J
-   5,K
+   3,L,J
+   5,L,D,X
+   2,L,K,G
+   2,L
    1
-  12,R,Z
-   1,L,J
-   6,L
-   1,L,J
-   1,L
-   7,L,D,X
-   1,L,J,G
    9,L
-   1
-   1,L
    1,L,J
-  16,L
-  26,L,J
-  14,K,G
-  10,J,G
-   1,L,J
+  14,L
+   3,L,D
+  29,L,K
+  12,J,G
+  12,K,G
+   3,J,G
    1,R,J
-   1
-   1,L,J,G
-   7,J
-   4,R,J
-   1,R
    1,L,K,G
-   1,R,K
-   1,K
-   1,R,K
-   1,K
-   1,R,K
-   1,K
-   1,R,K
+   8,K
+   5,R,K
+   1,L,J,G
+   1,R,J
+   1,J
+   1,R,J
+   1,J
+  13,K
   12,J
   12,K
-  12,J
-   1,K
-   5,R,K
-   1,R,J,G
-   9,R
-   1,R,K
-   3,R
-   1,J
-  39,R,J
-  31,R,U,X
-   9,R,K
-  14,U,X
-  14,L,J
-  13,L,C
-  15,L,J
-  15,U,X
-   7
+   6,J
+   4
    3,L
+   1,L,K
+   6
+   1,K
+   3,L,K
+   1
+   7,L
+   6,L,Z
+   1,R,J
+   1,R,K,G
+  30,R,J,G
+   1
+  10,R
+   6,K
+  15,U,X
+  21,L,J
+  12,L,X
+  15,L,K
+  15,U,X
+   6,L
+   4
   11,D
    1
   10,L,X
@@ -1884,6 +1880,6 @@ EndRepeat
  135,R,U
 ##
 
-ChapterTime: 4:03.440(14320)
+ChapterTime: 4:03.168(14304)
 
 AnalogueMode Ignore
