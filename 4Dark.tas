@@ -1,10 +1,10 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 5985
+RecordCount: 6343
 
 # put decals in background
-evallua for i = 0, Celeste.AreaData.Areas.Count - 1 do ad = Celeste.AreaData.Areas[i] if ad.SID == "monikadsidespack/0/4-Ridge" then md = ad.Mode[1].MapData break end end if md ~= nil then for j = 0, md.Levels.Count - 1 do room = md.Levels[j] k = 0 while k < room.FgDecals.Count do decal = room.FgDecals[k] if invokeMethod(decal.Texture, "Contains", "mysterycloud") then room.FgDecals:RemoveAt(k) room.BgDecals:Add(decal) else k = k + 1 end end end end
+evallua for i = 0, Celeste.AreaData.Areas.Count - 1 do ad = Celeste.AreaData.Areas[i] if ad.SID == "monikadsidespack/0/4-Ridge" then md = ad.Mode[1].MapData break end end if md ~= nil then for j = 0, md.Levels.Count - 1 do room = md.Levels[j] k = 0 while k < room.FgDecals.Count do decal = room.FgDecals[k] if invokeMethod(decal.Texture, Contains, "mysterycloud") then room.FgDecals:RemoveAt(k) room.BgDecals:Add(decal) else k = k + 1 end end end end
 
 AnalogueMode Precise
 
@@ -12,7 +12,7 @@ console hard monikadsidespack/0/4-Ridge
    1
 
 # tame the windsnow
-evallua alpha = 0.24 i = 0 while i < level.Foreground.Backdrops.Count do backdrop = level.Foreground.Backdrops[i] onlyin = System.String[1000] backdrop.OnlyIn:CopyTo(onlyin) j = 0 while j < onlyin.Length do shouldHide = true if not invokeMethod(onlyin[j], "Contains", "_a") then shouldHide = false break else j = j + 1 end if shouldHide then backdrop.Alpha = alpha end end i = i + 1 end
+evallua alpha = 0.24 i = 0 while i < level.Foreground.Backdrops.Count do backdrop = level.Foreground.Backdrops[i] onlyin = System.String[1000] backdrop.OnlyIn:CopyTo(onlyin) j = 0 while j < onlyin.Length do shouldHide = true if not invokeMethod(onlyin[j], Contains, "_a") then shouldHide = false break else j = j + 1 end if shouldHide then backdrop.Alpha = alpha end end i = i + 1 end
 
 #Start
   84
@@ -135,7 +135,7 @@ evallua alpha = 0.24 i = 0 while i < level.Foreground.Backdrops.Count do backdro
    1,R,K
   40
 
-#lvl_a-07
+#lvl_a-04
    9,R,K
   35,R,U,X
   15,R,D,C
@@ -156,7 +156,7 @@ evallua alpha = 0.24 i = 0 while i < level.Foreground.Backdrops.Count do backdro
    3,R
   40
 
-#lvl_a-04
+#lvl_b-01-dark
    4,R
    1,R,J
    2
@@ -266,7 +266,7 @@ EndRepeat
    6,R
   40
 
-#lvl_a-05
+#lvl_b-02
    1
    1,R,K
    2,K
@@ -326,7 +326,7 @@ EndRepeat
    1,R,J
   40
 
-#lvl_a-06
+#lvl_b-03
    7,R
   13,R,K
   16,U,X
@@ -365,7 +365,7 @@ EndRepeat
    8,L,J
   40
 
-#lvl_b-01
+#lvl_b-04
    1,R,J
   10,R,K
   10,R,X
@@ -446,7 +446,7 @@ EndRepeat
   14,R,U,X
   40
 
-#lvl_b-02
+#lvl_b-05
   13,R
   20,R,X
   12,J,G
@@ -470,7 +470,7 @@ EndRepeat
    6,J,G
   40
 
-#lvl_b-03
+#lvl_b-06
    5,J
    4,K
    1
@@ -489,31 +489,24 @@ EndRepeat
    5,U,X
   44,R,J
   15,R,X
-  18,R,D
-   4,R
-   8,L
-  12,L,D
-   3
-  18,R,Z
-   8,R,J
-   5,R
-   1,R,J
-   3,R
-   2,R,J
-   8,R
+  12,R,D
+  26,L,D
+   3,D
+   1,J
+   2,K,G
+  18,R,K
+   5,R,D
+  15,U,Z
+   2,R
    1
    1,R
-   2
-   2,R
-   1,R,J,G
-   6,R,K,G
-   5,R
-   1,R,J
-  17,R
-  10,L,X
-  16,L,J
-  15,D,X
-   5
+  30,L,J
+   1
+   1,G
+   9,R,K
+   1,R
+  15,L
+   6
   15,R,X
   16,L,J
    7,J
@@ -522,156 +515,106 @@ EndRepeat
   11,R,J
   40
 
-#lvl_b-04
+#lvl_b-07
   11
-  12,J,G
-   5,L,Z
+   5,J,G
+   1,R,J
+   1,J
+   1,R,J
    1,L,J
-   7,L
-   3,L,D
-  13,L,D,J
-   1,K,G
-   1,R,K
-   5,L,K
-   5,J
-   6
-   1,R
-   1,R,G
-   1,J,G
-   1,L,J
-  12,R,K,G
-   7,R
+   2,K
+   1,L,K
+   1,L,J,G
+   7,L,K,G
+  24,L,U,X
    1,G
-  12,R,J,G
+   8,J,G
+   2,L,J
+   1,R,J
+   1,L,J
+  13,L,K,G
+  11,L,J,G
+   7,L
+  10,R,K
+   3,R
+   1,L
+   1
+   1,K
+   6
+  11,G
+   3,R,D,G
+   1,R,G
+   1,G
    5,R
-   3
-   3,J
-   1,R
+   1,J
+   3,R,J
+  28,L,J
+   2,J
+   8,L,K,G
+   7,L
+  11,J
+  11
+   8,R,K
+   1,L
+  12
+  60,G
+   1,L,D,G
+   1,G
+   1,D,G
+  49,G
    1
    1,J
-   1
+  17,R,J
    1,L,J
-   7,R,J
-  10,R
-   1,L,J,G
-   3,L
-   1
+  13,J
+  25,L,U,X
+   8
+  11,K
+  11
+  11,J
+  11
+  11,K
+  11,R
+   1,L,J
+  10,J
+  11
+  11,K
+  11
+   7,L,J
+   4,J
+  11
+  11,K
+  11
+   9,R,J
    1,L
   10
    1,G
-  16,R,J
-  15,L,U,Z
-   3,L
-  16
-  25,J
-Repeat,3
-  12,K
-   5
-   6,J
-   2
-EndRepeat
-   8,R,J
-   4,J
-   5
-   8,J
-   1,L,J
-   1,J
-   1,L
    1
-   1,L
-   1
-   1,L
-   1
-  24,G
-   1,D,G
-   1,J,G
-   1,R,J
-   1,L,J
-   1,K,G
-  15,R,K
-  15,U,X
-  26,L
-   1,L,J
+   1,K
+  26,L,K
+   1,K
+   7
   11,J
-Repeat,2
-   5
-   5,J
-   1
-   1,J
-   1
-   1,R,J
+  11
+  11,K
+  11
   11,J
-EndRepeat
-   5
-   5,J
-   1
-   1,J
-   1
-   2,R,J
-   8,R
-  10,L,J,G
-   2,J
-   5
-   5,J
-   2
-   3,L,J
-   7,J
-   1,L,J
-   1,J
-   5
-   5,J
-   1
-   1,J
-   1
-  12,J
-   5,R
-   2,R,J
-   3,J
-   1
-   1,J
-   1,R
-   4,L,G
-   8
-   1,G
-   1,J,G
-   1,R,J
-   1,L,K,G
-   2,R,K
-  25,L,K
-   5,L
-   2,J
-   7
-   2,J
-   7
-   2,R,J
-   7
-   3,R,J
-   7
-   2,J
-   5,R
-   2
-   6,J
-   2
-   3,J
-   4
-  10,L,J
-   1,L
-   5
-  12,R,Z
+  11
+   4,K
+   4,L
+   8,R,Z
    1,L,J
    7,L,K,G
-   1,L
-   5,L,K
-   1,L
-   1,L,K
-  15,L,D
+   5,L
+   2,L,K
+  16,L,D
   14,U,Z
   17,L,J
   40
 ##
 
 ## Breezy Tunnels
-#lvl_b-05
+#lvl_c-01-dark
    1,J,G
    3,R,J
    3,R
@@ -716,7 +659,7 @@ EndRepeat
    2,K
   40
 
-#lvl_b-06
+#lvl_c-02
    7
    2,R
    1
@@ -790,7 +733,7 @@ EndRepeat
    6,L,J
   40
 
-#lvl_b-07
+#lvl_c-03
   11,L
   13,L,Z
    1,R,K
@@ -849,7 +792,7 @@ EndRepeat
    6,L,D
   40
 
-#lvl_c-01_a1
+#lvl_c-04_a1
    3,L
    1
    8,R,D
@@ -885,7 +828,7 @@ EndRepeat
    1,R,D,K
   40,K
 
-#lvl_c-02_a2
+#lvl_c-05_a2
    7,R,D,K
    2,R
   21,R,D,X
@@ -950,7 +893,7 @@ EndRepeat
   10,R
   40
 
-#lvl_c-03_a3
+#lvl_c-06_a3
    3,R
   14,R,X
    5,R,C
@@ -967,7 +910,7 @@ EndRepeat
   10,R,U,X
   40
 
-#lvl_c-04_a4
+#lvl_c-07_a4
    4,R,U,X
    3,J,G
    5,R,Z
@@ -1002,7 +945,7 @@ EndRepeat
    1,R,J
   40
 
-#lvl_c-05_a5
+#lvl_d-01_a5
    7,R,J
    2,R
   15,R,D,X
@@ -1043,7 +986,7 @@ EndRepeat
   10,R,D,X
   40
 
-#lvl_c-06_a5
+#lvl_d-02_a5
    2,R,D,X
    1,R,J
    2,R
@@ -1073,7 +1016,7 @@ EndRepeat
   10,U,X
   40
 
-#lvl_c-07
+#lvl_d-03
    9
    2,J
   24,L,J
@@ -1129,7 +1072,7 @@ EndRepeat
    5,R
   40
 
-#lvl_c-08
+#lvl_d-04
    7,R
    1,R,J
   12,R,D,X
@@ -1180,7 +1123,7 @@ EndRepeat
   11,J,G
   40
 
-#lvl_c-09_a5
+#lvl_d-05_a5
   10
    1,J
    1,R,J
@@ -1219,7 +1162,7 @@ EndRepeat
    5,R
   40
 
-#lvl_c-10
+#lvl_e-01
    2,R
    3,R,J
   14,R,D,X
@@ -1316,7 +1259,7 @@ EndRepeat
    1,R
   40
 
-#lvl_d-01
+#lvl_e-02
    2,R
   14,R,D,X
    1,R,J
@@ -1358,7 +1301,7 @@ EndRepeat
    8,R,U,Z
   40
 
-#lvl_d-06
+#lvl_e-03
    3,L
    1,L,K,G
    8,R,K
@@ -1436,7 +1379,7 @@ EndRepeat
    6,L,D,X
   40
 
-#lvl_d-07
+#lvl_e-04
    8,L,D,X
    1,L,J
   14,L,D,X
@@ -1444,20 +1387,22 @@ EndRepeat
   14,L,Z
    1,L,J
   14,L,D,X
-  10,L,J
-  14,L,D,X
-  16,L,J
-  14,L,D,X
-   1,L,J
-  12,L,D,X
-   1,L,J
-   3,L
-   1,L,J
-   3,L
-  16,L,J
-  15,U,X
+   3,L,J
    4,L
-  18,L,J
+  14,L,D,X
+  14,L,J
+  14,L,D,X
+   1,L,J
+  14,L,D,X
+   1,L,J
+   3,L
+   1,L,J
+   3,L
+  15,L,K
+   5,J,G
+  15,U,X
+  17,L,J
+   1,J
    1,K
    1,J
   11,K
@@ -1466,69 +1411,63 @@ EndRepeat
    2,L,K
    1,J
    1,K
-   1,L,K
-   1,J
-   4,L,J
-   4,J
+   9,L,K
   40
 
-#lvl_d-08
-   7
-   1,J,G
-   1
+#lvl_e-05
+
+  11
+  11,R,Z
+   1,L,J
    1,J
-   5,K
+   3,L,J
+   5,L,D,X
+   2,L,K,G
+   2,L
    1
-  12,R,Z
-   1,L,J
-   6,L
-   1,L,J
-   1,L
-   7,L,D,X
-   1,L,J,G
    9,L
-   1
-   1,L
    1,L,J
-  16,L
-  26,L,J
-  14,K,G
-  10,J,G
-   1,L,J
+  14,L
+   3,L,D
+  29,L,K
+  12,J,G
+  12,K,G
+   3,J,G
    1,R,J
-   1
-   1,L,J,G
-   7,J
-   4,R,J
-   1,R
    1,L,K,G
-   1,R,K
-   1,K
-   1,R,K
-   1,K
-   1,R,K
-   1,K
-   1,R,K
+   8,K
+   5,R,K
+   1,L,J,G
+   1,R,J
+   1,J
+   1,R,J
+   1,J
+  13,K
   12,J
   12,K
-  12,J
-   1,K
-   5,R,K
-   1,R,J,G
-   9,R
-   1,R,K
-   3,R
-   1,J
-  39,R,J
-  31,R,U,X
-   9,R,K
-  14,U,X
-  14,L,J
-  13,L,C
-  15,L,J
-  15,U,X
-   7
+   6,J
+   4
    3,L
+   1,L,K
+   6
+   1,K
+   3,L,K
+   1
+   7,L
+   6,L,Z
+   1,R,J
+   1,R,K,G
+  30,R,J,G
+   1
+  10,R
+   6,K
+  15,U,X
+  21,L,J
+  12,L,X
+  15,L,K
+  15,U,X
+   6,L
+   4
   11,D
    1
   10,L,X
@@ -1546,7 +1485,7 @@ EndRepeat
    5,R
   40
 
-#lvl_d-09-dark
+#lvl_f-01
    2,R
    1,R,K
    6,R
@@ -1589,7 +1528,7 @@ EndRepeat
    6,R
   40
 
-#lvl_d-10
+#lvl_f-02
    2,R
    9,R,J
   15,R,D,X
@@ -1654,7 +1593,7 @@ EndRepeat
    7,R
   40
 
-#lvl_d-11
+#lvl_f-03
    1,R,J
    3,R
   14,R,Z
@@ -1688,7 +1627,7 @@ EndRepeat
    7,R
   40
 
-#lvl_d-12
+#lvl_f-04
    4,R
   10,R,K
   15,R,D,X
@@ -1763,7 +1702,7 @@ EndRepeat
    7,R,D,J
   40,J
 
-#lvl_d-13
+#lvl_f-05
    4,R,J
    5,R
    4,R,J
@@ -1941,6 +1880,6 @@ EndRepeat
  135,R,U
 ##
 
-ChapterTime: 4:03.984(14352)
+ChapterTime: 4:03.168(14304)
 
 AnalogueMode Ignore

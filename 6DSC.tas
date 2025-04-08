@@ -1,0 +1,34 @@
+# Monika's D-Sides
+# https://gamebanana.com/mods/150759
+
+RecordCount: 5
+
+console wipedebug
+console load monikadsidespack/0/6-ReflectionD
+   1
+Set SaveData.DebugMode false
+Set SaveData.CheatMode false
+
+#Start
+Read,6D,Start,6DC
+Read,6DC0,Start
+Unsafe
+   1,S
+   1,U,J
+  32,O
+  51
+   1,S
+   1,O
+  30
+   1,O
+  46
+Safe
+Read,6DC1,Start
+Read,6D,lvl_b-01,lvl_b-11 (0)
+Read,6DS,lvl_b-11 (0),boss-03 spinner cycle
+   0
+Read,6D,# Initiative,center-01 spinner cycle
+   1
+Read,6D,# Fluidity
+
+FileTime: 8:05.418(28554)
