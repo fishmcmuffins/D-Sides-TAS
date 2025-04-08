@@ -105,11 +105,14 @@ Read,5Dark,Start
 Read,LoadDFromDB
 
 #Reflection D-Side
-Read,6DS,Start
+Read,6DSC,Start
 
 Read,LoadD
 
 #Summit D-Side
+Read,7DC,Start
+   1,Q
+  32,O
 Read,7DS,Start
 
 Read,LoadD
@@ -139,4 +142,4 @@ Add 197
 
 Read,LoadJournal,Epilogue
 
-FileTime: 1:49:15.132(385596)
+FileTime: 1:49:40.989(387117)

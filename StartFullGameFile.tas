@@ -1,4 +1,4 @@
-Set,DisableScreenShake,true
+Set,ScreenShake,Off
 Set,DisableFlashes,true
 Set,SpeedrunClock,2
 Set,Everest.ShowModOptionsInGame,false
