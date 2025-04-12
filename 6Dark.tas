@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 3869
+RecordCount: 3921
 
 console hard monikadsidespack/0/6-ReflectionD
    1
@@ -1009,47 +1009,49 @@ EndStunPause
    1,L
    1,L,K
   20,L,U,Z
+  13
+   1,L
+   1,L,K
+  20,L,U,Z
   12,D
-   4,Z
-   1,L,J
-   7,L
-   4,L,K
+   5,L,Z
+   3,L,J
   40
 
 #lvl_center-01b
-   4,L,K
-   7,L
-  25,D
-   2,L,D
-   3,L
+  12,L,J
+   2,J
+  25,R,D
+   5,L,D
+   1,L
    1,L,D
-   5,L
+   2,L
   15,L,X
-  12
+  13
   15,L,U,C
-  13,D
-  11,L,D
-   3,D
+  12,D
+  13,L,D
+   2,D
    4,X
   27,L,U
   21,F,0
   10,F,300
-  16,F,255
-  27,F,196.5
+  16,F,257.9
+  27,F,194.9
   10,F,255
-  11,F,267.9
+  11,F,265.1
    5,F,300
   10,F,0
-  11,F,26.74
+  11,F,27.4
   10,F,325
-  11,F,265
-  25,F,253.5
+  11,F,270
+  25,F,254.65
    3,F,270
    1,L,J
   19,L
    9,L,D
-   9,R,D
-   2,D
+  10,D
+   1,L,D
   15,R,X
   27,L,D
   43,F,281.0
@@ -2418,6 +2420,6 @@ AnalogueMode Precise
  111,L,J
 ##
 
-ChapterTime: 5:33.897(19641)
+ChapterTime: 5:34.339(19667)
 
 AnalogueMode Ignore
