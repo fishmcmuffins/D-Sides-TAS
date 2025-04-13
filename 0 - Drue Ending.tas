@@ -36,9 +36,15 @@ Read,5D.tas,Start
 Read,LoadD.tas
 
 #Reflection D-Side
-Read,6D.tas,Start
+Read,6D.tas,Start,6DC
+Read,6DC0,Start
+   1,S
+   1,U,J
+  32,O
+Read,LoadDBFromD
+Read,6Dark,Start
 
-Read,LoadD.tas
+Read,LoadDFromDB
 
 #Summit D-Side
 Read,7D.tas,Start
@@ -70,4 +76,4 @@ Add 197
 
 Read,LoadJournal.tas,Epilogue
 
-FileTime: 1:22:37.064(291592)
+FileTime: 1:22:11.122(290066)
