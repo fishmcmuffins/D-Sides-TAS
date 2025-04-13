@@ -5,15 +5,15 @@
 
 Read,StartFullGameFile
 
-#Prologue D-Side
+#Prologue
 Read,0 - Prologue,Start
 
 Read,LoadDPost,Load1D
 
-#This "completes" 5D (eventually 7D, 8D, or 9D) by only completing Dark-Sides, similar to Bny% in vanilla. As of right now, there are only 5 Dark-Sides, so 5D/5Dark is the last level that can be played with this restriction. Hopefully more can be added in future updates!
+#Completes chapter 7 by only completing Dark-Sides, similar to the vanilla Bny% category. An 8Dark will probably exist in the future, at which point this will be updated to complete chapter 8.
 
-#Forsaken City D-Side + Dark-Side
-Read,1DSC,Start,lvl_b-01b (1)
+#Forsaken City
+Read,1DSC,Start,lvl_b-01b (0)
 Read,1DC,lvl_b-01b
 
 Read,LoadDBFromD
@@ -26,7 +26,7 @@ Read,LoadDFromDB,0,Post
    1,J
  136
 
-#Old Site D-Side + Dark-Side
+#Old Site
 Read,2DC,Start
 
 Read,LoadDBFromD
@@ -35,7 +35,7 @@ Read,2Dark,Start
 
 Read,LoadDFromDB
 
-#Celestial Resort D-Side + Dark-Side
+#Celestial Resort
 Read,3DC,Start,Menu
 
    1,S
@@ -48,7 +48,7 @@ Read,3Dark,Start
 
 Read,LoadDFromDB
 
-#Golden Ridge D-Side + Dark-Side
+#Golden Ridge
 Read,4DC0,Start
 
 Read,LoadDBFromD
@@ -57,7 +57,7 @@ Read,4Dark,Start
 
 Read,LoadDFromDB
 
-#Mirror Temple D-Side + Dark-Side
+#Mirror Temple
 Read,5DC.tas,Start,Menu
 
    1,S
@@ -67,6 +67,17 @@ Read,5DC.tas,Start,Menu
 Read,LoadDBFromD
 
 Read,5Dark,Start
+
+Read,LoadDFromDB
+
+#Reflection
+Read,6D,Start,6DC
+Read,6DC0,Start
+   1,S
+   1,U,J
+  32,O
+Read,LoadDBFromD
+Read,6Dark,Start
 
 unsafe
   60
@@ -84,4 +95,4 @@ Add 7
 
 Read,LoadJournal,Epilogue
 
-FileTime: 19:59.758(70574)
+FileTime: 27:00.219(95307)
