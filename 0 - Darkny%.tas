@@ -13,7 +13,7 @@ Read,LoadDPost,Load1D
 #Completes chapter 7 by only completing Dark-Sides, similar to the vanilla Bny% category. An 8Dark will probably exist in the future, at which point this will be updated to complete chapter 8.
 
 #Forsaken City
-Read,1DSC,Start,lvl_b-01b (0)
+Read,1DSC,Start,lvl_b-01b (1)
 Read,1DC,lvl_b-01b
 
 Read,LoadDBFromD
