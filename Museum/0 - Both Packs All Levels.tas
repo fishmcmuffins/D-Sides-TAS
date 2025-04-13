@@ -8,209 +8,28 @@
 
 Read,../StartFullGameFile
 
-#Prologue D-Side
-Read,../0 - Prologue.tas,Start
-
-Read,../LoadDPost.tas,Load1D
-
-#Forsaken City D-Side
-Read,../1D.tas,Start
-
-Read,../LoadDB.tas,0,Cassette
-
-   1,J
-  30
-   1,R
-   1,J
-  46
-
-Read,../1DC.tas,Start
-
-Read,../LoadDBFromD.tas
-
-#Forsaken City Dark-Side
-Read,../1DB.tas,Start
-
-Read,../LoadDFromDB.tas,0,Post
-
-   1,J
- 230
-   1,J
- 136
-Add 1
-
-#Old Site D-Side
-Read,../2D.tas,Start
-
-Read,../LoadDB.tas,0,Cassette
-
-   1,J
-  30
-   1,R
-   1,F,90
-   1,J
-  46
-
-Read,../2DC0.tas,Start
-
-Read,../LoadDBFromD.tas
-
-#Old Site Dark-Side
-Read,../2DB.tas,Start
-
-Read,../LoadDFromDB.tas
-
-#Celestial Resort D-Side
-Read,../3DC.tas,Start
-Read,../3D.tas,Start
-
-Read,../LoadDB.tas
-
-#Celestial Resort Dark-Side
-Read,../3DB.tas,Start
-
-Read,../LoadDFromDB.tas
-
-#Golden Ridge D-Side
-Read,../4D.tas,Start
-
-Read,../LoadDB.tas,0,Cassette
-
-   1,J
-  30
-   1,R
-   1,F,90
-   1,J
-  46
-
-Read,../4DC0.tas,Start
-
-Read,../LoadDBFromD.tas
-
-#Golden Ridge Dark-Side
-Read,../4DB.tas,Start
-
-Read,../LoadDFromDB.tas
-
-#Mirror Temple D-Side
-Read,../5D.tas,Start
-
-Read,../LoadD.tas
-
-#Reflection D-Side
-Read,../6D.tas,Start
-
-Read,../LoadD.tas
-
-#Summit D-Side
-Read,../7D.tas,Start
-
-Read,../LoadD.tas
-
-#Core D-Side
-Read,../8D.tas,Start
-
-Read,../LoadD.tas
-
-#Epilogue D-Side
-Read,../0 - Epilogue.tas,Start
-
-Read,../Load9D.tas
-
-#Final Goodbye / Farewell D-Side
-Read,../9D/9D.tas,Start
+#Main Pack All Levels
+#(except Post-Epilogue)
+Read,../0 - All Levels,Prologue D-Side,Post-Epilogue
 
 Read,LoadMuseumFromMain.tas
 
-#Prologue D-Side w/ Dashes
-Read,0 - PrologueDash.tas,Start
-
-Read,../Load9D.tas
-
-#Old Core D-Sides Mashup
-Read,Old8DsMashup.tas,Start
-
-Read,../LoadD.tas
-
-#Old Old Summit D-Side
-#(The first ver. of 7D)
-Read,OldOld7D.tas,Start
-
-Read,../LoadD.tas
-
-#Old Summit D-Side
-#(The second ver. of 7D)
-Read,Old7D.tas,Start
-
-Read,../LoadD.tas
-
-#Old Reflection D-Side
-Read,Old6D.tas,Start
-
-Read,../LoadD.tas
-
-#Old Old Celestial Resort D-Side
-#(The first ver. of 3D)
-Read,OldOld3D.tas,Start
-
-Read,../LoadD.tas
-
-#Old Final Goodbye
-#(AKA Old Farewell D-Side)
-#(Currently crashes in Trust due
-#to buggy dialogue code)
-Read,Old9D/Old9D.tas,Start
-
-Read,../LoadD.tas
-
-#Old Celestial Resort D-Side
-#(The second ver. of 3D)
-#(also known as Old 3Dark)
-Read,Old3D.tas,Start
-
-#Enable Cheat Mode for the
-#Museum's "B-Sides"
-Read,LoadPrologue.tas
-Read,LoadEnableCheatMode.tas
-Read,Load8E.tas
-
-#Core E-Side
-#(AKA Old Core D-Sides Mashup B-Side)
-Read,8E.tas,Start
-
-Read,LoadDBFromDB.tas
-
-#Summit E-Side
-#(AKA Old Old Summit D-Side B-Side)
-Read,7E.tas,Start
-
-Read,LoadDBFromDB.tas,0,5BGV
-   1,J
-  30
-   1,R
-   1,J
-  30
-   1,J
- 304
-Add 1
-
-#5B Garbage Version
-#(AKA 5B Funny Version)
-#(AKA Old Summit D-Side B-Side)
-#(This level has a lot of names)
-Read,5BGV.tas,Start
+#Museum All Levels
+Read,0 - Museum All Levels,Prologue D-Side w/ Dashes,Journal
 
 Read,LoadMainFromMuseum.tas
 
 #Post-Epilogue
 Read,../0 - Post-Epilogue.tas,Start
 
+#Main Pack Journal
 Add 197
   60
    1,X
   62
 Read,../LoadJournal.tas,Epilogue
 
+#Museum Journal
    1,X
   60
    1,D

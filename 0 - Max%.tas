@@ -25,7 +25,7 @@ Read,LoadDB,0,Cassette
   46
 
 Read,1DC,Start,lvl_b-01b
-Read,1DSC,lvl_b-01b (1)
+Read,1DSC,lvl_b-01b (0)
 
 Read,LoadDBFromD
 

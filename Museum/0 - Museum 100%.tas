@@ -40,8 +40,6 @@ Read,../LoadD.tas
 
 #Old Final Goodbye
 #(AKA Old Farewell D-Side)
-#(Currently crashes in Trust due
-#to buggy dialogue code)
 Read,Old9D/Old9DS.tas,Start
 
 Read,../LoadD.tas
@@ -51,50 +49,54 @@ Read,../LoadD.tas
 #(also known as Old 3Dark)
 Read,Old3D.tas,Start
 
-#Enable Cheat Mode for "B-Sides"
+Read,../LoadD
+
+#Old Mirror Temple D-Side
+Read,Old5DS,Start
+
+Read,../LoadD
+
+#Old Golden Ridge D-Side
+Read,Old4DS,Start
+
+Read,../LeaveLevel
+unsafe
+   1,O
+  30
+   1,R
+   1,F,90
+   1,O
+ 304
+Add 1
+safe
+
+Read,Old4DC0,Start
+
+Read,../LoadDBFromD
+
+#Old Golden Ridge Dark-Side
+Read,Old4Dark,Start
+
+#Enable Cheat Mode for inaccessible "B-Sides"
 Read,LoadPrologue.tas
 Read,LoadEnableCheatMode.tas
 Read,Load8E.tas
 
 #Core E-Side
-#(AKA Old Core D-Sides Mashup B-Side)
 Read,8E.tas,Start
 
-Read,LoadDBFromDB.tas
+Read,../LoadDBFromDB.tas
 
 #Summit E-Side
-#(AKA Old Old Summit D-Side B-Side)
 Read,7E.tas,Start
 
-Read,LoadDBFromDB.tas,0,5BGV
-   1,J
-  30
-   1,R
-   1,J
-  30
-   1,J
- 304
-Add 1
+Read,../LeaveLevel
 
-#5B Garbage Version
-#(AKA 5B Funny Version)
-#(AKA Old Summit D-Side B-Side)
-#(This level has a lot of names)
-Read,5BGV.tas,Start
-
+#Journal
 unsafe
-  60
-   1,J
- 196
-Add 197
- 165
-   1,J
-  83
-Add 7
-   1,S
   60
    1,X
   62
 Read,../LoadJournal,Epilogue
 
-FileTime: 1:38:02.476(346028)
+FileTime: 1:35:47.547(338091)

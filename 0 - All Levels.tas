@@ -3,8 +3,6 @@
 #Start from Begin
 #More Things Like Everest and D - Sides idk
 
-#Check this file
-#to run the TAS yourself:
 Read,StartFullGameFile
 
 #Prologue D-Side
@@ -23,8 +21,7 @@ Read,LoadDB,0,Cassette
    1,J
   46
 
-Read,1DC,Start,lvl_b-01b
-Read,1DSC,lvl_b-01b (0)
+Read,1DC,Start
 
 Read,LoadDBFromD
 
@@ -40,7 +37,7 @@ Read,LoadDFromDB,0,Post
 Add 1
 
 #Old Site D-Side
-Read,2DS,Start
+Read,2D,Start
 
 Read,LoadDB,0,Cassette
 
@@ -62,7 +59,6 @@ Read,LoadDFromDB
 
 #Celestial Resort D-Side
 Read,3DC,Start
-Read,3DS,Start
 Read,3D,Start
 
 Read,LoadDB
@@ -82,9 +78,7 @@ Read,4DC0,Start
    1,J
   46
 
-Read,4DC1,Start,lvl_c-02
-Read,4D,lvl_c-02,lvl_d-08
-Read,4DS,lvl_d-08 (1)
+Read,4DC1,Start
 
 Read,LoadDB
 
@@ -95,7 +89,7 @@ Read,LoadDFromDB
 
 #Mirror Temple D-Side
 Read,5DC,Start
-Read,5DS,Start
+Read,5D,Start
 
 Read,LoadDB
 
@@ -105,7 +99,7 @@ Read,5Dark,Start
 Read,LoadDFromDB
 
 #Reflection D-Side
-Read,6DSC,Start
+Read,6DC,Start
 
 Read,LoadDB
 
@@ -115,25 +109,22 @@ Read,6Dark,Start
 Read,LoadDFromDB
 
 #Summit D-Side
-Read,7DC,Start
-   1,Q
-  32,O
-Read,7DS,Start
+Read,7D,Start
 
 Read,LoadD
 
 #Core D-Side
-Read,8DS,Start
+Read,8D,Start
 
 Read,LoadD
 
 #Epilogue D-Side
-Read,0 - Epilogue-S,Start
+Read,0 - Epilogue,Start
 
 Read,Load9D
 
 #Final Goodbye / Farewell D-Side
-Read,9D/9DS,Start
+Read,9D/9D,Start
 
 #Post-Epilogue
 Read,LoadD
@@ -148,4 +139,4 @@ Add 197
 
 Read,LoadJournal,Epilogue
 
-FileTime: 1:55:16.484(406852)
+FileTime: 1:45:30.239(372367)

@@ -1,0 +1,24 @@
+Read,StartFullGameFile,Configure,Start
+Unsafe
+
+# Enter vanilla prologue
+SelectCampaign,Celeste,TAS
+   1,O
+Add 131
+
+# Skip "This is it" cutscene
+   1,S
+   1,D,J
+  32
+Add 1
+
+# Enable cheat mode
+Read,Museum/LoadEnableCheatMode,Start
+
+# Exit prologue
+   1,X
+  42
+#Menu
+# Select D-Sides campaign ( there isn't a SelectCampaign for the chapter select screen yet :c )
+   1,D
+  48

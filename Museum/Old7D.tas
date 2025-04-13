@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 12977
+RecordCount: 12978
 
 console wipedebug
 
@@ -3744,7 +3744,7 @@ AnalogueMode Precise
    2,R
   37,R,X
    5,L,C
- 100
+ 101
 ##
 
 AnalogueMode Ignore

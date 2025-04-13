@@ -13,90 +13,27 @@ Read,LoadDPost,Load1D
 #Forsaken City D-Side
 Read,1D,Start
 
-Read,LoadDB,0,Cassette
-
-   1,J
-  30
-   1,R
-   1,J
-  46
-
-Read,1DC,Start
-
-Read,LoadDBFromD
-
-#Forsaken City Dark-Side
-Read,1Dark,Start
-
-Read,LoadDFromDB,0,Post
-
-   1,J
- 230
-   1,J
- 136
-Add 1
+Read,LoadDPost
 
 #Old Site D-Side
 Read,2D,Start
 
-Read,LoadDB,0,Cassette
-
-   1,J
-  30
-   1,R
-   1,F,90
-   1,J
-  46
-
-Read,2DC0,Start
-
-Read,LoadDBFromD
-
-#Old Site Dark-Side
-Read,2Dark,Start
-
-Read,LoadDFromDB
+Read,LoadD
 
 #Celestial Resort D-Side
-Read,3DC,Start
 Read,3D,Start
 
-Read,LoadDB
-
-#Celestial Resort Dark-Side
-Read,3Dark,Start
-
-Read,LoadDFromDB
+Read,LoadD
 
 #Golden Ridge D-Side
-Read,4DC0,Start
+Read,4D,Start
 
-  51
-   1,S
-   1,J
-  30
-   1,J
-  46
-
-Read,4DC1,Start
-
-Read,LoadDB
-
-#Golden Ridge Dark-Side
-Read,4Dark,Start
-
-Read,LoadDFromDB
+Read,LoadD
 
 #Mirror Temple D-Side
-Read,5DC,Start
 Read,5D,Start
 
-Read,LoadDB
-
-#Mirror Temple Dark-Side
-Read,5Dark,Start
-
-Read,LoadDFromDB
+Read,LoadD
 
 #Reflection D-Side
 Read,6D,Start
@@ -116,21 +53,11 @@ Read,LoadD
 #Epilogue D-Side
 Read,0 - Epilogue,Start
 
-Read,Load9D
-
-#Final Goodbye / Farewell D-Side
-Read,9D/9D,Start
-
-Read,LoadD
-
-#Post-Epilogue
-Read,0 - Post-Epilogue,Start
-
+#Journal
+Read,LeaveLevel,Heart,Complete Screen
+Unsafe
 Add 197
-  60
-   1,X
-  62
-
+ 185
 Read,LoadJournal,Epilogue
 
-FileTime: 1:39:44.765(352045)
+FileTime: 36:11.614(127742)

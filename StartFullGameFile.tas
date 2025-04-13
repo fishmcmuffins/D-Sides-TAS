@@ -1,48 +1,25 @@
+#Configure
+
+#Asserts
+#Celeste version is 1.4.0.0+
+Assert,StartWith,1.4,{Engine.Instance.Version}
+#D-Sides version is 4.76+
+#(commented for now bc it crashes... running with evallua works fine though)
+#Assert Equal True [[md = Celeste.Mod.EverestModuleMetadata() md.Name = "Monika's D-Sides" md.Version = System.Version(4, 76, 0) return Celeste.Mod.Everest.Loader.DependencyLoaded(md)]]
+
+#Settings
 Set,ScreenShake,Off
 Set,DisableFlashes,true
 Set,SpeedrunClock,2
 Set,Everest.ShowModOptionsInGame,false
-EnforceMaingame
-Unsafe
-Add 2
-Add 1,J
-Add 89
-Add 1,J
-Add 94
-Add 1,J
-Add 61
 
-   1,D
-   1,J
-Skip
-  70
-Add 41
-   1,D
-   1,F,180
-   1,R
-   1,J
-   1,U
-   1,F,
-   1,L
-   1,J
-   1,D
-   1,F,180
-   1,J
-   1,S
-  48
-#mod
-   1,D
-   1,F,180
-   1,D
-#for changing to the correct mod
-   1,R
-#-----
-#input however many left
-#(or right) inputs you need
-   1,U
-   1,F,
-   1,U
-   1,F,
-   1,J
+#Prevent accidental cheating
+EnforceMaingame
+
+#Start
+Unsafe
+SelectCampaign,monikadsidespack/0,TAS
+   1,O
    1
 Add 131
+Safe

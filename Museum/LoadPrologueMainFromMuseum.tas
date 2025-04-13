@@ -1,13 +1,6 @@
+Read,../LeaveLevel
+
 unsafe
-  60
-   1,J
- 196
-Add 197
- 165
-   1,J
-  83
-Add 7
-   1,S
    1,X
   20
    1,U
@@ -20,3 +13,4 @@ EndRepeat
   43
    1,J
   46
+safe
