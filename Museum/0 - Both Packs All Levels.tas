@@ -22,6 +22,8 @@ Read,LoadMainFromMuseum.tas
 #Post-Epilogue
 Read,../0 - Post-Epilogue.tas,Start
 
+unsafe
+
 #Main Pack Journal
 Add 197
   60
