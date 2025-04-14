@@ -69,6 +69,7 @@ Read,LoadD.tas
 #Post-Epilogue
 Read,0 - Post-Epilogue.tas,Start
 
+unsafe
 Add 197
   60
    1,X

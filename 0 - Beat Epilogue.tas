@@ -36,9 +36,15 @@ Read,5D,Start
 Read,LoadD
 
 #Reflection D-Side
-Read,6D,Start
+Read,6D.tas,Start,6DC
+Read,6DC0,Start
+   1,S
+   1,U,J
+  32,O
+Read,LoadDBFromD
+Read,6Dark,Start
 
-Read,LoadD
+Read,LoadDFromDB
 
 #Summit D-Side
 Read,7D,Start
@@ -53,12 +59,11 @@ Read,LoadD
 #Epilogue D-Side
 Read,0 - Epilogue.tas,Start
 
-  60
-   1,J
- 196
+Read,LeaveLevel,Heart,Complete Screen
+unsafe
 Add 197
  173
 
 Read,LoadJournal,Epilogue
 
-FileTime: 36:11.614(127742)
+FileTime: 35:43.445(126085)

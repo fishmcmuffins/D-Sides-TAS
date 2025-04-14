@@ -8,6 +8,7 @@
 Read,StartCheatFile
 
 #menu to 1Dark -- didn't feel like making a whole 'nother load file
+unsafe
    1,R
    8
    1,J
@@ -18,6 +19,7 @@ Read,StartCheatFile
    1,J
  304
 Add 1
+safe
 
 #Forsaken City Dark-Side
 Read,1Dark,Start
@@ -68,4 +70,4 @@ Add 7
 
 Read,LoadJournal,Epilogue
 
-FileTime: 21:34.465(76145)
+FileTime: 21:32.238(76014)

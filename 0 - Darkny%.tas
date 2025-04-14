@@ -13,7 +13,7 @@ Read,LoadDPost,Load1D
 #Completes chapter 7 by only completing Dark-Sides, similar to the vanilla Bny% category. An 8Dark will probably exist in the future, at which point this will be updated to complete chapter 8.
 
 #Forsaken City
-Read,1DSC,Start,lvl_b-01b (1)
+Read,1DSC,Start,lvl_b-01b (0)
 Read,1DC,lvl_b-01b
 
 Read,LoadDBFromD
@@ -21,10 +21,12 @@ Read,LoadDBFromD
 Read,1Dark,Start
 
 Read,LoadDFromDB,0,Post
+unsafe
    1,J
  230
    1,J
  136
+safe
 
 #Old Site
 Read,2DC,Start
@@ -95,4 +97,4 @@ Add 7
 
 Read,LoadJournal,Epilogue
 
-FileTime: 27:00.219(95307)
+FileTime: 26:57.992(95176)
