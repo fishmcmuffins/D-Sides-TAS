@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 3921
+RecordCount: 3944
 
 console hard monikadsidespack/0/6-ReflectionD
    1
@@ -2014,62 +2014,31 @@ AnalogueMode Precise
    5,L,K
    5,L
    2,L,K
-   2,L
-   3
-  20,L,X
-  40
-
-#lvl_boss-13b
-   4,L
-   7,L,Z
-   5,L,J
-  18,L
-   2,L,D
-  16,L,K
-  16,L,U,X
-   3,J,G
-   2
-   1,K,G
-   2
-   2,L
-   2
-   1,R
-   2,R,K
-  12,U,Z
-   7,R
-   7,L
-  15,L,U,X
-  23,R
-  18,R,Z
-  13,L,U,X
-  11
-  15,U,C
-   6,R
-   6
-  11,R,U,X
-   1,R,J,G
-   7,R
-   4,Z
-   1,R,K
-   2,R
+   5,L
+  19,L,X
   40
 
 #lvl_boss-13 (1)
-   2,R
-   9,R,J
-   5,R
-   2,R,J
-  12,R
-  15,R,U,Z
-  15,L,U,C
+   5,R,C
+  40
+
+#lvl_boss-13 (2)
+   1,S
+   1,D,J
+  69,O
+  10,R,Z
+  17,R,K
+  16,R,U,Z
   15,L,U,X
   15,L,U,C
+  15,L,U,X
    1,L,J
-   7,L,K
+   4,L,K
+   3,K
   18,U,X
   14,L,U,C
   27,R,U
-  61,F,48.94
+  61,F,48.98
   27,F,339.2
   21,F,273
   15,L,X
@@ -2077,7 +2046,7 @@ AnalogueMode Precise
   27,R,U
    3,F,51.8
   11,F,350
-  16,F,329.1
+  16,F,328.8
   30,F,28.8
   37,F,91.3
   10,F,30
@@ -2085,16 +2054,16 @@ AnalogueMode Precise
    3,F,300,0.69
   29,L
   27,L,U,Z
-  19,L
-  16,L,X
+  18,L
+  19,L,X
   10,L,C
    6,L,J
    3,J
-  12,U,X
-   9,K
+  11,U,X
+  11,K
    1,L,J,G
-   1,R,J
-   7,L
+   1,R
+   6,L
    2,L,K
   15,U,X
   40
@@ -2420,6 +2389,6 @@ AnalogueMode Precise
  111,L,J
 ##
 
-ChapterTime: 5:34.339(19667)
+ChapterTime: 5:32.112(19536)
 
 AnalogueMode Ignore
