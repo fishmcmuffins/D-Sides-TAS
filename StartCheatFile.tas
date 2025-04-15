@@ -3,6 +3,7 @@ Unsafe
 
 # Enter vanilla prologue
 SelectCampaign,Celeste,TAS
+EnforceLegal
    1,O
 Add 131
 

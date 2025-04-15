@@ -13,12 +13,10 @@ Set,DisableFlashes,true
 Set,SpeedrunClock,2
 Set,Everest.ShowModOptionsInGame,false
 
-#Prevent accidental cheating
-EnforceMaingame
-
 #Start
 Unsafe
 SelectCampaign,monikadsidespack/0,TAS
+EnforceLegal
    1,O
    1
 Add 131

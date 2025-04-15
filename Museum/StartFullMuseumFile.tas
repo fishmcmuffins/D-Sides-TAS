@@ -2,6 +2,7 @@ Read,../StartFullGameFile,Configure,Start
 
 Unsafe
 SelectCampaign,monikadsidespack/1,TAS
+EnforceLegal
    1,O
    1
 Add 131
