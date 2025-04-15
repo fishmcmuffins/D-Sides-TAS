@@ -20,6 +20,7 @@ Read,LoadDB,0,Cassette
    1,R
    1,J
   46
+safe
 
 Read,1DC,Start
 
@@ -35,6 +36,7 @@ Read,LoadDFromDB,0,Post
    1,J
  136
 Add 1
+safe
 
 #Old Site D-Side
 Read,2D,Start
@@ -47,6 +49,7 @@ Read,LoadDB,0,Cassette
    1,F,90
    1,J
   46
+safe
 
 Read,2DC0,Start
 
@@ -71,12 +74,14 @@ Read,LoadDFromDB
 #Golden Ridge D-Side
 Read,4DC0,Start
 
+unsafe
   51
    1,S
    1,J
   30
    1,J
   46
+safe
 
 Read,4DC1,Start
 
@@ -132,6 +137,7 @@ Read,LoadD
 Read,0 - Post-Epilogue,Start
 
 #Journal
+unsafe
 Add 197
   60
    1,X
@@ -139,4 +145,4 @@ Add 197
 
 Read,LoadJournal,Epilogue
 
-FileTime: 1:45:30.239(372367)
+FileTime: 1:45:28.012(372236)
