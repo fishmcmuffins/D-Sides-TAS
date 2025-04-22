@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 4018
+RecordCount: 4019
 
 console hard monikadsidespack/0/6-ReflectionD
    1
@@ -1274,7 +1274,7 @@ EndStunPause
    1,L,J,G
   13,L,K,G
    1
-  40
+  43
 
 #lvl_center-01hg
   12,L,U,X
