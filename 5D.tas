@@ -1,12 +1,13 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 6964
+RecordCount: 7322
 
 console load monikadsidespack/0/5-Temple
    1
 
 #Start
+## Start
   69
 
 #lvl_a-00
@@ -216,7 +217,9 @@ console load monikadsidespack/0/5-Temple
    5,L,D
   43,U,X
   40
+##
 
+## Halls of Reflection
 #lvl_b-00 (0)
    1,L,J
   10,L
@@ -273,33 +276,42 @@ console load monikadsidespack/0/5-Temple
   40
 
 #lvl_b-02 (0)
-  11,R,D,X
+   3,R,J
+   3,R
+  15,R,D,X
+   3,R,K
+  15,R,D,X
+   1,N
+   3,J
+   3,L,J
+   1,R,K,G
    1,R,J,G
-   9,R
-   9,R,J
-  18,R
-  11,R,J
-# Swap block wait
-   4
-
- 129,R,X
-   6,L,U,C
+   8,R,K,G
+  14,R,Z
+   1,L,J
+   2,J
+   2,L,J
+  15,L,D,X
+   7,L,K
+   2,L
+   1,L,J,G
    1,J
-   1,L,K,G
-  16,R,K
-# Swap block wait
-   5
-
- 244,L,X
+   3,L,J
+  14,L,U,X
   43
 
 #lvl_b-00 (2)
-  35
-  16,U,Z
-  18,L,J
-   1,K
-  11,J
-  40
+  15,L,J
+  15,L,U,X
+  11,R
+   1,G
+  12,J,G
+  12,K,G
+   7,J,G
+   1,L,J
+   1,R,K,G
+   7,K
+  42
   14,R,Z
    1,L,J
    7,L,D,X
@@ -436,7 +448,9 @@ console load monikadsidespack/0/5-Temple
   12,D,X
   39,U,C
   40
+##
 
+## Upper Passage
 #lvl_b-00 (4)
  123
    9,L,Z
@@ -644,33 +658,51 @@ console load monikadsidespack/0/5-Temple
    4,L,U
   28,R,U,C
   19,L,U,X
-  21,L,U,C
-  28,L,X
-  19,L,C
-   5,U
-  19,R,U,X
-  19,R,U,C
-  19,D,X
-   6,R,D
+   6,L
+   1,L,U
+  28,L,U,C
+   1,L,D,X
+  18,X
+   2,R,U,C
+  17,C
+   1,R,U,X
+  19,X
   20,D,C
-  19,L,X
-  19,D,C
-  19,L,D,X
-  19,R,D,C
-   2,L,U
   19,D,X
-  28,L,C
-   8,U
-  28,L,X
-  23,L,C
-  28,U,X
-  28,U,C
-  21,U,X
-  37,R,U,C
-  37,U,X
-  35,R,U,C
-  47,L,U,X
-  17,L,C
+   9,R,D
+  18,L,C
+   1,C
+  19,D,X
+   1,R,D,C
+  18,C
+   2,L,D,X
+  17,X
+   1,R,U,C
+  27,C
+   7,U
+  15,L,D,X
+  22,X
+  19,L,C
+   5,L,D
+  10,U,X
+  18,X
+  26,U,C
+   2,C
+  10,R,U,X
+  19,X
+  24,R,U,C
+  27,R,U,X
+   9,X
+  30,U,C
+##
+#drift
+# more left = drift earlier, more right = later
+   2,U
+   3,L,U
+## Deep Delve
+  26,L,X
+  20,X
+  20,L,C
   45,O
 
 #lvl_c-00
@@ -1054,9 +1086,11 @@ EndRepeat
    7,L
    1,L,J
   14,U,X
+##
 #Spinner Cycle [d-02]
    0
 #-----
+## Solution
   37,U,C
   40
 
@@ -1157,19 +1191,15 @@ EndRepeat
    7,R
    6,L,D,X
    1,R,J
-  20,R,G
+  21,R,G
 StunPause
-   1,R,G
    5,R,J,G
   18,R,G
    3,R,D,G
    5,D
-SkipInput,9
-   9,D
-SkipInput 3 1
-   5,D,X
 EndStunPause
-  10,D,X
+   9,D
+  15,D,X
    1,R,D
    1,D
    1,R,D
@@ -1177,9 +1207,11 @@ EndStunPause
    1,R,D
    3,D
    6
+##
 #Spinner Cycle [d-04] 1
-   0
+   2
 #-----
+## Solution (cont.)
    1,L
    1
    3,R
@@ -1290,9 +1322,11 @@ EndStunPause
    1,L,J
    4,L
   10
+##
 #Spinner Cycle [d-04] 2
    0
 #-----
+## Solution (cont.)
   11,R,Z
    1,R,J
   26,R,D,G
@@ -1369,9 +1403,11 @@ EndStunPause
   15,R,Z
    8,R,D
    4,D
+##
 #Spinner Cycle [d-07]
-   0
+   1
 #-----
+## Solution (cont.)
    4,R,Z
    8,R,J
    1,R
@@ -1462,23 +1498,23 @@ EndStunPause
    1,R,J,G
    1,R,G
 
-
+##
 #Spinner Cycle [d-10]
 
 #+0f
-#   4,R
-#  10,R,D,X
-#   1,L,J
-#   4
-#   4,R,Z
+#    4,R
+#   10,R,D,X
+#    1,L,J
+#    4
+#    4,R,Z
 #---
 
 #+1f
-#   4
-#  10,R,D,X
-#   1,L,J
-#   4,L
-#   5,R,Z
+#    4
+#   10,R,D,X
+#    1,L,J
+#    4,L
+#    5,R,Z
 #---
 
 #+2f
@@ -1490,8 +1526,7 @@ EndStunPause
 # ---
 
 #-----
-
-
+## Solution (cont.)
    1,R,J
    3,R
    1,R,J
@@ -1632,7 +1667,8 @@ EndStunPause
   12
   49,R,U,Z
   76,R,G
+##
 
-ChapterTime: 4:17.652(15156)
+ChapterTime: 4:10.784(14752)
 
 AnalogueMode Ignore
