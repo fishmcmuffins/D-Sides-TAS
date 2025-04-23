@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 7298
+RecordCount: 7303
 
 console load monikadsidespack/0/5-Temple
    1
@@ -440,7 +440,7 @@ EndRepeat
 #lvl_void
 Read,5D,lvl_void,Spinner Cycle [d-02]
 #Spinner Cycle [d-02]
-   0
+   1
 #-----
   37,U,C
   40
@@ -448,7 +448,7 @@ Read,5D,lvl_void,Spinner Cycle [d-02]
 #lvl_d-00
 Read,5D,lvl_d-00,Spinner Cycle [d-04] 1
 #Spinner Cycle [d-04] 1
-   0
+   2
 #-----
    1,L
    1
@@ -490,7 +490,7 @@ EndStunPause
 Read,5D,lvl_d-05,Spinner Cycle [d-07]
 
 #Spinner Cycle [d-07]
-   1
+   0
 #-----
    4,R,Z
    8,R,J
@@ -542,19 +542,19 @@ EndStunPause
 #---
 
 #+1f
-   4
-  10,R,D,X
-   1,L,J
-   4,L
-   5,R,Z
+#    4
+#   10,R,D,X
+#    1,L,J
+#    4,L
+#    5,R,Z
 #---
 
 #+2f
-#   4,R
-#  10,R,D,X
-#   1,L,J
-#   5,L
-#   5,R,Z
+   4,R
+  10,R,D,X
+   1,L,J
+   5,L
+   5,R,Z
 # ---
 
 #-----
@@ -574,6 +574,6 @@ EndStunPause
 #lvl_d-09
 Read,5D,lvl_d-09
 
-ChapterTime: 4:46.620(16860)
+ChapterTime: 4:39.752(16456)
 
 AnalogueMode Ignore
