@@ -1274,7 +1274,7 @@ EndStunPause
    1,L,J,G
   13,L,K,G
    1
-  43
+  40
 
 #lvl_center-01hg
   12,L,U,X
@@ -2378,5 +2378,4 @@ AnalogueMode Precise
 ##
 
 ChapterTime: 5:31.602(19506)
-
 AnalogueMode Ignore
