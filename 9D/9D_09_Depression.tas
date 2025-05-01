@@ -2,7 +2,7 @@ console load monikadsidespack/0/10-Farewell 66964 -10384
    1
 
 #Move to background
-evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foreground.Backdrops.Count and i >= 0 do if invokeMethod(level.Foreground.Backdrops[i].Name, "Contains", "dark") then level.Background.Backdrops:Add(level.Foreground.Backdrops[i]); level.Foreground.Backdrops:RemoveAt(i); else i = i + 1 end end i = nil
+console evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foreground.Backdrops.Count and i >= 0 do if string.find(level.Foreground.Backdrops[i].Name, "dark") then level.Background.Backdrops:Add(level.Foreground.Backdrops[i]); level.Foreground.Backdrops:RemoveAt(i); else i = i + 1 end end i = nil
 
 #lvl_f-16
   36
@@ -673,6 +673,3 @@ Assert,Equal,11364,[[return TAS.EverestInterop.EntityDataHelper.CachedEntityData
 Assert,Equal,True,{CutsceneEntity.Running}
 #Time
 MidwayFileTime: 1:19.696(4688)
-
-#Restore to foreground
-#evallua if bgs then while level.Background.Backdrops.Count > bgs do level.Foreground.Backdrops:Add(level.Background.Backdrops[bgs]); level.Background.Backdrops:RemoveAt(bgs); end bgs = nil end
