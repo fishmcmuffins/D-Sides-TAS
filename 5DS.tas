@@ -1,76 +1,16 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 7303
+RecordCount: 7319
 
 console load monikadsidespack/0/5-Temple
    1
 
 #Start
-Read,5D,Start,lvl_b-07
+Read,5D,Start,5DS
 
 #lvl_b-07
-   3,R,D,J
-  17,R,D,X
-   2,R,J
-   2,R
-  18,R,J,G
-   3,R
-   1,R,J
-   9,R
-  18,R,U,X
-   4,R
-  15,R,U,X
-   3,R
-  30,R,X
-  31,R,D,C
-  15,R,X
-  15,U,C
-  19,R,X
-  21,R,D,C
-  22,R,X
-  18,R,Z
-  15,R,X
-  13,L,D
-  42,R,U,X
-  14,R,C
-  23,D,X
-  25,R,C
-  29,U,X
-  19,R,C
-  26,D,X
-  19,R,C
-  21,R,X
-  15,R,U,Z
-   6,R
-  19,D
-  23,U,X
-  25,R,C
-  21,D,X
-  18,U,C
-  15,R,X
-  17,D
-  19,U,X
-  15,U,C
-   5
-  14,R
-  15,R,Z
-  13,R
-  15,R,Z
-  34,D
-  32,U,X
-  14,R,C
-  16,D
-  10,R,D
-   4,D
-  13,R,D,X
-  15,U,C
-  15,R,X
-  19,D
-  18,R,C
-  18,U,X
-  15,R,C
-  19,D
+#5DS
   19,R,X
   15,U,C
   18,R,X
@@ -198,7 +138,9 @@ Read,5D,Start,lvl_b-07
    1,R,J
   14,R,D,X
    1,R,J
-   7,R
+   4,R
+   1,R,J
+   2,R
    6,R,K
   14,U,X
    1,L,U
@@ -208,14 +150,15 @@ Read,5D,Start,lvl_b-07
   11,L,D
    1,D
   10,L,D
-  14,L,Z
+   6,L,Z
    1,L,J
-   1,L
+   7,L
+   1,L,K
   14,L,D,X
-   3,L,J
+   2,L,J
   16,L
-   6,L,J
-   4,J
+   3,L,J
+   7,J
    1,K
    5,R
    1,R,J
@@ -225,7 +168,7 @@ Read,5D,Start,lvl_b-07
    1,R,J
   14,R
    1,R,J
-   8,R
+   9,R
    1,R,D,J
    2,R
    1,R,D,J
@@ -233,9 +176,14 @@ Read,5D,Start,lvl_b-07
    1,L,J,G
    1,L,K,G
    4,L,J,G
-  11,L
+  10,L
+   1
    1,L,J
-  15,L
+  10,L
+   1
+   1,L
+   1
+   2,L
   16,L
   36,R,D
    1,R,J
@@ -256,16 +204,15 @@ Read,5D,Start,lvl_b-07
    9,R
    2,R,J
    7,R
-   1
-   1,R
+   2
    1,R,J
    1,K
-   1,L
+   1,L,K
    1,L,J,G
   12,L,K,G
    5,L
-   2,L,J
-  15,L
+   3,L,J
+  14,L
    4,L,Z
    1,L,J
    7,L
@@ -574,6 +521,6 @@ EndStunPause
 #lvl_d-09
 Read,5D,lvl_d-09
 
-ChapterTime: 4:39.752(16456)
+ChapterTime: 4:39.599(16447)
 
 AnalogueMode Ignore
