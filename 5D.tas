@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 7322
+RecordCount: 7411
 
 console load monikadsidespack/0/5-Temple
    1
@@ -472,28 +472,27 @@ console load monikadsidespack/0/5-Temple
    4,R,Z
    1,R,J
    6,R
-  26,R,U,X
-  13,R,D,C
-   1,R,J
-   8,R,D
-   9,D
-   6,R,D
-  10,R,Z
-  22,U,X
+  18,R,U,X
   15,R,C
-   2
-   4,R
    1
-  26,R,D
+   5,L,D,X
+   1,R,J
+   3
+   7,R
+   1,K
+  15,R,D,X
+   7,R
+  23,U,X
+  15,R,C
+   9
+  24,R,D
   12,R,X
   25,U,C
   13,R,X
-  17,D,C
-  15,R,X
-   8
-   5,L,J
-   4
-  14,D,X
+  15,D,C
+  28,R,X
+   1,R,J
+  13,D,X
   32,U,C
   19,R,X
    6,R,Z
@@ -589,6 +588,7 @@ console load monikadsidespack/0/5-Temple
   18,U,X
   15,R,C
   19,D
+#5DS
   19,R,X
   15,U,C
   18,R,X
@@ -1088,7 +1088,7 @@ EndRepeat
   14,U,X
 ##
 #Spinner Cycle [d-02]
-   0
+   2
 #-----
 ## Solution
   37,U,C
@@ -1669,6 +1669,6 @@ EndStunPause
   76,R,G
 ##
 
-ChapterTime: 4:10.784(14752)
+ChapterTime: 4:10.682(14746)
 
 AnalogueMode Ignore
