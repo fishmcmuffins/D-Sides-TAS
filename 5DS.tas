@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 7319
+RecordCount: 7423
 
 console load monikadsidespack/0/5-Temple
    1
@@ -37,24 +37,23 @@ Read,5D,Start,5DS
    2,R,J,G
    2,R,K,G
    8,R,J,G
-  16,R,U,X
-   1,R,J,G
-   3,L,J
-   4,R,J
-   7,R
-   6,L,Z
-   1,R,J
+  15,U,X
+  10,R
+   4,Z
+   2,R,K
+   2,R
+   1,R,K
    1,R
+   1,R,K
+   4,R
+   4,Z
    1,R,J
    6,R
-   4,R,Z
-   1,R,J
-   6,R
-   1,R,J
-  40,J
+   1,R,K
+  40,K
 
 #lvl_b-08 (0)
-   6,R,J
+   6,R,K
   15,R,D,X
   12,R,D,J
    1,R
@@ -65,18 +64,21 @@ Read,5D,Start,5DS
    1,J
    2,R,J
    3,R,K,G
-   7,R
-   3,R,J
+   5,R
+   1,R,K
+   1,R
+   1,R,K
+   2,R
   40
 
 #lvl_b-08a (0)
-  15,R,D,X
-   8,R,D
-  11,R
+   2,R
    1,R,J
-   5,R,K,G
-   1,R,J,G
-   8,R
+  26,R,D,X
+   3,D
+   1,R,K
+   2,R,J,G
+   7,R
   19,D,X
   40
 
@@ -185,121 +187,74 @@ Read,5D,Start,5DS
    1
    2,L
   16,L
-  36,R,D
+  24,R,D
+  13,R,Z
    1,R,J
-  14,R
-   1,R,J
-  21,R,D
-   1,R,J
-  14,R
-  10,R,J
-   5,R
-   1,R,J
+   6,R
+   1,K
+  25,L
    1,R
+   9
+  13,R
+   1
+   1,R,D
+   1,R,D,J
+   1,R,K
    1,R,J
    2,R
-   1,R,J
-  11,R
-   3,R,J
-   9,R
+   2,R,K
+   4,R
    2,R,J
-   7,R
-   2
+   4,R
+  12,R,D,K
+   5,R
+   8,R,K
+  12,R
+   1,R,D
+   1,R
+   1,R,D
+   1,D
    1,R,J
+   1
    1,K
-   1,L,K
+   1,L
    1,L,J,G
   12,L,K,G
    5,L
-   3,L,J
-  14,L
-   4,L,Z
+   2,L,K
+  15,L
+   4,Z
    1,L,J
    7,L
-   3,L,J
-  14,L,D,X
-   1,R,J
-  14,R,D,X
-   1,L,J
-  14,L,D,X
-   1,R,J
-  15,D,X
-   8
-   1,R
-   1
-   1,R
-   1
-   4,R
-  20,R,D,J
-   1,R,K,G
-   1,K
-   3,L,K
-   1,K
-   1,R,J,G
-   1,R,K,G
-   2,R,J,G
-   8,R
-   7,R,J
-  11,K,G
    1,L,K
    1,J
-   1,K
-  15,L,K
-  11,J,G
-   1,R,J
-   1,K
-   1,J
-  11,R,J
-  10,K,G
-   1,L,K
-   1,J
-   1,K
-  11,L,K
-  11,J,G
-   1,R,J
-   1,K
-   1,J
-  11,R,J
-   8,K,G
-   1,J,G
-  19,J
-   9,K
-   1,J
-  19,L,J
-  24,D,K
-  13,R,J
-  12,L,K
-  12,R,J
-   7
-   1,J
-   8
-   5,J,G
-  17
-   1,J
-   7,L
-  10,R,J
-   1,K
-   9,L
-   2,L,D,J
-  11,K,G
-  14,R,K
-   1,R,J,G
-  14
-   6,J
+  17,L
+   6,R,D,K
+   9,R
+ 136
+  18,R
+  29
+  18,L
+  39
+  18,R
+  38
+  18,L
+  29
+  18,R
+  10
+   6,D,J
    1,K,G
    1,L,K
-   1,R
+   1,R,K
    1,J,G
-   5,L,J
+  12,L,J
+   6,L,X
+   1,L,K
+   2
    5,L
-   1,L,J,G
-   2,L,K,G
-   7,L,Z
-   1,L,J
-   6,L
    1,L,J
   12,L,D,X
-   1,R,J
+   1,R,K
    2,R
   14,R,D,X
    1,R,J
@@ -521,6 +476,6 @@ EndStunPause
 #lvl_d-09
 Read,5D,lvl_d-09
 
-ChapterTime: 4:39.599(16447)
+ChapterTime: 4:38.885(16405)
 
 AnalogueMode Ignore
