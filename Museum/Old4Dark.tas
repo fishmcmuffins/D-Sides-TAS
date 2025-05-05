@@ -3,10 +3,13 @@
 
 RecordCount: 3697
 
+Read,../Visuals/Old4Dark,Preload,Postload
+
 console hard monikadsidespack/1/9-RidgeOld
    1
 
 #Start
+Read,../Visuals/Old4Dark,Postload
   69
 
 #Spinner Cycle

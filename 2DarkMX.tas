@@ -1,10 +1,8 @@
 console hard monikadsidespack/0/2-Oldsite
    1
 
-#Move to background
-#evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foreground.Backdrops.Count and i >= 0 do if invokeMethod(level.Foreground.Backdrops[i].Name, "Contains", "dark") then level.Background.Backdrops:Add(level.Foreground.Backdrops[i]); level.Foreground.Backdrops:RemoveAt(i); else i = i + 1 end end i = nil
-
 #Start
+Read,Visuals/2Dark,Postload
  190
 
 #lvl_a-01

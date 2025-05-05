@@ -1,0 +1,4 @@
+#Preload
+#Postload
+#depression, trust, FGFG
+console evallua i = 0 while i < level.Foreground.Backdrops.Count and i >= 0 do if level.Foreground.Backdrops[i].Name and string.find(level.Foreground.Backdrops[i].Name, "dark") then level.Background.Backdrops:Add(level.Foreground.Backdrops[i]); level.Foreground.Backdrops:RemoveAt(i); else i = i + 1 end end i = nil

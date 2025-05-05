@@ -1,0 +1,6 @@
+#Preload
+#move fg decals to bg
+console evallua for i = 0, Celeste.AreaData.Areas.Count - 1 do ad = Celeste.AreaData.Areas[i] if ad.SID == "monikadsidespack/0/4-Ridge" then md = ad.Mode[1].MapData break end end if md ~= nil then for j = 0, md.Levels.Count - 1 do room = md.Levels[j] k = 0 while k < room.FgDecals.Count do decal = room.FgDecals[k] if string.find(decal.Texture, "mysterycloud") then room.FgDecals:RemoveAt(k) room.BgDecals:Add(decal) else k = k + 1 end end end end
+#Postload
+#windsnow alpha
+console evallua alpha = 0.24 i = 0 while i < level.Foreground.Backdrops.Count do backdrop = level.Foreground.Backdrops[i] onlyin = System.String[backdrop.OnlyIn.Count] backdrop.OnlyIn:CopyTo(onlyin) j = 0 shouldHide = true while j < onlyin.Length do if not string.find(onlyin[j], "_a") then shouldHide = false break end j = j + 1 end if shouldHide then backdrop.Alpha = alpha end i = i + 1 end

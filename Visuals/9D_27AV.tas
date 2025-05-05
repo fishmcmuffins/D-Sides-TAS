@@ -1,0 +1,8 @@
+#Preload
+#Postload
+#light/bloom, blackhole
+Set,Level.Lighting.Alpha,0.0375
+Invoke BlackholeStrengthTrigger.OnEnter null
+Set,BloomFadeTrigger[xx-09:5730].PositionMode, PositionModes.NoEffect
+Invoke BloomFadeTrigger[xx-09:5730].OnStay null
+Set,Level.TimerStarted,true

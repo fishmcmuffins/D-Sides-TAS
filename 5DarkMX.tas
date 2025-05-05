@@ -6,9 +6,8 @@ RecordCount: 9194
 console hard monikadsidespack/0/5-Temple
    1
 
-evallua alpha = 0.55 for i = 0, level.Foreground.Backdrops.Count - 1 do if invokeMethod(level.Foreground.Backdrops[i].Name, "Contains", "mirror_veil") then level.Foreground.Backdrops[i].Alpha = alpha break else i = i + 1 end end i = nil
-
 #Start
+Read,Visuals/5Dark,Postload
   57
 
 ## Start

@@ -1,0 +1,4 @@
+#Preload
+#Postload
+#windsnow alpha
+console evallua alpha = 0.24 roomNames = {} for i = 0, level.Session.MapData.Levels.Count - 1 do table.insert(roomNames, level.Session.MapData.Levels[i].Name) end bgCounts = {} bgLists = {} for i = 0, level.Foreground.Backdrops.Count - 1 do bg = level.Foreground.Backdrops[i] if bg:GetType().Name == "WindSnowFG" then for _,room in pairs(roomNames) do if bg.OnlyIn and bg.OnlyIn:Contains(room) and not (bg.ExcludeFrom and bg.ExcludeFrom:Contains(room)) then bgCounts[room] = (bgCounts[room] or 0) + 1 bgLists[room] = bgLists[room] or {} table.insert(bgLists[room], bg) end end end end for room,count in pairs(bgCounts) do if count == 1 then level.Foreground.Backdrops:Remove(bgLists[room][1]) else for _,bgs in pairs(bgLists) do for _,bg in pairs(bgs) do bg.Alpha = alpha end end end end level.Foreground.Backdrops:Add(Celeste.WindSnowFG())

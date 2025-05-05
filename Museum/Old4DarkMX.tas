@@ -5,10 +5,13 @@ RecordCount: 3731
 
 Set,SaveData.Instance.CheatMode,true
 
+Read,../Visuals/Old4Dark,Preload,Postload
+
 console hard monikadsidespack/1/9-RidgeOld
    1
 
 #Start
+Read,../Visuals/Old4Dark,Postload
   69
 
 #Spinner Cycle [c-07]

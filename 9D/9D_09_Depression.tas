@@ -1,14 +1,12 @@
 console load monikadsidespack/0/10-Farewell 66964 -10384
    1
 
-#Move to background
-console evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foreground.Backdrops.Count and i >= 0 do if string.find(level.Foreground.Backdrops[i].Name, "dark") then level.Background.Backdrops:Add(level.Foreground.Backdrops[i]); level.Foreground.Backdrops:RemoveAt(i); else i = i + 1 end end i = nil
-
 #lvl_f-16
   36
 #hazardcycle_f-99
    2
 #Start
+Read,../Visuals/9DV,Postload
   14,R,X
    4,R,J
    1,R

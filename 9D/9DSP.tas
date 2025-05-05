@@ -3,16 +3,16 @@
 
 RecordCount: 2271
 
+Read,../Visuals/9DP_27B,Preload,Postload
+
 console load monikadsidespack/0/10-Farewell
    1
 
 console hearts 1
 
-#Move darkness to background
-evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foreground.Backdrops.Count and i >= 0 do if invokeMethod(level.Foreground.Backdrops[i].Name, "Contains", "dark") then level.Background.Backdrops:Add(level.Foreground.Backdrops[i]); level.Foreground.Backdrops:RemoveAt(i); else i = i + 1 end end i = nil
-
 #==========================
 #Start
+Read,../Visuals/9DV,Postload
 
 #hazardcycle at start
 
@@ -608,9 +608,9 @@ Read,9DSP_22,endkeycycle_lvl-void_5
 #keycycle in y-15s
 #keycycle in y-??? (up-key)
 
-Read,9DP_23,Start,hazardcycle_y-08
+Read,9DSP_23,Start,hazardcycle_y-08
    2
-Read,9DP_23,endhazardcycle_y-08,stun_y-08
+Read,9DSP_23,endhazardcycle_y-08,stun_y-08
    1,R
 StunPause
    6,R
@@ -619,14 +619,14 @@ StunPause
    2,R,K
 EndStunPause
    1,R,K
-Read,9DP_23,endstun_y-08,lvl_y-10 (1)
+Read,9DSP_23,endstun_y-08,lvl_y-10 (1)
 
 #lvl_y-10
-Read,9DP_23,route_y-15s,keycycle_y-15s
+Read,9DSP_23,route_y-15s,keycycle_y-15s
  107,D
-Read,9DP_23,endkeycycle_y-15s,keycycle_up-key
+Read,9DSP_23,endkeycycle_y-15s,keycycle_up-key
   50
-Read,9DP_23,endkeycycle_up-key
+Read,9DSP_23,endkeycycle_up-key
 
 #==========================
 #Point of No Return

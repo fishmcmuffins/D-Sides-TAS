@@ -10,6 +10,7 @@ console hearts 1
 
 #==========================
 #Start
+Read,../Visuals/9DV,Postload
 
 #hazardcycle at start
 
@@ -575,9 +576,9 @@ Read,9DS_22,endstun_v-00-lobby
 #hazardcycle in v-99b
 #stun in y-08
 
-Read,9D_23,Start,hazardcycle_y-08
+Read,9DS_23,Start,hazardcycle_y-08
    2
-Read,9D_23,endhazardcycle_y-08,stun_y-08
+Read,9DS_23,endhazardcycle_y-08,stun_y-08
    1,R
 StunPause
    6,R
@@ -590,14 +591,14 @@ StunPause
    2,R,K
 EndStunPause
    1,R,K
-Read,9D_23,endstun_y-08,lvl_y-10 (1)
+Read,9DS_23,endstun_y-08,lvl_y-10 (1)
 
 #lvl_y-10
-Read,9D_23,route_y-15s,keycycle_y-15s
+Read,9DS_23,route_y-15s,keycycle_y-15s
  119,D
-Read,9D_23,endkeycycle_y-15s,keycycle_up-key
+Read,9DS_23,endkeycycle_y-15s,keycycle_up-key
   51,G
-Read,9D_23,endkeycycle_up-key
+Read,9DS_23,endkeycycle_up-key
 
 #==========================
 #Point of No Return

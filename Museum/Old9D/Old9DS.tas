@@ -8,11 +8,9 @@ console load monikadsidespack/1/6-FinalGoodbyeOld
 
 console hearts 8
 
-#Move to background
-evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foreground.Backdrops.Count and i >= 0 do if invokeMethod(level.Foreground.Backdrops[i].Name, "Contains", "dark") then level.Background.Backdrops:Add(level.Foreground.Backdrops[i]); level.Foreground.Backdrops:RemoveAt(i); else i = i + 1 end end i = nil
-
 #==========================
 #Start
+Read,../../Visuals/9DV,Postload
 
 #hazardcycle at start
 #stun in a-07
@@ -314,7 +312,7 @@ Read,Old9D_21,Start
 #keydoor in v-00-upper
 #hazardcycle in w-00-point-of-no-return
 
-#lvl_v-00-lobby (1)
+#lvl_v-00-lobby (0)
   30,R,U,X
    4,D,C
    3,R,J
@@ -380,7 +378,7 @@ Read,Old9D_21,Start
    9,L
   40
 
-#lvl_v-00-lobby (2)
+#lvl_v-00-lobby (1)
    1,L
    1,L,D
    7,L,D,J
@@ -473,27 +471,27 @@ Read,Old9DS_22,endstun_v-00-lobby
 
 #key cycles in z-06 and z-moom
 
-Read,Old9D_28,Start,keycycle_z-06_1
+Read,Old9DS_28,Start,keycycle_z-06_1
   64,G
-Read,Old9D_28,endkeycycle_z-06_1,keycycle_z-06_2
+Read,Old9DS_28,endkeycycle_z-06_1,keycycle_z-06_2
   32
-Read,Old9D_28,endkeycycle_z-06_2,keycycle_z-06_3
+Read,Old9DS_28,endkeycycle_z-06_2,keycycle_z-06_3
  133
-Read,Old9D_28,endkeycycle_z-06_3,keycycle_z-06_4
+Read,Old9DS_28,endkeycycle_z-06_3,keycycle_z-06_4
  119
-Read,Old9D_28,endkeycycle_z-06_4,keycycle_z-moom_1
+Read,Old9DS_28,endkeycycle_z-06_4,keycycle_z-moom_1
   76
-Read,Old9D_28,endkeycycle_z-moom_1,keycycle_z-moom_2
+Read,Old9DS_28,endkeycycle_z-moom_1,keycycle_z-moom_2
   58
-Read,Old9D_28,endkeycycle_z-moom_2,keycycle_z-moom_3
+Read,Old9DS_28,endkeycycle_z-moom_2,keycycle_z-moom_3
   57
-Read,Old9D_28,endkeycycle_z-moom_3,keycycle_z-moom_4
+Read,Old9DS_28,endkeycycle_z-moom_3,keycycle_z-moom_4
   51
-Read,Old9D_28,endkeycycle_z-moom_4,keycycle_z-moom_5
+Read,Old9DS_28,endkeycycle_z-moom_4,keycycle_z-moom_5
   79
-Read,Old9D_28,endkeycycle_z-moom_5,keycycle_z-moom_6
+Read,Old9DS_28,endkeycycle_z-moom_5,keycycle_z-moom_6
   34
-Read,Old9D_28,endkeycycle_z-moom_6
+Read,Old9DS_28,endkeycycle_z-moom_6
 
 #==========================
 #Point of No Return

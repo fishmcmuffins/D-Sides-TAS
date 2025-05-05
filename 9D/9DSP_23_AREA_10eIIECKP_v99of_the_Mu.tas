@@ -27,11 +27,11 @@ console givekey
 
 #Start
 #lvl_v-99
-Read,9D_23,Start,hazardcycle_y-08
+Read,9DS_23,Start,hazardcycle_y-08
 #hazardcycle_y-08
    1
 #endhazardcycle_y-08
-Read,9D_23,endhazardcycle_y-08,lvl_y-06 (1)
+Read,9DS_23,endhazardcycle_y-08,lvl_y-06 (1)
 
 #lvl_y-06
    1,L,J
@@ -124,7 +124,7 @@ Read,9D_23,endhazardcycle_y-08,lvl_y-06 (1)
   40
 
 #lvl_y-06b
-Read,9D_23,lvl_y-06b,stun_y-08
+Read,9DS_23,lvl_y-06b,stun_y-08
 #stun_y-08
    1,R
 StunPause
@@ -135,12 +135,12 @@ StunPause
 EndStunPause
    1,R,K
 #endstun_y-08
-Read,9D_23,endstun_y-08,lvl_y-10 (1)
+Read,9DS_23,endstun_y-08,lvl_y-10 (1)
 
 #lvl_y-10 (1)
 play,route_y-15s
 #route_y-14
-Read,9D_23,route_y-14,lvl_y-10 (2)
+Read,9DS_23,route_y-14,lvl_y-10 (2)
 
 #lvl_y-10 (2)
    1
@@ -200,7 +200,7 @@ play,lvl_y-15s
 #keycycle_y-15s
  112,D
 #endkeycycle_y-15s
-Read,9D_23,endkeycycle_y-15s,Right-Up.1
+Read,9DS_23,endkeycycle_y-15s,Right-Up.1
 
 
 #lvl_y-68263
@@ -484,9 +484,9 @@ Read,9D_23,endkeycycle_y-15s,Right-Up.1
   40
 
 #lvl_y-999999999
-Read,9D_23,lvl_y-999999999,collect
+Read,9DS_23,lvl_y-999999999,collect
    9,U
-Read,9D_23,collect,lvl_v-00-upperer-b
+Read,9DS_23,collect,lvl_v-00-upperer-b
 
 #lvl_v-00-upperer-b
    6,R,D,X

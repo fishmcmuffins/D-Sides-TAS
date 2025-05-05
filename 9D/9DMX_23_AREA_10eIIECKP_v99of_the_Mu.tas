@@ -99,17 +99,17 @@ endrepeat
   40
 
 #lvl_v-99b
-Read,9D_23,lvl_v-99b,hazardcycle_y-08
+Read,9DS_23,lvl_v-99b,hazardcycle_y-08
 #hazardcycle_y-08
    1
 #endhazardcycle_y-08
-Read,9D_23,endhazardcycle_y-08,lvl_y-06 (1)
+Read,9DS_23,endhazardcycle_y-08,lvl_y-06 (1)
 
 #lvl_y-06
-Read,9DP_23,lvl_y-06,lvl_y-06b
+Read,9DSP_23,lvl_y-06,lvl_y-06b
 
 #lvl_y-06b
-Read,9D_23,lvl_y-06b,stun_y-08
+Read,9DS_23,lvl_y-06b,stun_y-08
 #stun_y-08
    1,R
 StunPause
@@ -120,12 +120,12 @@ StunPause
 EndStunPause
    1,R,K
 #endstun_y-08
-Read,9D_23,endstun_y-08,lvl_y-10 (1)
+Read,9DS_23,endstun_y-08,lvl_y-10 (1)
 
 #lvl_y-10 (1)
 play,route_y-15s
 #route_y-14
-Read,9D_23,route_y-14,lvl_y-10 (2)
+Read,9DS_23,route_y-14,lvl_y-10 (2)
 
 #lvl_y-10 (2)
    1
@@ -185,10 +185,10 @@ play,lvl_y-15s
 #keycycle_y-15s
  105,D
 #endkeycycle_y-15s
-Read,9D_23,endkeycycle_y-15s,Right-Up.1
+Read,9DS_23,endkeycycle_y-15s,Right-Up.1
 
 #Right-Up.1
-Read,9D_23,Right-Up.1,Right.2
+Read,9DS_23,Right-Up.1,Right.2
 
 #Right.Gold.Up
    1,R,J
@@ -250,14 +250,14 @@ Read,9D_23,Right-Up.1,Right.2
   40
 
 #Up-Right.Wind
-Read,9D_23,Up-Right.Wind,Up.Key
+Read,9DS_23,Up-Right.Wind,Up.Key
 
 #Up.Key
-Read,9DP_23,Up.Key,keycycle_up-key
+Read,9DSP_23,Up.Key,keycycle_up-key
 #keycycle_up-key
   45
 #endkeycycle_up-key
-Read,9DP_23,endkeycycle_up-key,lvl_w-00-point-of-no-return
+Read,9DSP_23,endkeycycle_up-key,lvl_w-00-point-of-no-return
 
 #lvl_w-00-point-of-no-return
    4,R,C
@@ -304,4 +304,4 @@ Read,9DP_23,endkeycycle_up-key,lvl_w-00-point-of-no-return
 #Time
 MidwayFileTime: 4:14.201(14953)
 
-Read,9DP_23,Time
+Read,9DSP_23,Time

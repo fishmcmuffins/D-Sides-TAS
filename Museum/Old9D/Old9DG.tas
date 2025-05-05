@@ -1,0 +1,43 @@
+Set SaveData.Instance.CheatMode true
+
+console load monikadsidespack/1/6-FinalGoodbyeOld 213328 -51400
+   1
+
+#Start
+#Point of No Return
+
+#no global cycles
+
+Read,Old9DG_23,Start
+
+#==========================
+#Edge of the Universe
+
+#no global cycles
+
+Read,Old9D_24,Start
+
+#==========================
+#Bottomless
+
+#no global cycles
+
+Read,Old9D_25,Start
+
+#==========================
+#Final Goodbye
+
+#no global cycles
+
+Read,Old9DG_26,Start
+
+#==========================
+#Go Away
+
+#no global cycles
+
+Read,Old9DG_27,Start
+
+#==========================
+
+FileTime: 9:17.838(32814)

@@ -1,25 +1,23 @@
 console load monikadsidespack/0/10-Farewell 303300 -51470.1
    1
 
-#lvl_xx-09
+#Setup
 Set,Session.Inventory.Dashes,0
 Set,Player.Dashes,0
 Set,Player.StateMachine.State,15
 Set,Level.Wind.X,1200
-Set,Level.Lighting.Alpha,0.0375
-Invoke BlackholeStrengthTrigger.OnEnter null
-Set,BloomFadeTrigger[xx-09:5730].PositionMode, PositionModes.NoEffect
-Invoke BloomFadeTrigger[xx-09:5730].OnStay null
 Set,Level.TimerStarted,true
   30
-
+#TimeActive
 Set,Level.TimeActive,2332.822753906250
 #hazard cycle
    2
 #-------------
 
 Invoke Player.FinishFlingBird
+#lvl_xx-09
 #Start
+Read,../Visuals/9DV,Postload
   38,R
    1,R,D
    1,R,J
@@ -553,13 +551,9 @@ EndStunPause
    3,R,J
   14,U,X
 
-#hazardcycle_xx-10-final-goodbye_3
+#hazardcycle_xx-10-final-goodbye_4
    2
-#endhazardcycle_xx-10-final-goodbye_2
-
-#Move to background
-#For Depression and Trust Sections
-evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foreground.Backdrops.Count and i >= 0 do if invokeMethod(level.Foreground.Backdrops[i].Name, "Contains", "dark") then level.Background.Backdrops:Add(level.Foreground.Backdrops[i]); level.Foreground.Backdrops:RemoveAt(i); else i = i + 1 end end i = nil
+#endhazardcycle_xx-10-final-goodbye_4
 
   16,R,U,C
    1
@@ -1214,6 +1208,3 @@ endrepeat
 MidwayFileTime: 4:09.577(14681)
 
 AnalogMode,Ignore
-
-#Restore to foreground
-evallua if bgs then while level.Background.Backdrops.Count > bgs do level.Foreground.Backdrops:Add(level.Background.Backdrops[bgs]); level.Background.Backdrops:RemoveAt(bgs); end bgs = nil end

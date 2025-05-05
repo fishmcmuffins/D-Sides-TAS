@@ -1,8 +1,7 @@
 console load monikadsidespack/1/6-FinalGoodbyeOld 87489.36 -11163.62
    1
 
-#Move to background
-evallua bgs = level.Background.Backdrops.Count; i = 0; while i < level.Foreground.Backdrops.Count and i >= 0 do if invokeMethod(level.Foreground.Backdrops[i].Name, "Contains", "dark") then level.Background.Backdrops:Add(level.Foreground.Backdrops[i]); level.Foreground.Backdrops:RemoveAt(i); else i = i + 1 end end i = nil
+Read,../../Visuals/9D,Postload
 
 #lvl_h-08
   36

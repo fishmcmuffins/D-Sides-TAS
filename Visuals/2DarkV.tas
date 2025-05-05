@@ -1,0 +1,3 @@
+#Preload
+#Postload
+console evallua alpha = 0.4 i = 0 while i < level.Foreground.Backdrops.Count do if string.find(level.Foreground.Backdrops[i].Name, "dark") then level.Foreground.Backdrops[i].Alpha = alpha end i = i + 1 end

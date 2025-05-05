@@ -1,8 +1,9 @@
-# Test (Delete this line later)
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
 RecordCount: 4415
+
+Read,../Visuals/9DP_27B,Preload,Postload
 
 console load monikadsidespack/0/10-Farewell 345680 -49360
    1
@@ -11,16 +12,9 @@ console give_dsides_plat
 
 console give_golden
 
-#lvl_xx-10-true-final-goodbye
-  41
-   1,S,N
-   1,D,J
-  18
-Set,Player.Dashes,0
+Read,9DP_27B,xx-10-true-final-goodbye,Start
 
 #lvl_end-platinum
-  89
-
 #Start
   10,R
    1,R,D,J
