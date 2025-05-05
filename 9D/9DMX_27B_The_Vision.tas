@@ -12,7 +12,7 @@ console give_dsides_plat
 
 console give_golden
 
-Read,9DP_27B,xx-10-true-final-goodbye,Start
+Read,9DP_27B,lvl_xx-10-true-final-goodbye,Start
 
 #lvl_end-platinum
 #Start
