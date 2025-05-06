@@ -5,6 +5,7 @@
 
 Read,StartFullMuseumFile
 
+#Start
 #Prologue D-Side w/ Dashes
 Read,0 - PrologueDash.tas,Start
 

@@ -22,4 +22,6 @@ Set,CheatMode,false
    1,F,
    1,L,U,D,G
    1,J
+unsafe
  123
+safe

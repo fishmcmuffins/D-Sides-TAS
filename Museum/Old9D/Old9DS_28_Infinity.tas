@@ -5,7 +5,7 @@ Repeat,14
 console givekey
 EndRepeat
 
-#lvl_z-00 (1)
+#lvl_z-00 (0)
   36
 #openning this up
 #before start
@@ -190,7 +190,7 @@ EndRepeat
    1,L,K,G
   40
 
-#lvl_z-06 (1)
+#lvl_z-06 (0)
    2,L
   12,L,K,G
   10,L,X
@@ -368,7 +368,7 @@ EndRepeat
    8,D,X
   40
 
-#lvl_z-06 (2)
+#lvl_z-06 (1)
    5,D
   20,R,D
    4,D,X
@@ -397,7 +397,7 @@ EndRepeat
 #lvl_z-exit_b
   39,D,X
   39,L,C
-  23,D,X
+  25,D,X
    9,R,C
   19,D,X
   45,R,C
@@ -407,9 +407,9 @@ EndRepeat
    7,D,C
    7,D,X
   10,D,C
-  40
+  43
 
-#lvl_z-00 (2)
+#lvl_z-00 (1)
    4
    5,J
    4
@@ -504,7 +504,7 @@ EndRepeat
    2,R,K
 
 #Time
-MidwayFileTime: 1:08.850(4050)
+MidwayFileTime: 1:08.884(4052)
 
   40
 

@@ -8,6 +8,7 @@
 #to run the TAS yourself:
 Read,StartFullGameFile
 
+#Start
 #Prologue D-Side
 Read,0 - Prologue,Start
 
@@ -17,12 +18,12 @@ Read,LoadDPost,Load1D
 Read,1D,Start
 
 Read,LoadDB,0,Cassette
-
    1,J
   30
    1,R
    1,J
   46
+safe
 
 Read,1DC,Start,lvl_b-01b
 Read,1DSC,lvl_b-01b (0)
@@ -33,24 +34,24 @@ Read,LoadDBFromD
 Read,1Dark,Start
 
 Read,LoadDFromDB,0,Post
-
    1,J
  230
    1,J
  136
 Add 1
+safe
 
 #Old Site D-Side
 Read,2DS,Start
 
 Read,LoadDB,0,Cassette
-
    1,J
   30
    1,R
    1,F,90
    1,J
   46
+safe
 
 Read,2DC0,Start
 
@@ -76,12 +77,14 @@ Read,LoadDFromDB
 #Golden Ridge D-Side
 Read,4DC0,Start
 
+unsafe
   51
    1,S
    1,J
   30
    1,J
   46
+safe
 
 Read,4DC1,Start,lvl_c-02
 Read,4D,lvl_c-02,lvl_d-08
@@ -225,10 +228,13 @@ Read,LoadDMX,0,Epilogue
    1,J
   46
 Add 1
+safe
 
 #Post-Epilogue Golden
 Read,0 - Post-Epilogue-MX,Start
 
+#Journal
+unsafe
 Add 197
   60
    1,X
