@@ -3,6 +3,9 @@
 #Start from Begin
 #More Things Like Everest and D - Sides idk
 
+#Note: Follows the definition at https://www.speedrun.com/monikas_d_sides?h=Dny-4-71
+#This file allows Dark Sides. To see a version without them, see the All D-Sides time after 7D.
+
 Read,StartFullGameFile
 
 #Prologue D-Side
@@ -35,14 +38,30 @@ Read,5D,Start
 
 Read,LoadD
 
-#Reflection D-Side
-Read,6D,Start
+#Reflection
+Read,6D,Start,6DC
+Read,6DC0,Start
+   1,S
+   1,U,J
+  32,O
+Read,LoadDBFromD
+Read,6Dark,Start
 
-Read,LoadD
+Read,LoadDFromDB
 
-#Summit D-Side
-Read,7D,Start
+#Summit
+Read,7DC,Start
+   1,S
+   1,U,J
+  32,O
+Read,LoadDBFromD
+Read,7Dark,Start
 
-Read,LoadJournal
+Read,LeaveLevel,Complete Screen
+unsafe
+  60
+   1,X
+  20
+Read,LoadJournal,Epilogue
 
-FileTime: 30:51.283(108899)
+FileTime: 25:41.730(90690)

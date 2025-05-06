@@ -9,127 +9,8 @@
 Read,StartFullGameFile
 
 #Start
-#Prologue D-Side
-Read,0 - Prologue,Start
-
-Read,LoadDPost,Load1D
-
-#Forsaken City D-Side
-Read,1D,Start
-
-Read,LoadDB,0,Cassette
-   1,J
-  30
-   1,R
-   1,J
-  46
-safe
-
-Read,1DC,Start,lvl_b-01b
-Read,1DSC,lvl_b-01b (0)
-
-Read,LoadDBFromD
-
-#Forsaken City Dark-Side
-Read,1Dark,Start
-
-Read,LoadDFromDB,0,Post
-   1,J
- 230
-   1,J
- 136
-Add 1
-safe
-
-#Old Site D-Side
-Read,2DS,Start
-
-Read,LoadDB,0,Cassette
-   1,J
-  30
-   1,R
-   1,F,90
-   1,J
-  46
-safe
-
-Read,2DC0,Start
-
-Read,LoadDBFromD
-
-#Old Site Dark-Side
-Read,2Dark,Start
-
-Read,LoadDFromDB
-
-#Celestial Resort D-Side
-Read,3DC,Start
-Read,3DS,Start
-Read,3D,Start
-
-Read,LoadDB
-
-#Celestial Resort Dark-Side
-Read,3Dark,Start
-
-Read,LoadDFromDB
-
-#Golden Ridge D-Side
-Read,4DC0,Start
-
-unsafe
-  51
-   1,S
-   1,J
-  30
-   1,J
-  46
-safe
-
-Read,4DC1,Start,lvl_c-02
-Read,4D,lvl_c-02,lvl_d-08
-Read,4DS,lvl_d-08 (1)
-
-Read,LoadDB
-
-#Golden Ridge Dark-Side
-Read,4Dark,Start
-
-Read,LoadDFromDB
-
-#Mirror Temple D-Side
-Read,5DC,Start
-Read,5DS,Start
-
-Read,LoadDB
-
-#Mirror Temple Dark-Side
-Read,5Dark,Start
-
-Read,LoadDFromDB
-
-#Reflection D-Side
-Read,6DSC,Start
-
-Read,LoadD
-
-#Summit D-Side
-Read,7DC,Start
-   1,Q
-  32,O
-Read,7DS,Start
-
-Read,LoadD
-
-#Core D-Side
-Read,8DS,Start
-
-Read,LoadD
-
-#Epilogue D-Side
-Read,0 - Epilogue-S,Start
-
-Read,Load9D
+#100% through Epilogue (to unlock goldens)
+Read,0 - 100%,Start,Final Goodbye / Farewell D-Side
 
 #Final Goodbye / Farewell D-Side
 #Moonberry is gotten in 2nd run because of the moonberry checkpoint's golden berry
@@ -206,6 +87,8 @@ Read,LoadDMX
 Read,7DMX,Start
 
 Read,LoadDMX
+
+#(7Dark has no golden)
 
 #8D Golden
 Read,8DMX,Start

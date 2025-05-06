@@ -5,59 +5,8 @@
 
 Read,StartFullGameFile
 
-#Prologue D-Side
-Read,0 - Prologue.tas,Start
-
-Read,LoadDPost.tas,Load1D
-
-#Forsaken City D-Side
-Read,1D.tas,Start
-
-Read,LoadDPost.tas
-
-#Old Site D-Side
-Read,2D.tas,Start
-
-Read,LoadD.tas
-
-#Celestial Resort D-Side
-Read,3D.tas,Start
-
-Read,LoadD.tas
-
-#Golden Ridge D-Side
-Read,4D.tas,Start
-
-Read,LoadD.tas
-
-#Mirror Temple D-Side
-Read,5D.tas,Start
-
-Read,LoadD.tas
-
-#Reflection D-Side
-Read,6D.tas,Start,6DC
-Read,6DC0,Start
-   1,S
-   1,U,J
-  32,O
-Read,LoadDBFromD
-Read,6Dark,Start
-
-Read,LoadDFromDB
-
-#Summit D-Side
-Read,7D.tas,Start
-
-Read,LoadD.tas
-
-#Core D-Side
-Read,8D.tas,Start
-
-Read,LoadD.tas
-
-#Epilogue D-Side
-Read,0 - Epilogue.tas,Start
+#Beat Epilogue (to unlock Final Goodbye)
+Read,0 - Beat Epilogue,Start,Journal
 
 Read,Load9D.tas
 
@@ -77,4 +26,4 @@ Add 197
 
 Read,LoadJournal.tas,Epilogue
 
-FileTime: 1:22:01.415(289495)
+FileTime: 1:19:04.411(279083)

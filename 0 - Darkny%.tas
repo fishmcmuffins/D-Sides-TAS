@@ -81,20 +81,24 @@ Read,6DC0,Start
 Read,LoadDBFromD
 Read,6Dark,Start
 
-unsafe
-  60
-   1,J
- 196
-Add 197
- 165
-   1,J
-  83
-Add 7
+Read,LoadDFromDB
+
+#Summit
+Read,7DC,Start
    1,S
+   1,U,J
+  32,O
+Read,LoadDBFromD
+Read,7Dark,Start
+
+Read,LeaveLevel,Complete Screen
+
+#Journal
+unsafe
   60
    1,X
   42
 
 Read,LoadJournal,Epilogue
 
-FileTime: 26:57.992(95176)
+FileTime: 26:56.411(95083)

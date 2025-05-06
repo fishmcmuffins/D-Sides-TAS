@@ -7,6 +7,7 @@
 #to run the TAS yourself:
 Read,StartFullGameFile
 
+#Start
 #Prologue D-Side
 Read,0 - Prologue,Start
 
@@ -125,7 +126,13 @@ Read,7DC,Start
   32,O
 Read,7DS,Start
 
-Read,LoadD
+Read,LoadDB
+
+#Summit Dark-Side
+Read,7Dark,Start
+
+Read,LeaveLevel,Complete Screen
+Read,LoadDFromDB,Menu
 
 #Core D-Side
 Read,8DS,Start
@@ -154,4 +161,4 @@ Add 197
 
 Read,LoadJournal,Epilogue
 
-FileTime: 1:55:14.257(406721)
+FileTime: 1:59:59.636(423508)

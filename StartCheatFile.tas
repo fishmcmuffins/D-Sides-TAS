@@ -16,6 +16,7 @@ Add 1
 # Enable cheat mode
 Read,Museum/LoadEnableCheatMode,Start
 
+unsafe
 # Exit prologue
    1,X
   42

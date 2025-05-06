@@ -5,15 +5,34 @@
 
 Read,StartFullGameFile
 
+#Start
 #Prologue D-Side
 Read,0 - Prologue.tas,Start
 
 Read,LoadDPost,Load1D
 
-#Forsaken City D-Side
+#Forsaken City
 Read,1D,Start
 
-Read,LoadDPost
+Read,LoadDB,0,Cassette
+   1,J
+  30
+   1,R
+   1,J
+  46
+safe
+
+Read,1DC,Start
+Read,LoadDBFromD
+Read,1Dark,Start
+
+Read,LoadDFromDB,0,Post
+   1,J
+ 230
+   1,J
+ 136
+Add 1
+safe
 
 #Old Site D-Side
 Read,2D,Start
@@ -35,8 +54,8 @@ Read,5D,Start
 
 Read,LoadD
 
-#Reflection D-Side
-Read,6D.tas,Start,6DC
+#Reflection
+Read,6D,Start,6DC
 Read,6DC0,Start
    1,S
    1,U,J
@@ -46,10 +65,16 @@ Read,6Dark,Start
 
 Read,LoadDFromDB
 
-#Summit D-Side
-Read,7D,Start
+#Summit
+Read,7DC,Start
+   1,S
+   1,U,J
+  32,O
+Read,LoadDBFromD
+Read,7Dark,Start
 
-Read,LoadD
+Read,LeaveLevel,Complete Screen
+Read,LoadDFromDB,Menu
 
 #Core D-Side
 Read,8D,Start
@@ -59,11 +84,13 @@ Read,LoadD
 #Epilogue D-Side
 Read,0 - Epilogue.tas,Start
 
+#Journal
 Read,LeaveLevel,Heart,Complete Screen
+
 unsafe
 Add 197
  173
 
 Read,LoadJournal,Epilogue
 
-FileTime: 35:35.965(125645)
+FileTime: 32:38.961(115233)
