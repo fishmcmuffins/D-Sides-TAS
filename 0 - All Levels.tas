@@ -5,6 +5,7 @@
 
 Read,StartFullGameFile
 
+#Start
 #Prologue D-Side
 Read,0 - Prologue,Start
 
@@ -114,6 +115,9 @@ Read,6Dark,Start
 Read,LoadDFromDB
 
 #Summit D-Side
+Read,7DC,Start
+   1,Q
+  32,O
 Read,7D,Start
 
 Read,LoadDB
@@ -151,4 +155,4 @@ Add 197
 
 Read,LoadJournal,Epilogue
 
-FileTime: 1:45:28.012(372236)
+FileTime: 1:50:35.219(390307)
