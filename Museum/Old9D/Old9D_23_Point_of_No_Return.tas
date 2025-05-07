@@ -16,29 +16,27 @@ console load monikadsidespack/1/6-FinalGoodbyeOld 213328 -51400
   30,R,D,X
    8,R
    1,R,J
-   7,R,D,X
+   6,R,D,X
+   1,R,K
   40
 
 #lvl_w-01
-   7,R,D,X
-   1,R,J
-   2,R
-  14,R,D,X
-  33,R,J
-
-   4,D,X
-  10,R,U,X
-  46,R
-  18,R,D,X
+   7,R
+   5,R,J
+  15,R,D,X
+  12,R,K
+  15,R
+  14,R,U,Z
+  47,R
+  17,R,D,X
 #Old9D_23G
   53,R
   15,R,X
    1
-   1,R,K,G
+   1,K,G
    7,R
-   4,D,X
-   6,R,X
-   4,R,J
+  10,R,Z
+   3,R,J
   10,R,K,G
   15,R,D,X
    8,R,J
@@ -49,13 +47,12 @@ console load monikadsidespack/1/6-FinalGoodbyeOld 213328 -51400
    5,R,D,X
    2,R,J
    2,R
-  17,R,D,X
+  15,R,D,X
+   1,R
    2,R,J
-  16,R,D,X
-   1,R,J
-   7,R
-   4,D,X
-   9,R,X
+  15,R,D,X
+   7,R,K
+  14,R,D,X
   41,R
    4,D,X
   10,R,X
@@ -162,19 +159,21 @@ console load monikadsidespack/1/6-FinalGoodbyeOld 213328 -51400
    4,R,J
   11,R,K
   12,U,X
-  69,L,D
+  67,L,D
+   3,D
+   1,L
   15,R,X
-  31,L,D
-  40,R
-  15,R,X
-  21,R,C
-   4
-   1,J
-   6,R
-  12,R,J
-   2
-   2,R
+  41,R
    1
+   1,R
+   1
+   8,L
+  13,R,X
+   1,R,J,G
+   1,R
+   1
+   5,R
+  12
   15,R,X
    6
    2,R
@@ -186,9 +185,17 @@ console load monikadsidespack/1/6-FinalGoodbyeOld 213328 -51400
    4,D,C
    6,L,C
   11,R,J
-  30,L,D
-  15,R,X
-  21,L,D
+   1,R
+  26,L,D
+   1,R,D
+   3,L,D
+   1,L
+   2
+   2,L
+   1
+   1,L
+  15,R,Z
+   8
   45,R,D
    4,D,X
    9,R,X
@@ -196,64 +203,63 @@ console load monikadsidespack/1/6-FinalGoodbyeOld 213328 -51400
   19,R,D,X
   37,R
   11,R,U,X
-  75,R
+  74,R
   15,R,D,X
-   2,R,D
-   3,R,J
-   3,J
-   7,R,D,X
-   1,K,G
-   6
+   2,R
+   2,R,J
+  11,R,X
+   6,R,K,G
   40
 
 #lvl_w-05
-   1,J
-   4,R
-   3,R,J
+   1,R,K
   15,R,D,X
-   2,R,J
-   4,R
+   1,R
+   5,R,J
   15,R,D,X
-   8,R,J
-  18,R,D,X
-  10,R,J
-   2,R
+   1,R
+   7,R,K
   15,R,D,X
-   6,R
-   8,R,J
+   3,R
+  11,R,J
+  15,R,D,X
+   5,R
+   6,R,K
+   1,R
   40
 
 #lvl_w-06
    3,R
-  15,R,D,X
-   3,R,D
+  17,R,D,X
    1,R,J
-  11,R
-#oh fuck madeline slow down
-  26,R,U,X
-  42,R,U,G
-   1,R,D
+   9,R
+  24,R,U,X
+  28,R,U,J,G
+   7,R,J
+  14,R,U,X
+ 105,R,U,J,G
+  15,R,D,G
    4,R
    4
-  11,U,X
- 104,R,U,G
-  10,R,D,G
-  35,R,G
-   1,R
-  20,R,D
   15,R,X
-  35,L
-  15,U,X
-   3,L,J,G
-  14,L
-  17,L,G
-   6,R,G
-   7,R
+   8
+  17
+  20,U,X
+   1,R,J,G
+   8,J
+   1,L,J
+   2,R,J
+   6,R
+   9,R,G
+   2,G
+  10,R,G
+   4,R
+   3
   14,R,U,X
-  50,R,D,G
-  80,R,U,G
-  15,R,D,G
-  28,R,U,G
+  21,R,G
+  40,R,D,G
+   1,D,G
+ 101,R,U,G
    1,R
   15,U,X
   15,R,C
@@ -392,6 +398,6 @@ console load monikadsidespack/1/6-FinalGoodbyeOld 213328 -51400
    1,R,J
    3,R
 
-MidwayFileTime: 1:14.732(4396)
+MidwayFileTime: 1:12.335(4255)
 
   40
