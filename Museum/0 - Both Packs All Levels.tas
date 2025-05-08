@@ -17,7 +17,7 @@ Read,LoadMuseumFromMain.tas
 #Museum All Levels
 Read,0 - Museum All Levels,Prologue D-Side w/ Dashes,Journal
 
-Read,LoadMainFromMuseum.tas
+Read,LoadMainFromMuseum,Menu
 
 #Post-Epilogue
 Read,../0 - Post-Epilogue.tas,Start

@@ -1,4 +1,4 @@
-Set SaveData.Instance.CheatMode true
+console cheat
 
 console load monikadsidespack/1/6-FinalGoodbyeOld 213328 -51400
    1
@@ -40,4 +40,4 @@ Read,Old9DG_27,Start
 
 #==========================
 
-FileTime: 9:17.838(32814)
+FileTime: 9:15.492(32676)
