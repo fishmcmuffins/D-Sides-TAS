@@ -1,3 +1,17 @@
+Set,CollabUtils2.DisplayEndScreenForAllMaps,False
+unsafe
+console overworld
+2
+1,J
+94
+1,J
+56
+Repeat 20
+1,D
+1,F,180
+Endrepeat
+1,J
+14
 #Combines Main pack 100%
 #and Museum pack 100%
 
@@ -24,7 +38,7 @@ Read,../0 - Post-Epilogue.tas,Start
 
 unsafe
 
-#Main Pack Journal
+FileTime: 3:35:44.820(761460)
 Add 197
   60
    1,X
@@ -38,4 +52,6 @@ Read,../LoadJournal.tas,Epilogue
   60
 Read,../LoadJournal.tas,Epilogue
 
-FileTime: 3:20:40.029(708237)
+FileTime: 
+
+***
