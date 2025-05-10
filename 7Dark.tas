@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 5637
+RecordCount: 5640
 
 console hard monikadsidespack/0/7-Summit
    1
@@ -12,6 +12,10 @@ console hard monikadsidespack/0/7-Summit
    5
    1,O
   22
+
+#cycle_e-01dark
+   2
+#endcycle_e-01dark
 
 #lvl_a-00-intro
    1,S
@@ -906,9 +910,6 @@ AnalogMode Precise
   15,R,D,X
   12,R
   14,R,U,X
-#cycle_e-01dark
-   2
-#endcycle_e-01dark
   15,R,U,C
   20,L
   15,R,X
@@ -1982,4 +1983,4 @@ EndRepeat
 
 AnalogMode Ignore
 
-ChapterTime: 4:46.297(16841)
+ChapterTime: 4:46.263(16839)
