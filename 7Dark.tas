@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 7036
+RecordCount: 7349
 
 console hard monikadsidespack/0/7-Summit
    1
@@ -1691,116 +1691,109 @@ EndStunPause
   15,U,Z
    1,R,J,G
    3,L,J
-   4,R,J
-   7,R
-   2,R,J
-   1,R
-  14,R,Z
-  11,L,J
-   3,J
-  16,U,Z
-  21,R,J
-  15,U,X
+   1,R,J
+   1,K,G
+   2,R,K
    3,R
-  27,R,J
-   2,K,G
-   1
-   1,J,G
-   1,L
-  12,R,J,G
-   2,R
    3
+   1,L
+   3,L,J
+   1,J
+   2,L,J
+   6,J
+  15,U,X
    2,R
-   5,L,D,X
+  22,R,K
+  15,U,X
+   5,R
+  25,R,J
+   2,R,K,G
+   4,L,K
+   6,R,K
+   1,J,G
+   4,R
+   2
+   1,J
+   2
+   4,Z
    1,R,J
-   7,R
-   1,R,J
-   2,R
+   6,R
+   1,R,K
+   3,R
   14,R,D,X
    1,S
-   1,D,J
+   1,D,O
   34
-   2,R,J
-   1,J
+   3,R,J
   15,R,D,X
+   5,R,D,K
+   8,R
+   2,R,K
+   8,R
    1,R,J
-   2
-  12,R
-   1,R,J
-  11,R
-  24,R,Z
-   7,R,U,X
+   2,R
+  21,R,Z
+   6,R,U,X
   11,R
   15,R,Z
-  15,R,X
-   5,R
-   6
-   1,L
-   1,R
-   2
-   9,D,X
-   1,J,G
-  12
-   2,L
-   1,R
-   1,J,G
-   2,R,J
-   2,J
-  23,D
-   4,L,D
-   4,L
-   3
+  18,R,X
+   9
+   1,G
+   6,R,J,G
    8,R
+  17
+   4,D
   15,R,X
   15,R,C
-  12,R,D
-   4,R
+  14,R,D
+   1,R
+   1
+   2,R
    1
   11,R,D,X
-  34,R
-  25,R,Z
-  15,D,X
-   1,L,D
-  19,R,X
-   1,G
+  19,R
+  37,R,U,Z
    2
-   1,J
-   5,L,J
-   8,J
-   1,L,J
-  34,R
-  15,R,Z
-   9,R,D
-   7,D
-  14,R,D
-  20,R,U,Z
-   1,R,J,G
-   8,R
-  10,R,Z
-   6,R,J
-   8,R,D,X
-   5,R,J,G
-   7,R
-   2,R,J
-   7,R
-   1,R,J
-   1,R
-  36,R,U,Z
-  20,R,X
-  15,R,Z
-  16,R
-  19,R,U,X
-  15,R,Z
-  15,U,X
-  22,R
-  16,R,X
-  15,R,C
-  31,R,D
-   5,L,D
-   1,R,D
+  15,R,V
+  24,L
+  29,R
+  29,R,Z
    2,R
-   1,L,D
-   9,L,Z
+   4,R,D
+   2,D
+  15,R,V
+   5
+   4,Z
+   1,R,J
+   7,R
+   1,R,K
+   2,K
+   1
+   8,R,D,X
+   4,R,J,G
+   6,R
+   1,R,J
+   3,R
+   3,R,K
+   5,R
+   1,R,K
+  35,R,U,Z
+  15,R,X
+   9
+   2,R
+  18,R,Z
+   7
+   6,R
+  19,R,U,C
+  16,R,Z
+  18,U,X
+  21,R,C
+  15,R,X
+  28,R,D
+   9,L,D
+   1,D
+   1
+   8,L,Z
    1,R,J
    6,R
    1,R,D
@@ -1839,40 +1832,37 @@ EndStunPause
    7,R,K
    6,R,J,G
    6,J
+
    1,R,K,G
-   4,L,K
-   7,R,K
-   7,R
-   6,L,Z
+  11,K
+   5
+   2,R
+   5,L,Z
    1,R,J
    7,R
-   2,R,J
+   2,R,D,K
   27,R,D,X
-   1,R,J
-   2,R
-  11,R,D,X
-  10,R,J,G
-   2,R
-   1,S
-   1,D,J
-  34
-   3,R
-   1,R,J
-   3,R
    3,R,J
-  15,R,D,X
-   3,R
-   3,R,J
-   1,J
-   9,R,X
-   1,R,J,G
    1,R
+  10,R,D,X
+   7,R,K,G
+   2,R
    1,S
-   1,D,J
+   1,D,O
   34
-   4,R
+   3,R
+   1,R,K
+   2,R
+   3,R,J
   15,R,D,X
-  40,D
+   7,R,K
+   4,R
+   7,R,D,X
+   1,S
+   1,D,O
+  34
+  15,R,D
+  33,D
   51,L,D
   40
 
@@ -1900,4 +1890,4 @@ EndStunPause
 
 AnalogMode Ignore
 
-ChapterTime: 4:27.750(15750)
+ChapterTime: 4:25.829(15637)
