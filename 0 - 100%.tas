@@ -88,8 +88,8 @@ unsafe
   46
 safe
 
-Read,4DC1,Start,lvl_c-02
-Read,4D,lvl_c-02,lvl_d-08
+Read,4DC1,Start,any%-start
+Read,4D,# Rugged Roof,lvl_d-08
 Read,4DS,lvl_d-08 (1)
 
 Read,LoadDB
