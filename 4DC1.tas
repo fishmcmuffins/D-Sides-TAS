@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 3381
+RecordCount: 3384
 
 console load monikadsidespack/0/4-Ridge 4776 -2320
    1
@@ -10,48 +10,13 @@ console load monikadsidespack/0/4-Ridge 4776 -2320
   36
 
 #lvl_c-01
-   4,R,Z
+   4,Z
    2,R,J
-   1,R
-   1,J
-  25,L,D
+  14,R
+  15,D,C
 #any%-start
-  11,R,X
-  15,R,C
-  15,R,D,X
-  11,L,J
-   7,L
-   3,L,D,J
-  15,R,J
-   1,L,J
-   1,R,J
-  18,R,U,X
-  11,R,C
-  11,D,X
-  19,R,D,C
-   1,J
-   1,R,J
-   3,J
-   1,R,J
-  15,U,X
-   1,R
-  10,R,J
-  10,R
-  13,R,X
-  15,R,C
-  10,R,D
-  14,R,Z
-  14,R,J
-  15,R,X
-  11,R,D,C
-   1,R,J
-   4,R
-   9,R,D,X
-  40
+Read,4D,# Rugged Roof
 
-#lvl_c-02
-Read,4D,lvl_c-02
-
-FileTime: 2:17.547(8091)
+FileTime: 2:05.630(7390)
 
 AnalogueMode Ignore
