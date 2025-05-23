@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 4498
+RecordCount: 4647
 
 console load monikadsidespack/0/4-Ridge
    1
@@ -1626,144 +1626,66 @@ AnalogueMode Precise
    3,R,J
    1,R,K,G
    7,R
-   6,R,Z
+   4,Z
    1,R,J
-   7,R
+   4,R
    1,R,J
-  14,R,D,X
+   2,R
+   3,R,K
+   4,R
+   2
+   1,R,J
+  10,R,U,Z
   40
 
 #lvl_d-12
-   1,R,J
-  12,R,D,X
-   1,R,J
-   4,R,K,G
-  14,R,D,X
-   5,R,J
-  12,R,X
-   5,R,Z
-  13,R,X
-   1,J,G
+   5,R,U,Z
+  10,L,K,G
+   5,K
+   2,J,G
    1,L,J
+   1,J
+   1,L,J
+   1,J
+   2,L,J
+   3,J
+   1,R,J
+   1,L,J
+   1,K,G
+  12,R,K
+   2,K
+   2,L,J,G
+   1,R,J
+   1,J
+   1,R,J
+   1,J
+   1,R,J
+   1,J
+   2,R,J
+   1,L,J
+  11,K,G
+   2,R,K
+  16,U,X
+   5,L
+   1,J,G
+   4,L,J
+   6,J
+   1,R,J
+   1,L,J
+  13,L,K,G
+   4,J,G
+   1,R,J
    1,K
    1,J
-   5,R,X
-   2,R,J,G
-   1,J
-   3,R,J
-  21,R
-   5,R,X
-   5,R,C
-   5,R,Z
-  13,R,X
-   1,J,G
-   1,L,J
-   1,K
-   1,J
-   5,R,X
-   2,R,J,G
-   1,J
-   5,R,J
-  25,R
-   5,R,X
-   5,R,C
-   5,R,X
-   5,R,C
-   5,R,X
-  15,R,C
-
-#w/cassette wait
-  11,R,D,X
-   1,R,J
-   3,R
-  12,L,D,X
-   1,R,J
-   2,R
-  15,D,X
-   6,L,D,Z
-   1,R,J
-   7,R
-   1,R,J
-  12,R,D,X
-#-----
-
-#no cassette wait
-#  11,R,D,X
-#   1,R,J
-#   7,R
-#   1,R,J
-#  13,R,D,X
-#-----
-
-   5,R,U,C
-   5,R,X
-   5,R,U,C
-  15,R,U,X
-  11
-  23,R,D
-  23,R,U,Z
-  24,R,U,X
-   5,R,U,C
-   5,R,X
-  15,U,C
-  13,L,U,X
-   5,L,C
+  15,R,J
+  30,U,X
+   5,U,C
    5,U,X
    5,U,C
-   5,R,X
-  24,R,U,C
-   1,J
-  15,U,X
-  10,L,J
-   8,R,J
-   8,K
-   5,U,X
-   5,U,C
-   5,L,X
-   5,L,C
-   5,L,X
-   5,L,C
-   5,L,X
-  16
-  27,L,X
-  15,L,U,C
-  32,L
-   4
-  10,J,G
-   1,K
-   8,L,K
-   1,L,J,G
-   1,L,K,G
-  11,L
-   4
-   8,L,J
-   3,L
-  29,L,X
-  14,L,Z
-   1,L,J
-  14,L,D,X
-   1,R,J
-  18,R,D,X
-  14,R,Z
-   1,L,J
-  11,L,D,X
-   1,L,J
-   7,L,K,G
-  26,L
-   3,L,D
-  15,U,X
-  25,L,D
-  18,L,U,X
-  15,L,C
-  39,L,D
-   5,D,X
-   5,D,C
-   5,D,X
-   9,D,C
-  38,L,D
-  97,R,D
+  38,U,X
+  71,U,C
 ##
 
-ChapterTime: 3:43.533(13149)
+ChapterTime: 3:32.534(12502)
 
 AnalogueMode Ignore
