@@ -7,14 +7,11 @@ console load monikadsidespack/0/4-Ridge
    1
 
 #Start
-Read,4D,Start,lvl_d-08
+Read,4D,Start,4DS0
 
-#lvl_d-08 (1)
-   1,J
-   1,K
-   1,J,G
-  12,L,J
-  12,L,Z
+#lvl_d-08 (0)
+#4DS0
+   1,L,Z
    1,L,J
    7,L
    3,L,J
@@ -100,7 +97,7 @@ EndRepeat
    1,R
   40
 
-#lvl_d-08 (2)
+#lvl_d-08 (1)
    3
    6,R
    1,R,D
@@ -159,8 +156,17 @@ EndRepeat
   40
 
 #lvl_d-09
-Read,4D,lvl_d-09
+   7,R
+   4,R,J
+  16,R,D,X
+  52,R,J
+  15,R,U,X
+  22,R
+  15,R,Z
+  24,R
+#4DS1
+Read,4D,4DS1
 
-ChapterTime: 4:01.230(14190)
+ChapterTime: 3:34.829(12637)
 
 AnalogueMode Ignore
