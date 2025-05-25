@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 3697
+RecordCount: 3752
 
 Read,../Visuals/Old4Dark,Preload,Postload
 
@@ -986,90 +986,59 @@ EndRepeat
   14,R,U,X
   10,J,G
    2
-   8,K,G
-   3,R
-   4
-##
-
-## Shimmering Finale
-   4,R,Z
-   2,R,J
-   3,R
+   1,K
+   1,R,J,G
    1,R,K,G
-  10,R
-   1,R,J
-  14,R,D,X
+   2,L,K
+   2,R,K
+   1,R,J,G
+   7,R
+   1,R,K
+   5,R
+  14,L,D,X
    1,R,J
    5,R,D,X
+   1,R,K,G
+   1
+   4,R
+   1,R,J,G
+   8,R
+   1,R,J
+   4,R
+   7,R,K
   40
 
 #lvl_c-05w
-   2,R,J
-   8,R
-   4,R,J
+   5,R,K
+  15,R,D,X
+   1,R,J
    1,J
-  15,R,D,X
-   4,R,J,G
-  14,R,D,X
-  13,R,J
-  15,R,D,X
-  14,R
-
-
-
-
-
-
-
-
-
-
-
-
-
-#w/ improvements
-#2:31.402(8906)
-
-
-
-
-
-
-
-
-
-#2:33.629(9037)
-
-
-
-
-
-
-
-
-
-
-
-  15,R,U,X
-  25,R,D
-   4,R
-  13,R,X
-   1,R,J,G
-   6,R
-  12,L
-  15,U,X
-  12,R
-  24,R,X
-  24,R,C
-  14,R,U,X
-  12,J,G
-   1,K
-  15,R,K
-   1,R,J,G
-   1,R,K,G
-  14,R,D
    3,R,J
-  47,R,D
+  15,R,D,X
+   9,R,K
+   5,R
+   2,R,K
+  25,R
+   1,D
+   1,R,D
+   4,R,J
+   9,R
+   1,R,J
+   3,R
+  14,R,D,K
+  27,R,U,X
+   1,J
+  14,R,J
+   2
+   5,R,X
+   1,R,K,G
+   5,R
+   3,R,K
+   1,R,J,G
+  41,R,D
+##
+
+## Shimmering Finale
   15,R,X
   15,R,C
    5,R
@@ -1099,126 +1068,130 @@ EndRepeat
   24,D
    3,R,D
   11,D
-  23
-   7,L,J
-   4,R,J
-  18,R
-   4,R,J
-  15,R,Z
-  15,L,D
-  12,D
-   9,L
-  10,L,X
-  24,R,J
-  15,R,D,X
-   3,L
-  15,D,X
-   9,L
-   6,R
-   4,R,J
-  53,R
-   3,R,D
-  21,R,Z
+  16
+   6,D
    1,L,J
-   7,J
-   2,R,J
-   1,R
-   1
+   5,R,J
+   3,J
+   3
+  13,R
   15,R,Z
-  12,R
-   6,L
+  21,L,D
+   3,D
+   1,L,D
+   1,D
+   1,L,D
+  15,D
+  10,R,Z
+   9,R,J
+   6,R
+   1,R,J
+   9,R
+   1
+   4,R,D,K
+   9,R
+   1,R,K
+   6,R
+  15,R,U,Z
+   9,R
+   1,L,J
+  11,J
+  40,R,U,X
+  24,R,D
+   4,R
+   2
   10,L,X
   49,R,J
-  24,R,X
-   2,J,G
+  15,R,X
+   4,R
+   5
+   2,K,G
    7,R
-   4,R,Z
-   2,R,J
+   5,R,Z
+   1,R,J
    7,R
   40
 
 #lvl_c-07
-   1,R
-   3,R,J
+   1,R,J
+   3,R
   14,R,Z
-   6,R,J
-   5,R,X
-  26
-   1,R,D
-  38,F,91.2
-   8,F,90
-   1,F,89.7
-  56,F,81.798
+   7,R,J
+  27,R,D
+  36,F,97
+  11,F,90
+  56,F,81.6
   17,F,90
-  37,R,D
-  15,R,X
-StunPause
-   3,R,X
-  26
+  36,R,D
+  16,R,X
+   3
+  27,R,U
+   3,F,38
+  16,R,Z
+  27,R,U
+   2,F,0
+  62,F,79.8
+  10,F,18
+   9,F,0
+  10,F,60
+  50,F,110.4
+  20,F,118
+  13,D,X
+   2,L,J,G
+  10,R,D,C
+   5,R,K
    1,R
-   8,F,88
-EndStunPause
-   3,F,88
-  25,F,45
-  48,F,83
-  22,F,52
-   2,F,60
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   1,J
-   1,K
-   2,L,K
-   5,R,Z
-  16,R,J,G
-  26
-   1,R,D
-  27,F,115.4
-  22,F,122
-  10,F,102
-   9,F,90
+   5,R,D,X
+   1,R,J,G
+   7,R
   40
 
 #lvl_c-08
-   4,F,90
-  47,F,70.2
-  21,R,U
-  20,R,X
-  15,R,C
-  12,R,X
-  20,R,C
-  23,R,X
-  15,R,C
-  19,R,D
-  15,D
-  10
-  13,R
-  11,R,J
-  15,R,X
-  26,R
-  15,R,C
-  19,R
-  15,R,X
-  13,R
+   4,R
+  10,R,K
+  15,R,D,X
+   4,R,J,G
+   9,R
+   1,R,J
+   5,R
+   1,R,D,K
+   7,R
+   3,R,K
+   6,R
+  13,R,U,X
+  31,R,D
+  15,R,Z
+   7,R,D
+  11,D
+   8
+  10,L,X
+   1,R,J
+   3,J
+   6,R,J
+   1,J
+   1,R,J
+  16,R
+  18,R,D,X
+  13,R,D
+  29,R,C
+  27,R,X
   15,R
   10,L,X
-  18,R,J
-  15,R,X
+  19,R,J
+  14,R,X
   15,R,C
   30,R,D
   18,R,X
-  15,R,C
-  24,R,X
-   3,L
-   9,R,D,C
+  24,R,C
+  14,R,X
+   1,R
    1
-  27,R
-  15,R,D,X
-   7,R
-   2
+   1,R
+   9,R,D,X
+  10,R
+  15,R,Z
+  18,R,D
+   1,R
   15,D,X
    1
   14,R,Z
@@ -1379,4 +1352,4 @@ EndRepeat
  135,R,D
 ##
 
-ChapterTime: 3:31.786(12458)
+ChapterTime: 3:24.629(12037)
