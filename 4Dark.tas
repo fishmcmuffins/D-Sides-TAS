@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 6346
+RecordCount: 6354
 
 AnalogueMode Precise
 
@@ -1491,25 +1491,25 @@ EndRepeat
   28,R,K
   15,R,D,X
    1
-  14,R
-   4,R,J
-  13,R
-  16,R,K,G
-  16,R,C
+  11,R
    1
-   1,R
-   2
-  14,R,U,Z
-  12,K
-   1,J
-   9,R,K,G
-   1,R,J,G
-   3,R,K,G
+   2,R
+   4,R,J
+   5,R
+   3,R,J
    6,R
-   2,R,K
-   7,R
+  11,R,D,K
+   4,R
+  27,R,U,X
    1,J
-  49,R
+  14,R,J
+   2
+   5,R,X
+   1,R,K,G
+   5,R
+   3,R,K
+   1,R,J,G
+  41,R,D
 ##
 
 ## Shimmering Finale
@@ -1877,6 +1877,6 @@ EndRepeat
  135,R,U
 ##
 
-ChapterTime: 4:03.168(14304)
+ChapterTime: 4:02.743(14279)
 
 AnalogueMode Ignore
