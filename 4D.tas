@@ -1431,7 +1431,6 @@ console load monikadsidespack/0/4-Ridge
    2,R,K
    1,R,J,G
   32,R,D
-#4DS1
   15,L,U,X
   26,L,D
    1,L
@@ -1441,6 +1440,7 @@ console load monikadsidespack/0/4-Ridge
    1,L
   20,R,X
   14,R,U,Z
+#4DS1
   15,U,X
    3,R
   15,R,C
