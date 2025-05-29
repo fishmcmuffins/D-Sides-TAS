@@ -1,11 +1,5 @@
-#To sync:
-#Use Celeste v.1.4.0.0
-#Start from Begin
-#More Things Like Everest and D - Sides idk
-#Oh and Platinum Berry!! Need that for the true max% :3
-
-#Check this file
-#to run the TAS yourself:
+Read,CheckDependencies
+   1
 Read,StartFullGameFile
 
 #Start

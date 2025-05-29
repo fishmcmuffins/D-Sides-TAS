@@ -1,8 +1,5 @@
-#To sync:
-#Use Celeste v.1.4.0.0
-#Start from Begin
-#More Things Like Everest and D - Sides idk
-
+Read,CheckDependencies,0,PlatOptional
+   1
 Read,StartFullGameFile
 
 #Beat Epilogue (to unlock Final Goodbye)

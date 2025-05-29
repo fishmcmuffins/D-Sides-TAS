@@ -1,11 +1,8 @@
-#To sync:
-#Use Celeste v.1.4.0.0
-#Start from Begin
-#More Things Like Everest and D - Sides idk
-
 #Note: Follows the definition at https://www.speedrun.com/monikas_d_sides?h=Dny-4-71
 #This file allows Dark Sides. To see a version without them, see the All D-Sides time after 7D.
 
+Read,CheckDependencies,0,PlatOptional
+   1
 Read,StartFullGameFile
 
 #Prologue D-Side

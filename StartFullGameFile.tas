@@ -1,11 +1,6 @@
 #Configure
 
 #Asserts
-#Celeste version is 1.4.0.0+
-Assert,StartWith,1.4,{Engine.Instance.Version}
-#D-Sides version is 4.76+
-#(commented for now bc it crashes... running with evallua works fine though)
-#Assert Equal True [[md = Celeste.Mod.EverestModuleMetadata() md.Name = "Monika's D-Sides" md.Version = System.Version(4, 76, 0) return Celeste.Mod.Everest.Loader.DependencyLoaded(md)]]
 
 #Settings
 Set,ScreenShake,Off

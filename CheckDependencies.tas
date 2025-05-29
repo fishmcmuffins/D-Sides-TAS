@@ -1,0 +1,5 @@
+Assert,StartWith,1.4,{Engine.Instance.Version}
+#Assert,Equal,True,[[md = Celeste.Mod.EverestModuleMetadata() md.Name = "CelesteTAS" md.Version = System.Version(3, 44, 0) return Celeste.Mod.Everest.Loader.DependencyLoaded(md)]]
+#Assert,Equal,True,[[md = Celeste.Mod.EverestModuleMetadata() md.Name = "Monika's D-Sides" md.Version = System.Version(4, 79, 0) return Celeste.Mod.Everest.Loader.DependencyLoaded(md)]]
+#PlatOptional
+#Assert,Equal,True,[[md = Celeste.Mod.EverestModuleMetadata() md.Name = "PlatinumStrawberry" md.Version = System.Version(1, 0, 0) return Celeste.Mod.Everest.Loader.DependencyLoaded(md)]]
