@@ -1,0 +1,265 @@
+# Monika's D-Sides
+# https://gamebanana.com/mods/150759
+
+RecordCount: 193
+
+console cheat
+
+console hard monikadsidespack/0/6-ReflectionD
+   1
+
+#Start
+AnalogueMode Precise
+  32
+   1,S
+   1,D,O
+  34
+
+#lvl_center-14
+   4,Z
+   2,R,J
+   2,K,G
+   9,R
+  32,L,D
+  40
+
+#lvl_center-13
+   5,L,D
+  15,L,D,X
+   4,Z
+   1,L,J
+   1,L
+   4
+   2,R,K
+  23,R,D
+   2,D
+   3
+   2,R
+  18,R,X
+  15,R,Z
+  25,L,D
+   3,D
+   2
+   4,Z
+   2,R,J
+   4,R
+   3,R,K
+   5,R
+   2,R,K
+   3,R
+  15,R,Z
+  18,L,D,X
+  17,D
+   9,L,D
+  15,L,X
+   7,L
+  17,D
+   4
+   2,D
+  12,R,X
+   3,J,G
+   7
+   6,G
+  13,U,G
+   1
+   1,K
+  11,L,K
+  25,L
+   7,L,D
+  24,D
+  11,L,D
+   1,G
+   8,L,D
+   1,R,D
+   1,L,D
+   6,G
+   2,U,G
+  15,G
+   1,U,G
+   1,G
+   2,U,G
+  29,R,J
+  16,R,D
+  34,L,D
+  21,D
+  40
+
+#lvl_center-12
+Read,6Dark,lvl_center-12,hazardcycle_center-01a
+
+#hazardcycle_center-01a
+   0
+#endhazardcycle_center-01a
+Read,6Dark,endhazardcycle_center-01a,6DarkMX0
+
+#lvl_boss-18
+#6DarkMX0
+   6,R,Z
+   1,L,J
+   6,L
+   1,L,K
+   1,L
+  17,L,D,X
+   1,L
+   1,L,J
+   9,L
+   2,L,K
+  15,L,D,X
+   4,L
+   4,L,J
+  10,L,D
+   4,L,K
+  43,K
+
+#lvl_boss-16
+   4,L,K
+   1,L
+  15,U,X
+   1,L,J
+   3,J
+  40,L,D
+   1,S
+   1,D,O
+  34
+  11,L,D
+   4,Z
+   1,L,K
+   3,L
+   1,L,K
+   3,L
+   8,L,J
+  14,L,U,X
+   1,K,G
+   4,L
+   1,R
+   1,K
+   8
+   5,R,Z
+   2,L,J
+   3
+   1,L,J
+   1,L
+   3,L,K
+  12,L,D,X
+  40
+
+#lvl_boss-15
+   3,L
+  17,L,J
+  14,L,X
+   1,S
+   1,D,O
+  34
+  18,L,J
+   6,K
+   1,J
+   2,K,G
+  21,R,K
+  13,U,X
+  40
+
+#lvl_boss-14
+Read,6Dark,lvl_boss-14,lvl_boss-13 (0)
+
+#lvl_boss-13 (0)
+  16,L,K
+  15,L,D,X
+   2,L
+   6,L,J
+   1,L
+   3
+   2,K,G
+   5,L,K
+   5,L
+   2,L,K
+   2,L
+   3
+  20,L,X
+  40
+
+#lvl_boss-13b
+   4,L
+   7,L,Z
+   5,L,J
+  18,L
+   2,L,D
+  16,L,K
+  16,L,U,X
+   3,J,G
+   2
+   1,K,G
+   2
+   2,L
+   2
+   1,R
+   2,R,K
+  12,U,Z
+   7,R
+   7,L
+  15,L,U,X
+  23,R
+  18,R,Z
+  13,L,U,X
+  11
+  15,U,C
+   6,R
+   6
+  11,R,U,X
+   1,R,J,G
+   7,R
+   4,Z
+   1,R,K
+   2,R
+  40
+
+#lvl_boss-13 (1)
+   2,R
+   9,R,J
+   5,R
+   2,R,J
+  12,R
+  15,R,U,Z
+  15,L,U,C
+  15,L,U,X
+  15,L,U,C
+   1,L,J
+   7,L,K
+  18,U,X
+  14,L,U,C
+  27,R,U
+  61,F,48.94
+  27,F,339.2
+  21,F,273
+  15,L,X
+   3
+  27,R,U
+   3,F,51.8
+  11,F,350
+  16,F,329.1
+  30,F,28.8
+  37,F,91.3
+  10,F,30
+  10,F,330
+   3,F,300,0.69
+  29,L
+  27,L,U,Z
+  19,L
+  16,L,X
+  10,L,C
+   6,L,J
+   3,J
+  12,U,X
+   9,K
+   1,L,J,G
+   1,R,J
+   7,L
+   2,L,K
+  15,U,X
+  40
+
+#lvl_boss-12
+Read,6Dark,lvl_boss-12 (0)
+
+AnalogueMode Ignore
+
+ChapterTime: 5:37.059(19827)
