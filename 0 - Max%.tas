@@ -81,6 +81,11 @@ Read,LoadDMX
 #6D Golden
 Read,6DMX,Start
 
+Read,LoadDBMXFromDMX
+
+#6Dark Goldens
+Read,6DarkMX,Start
+
 Read,LoadDMX
 
 #7D Golden
