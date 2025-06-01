@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 9948
+RecordCount: 10156
 
 console hard monikadsidespack/0/5-Temple
    1
@@ -272,7 +272,6 @@ Read,Visuals/5Dark,Postload
   11,K,G
    1,R
   12,L,J,G
-
    8,K
    7,R
    1,R,J
@@ -323,15 +322,15 @@ Read,Visuals/5Dark,Postload
   15,L
    1,L,J
   14,L
-   3,L,J
+   2,L,J
   15,L,U,X
   48,R,C
   14,R,U,Z
    7,L
    1,S
    1,D,J
-  68,O
-  12,L,U,Z
+  69,O
+  11,L,U,Z
    1,K
   24,R,K
    1,J
@@ -349,7 +348,6 @@ EndRepeat
    2,R,J
   67,R,X
   40
-
 
 #lvl_b-00 (1)
   79
@@ -776,12 +774,11 @@ EndRepeat
    7,L
    6,L,J
   12,L,K,G
-   4,L,J,G
-   5,U,X
-  40
+   7,U,X
+  43
 
 #lvl_b-05dark
-  10
+   7
    5,R
    1
   37,R,J
@@ -837,13 +834,10 @@ EndRepeat
   15,R,Z
 ##
 
-# Spinner Cycle [b-07]
-   1
-# -------------
-
 ## Sigil
   22,R,U,X
-  26,R,J,G
+  19,R,J,G
+   5,R
   14,U,X
    8,R,J
   40
@@ -869,36 +863,37 @@ EndRepeat
   18,R
    2,R,J,G
    4,R
-  22,R,J,G
-   7,R,U,X
-StunPause
-   7,R,U,X
-   5,R,J,G
-   7,R
-EndStunPause
+   9,R,J,G
+  20,L,K,G
+  21,R,K
+  17,G
+   9,J,G
+   1
+   4,L
+  13,R,Z
+   1,R,K
    4,R
-  27,D,X
-  15,R,C
-   7,R
+   5,R,K
+  11,R
+  18,R,C
   12,U,X
   15,R,U,C
   31,R,D,X
-  17,R,U,C
-   1,R,J,G
-   2,J
-   3,L,J
+  16,R,U,C
+   2,R,J,G
+   1,J
    1,R,J
-   1,K,G
-   1,L,K
-   8,R,J,G
-   6,R
-   1
-   1,R
-   7,R,J,G
-  40,R
-  21,R,X
+   1,J
+   5,L,J
+   1,R,K,G
+   3,L,K
+   4,K
+   5,R,K
+   1,R,J,G
+  34,R
+  31,R,X
   15,R,C
-  10,L,U,X
+  10,U,X
   15,U,C
   10,R,X
   15,R,C
@@ -907,27 +902,44 @@ EndStunPause
    8,R,D,X
    7,R,J
   11,R
-   4,R,Z
+   1,R,K
+  10,R,D,X
    1,R,J
-   7,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R,D,X
+   4,R
+  14,R,Z
+   1,R,K
+  13,R,D,X
    4,L,J
   15,U,X
   10,R
-  57,R,U,G
-  54,R,G
-  15,R,D,G
-  14,R,G
-  14,R,D,G
-  29,D
+   6,G
+  44,U,G
+   3,G
+   6,D,G
+   8,U,G
+repeat 5
+   1,G
+   1,U,G
+endrepeat
+  24,G
+repeat 3
+   1,U,G
+   1,G
+endrepeat
+   1,G
+  17,D,G
+   5,G
+   1,D,G
+   3,G
+   2,R,J,G
+   1,K,G
+   3,R
+  41,D
   40
 
 #lvl_b-08a
-  16,D
-   3,R,D
+  15,D
+   4,R,D
   10,L,D,X
   30,R,J
   16,R,U,X
@@ -1962,6 +1974,6 @@ EndStunPause
   57,L
 ##
 
-ChapterTime: 4:26.662(15686)
+ChapterTime: 4:25.149(15597)
 
 AnalogMode Ignore
