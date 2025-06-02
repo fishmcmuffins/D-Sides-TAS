@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 10481
+RecordCount: 10858
 
 console hard monikadsidespack/0/5-Temple
    1
@@ -1090,43 +1090,63 @@ endrepeat
   18,R,U,C
   22,D
    1,R
-   9,R,J
-  19,R
-   4,R,Z
-   1,R,J
+   8,R,J
    7,R
+   2,R,J
+   1,R
    1,R,J
-   2,R
+   9,R
+   4,Z
+   1,R,K
+   6,R
+   3,R,J
+   1,R
   40
 
 #lvl_c-02
-   7,R
-   1,R,J
-  30,R,D
-  14,R,Z
-   3,R,J
-   1,R
-  10,R,J
-  15,R,Z
-   6,R
-  19,L,J,G
-   1,R,K
-  54,R,J
-  15,R
-  44,R,G
-  10
-   9,R,D
-   5,D
-   3
-   4,L
-  47,R,Z
-  15,U,V
-  12,L,J,G
-  11,L,K,G
-   1,L,J,G
+   5,R
+  14,R,K
+  15,R,D,X
+   2,R
+   2
+  10,R
    1
+   1,R
+   1,R,D,K
+   1,R
+  14,R,D,X
+   1,R,J
+   3,R
+  11,R,J
+  15,U,Z
+  48,R,K
+  14,R,K
+   1
+   1,J,G
+   1,R,J
+   5,R,K,G
+   9,R
    1,R,K
-   7,R
+   9,R
+   2,R,D
+   7,R,X
+   1,R,J,G
+   1,J
+   2,R,J
+  21,R,D
+  13,D
+   1
+  21,R
+  15,U,X
+   1,L,K,G
+  11,K
+  12,J,G
+   9,K,G
+   1,J
+   2,K,G
+   2
+   1,L
+   4,R
    6,R,Z
    1,R,J
    7,R
@@ -1150,102 +1170,120 @@ endrepeat
   40
 
 #lvl_c-04
-   4
-   3,R,J
-   4,R,K,G
-   4,R,X
-   8,R,J
-  18
-   1,R
-  79,L,G
-   2,L,U,G
-   1
+   7,J
+   1,R,J
+   3,J
+  17,R,X
    1,J
-   1,L,K,G
-   3,R,K
-  15,R,U,X
-  24,R
-  12,R,J,G
-  12,R,K,G
-   6,R
-  10,L
-  12,R,J
-   8,R
-   8,R,J
-  11,R
+   9
+   1,K
+   4,R,K
+  16,R
+   6,L
+   1,J,G
+   4,L
+   2
+   1,L
+   1
+   1,R
+   1,R,K
+  16,R,D
+  10,G
+   2,D,G
+   2,G
+   1,D,G
+   6,G
+   1,U,G
+   1,R,J,G
+   1,R,K,G
+   1,R,J,G
+   1,R,K,G
+   1,R,J,G
+   7,R
+   8,R,D,K
+   5,R
+   6,R,K
+   1,R
+   1,R,K
+   5,R
   10,R,Z
-   1,R,J
-  10,R
-  16,D,X
-   6
-  39,R,C
-  14,R,D,X
-  10,R,J
-   2,R
-   3,R,J
-  17,R
+  19,R,X
   15,R,U,Z
-   9,R
-   7,R,Z
-   1,R,J
-   6,R
-   1,R,J
+   1,K
+   7,R,K
+  27,R
+   3,R,D
+   1,D
+   1
+   1,L,J
+   1
   10,R,D,X
+   6,R,J
+   1,R
+   1,R,J
+   2,R
+   1
+  14,R,X
+   1,R,K,G
+  10,R
   40
 
 #lvl_c-05
-   5,R,J
-  15,R,D,X
-   2,R,J
+   1,R
+   4,R,D,J
+   6,R
+   3,R,J
   15,R,Z
-   5,R
-   1,J
-  14
-   4,J
-   7,R,J
-  11,R
-  14,R,Z
-   8,R,J
-   1,R,K,G
-   9,R,D,X
-   1,R,J
+  12,R
+   2,R,D
+   2,R
+  11,L,D,X
+   5,R,J
+   5,R,D,X
+   2,R,K,G
+   8,R
   40
 
 #lvl_c-06
-   7,R
-  10,R,J
-  11,R
-   1
-   3,R
-   3,R,J,G
-   9,R
+   4,R
    1,R,J
    2,J
-   4,R
-   1,R,J,G
-  14,R
-  22,R,U,X
-   2,R,J
-   6,R
-   9,R,J
-   8,R
-  15,R,Z
-  33,R,D
-  11,D
-  26,R,D
-   5,D
-   1,L,D
-   2,R,D
-  13,R,U,Z
-   1,L
-   3,J,G
+   5,R,J
+   5,R
+   3,R,J
+   7,R
+   1,R,K,G
    2
-  15,R
+   7,R
+   1,R,K
+   4,R
+   7,R,J,G
+   6,R
+   2,J
+   1
+  20,R,U,X
+  15,K
+   4,R,K
+   1,R,J,G
+   9,R,K,G
+  40,R
+   6,R,D
+   1,J
+  19,R
+   1,R,D
+   1,R
+   1,R,D
+  12,R,U,Z
+   1,L
+   4,J,G
+   1
+  16,R
    8,L,D
    9,D
   13,R,D
    1,D
-  27,R,D
+  25,R,D
+   2,R
   11,L,U,X
    1,L,J,G
   19,L
@@ -1994,6 +2032,6 @@ endrepeat
   57,L
 ##
 
-ChapterTime: 4:24.333(15549)
+ChapterTime: 4:20.661(15333)
 
 AnalogMode Ignore
