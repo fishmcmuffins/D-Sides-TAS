@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 10858
+RecordCount: 10881
 
 console hard monikadsidespack/0/5-Temple
    1
@@ -1009,13 +1009,16 @@ endrepeat
    1,R,D
    1,D
    2,R,D
-   4,L,D
-  17,R,D
+   6,L,D
+   4,D
+   4,R
+   7,R,D
   15,R,D,X
+   3,R,K
+   6,K
    4,R,K
-   9,K
-   3,J,G
-   3,R,J
+   1,J,G
+   5,R,J
   14,R
   15,D,X
    7,R,D
