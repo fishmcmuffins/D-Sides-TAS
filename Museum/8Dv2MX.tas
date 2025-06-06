@@ -1,0 +1,53 @@
+console load monikadsidespack/1/10-CoreNew
+   1
+
+console hearts 7
+
+#Start
+#lvl_a-00
+  10,R
+  45,R,J
+  11,K,G
+   1,L,K
+   1,J
+  24,R,J
+   8,K,G
+   1,R,K
+   7
+#+73f: wait for gate to open
+Repeat,36
+   1,G
+   1
+EndRepeat
+   1,G
+#-----
+   1,J,G
+   1,L,J
+   1,K
+   1,J
+  14,L,J
+  18,J
+  12,R,Z
+   2,R,J,G
+   1,R,K
+   1,R,J
+   2,R,K
+   5,R
+  10,R,D,J
+   6,R
+   1,R,J
+   1,R
+   1,R,J
+   6,R,D,X
+   1,R,J,G
+   1,R
+   1
+   4,R
+  40
+
+#lvl_a-01
+Read,8Dv2,lvl_a-01
+
+AnalogMode,Ignore
+
+ChapterTime: 4:03.746(14338)

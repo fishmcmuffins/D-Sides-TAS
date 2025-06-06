@@ -1,0 +1,150 @@
+console load monikadsidespack/1/6-FinalGoodbyeOld dd-04
+   1
+
+#lvl_dd-04
+  36
+
+#three keys to show creation lobby
+#stun doesnt use up any keys
+console givekey
+console givekey
+console givekey
+
+#hazardcycle_dd-00-lobby
+   1
+
+#Start
+   4,R,Z
+   5,R,J
+   8,R,K,G
+  40
+
+#lvl_dd-00-lobby
+   3
+   1,R
+  13,U,X
+  22,R,J
+   1,R,K,G
+   3,L,K
+   1,R,J,G
+   4,R
+   1
+   2,R
+   5,R,Z
+   8,R,J
+   3,R,K,G
+   8,R
+  19,R,J
+   1,K,G
+  15,U,X
+   8,R,J
+  11,R
+   9,R,K
+  15,U,X
+  10,J,G
+   7,R
+  12,K
+  16,U,X
+  12,J,G
+  12,K,G
+  12,J,G
+  10,K,G
+   1,R,K
+   1,L
+   5,R,J,G
+   7,R
+  10,R,Z
+#endroute_d-19
+   4,L,K
+   1,L
+  12,L,K
+  45,L,Z
+   3,R
+   3,R,J
+  10,J
+   1,L,K,G
+   9,K
+   1,R
+   1,L
+   3,J,G
+   3,R,J
+  13,U,Z
+  10,R,J
+#stun_dd-00-lobby
+   2,R,J
+StunPause
+   1,K,G
+   4,R
+   1
+   1,R
+   1,L
+   3,L,D
+   8,L,J
+   7,K,G
+   1,R,K
+   1,L,K
+   1,L,J,G
+   3,R,J
+   8,J
+   1,L,K,G
+   5,K
+   1,L,K
+   4,J
+SkipInput 3 1
+  15,R,U,Z
+   6,K,G
+EndStunPause
+   2,K
+#endstun_dd-00-lobby
+   1,J,G
+   7,L
+   6,L,Z
+   1,L,J
+   7,L
+  11,L,D,K
+   8,U,X
+  40
+
+#lvl_e-00
+   7,L,J
+   5,L
+   1
+   1,L
+   1
+  15,R,X
+   1,R,K
+   4,K
+  18,R,K
+  15,U,X
+  13,R
+   9,J,G
+   1
+   1,J,G
+   1
+   5,L
+   1
+   4,R,Z
+   1,R,J
+   4,R
+  40
+
+#lvl_e-01
+   2,R
+   1,R,J
+   3,R
+  14,R,D,X
+   1,R,J
+   4,D,X
+   3,R,X
+   8,R,C
+   4,D,X
+   3,R,X
+   6,D,C
+   7,L,X
+#endroute_e-00
+Read,9Dv1_07,endroute_e-00,Time
+
+#Time
+MidwayFileTime: 0:39.610(2330)
+
+  40

@@ -18,9 +18,9 @@ Read,0 - PrologueDash-MX.tas,Start
 
 Read,../Load9DMX.tas
 
-#Old 8D Golden
+#8D v1 Mashup Golden
 #This level already picks up the golden; the MX file for this also gets the red berries because why not
-Read,Old8DsMashup.tas,Start
+Read,8Dv1Mashup.tas,Start
 
 Read,../LoadDBMXFromDMX.tas,0,Checkpoints
    1,J
@@ -32,8 +32,8 @@ Read,8EMX.tas,Start
 
 Read,../LoadDMX.tas
 
-#Old Old 7D Golden
-Read,OldOld7DMX.tas,Start
+#7D v1 Golden
+Read,7Dv1MX.tas,Start
 
 Read,../LoadDBMXFromDMX.tas,0,Checkpoints
    1,J
@@ -45,18 +45,18 @@ Read,7EMX.tas,Start
 
 Read,../LoadDMX.tas
 
-#Old 7D Golden
-Read,Old7DMX.tas,Start
+#7D v1.5 Golden
+Read,7Dv1.5MX.tas,Start
 
 Read,../LoadDMX.tas
 
-#Old 6D Golden
-Read,Old6DMX.tas,Start
+#6D v1 Golden
+Read,6Dv1MX.tas,Start
 
 Read,../LoadDMX.tas
 
-#Old Old 3D Golden
-Read,OldOld3DMX.tas,Start
+#3D v1 Golden
+Read,3Dv1MX.tas,Start
 
 Read,../LoadDMX.tas,0,Epilogue
    1,O
@@ -70,8 +70,8 @@ endrepeat
 Add 1
 safe
 
-#Old 9D PoNR Golden
-Read,Old9D/Old9DG,Start
+#9D v1 PoNR Golden
+Read,9Dv1/9Dv1G,Start
 
 Read,../LeaveLevel,Complete Screen
 unsafe
@@ -81,23 +81,28 @@ unsafe
    9
 Read,../LoadDMX,Enter
 
-#Old 3D Golden
-Read,Old3DMX.tas,Start
+#3D v2 Golden
+Read,3Dv2MX.tas,Start
 
 Read,../LoadDMX
 
-#Old 5D Golden
-Read,Old5DMX,Start
+#5D v1 Golden
+Read,5Dv1MX,Start
 
 Read,../LoadDMX
 
-#Old 4D Golden
-Read,Old4DMX,Start
+#4D v1 Golden
+Read,4Dv1MX,Start
 
 Read,../LoadDBMXFromDMX
 
-#Old 4Dark Golden
-Read,Old4DarkMX,Start
+#4Dark v1 Golden
+Read,4Darkv1MX,Start
+
+Read,../LoadDMXFromDBMX
+
+#8D v2 Golden
+Read,8Dv2MX,Start
 
 Read,../LeaveLevel
 

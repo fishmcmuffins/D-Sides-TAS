@@ -10,54 +10,53 @@ Read,0 - PrologueDash.tas,Start
 
 Read,../Load9D.tas
 
-#Old Core D-Sides Mashup
-Read,Old8DsMashup.tas,Start
+#Core D-Side v1 Mashup
+Read,8Dv1Mashup.tas,Start
 
 Read,../LoadD.tas
 
-#Old Old Summit D-Side
-#(The first ver. of 7D)
-Read,OldOld7D.tas,Start
+#Summit D-Side v1
+Read,7Dv1.tas,Start
 
 Read,../LoadD.tas
 
-#Old Summit D-Side
-#(The second ver. of 7D)
-Read,Old7D.tas,Start
+#Summit D-Side v1.5
+Read,7Dv1.5.tas,Start
 
 Read,../LoadD.tas
 
-#Old Reflection D-Side
-Read,Old6D.tas,Start
+#Reflection D-Side v1
+Read,6Dv1.tas,Start
 
 Read,../LoadD.tas
 
-#Old Old Celestial Resort D-Side
-#(The first ver. of 3D)
-Read,OldOld3D.tas,Start
+#Celestial Resort D-Side v1
+Read,3Dv1.tas,Start
 
 Read,../LoadD.tas
 
-#Old Final Goodbye
-#(AKA Old Farewell D-Side)
-Read,Old9D/Old9D.tas,Start
+#Final Goodbye v1
+Read,9Dv1/9Dv1.tas,Start
 
 Read,../LoadD.tas
 
-#Old Celestial Resort D-Side
-#(The second ver. of 3D)
-#(also known as Old 3Dark)
-Read,Old3D.tas,Start
+#Celestial Resort D-Side v2
+Read,3Dv2.tas,Start
 
 Read,../LoadD
 
-#Old Temple D-Side
-Read,Old5D,Start
+#Mirror Temple D-Side v1
+Read,5Dv1,Start
 
 Read,../LoadD
 
-#Old Ridge D-Side
-Read,Old4D,Start
+#Golden Ridge D-Side v1
+Read,4Dv1,Start
+
+Read,../LoadD
+
+#Core D-Side v2
+Read,8Dv2,Start
 
 Read,../LeaveLevel
 

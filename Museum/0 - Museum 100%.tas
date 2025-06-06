@@ -11,56 +11,50 @@ Read,0 - PrologueDash.tas,Start
 
 Read,../Load9D.tas
 
-#Old Core D-Sides Mashup
-Read,Old8DsMashup-S.tas,Start
+#Core D-Side v1 Mashup
+Read,8Dv1MashupS.tas,Start
 
 Read,../LoadD.tas
 
-#Old Old Summit D-Side
-#(The first ver. of 7D)
-Read,OldOld7D.tas,Start
+#Summit D-Side v1
+Read,7Dv1.tas,Start
 
 Read,../LoadD.tas
 
-#Old Summit D-Side
-#(The second ver. of 7D)
-Read,Old7D.tas,Start
+#Summit D-Side v1.5
+Read,7Dv1.5.tas,Start
 
 Read,../LoadD.tas
 
-#Old Reflection D-Side
-Read,Old6D.tas,Start
+#Reflection D-Side v1
+Read,6Dv1.tas,Start
 
 Read,../LoadD.tas
 
-#Old Old Celestial Resort D-Side
-#(The first ver. of 3D)
-Read,OldOld3D.tas,Start
+#Celestial Resort D-Side v1
+Read,3Dv1.tas,Start
 
 Read,../LoadD.tas
 
-#Old Final Goodbye
-#(AKA Old Farewell D-Side)
-Read,Old9D/Old9DS.tas,Start
+#Final Goodbye v1
+Read,9Dv1/9Dv1S.tas,Start
 
 Read,../LoadD.tas
 
-#Old Celestial Resort D-Side
-#(The second ver. of 3D)
-#(also known as Old 3Dark)
-Read,Old3D.tas,Start
+#Celestial Resort D-Side v2
+Read,3Dv1.tas,Start
 
 Read,../LoadD
 
-#Old Mirror Temple D-Side
-Read,Old5DS,Start
+#Mirror Temple D-Side v1
+Read,5Dv1S,Start
 
 Read,../LoadD
 
-#Old Golden Ridge D-Side
-Read,Old4DS,Start
+#Golden Ridge D-Side v1
+Read,4Dv1S,Start
 
-Read,../LeaveLevel
+Read,../LoadDB,0,Cassette
 unsafe
    1,O
   30
@@ -71,12 +65,17 @@ unsafe
 Add 1
 safe
 
-Read,Old4DC0,Start
+Read,4Dv1C0,Start
 
 Read,../LoadDBFromD
 
-#Old Golden Ridge Dark-Side
-Read,Old4Dark,Start
+#Golden Ridge Dark-Side v1
+Read,4Darkv1,Start
+
+Read,../LoadDFromDB
+
+#Core D-Side v2
+Read,8Dv2S,Start
 
 #Enable Cheat Mode for inaccessible "B-Sides"
 Read,LoadPrologue.tas

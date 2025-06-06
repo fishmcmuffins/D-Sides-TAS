@@ -1,0 +1,328 @@
+# Monika's D-Sides
+# https://gamebanana.com/mods/150759
+
+RecordCount: 10656
+
+Set,SaveData.Instance.CheatMode,true
+
+console load monikadsidespack/1/2-SummitOldOld
+   1
+
+#Start
+  88
+
+#Spinner Cycle [b-01]
+   2
+#
+
+#lvl_a-00_intro
+#this room already picks up
+#the golden optimally :p
+Read,7Dv1,lvl_a-00_intro,Spinner Cycle [d-05]
+
+#Spinner Cycle [d-05]
+   2
+#
+   6,R,Z
+   1,R,J
+   3,R
+   1,R,J
+   3,R
+   8,R,J
+  15,R,U,X
+   3,L
+  15,R,U,X
+   3,L
+   1,R,J,G
+   8,R,G
+  13,D,X
+  18,L
+   1
+   1,L
+  10,U,X
+  14,L,J
+   7,L
+  15,U,X
+  11
+   7,R
+  23,R,Z
+  32,R,U,X
+  26,R,U,C
+   8,R,U,Z
+   1,R,J,G
+  11,R
+   6,R,Z
+   1,R,J
+   7,R
+   1,R,J
+   5,R,D,X
+  40
+
+#lvl_b-07
+Read,7Dv1,lvl_b-07,lvl_f-farright (1)
+
+#lvl_f-farright
+#im going to assume the room
+#routing for 2500M is the same
+   1,R
+  10,R,D,X
+   1,R,J
+   4,R
+  21,D
+   4
+  15,R,Z
+  23,R,X
+  65,G
+   1
+   1,J
+  10,L
+  25
+   1,L
+   1
+   5,R
+   1,R,J
+  19,R
+   1,R,J
+  14,R
+   1,R,J
+  14,R
+   1,R,J
+  13,R
+   4,R,Z
+   1,R,J
+   5,R
+   2
+   1,J
+   1,K,G
+   1,J,G
+   7
+   1,L
+  14,R,D
+   1,D
+   1,R,D
+   5,D
+   9,L,D
+  18,L,Z
+  22,L,U,V
+   7,J,G
+   1
+   1,J,G
+   1,R
+  12,L,K,G
+   7,L
+   4,L,Z
+   3,L,J
+   3,L
+  40
+
+#lvl_f-downright
+Read,7Dv1,lvl_f-downright (2),lvl_f-downleft
+
+#lvl_f-downleft
+   5,L,D,X
+   1,L,J
+  23,D,C
+  15,L,X
+  38,L,U,C
+  17,L,X
+  15,L,D,C
+   3,L,D
+  11,R,D
+  15,R,X
+  20,R,C
+  21,R,Z
+  19,L,U,C
+  10,U,X
+  28,R,J
+  15,R,X
+   1
+   1,R
+   1
+   1,R
+   6,L,J
+  39,L,D
+   1,D
+   1,L,D
+  12,R
+  15,R,X
+  15,U,C
+  12,U,X
+   8,R,D,C
+   7,J,G
+   6,R,Z
+   1,R,J
+   7,R
+  61
+
+#lvl_f-01 (1)
+#older inputs, i dont think its possible to demo to the key in f-midleft without a deathwarp.....
+   1,R,J
+  14,R,D,X
+   1,L,J
+  17,U,X
+   3,L,J
+   1,L,K,G
+  12,L,J,G
+   1,K,G
+   1,R,K
+   3,L,K
+  12,L,J,G
+   1,L,K,G
+   3,R,K
+   5,L,K
+   7,L
+   1,L,J
+  15,L
+   2,L,J
+   4,L
+   7,L,Z
+   1,L,J
+   4,L
+  61
+
+#lvl_f-midleft
+   3,L
+   2,L,J
+   7,L,D,X
+  35,L,C
+  15,L,U,X
+  16,L,C
+  22,U,X
+  15,R,C
+  10,R,X
+  21,L,C
+  27,D,X
+   4,L,Z
+  34,R,C
+  15,U,X
+   6,R
+  15,R,Z
+  28,R,D
+  35,L,X
+  15,L,U,C
+  16,L,X
+  74,R,C
+  61
+
+#lvl_f-01 (2)
+Read,7Dv1,lvl_f-01 (4),lvl_f-02
+
+#lvl_f-02
+   7,R
+   1,R,J,G
+   3,R
+   6,R,Z
+   1,R,J
+   7,R
+   1,R,J
+  14,R,U,X
+   2,R,J,G
+  15,R,D,X
+#Big Boy Key Cycle
+ 935,R
+#-----
+   4,L,Z
+   2,L,J
+   2,L
+   1,L,J
+   3,L
+   1,L,J
+   2,L
+   7,R,Z
+   1,R,J
+   6,R
+   1,R,J
+   6,R,D,X
+   8,R,J
+  65,R,C
+  14,R,D,X
+   1,R,J
+   6,R,D,X
+  43
+
+#lvl_f-03
+Read,7Dv1,lvl_f-03,lvl_g-01
+
+#lvl_g-01
+  72
+
+#Spinner Cycle [g-02]
+   1
+#
+
+  15,L,U,X
+  15,L,U,C
+  15,U,X
+  15,R,U,C
+   6,R,D,X
+   1,R,J
+   3,R
+   1,R,J
+   3,R
+   5,R,J
+  15,U,X
+   7,U,C
+  26
+   1,F,
+AnalogMode Precise
+  29,F,356.501
+   1,F,356.5
+  11,F,296
+  25,F,271.429
+   1,F,273.135
+  11,F,333
+  14,F,19.733
+  11,F,80
+  21,F,129.348
+   1,F,124.68
+  29,F,88.688
+   1,F,83.532
+  11,F,24
+  14,F,16.432
+   1,F,16.404
+  35,F,15.17
+   6,F,
+  40
+
+#lvl_g-02
+Read,7Dv1,lvl_g-02,lvl_i-01
+
+#lvl_i-01
+   7,R,D,X
+   1,R,J
+  14,R,D,X
+   1,R,J
+  14,R,D,X
+   1,R,J
+  15,D,X
+  14,R,Z
+   1,L,J
+  15,D,X
+
+#Key Cycle Wait
+  20
+#----
+
+   1,R
+   1
+   1,R
+   1
+   2,R
+   1,J
+  14
+   1,J
+  14
+  18,J
+   1
+  18,U,Z
+  13,U,X
+   8,R,J
+   5,L,J
+  40
+
+#lvl_j-01
+Read,7Dv1,lvl_j-01
+
+AnalogueMode Ignore
+
+ChapterTime: 9:40.499(34147)

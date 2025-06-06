@@ -1,0 +1,28 @@
+#Combines Main pack Max%
+#and Museum pack Max%
+
+Read,../StartFullGameFile
+
+#Main Pack Max%
+Read,../0 - Max%,Start,Journal
+
+Read,LoadMuseumFromPostEpilogue.tas
+
+#Museum Max%
+Read,0 - Museum Max%,Start,Journal
+
+#Journal
+unsafe
+Add 197
+  60
+   1,X
+  62
+Read,../LoadJournal.tas,Epilogue
+
+   1,X
+  60
+   1,U
+  60
+Read,../LoadJournal.tas,Epilogue
+
+FileTime: 6:16:33.391(1329023)

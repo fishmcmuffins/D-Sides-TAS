@@ -1,0 +1,62 @@
+# Monika's D-Sides
+# https://gamebanana.com/mods/150759
+
+RecordCount: 3731
+
+Set,SaveData.Instance.CheatMode,true
+
+Read,../Visuals/4Darkv1,Preload,Postload
+
+console hard monikadsidespack/1/9-RidgeOld
+   1
+
+#Start
+Read,../Visuals/4Darkv1,Postload
+  69
+
+#Spinner Cycle [c-07]
+   0
+#-----
+
+#lvl_a-01
+   1,R,J
+   8,L,J
+  14,R,D,X
+   3,R,J
+  14,R,D,X
+   1,R,J
+   3,R
+  14,R,D,X
+   2,R,J
+   7,R
+   1
+   8,R
+   3,R,D
+  15,U,X
+  10,R
+  13,R,Z
+   5,R,J
+   4,R
+   1,R,J
+   9,R,U,X
+  16,R,D,C
+  10,R,U,X
+   6,R,J,G
+  26,R
+  15,D,X
+   3,R
+  14,R,C
+  21,R,J
+   9,K,G
+   6,R,Z
+   1,R,J
+   7,R
+   1,R,J
+  14,R,D,X
+   1,R,J
+  40
+
+#lvl_a-02
+Read,4Darkv1.tas,lvl_a-02
+
+ChapterTime: 3:31.990(12470)

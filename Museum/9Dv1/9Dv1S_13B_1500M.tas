@@ -1,0 +1,528 @@
+console load monikadsidespack/1/6-FinalGoodbyeOld 114584 -21424
+   1
+
+Set,Level.TimeActive,512
+
+#Start
+#lvl_m-01
+Read,9Dv1_13B,Start,lvl_m-03
+
+#lvl_m-03
+   9,R,U,Z
+   2,J
+  12,R,X
+   4,R,J
+   3,R,K
+   2,L,J
+   2,R,K
+   1,R,J,G
+  10,R
+   5,R,J
+   1,L,J
+   4,K,G
+  15,R,K
+  31,R,X
+   5,R,Z
+   5,R,J
+   2,R
+   2,R,J
+   9,R
+  15,D,X
+   1,R
+   8,R,D
+   1,R
+   4,Z
+   1,R,J
+   6,R
+  11,R,D,J
+   1,L,K,G
+   8,R,K
+   1,L,J,G
+   4,R,J
+   4,J
+  14,U,X
+   6,L,J
+   1,J
+   9,K
+  26
+  10,R
+   5,G
+   3
+   2,G
+   1,J,G
+  11,R
+   2,G
+   1
+   1,R,K,G
+   1,R,J,G
+   6,R,K,G
+   6,R,J,G
+   5,R
+   2
+   1,R
+  12
+  15,R,U,Z
+  18
+   1,L
+   1
+   1,L
+   1
+   1,L,D
+   1,D
+  13,R,D
+   3,R
+  15,R,Z
+   6,R,X
+   7,R,J
+   1,R,K,G
+   1,J,G
+   2,R,J
+  40,K
+
+#lvl_m-04
+Read,9Dv1_13B,lvl_m-04,lvl_m-06
+
+#lvl_m-06
+#Note: Oshiro TimeActive manip is
+#not implemented in this room yet.
+#I'd appreciate if someone could
+#do that in the future!
+
+#MB specific note: it is absolutely
+#essential to save like 40f to stun
+#2 dust bunnies simultaneously that
+#TA manip gets solved for m-06.
+#no pressure tho... :3
+Read,9Dv1_13B,lvl_m-06,lvl_m-08
+
+#lvl_m-08 (1)
+   6,R
+   1,R,J
+   2,R
+  15,D,X
+  19,R,D,C
+  13,R,X
+  13,R,C
+  15,U,X
+  17
+  11,R
+   1,R,D
+   4,D,X
+  11,R,X
+  13,R,D
+   9,R,X
+   9,R,C
+   9,R,X
+#hazardcycle_m-08s
+#comment out next 2 lines
+#to access stunless route
+   0
+play,endhazardcycle_m-08s
+
+#====================
+
+#stunless_m-08s
+  15,U,C
+  17,R,G
+   1,U,G
+   1,G
+   1,U,G
+   2,L
+  10,U,Z
+  11,L,J
+   1,K,G
+   7
+   2,J
+  11,L,Z
+   1,K
+   3,J
+   8,U,X
+  40
+
+#lvl_m-08s (1)
+   9,J
+   1,K,G
+   1
+  13,L,Z
+   1,R,J
+   6
+   8,R,D,K
+   4,R
+   1,L,J,G
+  12,R,J
+  15,U,X
+  27,R,U
+  17,F,91
+  41,F,90
+  11,F,120
+   2,F,90
+   1
+  11,F,225
+  20,F,270
+  11,F,301
+   6,F,280.5
+  20,L
+   7
+  21,L,U,X
+  21,R,D
+   6,D
+   1,R,D
+   1,D
+  12,R,D
+  18,R,X
+  15,R,C
+  18,R,U,X
+  15,R,Z
+   7,R,X
+   1,R,J,G
+   9,R,K,G
+  11,R
+   1,J
+   7
+   1,R,D
+   1
+   1,R,D
+  15,D,X
+   1,R
+   4,R,J
+   4,J
+   3,G
+  14,R,D,X
+   1,R,J
+  10,D,X
+  40
+#endstunless_m-08s
+play,lvl_m-08 (2)
+
+#====================
+
+#endhazardcycle_m-08s
+  15,U,C
+  17,R,G
+   1,U,G
+   1,G
+   1,U,G
+   2,L
+  10,U,Z
+  11,L,J
+   1,K,G
+   7
+   2,J
+  11,L,Z
+   1,K
+   3,J
+   8,U,X
+  40
+
+#lvl_m-08s (2)
+   4,J
+   1,K
+   1,J
+   5,R
+  14,R,Z
+   9,R,K
+  14,R,D,X
+  15,R,J
+#stun_m-08
+   2,R
+StunPause
+  10,R
+SkipInput 3 1
+  15,R,U,X
+SkipInput 3 1
+  14,R,Z
+   1,R,J
+SkipInput 3 1
+   5,R,D,X
+EndStunPause
+   2,R,D,X
+#endstun_m-08
+   6,R,J
+   1,R
+   1,R,K,G
+   1,L,K
+   1,R,K
+   7,R
+   4,Z
+   1,R,J
+   7,R
+   1,K
+   7
+   1,R,D
+   1
+   1,R,D
+  15,D,X
+   1,R
+   4,R,J
+   4,J
+   3,G
+  14,R,D,X
+   1,R,J
+  10,D,X
+  40
+
+#lvl_m-08 (2)
+   4,D
+   3,D,G
+   2,R,J,G
+  26,R,D
+  22,R,D,C
+  17,R,U,X
+  17,R,U,C
+  15,R,D,X
+  17,R,D,C
+   1
+  16,R,U,X
+  15,R,U,C
+  15,R,D,X
+  14,R
+   1
+  11,U,X
+  27,L,J
+  15,R,D,C
+  16,R
+  11,R,J
+  21,R,D
+   1,R
+  24,R,Z
+  14,U,C
+   2,J
+   5
+   1,R
+   3
+   4,K
+   4,L
+   4,Z
+   1,R,J
+   3,R
+   1,R,J
+   1,R,K
+   1,R,J,G
+   6,R
+  40
+
+#lvl_m-09
+Read,9Dv1_13B,lvl_m-09,lvl_m-11
+
+#lvl_m-11
+  11,R
+   8,R,D,X
+   4,R,K
+   4,R
+#branch_ta3
+
+#+0f: 0, 3, 7, 8, 9
+#+1f: 1, 2, 4, 5, 6
+
+#ta3_0
+#minimum
+  13
+   1,D
+  40
+   1,D
+  10,J
+   2
+  16,U,Z
+  63,R,J
+  40,R
+  15,R,Z
+  21,R
+#end_ta3_0
+play,endbranch_ta3
+
+#ta3_1
+#+.00116
+  13
+   1,D
+  41
+   1,D
+  10,J
+   1
+  17,U,Z
+  56,R,J
+   6,R,D
+  24,R
+   2,R,J
+  15,R
+  15,R,Z
+  21,R
+#end_ta3_1
+play,endbranch_ta3
+
+#ta3_2
+#+.00305
+   4,R
+  48
+   2,R
+   2,D
+   4,L,J
+   1,J
+   3,L,J
+   2,J
+  16,U,X
+  40,R,K
+   4,K
+  19,R,K
+  24,R
+   4,R,J
+  12,R
+  15,R,Z
+  23,R
+#end_ta3_2
+play,endbranch_ta3
+
+#ta3_3
+#+.00513
+  13
+   1,D
+  40
+  11,J
+   2
+  15,U,Z
+  50,R,K
+   4
+   9,R
+  41,R
+  15,R,Z
+  21,R
+#end_ta3_3
+play,endbranch_ta3
+
+#ta3_4
+#+.00720
+  13
+   1,D
+  40
+   1,D
+  10,J
+   2
+  16,U,Z
+  50,R,J
+   4
+   8,R
+  24,R
+   4,R,J
+  13,R
+  15,R,Z
+  22,R
+#end_ta3_4
+play,endbranch_ta3
+
+#ta3_5
+#+.00879
+  13
+   1,D
+  42
+   9,J
+  19,U,Z
+  52,R,J
+   1
+   1,D
+   7,R,D
+  24,R
+   4,R,J
+  13,R
+  15,R,Z
+  22,R
+#end_ta3_5
+play,endbranch_ta3
+
+#ta3_6
+#+.01172
+   4,R
+  44
+   2,R
+   2,D
+   3,L,J
+   1,J
+   2,L,J
+   1,J
+   1,L,J
+   4,J
+   2
+  16,U,Z
+  36,R,K
+   3,K
+   1,R,K
+   1,K
+  23,R,K
+  40,R
+  15,R,Z
+  15,R
+   7,R,D
+#end_ta3_6
+play,endbranch_ta3
+
+#ta3_7
+#+.01294
+   4,R
+  46
+   2,R
+   2,D
+   3,L,J
+   1,J
+   2,L,J
+   1,J
+   1,L,J
+   3,J
+   1,L,J
+  16,U,Z
+  36,R,K
+   2,K
+   1,R,K
+   1,K
+   3,R,K
+   1,K
+  20,R,K
+  40,R
+  15,R,Z
+  21,R
+#end_ta3_7
+play,endbranch_ta3
+
+#ta3_8
+#+.01428
+  12
+   1,D
+  39
+   8,J
+   6
+  16,U,X
+   1,L
+  36,R,J
+  27,R
+  40,R
+  15,R,Z
+  14,R
+   7,R,D
+#end_ta3_8
+play,endbranch_ta3
+
+#ta3_9
+#+.01513
+  54
+   8,J
+   2,R
+  19,U,X
+  63,R,J
+  40,R
+  15,R,Z
+  14,R
+   7,R,D
+#end_ta3_9
+play,endbranch_ta3
+
+#endbranch_ta3
+   5,R,Z
+   2,R,J
+   5,R
+  40
+
+#lvl_m-12
+Read,9Dv1_13B,lvl_m-12,Time
+
+#Time
+
+MidwayFileTime: 1:32.888(5464)
+
+  40

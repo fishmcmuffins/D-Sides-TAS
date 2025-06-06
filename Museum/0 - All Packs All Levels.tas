@@ -1,0 +1,35 @@
+#Combines Main pack All D-Sides
+#and Museum pack All Levels
+
+Read,../StartFullGameFile
+
+#Main Pack All Levels
+#(except Post-Epilogue)
+Read,../0 - All Levels,Prologue D-Side,Post-Epilogue
+
+Read,LoadMuseumFromMain.tas
+
+#Museum All Levels
+Read,0 - Museum All Levels,Prologue D-Side w/ Dashes,Journal
+
+Read,LoadMainFromMuseum,Menu
+
+#Post-Epilogue
+Read,../0 - Post-Epilogue.tas,Start
+
+unsafe
+
+Add 197
+  60
+   1,X
+  62
+Read,../LoadJournal.tas,Epilogue
+
+#Museum Journal
+   1,X
+  60
+   1,D
+  60
+Read,../LoadJournal.tas,Epilogue
+
+FileTime: 

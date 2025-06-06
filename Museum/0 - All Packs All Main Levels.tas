@@ -1,0 +1,39 @@
+#Combines Main pack Drue Ending
+#and Museum pack All Main Levels
+
+Read,../StartFullGameFile
+
+#Main Pack All D-Sides
+Read,../0 - All D-Sides,Prologue D-Side,Journal
+
+Read,../Load9D.tas
+
+#Final Goodbye / Farewell D-Side
+Read,../9D/9D.tas,Start
+
+Read,LoadMuseumFromMain.tas
+
+#Museum All Main Levels
+Read,0 - Museum All Main Levels,Prologue D-Side w/ Dashes,Journal
+
+Read,LoadMainFromMuseum,Menu
+
+#Post-Epilogue
+Read,../0 - Post-Epilogue.tas,Start
+
+unsafe
+
+Add 197
+  60
+   1,X
+  62
+Read,../LoadJournal.tas,Epilogue
+
+#Museum Journal
+   1,X
+  60
+   1,D
+  60
+Read,../LoadJournal.tas,Epilogue
+
+FileTime: 
