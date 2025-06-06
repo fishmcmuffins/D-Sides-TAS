@@ -8,7 +8,7 @@ TAS files contain lists of inputs for a program (e.g. libTAS) or physical device
 
 All TASes in this repository have the goal of completing certain objectives on a new file in the least in-game time possible (without using timer overflow) while using cheat mode as little as possible and without using any variants.
 
- - Main Pack (root directory + `9D` subdirectory): Latest versions of each D-Side, Dark Side, and Final Goodbye, all on the mod's current patch (v4.79 as of 2025 May 7).
+ - Main Pack (root directory + `9D` subdirectory): Latest versions of each D-Side, Dark Side, and Final Goodbye, all on the mod's current patch (v4.80 as of 2025 June 5).
    - `100%`: Get all collectibles, excluding deathless berries, in all main pack levels.
    - `All D-Sides`: Beat Epilogue D. Progress only by beating D-Sides.
    - `All Dark-Sides`: Beat 1-7Dark using cheat mode.
@@ -23,7 +23,7 @@ All TASes in this repository have the goal of completing certain objectives on a
    - `All Levels`: Beat all museum levels. Only use cheat mode after beating all levels accessible without it.
    - `All Main Levels`: Beat the A-Side of each museum chapter.
    - `Max%`: Get all collectibles, including deathless berries, in all museum levels. Only use cheat mode after beating all levels accessible without it.
- - `Both Packs` (museum directory):
+ - `All Packs` (museum directory):
    - `100%`: Main Pack `100%` and Museum `100%`
    - `All Levels`: Main Pack `All Levels` and Museum `All Levels`
    - `All Main Levels`: Main Pack `All D-Sides`, `9D` (Final Goodbye), and Museum `All Main Levels`
@@ -33,19 +33,19 @@ All TASes in this repository have the goal of completing certain objectives on a
 ## Viewing
 
 There are two ways to watch a TAS from this repository:
- - Run a TAS file on your PC by following these steps:
-    1. Download the dependencies:
-      - the game [Celeste](celestegame.com) and modloader [Everest](https://everestapi.github.io/)
-      - the mod [CelesteTAS](https://gamebanana.com/tools/6715) and its required dependencies
-      - current patch of the mod [Monika's D-Sides](https://gamebanana.com/mods/150759) (v4.79 as of 2025 May 7) and its required dependencies
-      - for the Final Goodbye Platinum, the mod [Platinum Strawberry Asset Pack](https://gamebanana.com/mods/442093)
-    2. Download a copy of this repository. There's a button in the green Code menu above the timestamp column.
-    3. Select a TAS file (either open it in Studio or copy its contents into `Celeste.tas` in your Celeste directory), then press the "Start/Stop TAS" bind in Celeste.
  - Watch a recording or showcase of a TAS:
     - [Beat Epilogue showcase](https://www.youtu.be/VxJJegTyc-w)
     - [Final Goodbye Max% showcase](https://www.youtu.be/npSNabouT_4)
     - recordings of Dark Sides: [1Dark](https://www.youtu.be/rKMGs8QMLB0), [4Dark](https://youtu.be/dEut86kWKAw), [5Dark](https://www.youtu.be/Ya6lxjrGoCI), [6Dark](https://www.youtu.be/SUo2iC8UY3o), [7Dark](https://youtu.be/cHdfAiX2-nw)
     - recordings of museum levels: [Old 8Ds Mashup](https://youtu.be/6_0hd2D_KSw)
+ - Run a TAS file on your PC by following these steps:
+    1. Download the dependencies:
+      - the game [Celeste](celestegame.com) and modloader [Everest](https://everestapi.github.io/)
+      - the mod [CelesteTAS](https://gamebanana.com/tools/6715) and its required dependencies
+      - current patch of the mod [Monika's D-Sides](https://gamebanana.com/mods/150759) (v4.80 as of 2025 June 5) and its required dependencies
+      - for the Final Goodbye Platinum, the mod [Platinum Strawberry Asset Pack](https://gamebanana.com/mods/442093)
+    2. Download a copy of this repository. There's a button in the green Code menu above the timestamp column.
+    3. Select a TAS file (either open it in Studio or copy its contents into `Celeste.tas` in your Celeste directory), then press the "Start/Stop TAS" bind in Celeste.
 
 ## Contributing
 
