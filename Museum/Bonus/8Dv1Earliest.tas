@@ -5,9 +5,9 @@ console load monikadsidespack/2/4-CoreOldest
 AnalogMode, Precise
  190
 
-#Spinner Cycle [b-02]
+#cycle_b-02
    0
-#-----
+#endcycle_b-02
 
 ## Start
 #lvl_00
@@ -116,9 +116,11 @@ AnalogMode, Precise
    1,R,J,G
    8,R
   40
+#transitionfreeze_a-01_a-02
+   3
 
 #lvl_a-02
-  14,R,X
+  11,R,X
    5,R,J
   11,R
    8,R,J
@@ -831,9 +833,9 @@ EndRepeat
   15,R,X
   12,R,Z
 ##
-#Spinner Cycle [c-04]
+#cycle_c-04
    2
-#----
+#endcycle_c-04
 ## Checkpoint B (cont.)
   15,R,X
   15,U,C
@@ -845,6 +847,7 @@ EndRepeat
   22
   25,J
   19,R,X
+#stun_c-04
    5,U,C
 StunPause
   11,U,C
@@ -854,6 +857,7 @@ SkipInput,3,1
    7,U,C
 EndStunPause
    3
+#endstun_c-04
   67,L,U,X
   12,R
    5
@@ -868,9 +872,9 @@ EndStunPause
   44,F,15
   12,R,Z
 ##
-#Spinner Cycle [space]
+#cycle_space
    0
-#----
+#endcycle_space
 ## Checkpoint B (cont.)
   17,U,X
   72

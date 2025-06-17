@@ -7,35 +7,15 @@ console load monikadsidespack/2/5-CoreOldNewest
 AnalogMode, Precise
  190
 
-#Spinner Cycle [b-02]
-   1
-#-----
+#cycle_b-02
+   2
+#endcycle_b-02
 
 ## Start
 #lvl_00
-   4,R,Z
-   1,R,J
-   7,R
-   3,R,J
-  13,R,D,X
-   1,R,J
-   1,R
-   6,R,U,X
-   1,K,G
-   8,R
-  14,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-   6,R,D,X
-  40
+Read,8Dv1Earliest,lvl_00,gate
 
-#lvl_01
-
-   8,R,D,X
-   4,R,J
-  14,R,Z
-   3,R,K
+#gate
   15,D,X
  103
    4,Z
@@ -58,6 +38,7 @@ AnalogMode, Precise
    6,R
   40
 
+#lvl_a-00
    2,R
   12,R,J
    5,R,D
@@ -69,256 +50,11 @@ AnalogMode, Precise
    7,R
   40
 
-   1,R,J
-  29,R
-  34,R,U,Z
-   2,R,K,G
-   2,L,K
-   1,R,J,G
-   1,R,K,G
-   1,R
-   1
-   7,R
-   2,R,J
-   3,R
-   1,R,J
-   4,R
-   3,R,K
-   6,R
-   1,R,J
-  14,R
-   2,G
-   9,L,Z
-   1,R,J
-   1,J
-   2,R,J
-   1,R,K,G
-   9,R
-   1,R,K
-  10,R
-   1
-   1,R
-  20
-   1,R
-   1,L
-   1
-   7,D
-   2,G
-   4,L
-  26,G
-  11,R,J
-  13,R
-  11,R,D,K
-   1,L,J,G
-   1,R,J
-   1,K
-   1,L,K
-   1,J
-   1,R,J
-   1,R,K,G
-   1,R,J,G
-   8,R
-  40
+#lvl_a-01
+Read,8Dv1Earliest,lvl_a-01,transitionfreeze_a-01_a-02
 
 #lvl_a-02
-  11,R,X
-   5,R,J
-  11,R
-   8,R,J
-   8,U,X
-   9,R,J
-   1,R
-   2
-   1,R,J
-   1,R,K,G
-  13,R
-   1,R,D,J
-  16,R
-   3,R,J
-  10,R,D
-   1,D
-   2,R,D
-  17,L,D
-   4,L
-   1,L,D
-   2,L
-  34,R,J
-  10,U,X
-   6,R,J
-   1
-   9,R,K
-   1,R
-   1,R,J,G
-   3,R,K,G
-   1
-   1,R,K
-   1,K
-   3,R,K
-   8,R
-   3,R,J,G
-  16,R,D
-   9,R,J
-   1,R
-   6,R,J
-  19,R,D
-   1,R,J
-  29,R,D
-  10,R,J
-  11,R
-   4,K,G
-   7,L,K
-  21,L,D
-  13,D
-   2
-   1,D
-   1,L
-   1,L,D
-  23,L,J
-   8,U,X
-   3,J
-  15,L,J
-   1,K,G
-   7,L
-   3,J
-   2,L,J
-   2,L
-   1,L,K,G
-  14,L
-   2,K
-   1,L,K
-   1,L
-   4,L,K
-   6,L
-   9,L,K,G
-  28,L
-   3,L,D
-   1,D
-  17,L,Z
-  12,L,J
-   8,K,G
-   1,R,K
-  14,L,J,G
-   1,L,K,G
-  13,L
-   2,L,J
-   8,L
-   2,L,J
-   8,L
-   2,L,D,J
-   1,L
-  31,L,J
-   5,J
-  11,L,U,X
-   1,R,J,G
-   9,L,J
-  11,U,X
-  40
-
-#lvl_a-03
-   2,L
-  12,R,J
-   5,R
-  17,R,D,X
-  14,R,J
-   2,R
-  51,R,J
-  15,R,Z
-   3,L
-   2,R,G
-   1
-Repeat,22
-   1,J
-   1,K
-EndRepeat
-  11,L
-   2,L,D
-  11,L,G
-   1,J,G
-   1,R
-   1,R,J,G
-   2,R
-   2
-   1,R
-  14,R,Z
-   1,R,J
-  12,R
-   6,R,D
-  24,L,D
-   9,L,G
-   3,L,G
-  12,U,G
-  20,R,G
-   8,R,J
-   9,U,X
-   6,R,J
-   3,R
-  43,R,K,G
-  14,R,Z
-   1,R,J
-  40
-
-#lvl_a-04
-   7,R
-  11,R,J
-  17,R
-  15,R,Z
-  13,R
-   7,L,G
-   1,L,J,G
-   8,L,G
-   8,D,G
-  21,R,G
-   3,U,G
-   4,R,Z
-   8,R,J
-   1,R,K,G
-  22,R,D
-   7,R
-   8,R,J
-  40
-
-#lvl_a-05
-   4,R,J
-   9,R,G
-   1,L,J
-  14,L,K
-  15,U,X
-  20,R
-  12,L,J
-   7,L
-  11,R,X
-   1,R,J,G
-   8,R
-   1
-   1,R
-   1
-   1,R
-   1,R,J,G
-   3,D
-  21,R,D
-   6
-  15,R,X
-   5,R,U,C
-   1,L,J,G
-   8,L,K,G
-  31,L,G
-   4,D,G
-   6,R,G
-   2,R,J
-   8,R
-  29,L
-   5,L,D
-  20,R,D
-   2,R,D
-  15,R,Z
-  15,R,X
-  23,R,G
-  71,U,G
-   2
-   2,L
-   1,R
-   1,J,G
-  43
+Read,8Dv1Earliest,lvl_a-02,lvl_b-00
 ##
 
 ## Incerno
@@ -669,109 +405,7 @@ EndStunPause
   40,L
 
 #lvl_c-03
-   8
-  21,L,J,G
-  11,K,G
-   7,L
-   1,L,D,J
-  23,L
-   1,L,J
-  14,L
-   1,L,J,G
-  11,L
-   1,L,J
-   1,L
-   1,L,J
-   1,L
-   1,L,J
-   2,L
-   1,L,J
-   1,L
-  17,L,J
-   5,L
-   2,L,D,K
-   1,R,K
-  11,R,G
-   6,L
-Repeat,8
-   2,J
-   2,K
-EndRepeat
-  10,L,D
-  10,D
-   5,D,J
-   2,D
-   1,K,G
-   1,R
-   1,L
-   1,J,G
-   1,R
-   5,R,K,G
-   1,J
-   1
-  11,U,Z
-  25,R,J
-   2,L
-  18,L,J
-   2,L
-  12,R,J
-   7,R
-   1,R,J
-  14,R
-   1,R,J
-  10,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   2,R,J
-   6,R
-   1,L
-   1,R
-   1,L
-  18,L,J
-   2,L
-   8,L,J
-  12,L
-   8,J
-   7
-   4,R,J
-   4,J
-   1,R,J
-  16,U,X
-  15,R,J
-   3,L,J
-  15,U,X
-   3,R,J
-   1,L,J
-   8,R,J
-   3,J
-  15,U,Z
-   4,L
-   2,R
-  14,U,X
-   1,L
-   8,J,G
-   1,R,J
-  15,U,Z
-   1,L,J,G
-   1,R,J
-   3,R
-   1,L,K,G
-   1,L,J,G
-   7,L
-   2,L,J
-   1,J
-   2,K
-   1,J
-   4,R,J
-Repeat,8
-   2,K
-   2,J
-EndRepeat
-   1,R,J,G
-   3,L,J
-  40
+Read,8Dv1Earliest,lvl_c-03,lvl_c-04
 
 #lvl_c-04
    7,L
@@ -825,9 +459,11 @@ EndRepeat
   15,R,X
   12,R,Z
 ##
-#Spinner Cycle [c-04]
+
+#cycle_c-04
    0
-#----
+#endcycle_c-04
+
 ## Overflow (cont.)
   15,R,X
   15,U,C
@@ -861,145 +497,13 @@ EndStunPause
   45,F,15
   13,R,Z
 ##
-#Spinner Cycle [space]
+
+#cycle_space
    0
-#----
+#endcycle_space
+
 ## Double Down
-  17,U,X
-  72
-  40
-
-#lvl_c-05
-   4,L
-   1,R,J
-   1,R
-   4,R,J,G
-  19,R
-   1,R,J
-   1,R,K,G
-   1,R,J,G
-  11,R
-   1,R,J
-   7,R,K,G
-   1
-   5,R
-   1,R,K,G
-  11,R
-   3,R,J
-   7,R
-   1,R,J
-   8,R
-   1,R,G
-  68,D,G
-   6,L,D,X
-   1,R,J
-   7,R
-   1,R,J
-   5,J
-   7
-  15,R,U,Z
-  15,L
-  15,R
-   5,R,D
-  26,R,U,Z
-  43,L,G
-   3,L,U,G
-   7,R,Z
-   3,R,J
-  13,R
-   5,R,J
-   3,R,K,G
-  30,R,J,G
-   5,J
-   1,R,K,G
-   4,L,K
-   3,R,K
-   3,R
-   1
-   5,R,J,G
-   2,J
-   3,R,J
-   8,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   2,R,J
-  15,R
-   9,R,D
-   8,D
-   2,R,D
-   7,R
-   1,L,J
-  15,L,G
-Repeat,64
-   1
-   1,L,G
-EndRepeat
-   1,L,G
-  25,R,D
-Repeat,3
-   3,R,J
-   7,R
-EndRepeat
-   4,R,D,J
-   3,L,J
-  12,L,K,G
-   3,L,J,G
-  28,L,G
-   8,L,U,G
-   3,L,G
-   6,R,Z
-  10,R,J
-  12,R,X
-   1,R,J,G
-   1,R
-   5,R,J
-   2,R
-  40
-
-#lvl_c-06
-   1,R
-   3,R,J
-   2,R
-   1,R,D,J
-  19,R
-  10,R,D
-   1,L,D
-  12,R,Z
-   2,L,J
-   1,K
-   1,L,J,G
-  15,U,X
-   8,L
-   4,L,J
-   2,R,J
-  13,R
-  15,R,X
-  28,R,D
-  10,R,C
-  40,R
-   1,R,J
-  29,R
-  41,R,J
-  12,K,G
-  10,J,G
-   1
-   1,L
-  11,R,K,G
-   3,R
-   1,R,J,G
-   1,R,K,G
-  11,R
-   1,R,J
-  14,R
-   1,R,J
-  21,R,D
-   1,R,J
-  21,R,D
-   1,R,J
-  15,R
-  40
+Read,8Dv1Earliest,endcycle_space,lvl_c-08
 
 #lvl_c-08
    1,R,J
@@ -1237,4 +741,4 @@ EndRepeat
 
 AnalogMode, Ignore
 #Time
-ChapterTime: 3:11.964(11292)
+ChapterTime: 3:11.862(11286)
