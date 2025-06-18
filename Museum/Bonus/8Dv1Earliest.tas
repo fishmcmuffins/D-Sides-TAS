@@ -6,7 +6,7 @@ AnalogMode, Precise
  190
 
 #cycle_b-02
-   0
+   1
 #endcycle_b-02
 
 ## Start
@@ -388,13 +388,10 @@ EndRepeat
    1,R,D,J
    1,R,K
    1,R,J
-   1,R,K
-   1,R,J
-   3,K
-  17,R,K
-   2,R
+   6,R,K
+   1,R
+  18,R,J
   15,U,X
-   5,R
   14,R,Z
    1,R,J
    6,R
@@ -1176,4 +1173,4 @@ EndRepeat
 
 AnalogMode, Ignore
 #Time
-ChapterTime: 2:59.197(10541)
+ChapterTime: 2:59.146(10538)
