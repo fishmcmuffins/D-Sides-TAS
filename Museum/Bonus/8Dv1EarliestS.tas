@@ -1,3 +1,5 @@
+Set,CheatMode,true
+
 console load monikadsidespack/2/4-CoreOldest
    1
 
@@ -900,46 +902,6 @@ EndRepeat
    4,L
    8,J
    7
-   4,R,J
-   4,J
-   1,R,J
-  16,U,X
-  15,R,J
-   3,L,J
-  15,U,X
-   3,R,J
-   1,L,J
-   8,R,J
-   3,J
-  15,U,Z
-   4,L
-   2,R
-  14,U,X
-   1,L
-   8,J,G
-   1,R,J
-  15,U,Z
-   1,L,J,G
-   1,R,J
-   3,R
-   1,L,K,G
-   1,L,J,G
-   7,L
-   2,L,J
-   1,J
-   2,K
-   1,J
-   4,R,J
-Repeat,8
-   2,K
-   2,J
-EndRepeat
-   1,R,J,G
-   3,L,J
-  40
-
-#lvl_c-04
-Read,8Dv1Earliest,lvl_c-04,cycle_c-04
 ##
 
 #cycle_c-04

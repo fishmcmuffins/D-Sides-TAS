@@ -739,6 +739,13 @@ EndRepeat
   12,L
    8,J
    7
+##
+
+#cycle_c-04
+   2
+#endcycle_c-04
+
+## Checkpoint B (cont.)
    4,R,J
    4,J
    1,R,J
@@ -829,11 +836,6 @@ EndRepeat
    1,R
   15,R,X
   12,R,Z
-##
-#cycle_c-04
-   2
-#endcycle_c-04
-## Checkpoint B (cont.)
   15,R,X
   15,U,C
    3,R
@@ -869,9 +871,11 @@ EndStunPause
   44,F,15
   12,R,Z
 ##
+
 #cycle_space
    0
 #endcycle_space
+
 ## Checkpoint B (cont.)
   17,U,X
   72

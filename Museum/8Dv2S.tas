@@ -118,7 +118,6 @@ AnalogMode Precise
    1,L,J
    1,J
   12,K,G
-***
   12,J,G
    7,K,G
    1,R,K
@@ -154,7 +153,6 @@ AnalogMode Precise
    1,R,K
   12,R
    5,R
-***
   83,R,J
   42,R,U,Z
   38,R,X
@@ -220,7 +218,6 @@ AnalogMode Precise
    1,R,J
    1,R
   22,R,D,X
-***
   24,R,Z
    1,R,J
    4,R
@@ -244,7 +241,6 @@ AnalogMode Precise
    1,J
    1,R,J
   17,R
-***
   15,R,Z
   20,R,D,J,X
    3,R,J
@@ -266,10 +262,8 @@ AnalogMode,Square
   27,F,58.7
 AnalogMode,Precise
    3,F,69.243
-***
   10,F,90
  107,F,92.5
-***
  249,R
   34,R,D
   31,R,X
@@ -313,6 +307,7 @@ AnalogMode,Precise
   41,R
   38,L,D,X
  105,L,D,C
+***
 
 AnalogMode,Ignore
 
