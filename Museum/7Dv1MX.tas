@@ -154,7 +154,7 @@ Read,7Dv1,lvl_f-downright (2),lvl_f-downleft
    7,R
   61
 
-#lvl_f-01 (1)
+#lvl_f-01 (0)
 #older inputs, i dont think its possible to demo to the key in f-midleft without a deathwarp.....
    1,R,J
   14,R,D,X
@@ -204,7 +204,7 @@ Read,7Dv1,lvl_f-downright (2),lvl_f-downleft
   74,R,C
   61
 
-#lvl_f-01 (2)
+#lvl_f-01 (1)
 Read,7Dv1,lvl_f-01 (4),lvl_f-02
 
 #lvl_f-02
@@ -319,7 +319,6 @@ Read,7Dv1,lvl_g-02,lvl_i-01
    8,R,J
    5,L,J
   40
-
 #lvl_j-01
 Read,7Dv1,lvl_j-01
 

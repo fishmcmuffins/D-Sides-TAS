@@ -128,7 +128,6 @@ AnalogMode Precise
    8,R,D
    1
    7,R
-***S
   12,R,Z
    1,R,J
    6,R
@@ -307,7 +306,6 @@ AnalogMode,Precise
   41,R
   38,L,D,X
  105,L,D,C
-***
 
 AnalogMode,Ignore
 

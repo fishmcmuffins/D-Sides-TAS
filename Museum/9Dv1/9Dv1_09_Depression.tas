@@ -1,7 +1,7 @@
 console load monikadsidespack/1/6-FinalGoodbyeOld 66964 -10384
    1
 
-Read,../../Visuals/9D,Postload
+Read,../../Visuals/9DV,Postload
 
 #lvl_f-16
   39
@@ -762,6 +762,3 @@ EndStunPause
 
 #Time
 MidwayFileTime: 1:34.180(5540)
-
-#Restore to foreground
-#evallua if bgs then while level.Background.Backdrops.Count > bgs do level.Foreground.Backdrops:Add(level.Background.Backdrops[bgs]); level.Background.Backdrops:RemoveAt(bgs); end bgs = nil end

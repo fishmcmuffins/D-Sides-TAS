@@ -781,7 +781,7 @@ AnalogMode,Precise
    9,R,U,X
   40
 
-#lvl_r-07p (1)
+#lvl_r-07p (0)
    6,R,U,X
    4,D,C
   10,R,C
@@ -829,7 +829,7 @@ AnalogMode,Precise
    7,R
   40
 
-#lvl_r-08p (1)
+#lvl_r-08p (0)
    1,R,D,J
    4,R
   42,L,D
@@ -845,7 +845,7 @@ AnalogMode,Precise
   20,L,U,J,G
   40
 
-#lvl_r-07p (2)
+#lvl_r-07p (1)
    4,L,U,J,G
    2,U,J,G
    2
@@ -861,7 +861,7 @@ AnalogMode,Precise
    1,R,G
   40
 
-#lvl_r-08p (2)
+#lvl_r-08p (1)
    8,R,G
  193,R,U,K,G
   24,R,D,G
@@ -1393,18 +1393,13 @@ AnalogMode,Precise
   34
    8,R,J
   18,R,D,X
-
-#how about you get a bitch's
-#heart beating, before realizing
-#you can't get any
-
  238
 
 MidwayFileTime: 3:46.746(13338)
 
   40
 
-#lvl_t-00
+#lvl_t-01
   68
 
 AnalogMode,Ignore

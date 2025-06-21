@@ -39,7 +39,7 @@ console load monikadsidespack/1/7-ResortNew
 #lvl_a-01
 #slightly different a-00 end setup
 #gets the same speed into a-01
-Read,Old3D,lvl_a-01,lvl_b-02a (2)
+Read,3Dv2,lvl_a-01,lvl_b-02a (2)
 
 #lvl_b-02a
    3,L,J
@@ -67,7 +67,7 @@ Read,Old3D,lvl_a-01,lvl_b-02a (2)
    2,L
   40
 
-#lvl_b-00 (1)
+#lvl_b-00 (0)
 Read,3Dv2,lvl_b-00 (3),lvl_b-03c
 
 #lvl_b-03c
@@ -134,7 +134,7 @@ Read,3Dv2,lvl_b-00 (3),lvl_b-03c
    2,K,G
   40
 
-#lvl_a-06 (1)
+#lvl_a-06 (0)
    1,R
    4
    1,J,G
@@ -144,7 +144,7 @@ Read,3Dv2,lvl_b-00 (3),lvl_b-03c
    2,R,J
   40,J
 
-#lvl_b-00 (2)
+#lvl_b-00 (1)
    3,R,J
    1,L,J
    1,K,G
@@ -163,7 +163,7 @@ Read,3Dv2,lvl_b-00 (3),lvl_b-03c
    4,L
   40
 
-#lvl_a-06 (2)
+#lvl_a-06 (1)
    3,L
    4,L,J
    1,R,K,G
@@ -178,7 +178,7 @@ Read,3Dv2,lvl_b-00 (3),lvl_b-03c
   40
 
 #lvl_c-01
-Read,3Dv1,lvl_c-01,lvl_d-06
+Read,3Dv2,lvl_c-01,lvl_d-06
 
 #lvl_d-06
    6,R,U,X
@@ -348,6 +348,6 @@ Read,3Dv1,lvl_c-01,lvl_d-06
   40
 
 #lvl_d-08
-Read,3Dv1,lvl_d-08
+Read,3Dv2,lvl_d-08
 
 ChapterTime: 3:54.209(13777)
