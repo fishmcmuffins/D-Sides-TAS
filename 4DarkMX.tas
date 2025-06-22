@@ -3,15 +3,15 @@
 
 RecordCount: 5998
 
-Read,Visuals/4Dark,Preload,Postload
-
-AnalogueMode Precise
+Set CheatMode true
+Read,Visuals/4DarkV,Preload,Postload
 
 console hard monikadsidespack/0/4-Ridge
    1
 
 #Start
-Read,Visuals/4Dark,Postload
+AnalogMode Precise
+Read,Visuals/4DarkV,Postload
   84
 
 ## Start
@@ -52,6 +52,6 @@ Read,Visuals/4Dark,Postload
 #lvl_a-02
 Read,4Dark,lvl_a-02
 
-ChapterTime: 4:04.171(14363)
+ChapterTime: 4:02.930(14290)
 
 AnalogueMode Ignore

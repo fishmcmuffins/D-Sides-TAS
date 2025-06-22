@@ -5,13 +5,13 @@ RecordCount: 6354
 
 AnalogueMode Precise
 
-Read,Visuals/4Dark,Preload,Postload
+Read,Visuals/4DarkV,Preload,Postload
 
 console hard monikadsidespack/0/4-Ridge
    1
 
 #Start
-Read,Visuals/4Dark,Postload
+Read,Visuals/4DarkV,Postload
   84
 
 ## Start

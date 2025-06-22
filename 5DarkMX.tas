@@ -3,6 +3,8 @@
 
 RecordCount: 9199
 
+Set CheatMode true
+
 console hard monikadsidespack/0/5-Temple
    1
 
@@ -165,6 +167,6 @@ Read,5Dark,endkeycycle_1,keycycle_2
 #endkeycycle_2
 Read,5Dark,endkeycycle_2
 
-ChapterTime: 4:26.084(15652)
+ChapterTime: 4:17.108(15124)
 
 AnalogMode Ignore

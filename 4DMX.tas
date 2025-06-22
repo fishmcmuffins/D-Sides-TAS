@@ -3,6 +3,8 @@
 
 RecordCount: 3391
 
+Set CheatMode true
+
 console load monikadsidespack/0/4-Ridge
    1
 
@@ -27,6 +29,6 @@ console load monikadsidespack/0/4-Ridge
   19,R,U,X
 Read,4D,4DG
 
-ChapterTime: 3:43.720(13160)
+ChapterTime: 3:16.418(11554)
 
 AnalogueMode Ignore
