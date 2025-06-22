@@ -1,0 +1,74 @@
+Set CheatMode true
+
+console load monikadsidespack/2/3-ReflectionESide
+   1
+
+#Start
+AnalogMode, Precise
+  36
+#lvl_1
+   1,R,D,J
+   5,R
+   1,R,J
+   1,R
+  11,L
+   3,L,K,G
+   4,L
+  14,L,Z
+   1,R,K
+   7,R
+   5,R,D
+  23,R,J
+   4,X
+  27,L,U
+  34,F,0.8
+  38,F,150.28
+  10,F,90
+  30,F,31
+   8,F,65
+   1,R,J,G
+  30,R,D
+  15,R,X
+  21,R,D
+  27,R,U
+   6,F,50.5
+  24,F,99.6
+   4,F,90
+  10,F,75.4
+  14,F,102.1
+   3,F,90
+  33,F,66.3
+  11,F,111.9
+  11,F,69.0
+   4,F,90
+  10,F,104.4
+  11,F,74.5
+   5,F,90
+  10,F,102.9
+  11,F,74.3
+   4,F,90
+   9,F,125.2
+   4,F,180
+   1,L,J
+  27
+   3,R
+  10,R,K
+   7,R
+   3,R,K
+   1
+   1,R
+   2
+   1,R
+   3,R,J
+   1,R,K,G
+   7,R,J,G
+  10,R,Z
+   4,R,K
+   4,R,J,G
+   2,R
+  40
+
+#lvl_2
+Read,6Ev2,lvl_2
+
+ChapterTime: 0:37.196(2188)
