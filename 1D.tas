@@ -1,4 +1,4 @@
-RecordCount: 3947
+RecordCount: 3952
 
 console load monikadsidespack/0/1-City
    1
@@ -119,8 +119,6 @@ console load monikadsidespack/0/1-City
    5,R
    1,G
    4
-
-
    9,G
    4,Z
    1,R,J
@@ -139,26 +137,25 @@ console load monikadsidespack/0/1-City
    4,R
    6
    1,G
+   8,J
+   1,L
+   6,R
+   7,G
+   2,U,G
    1
-   1,K
-   1
-   2,K
-   4
-   1,K
-   3,R,K
-   7,R
-   1,G
-   1,R
    1,R,J,G
    1,R,K,G
    1,R,J,G
-   2,R,K,G
-  34,R
-   8,L,J
-   8,R,K
+   1,R,K,G
+  24,R,D
+   7,R
+  10,J
+   6,R,K
+   9,J
+   2,K
+   1
   10,L,J
-   3,R,K
-  11,L,J
+   1
    3,R,K
    7,R
    5,R,Z
@@ -596,101 +593,97 @@ console load monikadsidespack/0/1-City
   13,J
    1,K
    7,L
-  11,U,X
+   2,L,J
+  10,U,X
   40
 
 #lvl_b-07
-  14,J
-   1,K
-   1,N
-   3
-  10,L,D,X
-   5,R,J
-   1,R
-   2,R,J
-   1,R
-   1
-   2,R
-   5
-   1,G
-   1,R,J,G
-   4,R,K,G
-   8,R
-   1,R,J
-   4,R
-   1
-   5,R,J
+   2
+   1,J
+   1,R,K,G
+   7,R
+  10,R,X
+   3,R,J
    5,R
+   1
+   1,L
+   2,R,K,G
+   3,L,K
+   2,K
+   1,L,K
    1,R,J,G
    1,R,K,G
-   2,R
+   2,R,J,G
+   7,R
    1,R,J,G
-   5,R
-   8
-  13,R,D
+   8,R
+   1,R,K
+   7,R
+   1,R,J,G
    3,R
-   2,R,D
-  12,R,X
-   1,J,G
-   4,R
-   4
-   2,J
-   2,L
-   2,G
-   1,J,G
-   5
+   1,R,K,G
+   1,R
+   1
+   9,R
+   2
+  16,R,D
+  15,R,X
+   1,G
+   1
    1,L
    1
-   1,R
-   7,L,J
-   7,L
+   1,L
+   1,R,D
    1,G
-   1,R,J
-   7,R,K
-  11,R
-   3,R,K
-   7,R
-  32,G
+   7
+   2,G
+   1,R,K,G
+   3,R,J,G
+   2,R,K,G
+   2,R
+   1,R,J,G
+   9,R
+   1
+   5,R,K
+  14,R
+  21,G
+  12,U,G
    5,R,D,X
    1,R,J,G
    1,R,K,G
    1,R,J,G
    1,R,K,G
-   1,R,J,G
-  14,R
-   1,R,J
-   7,R,D,X
+  15,R
+   5,R,J
   40
 
 #lvl_b-08
-   7,R,J
-   1
-  14,R
-   2,R,J
-   3,R
-  16,R,D,X
-   9,R
-  11,R,Z
-   9,R,J,G
-   3,R
-   1,L,K,G
-  10,K
-   5,R
+   3,R,J
+  15,R,D,X
+   4,R
    2,R,K
-   1,J,G
-   3,R
-   7
-   1,L,D
-  11,D
-   5,L,U,X
-  12
-  37,L
-  42,R,D
-  11,D
-Repeat,8
-   2,R,D
-   2,L,D
-EndRepeat
+   5,R
+   1,R,K
+   1,R
+   2,R,J,G
+   4,R,K,G
+   3,R,J,G
+   1,J
+   6,R
+  15,R,D,X
+   2,R
+   5,R,D
+   2,R,K
+   9,R
+   1,R,K
+   7,R
+  11,R,U,Z
+   1,L,J,G
+  15,R,J
+   4,J
+  11
+  15,L,D,X
+ 130,L
 ##
 
-ChapterTime: 1:00.418(3554)
+ChapterTime: 1:00.333(3549)
