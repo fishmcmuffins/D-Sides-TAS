@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 11324
+RecordCount: 11950
 
 console hard monikadsidespack/0/5-Temple
    1
@@ -1757,45 +1757,56 @@ endrepeat
    2,R
    1,J
    1,L,K,G
-  10,R,K
+   2,K
+   8,R,K
    1,R
-   7,R,J
-   3,J
-   3
-   5,R
+  10,R,J
+   8,R
    1
-   7,R,D,J
-  16,R
-   4,R,J
+   5,R,D,K
+   5,R
+   1,R,K
+   9,R
+   5,R,D,J
   40
 
 #lvl_d-09
    6,R,J
-  23,R
-  13,R,U,X
-   1,R,J,G
-  21,R,D
-   1,R
-   4,R,D
-   2
-   1,D
-   4,R,D,J
-  20,R,D
-   7,R
-  15,R,Z
-  32,R,X
-  14,U,Z
-  38,R,J
+   6,R
+   3,R,J
+  13,R
+  11,R,U,X
    1,R,K,G
+   5,R
+   1
    1,R
-   1,L
-   3,R
-   2,L
-   5,R,D,X
+   9
+   4,R
+   6,R,D
+   1,R
+   3,R,D
+   4,R,D,J
+   5,R
+   2,R,J
+   1,R
+   4,R,J
+   5,R
+   1
+  13,R,U,Z
+   1,R,K,G
+   3
+   9,R
+   5,R,D
    9,R,J
-  15,R
-   1,R,D
-   3,R
+   6,R
+   2,R,J
+   1,R
+   4,R,J
+  10,R
+  24,R,U,X
+   5,R,D,C
+   9,R,J
+  19,R
    1,R,D
    1,R
    6,R,D
@@ -1825,13 +1836,14 @@ endrepeat
   17,U,X
   30,R,C
   15,D,X
-  16,R,D
+   1,D
+  15,R,D
    3,R
    1,R,D
    1,R
    1,R,D
-   4,R
-   5,L,D,X
+   4
+   4,Z
    1,R,J
    6,R
    3,R,J
@@ -1977,18 +1989,13 @@ endrepeat
   14,R,D,J
   10,U,X
   17,R,J
-  28,R,U,X
-  15,R,Z
-   2,R,D
-  16,D
-  15,D,X
-  54,L,D
-  12,D
-   3,L,Z
-   1,L,J,G
-  57,L
+  26,R,U,X
+  14
+   3,R,D
+  26,R,Z
+ 125,L,D
 ##
 
-ChapterTime: 4:13.708(14924)
+ChapterTime: 4:13.079(14887)
 
 AnalogMode Ignore
