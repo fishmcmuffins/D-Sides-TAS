@@ -897,7 +897,9 @@ endrepeat
    4,R
    1,R,J,G
    1,R,K,G
-  11,R
+   6,R
+#8DG3
+   5,R
    7,R,J
   25,R
   15,R
@@ -1768,9 +1770,9 @@ endrepeat
    7,R
 ##
 
-#cycle_space
+#cycle_space_1
    0
-#endcycle_space
+#endcycle_space_1
 
 ## Endurance (cont.)
   14,R,U,Z
@@ -1931,11 +1933,13 @@ endrepeat
    9,R
    6,R,K
    4,R
+##
 
 #branch_stun_space_1
 # when playing IL, comment/uncomment next line to choose branch
 #play,stun_space_1b
 
+## Endurance (cont.)
 #stun_space_1a
    4,R,D,X
 StunPause
@@ -1962,6 +1966,13 @@ EndStunPause
   21,D,X
   15,U,C
   19,R,Z
+##
+
+#cycle_space_2
+   0
+#endcycle_space_2
+
+## Endurance (cont.)
  181,R,U,C
    5
    3,J,G
