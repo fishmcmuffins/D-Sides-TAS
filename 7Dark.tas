@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 7969
+RecordCount: 8274
 
 console hard monikadsidespack/0/7-Summit
    1
@@ -14,7 +14,7 @@ console hard monikadsidespack/0/7-Summit
   22
 
 #cycle_e-01dark
-   1
+   0
 #endcycle_e-01dark
 
 #lvl_a-00-intro
@@ -725,32 +725,31 @@ endrepeat
    7,R,J,G
   15,U,X
   10,R,J
-   3,L,J
-   5,J
+   8,J
   40
 
 #lvl_d-01dark
    1,R,K,G
+   1,L,K
+   2,L
    1
-   1,R,J,G
-   5,L
-   3
-# bunny cycle
-   8
+   1,L
+   2,R
+   1,R,K
+   2,R
    4,Z
    1,R,K
-   6,R
+   5,R
    1,R,N
    2,R
    1,S
    1,D,O
   34
-   1,R
-  10,R,Z
-   3,R,J
-   2,R
-  15,U,X
-  13,R,C
+   8,R
+   4,R,J
+   4,J
+  15,R,U,X
+  10,R,C
    8,R,K
    1,K
    1,R,K
@@ -759,8 +758,7 @@ endrepeat
   14,R,Z
   12,R
    1
-  10,D
-   1
+  11,D
    3,L
    1
   25,R,U,X
@@ -777,7 +775,8 @@ endrepeat
   16,R,U,X
   15,R,Z
    5
-  19,R,D
+  18,R,D
+   1,R
   15,R,U,Z
    1,K
    8,R,K
@@ -785,46 +784,64 @@ endrepeat
    1,R,K
   11,R
    1,J
-   8,R
-   3,R,J
-  11,R
-   1,R,K,G
-  10,R,J,G
+   8,R,J
    5,R
-   2,R,J
-  15,R
+   1,R,J
+  14,R
+   6,R,D
+   2,D
    1,K
-   5,R,K
-   9,R
+   5,R
    2,R,K
-   7,R
-   1,J
-   2,R,J
-  18,R,U,Z
-   6
-   2,L,K,G
-   1,J
-   2,K,G
-  10,R,K
-  22,R,D
-   6,D
-   1
    2,R
+   1,R,K
+   1,R,J,G
+   3,R,K,G
+   5,R
+   1,R,K
+   5,R
+   3
+   3,R
+   1,R,J,G
+   3,R,K,G
+   5,R
+   4,R,K
+  18,R,U,Z
+   1,K
+  11,R,K
+   5,R
+   1,R,K
+  18,R,D
+   2,D
+   4
+   2,D
    1,J
-   9,R,J
-  34,R
-   4,R,D
-  23,R,Z
-  13,U,V
-  47,R,K
-   2
-   1,J,G
+  11,R,J
    7,R
+   1,R,J
+   1,R
+   1,R,J
+  34,R
+   1,R,D
+   1,R
+   2,R,D
+   1,R
+  22,R,U,Z
+   1,L,U,Z
+   1,K
+   2,J,G
+   7,R,J
+   6,R
+   2,R,J
+   9,R
+  24,R,U,X
    4,Z
    2,R,J
+   1,R
    1
-   2,J
-   6
+   1,R,J
+   1,J
+   5
    4,Z
    1,R,J
   11,R
@@ -836,13 +853,14 @@ endrepeat
   17,R,V
   19,R,X
   28,R,C
-  28,R,X
+  27,R,X
+   1
   27,L,U
 AnalogMode Precise
-  56,F,282.8
-  20,F,345.88
+  56,F,282.94
+  20,F,346.35
   10,F,45
-  33,F,95.7
+  33,F,96.03
   15,R,X
   18,R,D,C
    8,R,X
@@ -850,6 +868,9 @@ AnalogMode Precise
    2,J
   14,R,J
   15,R,D,X
+# +13f bunny cycle
+  15,D,C
+   1
    6,R,Z
    1,R,K
    7,R
@@ -908,26 +929,18 @@ AnalogMode Precise
   43,R,D
    1,R
   16,R,Z
-   8,R,V
+  10,R,V
    1,R,J
-   3,R
-   1,R,J
-   3,R
+   4,R
+  12,R,D,X
    2,R,K
-   1,R
-  12,R,X
-   1,R,J
-   4,J
-   9,R,J
-  15,R,U,X
-  15,L,D,C
-   8,R,D
-   8,R,K
-   6,K
-  18,U,X
-  17,R,U,C
-   4,J
-   8,L,J
+   3,R,J,G
+  17,R,K,G
+  39,U,X
+  15,U,Z
+   9,L
+   8
+  12,J
    9,K
   40
 
@@ -1876,7 +1889,6 @@ EndStunPause
    7,R,K
    6,R,J,G
    6,J
-
    1,R,K,G
   11,K
    5
@@ -1934,4 +1946,4 @@ EndStunPause
 
 AnalogMode Ignore
 
-ChapterTime: 4:23.279(15487)
+ChapterTime: 4:22.990(15470)
