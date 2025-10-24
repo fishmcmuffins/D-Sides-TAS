@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 1916
+RecordCount: 1931
 
 console load monikadsidespack/0/10-Farewell 212416 -50688.1666963995
    1
@@ -69,18 +69,19 @@ Read,9D_22,endkeycycle_v-00-upper,lvl_v-00-upperer-b
    5,R,D
    9,D
    9,R,D
-   1,D
-   4,R,D
+   1
    3,R
-  13,R,U,Z
+   1,R,D
+   8,R,D,K
+   5,R
+   1,J
    1,K
-   7
-  15,U,X
-   2,L,J
-   1,L
-   2,R
-   8,L
-  10,L,X
+  14,U,X
+   8,J
+   1,L,K,G
+   1,R
+   6,L
+  11,L,X
    1,L,J
    3,L
   13,J
@@ -153,4 +154,4 @@ Read,9D_22,endkeycycle_v-00-upper,lvl_v-00-upperer-b
    2
 
 #Time
-MidwayFileTime: 0:40.103(2359)
+MidwayFileTime: 0:40.052(2356)
