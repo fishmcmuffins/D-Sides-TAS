@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 7411
+RecordCount: 8435
 
 console load monikadsidespack/0/5-Temple
    1
@@ -21,26 +21,25 @@ console load monikadsidespack/0/5-Temple
    9,R,U,X
    1,R,J,G
   19,R
+##
+#cycle_a-05
+   0
+#endcycle_a-05
+## Start (cont.)
  204,R,X
   14,U,Z
    6,R,J
+  11,R
+   6,R,K
    1,R
-   2
-   1,R
-   7
-   4,R,X
-   1,R,J
-   2,J
-   3,R,J
-   7,R
-   4,R,Z
+   9,R,Z
    1,R,J
    5,R
   40
 
 #lvl_a-01
    1,R
-  12,R,J
+  12,R,K
   15,R,D,X
    1,R,J
    2,R
@@ -65,42 +64,38 @@ console load monikadsidespack/0/5-Temple
    1
    2,D
   11,R,D
-  11,R,Z
-   1,R,J
-   3,R
-   5,R,D,X
+  11,R,X
+   5,R,J
+   6,R,U,Z
   40
 
 #lvl_a-03
+   9,R,U,Z
+  14,R,U,X
+   2,K,G
+   2
+   1,J,G
+   5
+   2,R
+   8,L,Z
    1,R,J
-   7,R
-  23,R,J
-  11,R,U,X
+   6,R
+   7,R,K
+   2
+   1,R
+  15,R,D,X
+   1,R,J
+  24,R,D,X
+   7,R,U,Z
+   1,L,K,G
+   7,R,K
+   6,R
    1,R,J,G
-  35,R
-   9,U,X
-   8,R,J
-   8,R
-   1,R,J
-   4,R
-   1,R,J
-   1,R
+  18,R,D
+  11,D
    1
    1,R
-   1
-   1,R
-   1
-   1,R,J,G
-   5,R
-   1,R,J
-   9,R
-   1,R,J
-   5,R
-   3,R,J
-  21,R,D
-   3,R
    1,R,D
-   1,R
    8,L,Z
    1,R,J
    6,R
@@ -108,166 +103,147 @@ console load monikadsidespack/0/5-Temple
    9,R,D,X
    3,R,J,G
   15,R
-  12,R,J
-  14,R,U,X
-   1,J,G
-   7,R
-   4,R,Z
-   2,R,J
-   8,R
-   1,R,J
-   5,R,D,X
+  10,R,J
+   2,R
+  14,R,U,Z
+   7,R,K,G
+   5,R
+   4,R,K
   40
 
 #lvl_a-04
-   1,R,J
-   1,L,J
-   9,L
-  17,L,D
-   1,R,D
-   1,L,D
-   5,R
-   1,R,D
-   1
-   1,R
-   2
-  15,R,U,Z
-  14
-  16,L,G
-   1
-  43,J
+   3,R,K
+   5,K
+  18,D
+  10,R,D
+  19,R,U,Z
+  27,L
+ 102,G
+   1,D,G
    1,G
-  11,K,G
-   1,R,K
-  26,L
-   2,J,G
-   3,J
-   1,R,J
-  28,L,G
+   1,D,G
+   1,G
+   9,J,G
+   1,R
+   1,L
+   1,K
+   1,J,G
+   7,R,K,G
+   4,R
    1
-   1,J
-   1,K,G
-  19,R,J,G
-   7,R,D,X
-   3,L,J,G
+   1,K
+  14,R,Z
+   1,R,J
+   1,L,K,G
    5,R
-   4,R,J
-   3
-   4,R,J
-   6,R,D,X
+   3,R,K
+   1,J,G
+   2
+   7,R,D,X
   40
 
 #lvl_a-05
-  11,R,D,X
+   8,R,D,X
+   1,R,D
    1,R,J
-   5,R
-   1,R,J
-  21,R,D
-   1,R,J
-   5,J
-   3,R,J
-  14,R,U,X
-   1,R,J,G
-   1,L,J,G
-   1,J
-   1,R,K,G
    7,R
    6,R,J
-  15,U,X
-   1,R,J,G
-   7,R
-   8,R,Z
-   1,R,J
-   2,R
+   7,J
+  15,R,U,X
+   3
+  15,R,C
+  12,R,U,X
+   1,K
+   6,L,J,G
+   5,L
+   3,L,J
+   1,L
+   7,L,Z
+   1,R,K
+   6,R
+   2,R,J
+   6,R,U,Z
   40
 
 #lvl_a-06 (0)
-   5,R
-   3,R,D,J
-   8,R
-  14,R,U,X
-  36,R,J,G
-   3,J
-   2,K,G
-   1,R,K
-   1,K
-   1,R,K
-   6,K
-   1,L,K
-  10,R,J,G
+   3,R,U,Z
+   1,L,K,G
+  24,R,K
+   4,R
+  12,R,J,G
+  10,R,X,G
+   8,U,G
+   1,G
+   6,R,K,G
+  11,R,D
+  20,D
+   4,R,D
+   1,R
+   1,R,D
    2,R
-   1,R,K,G
-   4,R,J,G
-  33,R
-   8,R,D
-   4,D
-  15,R,Z
-   3,R
-   3,L
-  12,L,J,G
+  16,R,Z
+   1,J
+   5,R,J
    1,K
-   4,R,K
+   5,L,K
+   1,J
+   3,R,J
    7,R
-   6,R,Z
-   1,R,J
+   5,R,Z
+   1,R,K
+   1,R
+   1,R,K
    7,R
-   1,R,J
   15,R,D,X
-   3,R,D
-   5,L,D
+   9,D,C
   43,U,X
   40
 ##
 
 ## Halls of Reflection
 #lvl_b-00 (0)
-   1,L,J
-  10,L
-   4,L,Z
-   1,L,J
-   3,L
-   1,L,J
-   3,L
+   3
+   1,J
+   3,L,K,G
+   4,L
+  14,L,Z
    2,L,J
-   4,L,K,G
-   7,L
-  12,L,J
+   2,L,K,G
+  17,L,J,G
   40
+
 #lvl_b-01
-   2,L
+   3,L,J
   15,U,Z
    2,L
    1
    1,L
-   1
   31,R,J
    1,G
    1,J,G
    5,D
    1,L,D
-  20,R,D
+  19,R,D
    1,D
    1,R,D
    1,D
-  17,R,D
+  18,R,D
    1,R
   43
+
 #lvl_b-00 (1)
    2,R
    1,R,D
   13,R,Z
    1,R,J
-   6,R
-   1,J
-   8,R,J
+   6
+  12,R,K
   15,R,U,X
-  25,R,D
-  12,R
-   4
+  30,R,D
+   5,D
+   1
    1,L,J
-   5
-   2,J
-   8
+  14
    4,R,Z
    2,R,J
    1,R,K,G
@@ -311,53 +287,54 @@ console load monikadsidespack/0/5-Temple
    1,L,J
    1,R,K,G
    7,K
-  42
-  14,R,Z
-   1,L,J
-   7,L,D,X
-   1,L,J
-   4,L
+  37
    2,L,J
-   3,L
-  11,L,U,X
+   4,J
+   1,L,J
+   6,J
+   1,G
+   1,R,K
+   1,L,J
+   1,L,K,G
+   2,L,J,G
+   7,L,U,X
    1,L,J,G
-   9,L
-   2
+   6,L
+   1,L,J
+   2,L
+   2,D
+   1,D,K
+   2,L
+   6
+   2,L
   40
 
 #lvl_b-03
-   6,R,J
-  15,L,Z
+  15,L,X
   12,R,J
-   5,L,J
+   3,J
+   2,L,J
   35,L,K,G
-   3
-   1,L,G
+   2,L,J,G
+   7,L
+  13,G
+  22,L,D
+   1,D
    1
-  17,L,G
-   2,L,U,G
-   1,L,G
-   1,L,U,G
-   2,L,G
-   1,L,D,G
-  13,L,D
-   3,D
-   2,R,D
-   2,L,D
    1,R,D
-   7,G
-   8,L,D
-   6,D
-   9,R,D,X
-   1,J
-  11,K,G
-   1,L,K
+   7,L
+   3,L,D
+   4,L,X
+   5,L,X,G
    1,J,G
+   4,L,J
+   7,J
    1,R,J
+   5,K,G
+  14,L,K
   15,U,X
-  18,L,J
-   1,K
-   2,L
+   3,L
+   2,J
    1,S
    1,D,J
   69,O
@@ -406,11 +383,10 @@ console load monikadsidespack/0/5-Temple
    7,R,J
   14,U,X
   16,L,U,C
-  15,L,Z
-  23,U,X
-  13,R,C
-  27,L,X
-  13,L,D,C
+  15,L,X
+  25,U,C
+  15,L,X
+  16,L,D
   57,D,X
   40
 
@@ -435,17 +411,23 @@ console load monikadsidespack/0/5-Temple
    2,L,J
    8,L,D
   20,R,D
-  20,D
-  15,L,D,X
-   1,L,D,J
-   1,L,K
+   2,D
+   1
+   1,D
+   3
+   3,G
+   1
+  13,G
+   4,Z
+   1,L,J
+   6,L,D
+   1,L,D,K
    1,L,J
    1,L,K
    1,L,J
-   2,L
-   1,L,J
-   5,L
-  12,D,X
+   4,L,K
+   4,L
+  11,D,X
   39,U,C
   40
 ##
@@ -460,6 +442,7 @@ console load monikadsidespack/0/5-Temple
   14,U,X
    8,L,J
   40
+
 #lvl_b-05
    2,L
    1,J,G
@@ -502,6 +485,7 @@ console load monikadsidespack/0/5-Temple
    1,R,J
    1
   40
+
 #lvl_b-06
   27,D
   13,R,D
@@ -625,6 +609,7 @@ console load monikadsidespack/0/5-Temple
    1,R,J
   12,R,U,Z
   40
+
 #lvl_b-08
    3,R,U,Z
   10,L,J,G
@@ -669,40 +654,30 @@ console load monikadsidespack/0/5-Temple
   19,X
   20,D,C
   19,D,X
-   9,R,D
-  18,L,C
-   1,C
-  19,D,X
-   1,R,D,C
-  18,C
-   2,L,D,X
-  17,X
-   1,R,U,C
-  27,C
-   7,U
-  15,L,D,X
-  22,X
-  19,L,C
-   5,L,D
-  10,U,X
-  18,X
-  26,U,C
+   8,D
+  17,L,C
    2,C
-  10,R,U,X
-  19,X
-  24,R,U,C
-  27,R,U,X
-   9,X
-  30,U,C
-##
+  19,D,X
+   3,D
+   8,L,D
+   2,R,D,C
+  17,C
+   3,U
+  28,L,X
+  28,R,C
+  37,L,U,X
 #drift
 # more left = drift earlier, more right = later
-   2,U
-   3,L,U
+   2,L
 ## Deep Delve
-  26,L,X
-  20,X
-  20,L,C
+  28,U,C
+  28,U,X
+  20,U,C
+  26,R,U,X
+  37,R,U,C
+  31,L,U,X
+  46,L,U,C
+  21,L,X
   45,O
 
 #lvl_c-00
@@ -1088,7 +1063,7 @@ EndRepeat
   14,U,X
 ##
 #Spinner Cycle [d-02]
-   2
+   0
 #-----
 ## Solution
   37,U,C
@@ -1464,11 +1439,11 @@ EndStunPause
 #lvl_d-07
    5,R,G
    9,R,J,G
-  11,R,G
+  10,R,G
 StunPause
    1,R,G
 EndStunPause
-  18,R,D,G
+  19,R,D,G
    1,R,J,G
   14,R,G
   40
@@ -1488,10 +1463,10 @@ EndStunPause
    6,R,G
    2,R
   11,R,U,X
-  13,R,G
+  12,R,G
 #can't get a faster spinner cycle to save a pause ... atleast not yet
 StunPause
-  13,R,G
+  14,R,G
    1,R,J,G
    7,R,G
 EndStunPause
@@ -1510,19 +1485,19 @@ EndStunPause
 #---
 
 #+1f
-#    4
-#   10,R,D,X
-#    1,L,J
-#    4,L
-#    5,R,Z
+   4
+  10,R,D,X
+   1,L,J
+   4,L
+   5,R,Z
 #---
 
 #+2f
-   4,R
-  10,R,D,X
-   1,L,J
-   5,L
-   5,R,Z
+#    4,R
+#   10,R,D,X
+#    1,L,J
+#    5,L
+#    5,R,Z
 # ---
 
 #-----
@@ -1669,6 +1644,6 @@ EndStunPause
   76,R,G
 ##
 
-ChapterTime: 4:10.682(14746)
+ChapterTime: 4:08.319(14607)
 
 AnalogueMode Ignore
