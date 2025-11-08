@@ -1,12 +1,13 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 8435
+RecordCount: 9785
 
 console load monikadsidespack/0/5-Temple
    1
 
 #Start
+
 ## Start
   69
 
@@ -22,6 +23,7 @@ console load monikadsidespack/0/5-Temple
    1,R,J,G
   19,R
 ##
+
 #cycle_a-05
    0
 #endcycle_a-05
@@ -638,6 +640,7 @@ console load monikadsidespack/0/5-Temple
   18
 
 #lvl_void
+AnalogueMode, Precise
  525
   19,U,X
    4,L,U
@@ -666,9 +669,13 @@ console load monikadsidespack/0/5-Temple
   28,L,X
   28,R,C
   37,L,U,X
+##
+
 #drift
 # more left = drift earlier, more right = later
-   2,L
+   1,F,350
+   1
+
 ## Deep Delve
   28,U,C
   28,U,X
@@ -730,61 +737,65 @@ console load monikadsidespack/0/5-Temple
    1,R,G
   41,R,J,G
   13,R,D
-  25,L,D
-   4,D
+  24,D
    7,L,D
-   2,L
+   7,L
    1,L,D
    1,L
-   4,L,Z
-   4,R,J
-   6,R
-   4,R,J
-  16,R,D,X
+   4,Z
    1,R,J
+   6,R
+   1,R,K
    3,R
-   3,R,J
-   2,R
+  15,R,D,X
+   1,R,J
+   8,R
   40
 
 #lvl_c-01
+   1,R
+   9,R,D,K
    3,R
-   2,R,D,J
-   7,R,J
-   2,R
   15,R,D,X
-   1,J
-  19,R,J
-  11,R
-
-Repeat, 35
-   1
-   1,G
-EndRepeat
-   6,L,D
-  12,D
-   3,L,D
-   8,L
-  53,R
-  14,U,Z
-  17,R,J
-   1,J
-   1,K,G
-   1,R,K
-   1,K
-   1,L,K
-  14,R,J,G
-   1,R,K,G
-   2,R,J,G
-   5,R
-   5,R,J
+   2,R,D
+  13,R
+  16,R
+   1,R,J
    9,R
+   1,R,D
+  22,R
+  34,R,U,X
+  12,K,G
+   6,J,G
+   1,R,J
+   1,J
+   1,R,J
+   1,L,J
+   1,R,J
+  13,R,K,G
+   6,J,G
+   1,R,J
+   1,J
+   1,R,J
+   1,L,J
+   1,R,J
+  13,R,K,G
+   2,R,J,G
+   8,R
+   1,R,J
+   6,R
+   1,K
+  11,R,K
+   8,R
+   3,R,K
+  14,R,D
    6,R,Z
    1,R,J
    7,R
    1,R,J
    5,R,D,X
   40
+
 #lvl_c-02
    1,R,J
    7,R
@@ -792,35 +803,33 @@ EndRepeat
    1,R
   15,R,D,X
    1,R,J
-  17,R,D,X
-   2,R,J
-  15,R
-   4,R,J
-  12,R,K,G
-   6,R
-   1
+  15,R,D,X
    2,R
-   1,R,J
-  31,R,D
-   2
-   1,D
-   4,R
-  11,U,X
-  39,R,J
-   2,J
-   2,R,K,G
-   5,L,K
-   5,R,K
+   1,R,K
+   1,K
+   9,R
+   1,R,K
    5,R
+   4,R,J
+   1,R,K,G
+   2,K
+   9,R,K
    1,R,J,G
+  31,R,D
+   8,R,U,Z
+   1,L,K,G
+  19,R,K
+   8,J,G
+   1,L,J
+  12,R,K,G
    7,R
    6,R,Z
    1,R,J
    7,R
    1,R,J
   40,J
-#lvl_c-03
 
+#lvl_c-03
   11,R,J
   14,R,D,X
    2,D
@@ -835,6 +844,7 @@ EndRepeat
    1,R,J
    7,R,D,X
   40
+
 #lvl_c-04
    3,R,D,X
    1,R,J
@@ -879,29 +889,22 @@ EndRepeat
   15,U,Z
   41,R,X
   12,R,J
-  13,U,X
-   1,L,J
+  14,U,X
   40
+
 #lvl_c-06
-   2,J,G
-   3
+   2
+   2,L
+  10,R,K
+   1,K
+   1,R,K
    2,R
-   2,R,J
-   1,R
-   5,R,D,J
-   1,L,J
-   1,K,G
-   6,R,K
    1,R,J,G
-   6,R,K,G
+   5,R,K,G
    5,R
-   1,R,J
-   4,R
-   1,R,J
-   3,R
-  15,R,Z
-   4,R,D
-  15,D
+   5,R,K
+  25,R,Z
+  10,D
   22,U,X
   15,R,C
    7,R
@@ -946,6 +949,7 @@ EndRepeat
    3,K,G
    1,J
   40
+
 #lvl_c-07
    1
    1,L
@@ -1003,18 +1007,17 @@ EndRepeat
    6,L
    1,R
    7,L
-  10,J,G
-   2,L,J
-  12,L,K,G
-   4,J,G
-   1,R,J
-  16,U,X
-   4,J
-  14,R,J
+  12,J,G
+   8,L,K,G
+  14,L,U,X
+   1,K
+   1,J
+  12,R,J
+   7,J
   12,K,G
-   2,J,G
+  11,J,G
    1,L,J
-  12,R,K,G
+   5,K
   42,L,X
   14,U,C
   26,R,J
@@ -1022,38 +1025,45 @@ EndRepeat
    4,J,G
    1,K
    3,J
-  42,L,X
-   9,U,C
-  10,R,J
-  32
-  37,U,X
-   1,L,J
-  32,R
-   1,J
+  15,L,U,X
+  15,L,U,Z
+   1,R,J,G
+   7,J
+   1,R,J
+   2,R
    1,R,K,G
-   5,L,K
-   2,L
-  16,L,J,G
+  31,R,J,G
+  30,U,X
+   1,K
+   2,R,K
+  17,R
+   1
+   7,G
+   2,U,G
+   2
+   1,J
+   8,K,G
+  15,L,J,G
+   2
   18,U,X
-   4,L
-  20,L,U,C
+   5,L
+  18,L,U,C
   46,R,X
   14,U,Z
   18,R,J
-  23,U,C
-  14,L,U,X
-   1,L,J,G
-   9,L
-   1,G
+
+  16,U,C
+  15,U,X
    1
-   1,G
+  14,L
    1
-  60,L,G
-  15,U,G
-   1,G
-   1,U,G
-   1,G
-   1,U,G
+   1,L
+   1,J,G
+   4,L,J
+   1,R,J
+  25,L,J
+  28,G
+  16,U,G
    1,L
    1,L,J,G
    1,L,K,G
@@ -1062,9 +1072,11 @@ EndRepeat
    1,L,J
   14,U,X
 ##
+
 #Spinner Cycle [d-02]
    0
 #-----
+
 ## Solution
   37,U,C
   40
@@ -1080,308 +1092,241 @@ EndRepeat
    3
   15,R,U,X
    8,R
-  17,R,D,G
-  15,D,G
-   1,D
-   7,R,Z
-   1,L,J
-   7,L
-   7,L,D,X
+  20,R,D,G
+   1,D,G
+   1
+   5,L
+   6
+  14,L,D,X
    1,R,J
-   7,R
+   6,R
+   3,R,K
+  15,R,D,X
    1,R,J
-   5,R,D,X
-  17,R,G
-   1,R,J,G
-  23,R,D,G
-   1,R,J,G
-   7,R,G
+   7,R,D,X
+  13,G
+   1,R,K,G
+  12,R,G
   40
 
 #lvl_d-01
+   2,R,G
+   2,R,J,G
    7,R,G
-   2,R,J,G
-   8,R,G
-  24,R,J,G
+   5,R,K,G
+   1,K,G
+   6,R,K,G
+   1,R
+   8,R,U,X
+  22,R,G
+  17,R
+  14,L,X
    1,R,J
   15,R,D,X
-   2,R,D,J
-  14,R,U,X
-  15,R,G
-   1,G
-   5,R,G
-   1,R
-  14,R,D
-   1,L,J
-   1,L
-  14,R
-  15,D
-   1,R,D
-  15,R,X
-  21,R,G
-   8,R,J,G
-   5,R,G
-   2,R,J,G
+   6,D
+   1
+   1,D
+   1
+   6,L,Z
    1,R,J
-  15,R,X
-  12,R
-   4
-   5,L
-   4,R,Z
-   5,R,J
-  16,R,J,G
-  12,R,G
-   1,R,J,G
-   1,J
-   3,R,K,G
-   2,K
-  19,K,G
+  13,G
+   6,R,K,G
+   5,R,G
    2,R,K,G
+   8,R,G
+   1,G
+   1
+  14,R,D,X
+   1,R,J
    1,R
-  15,R,D,X
-   6,R,J
-  15,R,X
-   1,L
+   3,R,K,G
+  29,R,J,G
+   8,R,G
+   1,R
+  14,R,U,X
+  22,R,G
+   3,R,D
+   5,L,D,X
+   1,R,J
+  17,R,G
+  10,R,K,G
+  40
+
+#lvl_d-02
+  10,R,K,G
+   2,R
+  12,U,Z
+   5,R,J
+   1,J
+  15,R,J,G
+   7,R,G
+   1,G
+   3,R,G
+   3,R,K,G
+   1,R,D,K
    5,R
-  23,R,G
-   1,R,D
   14,L,D,X
    1,R,J
-  10,R,D,X
-  13,R,G
-   6,R,J,G
-  40
-#lvl_d-02
-   6,R,J,G
-   1,J,G
-   1,R,J,G
-   1,R,J
-   7,U,Z
-  11,R,J
-  21,R,J,G
-   1,D,J
-   1,K,G
-   1
-   1,J,G
-   7,R
-   6,L,D,X
-   1,R,J
-  21,R,G
+   8,R,D,X
+  13,G
+   3,R,K,G
 StunPause
-   5,R,J,G
-  18,R,G
-   3,R,D,G
-   5,D
+   5,R,G
+   1,R,K,G
+  12,R,D,G
+   6,D,G
+   1,D
 EndStunPause
-   9,D
+   9
   15,D,X
-   1,R,D
-   1,D
-   1,R,D
-   1,D
-   1,R,D
-   3,D
-   6
-##
-#Spinner Cycle [d-04] 1
-   2
-#-----
-## Solution (cont.)
-   1,L
-   1
-   3,R
-   5,R,Z
+   8,R,D
+   3,R,J
+   5,R
+  14,L,D,X
    1,R,J
-  13,R,G
-   1,R,J,G
-   9,R,G
+   6,R,D,X
+  13,G
+   8,R,K,G
   40
 
 #lvl_d-03
-   6,R,G
-  11,R,J,G
-   7,R,G
+  16,R,K,G
+   2,R,G
   13,R,J,G
-   1,R,J
-  15,R,D,X
-   7,R
-   9,L,Z
-   1,R,J
-  12,R
-   4,R,J
+   1
+  12,U,Z
+   2,K
+   6
    2,R
-  25,R,G
-   8,L,J,G
-   4,R,J
-  14,R,U,X
-  47,R,D,G
-   5,R,G
+   1
+   2,K
+   1
+   3,K
    1,R
+   1
+   1,L
+   4,R
    2,R,J
-  10,L,Z
-   6,R,J
-   5,R,D,X
-   1,R,J,G
-  17,R
-   1,R,J
-   5,R,D,X
-  13,R,G
-   3,R,J,G
+  12,R,D,X
+  27,R,J,G
+  16,R,D,G
+   2,R,K,G
+   1,R,G
   40
 
 #lvl_d-04
-   6,R,G
-   1,R,J,G
-   1,R,G
-   1,R,J,G
-   6,R,G
-   1,R,D,J
-   2
-   1,J
-   3,R
-   5,R,J
-   6,R,K,G
+   5,R,G
+   2,R,K,G
+   2,R,G
+   2,R,D
+  10,R,J
+   1,K
   10,R,Z
-   1,L,J
-   4,L
+   3,L,J
 StunPause
-   2,L
    2,L,J
 SkipInput 3 1
   15,L,D,X
-   1,L,J
+   3,L,K
 SkipInput 3 1
-   5,L,D,X
-  15,L,G
-  24,D,G
+  15,L,D,X
+   8,D
+   3
 EndStunPause
-   4,D,G
-   4,R,D,G
-   1,G
-  28,R,J,G
-   1,D
-   1,L
-   1,L,J
-   4,L,Z
-   1,R,J
-   1
-  13,R,G
-   1,G
-   4,R,G
-   1,G
-   1,R,G
-   5,R,J,G
-  23,R,G
-   1,L,J,G
-   8,L,G
-   1,G
-   1,L,G
-   3,G
-   1,R,G
-  14,G
-   1,R,G
-   1,G
-   5,R,G
-   1,R,J,G
-  14,R,G
-   4,R,J,G
-   5,R,G
-   1,R,J,G
-   2,R,G
-   1,R,J,G
-   1,R,G
-   1,R,J,G
-   2,R,G
-   1,R,D
+   5
    1,R
-   1,L,J
-   4,L
-  10
-##
-#Spinner Cycle [d-04] 2
-   0
-#-----
-## Solution (cont.)
-  11,R,Z
-   1,R,J
-  26,R,D,G
-   2,R,J,G
-   8,R,G
-   1,R,J,G
+   1
+   1,R
+   1,R,D
+   1,D
+   2,R,D
+  13,G
+   1,J,G
+  11,R,J,G
    5,R,G
-   1,R,J,G
-   2,R,G
-   1,R,J,G
-   2,R,G
-StunPause
-   6,R,G
-EndStunPause
-   1,R,G
-   9,R,D,G
-   5,R,J,G
+  11,R,J,G
+   2,R,D
+   2,R,K
+   5,R,D,X
+  16,R,G
+  40,G
    7,R,G
+   2,R,K,G
+   9,K
+   6
+   4,K
+   1
+   1,K
+   5
+   5,L
+   1
+  10,L,Z
+   1,R,J
+   1,L,K,G
+   3,R
+   7,R,D,X
+  22,R,J,G
+   5,R,G
+   4,R,K,G
+   2,R,G
+   5,G
+   5,R,G
+   2,R,J,G
+   6,R,G
+   2,R,J,G
   40
 
 #lvl_d-05
-   2,R,G
-   1,R,J,G
-   1,R
-  16,R,Z
-   1,J,G
-  28
-  26,G
-   2,L,G
-   2,G
-   5,R,G
-   6
-   1,R
-   1,R,D
-   1
-   1,L
-   1
-   6,R
-   8,L,D
-   3,L
-   1,J
+   6,R,G
+   1,D
+  14,L,D,X
    1,K,G
-  12,R,X
-  24,R,J,G
+  10
+  14,L,Z
    1,R,J
-   4,R,K,G
-   7,R
-   4
-   2,L,J
-  10,R,D,X
-   1,R,J
-   1
-  14,R
-  22,R,G
-   1,L,G
-   3,R
-   8,R,U,X
-   1,J
-  16,J,G
+   5,R,D,X
+  13,G
+   3,R,K,G
+   5,R,G
+  20,R,K,G
+   1,L
+   1,R
+   1,K
    1,R,J,G
-   2,J,G
-   1,G
-   9,K,G
+   1,L,J
+   7,J
+   1,K
    1,R
-   4,L
-   4,L,J
-   3,J
-  46,R,K
+   6,R,Z
    1,R,J
-   2,J
-   2,R,J
-   1
+  13,G
+   1,R,K,G
+   4,G
+  23,R,G
    1,R
+  12,R,U,Z
+  13,R,G
+   1,J,G
+   5,R,J,G
+   2,J,G
+   1,J
+  12,L,J
+   1,K
+  43,R,K
+   3
+   1,D
+   1,L,J
+   5,R,J
+   1
   15,R,Z
    8,R,D
    4,D
 ##
+
 #Spinner Cycle [d-07]
-   1
+   2
 #-----
+
 ## Solution (cont.)
    4,R,Z
    8,R,J
@@ -1474,6 +1419,7 @@ EndStunPause
    1,R,G
 
 ##
+
 #Spinner Cycle [d-10]
 
 #+0f
@@ -1501,6 +1447,7 @@ EndStunPause
 # ---
 
 #-----
+
 ## Solution (cont.)
    1,R,J
    3,R
@@ -1532,7 +1479,6 @@ EndStunPause
   20,G
   26
    1,R,D
-AnalogueMode Precise
    8,F,105.63
   24,F,96.913
   40,F,93.304
@@ -1644,6 +1590,6 @@ EndStunPause
   76,R,G
 ##
 
-ChapterTime: 4:08.319(14607)
+ChapterTime: 3:57.099(13947)
 
 AnalogueMode Ignore
