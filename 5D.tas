@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 9785
+RecordCount: 9851
 
 console load monikadsidespack/0/5-Temple
    1
@@ -27,6 +27,7 @@ console load monikadsidespack/0/5-Temple
 #cycle_a-05
    0
 #endcycle_a-05
+
 ## Start (cont.)
  204,R,X
   14,U,Z
@@ -1073,9 +1074,9 @@ AnalogueMode, Precise
   14,U,X
 ##
 
-#Spinner Cycle [d-02]
+#cycle_d-02
    0
-#-----
+#endcycle_d-02
 
 ## Solution
   37,U,C
@@ -1219,7 +1220,15 @@ EndStunPause
    2,R,K,G
    2,R,G
    2,R,D
-  10,R,J
+   7,R,J
+   3,R
+##
+
+#cycle_d-04
+   0
+#endcycle_d-04
+
+## Solution (cont.)
    1,K
   10,R,Z
    3,L,J
@@ -1246,10 +1255,11 @@ EndStunPause
    5,R,G
   11,R,J,G
    2,R,D
-   2,R,K
-   5,R,D,X
-  16,R,G
-  40,G
+  15,D,X
+   5,L
+   1,R,K
+  36,R,G
+   4,G
    7,R,G
    2,R,K,G
    9,K
@@ -1258,8 +1268,7 @@ EndStunPause
    1
    1,K
    5
-   5,L
-   1
+   6,L
   10,L,Z
    1,R,J
    1,L,K,G
@@ -1323,42 +1332,32 @@ EndStunPause
    4,D
 ##
 
-#Spinner Cycle [d-07]
-   2
-#-----
+#cycle_d-07
+   0
+#endcycle_d-07
 
 ## Solution (cont.)
-   4,R,Z
-   8,R,J
-   1,R
-   1,R,J
-   2,R
-   1,R,J
-   3,R
+   4,Z
+   6,R,J
+   8,R,K,G
   40
 
 #lvl_d-06
   15,R,X
-  17,L
-  38
+  21,L
+   1,R,D
+  33
   15,D,X
   41
   15,D,X
  109
   15,D,X
-  90
-   1,L
-   1
-   1,R
-   1,R,D
-   1
-   1,L
-   1,L,D
-  11,L
+ 101
+   7,L
    1,L,D,J
    1,L,K
-   5,L,D
-   2,D
+   6,L,D
+   1,D
   15,R,D
    1,R
    4,R,J
@@ -1417,36 +1416,35 @@ StunPause
 EndStunPause
    1,R,J,G
    1,R,G
-
 ##
 
-#Spinner Cycle [d-10]
+#cycle_d-10
 
-#+0f
+#wait_d-10_0
 #    4,R
 #   10,R,D,X
 #    1,L,J
 #    4
 #    4,R,Z
-#---
+#endwait_d-10_0
 
-#+1f
+#wait_d-10_1
    4
   10,R,D,X
    1,L,J
    4,L
    5,R,Z
-#---
+#endwait_d-10_1
 
-#+2f
+#wait_d-10_2
 #    4,R
 #   10,R,D,X
 #    1,L,J
 #    5,L
 #    5,R,Z
-# ---
+#endwait_d-10_2
 
-#-----
+#endcycle_d-10
 
 ## Solution (cont.)
    1,R,J
@@ -1590,6 +1588,6 @@ EndStunPause
   76,R,G
 ##
 
-ChapterTime: 3:57.099(13947)
+ChapterTime: 3:56.997(13941)
 
 AnalogueMode Ignore
