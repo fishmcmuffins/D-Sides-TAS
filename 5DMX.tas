@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 6790
+RecordCount: 6815
 
 console load monikadsidespack/0/5-Temple
    1
@@ -21,62 +21,39 @@ console load monikadsidespack/0/5-Temple
    8,R,K,G
   15,R,D,X
    4,R
- 204,R,X
-  14,U,Z
-   6,R,J
-   1,R
-   2
-   1,R
-   7
-   4,R,X
-   1,R,J
-   2,J
-   3,R,J
-   7,R
-   4,R,Z
-   1,R,J
-   5,R
-  40
-
-#lvl_a-01
-Read,5D,lvl_a-01,lvl_b-03
+#cycle_a-05
+   0
+#endcycle_a-05
+Read,5D,endcycle_a-05,lvl_b-03
 
 #lvl_b-03
-   6,R,J
-  15,L,Z
+  15,L,X
   12,R,J
-   5,L,J
+   3,J
+   2,L,J
   35,L,K,G
-   3
-   1,L,G
+   2,L,J,G
+   7,L
+  13,G
+  22,L,D
+   1,D
    1
-  17,L,G
-   2,L,U,G
-   1,L,G
-   1,L,U,G
-   2,L,G
-   1,L,D,G
-  13,L,D
-   3,D
-   2,R,D
-   2,L,D
    1,R,D
-   7,G
-   8,L,D
-   6,D
-   9,R,D,X
-   1,J
-  11,K,G
-   1,L,K
+   7,L
+   3,L,D
+   4,L,X
+   5,L,X,G
    1,J,G
+   4,L,J
+   7,J
    1,R,J
+   5,K,G
+  14,L,K
   15,U,X
-  18,L,J
-   1,K
-  11,L
-   1,J
-   6,R,J
-   3,R
+   3,L
+   2,J
+  12
+   7,R,G
   77
    7,R,D,X
    4,R,J
@@ -113,141 +90,35 @@ Read,5D,lvl_a-01,lvl_b-03
   15,R,D,X
    1,R,J
   40
+
 #lvl_b-04
-Read,5D,lvl_b-04,Spinner Cycle [d-02]
-#Spinner Cycle [d-02]
-   0
-#-----
-  37,U,C
-  40
-
-#lvl_d-00
-Read,5D,lvl_d-00,Spinner Cycle [d-04] 1
-#Spinner Cycle [d-04] 1
-   2
-#-----
-   1,L
+Read,5D,lvl_b-04,drift
+   2,L
+  28,U,C
+  28,U,X
+  20,U,C
+  26,R,U,X
+  37,R,U,C
+  31,L,U,X
+  46,L,U,C
+  21,L,X
+# +1f drift
+   4
+  42,O
+Read,5D,lvl_c-00,cycle_d-02
+#cycle_d-02
    1
-   3,R
-   5,R,Z
-   1,R,J
-  13,R,G
-   1,R,J,G
-   9,R,G
-  40
-
-#lvl_d-03
-Read,5D,lvl_d-03,Spinner Cycle [d-04] 2
-#Spinner Cycle [d-04] 2
+#endcycle_d-02
+Read,5D,endcycle_d-02,cycle_d-04
+#cycle_d-04
    0
-#-----
-  11,R,Z
-   1,R,J
-  26,R,D,G
-   2,R,J,G
-   8,R,G
-   1,R,J,G
-   5,R,G
-   1,R,J,G
-   2,R,G
-   1,R,J,G
-   2,R,G
-StunPause
-   6,R,G
-EndStunPause
-   1,R,G
-   9,R,D,G
-   5,R,J,G
-   7,R,G
-  40
+#endcycle_d-04
+Read,5D,endcycle_d-04,cycle_d-07
+#cycle_d-07
+   0
+#endcycle_d-07
+Read,5D,endcycle_d-07
 
-#lvl_d-05
-Read,5D,lvl_d-05,Spinner Cycle [d-07]
-#Spinner Cycle [d-07]
-   1
-#-----
-   4,R,Z
-   8,R,J
-   1,R
-   1,R,J
-   2,R
-   1,R,J
-   3,R
-  40
-
-#lvl_d-06
-Read,5D,lvl_d-06,lvl_d-08
-
-#lvl_d-08
-# not read through just in case stun needs changing
-  10,R,J,G
-   2,R,J
-   1,R,K,G
-   3,R,J,G
-  21,R,J,G
-   5,R,G
-   5,R,J,G
-   1,R,G
-   1,R,J,G
-   9,R,G
-   7,R,D,G
-   6,R,G
-   2,R
-  11,R,U,X
-  13,R,G
-#can't get a faster spinner cycle to save a pause ... atleast not yet
-StunPause
-  13,R,G
-   1,R,J,G
-   7,R,G
-EndStunPause
-   1,R,J,G
-   1,R,G
-
-
-#Spinner Cycle [d-10]
-
-#+0f
-#   4,R
-#  10,R,D,X
-#   1,L,J
-#   4
-#   4,R,Z
-#---
-
-#+1f
-#   4
-#  10,R,D,X
-#   1,L,J
-#   4,L
-#   5,R,Z
-#---
-
-#+2f
-   4,R
-  10,R,D,X
-   1,L,J
-   5,L
-   5,R,Z
-# ---
-
-#-----
-
-
-   1,R,J
-   3,R
-   1,R,J
-   3,R
-   1,R,J
-   3,R,K,G
-   8,R,D,X
-  13,R,G
-   1,R,J,G
-  40
-
-#lvl_d-09
-Read,5D,lvl_d-09
-
-ChapterTime: 4:11.481(14793)
+ChapterTime: 3:42.870(13110)
 
 AnalogueMode Ignore
