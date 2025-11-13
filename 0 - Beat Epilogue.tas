@@ -74,7 +74,9 @@ Read,LeaveLevel,Complete Screen
 Read,LoadDFromDB,Menu
 
 #Core D-Side
-Read,8D,Start
+Read,8D,Start,branch_stun_space_1
+Read,8D,stun_space_1a,endstun_space_1a
+Read,8D,endbranch_stun_space_1
 
 Read,LoadD
 
