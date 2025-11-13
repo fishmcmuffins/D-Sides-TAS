@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 9851
+RecordCount: 10123
 
 console load monikadsidespack/0/5-Temple
    1
@@ -1357,237 +1357,129 @@ EndStunPause
    1,L,D,J
    1,L,K
    6,L,D
-   1,D
-  15,R,D
-   1,R
-   4,R,J
-  10,R
-  11,R,Z
+   7,D
+  14,R,D,X
    1,R,J
-   3,J
-  10,R,D,X
-   1,R,J,G
+  12,R
+  10,R,K
    5,R
-   3,R,J
-  10,R
-  11,R,J
+   2,R,K
+  18,R
+   5
+  12,R,J
    5,R
-   4,R,J
-   1,R
+   9,R,J
+   8,R
+   3
+   3,D
+   1
+  10,R,Z
+   1,R,K
+   1,L,J,G
+   3,R
+   6,R,D,X
+   1,R,K,G
+   4,K
+   6,R,K
+   7,R
    1,R,J
-  13,R,G
-   6,R,J,G
-   3,R,G
+  17,R,J,G
+   2,R,G
   40
 
 #lvl_d-07
-   5,R,G
-   9,R,J,G
-  10,R,G
-StunPause
+   4,R,G
+   1,S
+  11,R,J,G
    1,R,G
-EndStunPause
-  19,R,D,G
-   1,R,J,G
-  14,R,G
+   1,R,K,G
+  26,R,D,G
+   4,R,J,G
   40
 
 #lvl_d-08
-  10,R,J,G
-   2,R,J
-   1,R,K,G
    3,R,J,G
-  21,R,J,G
-   5,R,G
-   5,R,J,G
    1,R,G
+   1,R
+   8,R,U,X
+  22,R,G
    1,R,J,G
-   9,R,G
-   7,R,D,G
-   6,R,G
-   2,R
-  11,R,U,X
-  12,R,G
-#can't get a faster spinner cycle to save a pause ... atleast not yet
-StunPause
-  14,R,G
-   1,R,J,G
-   7,R,G
-EndStunPause
-   1,R,J,G
-   1,R,G
-##
-
-#cycle_d-10
-
-#wait_d-10_0
-#    4,R
-#   10,R,D,X
-#    1,L,J
-#    4
-#    4,R,Z
-#endwait_d-10_0
-
-#wait_d-10_1
-   4
-  10,R,D,X
-   1,L,J
-   4,L
-   5,R,Z
-#endwait_d-10_1
-
-#wait_d-10_2
-#    4,R
-#   10,R,D,X
-#    1,L,J
-#    5,L
-#    5,R,Z
-#endwait_d-10_2
-
-#endcycle_d-10
-
-## Solution (cont.)
-   1,R,J
-   3,R
-   1,R,J
-   3,R
-   1,R,J
-   3,R,K,G
-   8,R,D,X
-  13,R,G
-   1,R,J,G
+  17,R,G
+   1,K,G
+   5,R,K,G
+   2,R,G
   40
 
 #lvl_d-09
-   1,R,J,G
    5,R,G
-  14,R,J,G
-  53,R,K,G
+   9,R,J,G
+  32,R,G
    1,R
-  18,R,U,X
-  17,R,C
-  24,R,G
-   1,R
-  18,R,X
-  18,R,C
-  14,U,X
-  21,G
-   1,D
-  13,U,X
-  20,G
-  26
-   1,R,D
-   8,F,105.63
-  24,F,96.913
-  40,F,93.304
-  31,F,118.194
-   8,F,104
+   5,R,U,X
+   1,R,K,G
+  11,R
+   1,R,J
+  14,R
+   1,R,K
+   3,R
+   5,R,D,X
   40
 
 #lvl_d-10
-   7,F,110
-  10,L,D,X,G
-   1,R,J,G
-   3,R,G
-   1,R,D
-  14,L,Z
-   1,R,J
-   8,R,D,X
-  13,R,G
-   1,R,J,G
-   5,R,G
-   1,R,J,G
-  13,R,G
-  10,R,J,G
-   6,R,G
-   1,R,J,G
-   1,R,G
-   2,R,J,G
-  13,R,G
-   1,R
-  11,R,X
-   1,R,J
-StunPause
-   3,R,J
-SkipInput 3 1
-  11,R,U,X
-   1,R,J,G
-   2,R
-  18,R,G
-   1,R,J,G
-   3,R,G
-   1,R
-   6,R,D,J
-   1,J
-   6,R
-EndStunPause
-  13,R,D
-  14,L,D,X
-   1,R,J
-   6,R,D,X
-  13,R,G
+   3,R,D,X
+  14,R,G
   12,R,J,G
-   5,R,G
-   1,R,J,G
-  18,R,G
-   4,R
-   1,J
-   7,L
-   5
-   1,L
-   1,L,J
-  14,L,Z
-   1,R,J
-   8,R,D,X
   13,R,G
-   1,R,J,G
-  11,R,D,G
-   1,D
-   1,G
-   3,J,G
+  12,L,D,G
+   4,D,G
    1,K,G
-  22,K,G
-   1,D,K
+  11,R,K,G
+   5,R,G
+  17,R,K,G
+   1,R,J,G
+  14,R,G
+   5,R,K,G
+  26,R,G
+   1
+   6,L,U,X
    1,J,G
+   1,K,G
+   1,K
+  15,R,K,G
+   8,R,G
+   1,R,K,G
+  14,R,G
+   1,R
+  12,R,U,X
+  37,R,J,G
+   1,R,D
+   1,R,K,G
    4
-  21,G
-   1,D
-  11
-   1,J
-   5
-   3,L
-   2,L,J
-   5,L
-  10,L,D,X
+  14,G
+   1,K,G
+   1,G
+   1,K,G
+   2,R,G
+   2,G
+   1,R,D
+   7,L,Z
    1,R,J
-   6,R
-   1,R,J
-   5,R,D,X
-  13,R,G
-   4,R,J,G
-   9,R,G
-   1,R,J,G
-  10,R,G
-  11,R,J,G
-   2,L,J
+  13,G
    1,R,K,G
-   3,L,K
-   5,R,K
+  20,R,D,G
    1,R,J,G
-   1,R,K,G
-   2,R
-  14,L,Z
-   1,R,J
-   5,R,D,X
-  13,R,G
-   9,R,J,G
-  12,R,G
-   5,R
-  12
-  49,R,U,Z
-  76,R,G
+   5,R,G
+   2,R,J,G
+   1,R,G
+   5,R,K,G
+   8,K,G
+   2,K
+   7,R,U,X
+  14,G
+  19,R,K,G
+ 143,R,K
 ##
 
-ChapterTime: 3:56.997(13941)
+ChapterTime: 3:42.003(13059)
 
 AnalogueMode Ignore
