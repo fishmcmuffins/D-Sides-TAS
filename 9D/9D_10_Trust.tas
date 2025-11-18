@@ -29,10 +29,11 @@ console load monikadsidespack/0/10-Farewell 87489.36 -11163.62
 Read,../Visuals/9DV,Postload
    9,R,X
    9,R,Z
-   9,R,U,X
-   2,R,U,X,O
+   8,R,U,X
+   1,R,U,X,O
+   2,R,U,J,X
    9,R,C
-   5
+   3
   11,R,Z
    8,R,J
    1,R
@@ -172,7 +173,7 @@ Read,../Visuals/9DV,Postload
   34
   15,D,X
 #hazardcycle_hh-08
-   0
+   2
 #endhazardcycle_hh-08
    1,R
    1,R,J
