@@ -30,7 +30,7 @@ console give_golden
 #Start
 Read,9D_10,Start,hazardcycle_hh-08
 #hazardcycle_hh-08
-   0
+   2
 #endhazardcycle_hh-08
 Read,9D_10,endhazardcycle_hh-08,stun_hh-08
 #stun_hh-08

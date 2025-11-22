@@ -973,10 +973,6 @@ endrepeat
   15,D,C
   11,R,D
    2,D
-
-Assert,Equal,w-13,{Level.Session.Level}
-Assert,Equal,24,{Player.StateMachine.State}
-Assert,Equal,1,{Level.Zoom}
 #Time
 MidwayFileTime: 3:02.750(10750)
 

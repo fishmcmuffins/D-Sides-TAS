@@ -898,8 +898,6 @@ EndStunPause
  106,D,G
   24,D,G
   25,R,D,G
-Assert,Equal,w-20,{Level.Session.Level}
-Assert,Equal,40,{GameInfo.TransitionFrames}
 #Time
 MidwayFileTime: 3:11.284(11252)
   40

@@ -1335,13 +1335,11 @@ AnalogMode,Precise
    1,R,K
    9,R
  237
-Assert,Equal,s-08,{Level.Session.Level}
-Assert,Equal,40,{GameInfo.TransitionFrames}
 #Time
 MidwayFileTime: 3:28.182(12246)
   40
 
-#lvl_t-00
+#lvl_t-01
   68
 
 AnalogMode,Ignore

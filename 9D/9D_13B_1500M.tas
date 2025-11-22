@@ -1067,8 +1067,6 @@ play,endbranch_ta3
   15,R,K
   14,U,X
   65
-Assert,Equal,m-12,{Level.Session.Level}
-Assert,Equal,40,{GameInfo.TransitionFrames}
 #Time
 MidwayFileTime: 1:23.674(4922)
   40

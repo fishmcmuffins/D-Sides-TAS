@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 1947
+RecordCount: 1960
 
 console load monikadsidespack/0/10-Farewell
    1
@@ -437,7 +437,7 @@ Read,9D_09,endstun_h-03
 #stun in hh-08
 
 Read,9D_10,Start,hazardcycle_hh-08
-   2
+   1
 Read,9D_10,endhazardcycle_hh-08,stun_hh-08
    2,R
 StunPause
@@ -711,7 +711,6 @@ Read,9D_24,Start
 #stun in xx-04
 #3 stuns in xx-06
 #hazardcycle in xx-07
-
 Read,9D_26,Start,hazardcycle_w-16
    2
 Read,9D_26,endhazardcycle_w-16,stun_w-16_1
@@ -754,8 +753,9 @@ EndStunPause
    5,R
    4,J
 Read,9D_26,endstun_w-16_2,hazardcycle_x-10
-#+3f: Drift wait for x-10 stun
-  90,G
+  87,G
+#Drift wait for x-10 stun
+   6,G
 #####
    2,G
 Read,9D_26,endhazardcycle_x-10,stun_x-10
@@ -835,7 +835,6 @@ Read,9D_26,hazardcycle_xx-10-final-goodbye
 Read,9D_27,Start
 
 #==========================
-
 ChapterTime: 44:00.763(155339)
 
 AnalogMode,Ignore

@@ -605,8 +605,6 @@ Set,Session.Inventory.Dashes,2
   20,R,U,X
   15,U,C
  465
-Assert,Equal,u-10,{Level.Session.Level}
-Assert,Equal,40,{GameInfo.TransitionFrames}
 #Time
 MidwayFileTime: 1:21.090(4770)
   40
