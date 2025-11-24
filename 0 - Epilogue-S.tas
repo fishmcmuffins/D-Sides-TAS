@@ -91,23 +91,20 @@ console load monikadsidespack/0/9-Epilogue
 #lvl_a-02
    7,L
    1,L,J
-  10,L
-  11,L,D,J
+   3,L
+   1
+   6,L
+   2,L,D,J
+   6,R,J
+   4
+   5,K,G
+   2,L,K
+   7,K
+   8,J
+   2
    1,K
-  16,R,J,G
-   1,R,K,G
-   1,R
-   1,L,J
-   5,L,K
-   1,L
-   1,L,K,G
-   1,L,J,G
-  19,L
-   1,R
-   1,L
-   1,J
-   1,R,K,G
-   7,L,K
+   1,R,J,G
+   8,L,J
    5,L
   40
 
@@ -634,4 +631,4 @@ Read,0 - Epilogue-MX.tas,lvl_b-07,lvl_b-08
    1,L,J,G
  109,L
 
-ChapterTime: 2:11.444(7732)
+ChapterTime: 2:10.288(7664)
