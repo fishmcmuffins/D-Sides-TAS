@@ -3,12 +3,12 @@
 console load monikadsidespack/0/9-Epilogue
    1
 
+#Start
+  54
+
 #cycle_b-08
    2
 #endcycle_b-08
-
-#Start
-  54
 
 #lvl_a-01 (0)
    3,R
