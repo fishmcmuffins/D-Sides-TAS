@@ -163,10 +163,13 @@ console load monikadsidespack/0/9-Epilogue
   14,L
    1,L,J
   14,L
+   3,L,J
+   6,L
    1,L,J
-  23,L
-   7,L,D,J
-   1,K
+   9,L
+   5,L,D,K
+   4,K
+   1,L
    2,L,J,G
    5,L
    1,L,J
@@ -177,7 +180,7 @@ console load monikadsidespack/0/9-Epilogue
    8,L,K
    5,L
    5,L,J
-   3,R,J
+   3,J
    1,L,J
   18,R,D
   15,L,X
@@ -286,4 +289,4 @@ console load monikadsidespack/0/9-Epilogue
    1,L,J,G
  115,L,G
 
-ChapterTime: 0:37.247(2191)
+ChapterTime: 0:37.196(2188)
