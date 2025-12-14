@@ -45,7 +45,7 @@ Read,Visuals/2Dark,Postload
 #lvl_a-03
 Read,2Dark.tas,lvl_a-03
 
-ChapterTime: 1:39.450(5850)
+ChapterTime: 1:39.280(5840)
 
 #Restore to foreground
 #evallua if bgs then while level.Background.Backdrops.Count > bgs do level.Foreground.Backdrops:Add(level.Background.Backdrops[bgs]); level.Background.Backdrops:RemoveAt(bgs); end bgs = nil end
