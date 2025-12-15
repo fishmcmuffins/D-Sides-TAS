@@ -3,10 +3,9 @@ console load monikadsidespack/0/10-Farewell 303300 -51470.1
 
 Read,9D_27,Setup,TimeActive
 
-Set,Level.TimeActive,2702.322021484375
-#+2f wait in bottomless
+Set,Level.TimeActive,447.53558349609375
 #hazard cycle
-   2
+   4
 #------------
 
 Invoke Player.FinishFlingBird
@@ -19,68 +18,39 @@ Read,9D_27,Start,stun_xx-10-final-goodbye_1
 StunPause
    5,L,J,G
    7,J
-   1,K,G
-EndStunPause
-StunPause
-   1,K
-EndStunPause
-StunPause
-  10,K
+  12,K,G
   11,J,G
    1,R,J
    1,K
    1,J
   14,R,J
 SkipInput 3 1
-   4,R,X
-EndStunPause
-StunPause
-   1,R,X
-EndStunPause
-StunPause
-   1,R,X
+   6,R,X
 SkipInput 3
   12,R,X
    1,R
   17,L,D
    2
 SkipInput 3 1
-  14,R,X
-EndStunPause
-StunPause
-   1,R,X
-EndStunPause
-StunPause
+  15,R,X
 SkipInput 3 1
    5,R,U,V
 SkipInput 3
   13,R,U,V
 SkipInput 3 1
   15,R,X
-  15,L
-EndStunPause
-StunPause
-   1,L
-EndStunPause
-StunPause
-   5,L
+  21,L
   35
 SkipInput 3 1
-   4,R,X
-EndStunPause
-StunPause
-   1,R,X
-EndStunPause
-StunPause
-  39,R,G
-EndStunPause
-StunPause
-   1,R,G
-EndStunPause
-StunPause
-   3,R,G
+   5,R,X
+  43,R,G
   12,R,D,G
-   7,D,G
+EndStunPause
+StunPause
+   1,D,G
+EndStunPause
+StunPause
+   6,D,G
 EndStunPause
   38,D,G
 #endstun_xx-10-final-goodbye_1
@@ -88,7 +58,7 @@ EndStunPause
 Read,9D_27,endstun_xx-10-final-goodbye_1,hazardcycle_xx-10-final-goodbye_2
 
 #hazardcycle_xx-10-final-goodbye_2
-   1
+   0
 #endhazardcycle_xx-10-final-goodbye_2
 
 Read,9D_27,endhazardcycle_xx-10-final-goodbye_2,stun_xx-10-final-goodbye_2
@@ -121,15 +91,7 @@ Read,9D_27,endstun_xx-10-final-goodbye_2,stun_xx-10-final-goodbye_3
 #stun_xx-10-final-goodbye_3
    2,R,D
    3,R
-   1,S,N
-  10,O
-   9,R,Z
-   1,S,N
-  10,O
-   1,R,Z
-StunPause
-   4,R,Z
-EndStunPause
+  14,R,Z
 #endstun_xx-10-final-goodbye_3
 
 Read,9D_27,endstun_xx-10-final-goodbye_3,hazardcycle_xx-10-final-goodbye_4
@@ -151,6 +113,6 @@ EndStunPause
 Read,9D_27,endstun_xx-10-final-goodbye_4,Time
 
 #Time
-MidwayFileTime: 4:09.747(14691)
+MidwayFileTime: 4:08.081(14593)
 
 AnalogMode,Ignore

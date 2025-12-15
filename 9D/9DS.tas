@@ -1,12 +1,18 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 1900
+RecordCount: 1956
 
 console load monikadsidespack/0/10-Farewell
    1
 
+# heart gate before HB
 console hearts 1
+
+# checkpoint select behavior for non-completed chapter
+Set SaveData.Instance.DebugMode false
+Set SaveData.Instance.CheatMode false
+EvalLua lslist = Celeste.SaveData.Instance.LevelSets; for i = 0, lslist.Count - 1 do ls = lslist[i]; if ls.Name == 'monikadsidespack/0' then dsides = ls; break; end end if dsides then fg = dsides.Areas[10].Modes[0]; fg.Completed = false; fg.Strawberries:Clear(); fg.Checkpoints:Clear(); end
 
 #==========================
 #Start
@@ -577,21 +583,17 @@ Read,9DS_22,endstun_v-00-lobby
 #stun in y-08
 
 Read,9DS_23,Start,hazardcycle_y-08
-   2
+   0
 Read,9DS_23,endhazardcycle_y-08,stun_y-08
    1,R
 StunPause
    6,R
    1,R,K
-EndStunPause
-StunPause
    1,R
-EndStunPause
-StunPause
    2,R,K
 EndStunPause
    1,R,K
-Read,9DS_23,endstun_y-08,lvl_y-10 (1)
+Read,9DS_23,endstun_y-08,lvl_y-10 (0)
 
 #lvl_y-10
 Read,9DS_23,route_y-15s,keycycle_y-15s
@@ -600,11 +602,23 @@ Read,9DS_23,endkeycycle_y-15s,keycycle_up-key
   51,G
 Read,9DS_23,endkeycycle_up-key
 
+# re-enter PoNR
+unsafe
+  51
+   1,S
+   1,O
+  30
+   1,O
+  46
+safe
+
 #==========================
 #Point of No Return
 
 #no global cycles
 
+#lvl_w-00-point-of-no-return
+  36
 Read,9D_24,Start
 
 #==========================
@@ -621,7 +635,7 @@ Read,9D_24,Start
 #hazardcycle in xx-07
 
 Read,9D_26,Start,hazardcycle_w-16
-   2
+   0
 Read,9D_26,endhazardcycle_w-16,stun_w-16_1
    2
 StunPause
@@ -630,11 +644,7 @@ StunPause
 SkipInput 3 1
   10,R,Z
    1,R,K
-EndStunPause
-StunPause
    1,L,J,G
-EndStunPause
-StunPause
    2,R,J
    2,R
 SkipInput 3 1
@@ -649,34 +659,28 @@ StunPause
    1,R
 EndStunPause
 Read,9D_26,endstun_w-16_1,stun_w-16_2
-   1,R
    1,S,N
   10,O
    3,R
 StunPause
-   2,R
+   3,R
    1,R,D,J
 EndStunPause
    2,R,J
-   1,R
    1,S,N
   10,O
-   4,R
+   5,R
    4,J
 Read,9D_26,endstun_w-16_2,hazardcycle_x-10
-   2,G
+   0,G
 Read,9D_26,endhazardcycle_x-10,stun_x-10
-   2,R,X
+   1,R,X
 StunPause
-   9,R,X
+  10,R,X
   12,R
   10,L
-EndStunPause
-StunPause
 SkipInput 3 1
    4,Z
-EndStunPause
-StunPause
    1,R,J
    1,K,G
    5,R
@@ -686,9 +690,9 @@ StunPause
 SkipInput 3 1
    6,L,Z
    1,R,J
-   3,R
+   2,R
 EndStunPause
-   1,R
+   2,R
    1,D
 Read,9D_26,endstun_x-10,stun_xx-02
    1,R,J
@@ -699,11 +703,10 @@ EndStunPause
    2,R
 Read,9D_26,endstun_xx-02,stun_xx-04
    1,R,K
-   1,R
 StunPause
    2,R
 EndStunPause
-   2,R
+   3,R
 Read,9D_26,endstun_xx-04,stun_xx-06_1
    2,R,K
 StunPause
@@ -725,16 +728,13 @@ StunPause
    1,R
    1,R,D,K
 EndStunPause
-   1,R,K
+   1,R,D,K
    1,R,J,G
 Read,9D_26,endstun_xx-06_3,hazardcycle_xx-10-final-goodbye
-   2
-# drift
-   3
+   4
 Read,9D_26,hazardcycle_xx-10-final-goodbye
 
-#TimeActive for FGFG measured here
-#w/o cycle wait in Bottomless
+# to measure TimeActive for FGFG, set the above hazardcycle to 0, then put a breakpoint here
 
 #==========================
 #Final Goodbye
@@ -742,6 +742,7 @@ Read,9D_26,hazardcycle_xx-10-final-goodbye
 #4 stuns in xx-10-final-goodbye
 
 Read,9DS_27A,Start
+
 #==========================
 
-ChapterTime: 50:20.764(177692)
+FileTime: 50:14.542(177326)

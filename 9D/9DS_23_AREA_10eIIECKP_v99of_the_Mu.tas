@@ -1,18 +1,14 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
-RecordCount: 15518
+RecordCount: 15521
 console load monikadsidespack/0/10-Farewell 213185 -52448
    1
 
-#If you want the y-14 route,
-#you can comment out one of
-#these.
-#(must edit key cycles)
+repeat 3
 console givekey
-console givekey
-console givekey
+endrepeat
 
-#lvl_void (1)
+#lvl_void
  102
    6,R
    8,R,J
@@ -354,7 +350,7 @@ AnalogMode,Precise
    7,L
   40
 
-#lvl_y-06 (1)
+#lvl_y-06 (0)
    1,L,J
   14,L,D,X
    1,L,J
@@ -450,7 +446,7 @@ AnalogMode,Precise
    1,R,J
   40
 
-#lvl_y-06 (2)
+#lvl_y-06 (1)
   14,R,D,X
    1,R,J
   14,R,D,X
@@ -675,7 +671,7 @@ EndStunPause
    5,R,U,X
   40
 
-#lvl_y-10 (1)
+#lvl_y-10 (0)
 play,route_y-15s
 #route_y-14
    6,R,U,X
@@ -813,7 +809,7 @@ play,route_y-15s
    2,L
   40
 
-#lvl_y-13 (1)
+#lvl_y-13 (0)
    5,L
    3,L,J
   25,L,D
@@ -909,11 +905,11 @@ play,route_y-15s
   31
   40
 
-#lvl_y-13 (2)
+#lvl_y-13 (1)
   51
   40
 
-#lvl_y-10 (2)
+#lvl_y-10 (1)
    1
   19,R,D,X
    1,D
@@ -927,8 +923,8 @@ play,route_y-15s
   25,L,D,X
   40
 
-play,lvl_y-15s
 #endroute_y-14
+play,lvl_y-15s
 
 #====================
 
@@ -1936,125 +1932,12 @@ play,lvl_y-15s
    1,L
   16,U
 #collect
-   8,R,Z
-   1,L,J
-   7,L
-   3,L,J
-  15,L,D,X
-   2,L,J
-   7,L,U,X
-  10,L,K,G
-  12,L,J,G
-   4,K
-   8,L
-   1,R
-repeat 33
-   2,D
-   1,R
-endrepeat
-   1
-
-#lvl_void (2)
- 189
-   1,L,J
-  14,R,D,X
-   1,L,J
-  15,L,D,X
-   1,J
-   5
-  13,D,X
-  40
-
-#lvl_v-00-upperer-a
-   2,D
-   7,D
-   1,J
-  18
-  16,R,D,X
-   1,J
-  12
-  14,R,D,X
-   1,R,J
-   9,R,D,X
-  40
-
-#lvl_v-00-upperer-b
-   6,R,D,X
-  15,D,C
-   6,R,D
-   4,X
-  11,R,J
-   9,R
-   1,D
-  15,R,D,X
-  15,L,D,K
-   9,R,U,X
-   1,R,J,G
-   1,R
-   1,R,J,G
-   6,R
-   4,R,J
-   5,R,D
-   9,D
-   8,R,D
-   1,D
-   3,R,D
-   3,R
-  13,R,U,Z
-   1,K
-   7
-   7,R,Z
-   1,L,J
-   9,L
-   7,R
-   1
-   1,R
-  15,R,Z
-   2,R,K
-   5,R,J,G
-   3,R
-   4,R,K
-  14,R,D
-  13,R,Z
-   1,R,J
-   2,J
-   5,R,Z
-   1,R,J,G
-  11,R,D
-   9,D
-  15,R,Z
-   4,R,K
-   1,J
-   2,R,J
-   9,K
-  11,L,Z
-   1,J
-  12,K
-   1,J
-  12,L,Z
-   1,K
-  11,J
-   1,R,J
-   1
-   1,R
-   1,K
-   1,R,K
-  11,R,Z
-   1,L,J
-  12,K,G
-   4,J
-  13,R,Z
-   2,R,K
-Assert,Equal,v-00-upperer-b,{Level.Session.Level}
-Assert,Equal,40,{GameInfo.TransitionFrames}
-#Time
-MidwayFileTime: 4:05.820(14460)
-  40
-
-#lvl_w-00-point-of-no-return
-   1,R
    1,S
-   1,D,J
-  69,O
+   1,U,O
+   1,J
+  31
+
+#Time
+MidwayFileTime: 3:51.098(13594)
 
 AnalogMode,Ignore

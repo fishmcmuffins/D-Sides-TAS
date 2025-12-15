@@ -486,7 +486,47 @@ Read,9DS_23,endkeycycle_y-15s,Right-Up.1
 #lvl_y-999999999
 Read,9DS_23,lvl_y-999999999,collect
    9,U
-Read,9DS_23,collect,lvl_v-00-upperer-b
+   8,R,Z
+   1,L,J
+   7,L
+   3,L,J
+  15,L,D,X
+   2,L,J
+   7,L,U,X
+  10,L,K,G
+  12,L,J,G
+   4,K
+   8,L
+   1,R
+repeat 33
+   2,D
+   1,R
+endrepeat
+   1
+
+#lvl_void (2)
+ 189
+   1,L,J
+  14,R,D,X
+   1,L,J
+  15,L,D,X
+   1,J
+   5
+  13,D,X
+  40
+
+#lvl_v-00-upperer-a
+   2,D
+   7,D
+   1,J
+  18
+  16,R,D,X
+   1,J
+  12
+  14,R,D,X
+   1,R,J
+   9,R,D,X
+  40
 
 #lvl_v-00-upperer-b
    6,R,D,X

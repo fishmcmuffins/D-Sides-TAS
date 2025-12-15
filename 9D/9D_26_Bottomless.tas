@@ -1415,8 +1415,9 @@ EndStunPause
    3
    6,R
    1,R,J,G
-  24,R,K,G
-  75,R,D
+  22,R,K,G
+   2,K
+  74,R,D
    1,R,J
   14,R
    1,R,J
@@ -1436,10 +1437,11 @@ EndStunPause
    4
    4,R
    1,R,J,G
-  33,R,K,G
-  67,R
-  19,R,K
-  14,R
+  31,R,K,G
+   2
+  66,R
+  21,R,D,K
+  13,R
    1,R,J,G
   16,R
   33,R,J
@@ -1451,13 +1453,7 @@ EndStunPause
   41,R,J
   45,R,K
   20,R,J
-   7,R
-   1
-   1,R
-   1
-   1,R
-   1
-   1,R
+  13,R
    1,R,J,G
    1,R,K,G
   20,R
@@ -1486,7 +1482,7 @@ EndStunPause
   27,R
    2
 #Time
-MidwayFileTime: 4:38.919(16407)
+MidwayFileTime: 4:38.902(16406)
   30
 
 AnalogMode,Ignore

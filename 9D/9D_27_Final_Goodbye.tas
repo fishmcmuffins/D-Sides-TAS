@@ -156,15 +156,15 @@ Read,../Visuals/9DV,Postload
   10,R
   15,R,X
    8
-   1,R,D,J
-   4,R
+   1,J
   24
-   4,Z
+   8,R,Z
    1,R,K
-  14,R
-  33
-  23,R
-   1
+   5,R
+   9
+  32
+  19,R
+   6
    1,R,J,G
   11,J
   12,K,G
@@ -173,8 +173,7 @@ Read,../Visuals/9DV,Postload
    5,R,J
    7,R,K,G
   25,R,X
-  12
-   1,R
+  13
    1,G
   35,J
    3,D
