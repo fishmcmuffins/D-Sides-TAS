@@ -9,9 +9,9 @@ Set,Level.Wind.X,1200
 Set,Level.TimerStarted,true
   30
 #TimeActive
-Set,Level.TimeActive,2332.822753906250
+Set,Level.TimeActive,447.53558349609375
 #hazard cycle
-   2
+   4
 #-------------
 
 Invoke Player.FinishFlingBird
@@ -215,13 +215,7 @@ Read,../Visuals/9DV,Postload
 StunPause
    5,L,J,G
    7,J
-   3,K,G
-EndStunPause
-StunPause
-   1,K,G
-EndStunPause
-StunPause
-   8,K,G
+  12,K,G
   11,J,G
    1,R,J
    1,K
@@ -230,55 +224,30 @@ StunPause
 SkipInput 3 1
    6,R,X
 SkipInput 3
-   3,R,X
-EndStunPause
-StunPause
-   1,R,X
-EndStunPause
-StunPause
-   8,R,X
+  12,R,X
    1,R
   17,L,D
    2
 SkipInput 3 1
   15,R,X
 SkipInput 3 1
-   4,R,U,V
-EndStunPause
-StunPause
-   1,R,U,V
+   5,R,U,V
 SkipInput 3
-   3,R,U,V
-EndStunPause
-StunPause
-  10,R,U,V
+  13,R,U,V
 SkipInput 3 1
   15,R,X
-  17,L
-EndStunPause
-StunPause
-   1,L
-EndStunPause
-StunPause
-   3,L
+  21,L
   35
 SkipInput 3 1
    5,R,X
-   1,R,G
-EndStunPause
-StunPause
-   1,R,G
-EndStunPause
-StunPause
-  39,R,G
-EndStunPause
-StunPause
-   1,R,G
-EndStunPause
-StunPause
-   1,R,G
+  43,R,G
   12,R,D,G
-   7,D,G
+EndStunPause
+StunPause
+   1,D,G
+EndStunPause
+StunPause
+   6,D,G
 EndStunPause
   38,D,G
 #endstun_xx-10-final-goodbye_1
@@ -317,7 +286,7 @@ EndStunPause
    5
 
 #hazardcycle_xx-10-final-goodbye_2
-   1
+   0
 #endhazardcycle_xx-10-final-goodbye_2
 
   14,R,Z
@@ -475,15 +444,7 @@ EndStunPause
 #stun_xx-10-final-goodbye_3
    2,R,D
    3,R
-   1,S,N
-  10,O
-   6,R,Z
-   1,S,N
-  10,O
-   4,R,Z
-   1,S,N
-  10,O
-   4,R,Z
+  14,R,Z
 #endstun_xx-10-final-goodbye_3
    2,R,J
   21,R,D,X
@@ -551,7 +512,7 @@ EndStunPause
   14,U,X
 
 #hazardcycle_xx-10-final-goodbye_4
-   2
+   1
 #endhazardcycle_xx-10-final-goodbye_4
 
   16,R,U,C
@@ -1202,8 +1163,7 @@ endrepeat
   12,R,J,G
   21,R,X
  135
-
 #Time
-MidwayFileTime: 4:09.577(14681)
+MidwayFileTime: 4:08.081(14593)
 
 AnalogMode,Ignore

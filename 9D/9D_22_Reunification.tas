@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 1681
+RecordCount: 1683
 
 console load monikadsidespack/0/10-Farewell 212416 -50688.1666963995
    1
@@ -241,60 +241,51 @@ EndStunPause
    5,R,D
    9,D
    9,R,D
-   1,D
-   4,R,D
-   3,R
-  13,R,U,Z
-   1,K
-   7
-   7,R,Z
-   1,L,J
-   9,L
-   7,R
    1
-   1,R
-  15,R,Z
-   2,R,K
-   5,R,J,G
    3,R
-   4,R,K
-  14,R,D
-  13,R,Z
+   1,R,D
+   8,R,D,K
+   5,R
+   1,J
+   1,K
+  14,U,X
+   8,J
+   1,L,K,G
+   1,R
+   6,L
+  11,L,X
+   1,L,J
+   3,L
+  13,J
+   1,K
+   1,L,K
+   5,L,Z
    1,R,J
    2,J
-   5,R,Z
-   1,R,J,G
-  11,R,D
-   9,D
-  15,R,Z
-   4,R,K
-   1,J
-   2,R,J
-   9,K
-  11,L,Z
-   1,J
-  12,K
-   1,J
-  12,L,Z
-   1,K
-  11,J
-   1,R,J
-   1
    1,R
-   1,K
+   2
+   6,R
+   7,R,D,X
+   3,R,J
+   1,R
+   1,R,J
+   6,R
+   1
    1,R,K
-  11,R,Z
-   1,L,J
-  12,K,G
-   4,J
-  13,R,Z
-   2,R,K
+  14,R,D,X
+   1,R,J
+  11,R,D,X
+   5,R,J
+   1,R
+  15,R,D,X
+  10,R,C
+  43
 #Time
-MidwayFileTime: 0:35.564(2092)
+MidwayFileTime: 0:34.799(2047)
   40
 
 #lvl_w-00-point-of-no-return
-   1,R
    1,S
-   1,D,J
-  69,O
+   1,U,O
+   1,J
+  31
