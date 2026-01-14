@@ -1,4 +1,4 @@
-RecordCount: 1039
+RecordCount: 1050
 
 console load monikadsidespack/0/10-Farewell 109280 -18296
    1
@@ -108,7 +108,7 @@ console givekey
   14,U,C
   40
 
-#lvl_l-04 (1)
+#lvl_l-04 (0)
    3
   15,J
   15,U,X
@@ -153,7 +153,7 @@ endrepeat
   13,R,D
   40
 
-#lvl_l-04 (2)
+#lvl_l-04 (1)
    4,R,D
    9,R,D,X
    5,R,J
@@ -428,12 +428,13 @@ endrepeat
   11,K
   18,R,X
    4,L,G
-  32,U,X
-   8,L
-  10,L,U,C
+   2,L,J,G
+  31,U,X
+  12,L,U,C
    4,R,G
-   3,R,J,G
-   2
+   1,R,J,G
+   3,J
+   1
   15,U,X
    2,R,J,G
    7,R
@@ -476,5 +477,5 @@ endrepeat
   19,U,X
  253
 #Time
-MidwayFileTime: 1:05.467(3851)
+MidwayFileTime: 1:05.382(3846)
   40
