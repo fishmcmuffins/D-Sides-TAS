@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 1972
+RecordCount: 2005
 
 console load monikadsidespack/0/10-Farewell
    1
@@ -402,7 +402,7 @@ Read,9D_08,ta1_0,end_ta1_0
 Read,9D_08,endbranch_ta1,branch_ta2
 Read,9D_08,ta2_0,end_ta2_0
 Read,9D_08,endbranch_ta2,hazardcycle_f-13
-   0
+   2
 Read,9D_08,endhazardcycle_f-13
 
 #==========================
@@ -414,14 +414,15 @@ Read,9D_08,endhazardcycle_f-13
 #hazardcycle in h-02
 #stun in h-03
 
-   1
+   2
 Read,9D_09,Start,stun_f-99
-   2,R,U,Z
+   1,R,U,Z
 StunPause
    2,R,U,Z
 EndStunPause
+   1,R,U,Z
 Read,9D_09,endstun_f-99,hazardcycle_g-09
-   0
+   2
 Read,9D_09,endhazardcycle_g-09,hazardcycle_h-03
    2
 Read,9D_09,endhazardcycle_h-03,stun_h-03
@@ -431,8 +432,6 @@ StunPause
 EndStunPause
    1,R,D,X
    7,R,D,K
-   1,S,N
-  10,O
   13,R,D,X
 Read,9D_09,endstun_h-03
 
@@ -443,7 +442,7 @@ Read,9D_09,endstun_h-03
 #stun in hh-08
 
 Read,9D_10,Start,hazardcycle_hh-08
-   1
+   2
 Read,9D_10,endhazardcycle_hh-08,stun_hh-08
    2,R
 StunPause
@@ -503,7 +502,7 @@ Read,9D_12B,Start
 #keycycle in l-04
 
 Read,9D_13A,Start,keycycle_l-04
-  23
+  25
 Read,9D_13A,endkeycycle_l-04
 
 #==========================
@@ -512,7 +511,7 @@ Read,9D_13A,endkeycycle_l-04
 #TimeActive in m-06
 
 Read,9D_13B,Start,branch_ta2
-Read,9D_13B,ta2_1,end_ta2_1
+Read,9D_13B,ta2_10,end_ta2_10
 Read,9D_13B,endbranch_ta2,lvl_m-11
 
 #lvl_m-11
@@ -546,7 +545,7 @@ Read,9D_13B,lvl_m-12
 #stun in n-12
 
 Read,9D_14A,Start,hazardcycle_n-05
-   1
+   0
 Read,9D_14A,endhazardcycle_n-05,stun_n-05
    2,R
 StunPause
@@ -604,10 +603,7 @@ Read,9D_16,endhazardcycle_CP-37,stun_CP-37_1
 StunPause
   11,R,U
 SkipInput 3 1
-   9,R,Z
-EndStunPause
-StunPause
-   6,R,Z
+  15,R,Z
    1,R,J
    1,R,K
    1,R,J
@@ -618,8 +614,9 @@ StunPause
    1,R
 EndStunPause
 Read,9D_16,endstun_CP-37_1,stun_CP-37_2
+   1,R,J
 StunPause
-  12,R,J
+  11,R,J
    1,R,K,G
    7,R,D
 EndStunPause
@@ -662,14 +659,16 @@ Read,9D_21,Start
 #keydoor in v-00-upper
 #hazardcycle in w-00-point-of-no-return
 
-   1
+   2
 Read,9D_22,Start,stun_v-00-lobby_1
    1,L,U,Z
 StunPause
    3,L,U,Z
 SkipInput 3 1
-  13,U,C
-   1,U,C
+   9,U,C
+EndStunPause
+StunPause
+   5,U,C
    1,R,J
 SkipInput 3 1
    9,R,U,J,Z
@@ -679,16 +678,18 @@ Read,9D_22,endstun_v-00-lobby_1,stun_v-00-lobby_2
    1,R
    2,R,J
 StunPause
-   8,R,J
-SkipInput 3 1
-  14,U,Z
+   1,R,J
 EndStunPause
 StunPause
-   1,U,Z
+   7,R,J
+SkipInput 3 1
+  15,U,Z
   10,R
 SkipInput 3 1
   15,L,U,Z
    6
+EndStunPause
+StunPause
    3,L
    1,R
 SkipInput 3 1
@@ -839,7 +840,6 @@ Read,9D_26,hazardcycle_xx-10-final-goodbye
 Read,9D_27,Start
 
 #==========================
-
-FileTime: 43:57.278(155134)
+FileTime: 43:40.023(154119)
 
 AnalogMode,Ignore
