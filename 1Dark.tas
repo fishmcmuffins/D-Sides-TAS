@@ -1,4 +1,4 @@
-RecordCount: 3202
+RecordCount: 3297
 
 console hard monikadsidespack/0/1-City
    1
@@ -89,76 +89,56 @@ endrepeat
    1,R,J
    1,R,K,G
    1,R,J,G
-   2
-   9,R
-  16,R,D,J
-   2,R,K,G
-   2
-   3,R
-   1,R,J
-   3,L,J
-   1,L
-   1,L,J
-   3,L
+   1
+  10,R
+   9,R,K
+   7,R
+  18,G
+   1,U,G
    1,G
-   3
-   1,K,G
-   1
-   1,L
-   1
-   1,L
-   4
-   1,R
-   1
-   1,R
-   1,R,J
-   1,J
+   6,U,G
+   1,G
+   8,L,J
+   1,K
+   2,R,K
+   7,R
+  25,R,K
+   3,J,G
    6,R,J
-   1,R
-   1,R,K,G
-   5
-   2,R
-   1,R,J
-   1,R
-   1,R,J
-  23,R
-   1,R,J,G
    1,L,J
-   8,R,J
-   3,R
-   2,L
-   1,L,J
-   6,K,G
-   3,L,K
+   2,J
+   4,K,G
+   1,L,K
    1,R,K
    1,L,K
-   6,J,G
+   7,J,G
    2,R,J
-  12,R,K,G
-   6,R
-   1,R,J
-   1,R
-   2,R,J,G
-   3,L,J
-   5,R,J
+   1,R,K,G
+  15,R,J,G
+   1,R,K,G
+   4,L,K
+   4,R,K
+   2,R
+   1,R,J,G
    7,R
-   1,R,J
+repeat 2
+   1,R,K
   14,R
-   1,R,J
-  14,R
-   1,R,J
+endrepeat
+   1,R,K
    4,R
   40
 
 #lvl_a-03
-  11,R
-   8,R,J
-   5,R
-   2,R,J
-  20,R,D
-   5,D
-   1
-   4,R
+  10,R
+   9,R,J
+   9,R
+   1,R,J
+  17,R,D
+   4,D
+   2
+   2,R
+   2,R,D
   27,R,J
    1,R,K,G
    2,R,J,G
@@ -602,7 +582,6 @@ endrepeat
   10,R
    1,R,J
   11,R
-#0:45.917(2701)
   40
 
 #lvl_b-03
@@ -998,4 +977,4 @@ Repeat,11
 EndRepeat
 ##
 
-ChapterTime: 1:27.550(5150)
+ChapterTime: 1:27.312(5136)
