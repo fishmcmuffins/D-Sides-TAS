@@ -1,4 +1,4 @@
-RecordCount: 3297
+RecordCount: 3513
 
 console hard monikadsidespack/0/1-City
    1
@@ -488,111 +488,108 @@ endrepeat
    1,J
    5,R,J
    1,J
-  43,R,J
-   3,G
-   8,L
-   4,D
-   1,L,D
-   8,D
-   3,R,D
-   5,R
-   1,R,D
-   1,R,J,G
-  12,R,K,G
-   1,J
-   4,R,J
-   5,J
-   1,L,K,G
-   1,R,K
-   1,L,K
-   1,R,K
-   5,L,K
-   8,J
-   6,R,J
-   8,R,K,G
-  23,R,D
-   9,D
-   3
-  10,R
-   1,J,G
-  13,R
-  11,R,K
-   7,R
-   3,R,K
-   1,K
-   1
-   2,R
-   1
-   1,R
-   6,R,D
-   1,R
    5,R,J
-   5,R
+  14,R
+   4,R,J
+   1,R
    1,R,J
-  10,R
-   6,R,D
-   4,L,D
-   3,L,G
-   1,L
-   1,R
-   1,L
-   1,R
-   1,L
-   1,R
-   2,J
-   6,R
-   4
-   2,J
-   3
-   8,R
-   3
+  19,R,D
+   1,L,D
+   1,R,G
+   3,L,D
+   4,D
+   9,R,D
+   4,R,K,G
+   5,R
+   3,R,K
+   2,L,J,G
+   2,R,J
+   1,K
+  15,R,K
    1,J
-   2,L,K,G
+   6,L,J
+   4,J
+   1,L
+   3,K
+   1,R,K
    2,K
-  16,R,K
-   2,J,G
-   6,R,K,G
+   4,R,K
+   2,K
+   1,R,K
+   7,R,J,G
+   9,R
+   2,R,J
+   9,R
+   1,K
+   6,R,K
+  17,R
+   1,J
+   3,R,J
+   5,R
+   2,R,J
+  11,R
+  11,R,K,G
+   5,R
+   2,R,K
+  20,R
+   1
+   1,R
+   2,L
+   1,L,G
+   1,L
+   9
+   2,J
+   7
+   2,R
+   3,R,D
+   2
+   1,K
+   2,R,K
+   2,R
+   1,L
+   1,J,G
+   1,L,K,G
+  10,R,K
+   8,K
+   6,J,G
   40
 
 #lvl_b-02
-  11,K
-   1
-   2,K
+   6,J
+   5
+   3,J
+   7,K,G
+   5,R,K
+  13,R
+  16,D
+   2
+   3,R
+   1,R,J,G
+   7,R,K,G
+   9,R
    1,R,K
-   1
-  12,R,K,G
-   5,R,D
-   6,D
-   1,R,D
-  12,D
-   4
-   1,R,D
-   1,D
-   4,R,D
-   1,R
-   1,R,J,G
-   9,R,K,G
-  33,R
-   1,R,J,G
+  27,R
+   2,R,J,G
    2,L,J
-   2,R,J
-   1,R
-   1,R,K,G
-   1,R,J,G
-  10,R
    1,R,J
-  11,R
+   8,R
+   1,R,K
+  14,R
+   1,R,J
+   1,R
   40
 
 #lvl_b-03
-   8,R
-   1,R,J
-  14,R
-  35,R,J
-   1
-   2,R,G
-   1,R,K,G
-   4,L,K
+  13,R
+   1,R,K
+  15,R
+   1,J
+  10,R,J
+  17,R
+   1,G
+   2,R,K,G
+   2,L,K
+   2,L
    7,R
    1,R,J,G
    1,R,K,G
@@ -602,9 +599,9 @@ endrepeat
    2
    1,R
    8,R,J
-   5,R
-   1,R,J
-  10,R
+   7,R
+   2,R,J
+   7,R
   10,R,D,J
    8,L,J
    8,K,G
@@ -977,4 +974,4 @@ Repeat,11
 EndRepeat
 ##
 
-ChapterTime: 1:27.312(5136)
+ChapterTime: 1:26.802(5106)
