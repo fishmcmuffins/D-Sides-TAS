@@ -1,4 +1,4 @@
-RecordCount: 11881
+RecordCount: 12402
 
 console load monikadsidespack/0/3-Resort
    1
@@ -1188,73 +1188,59 @@ console load monikadsidespack/0/3-Resort
   40
 
 #lvl_d-00
-  12,R,J
+
+   6,R,J
+   1,L,J
+   3,K,G
+   1,R,K
+   2,L,K
+  12,L,J,G
+   1,K,G
+   3,R,K
   14,U,X
-  11,R,J
   40
 
-#lvl_d-01
-   1,K
-   1,R,J,G
-   1,L
-   4
-   1,L
-   1,K
    2
-##
-#Spinner Cycle [d-01]
-   0
-#-----
-## Remnants
-   4,Z
-   1,R,J
    1,R
-StunPause
-   5,R
-   4,R,J
-   2,R
-SkipInput 3 1
-  12,R,D,X
-   2,R,J
-EndStunPause
-   6,R,J
-   4
-   8,L
    1
-  12,R,J
-   7,K,G
-   7,R
-  23,U,G
-   1,G
-   1,U,G
-   1,G
-   7,K,G
-  22,J
-  12,L,J
-  11,R,X
-  50,R,J
-  18,R,D
-   4,R
-  20,R,X
-   2,R,J
-  14,R,X
-  23,J
+   1,R
+  37,R,J
   15,U,X
-  42,D
-   3
-   2,D
-   3,J
-   9,L,J
-  17,U,X
+   5,R
+   9,R,K
+  53,R
    1
-   4,R
-  17,R,J
+   1,R,J,G
+   4,L,J
+   5,R,J
+   2,R
+   1,R,K,G
+   3,R,J,G
+  35,R,K,G
+  12,R,K
+   5,R
+   3,R,K
+  20,R
+  21,R,D
+  23,R,X
+   2,R,J
+  10,R,X
+  25,K
+  56,U,C
+   8,D
    1
+   1,D
+   8,J
+   4,R,J
+  18,U,X
+  15,R
+   6,R,K
+   2,K
 ##
 #Spinner Cycle [d-04]
-   1
+   2
 #-----
-## Remnants (cont.)
+## Remnants
    5,R,Z
    1,R,J
    7,R
@@ -1271,44 +1257,38 @@ EndStunPause
   14,R,D,X
    1,R,J
   15,U,X
-  27,R,D
-   8,D
-   4,Z
-   2,R,J
-   3,R
-   1,R,K
-   1,R
-   1,R,K
-   3,R
-  15,U,X
-  36,R,D
+  24,R,D
+  11,D
   15,R,X
-   5
-   1,R
+  15,R,U,Z
+  17,R,D
+  12,D
+  15,R,X
+   8
    4,Z
-   4,R,J
-   9,R
+   3,R,J
+   2,R
+   1,R,J
+   7,R
+   1,R,K
+  14,R,D,X
    1,R,J
   17,R,D,X
    1,R,J
+  10,R,D,X
+   4,R,K
+   2,R
   14,R,D,X
    1,R,J
-   7,R
-   5,R,J
   14,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-   7,R
-   1,R,J
-   1,R
+   3,R,K
+   6,R
   19,U,X
   13,R,Z
-   3,R,J
-   2,R
+   4,R,J
   18,U,X
   14,R,Z
-   1,R,J
+   1,R,K
   14,R,D,X
    1,R,J
    8,R,D,X
@@ -1321,8 +1301,6 @@ EndStunPause
   10,D
   11,R,D
   15,R,X
-#2:17.411(8083)
-#oshiro 1st frame
   28,D
  138,G
    1
@@ -1527,4 +1505,4 @@ AnalogMode Precise
 ##
 
 AnalogMode Ignore
-ChapterTime: 2:48.164(9892)
+ChapterTime: 2:46.328(9784)
