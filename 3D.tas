@@ -1,4 +1,4 @@
-RecordCount: 12402
+RecordCount: 12518
 
 console load monikadsidespack/0/3-Resort
    1
@@ -27,29 +27,27 @@ console load monikadsidespack/0/3-Resort
    3,J
   15,U,X
   10,R
-   5,L,Z
+   8,L,Z
    1,R,J
-   6,R
-   1,R,J
-   1,R,K,G
-   9,R
-   1,R,J
-  40
+   3
+   3,R
+   2,R,K
+   1,R
+   5,R,D,X
+   1,R,J,G
+  11,R
+  43
 
 #lvl_a-01
-   5,R,J
-   3,R
+   5,R,K
   15,R,D,X
-  20,R,J
-  20,R
+   8,R,J
+  24,R
    3,R,D
-   1,R
-  15,R,Z
-   2,R
-   7
-   1,R,J,G
+  24,R,Z
+   2,R,J,G
    5,L,J
-   6,J,G
+   5,J
    7,R,K,G
    2,J
    5,R,X
@@ -1188,7 +1186,6 @@ console load monikadsidespack/0/3-Resort
   40
 
 #lvl_d-00
-
    6,R,J
    1,L,J
    3,K,G
@@ -1200,6 +1197,7 @@ console load monikadsidespack/0/3-Resort
   14,U,X
   40
 
+#lvl_d-01
    2
    1,R
    1
@@ -1237,9 +1235,11 @@ console load monikadsidespack/0/3-Resort
    6,R,K
    2,K
 ##
-#Spinner Cycle [d-04]
-   2
-#-----
+
+#cycle_d-04
+   0
+#endcycle_d-04
+
 ## Remnants
    5,R,Z
    1,R,J
@@ -1505,4 +1505,4 @@ AnalogMode Precise
 ##
 
 AnalogMode Ignore
-ChapterTime: 2:46.328(9784)
+ChapterTime: 2:46.277(9781)
