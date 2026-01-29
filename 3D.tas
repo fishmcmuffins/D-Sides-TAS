@@ -1,4 +1,4 @@
-RecordCount: 12518
+RecordCount: 12609
 
 console load monikadsidespack/0/3-Resort
    1
@@ -719,23 +719,20 @@ console load monikadsidespack/0/3-Resort
    1,G
    1
    1,G
+##
+
+## Storm Cellar
    5,R,J,G
    1
    1,L
   18,U,Z
    1,R,J
-  15,U,X
-   5,K,G
-   3,R,K
-   4,R
-   1
-   2,R
-##
-
-## Storm Cellar
+  15,U,J,X
+   5,J
+   2,R,K,G
+   7,R
    4,Z
    8,R,J
-   1,R
    4,R,K,G
    1,R,J,G
    6,R
@@ -1237,7 +1234,7 @@ console load monikadsidespack/0/3-Resort
 ##
 
 #cycle_d-04
-   0
+   2
 #endcycle_d-04
 
 ## Remnants
