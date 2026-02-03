@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 6323
+RecordCount: 6486
 
 console load monikadsidespack/0/4-Ridge
    1
@@ -570,25 +570,27 @@ console load monikadsidespack/0/4-Ridge
   11,R,U,Z
   14,R,U,X
    9,J,G
-   7,R,K,G
-  16,U,Z
-   5,R,J
-  40,L,X
-   5,J,G
-   2,R,J
-   9,L,K,G
-  48,L,J,G
-   1,K,G
-   1,R,K
-   1,L,J,G
-   4,L,K,G
-  29,L,D
+   4,K,G
+   8,R,K
+  16,U,X
+   1,L,J
+  15,L,J,C
+   2,L,J
+  20,L
+   2,D
+   1,L,D
+   1,L,K,G
+  10,L,J,G
+   5,L
+  28,L,J
+   2,L,K,G
+  28,L,D
   10,D
    1,J
    1,K
-   6,L
-  20,L,Z
-  10,U,X
+   2,L,K
+  25,L,Z
+  11,U,X
   11,U,C
   11,U,X
   11,U,C
@@ -938,33 +940,36 @@ console load monikadsidespack/0/4-Ridge
   18,R,K
    2,K
    6,G
-  18,U,G
-  25,R,U,G
-   9,R,G
-   8,G
+  40,U,G
+  29,G
+   3,U,G
+   1,L,U,G
+   2,R,G
    3,J,G
-   2,K,G
-  10,R,K,G
-   3,R
-  16
-   1,L
-  10,R,Z
-  23,R,J
-  12,K,G
-  12,J,G
-  12,K,G
-  12,J,G
-   8,K,G
-   1,L,K
+   2,R,J
+   6,L,Z
    1,R,K
-   1,J,G
-   2,L,J
-  15,U,X
-  26,L
+   3,R,J,G
+  10,R
+   7,R,J
+   8,J
+  12,K,G
+  12,J,G
+  15,K,G
+  12,J,G
+   2,K,G
+   1,R,K
+   1,K
+   1,R,K
    1,L,K
-  10,L
-  15,L,D,X
-   4,L
+  11,R,J,G
+   3,R
+   5,R,K,G
+  34,L,U,X
+   1,J
+   4
+   5,L
+  19,L,D,X
   16,L,U,C
   14,U,Z
    8,J
@@ -1531,6 +1536,6 @@ AnalogMode, Precise
   71,U,C
 ##
 
-ChapterTime: 3:14.735(11455)
+ChapterTime: 3:14.242(11426)
 
 AnalogueMode Ignore
