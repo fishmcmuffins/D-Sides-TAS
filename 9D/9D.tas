@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 2005
+RecordCount: 2013
 
 console load monikadsidespack/0/10-Farewell
    1
@@ -561,7 +561,7 @@ StunPause
    1,R,K
 EndStunPause
 Read,9D_14A,endstun_n-05,hazardcycle_n-12
-   2
+   0
 Read,9D_14A,endhazardcycle_n-12,stun_n-12
    4,R,D,X
 StunPause
@@ -597,11 +597,14 @@ Read,9D_15,Start
 #2 stuns in CP-37
 
 Read,9D_16,Start,hazardcycle_CP-37
-   1
+   2
 Read,9D_16,endhazardcycle_CP-37,stun_CP-37_1
    2,R
 StunPause
-  11,R,U
+   3,R,U
+EndStunPause
+StunPause
+   8,R,U
 SkipInput 3 1
   15,R,Z
    1,R,J
@@ -614,9 +617,8 @@ SkipInput 3 1
    1,R
 EndStunPause
 Read,9D_16,endstun_CP-37_1,stun_CP-37_2
-   1,R,J
 StunPause
-  11,R,J
+  12,R,J
    1,R,K,G
    7,R,D
 EndStunPause
@@ -659,16 +661,16 @@ Read,9D_21,Start
 #keydoor in v-00-upper
 #hazardcycle in w-00-point-of-no-return
 
-   2
+   1
 Read,9D_22,Start,stun_v-00-lobby_1
    1,L,U,Z
 StunPause
    3,L,U,Z
 SkipInput 3 1
-   9,U,C
+  13,U,C
 EndStunPause
 StunPause
-   5,U,C
+   1,U,C
    1,R,J
 SkipInput 3 1
    9,R,U,J,Z
@@ -678,22 +680,23 @@ Read,9D_22,endstun_v-00-lobby_1,stun_v-00-lobby_2
    1,R
    2,R,J
 StunPause
-   1,R,J
+   7,R,J
 EndStunPause
 StunPause
-   7,R,J
+   1,R,J
 SkipInput 3 1
   15,U,Z
   10,R
 SkipInput 3 1
   15,L,U,Z
    6
-EndStunPause
-StunPause
    3,L
    1,R
 SkipInput 3 1
-   7,R,Z
+   5,R,Z
+EndStunPause
+StunPause
+   2,R,Z
 EndStunPause
 Read,9D_22,endstun_v-00-lobby_2,keycycle_v-00-upper
   19,G
@@ -840,6 +843,6 @@ Read,9D_26,hazardcycle_xx-10-final-goodbye
 Read,9D_27,Start
 
 #==========================
-FileTime: 43:40.023(154119)
+FileTime: 43:39.411(154083)
 
 AnalogMode,Ignore
