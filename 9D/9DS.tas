@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 1992
+RecordCount: 2002
 
 console load monikadsidespack/0/10-Farewell
    1
@@ -444,7 +444,7 @@ StunPause
    1,R,K
 EndStunPause
 Read,9D_14A,endstun_n-05,hazardcycle_n-12
-   2
+   0
 Read,9D_14A,endhazardcycle_n-12,lvl_n-09
 
 #lvl_n-09
@@ -457,9 +457,9 @@ SkipInput 3 1
    5,R,U,C
 SkipInput 3
    9,R,U,C
-   1,R,K,G
+   3,R,K,G
 EndStunPause
-   3,R,K
+   1,R,K
 Read,9D_14A,endstun_n-12
 
 #13 keys remaining
@@ -498,7 +498,7 @@ Read,9D_15,lvl_p-02
 #2 stuns in CP-37
 
 Read,9D_16,Start,hazardcycle_CP-37
-   0
+   2
 Read,9D_16,endhazardcycle_CP-37,stun_CP-37_1
    2,R
 StunPause
@@ -517,12 +517,12 @@ EndStunPause
 Read,9D_16,endstun_CP-37_1,stun_CP-37_2
    1,R,J
 StunPause
-   7,R,J
+  11,R,J
+   1,R,K,G
+   1,R,D
 EndStunPause
 StunPause
-   4,R,J
-   1,R,K,G
-   7,R,D
+   6,R,D
 EndStunPause
 Read,9D_16,endstun_CP-37_2
 
@@ -572,10 +572,10 @@ StunPause
    8,R,J
 SkipInput 3 1
   15,U,Z
-   1,R
+   5,R
 EndStunPause
 StunPause
-   9,R
+   5,R
 SkipInput 3 1
   15,L,U,Z
    6
@@ -600,12 +600,7 @@ Read,9DS_23,Start,hazardcycle_y-08
 Read,9DS_23,endhazardcycle_y-08,stun_y-08
    1,R
 StunPause
-   5,R
-EndStunPause
-StunPause
-   1,R
-EndStunPause
-StunPause
+   6,R
    1,R,K
    1,R
    2,R,K
@@ -638,5 +633,4 @@ safe
 #lvl_w-00-point-of-no-return
 Read,9D,lvl_w-00-point-of-no-return
 #==========================
-
-FileTime: 49:58.154(176362)
+FileTime: 49:57.576(176328)
