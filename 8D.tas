@@ -133,20 +133,32 @@ AnalogMode,Precise
    2,R
   13,L,Z
    1,R,J
-  18,R,K,G
-  15,R,D,X
-  23,R
-  16,R,D,J
-   3,J
+   1,R,K,G
    1,K
-  13,L,J,G
+   3,R,K
+  15,R,D,X
+   5,R,D
+   2
+   2,J,G
+   5
    1,J
-   2,L,J
-   2,K,G
+   4
+   1,J
+   3
+   5,R
+   1
+   1,R,D,K
+  15,K
    2,R,K
    1,J
-  15,R,J
-   1,R,K,G
+  13,L,K,G
+   1,K
+   2,L,K
+   2,J,G
+   2,R,J
+   1,K
+  15,R,K
+   1,R,J,G
   13,R,D
   13,L,D
    3,D
@@ -156,12 +168,12 @@ AnalogMode,Precise
   15,G
    9,U,G
    4,R
-  31,R,K
-   1,R,J,G
+  31,R,J
+   1,R,K,G
    8,R
-   1,R,J
+   1,R,K
    2,R
-   3,R,K
+   3,R,J
    3,R
   40
 
@@ -1763,7 +1775,7 @@ EndRepeat
 ##
 
 #cycle_space_1
-   0
+   2
 #endcycle_space_1
 
 ## Endurance (cont.)
@@ -1930,6 +1942,7 @@ EndRepeat
 #branch_stun_space_1
 # when playing IL, comment/uncomment next line to choose branch
 #play,stun_space_1b
+
 ## Endurance (cont.)
 #stun_space_1a
    4,R,D,X
@@ -2067,4 +2080,4 @@ EndRepeat
 
 AnalogMode,Ignore
 
-ChapterTime: 4:40.041(16473)
+ChapterTime: 4:39.939(16467)
