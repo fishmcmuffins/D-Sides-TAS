@@ -439,49 +439,56 @@ AnalogMode,Precise
   16,D
    1,L,D
    5,L
-  32,G
-  14,R,K
-  46,R
-  26,R,J
-   4,R
-  15,R,Z
-  23,R
-  20,R,X
-   5,R,K,G
-  12,R
-  11,L
-   6,G
-   1,L,J,G
-   3,L
-  10
+  20,G
+  12,D,G
+   1,R,K
+  19,R
+   9,R,J
+  19,R
+  26,R,K
    1,R
-   1,D
+  16,R,Z
+   1,G
+   1,R,J,G
+   2,J
+   1,L,J
    1
    1,L
-   1
+   1,R,K,G
+   1,R,J,G
    1,R
-   2
-   3,R
-   1,D
-   5,R,D,K
-  10,R
-   5,R,K
-   1,K
-   2,R,K
-   3,L,K
-   6,J,G
+   1
+   9,R
+   1,R,K
+  16,R
    1,R,J
-   8,R
+  16,R
+   3,R,K
+   5,R
+   1,R,K
+  21,R,D
+  10,R
+   9,R
+   1,D
+   1,R
+   3,D
+   7
+   3,R
+   5,R,Z
+   1,R,J
+   1,L,K,G
+  11,R,K
+  13,R
    1,R,K
   14,R
-   1,R,J
-  14,R
-   4,R,K
-  16,R,D
-   9,D
-   2,R,D
-   2,D
+   5,R,D
+   4,L,D
   11,R,D
+   1,D
+   1,R,D
+   1,D
+   1,R,D
+   1,R
    1,R,J
    2,R
    1,R,K,G
@@ -1176,7 +1183,6 @@ EndRepeat
   23,L,U,Z
    1,R
    1,G
-
    1
   47,L,G
   13,U,G
@@ -1775,7 +1781,7 @@ EndRepeat
 ##
 
 #cycle_space_1
-   2
+   0
 #endcycle_space_1
 
 ## Endurance (cont.)
@@ -2080,4 +2086,4 @@ EndRepeat
 
 AnalogMode,Ignore
 
-ChapterTime: 4:39.939(16467)
+ChapterTime: 4:39.174(16422)
