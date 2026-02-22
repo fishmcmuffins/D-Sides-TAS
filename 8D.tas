@@ -910,12 +910,13 @@ EndRepeat
    1,J
   19,R,D
   13,D
-#8DMX3
    4,X
   15,R,J
    2,R,K,G
    1,K
-   6,R,K
+   4,R,K
+#8DMX3
+   2,R,K
    9,R
    1,R,K
    9,R
