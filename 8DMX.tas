@@ -141,22 +141,18 @@ endrepeat
 
 #lvl_b-07
    4,R,J
-   1,R,K
-   2,K
+   3,R,K
    1,J
-  33,R,D
-   5,R
-   4,R,J
-   3,R,K,G
+  19,R,D
+  13,D
+   4,X
+  15,R,J
+   2,R,K,G
    1,K
    4,R,K
-   4,R
-   1,R,J,G
-   1,R,K,G
-   6,R
-#8DG3
+#8DMX3
    3
-Read,8D,8DG3,cycle_space_1
+Read,8D,8DMX3,cycle_space_1
 #cycle_space_1
    1
 #endcycle_space_1
@@ -272,4 +268,4 @@ endrepeat
 
 AnalogMode,Ignore
 
-ChapterTime: 4:40.483(16499)
+ChapterTime: 4:40.177(16481)
