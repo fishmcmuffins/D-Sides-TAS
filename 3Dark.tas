@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 9155
+RecordCount: 9441
 
 AnalogMode Precise
 
@@ -1741,111 +1741,101 @@ EndStunPause
    5
   16,R
   20,L
+   1,R,J
    9,R,Z
-  15,R,J
-   7
-   7,R,Z
-   1,R,J
-   6,R
-   1,R,J
-   6,R,D,X
+   4,R,J
+   1,R
+   2,R,J
+   2,R
+  15,R,Z
+   1,G
+   2,R
+   7,R,K
+   9,R,D,X
   40
 
 #lvl_d-06
-   8,R,D,X
-   1,R,J
-   9,R,D,X
-   1,R,K,G
-  11,R
-  10,R,J
-   7,R
-  15,U,X
-  22,R
-   2
-  21,R,U,C
-  12,D
-  25,R,D
-   4,Z
+   6,R,D,X
    1,R,J
    2,R
-   2,R,J
-   5,R
-   9
-  11,L,U,X
-   1,R
-   1,K,G
-   3
-  10,R,C
-   8,L,J
-   1,J
-   5
-  11,J
-  15,U,X
-  29,R
-  29,R,U,C
-  15
-  15,R
-   5,R,J
-   8,R,Z
-   1,R,J
-   7,R
-   1,R,K
-   5,R
-   2,R,K
-  18,R,D
-   2,L,D
-   5,R,D
-   3,R
-   9,R,U,Z
-   1,L
-   6,J,G
-  21,R,J
-   1,K
-  11,U,X
-  35,R,J
-  22,R
-   1,K,G
-   7
-   4,X
-   3,J
+  10,R,D,X
+   1,R,K,G
    4
-   4,R
-  13,L,D,X
-   3,L,K
-  14,L,D,X
-   3,L,J,G
-  15,L
-   1
-  10,L,K,G
-   5,L
-  15,L,D,X
-   4,L
-   1,L,D
-   4,Z
-   1,L,J
-   3,L
-   1,L,J
-   3,L
-   2,L,K
-   6,L
-   2,L,K
-   8,L
-  13,L,D,X
-   1,L,J
-   2,L
-  15,L,D,X
-  10,L,U,Z
+   8,R
+  13,R,J
+  10,R,D,X
+   4,R,K,G
+  17,R
+   7,R,D,J
+   8,R
+  12,R,K
+   2,R,J,G
+  14,R
+   1,R,K,G
+   1,K
+  10,R,K
+  14,R,X
    1,R,J,G
-   9,L,J
-   5,L
-   2,L,J
-  13,L
-  15,L,K
+   4,J
+  10,R,Z
+   8,L,K
+  19,L,D
+  15,R,D
+   8,R
+   2,R,D
+  15,L,U,X
+  13,L,C
+   1,L,J,G
+   6,L
   15,U,X
-  13,U,C
- 135,L,D
+   9,L,C
+   1,L,K,G
+  23,L
+   5,L,Z
+   2,L,J
+   2,L
+  22,D
+  12,R,U,X
+   1,K
+   1,R,K
+   9,R
+   1,K
+   2
+   8,L
+   6,L,J
+   6,L
+  15,L,U,X
+  26,L,D
+  22,L,U,C
+  21,D
+   1,L,D
+   1,D
+   2,L,D
+   2,D
+   5,L,D
+   6,L
+  15,L,X
+  15,R,U,C
+  20,L
+   1,J
+   3,L,J
+   7,J
+   1,L,J
+   1,J
+  15,U,X
+  29,L,D
+   3
+  15,L,U,C
+  29,L,D
+  11,L
+   4,L,D
+   5,L,K
+   9,K
+  16,L,U,X
+  18,U,C
+ 135
 ##
 
-ChapterTime: 3:51.778(13634)
+ChapterTime: 3:51.132(13596)
 
 AnalogMode Ignore
