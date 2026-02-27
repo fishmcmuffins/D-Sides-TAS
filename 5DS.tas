@@ -317,7 +317,7 @@ EndRepeat
 #lvl_void
 Read,5D,lvl_void,cycle_d-02
 #cycle_d-02
-   1
+   2
 #endcycle_d-02
 Read,5D,endcycle_d-02,cycle_d-04
 #cycle_d-04
@@ -329,6 +329,6 @@ Read,5D,endcycle_d-04,cycle_d-07
 #endcycle_d-07
 Read,5D,endcycle_d-07
 
-ChapterTime: 4:08.642(14626)
+ChapterTime: 4:08.489(14617)
 
 AnalogueMode Ignore
