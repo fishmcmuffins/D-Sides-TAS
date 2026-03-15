@@ -1,4 +1,4 @@
-RecordCount: 12609
+RecordCount: 13195
 
 console load monikadsidespack/0/3-Resort
    1
@@ -1211,31 +1211,33 @@ console load monikadsidespack/0/3-Resort
    2,R
    1,R,K,G
    3,R,J,G
-  35,R,K,G
+   3,R,K,G
+   1,K
+  30,R,K
   12,R,K
-   5,R
-   3,R,K
-  20,R
-  21,R,D
+   7,R
+   6,R,K
+  13,R
+  17,R,D
+   6,R
+   1,R,D
   23,R,X
    2,R,J
-  10,R,X
-  25,K
-  56,U,C
-   8,D
-   1
-   1,D
-   8,J
-   4,R,J
-  18,U,X
-  15,R
-   6,R,K
-   2,K
+  14,R,X
+  23,K
+  42,U,C
+  20,D
+   7,L,J
+   5,J
+  16,U,X
+  18,R
+   4,R,K
+   3,K
 ##
 
-#cycle_d-04
-   2
-#endcycle_d-04
+#cycle_d-03
+   0
+#endcycle_d-03
 
 ## Remnants
    5,R,Z
@@ -1286,115 +1288,101 @@ console load monikadsidespack/0/3-Resort
   18,U,X
   14,R,Z
    1,R,K
-  14,R,D,X
-   1,R,J
+   1,R
    8,R,D,X
    1,R,J
+   7,R
+   1,R,K
+   3,R
+   5,R,U,X
   40
 
 #lvl_d-03
-   6,J
-  15
-  10,D
-  11,R,D
-  15,R,X
-  28,D
- 138,G
-   1
-   1,J
-  10,R,K,G
-  67,R
- 104,G
-   4
-   1,R
-   1,G
-  28,R,J,G
-  13,R,D
-   2,R
-  15,U,X
-  13,R
-   1,G
-   1,R,J,G
-   1,J
-  14,R,J
-  27,R,K
-  11,U,Z
-   2,R,J
-   1,J
-  10,R,J
-   1,R,K,G
-   2,R,J,G
-   5,R
-   1,R,K
-   1,R
-   2,R,K
-   1,R
-   2
-   4,R
-  11,R,J
-  15,R,X
-  35,R,D
-   1,R
-   1,R,D
-   2,R
-  10,R,X
-  14,R,J
-  12,K,G
-   1,J,G
-   1,R,J
-   7,J
-   1,R,J
+  10,R,U,X
+  15,R,U,C
+  16,R
+   1,R,N
+  34
+  42,D
+   1,X
+  19
    1,L,J
-   1,R,J
-  13,R,K,G
-   1,J,G
-   1,R,J
-   1,J
-   1
-   1,R
-   1
-  16,U,X
-  27,L,J
-   3,L
-   1,L,K
-   6,L
-   2,L,J
-  15,J
-  15,U,X
-  10
-   1,G
-   1
-   1,J
-   1,L,K,G
-   5,L
-   9,L,J
-   2,L
-   5,G
-   3,J,G
+  17,L,D
+  28,D
    5
+  15,R,Z
+  13,D
+StunPause
+   7,D
+  29,L,D
+   1,L,J
    2,L
+SkipInput 3 1
+   9,R,D,X
+EndStunPause
+   5,R,D,X
+  24,R,K
+   3,K
+  13,U,C
+   3,R,J
+   1,J
+   9,R,J
+   1,R,K,G
+   3,R,J,G
+  15,R
+   1,R,K
+   8,K
+  11,L
    1,K
-  10,L,D,X
-  19,R,J
+   6
+   5,L
+  18,L,J
+  17,R,X
+  11,R,J
+  24,R,U,C
+  10,R,X
+  12,R,J
+   5,J
+  23,U,X
+   2,R
+   1,G
+   1,R,K,G
+   3,L,K
+   1,R,K
+   7,K
+   4,J,G
+   6,R
+   1
+   1,J
+   1
+   2,R
+# stunning above switch gate loses 38f
   14,R,D,X
-#stunning loses
-#0.6 sec
-   4,R,J
-   8,R
-  15,D,X
-  14,L,D
+   3,R,K
+   2,R
+   1
+  15,R,D,C
    1,D
-   4
-   1,D
+   1,J
+  15,R,D,X
+  15,D,C
+  16,L,D
+   3
   12,L,Z
-   6,R,J
+   6,R,K
   15,U,Z
    1,L,J,G
    1,L,K,G
-   2,L
+   9,L
    1
-   4,L
-  13,L,Z
+##
+
+#cycle_d-04
+   0
+#endcycle_d-04
+
+## Remnants (cont.)
+  10,L,Z
   10,R,J
   15,U,Z
    1,L,J,G
@@ -1427,9 +1415,9 @@ console load monikadsidespack/0/3-Resort
    1,K
    5,R,K
   18,R,D,X
-   2,R,J
+   4,R,J
 StunPause
-   7,R,J
+   5,R,J
    2,R
 SkipInput 3 1
    8,R,X
@@ -1492,14 +1480,14 @@ AnalogMode Precise
    2,R
    3
    8,R
-   4,R,J
+  16,R,J
   40
 
 #lvl_d-06
-  36,R,J
+  24,R,J
   13,U,X
  135,L,D
 ##
 
 AnalogMode Ignore
-ChapterTime: 2:46.277(9781)
+ChapterTime: 2:45.240(9720)
