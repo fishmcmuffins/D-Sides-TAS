@@ -10,10 +10,10 @@ console load monikadsidespack/0/10-Farewell 132169 -30311
 
 #Start
 #lvl_o-01outside
-Read,9D_14B,Start,lvl_o-07 (1)
+Read,9D_14B,Start,lvl_o-07 (0)
 
-#lvl_o-07 (1)
-Read,9D_14B,lvl_o-07 (1),lvl_o-10
+#lvl_o-07 (0)
+Read,9D_14B,lvl_o-07 (0),lvl_o-10
 
 #lvl_o-10 (1)
    4,J

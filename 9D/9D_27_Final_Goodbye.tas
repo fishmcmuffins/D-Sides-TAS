@@ -1,6 +1,8 @@
 console load monikadsidespack/0/10-Farewell 303300 -51470.1
    1
 
+Read,../Visuals/9D
+
 #Setup
 Set,Session.Inventory.Dashes,0
 Set,Player.Dashes,0
@@ -17,7 +19,6 @@ Set,Level.TimeActive,447.53558349609375
 Invoke Player.FinishFlingBird
 #lvl_xx-09
 #Start
-Read,../Visuals/9DV,Postload
   38,R
    1,R,D
    1,R,J

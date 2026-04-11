@@ -1,7 +1,9 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 1460
+RecordCount: 1461
+
+Read,../../Visuals/9Dv1
 
 console load monikadsidespack/1/6-FinalGoodbyeOld
    1
@@ -10,7 +12,6 @@ console hearts 8
 
 #==========================
 #Start
-Read,../../Visuals/9DV,Postload
 
 #hazardcycle at start
 #stun in a-07

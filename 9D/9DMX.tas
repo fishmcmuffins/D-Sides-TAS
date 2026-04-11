@@ -5,12 +5,10 @@ RecordCount: 2127
 
 Set,SaveData.Instance.CheatMode,true
 
-Read,../Visuals/9DP_27B,Preload,Postload
+Read,../Visuals/9D
 
 console load monikadsidespack/0/10-Farewell
    1
-
-Read,../Visuals/9DV,Postload
 
 console hearts 1
 

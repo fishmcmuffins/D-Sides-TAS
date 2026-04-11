@@ -3,7 +3,7 @@
 
 RecordCount: 2271
 
-Read,../Visuals/9DP_27B,Preload,Postload
+Read,../Visuals/9D
 
 console load monikadsidespack/0/10-Farewell
    1
@@ -12,7 +12,6 @@ console hearts 1
 
 #==========================
 #Start
-Read,../Visuals/9DV,Postload
 
 #hazardcycle at start
 

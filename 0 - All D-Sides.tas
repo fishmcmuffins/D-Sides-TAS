@@ -1,5 +1,3 @@
-Read,CheckDependencies,0,PlatOptional
-   1
 Read,StartFullGameFile
 
 #Prologue D-Side
@@ -40,6 +38,8 @@ Read,LoadD
 #Summit D-Side
 Read,7D,Start
 
+MidwayFileTime: 29:46.649(105097)
+
 Read,LoadD
 
 #Core D-Side
@@ -59,4 +59,4 @@ Add 197
  185
 Read,LoadJournal,Epilogue
 
-FileTime: 35:04.464(123792)
+FileTime: 35:03.427(123731)

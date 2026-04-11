@@ -1,6 +1,16 @@
-#Configure
+#Dependencies
+Read,CheckDependencies
 
-#Asserts
+#Configure
+Read,Visuals/2Dark
+Read,Visuals/4D
+Read,Visuals/4Dark
+Read,Visuals/5Dark
+Read,Visuals/9D
+
+Read,Visuals/4Dv1
+Read,Visuals/4Darkv1
+Read,Visuals/9Dv1
 
 #Settings
 Set,ScreenShake,Off

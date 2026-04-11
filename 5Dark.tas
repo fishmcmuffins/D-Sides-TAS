@@ -3,11 +3,12 @@
 
 RecordCount: 12405
 
+Read,Visuals/5Dark
+
 console hard monikadsidespack/0/5-Temple
    1
 
 #Start
-Read,Visuals/5Dark,Postload
   57
 
 ## Start

@@ -1,0 +1,4 @@
+# No breaking changes through Platinum Strawberry v1.1.1.0
+RequireDependency, PlatinumStrawberry, 1.0.0.0
+
+Read,CheckDependencies

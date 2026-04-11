@@ -6,6 +6,7 @@ console hearts 1
 #lvl_q-07
   36
 Set,Session.Inventory.NoRefills,true
+Read,../Visuals/9D_17
    5,U,X
   40
 

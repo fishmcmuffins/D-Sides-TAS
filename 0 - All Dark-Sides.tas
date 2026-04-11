@@ -1,7 +1,5 @@
 #Enters vanilla prologue for cheatmode. This TAS uses cheatmode to complete the Dark-Sides without needing to get cassettes in the D-Sides themselves.
 
-Read,CheckDependencies,0,PlatOptional
-   1
 Read,StartCheatFile
 
 #menu to 1Dark -- didn't feel like making a whole 'nother load file

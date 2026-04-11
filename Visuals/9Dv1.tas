@@ -1,0 +1,5 @@
+# moves the foregrounds in depression and trust to the background
+console evallua for ai = 0, Celeste.AreaData.Areas.Count - 1 do ad = Celeste.AreaData.Areas[ai]; if ad.SID == 'monikadsidespack/1/6-FinalGoodbyeOld' then md = ad.Mode[0].MapData; break; end end if md ~= nil then fgi = 0; while fgi < md.Foreground.Children.Count do fg = md.Foreground.Children[fgi]; if fg.Name == 'parallax' then eae = fg.Attributes:GetEnumerator(); hide = false; while eae:MoveNext() do ea = eae.Current; if ea.Key == 'texture' and string.find(ea.Value, 'dark') then hide = true; break; end end if hide then md.Background.Children:Add(fg); md.Foreground.Children:RemoveAt(fgi); else fgi = fgi + 1; end else fgi = fgi + 1; end end end
+
+
+

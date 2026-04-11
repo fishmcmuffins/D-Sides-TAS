@@ -1,12 +1,13 @@
 console load monikadsidespack/0/10-Farewell 66964 -10384
    1
 
+Read,../Visuals/9D
+
 #lvl_f-16
   36
 #hazardcycle_f-99
    2
 #Start
-Read,../Visuals/9DV,Postload
   14,R,X
    4,R,J
    1,R

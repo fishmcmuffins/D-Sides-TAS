@@ -3,6 +3,8 @@
 
 RecordCount: 2002
 
+Read,../Visuals/9D
+
 console load monikadsidespack/0/10-Farewell
    1
 
@@ -16,7 +18,6 @@ EvalLua lslist = Celeste.SaveData.Instance.LevelSets; for i = 0, lslist.Count - 
 
 #==========================
 #Start
-Read,../Visuals/9DV,Postload
 
 #hazardcycle at start
 

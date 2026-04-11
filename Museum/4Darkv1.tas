@@ -1,15 +1,14 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 3752
+RecordCount: 3765
 
-Read,../Visuals/4Darkv1,Preload,Postload
+Read,../Visuals/4Darkv1
 
 console hard monikadsidespack/1/9-RidgeOld
    1
 
 #Start
-Read,../Visuals/4Darkv1,Postload
   69
 
 #Spinner Cycle

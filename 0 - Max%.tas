@@ -1,5 +1,4 @@
-Read,CheckDependencies
-   1
+Read,CheckPlatDependencies
 Read,StartFullGameFile
 
 #Start
