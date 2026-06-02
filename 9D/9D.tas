@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 2014
+RecordCount: 2021
 
 Read,../Visuals/9D
 
@@ -602,10 +602,10 @@ Read,9D_16,Start,hazardcycle_CP-37
 Read,9D_16,endhazardcycle_CP-37,stun_CP-37_1
    2,R
 StunPause
-   3,R,U
+   9,R,U
 EndStunPause
 StunPause
-   8,R,U
+   2,R,U
 SkipInput 3 1
   15,R,Z
    1,R,J
@@ -668,25 +668,25 @@ Read,9D_22,Start,stun_v-00-lobby_1
 StunPause
    3,L,U,Z
 SkipInput 3 1
-  13,U,C
-EndStunPause
-StunPause
-   1,U,C
+  14,U,C
    1,R,J
 SkipInput 3 1
-   9,R,U,J,Z
+   7,R,U,J,Z
+EndStunPause
+StunPause
+   2,R,U,J,Z
 EndStunPause
    6,R,U,J,Z
 Read,9D_22,endstun_v-00-lobby_1,stun_v-00-lobby_2
    1,R
    2,R,J
 StunPause
-   7,R,J
+   8,R,J
+SkipInput 3 1
+   6,U,Z
 EndStunPause
 StunPause
-   1,R,J
-SkipInput 3 1
-  15,U,Z
+   9,U,Z
   10,R
 SkipInput 3 1
   15,L,U,Z
@@ -694,10 +694,7 @@ SkipInput 3 1
    3,L
    1,R
 SkipInput 3 1
-   5,R,Z
-EndStunPause
-StunPause
-   2,R,Z
+   7,R,Z
 EndStunPause
 Read,9D_22,endstun_v-00-lobby_2,keycycle_v-00-upper
   19,G
@@ -844,6 +841,6 @@ Read,9D_26,hazardcycle_xx-10-final-goodbye
 Read,9D_27,Start
 
 #==========================
-FileTime: 43:39.411(154083)
+FileTime: 43:38.901(154053)
 
 AnalogMode,Ignore
