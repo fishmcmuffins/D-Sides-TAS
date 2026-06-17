@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 2007
+RecordCount: 2009
 
 Read,../Visuals/9D
 
@@ -499,7 +499,7 @@ Read,9D_15,lvl_p-02
 #2 stuns in CP-37
 
 Read,9D_16,Start,hazardcycle_CP-37
-   2
+   1
 Read,9D_16,endhazardcycle_CP-37,stun_CP-37_1
    2,R
 StunPause
@@ -520,10 +520,7 @@ Read,9D_16,endstun_CP-37_1,stun_CP-37_2
 StunPause
   11,R,J
    1,R,K,G
-   5,R,D
-EndStunPause
-StunPause
-   2,R,D
+   7,R,D
 EndStunPause
 Read,9D_16,endstun_CP-37_2
 
@@ -575,10 +572,10 @@ SkipInput 3 1
   15,U,Z
   10,R
 SkipInput 3 1
-   4,L,U,Z
+  12,L,U,Z
 EndStunPause
 StunPause
-  11,L,U,Z
+   3,L,U,Z
    6
    3,L
    1,R
@@ -635,4 +632,4 @@ safe
 Read,9D,lvl_w-00-point-of-no-return
 
 #==========================
-FileTime: 49:57.066(176298)
+FileTime: 49:56.301(176253)
