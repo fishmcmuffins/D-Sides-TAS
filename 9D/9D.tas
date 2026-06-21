@@ -50,7 +50,9 @@ Read,9D_03,endhazardcycle_c-01-heartgate
 
 Read,9D_04,Start,hazardcycle_cc-03
    2,G
-Read,9D_04,endhazardcycle_cc-03,hazardcycle_cc-07
+Read,9D_04,endhazardcycle_cc-03,branch_keycycle
+Read,9D_04,route_keycycle_1,endroute_keycycle_1
+Read,9D_04,endbranch_keycycle,hazardcycle_cc-07
    0
 Read,9D_04,endhazardcycle_cc-07
 
