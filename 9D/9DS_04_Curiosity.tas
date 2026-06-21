@@ -20,7 +20,7 @@ console givekey
    3
   40
 
-#lvl_cc-00-lobby (1)
+#lvl_cc-00-lobby (0)
   21,D
   15,R,Z
   28,R,D
@@ -33,11 +33,11 @@ console givekey
    6,R,D,X
   40
 
-#lvl_cc-02 (1)
+#lvl_cc-02 (0)
    1,L,J
   40
 
-#lvl_cc-00-lobby (2)
+#lvl_cc-00-lobby (1)
   14,L,J
   14,L,Z
    3,L,J
@@ -149,7 +149,7 @@ play,route_cc-01
   11,U,X
   40
 
-#lvl_cc-00-lobby (3)
+#lvl_cc-00-lobby (2)
    6,R,J
   12,J
   15,U,X
@@ -200,7 +200,7 @@ play,lvl_cc-06
   13,U,X
   40
 
-#lvl_cc-00-lobby (4)
+#lvl_cc-00-lobby (3)
    4,R
    2,R,J,G
    1,R,K,G
@@ -250,7 +250,7 @@ play,lvl_cc-06
    5,R
   40
 
-#lvl_cc-02 (2)
+#lvl_cc-02 (1)
   15,R
    8,J,G
    1
@@ -371,7 +371,7 @@ play,lvl_cc-06
    4,L
   40
 
-#lvl_cc-00-lobby (5)
+#lvl_cc-00-lobby (4)
    3,L
    5,L,D,J
   15,L,D,X
