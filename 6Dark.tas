@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 4019
+RecordCount: 5457
 
 console hard monikadsidespack/0/6-ReflectionD
    1
@@ -10,7 +10,9 @@ console hard monikadsidespack/0/6-ReflectionD
 AnalogueMode Precise
 
 ## Crafted Continuum
-  32
+  28
+   1,O
+   3
    1,S
    1,D,O
   34
@@ -1340,93 +1342,88 @@ EndStunPause
    2,K
    1,L,K
    1,J
-  10,R,J
+   9,R,J
+   1,J
    1,K
   10,L,K
    5,L
    2,L,K
   10,L
-   5,L,J
-   2,L
-   7,L,Z
-   1,L,K
-   3
-   1,L
+   9,L,J
+  12,L,Z
   40
 
 #lvl_center-01j
-   1
-   1,L
-   1,L,D,K
-  11,L,D,K,X
+   2,L,Z
+   1,L,K
+  11,L,D,X
    1,S
    1,D,O
-  34,K
-   3,L,K
-   2,L,J
-   1,L,K,G
-   1,K
-   3,L,K
+  34
+   4,L,J
+   2,L,K,G
    5,L
-   9,L,K
-  26,L
-  34,L,Z
-   1,G
-   1,J,G
-   3,L,J
-   6,J
-   2
-   1,L,K,G
-   3,R,K
-   5,L,K
+   6,L,K
+   1,L
+  26,L,K
+  28,L,Z
    1,L,J,G
+   4,R,J
+   6,L,J
+   1,L,K,G
    7,L
    6,L,Z
-   1,L,K
-   7,L
-   7,L,J
-  25,L
-   3,L,D
-   1,L
-  15,L,Z
-  11,L
-   1,D
-   6,R
-  10,R,X
-   9,L,J
-  17,L
-   1,L,K,G
-   2,K
-  47,L,K
-  14,L,X
-  11,L,J,G
+   1,L,J
    5,L
-   3,L,J
-   3,J
-   4,L,J
-  18,L,X
-  21,R
-  29,L
-  42,L,U,X
-  15,L,C
-  26,R,D
+   1,L,J
+   1,L
+   3,L,K
+   6,L
+   1,L,K
+  26,L
+  15,L,Z
+   1,L,J,G
+   1,J
+   1
+   1,L,K,G
+   1,R
+   4,L
+   1
+   4,L
+   1,D
+   9,L
    3,D
-  11,R,X
-  51,L
-  23,L,U,X
+   2,L
+   7,D
+  12,R,Z
+   1,L,J
+  12,L,K,G
+  27,L
+   5,L,D
+   8,L
+  37,G
+   5,U,G
+   1
+   1,L,J,G
+   1,L,K,G
+   5,L,U,X
+  35,L,J,G
+  15,L,Z
+  18,L
+  15,R,D,X
+  10,R
+  41,L
+  25,L,U,X
   12,J,G
-   5,K,G
+   6,K,G
    2,R,K
    1,J
-  10,R,J
-   6,K,G
-   2,L,K
-   1,J
-   3,L,J
-   5,J
-   7
+  11,R,J
+  12,K
+   2
+   5,L
    6,L,D,X
-   1,L,K
+   1,L,J
    4,L
   40
 
@@ -2378,5 +2375,5 @@ AnalogueMode Precise
  111,L,J
 ##
 
-ChapterTime: 5:31.602(19506)
+ChapterTime: 5:30.208(19424)
 AnalogueMode Ignore
