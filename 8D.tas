@@ -2031,23 +2031,29 @@ EndStunPause
   15,U,X
    2,R
    6,R,K,G
-   5,R,Z
+   8,R,Z
+StunPause
+   2,R,Z
    1,R,J
+   6,R
+   5
+   2,G
+SkipInput 3 1
+   5,R,Z
+   1,R,J,G
+   1,R,K,G
+   1,R
+   1,R,J,G
+   2,R,K,G
+   4,R
+SkipInput 3 1
+  10,R,D,X
+EndStunPause
+   5,R,D,X
+  53,R
    1,J
-  10,R,J
-  17,R
-   1,R,K
-   2,R
-  24,R,Z
-  15,R,D,C
-   8,R
-Repeat,112
-   1,R
-   1,R,D
-EndRepeat
-   3,R,D
-   1,R
- 178,R,D
+  27,R,J
+  10,R
    1,R,J
   14,R,Z
   19,R,K
@@ -2092,4 +2098,4 @@ EndRepeat
 
 AnalogMode,Ignore
 
-ChapterTime: 4:38.664(16392)
+ChapterTime: 4:36.165(16245)
